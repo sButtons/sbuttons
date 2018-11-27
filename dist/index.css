@@ -1,0 +1,83 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.navbar {
+  display: flex;
+  height: 3em;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  width: 99vw;
+  margin-bottom: 4em;
+}
+
+.logo {
+  font-size: 2rem;
+  /* padding-top: 1em; */
+}
+
+.links {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links li {
+  display: inline;
+  border-radius: 25px;
+}
+
+.navbar-button {
+  -webkit-appearance: none;
+  background-color: #FFF;
+  border: 1px solid transparent;
+  padding: .5em;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.links li.active .navbar-button, .links li:hover .navbar-button {
+  background-color: #1B7291;
+  color: #FFF;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.button-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container {
+  text-align: center;
+  padding: 3em;
+}
+
+.button-container .sbtn {
+  margin-bottom: 2em;
+  font-size: 1.5rem;
+}
+
+.button-caption {
+  color: #333;
+}
+
+.button-caption-sub {
+  color: #656564;
+  font-family: monospace;
+}
+
+hr {
+  width: 30%;
+  border-color: rgba(27, 114, 145, 0.48);
+}
+
+.secondary-hr {
+  width: 10%;
+  border-color: rgba(27, 114, 145, 0.3);
+}
