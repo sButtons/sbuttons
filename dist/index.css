@@ -14,7 +14,6 @@ body {
 
 .logo {
   font-size: 2rem;
-  /* padding-top: 1em; */
 }
 
 .links {
@@ -50,7 +49,9 @@ body {
 
 .button-grid {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .button-container {
