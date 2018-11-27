@@ -1,19 +1,23 @@
 body {
   overflow-x: hidden;
   font-family: 'Oleo Script Swash Caps', cursive;
+  color: #333;
 }
 .navbar {
   display: flex;
   height: 3em;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   background-color: transparent;
-  width: 99vw;
+  width: 96vw;
   margin-bottom: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .logo {
   font-size: 2rem;
+  color: #364c63;
 }
 
 .links {
@@ -81,4 +85,31 @@ hr {
 .secondary-hr {
   width: 10%;
   border-color: rgba(27, 114, 145, 0.3);
+}
+
+.navbar .buttons {
+  vertical-align: sub;
+}
+
+.icon-link {
+  opacity: .5;
+  transition: all .2s;
+}
+
+.icon-link img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icon-link:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.download-link, .download-link:hover,
+.download-link:visited, .download-link:active {
+  color: #364c63;
+  text-decoration: underline;
+  margin-right: 1em;
+  font-size: 1.5rem;
 }

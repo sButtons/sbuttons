@@ -37,6 +37,12 @@
   }
 }
 
+a.sbtn {
+  &, &:hover, &:active {
+    text-decoration: none;
+  }
+}
+
 .btn-rounded {
   border-radius: 25px;
 }
@@ -207,23 +213,6 @@
   }
 }
 
-.next-btn {
-  transition: text-indent .05s linear .1s, transform .1s;
-  &:hover {
-    transform: scale(1.2);
-    text-indent: 2em;
-  }
-}
-
-.previous-btn {
-  transition: text-indent .05s linear .1s, transform .1s;
-  direction: rtl;
-  &:hover {
-    transform: scale(1.2);
-    text-indent: 2em;
-  }
-}
-
 .arrowRules(){
   position: absolute;
   color: @lightText;
@@ -376,5 +365,46 @@
     &:hover {
       .bc(@darkPurple);
     }
+  }
+}
+
+.download-btn {
+  position: relative;
+  padding-right: 2em;
+  overflow: none;
+
+  &:before, &:after {
+    content: '\21E9';
+    position: absolute;
+    right: .5em;
+    font-size: 1.5rem;
+  }
+
+  &:before {
+    top: -100%;
+  }
+
+  &:after {
+    top: 0.45em;
+  }
+
+  &:hover {
+    &:before {
+      animation: slideDownSecond .5s;
+    }
+
+    &:after {
+      animation: slideDownSecond .5s;
+    }
+  }
+
+  @keyframes slideDownFirst {
+    0% {top: 0.45em;}
+    100% {top: 120%;}
+  }
+
+  @keyframes slideDownSecond {
+    0% {top: -100%}
+    100% {top: 0.45em;}
   }
 }
