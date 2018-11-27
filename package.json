@@ -7,10 +7,12 @@
   "license": "ISC",
   "scripts": {
     "compile": "lessc src/sbuttons.less dist/sbuttons.less",
-    "watch": "less-watch-compiler src dist"
+    "watch": "less-watch-compiler src dist",
+    "autoprefixer": "postcss dist/sbuttons.css -u autoprefixer -d dist/prefixed/"
   },
   "devDependencies": {
     "less": "^3.8.1",
     "less-watch-compiler": "^1.13.0"
-  }
+  },
+  "dependencies": {}
 }
