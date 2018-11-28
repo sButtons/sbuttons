@@ -110,6 +110,14 @@ hr {
 .download-link:visited, .download-link:active {
   color: #364c63;
   text-decoration: underline;
+}
+
+.navbar .download-link {
   margin-right: 1em;
   font-size: 1.5rem;
+}
+
+.section-sub-header {
+  color: #9c9696;
+  text-align: center;
 }
