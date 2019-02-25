@@ -1,0 +1,32 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+  a {
+    color: #333;
+    position: relative;
+    text-decoration: none;
+    width: fit-content;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      height: 2px;
+      width: 0;
+      background-color: #364C63;
+      transition: all .2s;
+      content: ' ';
+      bottom: 0;
+    }
+
+    &:hover, &.active {
+      color: #333;
+      text-decoration: none;
+
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+}

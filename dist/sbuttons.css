@@ -1,5 +1,5 @@
 .sbtn {
-  padding: 1em;
+  padding: 10px;
   text-align: center;
   -webkit-appearance: none;
   background-color: transparent;
@@ -178,6 +178,7 @@ a.sbtn:active {
 }
 .next-arrow-btn {
   position: relative;
+  transition: all 0.1s;
 }
 .next-arrow-btn:after {
   content: '\203A';
@@ -188,23 +189,23 @@ a.sbtn:active {
   top: -1px;
   display: flex;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   transform: rotateY(90deg);
 }
 .next-arrow-btn:not(.btn-rounded):after {
-  right: -0.5em;
-  transition: all 0.15s;
+  right: 0.5em;
+  transition: all 0.05s;
 }
 .next-arrow-btn.btn-rounded {
   transition: padding-right 0.1s;
-}
-.next-arrow-btn.btn-rounded:hover {
-  padding-right: 3em;
 }
 .next-arrow-btn.btn-rounded:after {
   right: 11px;
   border-radius: 50%;
   transition: all 0.05s;
+}
+.next-arrow-btn:hover {
+  padding-right: 1.5em;
 }
 .next-arrow-btn:hover:after {
   transform: rotateY(0);
@@ -236,6 +237,7 @@ a.sbtn:active {
 }
 .previous-arrow-btn {
   position: relative;
+  transition: all 0.1s;
 }
 .previous-arrow-btn:before {
   content: '\2039';
@@ -246,23 +248,23 @@ a.sbtn:active {
   top: -1px;
   display: flex;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   transform: rotateY(90deg);
 }
 .previous-arrow-btn:not(.btn-rounded):before {
-  left: -0.5em;
+  left: 0.5em;
   transition: all 0.05s;
 }
 .previous-arrow-btn.btn-rounded {
   transition: padding-left 0.1s;
 }
-.previous-arrow-btn.btn-rounded:hover {
-  padding-left: 3em;
-}
 .previous-arrow-btn.btn-rounded:before {
   left: 11px;
   border-radius: 50%;
   transition: all 0.05s;
+}
+.previous-arrow-btn:hover {
+  padding-left: 1.5em;
 }
 .previous-arrow-btn:hover:before {
   transform: rotateY(0);
@@ -318,7 +320,7 @@ a.sbtn:active {
 }
 .download-btn {
   position: relative;
-  padding-right: 2em;
+  padding-right: 1.5em;
 }
 .download-btn:before,
 .download-btn:after {
@@ -332,7 +334,7 @@ a.sbtn:active {
   top: -100%;
 }
 .download-btn:after {
-  top: 1em;
+  top: 12px;
 }
 .download-btn:hover:before {
   animation: slideDownFirst 0.5s;
@@ -342,7 +344,7 @@ a.sbtn:active {
 }
 @keyframes slideDownFirst {
   0% {
-    top: 1em;
+    top: 12px;
   }
   100% {
     top: 120%;
@@ -353,7 +355,7 @@ a.sbtn:active {
     top: -100%;
   }
   100% {
-    top: 1em;
+    top: 12px;
   }
 }
 .shine-btn {
@@ -466,6 +468,18 @@ a.sbtn:active {
   }
   88.8% {
     transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+.invert-btn:hover {
+  animation: colorTransformation 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes colorTransformation {
+  0% {
+    filter: invert(0);
+  }
+  100% {
+    filter: invert(1);
   }
 }
 .like-btn {

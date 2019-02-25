@@ -7,27 +7,17 @@
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:700" rel="stylesheet">
     <link href="dist/index.css" rel="stylesheet" />
     <link href="dist/sbuttons.css" rel="stylesheet" />
+    <link href="dist/sidebar.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
   <body>
     <header class="navbar">
       <div class="logo">
         <h1>sButtons</h1>
       </div>
-      <!-- <ul class="links">
-        <li>
-          <button class="navbar-button">Basic</button>
-        </li>
-        <li>
-          <button class="navbar-button">Hover</button>
-        </li>
-        <li>
-          <button class="navbar-button">Animated</button>
-        </li>
-      </ul>
-      <div class="offset">
-      </div> -->
       <div class="buttons">
         <a href="https://raw.githubusercontent.com/shahednasser/sbuttons/master/dist/sbuttons.css"
             class="download-link" target="_blank">Download</a>
@@ -36,1624 +26,1740 @@
         </a>
       </div>
     </header>
-    <section id="basic">
-      <h1 class="section-header">
-        Basic Buttons
-      </h1>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn basic-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .blue-btn
-          </small><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 d-md-block d-none">
+          <div class='sidebar'>
+            <a href="#basic">Basic Buttons</a>
+            <a href="#hover">Hover Buttons</a>
+            <a href="#animated">Animated Buttons</a>
+            <a href="#icon">Icon Buttons</a>
+          </div>
         </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .purple-btn
-          </small><br>
+        <div class="col-md-9 col-12">
+          <section id="basic">
+            <h1 class="section-header">
+              Basic Buttons
+            </h1>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn basic-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn basic-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn basic-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .basic-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+          </section>
+          <hr />
+          <section id="hover">
+            <h1 class="section-header">Hover Buttons</h1>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn hover-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn hover-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn hover-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .hover-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+          </section>
+          <hr />
+          <section id="animated">
+            <h1 class="section-header">Animated Buttons</h1>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn fill-color-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn fill-color-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn right-fill purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn right-fill .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn up-fill purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn up-fill .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn fill-color-btn down-fill purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .fill-color-btn down-fill .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn scale-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn scale-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn scale-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .scale-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn blue-btn" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn green-btn" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn yellow-btn" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn orange-btn" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn red-btn" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn purple-btn" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn blue-btn btn-rounded" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn green-btn btn-rounded" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn yellow-btn btn-rounded" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn orange-btn btn-rounded" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn red-btn btn-rounded" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn next-arrow-btn purple-btn btn-rounded" role="Button">
+                  Next
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .next-arrow-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn blue-btn" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn green-btn" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn yellow-btn" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn orange-btn" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn red-btn" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn purple-btn" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn blue-btn btn-rounded" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn green-btn btn-rounded" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn yellow-btn btn-rounded" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn orange-btn btn-rounded" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn red-btn btn-rounded" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn previous-arrow-btn purple-btn btn-rounded" role="Button">
+                  Previous
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .previous-arrow-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn thd-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn thd-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn thd-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .thd-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn shine-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn shine-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shine-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shine-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn pulse-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn pulse-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn pulse-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .pulse-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn shake-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn shake-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn shake-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .shake-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn nudge-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn nudge-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn nudge-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .nudge-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn invert-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn invert-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn invert-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .invert-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+          </section>
+          <hr class="secondary-hr" />
+          <section id="icon">
+            <h1 class="section-header">Icon Buttons</h1>
+            <h4 class="section-sub-header">Icons from <a href="https://fontawesome.com/start" target="_blank" class="download-link">Font Awesome</a></h4>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn download-btn blue-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn green-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn yellow-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn orange-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn red-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn purple-btn" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn download-btn blue-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn green-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn yellow-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn orange-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn red-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn download-btn purple-btn btn-rounded" role="Button">
+                  Button
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .download-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+            <hr class="secondary-hr" />
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn like-btn blue-btn" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .blue-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn green-btn" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .green-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn yellow-btn" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .yellow-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn orange-btn" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .orange-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn red-btn" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .red-btn
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn purple-btn" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .purple-btn
+                </small><br>
+              </div>
+            </div>
+            <div class="button-grid">
+              <div class="button-container">
+                <button class="sbtn like-btn blue-btn btn-rounded" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .blue-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn green-btn btn-rounded" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .green-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn yellow-btn btn-rounded" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .yellow-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn orange-btn btn-rounded" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .orange-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn red-btn btn-rounded" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .red-btn .btn-rounded
+                </small><br>
+              </div>
+              <div class="button-container">
+                <button class="sbtn like-btn purple-btn btn-rounded" role="Button">
+                </button><br>
+                <small class="button-caption-sub">
+                  .sbtn .like-btn .purple-btn .btn-rounded
+                </small><br>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn basic-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn basic-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .basic-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-    </section>
-    <hr />
-    <section id="hover">
-      <h1 class="section-header">Hover Buttons</h1>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn hover-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn hover-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn hover-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .hover-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-    </section>
-    <hr />
-    <section id="animated">
-      <h1 class="section-header">Animated Buttons</h1>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn fill-color-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn fill-color-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn right-fill purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn right-fill .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn up-fill purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn up-fill .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn fill-color-btn down-fill purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .fill-color-btn down-fill .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn scale-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn scale-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn scale-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .scale-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn blue-btn" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn green-btn" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn yellow-btn" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn orange-btn" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn red-btn" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn purple-btn" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn blue-btn btn-rounded" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn green-btn btn-rounded" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn yellow-btn btn-rounded" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn orange-btn btn-rounded" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn red-btn btn-rounded" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn next-arrow-btn purple-btn btn-rounded" role="Button">
-            Next
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .next-arrow-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn blue-btn" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn green-btn" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn yellow-btn" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn orange-btn" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn red-btn" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn purple-btn" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn blue-btn btn-rounded" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn green-btn btn-rounded" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn yellow-btn btn-rounded" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn orange-btn btn-rounded" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn red-btn btn-rounded" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn previous-arrow-btn purple-btn btn-rounded" role="Button">
-            Previous
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .previous-arrow-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn thd-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn thd-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn thd-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .thd-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn shine-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn shine-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shine-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shine-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn pulse-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn pulse-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn pulse-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .pulse-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn shake-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn shake-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn shake-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .shake-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn nudge-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn nudge-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn nudge-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .nudge-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-    </section>
-    <hr class="secondary-hr" />
-    <section id="icon">
-      <h1 class="section-header">Icon Buttons</h1>
-      <h4 class="section-sub-header">Icons from <a href="https://fontawesome.com/start" target="_blank" class="download-link">Font Awesome</a></h4>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn download-btn blue-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn green-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn yellow-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn orange-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn red-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn purple-btn" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn download-btn blue-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn green-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn yellow-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn orange-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn red-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn download-btn purple-btn btn-rounded" role="Button">
-            Button
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .download-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-      <hr class="secondary-hr" />
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn like-btn blue-btn" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .blue-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn green-btn" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .green-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn yellow-btn" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .yellow-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn orange-btn" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .orange-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn red-btn" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .red-btn
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn purple-btn" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .purple-btn
-          </small><br>
-        </div>
-      </div>
-      <div class="button-grid">
-        <div class="button-container">
-          <button class="sbtn like-btn blue-btn btn-rounded" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .blue-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn green-btn btn-rounded" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .green-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn yellow-btn btn-rounded" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .yellow-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn orange-btn btn-rounded" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .orange-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn red-btn btn-rounded" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .red-btn .btn-rounded
-          </small><br>
-        </div>
-        <div class="button-container">
-          <button class="sbtn like-btn purple-btn btn-rounded" role="Button">
-          </button><br>
-          <small class="button-caption-sub">
-            .sbtn .like-btn .purple-btn .btn-rounded
-          </small><br>
-        </div>
-      </div>
-    </section>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>

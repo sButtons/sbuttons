@@ -1,6 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
-  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Oleo Script Swash Caps', cursive !important;
   color: #333;
 }
 .navbar {
@@ -60,11 +63,11 @@ body {
 
 .button-container {
   text-align: center;
-  padding: 3em;
+  padding: 1em;
 }
 
 .button-container .sbtn {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   font-size: 1.5rem;
 }
 
