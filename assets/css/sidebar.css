@@ -4,7 +4,6 @@
   position: fixed;
 }
 .sidebar a {
-  color: #333;
   position: relative;
   text-decoration: none;
   width: fit-content;
@@ -27,4 +26,17 @@
 .sidebar a:hover:before,
 .sidebar a.active:before {
   width: 100%;
+}
+.sidebar .submenu-links {
+  margin-left: 10px;
+}
+.sidebar .submenu-links:not(.show) {
+  display: none;
+}
+.sidebar a:not(.submenu-link) {
+  color: #333;
+}
+.sidebar .submenu-link {
+  color: #636363;
+  display: block;
 }
