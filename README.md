@@ -27,8 +27,8 @@ Or instead of downloading the file, you can use the [CDN](https://cdn.jsdelivr.n
 
 # Contribution
 
-Please see the (contributing guidelines)[./CONTRIBUTING.md] for details.
+Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
 
 # LICENSE
 
-(MIT)[./LICENSE]
+[MIT](./LICENSE)
