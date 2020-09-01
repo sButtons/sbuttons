@@ -1,2 +1,2 @@
 # sbuttons
-Simple and creative buttons
+Simple buttons
