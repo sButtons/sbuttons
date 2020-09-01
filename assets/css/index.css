@@ -21,6 +21,7 @@ body {
 .logo {
   font-size: 2rem;
   color: #364c63;
+  cursor: default;
 }
 
 .links {
