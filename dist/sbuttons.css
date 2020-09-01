@@ -324,10 +324,16 @@ a.sbtn:active {
 }
 .download-btn:before,
 .download-btn:after {
-  content: '\21E9';
+  content: '\f063';
+  font-family: 'Font Awesome 5 Free';
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
   position: absolute;
   right: 0.5em;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 .download-btn:before {
@@ -482,15 +488,25 @@ a.sbtn:active {
     filter: invert(1);
   }
 }
-.like-btn {
-  padding: 0.25em;
-  display: inline-flex;
-}
 .like-btn:before {
-  content: '\2661';
+  content: '\f004';
+  font-family: 'Font Awesome 5 Free';
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 .like-btn:active {
   animation: heartBeat 0.2s;
+}
+.like-btn:not(.btn-rounded) {
+  padding: 0.25em 0.25em 0 0.25em;
+}
+.like-btn.btn-rounded {
+  width: 1.6em;
+  height: 1.6em;
+  padding: 0;
 }
 @keyframes heartBeat {
   0% {
