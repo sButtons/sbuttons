@@ -6,12 +6,15 @@
   "author": "Shahed Nasser",
   "license": "ISC",
   "scripts": {
-    "compile": "lessc src/sbuttons.less dist/sbuttons.less",
-    "watch": "less-watch-compiler src dist"
+    "compile": "lessc src/sbuttons.less dist/sbuttons.css && cleancss -o dist/sbuttons.min.css dist/sbuttons.css",
+    "watch": "concurrently \"less-watch-compiler src dist\" \"onchange -v dist/sbuttons.css -- cleancss -o dist/sbuttons.min.css dist/sbuttons.css --watch \" "
   },
   "devDependencies": {
+    "clean-css-cli": "^4.3.0",
+    "concurrently": "^5.3.0",
     "less": "^3.8.1",
-    "less-watch-compiler": "^1.13.0"
+    "less-watch-compiler": "^1.13.0",
+    "onchange": "^7.0.2"
   },
   "dependencies": {}
 }
