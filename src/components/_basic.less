@@ -1,0 +1,60 @@
+.bc(@color) {
+    background-color: @color;
+}
+
+.sbtn {
+    padding: @buttonPadding;
+    text-align: center;
+    -webkit-appearance: none;
+    .bc(transparent);
+    border: 1px solid;
+    cursor: pointer;
+    border-color: transparent;
+    color: @lightText;
+    font-family: inherit;
+    overflow: hidden;
+
+    &:hover,
+    &:active,
+    &:focus {
+        outline: none;
+    }
+}
+
+a.sbtn {
+
+    &,
+    &:hover,
+    &:active {
+        text-decoration: none;
+    }
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+
+.blue-btn {
+    .bc(@blue);
+}
+
+.red-btn {
+    .bc(@red);
+}
+
+.green-btn {
+    .bc(@green);
+}
+
+.yellow-btn {
+    .bc(@yellow);
+    color: @darkText  !important;
+}
+
+.orange-btn {
+    .bc(@orange);
+}
+
+.purple-btn {
+    .bc(@purple);
+}

@@ -1,0 +1,15 @@
+.shake-btn {
+    &:hover {
+      animation: shake .75s ;
+    }
+  
+    @keyframes shake {
+      0% {transform: rotate(0deg);}
+      16.6% {transform: rotate(-25deg);}
+      33.2% {transform: rotate(25deg);}
+      49.4% {transform: rotate(-25deg);}
+      66% {transform: rotate(25deg);}
+      82.6% {transform: rotate(-25deg);}
+      100% {transform: rotate(0deg);}
+    }
+}
