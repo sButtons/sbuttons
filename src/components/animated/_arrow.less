@@ -1,107 +1,107 @@
-.arrowRules(){
-    position: absolute;
-    color: @lightText;
-    height: 100%;
-    top: -1px;
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    transform: rotateY(90deg);
+.arrowRules() {
+  position: absolute;
+  color: @lightText;
+  height: 100%;
+  top: -1px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  transform: rotateY(90deg);
+}
+
+.arrowColorRules(@position) {
+  .after(@color) {
+    .bc(@color);
+    border: 1px solid @color;
   }
-  
-  .arrowColorRules(@position){
-    .after(@color){
-      .bc(@color);
-      border: 1px solid @color;
-    }
-    &.blue-btn:@{position} {
-      .after(@blue);
-    }
-    &.green-btn:@{position} {
-      .after(@green);
-    }
-    &.yellow-btn:@{position} {
-      .after(@yellow);
-      color: @darkText !important;
-    }
-    &.orange-btn:@{position} {
-      .after(@orange);
-    }
-    &.red-btn:@{position} {
-      .after(@red);
-    }
-    &.purple-btn:@{position} {
-      .after(@purple);
-    }
+  &.blue-btn:@{position} {
+    .after(@blue);
   }
-  
-  .next-arrow-btn {
-    position: relative;
-    transition: all .1s;
-  
+  &.green-btn:@{position} {
+    .after(@green);
+  }
+  &.yellow-btn:@{position} {
+    .after(@yellow);
+    color: @darkText !important;
+  }
+  &.orange-btn:@{position} {
+    .after(@orange);
+  }
+  &.red-btn:@{position} {
+    .after(@red);
+  }
+  &.purple-btn:@{position} {
+    .after(@purple);
+  }
+}
+
+.next-arrow-btn {
+  position: relative;
+  transition: all 0.1s;
+
+  &:after {
+    content: "\203A";
+    padding-left: 0.5em;
+    .arrowRules();
+  }
+
+  &:not(.btn-rounded) {
     &:after {
-      content: '\203A';
-      padding-left: .5em;
-      .arrowRules()
+      right: 0.5em;
+      transition: all 0.05s;
     }
-  
-    &:not(.btn-rounded) {
-      &:after {
-        right: .5em;
-        transition: all .05s;
-      }
-    }
-  
-    &.btn-rounded {
-      transition: padding-right .1s;
-      &:after {
-        right: 11px;
-        border-radius: 50%;
-        transition: all .05s;
-      }
-    }
-  
-    &:hover{
-      padding-right: 1.5em;
-      &:after {
-        transform: rotateY(0);
-      }
-    }
-  
-    .arrowColorRules(after);
   }
-  
-  .previous-arrow-btn {
-    position: relative;
-    transition: all .1s;
+
+  &.btn-rounded {
+    transition: padding-right 0.1s;
+    &:after {
+      right: 11px;
+      border-radius: 50%;
+      transition: all 0.05s;
+    }
+  }
+
+  &:hover {
+    padding-right: 1.5em;
+    &:after {
+      transform: rotateY(0);
+    }
+  }
+
+  .arrowColorRules(after);
+}
+
+.previous-arrow-btn {
+  position: relative;
+  transition: all 0.1s;
+  &:before {
+    content: "\2039";
+    padding-right: 0.5em;
+    .arrowRules();
+  }
+
+  &:not(.btn-rounded) {
     &:before {
-      content: '\2039';
-      padding-right: .5em;
-      .arrowRules()
+      left: 0.5em;
+      transition: all 0.05s;
     }
-  
-    &:not(.btn-rounded) {
-      &:before {
-        left: .5em;
-        transition: all .05s;
-      }
+  }
+
+  &.btn-rounded {
+    transition: padding-left 0.1s;
+    &:before {
+      left: 11px;
+      border-radius: 50%;
+      transition: all 0.05s;
     }
-  
-    &.btn-rounded {
-      transition: padding-left .1s;
-      &:before {
-        left: 11px;
-        border-radius: 50%;
-        transition: all .05s;
-      }
+  }
+
+  &:hover {
+    padding-left: 1.5em;
+    &:before {
+      transform: rotateY(0);
     }
-  
-    &:hover{
-      padding-left: 1.5em;
-      &:before {
-        transform: rotateY(0);
-      }
-    }
-  
-    .arrowColorRules(before);
+  }
+
+  .arrowColorRules(before);
 }

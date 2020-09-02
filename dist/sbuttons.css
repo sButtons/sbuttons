@@ -6,7 +6,7 @@
   border: 1px solid;
   cursor: pointer;
   border-color: transparent;
-  color: #FFF;
+  color: #fff;
   font-family: inherit;
   overflow: hidden;
 }
@@ -24,23 +24,23 @@ a.sbtn:active {
   border-radius: 25px;
 }
 .blue-btn {
-  background-color: #50BFE6;
+  background-color: #50bfe6;
 }
 .red-btn {
-  background-color: #ED0A3F;
+  background-color: #ed0a3f;
 }
 .green-btn {
-  background-color: #3AA655;
+  background-color: #3aa655;
 }
 .yellow-btn {
-  background-color: #FBE870;
+  background-color: #fbe870;
   color: #333 !important;
 }
 .orange-btn {
-  background-color: #FF8833;
+  background-color: #ff8833;
 }
 .purple-btn {
-  background-color: #652DC1;
+  background-color: #652dc1;
 }
 .hover-btn {
   transition: all 0.2s;
@@ -80,10 +80,10 @@ a.sbtn:active {
   transition: all 0.1s;
 }
 .next-arrow-btn:after {
-  content: '\203A';
+  content: "\203A";
   padding-left: 0.5em;
   position: absolute;
-  color: #FFF;
+  color: #fff;
   height: 100%;
   top: -1px;
   display: flex;
@@ -110,39 +110,39 @@ a.sbtn:active {
   transform: rotateY(0);
 }
 .next-arrow-btn.blue-btn:after {
-  background-color: #50BFE6;
-  border: 1px solid #50BFE6;
+  background-color: #50bfe6;
+  border: 1px solid #50bfe6;
 }
 .next-arrow-btn.green-btn:after {
-  background-color: #3AA655;
-  border: 1px solid #3AA655;
+  background-color: #3aa655;
+  border: 1px solid #3aa655;
 }
 .next-arrow-btn.yellow-btn:after {
-  background-color: #FBE870;
-  border: 1px solid #FBE870;
+  background-color: #fbe870;
+  border: 1px solid #fbe870;
   color: #333 !important;
 }
 .next-arrow-btn.orange-btn:after {
-  background-color: #FF8833;
-  border: 1px solid #FF8833;
+  background-color: #ff8833;
+  border: 1px solid #ff8833;
 }
 .next-arrow-btn.red-btn:after {
-  background-color: #ED0A3F;
-  border: 1px solid #ED0A3F;
+  background-color: #ed0a3f;
+  border: 1px solid #ed0a3f;
 }
 .next-arrow-btn.purple-btn:after {
-  background-color: #652DC1;
-  border: 1px solid #652DC1;
+  background-color: #652dc1;
+  border: 1px solid #652dc1;
 }
 .previous-arrow-btn {
   position: relative;
   transition: all 0.1s;
 }
 .previous-arrow-btn:before {
-  content: '\2039';
+  content: "\2039";
   padding-right: 0.5em;
   position: absolute;
-  color: #FFF;
+  color: #fff;
   height: 100%;
   top: -1px;
   display: flex;
@@ -169,29 +169,29 @@ a.sbtn:active {
   transform: rotateY(0);
 }
 .previous-arrow-btn.blue-btn:before {
-  background-color: #50BFE6;
-  border: 1px solid #50BFE6;
+  background-color: #50bfe6;
+  border: 1px solid #50bfe6;
 }
 .previous-arrow-btn.green-btn:before {
-  background-color: #3AA655;
-  border: 1px solid #3AA655;
+  background-color: #3aa655;
+  border: 1px solid #3aa655;
 }
 .previous-arrow-btn.yellow-btn:before {
-  background-color: #FBE870;
-  border: 1px solid #FBE870;
+  background-color: #fbe870;
+  border: 1px solid #fbe870;
   color: #333 !important;
 }
 .previous-arrow-btn.orange-btn:before {
-  background-color: #FF8833;
-  border: 1px solid #FF8833;
+  background-color: #ff8833;
+  border: 1px solid #ff8833;
 }
 .previous-arrow-btn.red-btn:before {
-  background-color: #ED0A3F;
-  border: 1px solid #ED0A3F;
+  background-color: #ed0a3f;
+  border: 1px solid #ed0a3f;
 }
 .previous-arrow-btn.purple-btn:before {
-  background-color: #652DC1;
-  border: 1px solid #652DC1;
+  background-color: #652dc1;
+  border: 1px solid #652dc1;
 }
 .click-btn {
   box-shadow: 0px 5px 0px #ccc;
@@ -222,7 +222,7 @@ a.sbtn:active {
   position: relative;
 }
 .fill-color-btn:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   transition: all 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
   z-index: -1;
@@ -265,52 +265,52 @@ a.sbtn:active {
   width: 100%;
 }
 .fill-color-btn:hover {
-  color: #FFF !important;
+  color: #fff !important;
 }
 .fill-color-btn.blue-btn {
-  border-color: #50BFE6 !important;
-  color: #50BFE6;
+  border-color: #50bfe6 !important;
+  color: #50bfe6;
 }
 .fill-color-btn.blue-btn:before {
-  background-color: #50BFE6;
+  background-color: #50bfe6;
 }
 .fill-color-btn.green-btn {
-  border-color: #3AA655 !important;
-  color: #3AA655;
+  border-color: #3aa655 !important;
+  color: #3aa655;
 }
 .fill-color-btn.green-btn:before {
-  background-color: #3AA655;
+  background-color: #3aa655;
 }
 .fill-color-btn.yellow-btn {
-  border-color: #FBE870 !important;
-  color: #FBE870;
+  border-color: #fbe870 !important;
+  color: #fbe870;
 }
 .fill-color-btn.yellow-btn:before {
-  background-color: #FBE870;
+  background-color: #fbe870;
 }
 .fill-color-btn.yellow-btn:hover {
   color: #333 !important;
 }
 .fill-color-btn.orange-btn {
-  border-color: #FF8833 !important;
-  color: #FF8833;
+  border-color: #ff8833 !important;
+  color: #ff8833;
 }
 .fill-color-btn.orange-btn:before {
-  background-color: #FF8833;
+  background-color: #ff8833;
 }
 .fill-color-btn.red-btn {
-  border-color: #ED0A3F !important;
-  color: #ED0A3F;
+  border-color: #ed0a3f !important;
+  color: #ed0a3f;
 }
 .fill-color-btn.red-btn:before {
-  background-color: #ED0A3F;
+  background-color: #ed0a3f;
 }
 .fill-color-btn.purple-btn {
-  border-color: #652DC1 !important;
-  color: #652DC1;
+  border-color: #652dc1 !important;
+  color: #652dc1;
 }
 .fill-color-btn.purple-btn:before {
-  background-color: #652DC1;
+  background-color: #652dc1;
 }
 .invert-btn:hover {
   animation: colorTransformation 0.5s;
@@ -392,12 +392,12 @@ a.sbtn:active {
   box-shadow: 1px 2px 8px #ccc;
 }
 .shine-btn:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   top: -100%;
   width: 100%;
   height: 10px;
-  background-color: #FFF;
+  background-color: #fff;
   left: 0;
   filter: blur(6px);
   transition: top 0.35s;
@@ -448,8 +448,8 @@ a.sbtn:active {
 }
 .download-btn:before,
 .download-btn:after {
-  content: '\f063';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f063";
+  font-family: "Font Awesome 5 Free";
   display: inline-block;
   font-style: normal;
   font-variant: normal;
@@ -489,8 +489,8 @@ a.sbtn:active {
   }
 }
 .like-btn:before {
-  content: '\f004';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f004";
+  font-family: "Font Awesome 5 Free";
   display: inline-block;
   font-style: normal;
   font-variant: normal;
