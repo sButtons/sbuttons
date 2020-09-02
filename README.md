@@ -1,4 +1,8 @@
 # sButtons
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Small Size!](https://badge-size.herokuapp.com/shahednasser/sbuttons/master/dist/sbuttons.min.css)](https://github.com/shahednasser/sbuttons/blob/master/dist/sbuttons.min.css)
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+  
 Simple buttons you can use easily for your next project.
 
 # Usage
