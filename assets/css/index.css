@@ -125,3 +125,37 @@ hr {
   color: #9c9696;
   text-align: center;
 }
+
+/*howToUse styling*/
+
+a.home{
+  color: #364c63;
+}
+
+a.home:hover{
+  color: #364c63;
+  text-decoration: none;
+}
+
+a.home:visited{
+  color:#364c63;
+}
+
+.standout-text{
+  color:#652dc1;
+  text-align:center;
+  padding: none;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0rem 11rem;
+  word-wrap: break-word;
+}
+
+.text{
+  font-size: 1.3rem;
+  color:black;
+  text-align: center;
+  padding: none;
+  margin: 0rem 11rem;
+  word-wrap: break-word;
+}
