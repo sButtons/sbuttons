@@ -125,3 +125,12 @@ hr {
   color: #9c9696;
   text-align: center;
 }
+
+.tagline {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+.tagline-heart {
+  color:red;
+}
