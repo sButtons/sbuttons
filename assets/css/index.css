@@ -116,16 +116,23 @@ hr {
   text-decoration: underline;
 }
 
-.navbar .download-link {
-  margin-right: 1em;
+.navbar {
   font-size: 1.5rem;
 }
 
-.download-link-xs {
-  font-size: 1.15rem;
+.navbar .download-link {
+  margin-right: 1em;
 }
 
 .section-sub-header {
   color: #9c9696;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .download-link{font-size: 1.15rem;}
+}
+
+@media (min-width: 768px) {
+  .download-link{font-size: 1.5rem;}
 }
