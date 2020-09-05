@@ -155,3 +155,20 @@ hr {
 .social-btn {
   font-family: Syne, sans-serif;
 }
+
+footer {
+  font-family: Syne, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e6e6e6;
+}
+
+.tagline {
+  font-size: 1.3rem;
+}
+
+.tagline-heart {
+  color: #f74545;
+}
