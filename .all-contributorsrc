@@ -26,6 +26,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "alannaemmrie",
+      "name": "Alanna Hill",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/70539882?v=4",
+      "profile": "https://github.com/alannaemmrie",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
