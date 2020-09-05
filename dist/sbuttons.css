@@ -527,7 +527,7 @@ a.sbtn:active {
   font-size: 1rem !important;
 }
 .social-btn:after {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   position: absolute;
   right: 10px;
   top: 26%;
@@ -541,17 +541,17 @@ a.sbtn:active {
   color: #353535;
 }
 .social-btn.google:after {
-  color: #EA4335;
+  color: #ea4335;
   position: absolute;
   right: 10px;
   top: 26%;
-  content: '\f1a0';
+  content: "\f1a0";
 }
 .social-btn.facebook {
-  background-color: #3360FF;
+  background-color: #3360ff;
   color: #fff;
 }
 .social-btn.facebook:after {
   color: #fff;
-  content: '\f39e';
+  content: "\f39e";
 }
