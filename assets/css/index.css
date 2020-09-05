@@ -134,7 +134,7 @@ hr {
   text-align:center;
   font-size: 1.3rem;
   word-wrap: break-word;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Syne', sans-serif;
 }
 
 .text{
@@ -142,7 +142,7 @@ hr {
   color:black;
   text-align: center;
   word-wrap: break-word;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Syne', sans-serif;
 } 
 @media (max-width: 767px) {
   .download-link{font-size: 1.15rem;}
