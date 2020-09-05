@@ -125,3 +125,19 @@ hr {
   color: #9c9696;
   text-align: center;
 }
+
+.standout-text{
+  color:#3aa655;
+  text-align:center;
+  font-size: 1.3rem;
+  word-wrap: break-word;
+  font-family: 'Karla', sans-serif;
+}
+
+.text{
+  font-size: 1.3rem;
+  color:black;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: 'Karla', sans-serif;
+} 
