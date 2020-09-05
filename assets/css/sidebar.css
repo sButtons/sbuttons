@@ -1,7 +1,10 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+}
+.sidebar.scrolling {
   position: fixed;
+  top: 90px;
 }
 .sidebar a {
   position: relative;

@@ -41,9 +41,23 @@ $(document).ready(function(){
     });
   }
 
+  function checkNavbar() {
+    if (!$(".content").isOnScreen()) {
+      $(".navbar").addClass('scrolling');
+      $(".icon-link img").attr('src', 'assets/github-blue.svg');
+      $(".sidebar").addClass('scrolling');
+    } else {
+      $(".navbar").removeClass('scrolling');
+      $(".icon-link img").attr('src', 'assets/github.svg');
+      $(".sidebar").removeClass('scrolling');
+    }
+  }
+
   checkActiveCategory();
+  checkNavbar();
 
   $(window).on('scroll', function(){
+    checkNavbar();
     checkActiveCategory();
   });
 });

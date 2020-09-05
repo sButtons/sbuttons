@@ -6,22 +6,65 @@ body {
   font-family: 'Oleo Script Swash Caps', cursive !important;
   color: #333;
 }
+
+header {
+  background-color: #3a91ff;
+  color: #fff;
+  height: 60vh;
+  display: flex !important;
+  flex-direction: column;
+}
+
 .navbar {
   display: flex;
   height: 3em;
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
-  width: 96vw;
+  width: 100%;
   margin-bottom: 2em;
-  margin-left: 1em;
-  margin-right: 1em;
+}
+
+.navbar .logo h1 {
+  margin-bottom: 0;
+}
+
+.navbar:not(.scrolling) .logo {
+  display: none;
+}
+
+.navbar:not(.scrolling) {
+  justify-content: flex-end;
+}
+
+.navbar.scrolling {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0px 2px 3px #e9e9e9;
 }
 
 .logo {
   font-size: 2rem;
-  color: #364c63;
+  color: #3A91FF;
   cursor: default;
+}
+
+header .content {
+  text-align: center;
+  flex: 1;
+}
+
+header .content .logo h1 {
+  color: #fff !important;
+  font-size: 4rem;
+}
+
+header .content .subtitle {
+  font-size: 1.5rem;
+  font-family: Syne, sans-serif;
 }
 
 .links {
@@ -110,10 +153,29 @@ hr {
   text-decoration: none;
 }
 
+.navbar .download-link {
+  opacity: .5;
+  font-family: Syne, sans-serif;
+  transition: all .2s;
+}
+
+.navbar .download-link:hover {
+  opacity: 1;
+}
+
 .download-link, .download-link:hover,
 .download-link:visited, .download-link:active {
-  color: #364c63;
   text-decoration: underline;
+}
+
+.navbar.scrolling .download-link, .navbar.scrolling .download-link:hover,
+.navbar.scrolling .download-link:visited, .navbar.scrolling .download-link:active {
+  color: #81b4ea;
+}
+
+.navbar:not(.scrolling) .download-link, .navbar:not(.scrolling) .download-link:hover,
+.navbar:not(.scrolling) .download-link:visited, .navbar:not(.scrolling) .download-link:active {
+  color: #fff;
 }
 
 .navbar {
@@ -127,6 +189,11 @@ hr {
 .section-sub-header {
   color: #9c9696;
   text-align: center;
+  font-size: 1.1rem;
+}
+
+.section-sub-header .download-link {
+  color: #81b4ea;
 }
 
 .standout-text{
@@ -145,11 +212,15 @@ hr {
   font-family: 'Syne', sans-serif;
 } 
 @media (max-width: 767px) {
-  .download-link{font-size: 1.15rem;}
+  .navbar .download-link {
+    font-size: 1.15rem;
+  }
 }
 
 @media (min-width: 768px) {
-  .download-link{font-size: 1.5rem;}
+  .navbar .download-link {
+    font-size: 1.5rem;
+  }
 }
 
 .social-btn {
