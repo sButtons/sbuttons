@@ -1,0 +1,33 @@
+{
+  "files": [
+    "CONTRIBUTERS.md",
+    "README.md"
+  ],
+  "projectName": "sbuttons",
+  "projectOwner": "shahednasser",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "FrancescaDev",
+      "name": "Francesca",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26828959?v=4",
+      "profile": "https://github.com/FrancescaDev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "bjthompson805",
+      "name": "Brandon Thompson",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40772561?v=4",
+      "profile": "https://github.com/bjthompson805",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "contributorsSortAlphabetically": false
+}

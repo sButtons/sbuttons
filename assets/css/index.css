@@ -116,9 +116,12 @@ hr {
   text-decoration: underline;
 }
 
+.navbar {
+  font-size: 1.5rem;
+}
+
 .navbar .download-link {
   margin-right: 1em;
-  font-size: 1.5rem;
 }
 
 .section-sub-header {
@@ -141,3 +144,10 @@ hr {
   word-wrap: break-word;
   font-family: 'Karla', sans-serif;
 } 
+@media (max-width: 767px) {
+  .download-link{font-size: 1.15rem;}
+}
+
+@media (min-width: 768px) {
+  .download-link{font-size: 1.5rem;}
+}
