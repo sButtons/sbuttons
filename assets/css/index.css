@@ -151,3 +151,7 @@ hr {
 @media (min-width: 768px) {
   .download-link{font-size: 1.5rem;}
 }
+
+.social-btn {
+  font-family: Syne, sans-serif;
+}

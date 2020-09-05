@@ -519,3 +519,39 @@ a.sbtn:active {
     transform: scale(1);
   }
 }
+.social-btn {
+  box-shadow: 0px 1px 4px #c9c9c9;
+  transition: all 0.2s;
+  position: relative;
+  padding-right: 35px;
+  font-size: 1rem !important;
+}
+.social-btn:after {
+  font-family: 'Font Awesome 5 Brands';
+  position: absolute;
+  right: 10px;
+  top: 26%;
+}
+.social-btn:hover {
+  box-shadow: 0px 1px 7px #c9c9c9;
+  transform: translateY(-3px);
+}
+.social-btn.google {
+  background-color: #fff;
+  color: #353535;
+}
+.social-btn.google:after {
+  color: #EA4335;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: '\f1a0';
+}
+.social-btn.facebook {
+  background-color: #3360FF;
+  color: #fff;
+}
+.social-btn.facebook:after {
+  color: #fff;
+  content: '\f39e';
+}
