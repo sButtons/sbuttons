@@ -62,8 +62,8 @@ $(document).ready(function(){
   });
 
   
-  $(window).load(function () {
-    if ($(this).scrollTop() > 100) {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100||$(this).scrollTop()==0) {
       $('.scroll-top').fadeIn();
     } else {
       $('.scroll-top').fadeOut();

@@ -220,9 +220,7 @@ hr {
   .navbar .download-link {
     font-size: 1.15rem;
   }
-  .scroll_to_top_btn{
-    font-size: 35px;
-  }
+  
   
 }
 
@@ -230,7 +228,6 @@ hr {
   .navbar .download-link {
     font-size: 1.5rem;
   }
-  
 }
 
 .social-btn {
@@ -241,17 +238,23 @@ hr {
   position: fixed;
   bottom: 25px;
   left: 20px;
-  display: none;
+  display: block;
   font-size: 40px;
   background: none;
-  margin-left: 90vw;
+  margin-left: 90%;
   cursor: pointer;
+
 }
 .scroll-top i {
   font-size: 45px;
   display: block;
   color: #3A91FF;
   background: none;
+}
+@media only screen and (max-width: 600px) {
+  .scroll-top{
+    margin-left: 75%;
+  }
 }
 footer {
   font-family: Syne, sans-serif;
