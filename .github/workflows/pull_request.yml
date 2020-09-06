@@ -12,10 +12,6 @@ jobs:
     prettier:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
-              with:
-                  ref: ${{ github.head_ref }}
-
             - name: Install
               run: npm install
               env:
