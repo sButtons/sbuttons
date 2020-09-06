@@ -13,7 +13,8 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149400351-4"></script>
     <script>
@@ -89,10 +90,9 @@
               <div class="text">
                 Download the file and link it as a stylesheet in between your < head > tags, as shown below. 
               </div>
-                <br> 
-              <div class="standout-text">
-                < link rel="stylesheet" href="/path/to/sbuttons.min.css" >
-              </div> <br>
+              <br> 
+              <pre><code class="language-markup"> &lt;link rel="stylesheet" href="/path/to/sbuttons.min.css"></code></pre>
+              <br>
               <div class="text">
                 You can copy the sentence above, and replace the "/path/to/sbuttons.min.css" with the proper path 
                 to where you have the file stored.
@@ -101,9 +101,7 @@
                 Additionally, you can also use the buttons by using the CDN. You can directly copy the line below and place
                 it inside your < head > tags, just like you would if you were to download the file.
               </div> <br>
-              <div class="standout-text">< link rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/gh/shahednasser/sbuttons/dist/sbuttons.min.css" >
-              </div> 
+              <pre><code class="language-markup"> &lt;link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/shahednasser/sbuttons/dist/sbuttons.min.css"></code></pre>
             </div>
           </section>
           <hr class="secondary-hr">
@@ -1902,6 +1900,8 @@
       Have any suggestions or want to contribute? 
         <a href="https://github.com/shahednasser/sbuttons" target="_blank" title="View on Github">View on Github</a>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/autoloader/prism-autoloader.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
   </body>
