@@ -94,6 +94,11 @@ header .content .subtitle {
   color: #FFF;
 }
 
+section {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
 .section-header {
   text-align: center;
 }
