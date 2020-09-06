@@ -220,18 +220,35 @@ hr {
   .navbar .download-link {
     font-size: 1.15rem;
   }
+  .scroll_to_top_btn{
+    font-size: 35px;
+  }
+  
 }
 
 @media (min-width: 768px) {
   .navbar .download-link {
     font-size: 1.5rem;
   }
+  
 }
 
 .social-btn {
   font-family: Syne, sans-serif;
 }
 
+.scroll-top {
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  bottom: 25px;
+  left: 20px;
+  display: none;
+}
+.scroll-top i {
+  display: inline-block;
+  color: #3A91FF;
+}
 footer {
   font-family: Syne, sans-serif;
   text-align: center;
