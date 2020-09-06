@@ -60,4 +60,8 @@ $(document).ready(function(){
     checkNavbar();
     checkActiveCategory();
   });
+
+  $(".sidebar-toggler").on('click', function() {
+    $(".sidebar").toggleClass("hide-sidebar");
+  });
 });
