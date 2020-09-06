@@ -272,3 +272,7 @@ footer {
 .tagline-heart {
   color: #f74545;
 }
+
+.code-text {
+  font-family: monospace;
+}
