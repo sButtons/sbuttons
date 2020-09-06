@@ -54,7 +54,7 @@ $(document).ready(function(){
   }
 
   function checkScrollTop() {
-    if ($(this).scrollTop() > 100||$(this).scrollTop()==0) {
+    if ($(window).scrollTop() > 100) {
       $('.scroll-top').fadeIn();
     } else {
       $('.scroll-top').fadeOut();
