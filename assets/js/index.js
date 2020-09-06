@@ -62,7 +62,7 @@ $(document).ready(function(){
   });
 
   
-  $(window).scroll(function () {
+  $(window).load(function () {
     if ($(this).scrollTop() > 100) {
       $('.scroll-top').fadeIn();
     } else {
