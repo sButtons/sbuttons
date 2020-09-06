@@ -6,8 +6,8 @@
   "author": "Shahed Nasser",
   "license": "ISC",
   "scripts": {
-    "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier",
-    "watch": "concurrently \"less-watch-compiler src dist\" \"onchange -v dist/sbuttons.css -- cleancss -o dist/sbuttons.min.css dist/sbuttons.css \" ",
+    "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier && cleancss -o dist/sbuttons.min.css dist/sbuttons.css",
+    "watch": "concurrently \"less-watch-compiler src dist\" \"onchange -v dist/sbuttons.css -- npm run prettier && cleancss -o dist/sbuttons.min.css dist/sbuttons.css \" ",
     "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" ",
     "check-prettier": "prettier --check \"src/**/*.less\" \"dist/sbuttons.css\" "
   },
