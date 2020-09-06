@@ -53,11 +53,32 @@ $(document).ready(function(){
     }
   }
 
+  function checkScrollTop() {
+    if ($(window).scrollTop() > 100) {
+      $('.scroll-top').fadeIn();
+    } else {
+      $('.scroll-top').fadeOut();
+    }
+  };
+
   checkActiveCategory();
   checkNavbar();
+  checkScrollTop();
 
   $(window).on('scroll', function(){
     checkNavbar();
     checkActiveCategory();
+    checkScrollTop();
   });
+
+  $('.scroll-top').click(function () {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 100);
+  });
+
+
+
 });
+
+
