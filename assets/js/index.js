@@ -53,22 +53,26 @@ $(document).ready(function(){
     }
   }
 
-  checkActiveCategory();
-  checkNavbar();
-
-  $(window).on('scroll', function(){
-    checkNavbar();
-    checkActiveCategory();
-  });
-
-  
-  $(window).scroll(function () {
+  function checkScrollTop() {
     if ($(this).scrollTop() > 100||$(this).scrollTop()==0) {
       $('.scroll-top').fadeIn();
     } else {
       $('.scroll-top').fadeOut();
     }
+  };
+
+  checkActiveCategory();
+  checkNavbar();
+  checkScrollTop();
+
+  $(window).on('scroll', function(){
+    checkNavbar();
+    checkActiveCategory();
+    checkScrollTop();
   });
+
+  
+   
 
   $('.scroll-top').click(function () {
     $("html, body").animate({
