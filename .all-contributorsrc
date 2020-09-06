@@ -1,3 +1,72 @@
 {
-"files": ["CONTRIBUTERS.md"]
+  "files": [
+    "CONTRIBUTERS.md",
+    "README.md"
+  ],
+  "projectName": "sbuttons",
+  "projectOwner": "shahednasser",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "FrancescaDev",
+      "name": "Francesca",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26828959?v=4",
+      "profile": "https://github.com/FrancescaDev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "bjthompson805",
+      "name": "Brandon Thompson",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40772561?v=4",
+      "profile": "https://github.com/bjthompson805",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "alannaemmrie",
+      "name": "Alanna Hill",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/70539882?v=4",
+      "profile": "https://github.com/alannaemmrie",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "ItsmeSauravSonu",
+      "name": "SAURAV KUMAR SONU",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/57924568?v=4",
+      "profile": "https://github.com/ItsmeSauravSonu",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "isonnymichael",
+      "name": "isonnymichael",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/24585708?v=4",
+      "profile": "https://github.com/isonnymichael",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "Pratyush-Saxena",
+      "name": "Pratyush",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/52444607?v=4",
+      "profile": "https://www.linkedin.com/in/pratyush-saxena18/?lipi=urn%3Ali%3Apage%3Ad_flagship3_resumebuilder%3B0U4bP5wwRGK9f05JO9CqHg%3D%3D",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "contributorsSortAlphabetically": false,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](./CONTRIBUTERS.md)"
 }

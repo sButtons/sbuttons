@@ -41,9 +41,44 @@ $(document).ready(function(){
     });
   }
 
+  function checkNavbar() {
+    if (!$(".content").isOnScreen()) {
+      $(".navbar").addClass('scrolling');
+      $(".icon-link img").attr('src', 'assets/github-blue.svg');
+      $(".sidebar").addClass('scrolling');
+    } else {
+      $(".navbar").removeClass('scrolling');
+      $(".icon-link img").attr('src', 'assets/github.svg');
+      $(".sidebar").removeClass('scrolling');
+    }
+  }
+
+  function checkScrollTop() {
+    if ($(window).scrollTop() > 100) {
+      $('.scroll-top').fadeIn();
+    } else {
+      $('.scroll-top').fadeOut();
+    }
+  };
+
   checkActiveCategory();
+  checkNavbar();
+  checkScrollTop();
 
   $(window).on('scroll', function(){
+    checkNavbar();
     checkActiveCategory();
+    checkScrollTop();
   });
+
+  $('.scroll-top').click(function () {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 100);
+  });
+
+
+
 });
+
+

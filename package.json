@@ -6,9 +6,11 @@
   "author": "Shahed Nasser",
   "license": "ISC",
   "scripts": {
-    "compile": "npm run prettier && lessc src/sbuttons.less dist/sbuttons.css && cleancss -o dist/sbuttons.min.css dist/sbuttons.css",
-    "watch": "concurrently \"less-watch-compiler src dist\" \"onchange -v dist/sbuttons.css -- cleancss -o dist/sbuttons.min.css dist/sbuttons.css \" ",
-    "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" "
+    "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier && npm run clean-css",
+    "watch": "concurrently \"less-watch-compiler src dist\" \"onchange -v dist/sbuttons.css -- npm run clean-css \" ",
+    "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" ",
+    "check-prettier": "prettier --check \"src/**/*.less\" \"dist/sbuttons.css\" ",
+    "clean-css": "cleancss -o dist/sbuttons.min.css dist/sbuttons.css"
   },
   "devDependencies": {
     "clean-css-cli": "^4.3.0",
