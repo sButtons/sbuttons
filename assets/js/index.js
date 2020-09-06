@@ -94,6 +94,9 @@ $(document).ready(function(){
       input.remove();
   });
 
+  $(".sidebar-toggler").on('click', function() {
+    $(".sidebar").toggleClass("hide-sidebar");
+  });
 });
 
 

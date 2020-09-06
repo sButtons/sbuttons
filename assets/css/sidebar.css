@@ -43,3 +43,17 @@
   color: #636363;
   display: block;
 }
+
+@media (max-width: 767px) {
+  .sidebar-toggler {
+    display: inline-block;
+  }
+
+  .row .hide-sidebar {
+    display: none;
+  }
+
+  .scrolling {
+    display: none;
+  }
+}
