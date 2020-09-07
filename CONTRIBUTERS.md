@@ -13,6 +13,7 @@ This is where the work of the contributers is recognized and appreciated!
     <td align="center"><a href="https://github.com/ItsmeSauravSonu"><img src="https://avatars2.githubusercontent.com/u/57924568?v=4" width="100px;" alt=""/><br /><sub><b>SAURAV KUMAR SONU</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=ItsmeSauravSonu" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/isonnymichael"><img src="https://avatars2.githubusercontent.com/u/24585708?v=4" width="100px;" alt=""/><br /><sub><b>isonnymichael</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=isonnymichael" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Aisonnymichael" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/pratyush-saxena18/?lipi=urn%3Ali%3Apage%3Ad_flagship3_resumebuilder%3B0U4bP5wwRGK9f05JO9CqHg%3D%3D"><img src="https://avatars3.githubusercontent.com/u/52444607?v=4" width="100px;" alt=""/><br /><sub><b>Pratyush</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Pratyush-Saxena" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/NirajGohel"><img src="https://avatars1.githubusercontent.com/u/42432442?v=4" width="100px;" alt=""/><br /><sub><b>NirajGohel</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=NirajGohel" title="Code">💻</a></td>
   </tr>
 </table>
 
