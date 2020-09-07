@@ -7,15 +7,18 @@ $(document).ready(function(){
         top : win.scrollTop(),
         left : win.scrollLeft()
     };
+
+    var marginHeader = 80;
+
     viewport.right = viewport.left + win.width();
-    viewport.bottom = viewport.top + win.height();
+    viewport.bottom = viewport.top + win.height() - marginHeader;
 
     var bounds = this.offset();
     bounds.right = bounds.left + this.outerWidth();
-    bounds.bottom = bounds.top + this.outerHeight();
+    bounds.bottom = bounds.top + this.outerHeight() - marginHeader;
 
-    return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
-
+    return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom)); 
+  
   };
 
   function checkActiveCategory(){
