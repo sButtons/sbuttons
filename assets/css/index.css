@@ -1,3 +1,5 @@
+@import "variables.css";
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #3a91ff;
+  background-color: var(--main-color);
   color: #fff;
   height: 60vh;
   display: flex !important;
@@ -48,7 +50,7 @@ header {
 
 .logo {
   font-size: 2rem;
-  color: #3A91FF;
+  color: var(--main-color);
   cursor: default;
 }
 
@@ -248,7 +250,7 @@ hr {
 .scroll-top i {
   font-size: 35px;
   display: block;
-  color: #3A91FF;
+  color: var(--main-color);
   background: none;
 }
 @media only screen and (max-width: 600px) {
