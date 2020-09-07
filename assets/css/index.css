@@ -129,6 +129,14 @@ section {
 .button-caption-sub {
   color: #656564;
   font-family: monospace;
+  cursor: pointer;
+}
+
+.button-caption-sub:after {
+  content: '\f328';
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  vertical-align: bottom;
 }
 
 hr {

@@ -80,7 +80,19 @@ $(document).ready(function(){
     }, 100);
   });
 
+  $(".button-caption-sub").click(function () {
+      var classes = $(this).text().trim();
+      classes = classes.replace(/\./g, '');
 
+      //temp input
+      var input = $('<input type="text" value="' + classes + '" />');
+      input.appendTo('body');
+      input.get(0).select();
+      input.get(0).setSelectionRange(0, 99999); /*For mobile devices*/
+      document.execCommand("copy");
+      //remove temp input
+      input.remove();
+  });
 
 });
 
