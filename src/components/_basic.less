@@ -2,6 +2,15 @@
   background-color: @color;
 }
 
+.color-rule(@color) {
+  .bc(@color);
+
+  &:focus {
+    box-shadow: 0px 0px 0 0.2rem fade(@color, 30%);
+    outline: 0;
+  }
+}
+
 .sbtn {
   padding: @buttonPadding;
   text-align: center;
@@ -34,26 +43,26 @@ a.sbtn {
 }
 
 .blue-btn {
-  .bc(@blue);
+  .color-rule(@blue);
 }
 
 .red-btn {
-  .bc(@red);
+  .color-rule(@red);
 }
 
 .green-btn {
-  .bc(@green);
+  .color-rule(@green);
 }
 
 .yellow-btn {
-  .bc(@yellow);
+  .color-rule(@yellow);
   color: @darkText !important;
 }
 
 .orange-btn {
-  .bc(@orange);
+  .color-rule(@orange);
 }
 
 .purple-btn {
-  .bc(@purple);
+  .color-rule(@purple);
 }
