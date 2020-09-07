@@ -47,6 +47,10 @@ Please note we have a code of conduct, please follow it in all your interactions
 4. Go to your forked repository and press the “New pull request” button.
 5. Once the pull request is reviewed and approved, it will be merged.
 
+### Note on abandoned pull requests
+
+If a pull request is left unchanged for a week after changes are requested and the issue was assigned to the person that sent the new pull request, they will be unassigned and someone else will be given the chance to work on it.
+
 ## Code of Conduct
 
 ### Our Pledge
