@@ -20,12 +20,8 @@ Or instead of downloading the file, you can use the [CDN](https://cdn.jsdelivr.n
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shahednasser/sbuttons/dist/sbuttons.min.css">
 ```
 
-If you are using these buttons
-* Icon Download Button
-* Icon Like Button
-* Social Media Login Button
+In case of using buttons that have icons in them, make sure to include font awesome's CDN in the `<head>` tag:
 
-You need to [login](https://fontawesome.com/account/) and use the [CDN Picker](https://fontawesome.com/account/cdn) to get CDN URL like the line below:
 ```
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 ```
