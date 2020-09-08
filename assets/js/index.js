@@ -95,7 +95,8 @@ $(document).ready(function(){
   });
 
   $(".sidebar-toggler").on('click', function() {
-    $(".sidebar").toggleClass("hide-sidebar");
+    let sidebar = $(".sidebar");
+    sidebar.toggleClass("hide-sidebar");
   });
 });
 

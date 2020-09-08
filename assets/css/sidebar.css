@@ -1,6 +1,8 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  z-index: 10;
 }
 .sidebar.scrolling {
   position: fixed;
@@ -45,15 +47,16 @@
 }
 
 @media (max-width: 767px) {
-  .sidebar-toggler {
-    display: inline-block;
-  }
-
   .row .hide-sidebar {
     display: none;
   }
 
-  .scrolling {
+  /* .scrolling {
     display: none;
+  } */
+
+  .sidebar {
+    position: fixed;
+    left: 10px;
   }
 }
