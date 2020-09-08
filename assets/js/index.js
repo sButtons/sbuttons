@@ -78,12 +78,9 @@ $(document).ready(function(){
     let scrollSpeed = 100; /* Default */
     if ($(window).width() <= 640)
        scrollSpeed = 210; /* For small (mobile) Screens */
-    $("html, body").animate(
-       {
+    $("html, body").animate({
           scrollTop: 0,
-       },
-       scrollSpeed
-    );
+       }, scrollSpeed);
   });
   
   $(".button-caption-sub").click(function () {
