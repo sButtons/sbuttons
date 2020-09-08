@@ -98,10 +98,6 @@ $(document).ready(function(){
     let sidebar = $(".sidebar");
     sidebar.toggleClass("hide-sidebar");
   });
-
-  $(".sidebar-toggler").on('click', function() {
-    $(".sidebar").toggleClass("hide-sidebar");
-  });
 });
 
 
