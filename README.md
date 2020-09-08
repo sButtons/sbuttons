@@ -20,6 +20,12 @@ Or instead of downloading the file, you can use the [CDN](https://cdn.jsdelivr.n
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shahednasser/sbuttons/dist/sbuttons.min.css">
 ```
 
+In case of using buttons that have icons in them, make sure to include font awesome's [CDN](https://use.fontawesome.com/releases/v5.14.0/css/all.css) in the `<head>` tag:
+
+```
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+```
+
 # Installation
 
 1. Clone the repository
