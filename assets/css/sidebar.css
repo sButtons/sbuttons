@@ -51,10 +51,6 @@
     display: none;
   }
 
-  /* .scrolling {
-    display: none;
-  } */
-
   .sidebar {
     position: fixed;
     left: 10px;
