@@ -96,4 +96,31 @@ $(document).ready(function(){
 
 });
 
+// Adding the functionality for opening and closing of the sidenav
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "350px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+let flag = false ;
+
+function toggleBtn(){
+
+  // This button toggles animations button in sideNav
+
+  if( flag  ){
+    flag = false ;
+    document.querySelector(".indented").style.display = "none" ;
+  }else {
+    flag = true ;
+    document.querySelector(".indented").style.display = "block" ;
+  }
+
+}
 

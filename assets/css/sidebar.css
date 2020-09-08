@@ -43,3 +43,94 @@
   color: #636363;
   display: block;
 }
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1000; 
+  top: 0; 
+  left: 0;
+  background-color: whitesmoke; 
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s; 
+  overflow-y : scroll ;
+}
+
+/* The navigation menu links */
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+/* vendor prefixes  to disable the scroll bar*/
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color : black ;
+    text-decoration-style : initial ;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sideNavBars {
+  display: none;
+}
+
+.sidenav a:nth-child(2){
+  padding: 20px 8px 8px 32px;
+}
+
+.indented{
+  text-indent: 30px;
+  display : none ;
+
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width:768px){
+
+  .sideNavBars{
+      display: block !important;
+      position : fixed ;
+      top : 90px ;
+      left : 40px ;
+      z-index: 1;
+  }
+
+}
