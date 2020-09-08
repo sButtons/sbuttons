@@ -74,12 +74,18 @@ $(document).ready(function(){
     checkScrollTop();
   });
 
-  $('.scroll-top').click(function () {
-    $("html, body").animate({
-      scrollTop: 0
-    }, 100);
+  $(".scroll-top").click(function () {
+    let scrollSpeed = 100; /* Default */
+    if ($(window).width() <= 640)
+       scrollSpeed = 210; /* For small (mobile) Screens */
+    $("html, body").animate(
+       {
+          scrollTop: 0,
+       },
+       scrollSpeed
+    );
   });
-
+  
   $(".button-caption-sub").click(function () {
       var classes = $(this).text().trim();
       classes = classes.replace(/\./g, '');
@@ -95,5 +101,7 @@ $(document).ready(function(){
   });
 
 });
+
+
 
 
