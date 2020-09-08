@@ -17,6 +17,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/codeSalazar12"><img src="https://avatars3.githubusercontent.com/u/66743585?v=4" width="100px;" alt=""/><br /><sub><b>codeSalazar12</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=codeSalazar12" title="Code">💻</a></td>
+    <td align="center"><a href="https://lee00286.github.io/portfolio/"><img src="https://avatars1.githubusercontent.com/u/33945159?v=4" width="100px;" alt=""/><br /><sub><b>Yena Lee</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=lee00286" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/commits?author=lee00286" title="Documentation">📖</a></td>
   </tr>
 </table>
 
