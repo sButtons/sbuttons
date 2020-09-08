@@ -276,7 +276,7 @@ a.sbtn:active {
 }
 .fill-color-btn.up-fill:hover:before,
 .fill-color-btn.down-fill:hover:before {
-  height: 100%;
+  height: 120%;
 }
 .fill-color-btn:not(.up-fill):not(.down-fill):before {
   height: 100%;
@@ -286,7 +286,7 @@ a.sbtn:active {
   width: 0%;
 }
 .fill-color-btn:not(.up-fill):not(.down-fill):hover:before {
-  width: 100%;
+  width: 120%;
 }
 .fill-color-btn:hover {
   color: #fff !important;
