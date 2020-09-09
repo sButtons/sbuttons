@@ -92,6 +92,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "Develrockment",
+      "name": "Develrockment",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/69122417?v=4",
+      "profile": "http://www.develrockment.at",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
