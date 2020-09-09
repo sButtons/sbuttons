@@ -1,6 +1,8 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  z-index: 10;
 }
 .sidebar.scrolling {
   position: fixed;
@@ -42,4 +44,15 @@
 .sidebar .submenu-link {
   color: #636363;
   display: block;
+}
+
+@media (max-width: 767px) {
+  .row .hide-sidebar {
+    display: none;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 10px;
+  }
 }

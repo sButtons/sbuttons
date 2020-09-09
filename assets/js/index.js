@@ -94,6 +94,11 @@ $(document).ready(function(){
       input.remove();
   });
 
+  $(".sidebar-toggler").on('click', function() {
+    let sidebar = $(".sidebar");
+    sidebar.toggleClass("hide-sidebar");
+  });
+
 });
 
 
