@@ -83,6 +83,9 @@ $(document).ready(function(){
        }, scrollSpeed);
   });
   
+
+  $(".button-caption-sub").tooltip({title:'Copied',trigger:'click',placement:'bottom'});
+
   $(".button-caption-sub").click(function () {
       var classes = $(this).text().trim();
       classes = classes.replace(/\./g, '');
@@ -95,6 +98,8 @@ $(document).ready(function(){
       document.execCommand("copy");
       //remove temp input
       input.remove();
+      //hide tooltip
+      setTimeout(()=>$(this).tooltip('hide'),1500);
   });
 
 });
