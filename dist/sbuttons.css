@@ -34,7 +34,7 @@ a.sbtn:active {
   background-color: #d53caf;
 }
 .pink-btn:focus {
-  box-shadow: 0px 0px 0 0.2rem rgba(230, 80, 215, 0.3);
+  box-shadow: 0px 0px 0 0.2rem rgba(213, 60, 175, 0.3);
   outline: 0;
 }
 .red-btn {
@@ -283,7 +283,7 @@ a.sbtn:active {
 }
 .fill-color-btn.up-fill:hover:before,
 .fill-color-btn.down-fill:hover:before {
-  height: 120%;
+  height: 100%;
 }
 .fill-color-btn:not(.up-fill):not(.down-fill):before {
   height: 100%;
@@ -293,7 +293,7 @@ a.sbtn:active {
   width: 0%;
 }
 .fill-color-btn:not(.up-fill):not(.down-fill):hover:before {
-  width: 120%;
+  width: 100%;
 }
 .fill-color-btn:hover {
   color: #fff !important;
