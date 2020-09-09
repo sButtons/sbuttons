@@ -122,6 +122,10 @@ section {
   margin-bottom: 1em;
   font-size: 1.5rem;
 }
+.button-container .sbtn :hover{
+  border:2px solid red !important;
+}
+
 
 .button-caption {
   color: #333;
