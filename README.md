@@ -1,7 +1,7 @@
 # sButtons
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Small Size!](https://badge-size.herokuapp.com/shahednasser/sbuttons/master/dist/sbuttons.min.css)](https://github.com/shahednasser/sbuttons/blob/master/dist/sbuttons.min.css)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](./CONTRIBUTERS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](./CONTRIBUTERS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
   
@@ -18,6 +18,12 @@ Or instead of downloading the file, you can use the [CDN](https://cdn.jsdelivr.n
 
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shahednasser/sbuttons/dist/sbuttons.min.css">
+```
+
+In case of using buttons that have icons in them, make sure to include font awesome's [CDN](https://use.fontawesome.com/releases/v5.14.0/css/all.css) in the `<head>` tag:
+
+```
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 ```
 
 # Installation
