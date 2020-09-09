@@ -286,3 +286,14 @@ footer {
 .code-text {
   font-family: monospace;
 }
+button.clipboard{
+  color:var(--main-color);
+  border-radius:4px;
+  border:transparent;
+  margin:5px;
+  justify-items: right;
+}
+button.clipboard:hover{
+  color:white;
+  background-color:var(--main-color);
+}

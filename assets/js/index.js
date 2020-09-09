@@ -98,7 +98,23 @@ $(document).ready(function(){
   });
 
 });
-
+function copy(a){
+  var t=texts[a].textContent;
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val(t).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+const button = $(".clipboard");
+const texts= $(".language-markup");
+for(var i=0;i<3;i++){
+  var c=0;
+  button[i].addEventListener("click",function (){
+  copy(c);
+    c++;
+  });
+}
 
 
 
