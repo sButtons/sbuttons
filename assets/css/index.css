@@ -5,7 +5,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: 'Oleo Script Swash Caps', cursive !important;
+  font-family: "Oleo Script Swash Caps", cursive !important;
   color: #333;
 }
 
@@ -82,18 +82,19 @@ header .content .subtitle {
 
 .navbar-button {
   -webkit-appearance: none;
-  background-color: #FFF;
+  background-color: #fff;
   border: 1px solid transparent;
-  padding: .5em;
+  padding: 0.5em;
   text-transform: uppercase;
   font-size: 1.2rem;
   border-radius: 25px;
   cursor: pointer;
 }
 
-.links li.active .navbar-button, .links li:hover .navbar-button {
-  background-color: #1B7291;
-  color: #FFF;
+.links li.active .navbar-button,
+.links li:hover .navbar-button {
+  background-color: #1b7291;
+  color: #fff;
 }
 
 section {
@@ -133,7 +134,7 @@ section {
 }
 
 .button-caption-sub:after {
-  content: '\f328';
+  content: "\f328";
   font-family: "Font Awesome 5 Free";
   font-size: 15px;
   vertical-align: bottom;
@@ -154,8 +155,8 @@ hr {
 }
 
 .icon-link {
-  opacity: .5;
-  transition: all .2s;
+  opacity: 0.5;
+  transition: all 0.2s;
 }
 
 .icon-link img {
@@ -169,27 +170,33 @@ hr {
 }
 
 .navbar .download-link {
-  opacity: .5;
+  opacity: 0.5;
   font-family: Syne, sans-serif;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .navbar .download-link:hover {
   opacity: 1;
 }
 
-.download-link, .download-link:hover,
-.download-link:visited, .download-link:active {
+.download-link,
+.download-link:hover,
+.download-link:visited,
+.download-link:active {
   text-decoration: underline;
 }
 
-.navbar.scrolling .download-link, .navbar.scrolling .download-link:hover,
-.navbar.scrolling .download-link:visited, .navbar.scrolling .download-link:active {
+.navbar.scrolling .download-link,
+.navbar.scrolling .download-link:hover,
+.navbar.scrolling .download-link:visited,
+.navbar.scrolling .download-link:active {
   color: #81b4ea;
 }
 
-.navbar:not(.scrolling) .download-link, .navbar:not(.scrolling) .download-link:hover,
-.navbar:not(.scrolling) .download-link:visited, .navbar:not(.scrolling) .download-link:active {
+.navbar:not(.scrolling) .download-link,
+.navbar:not(.scrolling) .download-link:hover,
+.navbar:not(.scrolling) .download-link:visited,
+.navbar:not(.scrolling) .download-link:active {
   color: #fff;
 }
 
@@ -211,27 +218,25 @@ hr {
   color: #81b4ea;
 }
 
-.standout-text{
-  color:#3aa655;
-  text-align:center;
+.standout-text {
+  color: #3aa655;
+  text-align: center;
   font-size: 1.3rem;
   word-wrap: break-word;
-  font-family: 'Syne', sans-serif;
+  font-family: "Syne", sans-serif;
 }
 
-.text{
+.text {
   font-size: 1.3rem;
-  color:black;
+  color: black;
   text-align: center;
   word-wrap: break-word;
-  font-family: 'Syne', sans-serif;
-} 
+  font-family: "Syne", sans-serif;
+}
 @media (max-width: 767px) {
   .navbar .download-link {
     font-size: 1.15rem;
   }
-  
-  
 }
 
 @media (min-width: 768px) {
@@ -253,7 +258,6 @@ hr {
   background: none;
   margin-left: 90%;
   cursor: pointer;
-
 }
 .scroll-top i {
   font-size: 35px;
@@ -262,7 +266,7 @@ hr {
   background: none;
 }
 @media only screen and (max-width: 600px) {
-  .scroll-top{
+  .scroll-top {
     margin-left: 75%;
   }
 }
@@ -286,23 +290,30 @@ footer {
 .code-text {
   font-family: monospace;
 }
-button.clipboard{
-  color:var(--main-color);
-  border-radius:4px;
-  border:transparent;
-  margin:5px;
+.code-block-container {
+  position: relative;
+}
+button.clipboard {
+  color: var(--main-color);
+  border-radius: 4px;
+  border: transparent;
+  margin: 5px;
   justify-items: right;
+  background-color: transparent;
+  cursor: pointer;
 }
-button.clipboard:hover{
-  color:white;
-  background-color:var(--main-color);
+button.clipboard:hover {
+  color: white;
+  background-color: var(--main-color);
 }
-button.clipboard:after{
-  content: '\f328';
+button.clipboard:after {
+  content: "\f328";
   font-size: 15px;
   vertical-align: bottom;
   font-family: "Font Awesome 5 Free";
 }
-.div-copy{
-  text-align:right;
+.div-copy {
+  text-align: right;
+  top: 15%;
+  right: 0;
 }
