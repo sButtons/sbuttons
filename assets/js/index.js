@@ -103,20 +103,12 @@ $(document).ready(function () {
     input.remove();
   });
 });
-function copy(a) {
-  var t = texts[a].textContent;
+function copy() {
+  var t = $(this).parent().prev().text().trim();
   var $temp = $("<input>");
   $("body").append($temp);
   $temp.val(t).select();
   document.execCommand("copy");
   $temp.remove();
 }
-const button = $(".clipboard");
-const texts = $(".language-markup");
-for (var i = 0; i < 3; i++) {
-  var c = 0;
-  button[i].addEventListener("click", function () {
-    copy(c);
-    c++;
-  });
-}
+$(".div-copy .clipboard").on("click", copy);
