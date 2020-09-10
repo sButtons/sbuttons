@@ -81,6 +81,11 @@ a.sbtn:active {
 .hover-btn.blue-btn:focus {
   background-color: #1fa5d6;
 }
+.hover-btn.pink-btn:hover,
+.hover-btn.pink-btn:active,
+.hover-btn.pink-btn:focus {
+  background-color: #be309a;
+}
 .hover-btn.green-btn:hover,
 .hover-btn.green-btn:active,
 .hover-btn.green-btn:focus {
@@ -144,6 +149,10 @@ a.sbtn:active {
   background-color: #50bfe6;
   border: 1px solid #50bfe6;
 }
+.next-arrow-btn.pink-btn:after {
+  background-color: #d53caf;
+  border: 1px solid #d53caf;
+}
 .next-arrow-btn.green-btn:after {
   background-color: #3aa655;
   border: 1px solid #3aa655;
@@ -203,6 +212,10 @@ a.sbtn:active {
   background-color: #50bfe6;
   border: 1px solid #50bfe6;
 }
+.previous-arrow-btn.pink-btn:before {
+  background-color: #d53caf;
+  border: 1px solid #d53caf;
+}
 .previous-arrow-btn.green-btn:before {
   background-color: #3aa655;
   border: 1px solid #3aa655;
@@ -232,6 +245,9 @@ a.sbtn:active {
 }
 .click-btn.blue-btn:hover {
   background-color: #1fa5d6;
+}
+.click-btn.pink-btn:hover {
+  background-color: #be309a;
 }
 .click-btn.green-btn:hover {
   background-color: #328f4a;
@@ -304,6 +320,13 @@ a.sbtn:active {
 }
 .fill-color-btn.blue-btn:before {
   background-color: #50bfe6;
+}
+.fill-color-btn.pink-btn {
+  border-color: #d53caf !important;
+  color: #d53caf;
+}
+.fill-color-btn.pink-btn:before {
+  background-color: #d53caf;
 }
 .fill-color-btn.green-btn {
   border-color: #3aa655 !important;
@@ -440,6 +463,9 @@ a.sbtn:active {
 }
 .shine-btn.blue-btn:active {
   background-color: #1fa5d6;
+}
+.shine-btn.pink-btn:active {
+  background-color: #be309a;
 }
 .shine-btn.green-btn:active {
   background-color: #328f4a;
