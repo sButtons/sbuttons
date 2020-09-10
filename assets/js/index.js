@@ -77,7 +77,6 @@ $(document).ready(function () {
     checkScrollTop();
   });
 
-
   $('.scroll-top').click(function () {
     $('html, body').animate(
       {
@@ -85,26 +84,13 @@ $(document).ready(function () {
       },
       100
     );
-
-  $(".scroll-top").click(function () {
-    let scrollSpeed = 100; /* Default */
-    if ($(window).width() <= 640)
-       scrollSpeed = 210; /* For small (mobile) Screens */
-    $("html, body").animate({
-          scrollTop: 0,
-       }, scrollSpeed);
-
   });
-  
-
-  $(".button-caption-sub").tooltip({title:'Copied',trigger:'click',placement:'bottom'});
-
 
   $('.button-caption-sub').click(function () {
     var classes = $(this).text().trim();
     classes = classes.replace(/\./g, '');
 
-
+    //temp input
     var input = $('<input type="text" value="' + classes + '" />');
     input.appendTo('body');
     input.get(0).select();
@@ -112,42 +98,20 @@ $(document).ready(function () {
     document.execCommand('copy');
     //remove temp input
     input.remove();
-
-  $(".button-caption-sub").click(function () {
-      var classes = $(this).text().trim();
-      classes = classes.replace(/\./g, '');
-
-      //temp input
-      var input = $('<input type="text" value="' + classes + '" />');
-      input.appendTo('body');
-      input.get(0).select();
-      input.get(0).setSelectionRange(0, 99999); /*For mobile devices*/
-      document.execCommand("copy");
-      //remove temp input
-      input.remove();
-      //hide tooltip
-      setTimeout(()=>$(this).tooltip('hide'),1500);
-
   });
 });
 
-// Adding the functionality for opening and closing of the sidenav
-
 function openNav() {
-  document.getElementById('mySidenav').style.width = '350px';
+  document.getElementById('mySidenav').style.width = '270px';
 }
-
-
 
 function closeNav() {
   document.getElementById('mySidenav').style.width = '0';
 }
 
 let flag = false;
-// flag toggler
-function toggleBtn() {
-  // This button toggles animations button in sideNav
 
+function toggleBtn() {
   if (flag) {
     flag = false;
     document.querySelector('.indented').style.display = 'none';
@@ -156,4 +120,14 @@ function toggleBtn() {
     document.querySelector('.indented').style.display = 'block';
   }
 }
+let flag2 = false;
 
+function toggleBtn2() {
+  if (flag2) {
+    flag2 = false;
+    document.querySelector('.indented2').style.display = 'none';
+  } else {
+    flag2 = true;
+    document.querySelector('.indented2').style.display = 'block';
+  }
+}
