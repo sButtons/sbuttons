@@ -53,6 +53,24 @@
 
   .sidebar {
     position: fixed;
-    left: 10px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 1px 1px 5px #8a8a8a;
+  }
+
+  .sidebar a {
+    font-size: 1.3rem;
+  }
+
+  .close-sidebar {
+    border: none;
+    background-color: transparent; 
+    align-self: flex-end;
+    cursor: pointer;
+    color: #3A91FF;
+    font-size: 1.3rem;
   }
 }
