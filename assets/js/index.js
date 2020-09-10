@@ -1,98 +1,111 @@
 $(document).ready(function(){
-  $.fn.isOnScreen = function(){
+$.fn.isOnScreen = function(){
 
-    var win = $(window);
+var win = $(window);
 
-    var viewport = {
-        top : win.scrollTop(),
-        left : win.scrollLeft()
-    };
+var viewport = {
+top : win.scrollTop(),
+left : win.scrollLeft()
+};
 
-    var marginHeader = 80;
+var marginHeader = 80;
 
-    viewport.right = viewport.left + win.width();
-    viewport.bottom = viewport.top + win.height() - marginHeader;
+viewport.right = viewport.left + win.width();
+viewport.bottom = viewport.top + win.height() - marginHeader;
 
-    var bounds = this.offset();
-    bounds.right = bounds.left + this.outerWidth();
-    bounds.bottom = bounds.top + this.outerHeight() - marginHeader;
+var bounds = this.offset();
+bounds.right = bounds.left + this.outerWidth();
+bounds.bottom = bounds.top + this.outerHeight() - marginHeader;
 
-    return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom)); 
-  
-  };
+return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom)); 
 
-  function checkActiveCategory(){
-    $("section").each(function(){
-      if($(this).isOnScreen()){
-        var sidebarLink = $(".sidebar a[href='#" + $(this).attr('id') + "']");
-        $(".sidebar a.active").removeClass("active");
-        sidebarLink.addClass("active");
-        var hasClass = sidebarLink.hasClass('submenu-link'),
-            nextHasClass = sidebarLink.next().hasClass('submenu-links');
-        if (hasClass || (!hasClass && !nextHasClass)) {
-          var parent = sidebarLink.parent(),
-              hasClass = parent.hasClass('submenu-links');
-          if (hasClass && !parent.hasClass('show')) {
-            $(".submenu-links.show").removeClass('show');
-            parent.addClass('show');
-          } else if (!hasClass) {
-            $(".submenu-links.show").removeClass('show');
-          }
-          return false;
-        }
-      }
-    });
-  }
+};
 
-  function checkNavbar() {
-    if (!$(".content").isOnScreen()) {
-      $(".navbar").addClass('scrolling');
-      $(".icon-link img").attr('src', 'assets/github-blue.svg');
-      $(".sidebar").addClass('scrolling');
-    } else {
-      $(".navbar").removeClass('scrolling');
-      $(".icon-link img").attr('src', 'assets/github.svg');
-      $(".sidebar").removeClass('scrolling');
-    }
-  }
+function checkActiveCategory(){
+$("section").each(function(){
+if($(this).isOnScreen()){
+var sidebarLink = $(".sidebar a[href='#" + $(this).attr('id') + "']");
+$(".sidebar a.active").removeClass("active");
+sidebarLink.addClass("active");
+var hasClass = sidebarLink.hasClass('submenu-link'),
+nextHasClass = sidebarLink.next().hasClass('submenu-links');
+if (hasClass || (!hasClass && !nextHasClass)) {
+var parent = sidebarLink.parent(),
+hasClass = parent.hasClass('submenu-links');
+if (hasClass && !parent.hasClass('show')) {
+$(".submenu-links.show").removeClass('show');
+parent.addClass('show');
+} else if (!hasClass) {
+$(".submenu-links.show").removeClass('show');
+}
+return false;
+}
+}
+});
+}
 
-  function checkScrollTop() {
-    if ($(window).scrollTop() > 100) {
-      $('.scroll-top').fadeIn();
-    } else {
-      $('.scroll-top').fadeOut();
-    }
-  };
+function checkNavbar() {
+if (!$(".content").isOnScreen()) {
+$(".navbar").addClass('scrolling');
+$(".icon-link img").attr('src', 'assets/github-blue.svg');
+$(".sidebar").addClass('scrolling');
+} else {
+$(".navbar").removeClass('scrolling');
+$(".icon-link img").attr('src', 'assets/github.svg');
+$(".sidebar").removeClass('scrolling');
+}
+}
 
-  checkActiveCategory();
-  checkNavbar();
-  checkScrollTop();
+function checkScrollTop() {
+if ($(window).scrollTop() > 100) {
+$('.scroll-top').fadeIn();
+} else {
+$('.scroll-top').fadeOut();
+}
+};
 
-  $(window).on('scroll', function(){
-    checkNavbar();
-    checkActiveCategory();
-    checkScrollTop();
-  });
+checkActiveCategory();
+checkNavbar();
+checkScrollTop();
 
-  $('.scroll-top').click(function () {
-    $("html, body").animate({
-      scrollTop: 0
-    }, 100);
-  });
+$(window).on('scroll', function(){
+checkNavbar();
+checkActiveCategory();
+checkScrollTop();
+});
 
-  $(".button-caption-sub").click(function () {
-      var classes = $(this).text().trim();
-      classes = classes.replace(/\./g, '');
+$('.scroll-top').click(function () {
+$("html, body").animate({
+scrollTop: 0
+}, 100);
+});
 
-      //temp input
-      var input = $('<input type="text" value="' + classes + '" />');
-      input.appendTo('body');
-      input.get(0).select();
-      input.get(0).setSelectionRange(0, 99999); /*For mobile devices*/
-      document.execCommand("copy");
-      //remove temp input
-      input.remove();
-  });
+$(".button-caption-sub").click(function () {
+var classes = $(this).text().trim();
+classes = classes.replace(/\./g, '');
+
+//temp input
+var input = $('<input type="text" value="' + classes + '" />');
+input.appendTo('body');
+input.get(0).select();
+input.get(0).setSelectionRange(0, 99999); /*For mobile devices*/
+document.execCommand("copy");
+//remove temp input
+input.remove();
+});
+
+// removing default box-shadow on click 
+$("#animated .sbtn").click(function(){
+$(this).addClass("isactive")
+
+})
+// adding back the default box-shadow 
+$("#animated .sbtn").blur(function () {
+$(this).removeClass("isactive")
+
+})
+
+
 
 });
 
