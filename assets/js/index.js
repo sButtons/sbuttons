@@ -94,16 +94,6 @@ document.execCommand("copy");
 input.remove();
 });
 
-// removing default box-shadow on click 
-$("#animated .sbtn").click(function(){
-$(this).addClass("isactive")
-
-})
-// adding back the default box-shadow 
-$("#animated .sbtn").blur(function () {
-$(this).removeClass("isactive")
-
-})
 
 
 

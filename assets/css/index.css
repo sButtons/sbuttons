@@ -228,11 +228,6 @@ hr {
   font-family: 'Syne', sans-serif;
 } 
 
-.isactive{
-  transition: all .5s ease-in-out;
-box-shadow: none !important;
-}
-
 @media (max-width: 767px) {
   .navbar .download-link {
     font-size: 1.15rem;
