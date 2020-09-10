@@ -96,7 +96,6 @@ input.remove();
 
 
 
-=======
   $.fn.isOnScreen = function(){
 
     var win = $(window);
