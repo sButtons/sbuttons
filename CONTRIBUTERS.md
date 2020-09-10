@@ -21,6 +21,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="http://www.develrockment.at"><img src="https://avatars2.githubusercontent.com/u/69122417?v=4" width="100px;" alt=""/><br /><sub><b>Develrockment</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Develrockment" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3ADevelrockment" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/Hrishi-Raj"><img src="https://avatars2.githubusercontent.com/u/43838095?v=4" width="100px;" alt=""/><br /><sub><b>Acer</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Hrishi-Raj" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/yashgupta18"><img src="https://avatars0.githubusercontent.com/u/47364358?v=4" width="100px;" alt=""/><br /><sub><b>yashgupta18</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=yashgupta18" title="Code">💻</a> <a href="#ideas-yashgupta18" title="Ideas, Planning, & Feedback">🤔</a> <a href="#example-yashgupta18" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/ashleypean"><img src="https://avatars1.githubusercontent.com/u/50483172?v=4" width="100px;" alt=""/><br /><sub><b>Ashley Pean</b></sub></a><br /><a href="#content-ashleypean" title="Content">🖋</a></td>
   </tr>
 </table>
 
