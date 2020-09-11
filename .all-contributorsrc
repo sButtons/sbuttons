@@ -141,6 +141,24 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "valeriaoshiro",
+      "name": "Valeria Oshiro",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/21013123?v=4",
+      "profile": "https://github.com/valeriaoshiro",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Yashi-Chawla",
+      "name": "Yashi Chawla",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/59360600?v=4",
+      "profile": "https://github.com/Yashi-Chawla",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -44,8 +44,18 @@ Please note we have a code of conduct, please follow it in all your interactions
    git commit -m "changes"
    git push origin new-branch
    ```
-4. Go to your forked repository and press the “New pull request” button.
-5. Once the pull request is reviewed and approved, it will be merged.
+4. To make sure your forked repository is up to date with this repository. Add this repository as the upstream repository by doing the following:
+```
+git remote add upstream https://github.com/shahednasser/sbuttons.git
+
+```
+Then, to fetch from this repository:
+```
+git fetch upstream
+git merge upstream/master master
+```
+5. Go to your forked repository and press the “New pull request” button.
+6. Once the pull request is reviewed and approved, it will be merged.
 
 ### Note on abandoned pull requests
 
