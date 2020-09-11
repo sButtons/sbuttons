@@ -69,34 +69,6 @@ header .content .subtitle {
   font-family: Syne, sans-serif;
 }
 
-.links {
-  list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.links li {
-  display: inline;
-  border-radius: 25px;
-}
-
-.navbar-button {
-  -webkit-appearance: none;
-  background-color: #fff;
-  border: 1px solid transparent;
-  padding: 0.5em;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-.links li.active .navbar-button,
-.links li:hover .navbar-button {
-  background-color: #1b7291;
-  color: #fff;
-}
-
 section {
   padding-top: 80px;
   margin-top: -80px;
@@ -121,10 +93,6 @@ section {
 .button-container .sbtn {
   margin-bottom: 1em;
   font-size: 1.5rem;
-}
-
-.button-caption {
-  color: #333;
 }
 
 .button-caption-sub {
@@ -152,21 +120,6 @@ hr {
 
 .navbar .buttons {
   vertical-align: sub;
-}
-
-.icon-link {
-  opacity: 0.5;
-  transition: all 0.2s;
-}
-
-.icon-link img {
-  max-width: 100%;
-  height: auto;
-}
-
-.icon-link:hover {
-  opacity: 1;
-  text-decoration: none;
 }
 
 .navbar .download-link {
@@ -216,14 +169,6 @@ hr {
 
 .section-sub-header .download-link {
   color: #81b4ea;
-}
-
-.standout-text {
-  color: #3aa655;
-  text-align: center;
-  font-size: 1.3rem;
-  word-wrap: break-word;
-  font-family: "Syne", sans-serif;
 }
 
 .text {
