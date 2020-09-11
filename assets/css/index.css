@@ -313,7 +313,11 @@ button.clipboard:after {
   font-family: "Font Awesome 5 Free";
 }
 .div-copy {
-  text-align: right;
-  top: 15%;
+  position: absolute;
+  top: 9px;
   right: 0;
+  background-color: #f5f2f0;
+}
+.language-markup {
+  padding-right: 2em;
 }
