@@ -198,7 +198,7 @@ hr {
 }
 
 .navbar.scrolling .sidebar-toggler {
-  color: #3A91FF;
+  color: var(--main-color);
 }
 
 .navbar:not(.scrolling) a, .navbar:not(.scrolling) a:hover,
