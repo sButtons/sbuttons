@@ -8,7 +8,7 @@
   "scripts": {
     "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier && npm run clean-css",
     "watch": "concurrently \"less-watch-compiler src dist\" \"onchange -v dist/sbuttons.css -- npm run clean-css \" ",
-    "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" ",
+    "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" \"assets/**\" ",
     "check-prettier": "prettier --check \"src/**/*.less\" \"dist/sbuttons.css\" ",
     "clean-css": "cleancss -o dist/sbuttons.min.css dist/sbuttons.css"
   },
