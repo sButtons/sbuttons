@@ -26,6 +26,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/valeriaoshiro"><img src="https://avatars0.githubusercontent.com/u/21013123?v=4" width="100px;" alt=""/><br /><sub><b>Valeria Oshiro</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=valeriaoshiro" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Yashi-Chawla"><img src="https://avatars2.githubusercontent.com/u/59360600?v=4" width="100px;" alt=""/><br /><sub><b>Yashi Chawla</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Yashi-Chawla" title="Code">💻</a></td>
   </tr>
 </table>
 
