@@ -14,6 +14,7 @@
 .sbtn:active,
 .sbtn:focus {
   outline: none;
+  box-shadow: none !important;
 }
 a.sbtn,
 a.sbtn:hover,
