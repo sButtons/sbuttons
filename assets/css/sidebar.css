@@ -3,8 +3,10 @@
   flex-direction: column;
   background-color: white;
   z-index: 10;
+
 }
 .sidebar.scrolling {
+  scrollbar-color: red green;
   position: fixed;
   top: 90px;
 }
@@ -46,10 +48,19 @@
   display: block;
 }
 
+
 @media (max-width: 767px) {
   .row .hide-sidebar {
     display: none;
   }
+
+
+#left-sidebar{
+  height:350px;
+  background:rgba(21, 191, 243,.6);
+  overflow-y: auto;
+  border-radius: 10px;
+}
 
   .sidebar {
     position: fixed;
