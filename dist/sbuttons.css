@@ -73,6 +73,38 @@ a.sbtn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(101, 45, 193, 0.3);
   outline: 0;
 }
+.outline-btn {
+  background-color: transparent;
+  border: 1px solid;
+}
+.outline-btn.blue-btn {
+  border-color: #50bfe6;
+  color: #50bfe6 !important;
+}
+.outline-btn.pink-btn {
+  border-color: #d53caf;
+  color: #d53caf !important;
+}
+.outline-btn.red-btn {
+  border-color: #ed0a3f;
+  color: #ed0a3f !important;
+}
+.outline-btn.green-btn {
+  border-color: #3aa655;
+  color: #3aa655 !important;
+}
+.outline-btn.yellow-btn {
+  border-color: #fbe870;
+  color: #fbe870 !important;
+}
+.outline-btn.orange-btn {
+  border-color: #ff8833;
+  color: #ff8833 !important;
+}
+.outline-btn.purple-btn {
+  border-color: #652dc1;
+  color: #652dc1 !important;
+}
 .hover-btn {
   transition: all 0.2s;
 }
