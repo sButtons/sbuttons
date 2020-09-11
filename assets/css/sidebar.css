@@ -6,7 +6,6 @@
 
 }
 .sidebar.scrolling {
-  scrollbar-color: red green;
   position: fixed;
   top: 90px;
 }
