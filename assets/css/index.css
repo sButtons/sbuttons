@@ -186,11 +186,6 @@ hr {
   text-decoration: underline;
 }
 
-.navbar .sidebar-toggler {
-  border: none;
-  background-color: transparent;
-}
-
 .navbar.scrolling a,
 .navbar.scrolling a:hover,
 .navbar.scrolling a:visited,
@@ -198,15 +193,10 @@ hr {
   color: #81b4ea;
 }
 
-.navbar.scrolling .sidebar-toggler {
-  color: var(--main-color);
-}
-
 .navbar:not(.scrolling) a,
 .navbar:not(.scrolling) a:hover,
 .navbar:not(.scrolling) a:visited,
-.navbar:not(.scrolling) a:active,
-.navbar:not(.scrolling) .sidebar-toggler {
+.navbar:not(.scrolling) a:active {
   color: #fff;
 }
 

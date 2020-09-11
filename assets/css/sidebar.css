@@ -45,6 +45,16 @@
   color: #636363;
   display: block;
 }
+.navbar .sidebar-toggler {
+  border: none;
+  background-color: transparent;
+}
+.navbar.scrolling .sidebar-toggler {
+  color: var(--main-color);
+}
+.navbar:not(.scrolling) .sidebar-toggler {
+  color: #fff;
+}
 
 @media (max-width: 767px) {
   .row .hide-sidebar {
