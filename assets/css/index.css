@@ -192,8 +192,8 @@ hr {
   background-color: transparent;
 }
 
-.navbar.scrolling .download-link, .navbar.scrolling .download-link:hover,
-.navbar.scrolling .download-link:visited, .navbar.scrolling .download-link:active {
+.navbar.scrolling a, .navbar.scrolling a:hover,
+.navbar.scrolling a:visited, .navbar.scrolling a:active {
   color: #81b4ea;
 }
 
@@ -201,8 +201,8 @@ hr {
   color: #3A91FF;
 }
 
-.navbar:not(.scrolling) .download-link, .navbar:not(.scrolling) .download-link:hover,
-.navbar:not(.scrolling) .download-link:visited, .navbar:not(.scrolling) .download-link:active,
+.navbar:not(.scrolling) a, .navbar:not(.scrolling) a:hover,
+.navbar:not(.scrolling) a:visited, .navbar:not(.scrolling) a:active,
 .navbar:not(.scrolling) .sidebar-toggler {
   color: #fff;
 }
