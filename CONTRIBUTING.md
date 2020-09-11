@@ -29,10 +29,30 @@ Please note we have a code of conduct, please follow it in all your interactions
         ```
         npm run compile
         ```
-3. To add more examples to the website:
-    1. To edit the HTML, make changes in `index.html`
-    2. To edit the CSS of the website, make changes in `assets/css/`
-    3. To edit the JS of the website, make changes in `assets/js`
+3. To make changes to the website:
+   1. To add new examples, make changes in `assets/js/buttons-examples.js`.
+      1. To add new button colors, add them to the variable `buttonColors`
+      2. To add new button types, add them to the variable `buttons`. It should follow the following format:
+         ```
+         {
+            type,       //type of button. Will be used for the id of the section
+
+            label,      //the title of the button section, which will also be shown in the sidebar menu
+
+            classes,    //the default classes of this section. For example, for basic buttons it's "basic-btn"
+
+            children,   //optional. If the type has subtypes, add them here in an array. The subtypes should
+                        //also follow this same type format
+
+            text,       //the text to show on the button. If this is omitted, the default text will be Button
+
+            variations  //this is for button types that don't use buttonColors or don't have normat and rounded
+                        // button styling. Look at social buttons for example on how to use this
+         }
+         ```
+    2. To edit the HTML, make changes in `index.html`
+    3. To edit the CSS of the website, make changes in `assets/css/`
+    4. To edit the JS of the website, make changes in `assets/js`
 
 ## Create Pull Request
 
