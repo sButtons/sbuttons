@@ -73,4 +73,9 @@
     color: #3A91FF;
     font-size: 1.3rem;
   }
+
+  .sidebar.scrolling {
+    top: 0;
+    z-index: 100;
+  }
 }
