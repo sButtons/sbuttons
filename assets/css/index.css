@@ -123,7 +123,6 @@ section {
   font-size: 1.5rem;
 }
 
-
 .button-caption {
   color: #333;
 }
@@ -192,8 +191,10 @@ hr {
   background-color: transparent;
 }
 
-.navbar.scrolling a, .navbar.scrolling a:hover,
-.navbar.scrolling a:visited, .navbar.scrolling a:active {
+.navbar.scrolling a,
+.navbar.scrolling a:hover,
+.navbar.scrolling a:visited,
+.navbar.scrolling a:active {
   color: #81b4ea;
 }
 
@@ -201,8 +202,10 @@ hr {
   color: var(--main-color);
 }
 
-.navbar:not(.scrolling) a, .navbar:not(.scrolling) a:hover,
-.navbar:not(.scrolling) a:visited, .navbar:not(.scrolling) a:active,
+.navbar:not(.scrolling) a,
+.navbar:not(.scrolling) a:hover,
+.navbar:not(.scrolling) a:visited,
+.navbar:not(.scrolling) a:active,
 .navbar:not(.scrolling) .sidebar-toggler {
   color: #fff;
 }
@@ -244,7 +247,7 @@ hr {
   .navbar .download-link {
     font-size: 1.15rem;
   }
-  
+
   .navbar:not(.scrolling) {
     justify-content: space-between;
   }

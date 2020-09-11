@@ -18,9 +18,9 @@
   left: 0;
   height: 2px;
   width: 0;
-  background-color: #364C63;
+  background-color: #364c63;
   transition: all 0.2s;
-  content: ' ';
+  content: " ";
   bottom: 0;
 }
 .sidebar a:hover,
@@ -67,10 +67,10 @@
 
   .close-sidebar {
     border: none;
-    background-color: transparent; 
+    background-color: transparent;
     align-self: flex-end;
     cursor: pointer;
-    color: #3A91FF;
+    color: #3a91ff;
     font-size: 1.3rem;
   }
 
