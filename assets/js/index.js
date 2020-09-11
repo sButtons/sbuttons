@@ -66,6 +66,15 @@ $(document).ready(function () {
       $(".scroll-top").fadeOut();
     }
   }
+  
+  function copy() {
+    var t = $(this).parent().prev().text().trim();
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val(t).select();
+    document.execCommand("copy");
+    $temp.remove();
+  }
 
   checkActiveCategory();
   checkNavbar();
@@ -88,27 +97,38 @@ $(document).ready(function () {
       scrollSpeed
     );
   });
+  $(".button-caption-sub").tooltip({title:'Copied',trigger:'click',placement:'bottom'});
 
   $(".button-caption-sub").click(function () {
-    var classes = $(this).text().trim();
-    classes = classes.replace(/\./g, "");
+      var classes = $(this).text().trim();
+      classes = classes.replace(/\./g, '');
 
-    //temp input
-    var input = $('<input type="text" value="' + classes + '" />');
-    input.appendTo("body");
-    input.get(0).select();
-    input.get(0).setSelectionRange(0, 99999); /*For mobile devices*/
-    document.execCommand("copy");
-    //remove temp input
-    input.remove();
+      //temp input
+      var input = $('<input type="text" value="' + classes + '" />');
+      input.appendTo('body');
+      input.get(0).select();
+      input.get(0).setSelectionRange(0, 99999); /*For mobile devices*/
+      document.execCommand("copy");
+      //remove temp input
+      input.remove();
+      //hide tooltip
+      setTimeout(()=>$(this).tooltip('hide'),1500);
   });
+
+  $(".sidebar-toggler").on('click', function() {
+    let sidebar = $(".sidebar");
+    sidebar.toggleClass("hide-sidebar");
+  });
+
+  $(".close-sidebar").on("click", function(){
+    let sidebar = $(".sidebar");
+    sidebar.addClass("animate__slideOutLeft");
+    window.setTimeout(function(){
+      sidebar.toggleClass("hide-sidebar");
+      sidebar.removeClass("animate__slideOutLeft");
+    }, 1000);
+    ;
+  })
+  
+  $(".div-copy .clipboard").on("click", copy);
 });
-function copy() {
-  var t = $(this).parent().prev().text().trim();
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val(t).select();
-  document.execCommand("copy");
-  $temp.remove();
-}
-$(".div-copy .clipboard").on("click", copy);

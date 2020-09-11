@@ -102,6 +102,54 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "Hrishi-Raj",
+      "name": "Acer",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43838095?v=4",
+      "profile": "https://github.com/Hrishi-Raj",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "yashgupta18",
+      "name": "yashgupta18",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47364358?v=4",
+      "profile": "https://github.com/yashgupta18",
+      "contributions": [
+        "code",
+        "ideas",
+        "example"
+      ]
+    },
+    {
+      "login": "ashleypean",
+      "name": "Ashley Pean",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50483172?v=4",
+      "profile": "https://github.com/ashleypean",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "shubhampandeyhld",
+      "name": "Shubham Pandey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/51791904?v=4",
+      "profile": "https://github.com/shubhampandeyhld",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "valeriaoshiro",
+      "name": "Valeria Oshiro",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/21013123?v=4",
+      "profile": "https://github.com/valeriaoshiro",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
