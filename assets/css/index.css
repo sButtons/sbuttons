@@ -184,13 +184,23 @@ hr {
   text-decoration: underline;
 }
 
+.navbar .sidebar-toggler {
+  border: none;
+  background-color: transparent;
+}
+
 .navbar.scrolling .download-link, .navbar.scrolling .download-link:hover,
 .navbar.scrolling .download-link:visited, .navbar.scrolling .download-link:active {
   color: #81b4ea;
 }
 
+.navbar.scrolling .sidebar-toggler {
+  color: #3A91FF;
+}
+
 .navbar:not(.scrolling) .download-link, .navbar:not(.scrolling) .download-link:hover,
-.navbar:not(.scrolling) .download-link:visited, .navbar:not(.scrolling) .download-link:active {
+.navbar:not(.scrolling) .download-link:visited, .navbar:not(.scrolling) .download-link:active,
+.navbar:not(.scrolling) .sidebar-toggler {
   color: #fff;
 }
 
@@ -231,7 +241,9 @@ hr {
   .navbar .download-link {
     font-size: 1.15rem;
   }
-  
+  .navbar:not(.scrolling) {
+    justify-content: space-between;
+  }
   
 }
 

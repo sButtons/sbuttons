@@ -102,6 +102,20 @@ $(document).ready(function(){
       setTimeout(()=>$(this).tooltip('hide'),1500);
   });
 
+  $(".sidebar-toggler").on('click', function() {
+    let sidebar = $(".sidebar");
+    sidebar.toggleClass("hide-sidebar");
+  });
+
+  $(".close-sidebar").on("click", function(){
+    let sidebar = $(".sidebar");
+    sidebar.addClass("animate__slideOutLeft");
+    window.setTimeout(function(){
+      sidebar.toggleClass("hide-sidebar");
+      sidebar.removeClass("animate__slideOutLeft");
+    }, 1000);
+    ;
+  })
 });
 
 
