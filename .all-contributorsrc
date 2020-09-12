@@ -178,6 +178,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "dhruv-doshi",
+      "name": "dhruv-doshi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54642811?v=4",
+      "profile": "https://github.com/dhruv-doshi",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
