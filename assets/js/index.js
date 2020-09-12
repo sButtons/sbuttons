@@ -151,4 +151,30 @@ $(document).ready(function () {
   });
 
   $(".div-copy .clipboard").on("click", copy);
+
+  function setTheme(themeName) {
+    document.body.setAttribute("data-theme",themeName);
+    localStorage.setItem('currentTheme', themeName);
+    $(".toggle-theme i").toggleClass("fa-moon fa-sun");
+  }
+
+  function initTheme() {
+    if( localStorage.getItem('currentTheme') === 'dark' ) {
+      setTheme('dark');
+    }
+  }
+
+  function toggleTheme() {
+    if( localStorage.getItem('currentTheme') !== 'dark' ) {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  }
+
+  $(".toggle-theme").on("click", function () {
+    toggleTheme();
+  });
+
+  initTheme();
 });
