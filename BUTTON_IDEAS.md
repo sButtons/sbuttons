@@ -11,10 +11,10 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 ---
 
-## Animated {#animated}
+## Animated
 
 - [ ] **Skew button**: A button that skews on hover.
 
-## Other {#other}
+## Other
 
 - [ ] **Buy me coffee button**
