@@ -266,6 +266,9 @@ button.clipboard:after {
   vertical-align: bottom;
   font-family: "Font Awesome 5 Free";
 }
+button.clipboard:focus {
+  outline: 0;
+}
 .div-copy {
   position: absolute;
   top: 9px;
