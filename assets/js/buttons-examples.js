@@ -122,30 +122,31 @@ $(document).ready(function () {
       classes: "outline-btn",
       children: [],
     },
+    
     {
       type: "social",
       label: "Social Buttons",
       classes: "social-btn",
       variations: [
         {
-          classes: "google",
-          text: "Login with Google",
-        },
-        {
           classes: "facebook",
           text: "Login with Facebook",
+        },
+        {
+          classes: "google",
+          text: "Login with Google",
         },
         {
           classes: "instagram",
           text: "Login with Instagram",
         },
         {
-          classes: "twitter",
-          text: "Login with Twitter",
-        },
-        {
           classes: "linkedin",
           text: "Login with LinkedIn",
+        },
+        {
+          classes: "twitter",
+          text: "Login with Twitter",
         },
         {
           classes: "weibo",
