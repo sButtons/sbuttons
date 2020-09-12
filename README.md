@@ -41,6 +41,10 @@ In case of using buttons that have icons in them, make sure to include font awes
 
 Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
 
+### Button ideas
+
+If you have ideas for buttons, or would like to see a list of ideas that have not been implementedto work on, you can add them [here](./BUTTON_IDEAS.md).
+
 # Contributors
 
 Check out our awesome contributors [here](./CONTRIBUTERS.md)!

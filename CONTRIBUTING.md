@@ -54,6 +54,13 @@ Please note we have a code of conduct, please follow it in all your interactions
     3. To edit the CSS of the website, make changes in `assets/css/`
     4. To edit the JS of the website, make changes in `assets/js`
 
+## Button Ideas
+
+You can find on [Button Ideas](./BUTTON_IDEAS.md) a list of ideas for buttons that can be implemented. Make sure to pick an idea that isn't checked off.
+Once you implement your idea, make sure to check it off in that page by adding an x in the brackets. For example:
+
+> - [x] Basic Button
+
 ## Create Pull Request
 
 1. Create a new branch:
