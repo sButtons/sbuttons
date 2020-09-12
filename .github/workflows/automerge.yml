@@ -26,3 +26,4 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_FILTER_AUTHOR: "all-contributors"
           MERGE_LABELS: ""
+          UPDATE_LABELS: ""
