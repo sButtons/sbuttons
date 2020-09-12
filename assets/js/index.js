@@ -120,7 +120,7 @@ $(document).ready(function () {
   $(".script-copy").tooltip({
     title: "Copied",
     trigger: "click",
-    placement: "top",
+    placement: "bottom",
   });
   $(".script-copy").click(function () {
     var script = $(this).text().trim();
