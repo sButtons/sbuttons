@@ -9,7 +9,10 @@ body {
   color: #333;
 }
 
-body, .navbar, .sidebar, footer {
+body,
+.navbar,
+.sidebar,
+footer {
   transition: background-color 0.2s;
 }
 
