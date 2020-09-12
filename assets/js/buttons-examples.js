@@ -122,7 +122,7 @@ $(document).ready(function () {
       classes: "outline-btn",
       children: [],
     },
-    
+
     {
       type: "social",
       label: "Social Buttons",
