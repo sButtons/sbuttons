@@ -117,6 +117,25 @@ $(document).ready(function () {
     setTimeout(() => $(this).tooltip("hide"), 1500);
   });
 
+  $(".script-copy").tooltip({
+    title: "Copied",
+    trigger: "click",
+    placement: "bottom",
+  });
+  $(".script-copy").click(function () {
+    var script = $(this).text().trim();
+    script = script.replace(/\./g, "");
+
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val(script).select();
+    document.execCommand("copy");
+
+    $temp.remove();
+
+    setTimeout(() => $(this).tooltip("hide"), 1500);
+  });
+
   $(".sidebar-toggler").on("click", function () {
     let sidebar = $(".sidebar");
     sidebar.toggleClass("hide-sidebar");
