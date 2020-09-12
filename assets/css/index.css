@@ -272,3 +272,7 @@ button.clipboard:after {
 .language-markup {
   padding-right: 2em;
 }
+.script-copy {
+  cursor: pointer;
+}
+
