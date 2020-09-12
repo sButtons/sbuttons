@@ -123,15 +123,15 @@ hr {
   vertical-align: sub;
 }
 
-.navbar .download-link, 
-.navbar .icon-link, 
+.navbar .download-link,
+.navbar .icon-link,
 .navbar .sidebar-toggler {
   opacity: 0.5;
   transition: all 0.2s;
 }
 
-.navbar .download-link:hover, 
-.navbar .icon-link:hover, 
+.navbar .download-link:hover,
+.navbar .icon-link:hover,
 .navbar .sidebar-toggler:hover {
   opacity: 1;
 }
