@@ -20,22 +20,20 @@ $(document).ready(function () {
       children: [],
     },
     {
-      type: "outline",
-      label: "Outline Buttons",
-      classes: "outline-btn",
-      children: [],
-    },
-    {
-      type: "hover",
-      label: "Hover Buttons",
-      classes: "hover-btn",
-      children: [],
-    },
-    {
       type: "animated",
       label: "Animated Buttons",
       classes: "",
       children: [
+        {
+          type: "click",
+          label: "Click",
+          classes: "click-btn",
+        },
+        {
+          type: "fill-color-down",
+          label: "Fill Color - Down",
+          classes: "fill-color-btn down-fill",
+        },
         {
           type: "fill-color-left",
           label: "Fill Color - Left",
@@ -52,14 +50,9 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
-          type: "fill-color-down",
-          label: "Fill Color - Down",
-          classes: "fill-color-btn down-fill",
-        },
-        {
-          type: "scale",
-          label: "Scale",
-          classes: "scale-btn",
+          type: "invert",
+          label: "Invert",
+          classes: "invert-btn",
         },
         {
           type: "next",
@@ -67,19 +60,14 @@ $(document).ready(function () {
           classes: "next-arrow-btn",
         },
         {
+          type: "nudge",
+          label: "Nudge",
+          classes: "nudge-btn",
+        },
+        {
           type: "previous",
           label: "Previous Button",
           classes: "previous-arrow-btn",
-        },
-        {
-          type: "click",
-          label: "Click",
-          classes: "click-btn",
-        },
-        {
-          type: "shine",
-          label: "Shine",
-          classes: "shine-btn",
         },
         {
           type: "pulse",
@@ -87,21 +75,27 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
+          type: "scale",
+          label: "Scale",
+          classes: "scale-btn",
+        },
+        {
           type: "shake",
           label: "Shake",
           classes: "shake-btn",
         },
         {
-          type: "nudge",
-          label: "Nudge",
-          classes: "nudge-btn",
-        },
-        {
-          type: "invert",
-          label: "Invert",
-          classes: "invert-btn",
+          type: "shine",
+          label: "Shine",
+          classes: "shine-btn",
         },
       ],
+    },
+    {
+      type: "hover",
+      label: "Hover Buttons",
+      classes: "hover-btn",
+      children: [],
     },
     {
       type: "icon",
@@ -121,6 +115,12 @@ $(document).ready(function () {
           text: "",
         },
       ],
+    },
+    {
+      type: "outline",
+      label: "Outline Buttons",
+      classes: "outline-btn",
+      children: [],
     },
     {
       type: "social",
