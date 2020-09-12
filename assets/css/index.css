@@ -10,7 +10,7 @@ body {
 }
 
 [data-theme="dark"] {
-  background-color: #262626;
+  background-color: var(--dark-color);
   color: #ffffff;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 [data-theme="dark"] .sidebar {
-  background-color: #262626;
+  background-color: var(--dark-color);
   color: #ffffff;
 }
 
@@ -193,7 +193,7 @@ hr {
 }
 
 .navbar .toggle-theme {
-  margin-right: 2em;
+  margin-right: 1em;
   text-decoration: none;
 }
 
