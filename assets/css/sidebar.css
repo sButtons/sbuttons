@@ -18,9 +18,9 @@
   left: 0;
   height: 2px;
   width: 0;
-  background-color: #364C63;
+  background-color: #364c63;
   transition: all 0.2s;
-  content: ' ';
+  content: " ";
   bottom: 0;
 }
 .sidebar a:hover,
@@ -45,6 +45,16 @@
   color: #636363;
   display: block;
 }
+.navbar .sidebar-toggler {
+  border: none;
+  background-color: transparent;
+}
+.navbar.scrolling .sidebar-toggler {
+  color: var(--main-color);
+}
+.navbar:not(.scrolling) .sidebar-toggler {
+  color: #fff;
+}
 
 @media (max-width: 767px) {
   .row .hide-sidebar {
@@ -67,10 +77,10 @@
 
   .close-sidebar {
     border: none;
-    background-color: transparent; 
+    background-color: transparent;
     align-self: flex-end;
     cursor: pointer;
-    color: #3A91FF;
+    color: #3a91ff;
     font-size: 1.3rem;
   }
 

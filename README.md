@@ -1,6 +1,6 @@
 # sButtons
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Small Size!](https://badge-size.herokuapp.com/shahednasser/sbuttons/master/dist/sbuttons.min.css)](https://github.com/shahednasser/sbuttons/blob/master/dist/sbuttons.min.css)
- [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md) [![Small Size!](https://badge-size.herokuapp.com/shahednasser/sbuttons/master/dist/sbuttons.min.css)](https://github.com/shahednasser/sbuttons/blob/master/dist/sbuttons.min.css)
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](./CONTRIBUTERS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 

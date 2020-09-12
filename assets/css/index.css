@@ -69,34 +69,6 @@ header .content .subtitle {
   font-family: Syne, sans-serif;
 }
 
-.links {
-  list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.links li {
-  display: inline;
-  border-radius: 25px;
-}
-
-.navbar-button {
-  -webkit-appearance: none;
-  background-color: #fff;
-  border: 1px solid transparent;
-  padding: 0.5em;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-.links li.active .navbar-button,
-.links li:hover .navbar-button {
-  background-color: #1b7291;
-  color: #fff;
-}
-
 section {
   padding-top: 80px;
   margin-top: -80px;
@@ -123,11 +95,6 @@ section {
   font-size: 1.5rem;
 }
 
-
-.button-caption {
-  color: #333;
-}
-
 .button-caption-sub {
   color: #656564;
   font-family: monospace;
@@ -139,6 +106,7 @@ section {
   font-family: "Font Awesome 5 Free";
   font-size: 15px;
   vertical-align: bottom;
+  margin-left: 5px;
 }
 
 hr {
@@ -153,21 +121,6 @@ hr {
 
 .navbar .buttons {
   vertical-align: sub;
-}
-
-.icon-link {
-  opacity: 0.5;
-  transition: all 0.2s;
-}
-
-.icon-link img {
-  max-width: 100%;
-  height: auto;
-}
-
-.icon-link:hover {
-  opacity: 1;
-  text-decoration: none;
 }
 
 .navbar .download-link {
@@ -187,23 +140,17 @@ hr {
   text-decoration: underline;
 }
 
-.navbar .sidebar-toggler {
-  border: none;
-  background-color: transparent;
-}
-
-.navbar.scrolling .download-link, .navbar.scrolling .download-link:hover,
-.navbar.scrolling .download-link:visited, .navbar.scrolling .download-link:active {
+.navbar.scrolling a,
+.navbar.scrolling a:hover,
+.navbar.scrolling a:visited,
+.navbar.scrolling a:active {
   color: #81b4ea;
 }
 
-.navbar.scrolling .sidebar-toggler {
-  color: #3A91FF;
-}
-
-.navbar:not(.scrolling) .download-link, .navbar:not(.scrolling) .download-link:hover,
-.navbar:not(.scrolling) .download-link:visited, .navbar:not(.scrolling) .download-link:active,
-.navbar:not(.scrolling) .sidebar-toggler {
+.navbar:not(.scrolling) a,
+.navbar:not(.scrolling) a:hover,
+.navbar:not(.scrolling) a:visited,
+.navbar:not(.scrolling) a:active {
   color: #fff;
 }
 
@@ -225,14 +172,6 @@ hr {
   color: #81b4ea;
 }
 
-.standout-text {
-  color: #3aa655;
-  text-align: center;
-  font-size: 1.3rem;
-  word-wrap: break-word;
-  font-family: "Syne", sans-serif;
-}
-
 .text {
   font-size: 1.3rem;
   color: black;
@@ -244,7 +183,7 @@ hr {
   .navbar .download-link {
     font-size: 1.15rem;
   }
-  
+
   .navbar:not(.scrolling) {
     justify-content: space-between;
   }
