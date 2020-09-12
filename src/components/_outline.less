@@ -1,0 +1,36 @@
+.outlineRule(@color) {
+  border-color: @color;
+  color: @color !important;
+}
+
+.outline-btn {
+  background-color: transparent;
+  border: 1px solid;
+
+  &.blue-btn {
+    .outlineRule(@blue);
+  }
+  &.pink-btn {
+    .outlineRule(@pink);
+  }
+
+  &.red-btn {
+    .outlineRule(@red);
+  }
+
+  &.green-btn {
+    .outlineRule(@green);
+  }
+
+  &.yellow-btn {
+    .outlineRule(@yellow);
+  }
+
+  &.orange-btn {
+    .outlineRule(@orange);
+  }
+
+  &.purple-btn {
+    .outlineRule(@purple);
+  }
+}

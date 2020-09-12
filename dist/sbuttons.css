@@ -26,21 +26,84 @@ a.sbtn:active {
 .blue-btn {
   background-color: #50bfe6;
 }
+.blue-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(80, 191, 230, 0.3);
+  outline: 0;
+}
+.pink-btn {
+  background-color: #d53caf;
+}
+.pink-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(213, 60, 175, 0.3);
+  outline: 0;
+}
 .red-btn {
   background-color: #ed0a3f;
 }
+.red-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(237, 10, 63, 0.3);
+  outline: 0;
+}
 .green-btn {
   background-color: #3aa655;
+}
+.green-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(58, 166, 85, 0.3);
+  outline: 0;
 }
 .yellow-btn {
   background-color: #fbe870;
   color: #333 !important;
 }
+.yellow-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(251, 232, 112, 0.3);
+  outline: 0;
+}
 .orange-btn {
   background-color: #ff8833;
 }
+.orange-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(255, 136, 51, 0.3);
+  outline: 0;
+}
 .purple-btn {
   background-color: #652dc1;
+}
+.purple-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(101, 45, 193, 0.3);
+  outline: 0;
+}
+.outline-btn {
+  background-color: transparent;
+  border: 1px solid;
+}
+.outline-btn.blue-btn {
+  border-color: #50bfe6;
+  color: #50bfe6 !important;
+}
+.outline-btn.pink-btn {
+  border-color: #d53caf;
+  color: #d53caf !important;
+}
+.outline-btn.red-btn {
+  border-color: #ed0a3f;
+  color: #ed0a3f !important;
+}
+.outline-btn.green-btn {
+  border-color: #3aa655;
+  color: #3aa655 !important;
+}
+.outline-btn.yellow-btn {
+  border-color: #fbe870;
+  color: #fbe870 !important;
+}
+.outline-btn.orange-btn {
+  border-color: #ff8833;
+  color: #ff8833 !important;
+}
+.outline-btn.purple-btn {
+  border-color: #652dc1;
+  color: #652dc1 !important;
 }
 .hover-btn {
   transition: all 0.2s;
@@ -49,6 +112,11 @@ a.sbtn:active {
 .hover-btn.blue-btn:active,
 .hover-btn.blue-btn:focus {
   background-color: #1fa5d6;
+}
+.hover-btn.pink-btn:hover,
+.hover-btn.pink-btn:active,
+.hover-btn.pink-btn:focus {
+  background-color: #be309a;
 }
 .hover-btn.green-btn:hover,
 .hover-btn.green-btn:active,
@@ -113,6 +181,10 @@ a.sbtn:active {
   background-color: #50bfe6;
   border: 1px solid #50bfe6;
 }
+.next-arrow-btn.pink-btn:after {
+  background-color: #d53caf;
+  border: 1px solid #d53caf;
+}
 .next-arrow-btn.green-btn:after {
   background-color: #3aa655;
   border: 1px solid #3aa655;
@@ -172,6 +244,10 @@ a.sbtn:active {
   background-color: #50bfe6;
   border: 1px solid #50bfe6;
 }
+.previous-arrow-btn.pink-btn:before {
+  background-color: #d53caf;
+  border: 1px solid #d53caf;
+}
 .previous-arrow-btn.green-btn:before {
   background-color: #3aa655;
   border: 1px solid #3aa655;
@@ -196,11 +272,18 @@ a.sbtn:active {
 .click-btn {
   box-shadow: 0px 5px 0px #ccc;
 }
+.click-btn:focus {
+  box-shadow: 0px 5px 0px #ccc;
+}
 .click-btn:active {
-  box-shadow: 0px 2px 0px #ccc;
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 0px #ccc;
 }
 .click-btn.blue-btn:hover {
   background-color: #1fa5d6;
+}
+.click-btn.pink-btn:hover {
+  background-color: #be309a;
 }
 .click-btn.green-btn:hover {
   background-color: #328f4a;
@@ -273,6 +356,13 @@ a.sbtn:active {
 }
 .fill-color-btn.blue-btn:before {
   background-color: #50bfe6;
+}
+.fill-color-btn.pink-btn {
+  border-color: #d53caf !important;
+  color: #d53caf;
+}
+.fill-color-btn.pink-btn:before {
+  background-color: #d53caf;
 }
 .fill-color-btn.green-btn {
   border-color: #3aa655 !important;
@@ -409,6 +499,9 @@ a.sbtn:active {
 }
 .shine-btn.blue-btn:active {
   background-color: #1fa5d6;
+}
+.shine-btn.pink-btn:active {
+  background-color: #be309a;
 }
 .shine-btn.green-btn:active {
   background-color: #328f4a;
@@ -554,4 +647,56 @@ a.sbtn:active {
 .social-btn.facebook:after {
   color: #fff;
   content: "\f39e";
+}
+.social-btn.instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: #fff;
+  border: 0px !important;
+}
+.social-btn.instagram:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f16d";
+}
+.social-btn.twitter {
+  background-color: #00acee;
+  color: #fff;
+}
+.social-btn.twitter:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f099";
+}
+.social-btn.linkedin {
+  background-color: #0e76a8;
+  color: #fff;
+}
+.social-btn.linkedin:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f0e1";
+}
+.social-btn.weibo {
+  background-color: #df2029;
+  color: #fff;
+}
+.social-btn.weibo:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f18a";
 }

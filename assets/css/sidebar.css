@@ -1,6 +1,8 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  z-index: 10;
 }
 .sidebar.scrolling {
   position: fixed;
@@ -16,9 +18,9 @@
   left: 0;
   height: 2px;
   width: 0;
-  background-color: #364C63;
+  background-color: #364c63;
   transition: all 0.2s;
-  content: ' ';
+  content: " ";
   bottom: 0;
 }
 .sidebar a:hover,
@@ -42,4 +44,48 @@
 .sidebar .submenu-link {
   color: #636363;
   display: block;
+}
+.navbar .sidebar-toggler {
+  border: none;
+  background-color: transparent;
+}
+.navbar.scrolling .sidebar-toggler {
+  color: var(--main-color);
+}
+.navbar:not(.scrolling) .sidebar-toggler {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .row .hide-sidebar {
+    display: none;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 1px 1px 5px #8a8a8a;
+  }
+
+  .sidebar a {
+    font-size: 1.3rem;
+  }
+
+  .close-sidebar {
+    border: none;
+    background-color: transparent;
+    align-self: flex-end;
+    cursor: pointer;
+    color: #3a91ff;
+    font-size: 1.3rem;
+  }
+
+  .sidebar.scrolling {
+    top: 0;
+    z-index: 100;
+  }
 }
