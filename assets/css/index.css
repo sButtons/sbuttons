@@ -7,7 +7,10 @@ body {
   overflow-x: hidden;
   font-family: "Oleo Script Swash Caps", cursive !important;
   color: #333;
-  transition: all .2s;
+}
+
+body, .navbar, .sidebar {
+  transition: background-color .2s;
 }
 
 [data-theme="dark"] {
