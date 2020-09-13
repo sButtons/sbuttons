@@ -48,6 +48,7 @@
 .navbar .sidebar-toggler {
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 .navbar.scrolling .sidebar-toggler {
   color: var(--main-color);
