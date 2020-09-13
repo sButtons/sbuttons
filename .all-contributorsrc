@@ -199,6 +199,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "CodeMode1",
+      "name": "CodeMode1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22330930?v=4",
+      "profile": "https://github.com/CodeMode1",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
