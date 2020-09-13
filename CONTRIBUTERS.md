@@ -30,6 +30,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/cosay"><img src="https://avatars0.githubusercontent.com/u/10207897?v=4" width="100px;" alt=""/><br /><sub><b>cosay</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=cosay" title="Code">💻</a> <a href="#design-cosay" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/mayankmohak"><img src="https://avatars0.githubusercontent.com/u/63801800?v=4" width="100px;" alt=""/><br /><sub><b>Mayank Mohak</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=mayankmohak" title="Documentation">📖</a> <a href="https://github.com/shahednasser/sbuttons/commits?author=mayankmohak" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/dhruv-doshi"><img src="https://avatars2.githubusercontent.com/u/54642811?v=4" width="100px;" alt=""/><br /><sub><b>dhruv-doshi</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=dhruv-doshi" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Adhruv-doshi" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/scottparkerdesign"><img src="https://avatars1.githubusercontent.com/u/69350102?v=4" width="100px;" alt=""/><br /><sub><b>scottparkerdesign</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=scottparkerdesign" title="Code">💻</a></td>
   </tr>
 </table>
 
