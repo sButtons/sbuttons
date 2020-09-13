@@ -85,6 +85,14 @@ header {
   cursor: default;
 }
 
+/* The value of 'none' is useful for static text labels in a user interface which are not meant to be selected. */
+.logo h1.noselect {
+  -webkit-user-select: none; /* Webkit Chrome / Edge / Safari / Opera */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Microsoft / IE 10+ */
+  user-select: none; /* Standard syntax. */
+}
+
 header .content {
   text-align: center;
   flex: 1;
