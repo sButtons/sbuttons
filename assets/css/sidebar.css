@@ -20,7 +20,7 @@
   width: 0;
   background-color: #364c63;
   transition: all 0.2s;
-  content: ' ';
+  content: " ";
   bottom: 0;
 }
 .sidebar a:hover,
