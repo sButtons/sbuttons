@@ -141,15 +141,6 @@ $(document).ready(function () {
     sidebar.toggleClass('hide-sidebar');
   });
 
-  $('.close-sidebar').on('click', function () {
-    let sidebar = $('.sidebar');
-    sidebar.addClass('animate__slideOutLeft');
-    window.setTimeout(function () {
-      sidebar.toggleClass('hide-sidebar');
-      sidebar.removeClass('animate__slideOutLeft');
-    }, 1000);
-  });
-
   //Add sm-device-sidebar class to sidebar if screen size is less than 600
   function alterClass() {
     var w = document.body.clientWidth;
@@ -168,6 +159,15 @@ $(document).ready(function () {
 
   //Close sidebar if clicking on a link
   $('.sm-device-link').on('click', function () {
+    let sidebar = $('.sidebar');
+    sidebar.addClass('animate__slideOutLeft');
+    window.setTimeout(function () {
+      sidebar.toggleClass('hide-sidebar');
+      sidebar.removeClass('animate__slideOutLeft');
+    }, 1000);
+  });
+
+  $('.close-sidebar').on('click', function () {
     let sidebar = $('.sidebar');
     sidebar.addClass('animate__slideOutLeft');
     window.setTimeout(function () {
