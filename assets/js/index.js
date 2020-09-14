@@ -141,30 +141,17 @@ $(document).ready(function () {
     sidebar.toggleClass('hide-sidebar');
   });
 
-  //Add sm-device-sidebar class to sidebar if screen size is less than 600
-  function alterClass() {
+  //Closes sidebar if screen size is less than 768 pixels
+  $('.sidebar a').on('click', function () {
     var w = document.body.clientWidth;
-    if (w < 600) {
-      $('.sidebar a').addClass('sm-device-link');
-    } else if (w >= 600) {
-      $('.sidebar a').removeClass('sm-device-link');
+    if (w < 768) {
+      let sidebar = $('.sidebar');
+      sidebar.addClass('animate__slideOutLeft');
+      window.setTimeout(function () {
+        sidebar.toggleClass('hide-sidebar');
+        sidebar.removeClass('animate__slideOutLeft');
+      }, 1000);
     }
-  }
-
-  $(window).resize(function () {
-    alterClass();
-  });
-  //Fire it when the page first loads:
-  alterClass();
-
-  //Close sidebar if clicking on a link
-  $('.sm-device-link').on('click', function () {
-    let sidebar = $('.sidebar');
-    sidebar.addClass('animate__slideOutLeft');
-    window.setTimeout(function () {
-      sidebar.toggleClass('hide-sidebar');
-      sidebar.removeClass('animate__slideOutLeft');
-    }, 1000);
   });
 
   $('.close-sidebar').on('click', function () {
