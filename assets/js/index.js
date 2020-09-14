@@ -146,7 +146,7 @@ $(document).ready(function () {
     var w = document.body.clientWidth;
     if (w < 600) {
       $('.sidebar a').addClass('sm-device-link');
-    } else if (w >= 401) {
+    } else if (w >= 600) {
       $('.sidebar a').removeClass('sm-device-link');
     }
   }
