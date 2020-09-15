@@ -218,6 +218,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "esakki-selvaraj",
+      "name": "Esakki Selvaraj",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/66409185?v=4",
+      "profile": "https://github.com/esakki-selvaraj",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
