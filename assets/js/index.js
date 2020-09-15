@@ -141,6 +141,19 @@ $(document).ready(function () {
     sidebar.toggleClass("hide-sidebar");
   });
 
+  //Closes sidebar if screen size is less than 768 pixels
+  $(".sidebar a").on("click", function () {
+    var w = document.body.clientWidth;
+    if (w < 768) {
+      let sidebar = $(".sidebar");
+      sidebar.addClass("animate__slideOutLeft");
+      window.setTimeout(function () {
+        sidebar.toggleClass("hide-sidebar");
+        sidebar.removeClass("animate__slideOutLeft");
+      }, 1000);
+    }
+  });
+
   $(".close-sidebar").on("click", function () {
     let sidebar = $(".sidebar");
     sidebar.addClass("animate__slideOutLeft");

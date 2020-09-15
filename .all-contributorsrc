@@ -208,6 +208,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "caseycling",
+      "name": "Casey Clingaman",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46036864?v=4",
+      "profile": "https://github.com/caseycling",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,

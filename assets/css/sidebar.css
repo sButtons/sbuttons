@@ -62,6 +62,10 @@
     display: none;
   }
 
+  .sidebar-toggler {
+    padding-left: 0px;
+  }
+
   .sidebar {
     position: fixed;
     left: 0;

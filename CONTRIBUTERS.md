@@ -33,6 +33,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/scottparkerdesign"><img src="https://avatars1.githubusercontent.com/u/69350102?v=4" width="100px;" alt=""/><br /><sub><b>scottparkerdesign</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=scottparkerdesign" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/CodeMode1"><img src="https://avatars1.githubusercontent.com/u/22330930?v=4" width="100px;" alt=""/><br /><sub><b>CodeMode1</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=CodeMode1" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/caseycling"><img src="https://avatars0.githubusercontent.com/u/46036864?v=4" width="100px;" alt=""/><br /><sub><b>Casey Clingaman</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=caseycling" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Acaseycling" title="Bug reports">🐛</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->

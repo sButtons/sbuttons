@@ -7,7 +7,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 # Listing
 
 1. [Animated](#animated)
-2. [Other](#other)
+2. [Special](#special)
 
 ---
 
@@ -16,6 +16,6 @@ When adding ideas, please add them in the right category (or add a new one if yo
 - [ ] **Skew button**: A button that skews on hover.
 - [ ] **Neon button**: A button that glows on hover.
 
-## Other
+## Special
 
 - [ ] **Buy me coffee button**
