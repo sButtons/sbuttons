@@ -36,6 +36,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="https://github.com/caseycling"><img src="https://avatars0.githubusercontent.com/u/46036864?v=4" width="100px;" alt=""/><br /><sub><b>Casey Clingaman</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=caseycling" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Acaseycling" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/esakki-selvaraj"><img src="https://avatars3.githubusercontent.com/u/66409185?v=4" width="100px;" alt=""/><br /><sub><b>Esakki Selvaraj</b></sub></a><br /><a href="#ideas-esakki-selvaraj" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/shahednasser/sbuttons/commits?author=esakki-selvaraj" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Aesakki-selvaraj" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/agalakova-m"><img src="https://avatars3.githubusercontent.com/u/32621756?v=4" width="100px;" alt=""/><br /><sub><b>Marina Agalakova</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=agalakova-m" title="Code">💻</a></td>
   </tr>
 </table>
 
