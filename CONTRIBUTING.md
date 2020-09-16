@@ -4,6 +4,12 @@ If you have a new button style you would like to add or any fixes you want to co
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
+## Important Notes
+
+1. Issues that have the label `first-timers-only` is made for beginners who have contributed to less than 5 repositories. This is a way to help people who are new to open source and contributing.
+2. Before contributing to an issue, make sure that no one is assigned or has taken that issue. If no one is and you would like to work on the issue, please comment on the issue to let others know that someone is working on the issue.
+3. Before creating a pull request, it is **important** that you make sure your branch and repository is up to date with this one. Some conflicts can be resolved, but many are hard to resolve. **Add the upstream** branch and always keep your branch up to date.
+
 # Instructions
 
 1. Fork the repository.
@@ -23,10 +29,37 @@ Please note we have a code of conduct, please follow it in all your interactions
         ```
         npm run compile
         ```
-3. To add more examples to the website:
-    1. To edit the HTML, make changes in `index.html`
-    2. To edit the CSS of the website, make changes in `assets/css/`
-    3. To edit the JS of the website, make changes in `assets/js`
+3. To make changes to the website:
+   1. To add new examples, make changes in `assets/js/buttons-examples.js`.
+      1. To add new button colors, add them to the variable `buttonColors`
+      2. To add new button types, add them to the variable `buttons`. It should follow the following format:
+         ```
+         {
+            type,       //type of button. Will be used for the id of the section
+
+            label,      //the title of the button section, which will also be shown in the sidebar menu
+
+            classes,    //the default classes of this section. For example, for basic buttons it's "basic-btn"
+
+            children,   //optional. If the type has subtypes, add them here in an array. The subtypes should
+                        //also follow this same type format
+
+            text,       //the text to show on the button. If this is omitted, the default text will be Button
+
+            variations  //this is for button types that don't use buttonColors or don't have normat and rounded
+                        // button styling. Look at social buttons for example on how to use this
+         }
+         ```
+    2. To edit the HTML, make changes in `index.html`
+    3. To edit the CSS of the website, make changes in `assets/css/`
+    4. To edit the JS of the website, make changes in `assets/js`
+
+## Button Ideas
+
+You can find on [Button Ideas](./BUTTON_IDEAS.md) a list of ideas for buttons that can be implemented. Make sure to pick an idea that isn't checked off.
+Once you implement your idea, make sure to check it off in that page by adding an x in the brackets. For example:
+
+> - [x] Basic Button
 
 ## Create Pull Request
 
@@ -44,8 +77,18 @@ Please note we have a code of conduct, please follow it in all your interactions
    git commit -m "changes"
    git push origin new-branch
    ```
-4. Go to your forked repository and press the “New pull request” button.
-5. Once the pull request is reviewed and approved, it will be merged.
+4. To make sure your forked repository is up to date with this repository. Add this repository as the upstream repository by doing the following:
+```
+git remote add upstream https://github.com/shahednasser/sbuttons.git
+
+```
+Then, to fetch from this repository:
+```
+git fetch upstream
+git merge upstream/master master
+```
+5. Go to your forked repository and press the “New pull request” button.
+6. Once the pull request is reviewed and approved, it will be merged.
 
 ### Note on abandoned pull requests
 

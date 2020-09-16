@@ -5,8 +5,39 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: 'Oleo Script Swash Caps', cursive !important;
+  font-family: "Oleo Script Swash Caps", cursive !important;
   color: #333;
+}
+
+body,
+.navbar,
+.sidebar,
+footer {
+  transition: background-color 0.2s;
+}
+
+[data-theme="dark"] {
+  background-color: var(--dark-color);
+  color: #ffffff;
+}
+
+[data-theme="dark"] footer {
+  background-color: #434343;
+}
+
+[data-theme="dark"] .navbar.scrolling {
+  background-color: #434343;
+  box-shadow: 0px 2px 3px #1e1e1e;
+}
+
+[data-theme="dark"] .sidebar {
+  background-color: var(--dark-color);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .sidebar a,
+[data-theme="dark"] .text {
+  color: #ffffff !important;
 }
 
 header {
@@ -54,6 +85,14 @@ header {
   cursor: default;
 }
 
+/* The value of 'none' is useful for static text labels in a user interface which are not meant to be selected. */
+.logo h1.noselect {
+  -webkit-user-select: none; /* Webkit Chrome / Edge / Safari / Opera */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Microsoft / IE 10+ */
+  user-select: none; /* Standard syntax. */
+}
+
 header .content {
   text-align: center;
   flex: 1;
@@ -67,33 +106,6 @@ header .content .logo h1 {
 header .content .subtitle {
   font-size: 1.5rem;
   font-family: Syne, sans-serif;
-}
-
-.links {
-  list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.links li {
-  display: inline;
-  border-radius: 25px;
-}
-
-.navbar-button {
-  -webkit-appearance: none;
-  background-color: #FFF;
-  border: 1px solid transparent;
-  padding: .5em;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-.links li.active .navbar-button, .links li:hover .navbar-button {
-  background-color: #1B7291;
-  color: #FFF;
 }
 
 section {
@@ -122,10 +134,6 @@ section {
   font-size: 1.5rem;
 }
 
-.button-caption {
-  color: #333;
-}
-
 .button-caption-sub {
   color: #656564;
   font-family: monospace;
@@ -133,10 +141,11 @@ section {
 }
 
 .button-caption-sub:after {
-  content: '\f328';
+  content: "\f328";
   font-family: "Font Awesome 5 Free";
   font-size: 15px;
   vertical-align: bottom;
+  margin-left: 5px;
 }
 
 hr {
@@ -153,43 +162,39 @@ hr {
   vertical-align: sub;
 }
 
-.icon-link {
-  opacity: .5;
-  transition: all .2s;
+.navbar .download-link,
+.navbar .icon-link,
+.navbar .sidebar-toggler,
+.navbar .toggle-theme {
+  opacity: 0.5;
+  transition: all 0.2s;
 }
 
-.icon-link img {
-  max-width: 100%;
-  height: auto;
-}
-
-.icon-link:hover {
-  opacity: 1;
-  text-decoration: none;
-}
-
-.navbar .download-link {
-  opacity: .5;
-  font-family: Syne, sans-serif;
-  transition: all .2s;
-}
-
-.navbar .download-link:hover {
+.navbar .download-link:hover,
+.navbar .icon-link:hover,
+.navbar .sidebar-toggler:hover,
+.navbar .toggle-theme:hover {
   opacity: 1;
 }
 
-.download-link, .download-link:hover,
-.download-link:visited, .download-link:active {
+.download-link,
+.download-link:hover,
+.download-link:visited,
+.download-link:active {
   text-decoration: underline;
 }
 
-.navbar.scrolling .download-link, .navbar.scrolling .download-link:hover,
-.navbar.scrolling .download-link:visited, .navbar.scrolling .download-link:active {
+.navbar.scrolling a,
+.navbar.scrolling a:hover,
+.navbar.scrolling a:visited,
+.navbar.scrolling a:active {
   color: #81b4ea;
 }
 
-.navbar:not(.scrolling) .download-link, .navbar:not(.scrolling) .download-link:hover,
-.navbar:not(.scrolling) .download-link:visited, .navbar:not(.scrolling) .download-link:active {
+.navbar:not(.scrolling) a,
+.navbar:not(.scrolling) a:hover,
+.navbar:not(.scrolling) a:visited,
+.navbar:not(.scrolling) a:active {
   color: #fff;
 }
 
@@ -199,6 +204,12 @@ hr {
 
 .navbar .download-link {
   margin-right: 1em;
+  text-decoration: none;
+}
+
+.navbar .toggle-theme {
+  margin-right: 1em;
+  text-decoration: none;
 }
 
 .section-sub-header {
@@ -211,27 +222,21 @@ hr {
   color: #81b4ea;
 }
 
-.standout-text{
-  color:#3aa655;
-  text-align:center;
+.text {
   font-size: 1.3rem;
-  word-wrap: break-word;
-  font-family: 'Syne', sans-serif;
-}
-
-.text{
-  font-size: 1.3rem;
-  color:black;
+  color: black;
   text-align: center;
   word-wrap: break-word;
-  font-family: 'Syne', sans-serif;
-} 
+  font-family: "Syne", sans-serif;
+}
 @media (max-width: 767px) {
   .navbar .download-link {
     font-size: 1.15rem;
   }
-  
-  
+
+  .navbar:not(.scrolling) {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 768px) {
@@ -253,7 +258,6 @@ hr {
   background: none;
   margin-left: 90%;
   cursor: pointer;
-
 }
 .scroll-top i {
   font-size: 35px;
@@ -262,7 +266,7 @@ hr {
   background: none;
 }
 @media only screen and (max-width: 600px) {
-  .scroll-top{
+  .scroll-top {
     margin-left: 75%;
   }
 }
@@ -285,4 +289,42 @@ footer {
 
 .code-text {
   font-family: monospace;
+}
+
+.code-block-container {
+  position: relative;
+}
+button.clipboard {
+  color: var(--main-color);
+  border-radius: 4px;
+  border: transparent;
+  margin: 5px;
+  justify-items: right;
+  background-color: transparent;
+  cursor: pointer;
+}
+button.clipboard:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+button.clipboard:after {
+  content: "\f328";
+  font-size: 15px;
+  vertical-align: bottom;
+  font-family: "Font Awesome 5 Free";
+}
+button.clipboard:focus {
+  outline: 0;
+}
+.div-copy {
+  position: absolute;
+  top: 9px;
+  right: 0;
+  background-color: #f5f2f0;
+}
+.language-markup {
+  padding-right: 2em;
+}
+.script-copy {
+  cursor: pointer;
 }

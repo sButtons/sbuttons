@@ -1,7 +1,7 @@
 # sButtons
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Small Size!](https://badge-size.herokuapp.com/shahednasser/sbuttons/master/dist/sbuttons.min.css)](https://github.com/shahednasser/sbuttons/blob/master/dist/sbuttons.min.css)
- [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](./CONTRIBUTERS.md)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md) [![Small Size!](https://badge-size.herokuapp.com/shahednasser/sbuttons/master/dist/sbuttons.min.css)](https://github.com/shahednasser/sbuttons/blob/master/dist/sbuttons.min.css)
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](./CONTRIBUTERS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
   
@@ -40,6 +40,10 @@ In case of using buttons that have icons in them, make sure to include font awes
 # Contribution
 
 Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
+
+### Button ideas
+
+If you have ideas for buttons, or would like to see a list of ideas that have not been implemented to work on, you can add them [here](./BUTTON_IDEAS.md).
 
 # Contributors
 

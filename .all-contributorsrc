@@ -62,7 +62,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/52444607?v=4",
       "profile": "https://www.linkedin.com/in/pratyush-saxena18/?lipi=urn%3Ali%3Apage%3Ad_flagship3_resumebuilder%3B0U4bP5wwRGK9f05JO9CqHg%3D%3D",
       "contributions": [
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -91,6 +92,151 @@
       "contributions": [
         "code",
         "doc"
+      ]
+    },
+    {
+      "login": "Develrockment",
+      "name": "Develrockment",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/69122417?v=4",
+      "profile": "http://www.develrockment.at",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "Hrishi-Raj",
+      "name": "Acer",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43838095?v=4",
+      "profile": "https://github.com/Hrishi-Raj",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "yashgupta18",
+      "name": "yashgupta18",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47364358?v=4",
+      "profile": "https://github.com/yashgupta18",
+      "contributions": [
+        "code",
+        "ideas",
+        "example"
+      ]
+    },
+    {
+      "login": "ashleypean",
+      "name": "Ashley Pean",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50483172?v=4",
+      "profile": "https://github.com/ashleypean",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "shubhampandeyhld",
+      "name": "Shubham Pandey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/51791904?v=4",
+      "profile": "https://github.com/shubhampandeyhld",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "valeriaoshiro",
+      "name": "Valeria Oshiro",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/21013123?v=4",
+      "profile": "https://github.com/valeriaoshiro",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Yashi-Chawla",
+      "name": "Yashi Chawla",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/59360600?v=4",
+      "profile": "https://github.com/Yashi-Chawla",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "cosay",
+      "name": "cosay",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10207897?v=4",
+      "profile": "https://github.com/cosay",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "mayankmohak",
+      "name": "Mayank Mohak",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/63801800?v=4",
+      "profile": "https://github.com/mayankmohak",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "dhruv-doshi",
+      "name": "dhruv-doshi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54642811?v=4",
+      "profile": "https://github.com/dhruv-doshi",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "scottparkerdesign",
+      "name": "scottparkerdesign",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/69350102?v=4",
+      "profile": "https://github.com/scottparkerdesign",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "CodeMode1",
+      "name": "CodeMode1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22330930?v=4",
+      "profile": "https://github.com/CodeMode1",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "caseycling",
+      "name": "Casey Clingaman",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46036864?v=4",
+      "profile": "https://github.com/caseycling",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "esakki-selvaraj",
+      "name": "Esakki Selvaraj",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/66409185?v=4",
+      "profile": "https://github.com/esakki-selvaraj",
+      "contributions": [
+        "ideas",
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "agalakova-m",
+      "name": "Marina Agalakova",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/32621756?v=4",
+      "profile": "https://github.com/agalakova-m",
+      "contributions": [
+        "code"
       ]
     }
   ],

@@ -2,7 +2,7 @@
   background-color: @color;
 }
 
-.color-rule(@color) {
+.colorRule(@color) {
   .bc(@color);
 
   &:focus {
@@ -41,28 +41,34 @@ a.sbtn {
 .btn-rounded {
   border-radius: 25px;
 }
-
 .blue-btn {
-  .color-rule(@blue);
+  .colorRule(@blue);
+}
+
+.pink-btn {
+  .colorRule(@pink);
 }
 
 .red-btn {
-  .color-rule(@red);
+  .colorRule(@red);
 }
 
 .green-btn {
-  .color-rule(@green);
+  .colorRule(@green);
 }
 
 .yellow-btn {
-  .color-rule(@yellow);
-  color: @darkText !important;
+  .colorRule(@yellow);
+
+  &:not(.fill-color-btn) {
+    color: @darkText !important;
+  }
 }
 
 .orange-btn {
-  .color-rule(@orange);
+  .colorRule(@orange);
 }
 
 .purple-btn {
-  .color-rule(@purple);
+  .colorRule(@purple);
 }
