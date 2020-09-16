@@ -14,6 +14,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 ## Animated
 
 - [ ] **Skew button**: A button that skews on hover.
+- [ ] **Neon button**: A button that glows on hover.
 
 ## Special
 
