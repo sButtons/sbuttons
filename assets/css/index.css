@@ -162,6 +162,11 @@ hr {
   vertical-align: sub;
 }
 
+.navbar .sidebar-toggler{
+    outline:none;
+    cursor:pointer;
+}
+
 .navbar .download-link,
 .navbar .icon-link,
 .navbar .sidebar-toggler,
@@ -327,4 +332,9 @@ button.clipboard:focus {
 }
 .script-copy {
   cursor: pointer;
+}
+
+.close-sidebar{
+    outline:none;
+    cursor:pointer;
 }
