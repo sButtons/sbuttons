@@ -71,7 +71,10 @@
     left: 0;
     top: 0;
     height: 100%;
-    padding: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right:5px ;
+    padding-top:5px ;
     width: 70%;
     box-shadow: 1px 1px 5px #8a8a8a;
   }
@@ -82,6 +85,7 @@
 
   .close-sidebar {
     border: none;
+    padding-right: 5px;
     background-color: transparent;
     align-self: flex-end;
     cursor: pointer;
