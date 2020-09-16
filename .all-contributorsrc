@@ -225,7 +225,9 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/66409185?v=4",
       "profile": "https://github.com/esakki-selvaraj",
       "contributions": [
-        "ideas"
+        "ideas",
+        "code",
+        "bug"
       ]
     }
   ],
