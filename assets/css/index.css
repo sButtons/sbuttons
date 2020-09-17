@@ -162,9 +162,10 @@ hr {
   vertical-align: sub;
 }
 
-.navbar .sidebar-toggler, .close-sidebar{
-    outline:none !important;
-    cursor:pointer;
+.navbar .sidebar-toggler,
+.close-sidebar {
+  outline: none !important;
+  cursor: pointer;
 }
 
 .navbar .download-link,
