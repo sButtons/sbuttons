@@ -264,9 +264,6 @@ $(document).ready(function () {
     return section;
   }
 
-  // add how to use link to sidebar
-  sidebar.append("<a href=#how-to-use>How to Use</a>");
-
   for (var i = 0; i < buttons.length; i++) {
     var section = createSection(buttons[i], true);
     section.appendTo(content).before('<hr class="secondary-hr">');
