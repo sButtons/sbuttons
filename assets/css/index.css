@@ -162,7 +162,7 @@ hr {
   vertical-align: sub;
 }
 
-.navbar .sidebar-toggler{
+.navbar .sidebar-toggler, .close-sidebar{
     outline:none;
     cursor:pointer;
 }
@@ -332,9 +332,4 @@ button.clipboard:focus {
 }
 .script-copy {
   cursor: pointer;
-}
-
-.close-sidebar{
-    outline:none;
-    cursor:pointer;
 }
