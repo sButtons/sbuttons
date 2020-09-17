@@ -163,7 +163,7 @@ hr {
 }
 
 .navbar .sidebar-toggler, .close-sidebar{
-    outline:none;
+    outline:none !important;
     cursor:pointer;
 }
 
