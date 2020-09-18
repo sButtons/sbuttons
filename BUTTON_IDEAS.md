@@ -20,8 +20,8 @@ When adding ideas, please add them in the right category (or add a new one if yo
 ## Icon
 
 - [ ] **Plus button**: A button just with a plus icon
+- [ ] **Buy me coffee button**
 
 ## Special
 
-- [ ] **Buy me coffee button**
 - [ ] **Retro button**: A button that has a retro style to it.
