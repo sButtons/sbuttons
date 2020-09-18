@@ -87,7 +87,7 @@ $(document).ready(function () {
 
   function copy(textToCopy, $element) {
     //temp input
-    var input = $('<input type="text" value=\'' + textToCopy + '\' />');
+    var input = $('<input type="text" value=\'' + textToCopy + "' />");
     input.appendTo("body");
     input.get(0).select();
     input.get(0).setSelectionRange(0, 99999); /*For mobile devices*/
@@ -126,7 +126,6 @@ $(document).ready(function () {
       scrollSpeed
     );
   });
-
 
   $(".button-caption-sub").tooltip(copiedTooltipOptions);
 
