@@ -33,6 +33,7 @@ footer {
 [data-theme="dark"] .sidebar {
   background-color: var(--dark-color);
   color: #ffffff;
+  box-shadow: 1px 1px 5px #3b3b3b !important;
 }
 
 [data-theme="dark"] .sidebar a,
