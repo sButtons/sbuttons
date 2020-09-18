@@ -122,9 +122,9 @@ $(document).ready(function () {
     trigger: "click",
     placement: "bottom",
   });
+
   $(".script-copy").click(function () {
     var script = $(this).text().trim();
-    script = script.replace(/\./g, "");
 
     var $temp = $("<input>");
     $("body").append($temp);
