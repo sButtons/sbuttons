@@ -50,6 +50,11 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
+          type: "hinge",
+          label: "Hinge",
+          classes: "hinge-btn",
+        },
+        {
           type: "invert",
           label: "Invert",
           classes: "invert-btn",

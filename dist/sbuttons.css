@@ -541,6 +541,13 @@ a.sbtn:active {
   transform: skew(10px);
   transition: transform 0.2s;
 }
+.hinge-btn {
+  transition: transform 0.2s;
+  transform-origin: top left;
+}
+.hinge-btn:hover {
+  transform: rotateZ(15deg);
+}
 .download-btn {
   position: relative;
   padding-right: 1.5em;
