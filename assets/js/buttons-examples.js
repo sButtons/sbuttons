@@ -113,6 +113,12 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "buy-me-coffee",
+          label: "Buy Me Coffee Button",
+          classes: "buy-me-coffee-btn",
+          text: "Buy me coffee",
+        },
+        {
           type: "download",
           label: "Download Button",
           classes: "download-btn",
