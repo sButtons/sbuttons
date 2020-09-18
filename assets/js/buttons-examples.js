@@ -89,6 +89,11 @@ $(document).ready(function () {
           label: "Shine",
           classes: "shine-btn",
         },
+        {
+          type: "skew",
+          label: "Skew",
+          classes: "skew-btn",
+        },
       ],
     },
     {

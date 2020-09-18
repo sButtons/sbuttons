@@ -537,6 +537,10 @@ a.sbtn:active {
     transform: scale(1);
   }
 }
+.skew-btn:hover {
+  transform: skew(10px);
+  transition: transform 0.2s;
+}
 .download-btn {
   position: relative;
   padding-right: 1.5em;
