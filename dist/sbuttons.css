@@ -404,6 +404,13 @@ a.sbtn:active {
 .fill-color-btn.purple-btn:before {
   background-color: #652dc1;
 }
+.hinge-btn {
+  transition: transform 0.2s;
+  transform-origin: top left;
+}
+.hinge-btn:hover {
+  transform: rotateZ(15deg);
+}
 .invert-btn:hover {
   animation: colorTransformation 0.5s;
   animation-fill-mode: forwards;
@@ -538,15 +545,8 @@ a.sbtn:active {
   }
 }
 .skew-btn:hover {
-  transform: skew(10px);
+  transform: skew(10deg);
   transition: transform 0.2s;
-}
-.hinge-btn {
-  transition: transform 0.2s;
-  transform-origin: top left;
-}
-.hinge-btn:hover {
-  transform: rotateZ(15deg);
 }
 .download-btn {
   position: relative;
