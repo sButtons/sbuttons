@@ -72,3 +72,12 @@ a.sbtn {
 .purple-btn {
   .colorRule(@purple);
 }
+
+.white-btn {
+  .colorRule(@lightText);
+
+  &:focus {
+    box-shadow: 0px 0px 0 0.2rem fade(@darkText, 30%);
+    outline: 0;
+  }
+}
