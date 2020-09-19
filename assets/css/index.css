@@ -16,6 +16,10 @@ footer {
   transition: background-color 0.2s;
 }
 
+.sidebar-list a {
+  display: block;
+}
+
 [data-theme="dark"] {
   background-color: var(--dark-color);
   color: #ffffff;
@@ -246,11 +250,6 @@ hr {
 
   [data-theme="dark"] .sidebar {
     box-shadow: 1px 1px 5px #3b3b3b !important;
-  }
-
-  .sidebar-list {
-    overflow-y: auto;
-    display:grid;
   }
 
   .sidebar-list::-webkit-scrollbar {
