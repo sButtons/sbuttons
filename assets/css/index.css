@@ -16,6 +16,10 @@ footer {
   transition: background-color 0.2s;
 }
 
+.sidebar-list a {
+  display: block;
+}
+
 [data-theme="dark"] {
   background-color: var(--dark-color);
   color: #ffffff;
@@ -248,20 +252,20 @@ hr {
     box-shadow: 1px 1px 5px #3b3b3b !important;
   }
 
-  .sidebar {
+  .sidebar-list {
     overflow-y: auto;
   }
 
-  .sidebar::-webkit-scrollbar {
+  .sidebar-list::-webkit-scrollbar {
     width: 6px;
   }
 
-  .sidebar::-webkit-scrollbar-thumb {
+  .sidebar-list::-webkit-scrollbar-thumb {
     background: var(--main-color);
     border-radius: 2.5px;
   }
 
-  .sidebar::-webkit-scrollbar-thumb:hover {
+  .sidebar-list::-webkit-scrollbar-thumb:hover {
     background: var(--main-color);
   }
 }
