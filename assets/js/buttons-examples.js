@@ -173,7 +173,7 @@ $(document).ready(function () {
     },
   ];
 
-  var sidebar = $(".sidebar"),
+  var sidebar = $(".sidebar-list"),
     content = $("#content");
 
   function getButtonHtml(classes, textClasses, buttonText) {
