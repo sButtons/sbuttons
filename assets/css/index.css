@@ -244,16 +244,16 @@ hr {
     justify-content: space-between;
   }
 
-  .sidebar{
+  .sidebar {
     overflow-y: auto;
   }
-  
+
   .sidebar::-webkit-scrollbar {
     width: 6px;
   }
-  
+
   .sidebar::-webkit-scrollbar-thumb {
-    background: var(--main-color); 
+    background: var(--main-color);
     border-radius: 2.5px;
   }
 
