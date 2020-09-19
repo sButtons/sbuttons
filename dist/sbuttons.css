@@ -20,7 +20,6 @@ a.sbtn:hover,
 a.sbtn:active {
   text-decoration: none;
   display: inline-block;
-  color: inherit;
 }
 .btn-rounded {
   border-radius: 25px;
@@ -76,6 +75,24 @@ a.sbtn:active {
 .purple-btn:focus {
   box-shadow: 0px 0px 0 0.2rem rgba(101, 45, 193, 0.3);
   outline: 0;
+}
+a.purple-btn:hover,
+a.orange-btn:hover,
+a.green-btn:hover,
+a.red-btn:hover,
+a.pink-btn:hover,
+a.blue-btn:hover,
+a.purple-btn:active,
+a.orange-btn:active,
+a.green-btn:active,
+a.red-btn:active,
+a.pink-btn:active,
+a.blue-btn:active {
+  color: #fff;
+}
+a.yellow-btn:hover:not(.fill-color-btn),
+a.yellow-btn:active:not(.fill-color-btn) {
+  color: #333 !important;
 }
 .outline-btn {
   background-color: transparent;

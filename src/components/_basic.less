@@ -36,13 +36,13 @@ a.sbtn {
   &:active {
     text-decoration: none;
     display: inline-block;
-    color: inherit;
   }
 }
 
 .btn-rounded {
   border-radius: 25px;
 }
+
 .blue-btn {
   .colorRule(@blue);
 }
@@ -73,4 +73,25 @@ a.sbtn {
 
 .purple-btn {
   .colorRule(@purple);
+}
+
+a.purple-btn,
+a.orange-btn,
+a.green-btn,
+a.red-btn,
+a.pink-btn,
+a.blue-btn {
+  &:hover,
+  &:active {
+    color: @lightText;
+  }
+}
+
+a.yellow-btn {
+  &:hover,
+  &:active {
+    &:not(.fill-color-btn) {
+      color: @darkText !important;
+    }
+  }
 }
