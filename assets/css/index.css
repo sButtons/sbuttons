@@ -250,7 +250,7 @@ hr {
 
   .sidebar-list {
     overflow-y: auto;
-    display:grid;
+    display: grid;
   }
 
   .sidebar-list::-webkit-scrollbar {
