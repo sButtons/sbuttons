@@ -15,10 +15,9 @@
 .sbtn:focus {
   outline: none;
 }
-a.sbtn,
-a.sbtn:hover,
-a.sbtn:active {
+a.sbtn {
   text-decoration: none;
+  display: inline-block;
 }
 .btn-rounded {
   border-radius: 25px;
@@ -680,14 +679,7 @@ a.sbtn:active {
   content: "\f39e";
 }
 .social-btn.instagram {
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   color: #fff;
   border: 0px !important;
 }
