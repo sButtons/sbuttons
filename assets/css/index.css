@@ -243,6 +243,23 @@ hr {
   .navbar:not(.scrolling) {
     justify-content: space-between;
   }
+
+  .sidebar{
+    overflow-y: auto;
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb {
+    background: var(--main-color); 
+    border-radius: 2.5px;
+  }
+
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color);
+  }
 }
 
 @media (min-width: 768px) {
