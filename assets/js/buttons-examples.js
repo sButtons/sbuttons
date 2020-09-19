@@ -50,6 +50,11 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
+          type: "hinge",
+          label: "Hinge",
+          classes: "hinge-btn",
+        },
+        {
           type: "invert",
           label: "Invert",
           classes: "invert-btn",
@@ -89,6 +94,11 @@ $(document).ready(function () {
           label: "Shine",
           classes: "shine-btn",
         },
+        {
+          type: "skew",
+          label: "Skew",
+          classes: "skew-btn",
+        },
       ],
     },
     {
@@ -102,6 +112,12 @@ $(document).ready(function () {
       label: "Icon Buttons",
       classes: "",
       children: [
+        {
+          type: "buy-me-coffee",
+          label: "Buy Me Coffee Button",
+          classes: "buy-me-coffee-btn",
+          text: "Buy me coffee",
+        },
         {
           type: "download",
           label: "Download Button",
