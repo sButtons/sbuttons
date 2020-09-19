@@ -7,15 +7,21 @@ When adding ideas, please add them in the right category (or add a new one if yo
 # Listing
 
 1. [Animated](#animated)
-2. [Special](#special)
+2. [Icon](#icon)
+3. [Special](#special)
 
 ---
 
 ## Animated
 
-- [ ] **Skew button**: A button that skews on hover.
+- [x] ~~**Skew button**: A button that skews on hover.~~
 - [ ] **Neon button**: A button that glows on hover.
+
+## Icon
+
+- [ ] **Plus button**: A button just with a plus icon
+- [x] ~~**Buy me coffee button**~~
 
 ## Special
 
-- [ ] **Buy me coffee button**
+- [ ] **Retro button**: A button that has a retro style to it.

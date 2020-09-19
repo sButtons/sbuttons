@@ -65,15 +65,46 @@ $(document).ready(function () {
     }
   }
 
-  function copy() {
-    var t = $(this).parent().prev().text().trim();
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val(t).select();
-    document.execCommand("copy");
-    $temp.remove();
+  function setTheme(themeName) {
+    document.body.setAttribute("data-theme", themeName);
+    localStorage.setItem("currentTheme", themeName);
+    $(".toggle-theme i").toggleClass("fa-moon fa-sun");
   }
 
+  function initTheme() {
+    if (localStorage.getItem("currentTheme") === "dark") {
+      setTheme("dark");
+    }
+  }
+
+  function toggleTheme() {
+    if (localStorage.getItem("currentTheme") !== "dark") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  }
+
+  function copy(textToCopy, $element) {
+    //temp input
+    var input = $('<input type="text" value=\'' + textToCopy + "' />");
+    input.appendTo("body");
+    input.get(0).select();
+    input.get(0).setSelectionRange(0, 99999); /*For mobile devices*/
+    document.execCommand("copy");
+    //remove temp input
+    input.remove();
+    //hide tooltip
+    setTimeout(() => $element.tooltip("hide"), 1500);
+  }
+
+  var copiedTooltipOptions = {
+    title: "Copied",
+    trigger: "click",
+    placement: "bottom",
+  };
+
+  initTheme();
   checkActiveCategory();
   checkNavbar();
   checkScrollTop();
@@ -95,45 +126,22 @@ $(document).ready(function () {
       scrollSpeed
     );
   });
-  $(".button-caption-sub").tooltip({
-    title: "Copied",
-    trigger: "click",
-    placement: "bottom",
-  });
+
+  $(".button-caption-sub").tooltip(copiedTooltipOptions);
 
   $(".button-caption-sub").click(function () {
     var classes = $(this).text().trim();
     classes = classes.replace(/\./g, "");
 
-    //temp input
-    var input = $('<input type="text" value="' + classes + '" />');
-    input.appendTo("body");
-    input.get(0).select();
-    input.get(0).setSelectionRange(0, 99999); /*For mobile devices*/
-    document.execCommand("copy");
-    //remove temp input
-    input.remove();
-    //hide tooltip
-    setTimeout(() => $(this).tooltip("hide"), 1500);
+    copy(classes, $(this));
   });
 
-  $(".script-copy").tooltip({
-    title: "Copied",
-    trigger: "click",
-    placement: "bottom",
-  });
+  $(".script-copy").tooltip(copiedTooltipOptions);
+
   $(".script-copy").click(function () {
     var script = $(this).text().trim();
-    script = script.replace(/\./g, "");
 
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val(script).select();
-    document.execCommand("copy");
-
-    $temp.remove();
-
-    setTimeout(() => $(this).tooltip("hide"), 1500);
+    copy(script, $(this));
   });
 
   $(".sidebar-toggler").on("click", function () {
@@ -163,31 +171,7 @@ $(document).ready(function () {
     }, 1000);
   });
 
-  $(".div-copy .clipboard").on("click", copy);
-
-  function setTheme(themeName) {
-    document.body.setAttribute("data-theme", themeName);
-    localStorage.setItem("currentTheme", themeName);
-    $(".toggle-theme i").toggleClass("fa-moon fa-sun");
-  }
-
-  function initTheme() {
-    if (localStorage.getItem("currentTheme") === "dark") {
-      setTheme("dark");
-    }
-  }
-
-  function toggleTheme() {
-    if (localStorage.getItem("currentTheme") !== "dark") {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  }
-
   $(".toggle-theme").on("click", function () {
     toggleTheme();
   });
-
-  initTheme();
 });

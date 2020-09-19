@@ -162,6 +162,12 @@ hr {
   vertical-align: sub;
 }
 
+.navbar .sidebar-toggler,
+.close-sidebar {
+  outline: none !important;
+  cursor: pointer;
+}
+
 .navbar .download-link,
 .navbar .icon-link,
 .navbar .sidebar-toggler,
@@ -237,8 +243,26 @@ hr {
   .navbar:not(.scrolling) {
     justify-content: space-between;
   }
+  
   [data-theme="dark"] .sidebar {
     box-shadow:  1px 1px 5px #3b3b3b !important; 
+  }
+  
+  .sidebar {
+    overflow-y: auto;
+  }
+
+  .sidebar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .sidebar::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 2.5px;
+  }
+
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color);
   }
 }
 
