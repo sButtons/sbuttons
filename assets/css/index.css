@@ -17,21 +17,7 @@ footer {
 }
 
 .sidebar-list a {
-  overflow-y: auto;
-  display:block;
-}
-
-.sidebar-list::-webkit-scrollbar {
-  width: 6px;
-}
-
-.sidebar-list::-webkit-scrollbar-thumb {
-  background: var(--main-color);
-  border-radius: 2.5px;
-}
-
-.sidebar-list::-webkit-scrollbar-thumb:hover {
-  background: var(--main-color);
+  display: block;
 }
 
 [data-theme="dark"] {
@@ -266,6 +252,22 @@ hr {
     box-shadow: 1px 1px 5px #3b3b3b !important;
   }
 
+  .sidebar-list {
+    overflow-y: auto;
+  }
+
+  .sidebar-list::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .sidebar-list::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 2.5px;
+  }
+
+  .sidebar-list::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color);
+  }
 }
 
 @media (min-width: 768px) {
