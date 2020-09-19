@@ -15,7 +15,9 @@
 .sbtn:focus {
   outline: none;
 }
-a.sbtn {
+a.sbtn,
+a.sbtn:hover,
+a.sbtn:active {
   text-decoration: none;
   display: inline-block;
 }
