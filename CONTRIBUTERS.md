@@ -39,6 +39,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/agalakova-m"><img src="https://avatars3.githubusercontent.com/u/32621756?v=4" width="100px;" alt=""/><br /><sub><b>Marina Agalakova</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=agalakova-m" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/chelsi-001011"><img src="https://avatars1.githubusercontent.com/u/57683338?v=4" width="100px;" alt=""/><br /><sub><b>chelsi-001011</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=chelsi-001011" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/adityasinghbaghel"><img src="https://avatars0.githubusercontent.com/u/47221162?v=4" width="100px;" alt=""/><br /><sub><b>Aditya</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=adityasinghbaghel" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Aadityasinghbaghel" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://zahra-abdullah.com"><img src="https://avatars1.githubusercontent.com/u/56398488?v=4" width="100px;" alt=""/><br /><sub><b>Zahra Abdullah</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=zahra-abdullah" title="Code">💻</a></td>
   </tr>
 </table>
 
