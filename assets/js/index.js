@@ -154,6 +154,16 @@ $(document).ready(function () {
     }
   });
 
+  $("body").click(function(event) {
+    let sidebar = $(".sidebar");
+    if(event.target.className.split(" ",1)!="sidebar" && event.target.className.split(" ",1)!="fas" && sidebar.hasClass("animate__slideInLeft") && (!sidebar.hasClass("hide-sidebar"))){
+      sidebar.addClass("animate__slideOutLeft");
+      window.setTimeout(function () {
+        sidebar.toggleClass("hide-sidebar");
+        sidebar.removeClass("animate__slideOutLeft");
+      }, 1000);}
+  });
+
   $(".close-sidebar").on("click", function () {
     let sidebar = $(".sidebar");
     sidebar.addClass("animate__slideOutLeft");
