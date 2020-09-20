@@ -19,6 +19,7 @@ a.sbtn,
 a.sbtn:hover,
 a.sbtn:active {
   text-decoration: none;
+  display: inline-block;
 }
 .btn-rounded {
   border-radius: 25px;
@@ -433,6 +434,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.purple-btn:before {
   background-color: #652dc1;
 }
+.hinge-btn {
+  transition: transform 0.2s;
+  transform-origin: top left;
+}
+.hinge-btn:hover {
+  transform: rotateZ(15deg);
+}
 .invert-btn:hover {
   animation: colorTransformation 0.5s;
   animation-fill-mode: forwards;
@@ -565,6 +573,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
   100% {
     transform: scale(1);
   }
+}
+.skew-btn:hover {
+  transform: skew(10deg);
+  transition: transform 0.2s;
+}
+.buy-me-coffee-btn {
+  position: relative;
+  padding-right: 1.5em;
+}
+.buy-me-coffee-btn:after {
+  content: "\f7b6";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 0.3em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  top: 23%;
 }
 .download-btn {
   position: relative;
