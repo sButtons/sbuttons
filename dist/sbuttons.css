@@ -76,6 +76,17 @@ a.sbtn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(101, 45, 193, 0.3);
   outline: 0;
 }
+.black-btn {
+  background-color: #000;
+}
+.black-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(0, 0, 0, 0.3);
+  outline: 0;
+}
+.black-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(125, 125, 125, 0.67);
+  outline: 0;
+}
 a.purple-btn:hover,
 a.orange-btn:hover,
 a.green-btn:hover,

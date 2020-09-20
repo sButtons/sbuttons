@@ -10,6 +10,7 @@ $(document).ready(function () {
     "yellow-btn",
     "orange-btn",
     "purple-btn",
+    "black-btn",
   ];
   //list of button types
   var buttons = [
