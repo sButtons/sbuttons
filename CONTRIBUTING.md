@@ -57,9 +57,9 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Button Ideas
 
 You can find on [Button Ideas](./BUTTON_IDEAS.md) a list of ideas for buttons that can be implemented. Make sure to pick an idea that isn't checked off.
-Once you implement your idea, make sure to check it off in that page by adding an x in the brackets. For example:
+Once you implement your idea, make sure to check it off in that page by adding an x in the brackets and strike it through. For example:
 
-> - [x] Basic Button
+> - [x] ~~Basic Button~~
 
 ## Create Pull Request
 

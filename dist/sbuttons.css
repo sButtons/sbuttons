@@ -19,6 +19,7 @@ a.sbtn,
 a.sbtn:hover,
 a.sbtn:active {
   text-decoration: none;
+  display: inline-block;
 }
 .btn-rounded {
   border-radius: 25px;
@@ -75,16 +76,23 @@ a.sbtn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(101, 45, 193, 0.3);
   outline: 0;
 }
-.black-btn {
-  background-color: #000;
+a.purple-btn:hover,
+a.orange-btn:hover,
+a.green-btn:hover,
+a.red-btn:hover,
+a.pink-btn:hover,
+a.blue-btn:hover,
+a.purple-btn:active,
+a.orange-btn:active,
+a.green-btn:active,
+a.red-btn:active,
+a.pink-btn:active,
+a.blue-btn:active {
+  color: #fff;
 }
-.black-btn:focus {
-  box-shadow: 0px 0px 0 0.2rem rgba(0, 0, 0, 0.3);
-  outline: 0;
-}
-.black-btn:focus {
-  box-shadow: 0px 0px 0 0.2rem rgba(255, 255, 255, 0.3);
-  outline: 0;
+a.yellow-btn:hover:not(.fill-color-btn),
+a.yellow-btn:active:not(.fill-color-btn) {
+  color: #333 !important;
 }
 .outline-btn {
   background-color: transparent;
@@ -415,6 +423,13 @@ a.sbtn:active {
 .fill-color-btn.purple-btn:before {
   background-color: #652dc1;
 }
+.hinge-btn {
+  transition: transform 0.2s;
+  transform-origin: top left;
+}
+.hinge-btn:hover {
+  transform: rotateZ(15deg);
+}
 .invert-btn:hover {
   animation: colorTransformation 0.5s;
   animation-fill-mode: forwards;
@@ -547,6 +562,28 @@ a.sbtn:active {
   100% {
     transform: scale(1);
   }
+}
+.skew-btn:hover {
+  transform: skew(10deg);
+  transition: transform 0.2s;
+}
+.buy-me-coffee-btn {
+  position: relative;
+  padding-right: 1.5em;
+}
+.buy-me-coffee-btn:after {
+  content: "\f7b6";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 0.3em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  top: 23%;
 }
 .download-btn {
   position: relative;
