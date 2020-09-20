@@ -73,6 +73,27 @@ a.sbtn {
   .colorRule(@purple);
 }
 
+a.purple-btn,
+a.orange-btn,
+a.green-btn,
+a.red-btn,
+a.pink-btn,
+a.blue-btn {
+  &:hover,
+  &:active {
+    color: @lightText;
+  }
+}
+
+a.yellow-btn {
+  &:hover,
+  &:active {
+    &:not(.fill-color-btn) {
+      color: @darkText !important;
+    }
+  }
+}
+
 .white-btn {
   .colorRule(@white);
 
