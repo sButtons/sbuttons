@@ -257,6 +257,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "zahra-abdullah",
+      "name": "Zahra Abdullah",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/56398488?v=4",
+      "profile": "http://zahra-abdullah.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
