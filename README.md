@@ -25,6 +25,17 @@ In case of using buttons that have icons in them, make sure to include font awes
 ```
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 ```
+For using sButtons in your code , just add the classes of sButton you want to either  ```<button>``` or ```<a>``` tags :
+
+```
+<button class='sbtn basic-btn blue-btn'> text </button>
+```
+This code will produce basic sButton with blue colour , same can be done for ```<a>``` tag
+
+```
+<a href='#' class='sbtn basic-btn blue-btn'> text </a>
+```
+You can find all classes and their corresponding sButtons mentioned in our website. 
 
 # Installation
 
