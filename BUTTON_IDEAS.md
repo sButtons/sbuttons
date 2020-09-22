@@ -22,6 +22,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 - [ ] **Plus button**: A button just with a plus icon
 - [x] ~~**Buy me coffee button**~~
+- [ ] **Badge button**: A button that has a badge/tag on it.
 
 ## Special
 
