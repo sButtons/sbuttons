@@ -16,6 +16,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 - [x] ~~**Skew button**: A button that skews on hover.~~
 - [ ] **Neon button**: A button that glows on hover.
+- [ ] **Loading button**: A button that has a loading animation.
 
 ## Icon
 
