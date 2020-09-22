@@ -137,6 +137,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #652dc1;
   color: #652dc1 !important;
 }
+.outline-btn.black-btn {
+  border-color: #000;
+  color: #000 !important;
+}
 .hover-btn {
   transition: all 0.2s;
 }
@@ -174,6 +178,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .hover-btn.orange-btn:active,
 .hover-btn.orange-btn:focus {
   background-color: #f06400;
+}
+.hover-btn.black-btn:hover,
+.hover-btn.black-btn:active,
+.hover-btn.black-btn:focus {
+  background-color: #262626;
 }
 .next-arrow-btn {
   position: relative;
@@ -433,6 +442,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .fill-color-btn.purple-btn:before {
   background-color: #652dc1;
+}
+.fill-color-btn.black-btn {
+  border-color: #000 !important;
+  color: #000;
+}
+.fill-color-btn.black-btn:before {
+  background-color: #000;
 }
 .hinge-btn {
   transition: transform 0.2s;
