@@ -33,7 +33,7 @@ To use sButtons in your project , just add the classes of sButton you want to ei
 This code will produce basic sButton with blue colour. Same can be done for ```<a>``` tag
 
 ```
-<a href='#' class='sbtn basic-btn blue-btn'>text</a>
+<a href='#' class='sbtn basic-btn blue-btn'>button</a>
 ```
 You can find all classes and their corresponding sButtons mentioned in our [website](https://shahednasser.github.io/sbuttons/). 
 
