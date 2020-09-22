@@ -156,8 +156,9 @@ $(document).ready(function () {
   });
 
   $("body").click(function(event) {
-    let sidebar = $(".sidebar") ;
-    if( $(window).width() <= 640 && event.target.className.split(" ",1)!="sidebar" && event.target.className.split(" ",1)!="fas" && sidebar.hasClass("animate__slideInLeft") && (!sidebar.hasClass("hide-sidebar"))){
+    var sidebar = $(".sidebar") ;
+    var targetElement = $(event.target);
+    if( $(window).width() <= 767 && !targetElement.hasClass("sidebar") && !targetElement.hasClass("fas") && sidebar.hasClass("animate__slideInLeft") && (!sidebar.hasClass("hide-sidebar"))){
       sidebar.addClass("animate__slideOutLeft");
       window.setTimeout(function () {
         sidebar.toggleClass("hide-sidebar");
