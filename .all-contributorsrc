@@ -303,6 +303,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "stanjdev",
+      "name": "Stan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/61481150?v=4",
+      "profile": "https://github.com/stanjdev",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
