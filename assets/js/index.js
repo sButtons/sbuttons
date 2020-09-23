@@ -99,14 +99,15 @@ $(document).ready(function () {
   }
 
   function downloadGithubCssRaw() {
-    var link = "https://raw.githubusercontent.com/shahednasser/sbuttons/master/dist/sbuttons.min.css";
+    var link =
+      "https://raw.githubusercontent.com/shahednasser/sbuttons/master/dist/sbuttons.min.css";
     if (window.fetch) {
       fetch(link)
-        .then(resp => resp.blob())
-        .then(blob => {
+        .then((resp) => resp.blob())
+        .then((blob) => {
           const url = window.URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.style.display = 'none';
+          const a = document.createElement("a");
+          a.style.display = "none";
           a.href = url;
           a.download = "sbuttons.min.css";
           document.body.appendChild(a);
@@ -197,5 +198,8 @@ $(document).ready(function () {
     toggleTheme();
   });
 
-  $("#downloadGithubRawHeader, #downloadGithubRawHowTo").on("click", downloadGithubCssRaw);
+  $("#downloadGithubRawHeader, #downloadGithubRawHowTo").on(
+    "click",
+    downloadGithubCssRaw
+  );
 });
