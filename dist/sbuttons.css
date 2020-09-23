@@ -598,9 +598,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transform: scale(1);
   }
 }
+.skew-btn {
+  transition: transform 0.2s;
+}
 .skew-btn:hover {
   transform: skew(10deg);
-  transition: transform 0.2s;
 }
 .buy-me-coffee-btn {
   position: relative;
