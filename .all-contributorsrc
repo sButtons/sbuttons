@@ -321,6 +321,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "aymenhamada",
+      "name": "Aymen Hamada",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/48280251?v=4",
+      "profile": "https://github.com/aymenhamada",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
