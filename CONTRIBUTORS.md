@@ -48,6 +48,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/Maitryee-Choudhary"><img src="https://avatars3.githubusercontent.com/u/67001353?v=4" width="100px;" alt=""/><br /><sub><b>Maitryee-Choudhary</b></sub></a><br /><a href="#ideas-Maitryee-Choudhary" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/stanjdev"><img src="https://avatars3.githubusercontent.com/u/61481150?v=4" width="100px;" alt=""/><br /><sub><b>Stan</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=stanjdev" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/AlacritousCreature"><img src="https://avatars3.githubusercontent.com/u/58398802?v=4" width="100px;" alt=""/><br /><sub><b>Sampada Kathar</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=AlacritousCreature" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/aymenhamada"><img src="https://avatars1.githubusercontent.com/u/48280251?v=4" width="100px;" alt=""/><br /><sub><b>Aymen Hamada</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=aymenhamada" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Aaymenhamada" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
