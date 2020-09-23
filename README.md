@@ -62,7 +62,7 @@ If you have ideas for buttons, or would like to see a list of ideas that have no
 
 # Contributors
 
-Check out our awesome contributors [here](./CONTRIBUTERS.md)!
+Check out our awesome contributors [here](./CONTRIBUTORS.md)!
 
 # LICENSE
 
