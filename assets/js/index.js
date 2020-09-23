@@ -98,6 +98,28 @@ $(document).ready(function () {
     setTimeout(() => $element.tooltip("hide"), 1500);
   }
 
+  function downloadGithubCssRaw() {
+    var link = "https://raw.githubusercontent.com/shahednasser/sbuttons/master/dist/sbuttons.min.css";
+    if (window.fetch) {
+      fetch(link)
+        .then(resp => resp.blob())
+        .then(blob => {
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.style.display = 'none';
+          a.href = url;
+          a.download = "sbuttons.min.css";
+          document.body.appendChild(a);
+          a.click();
+          window.URL.revokeObjectURL(url);
+          document.body.removeChild(a);
+        })
+        .catch((err) => console.log(err));
+    } else {
+      window.location.href = link;
+    }
+  }
+
   var copiedTooltipOptions = {
     title: "Copied",
     trigger: "click",
@@ -174,4 +196,6 @@ $(document).ready(function () {
   $(".toggle-theme").on("click", function () {
     toggleTheme();
   });
+
+  $("#downloadGithubRawHeader, #downloadGithubRawHowTo").on("click", downloadGithubCssRaw);
 });
