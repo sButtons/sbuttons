@@ -27,35 +27,40 @@ a.sbtn:active {
 .blue-btn {
   background-color: #50bfe6;
 }
-.blue-btn:focus {
+.blue-btn:focus,
+.blue-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(80, 191, 230, 0.3);
   outline: 0;
 }
 .pink-btn {
   background-color: #d53caf;
 }
-.pink-btn:focus {
+.pink-btn:focus,
+.pink-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(213, 60, 175, 0.3);
   outline: 0;
 }
 .red-btn {
   background-color: #ed0a3f;
 }
-.red-btn:focus {
+.red-btn:focus,
+.red-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(237, 10, 63, 0.3);
   outline: 0;
 }
 .green-btn {
   background-color: #3aa655;
 }
-.green-btn:focus {
+.green-btn:focus,
+.green-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(58, 166, 85, 0.3);
   outline: 0;
 }
 .yellow-btn {
   background-color: #fbe870;
 }
-.yellow-btn:focus {
+.yellow-btn:focus,
+.yellow-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(251, 232, 112, 0.3);
   outline: 0;
 }
@@ -65,21 +70,24 @@ a.sbtn:active {
 .orange-btn {
   background-color: #ff8833;
 }
-.orange-btn:focus {
+.orange-btn:focus,
+.orange-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(255, 136, 51, 0.3);
   outline: 0;
 }
 .purple-btn {
   background-color: #652dc1;
 }
-.purple-btn:focus {
+.purple-btn:focus,
+.purple-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(101, 45, 193, 0.3);
   outline: 0;
 }
 .black-btn {
   background-color: #000;
 }
-.black-btn:focus {
+.black-btn:focus,
+.black-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(0, 0, 0, 0.3);
   outline: 0;
 }
@@ -574,7 +582,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #f06400;
 }
 .pulse-btn {
-  box-shadow: 1px 2px 8px #ccc;
+  box-shadow: 0px 1px 4px #6c6c6c;
 }
 .pulse-btn:hover {
   animation: pulse 1s infinite;
@@ -590,9 +598,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transform: scale(1);
   }
 }
+.skew-btn {
+  transition: transform 0.2s;
+}
 .skew-btn:hover {
   transform: skew(10deg);
-  transition: transform 0.2s;
 }
 .buy-me-coffee-btn {
   position: relative;
@@ -690,7 +700,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   }
 }
 .social-btn {
-  box-shadow: 0px 1px 4px #c9c9c9;
+  box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;
   position: relative;
   padding-right: 35px;
@@ -703,7 +713,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
 }
 .social-btn:hover {
-  box-shadow: 0px 1px 7px #c9c9c9;
+  box-shadow: 0px 1px 7px #4d4d4d;
   transform: translateY(-3px);
 }
 .social-btn.google {
