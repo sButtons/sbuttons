@@ -342,6 +342,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "AgyeyaMishra",
+      "name": "Agyeya Mishra",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53916781?v=4",
+      "profile": "https://www.linkedin.com/in/agyeyamishra/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
