@@ -59,7 +59,7 @@
 
 #shade {
   opacity: 0%;
-  transition: opacity 2s;
+  transition: opacity 0.2s;
 }
 
 @media (max-width: 767px) {
@@ -109,6 +109,6 @@
     z-index: 9;
     position: fixed;
     background-color: black;
-    opacity: 30%;
+    opacity: 50%;
   }
 }
