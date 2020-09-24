@@ -179,6 +179,7 @@ $(document).ready(function () {
     var w = document.body.clientWidth;
     if (w < 768) {
       let sidebar = $(".sidebar");
+      $("#shade").toggleClass("shown");
       sidebar.addClass("animate__slideOutLeft");
       window.setTimeout(function () {
         sidebar.toggleClass("hide-sidebar");
