@@ -240,7 +240,7 @@ hr {
   font-family: "Syne", sans-serif;
 }
 @media (max-width: 767px) {
-  .navbar .download-link {
+  .navbar .download-link, .navbar .toggle-theme{
     font-size: 1.15rem;
   }
 
