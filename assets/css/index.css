@@ -361,14 +361,15 @@ button.clipboard:focus {
 }
 
 #shade {
+  opacity: 0%;
+  transition: opacity 2s;
+}
+
+#shade.shown {
   width: 100vw;
   height: 100vh;
   z-index: 9;
   position: fixed;
   background-color: black;
   opacity: 30%;
-}
-
-#shade.hidden {
-  display: none;
 }
