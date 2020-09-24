@@ -508,6 +508,23 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
   }
 }
+.pulse-btn {
+  box-shadow: 0px 1px 4px #6c6c6c;
+}
+.pulse-btn:hover {
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .scale-btn {
   transition: all 0.1s;
 }
@@ -580,23 +597,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .shine-btn.orange-btn:active {
   background-color: #f06400;
-}
-.pulse-btn {
-  box-shadow: 0px 1px 4px #6c6c6c;
-}
-.pulse-btn:hover {
-  animation: pulse 1s infinite;
-}
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 .skew-btn {
   transition: transform 0.2s;

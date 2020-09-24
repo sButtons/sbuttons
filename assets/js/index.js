@@ -167,8 +167,9 @@ $(document).ready(function () {
     copy(script, $(this));
   });
 
-  $(".sidebar-toggler").on("click", function () {
+  $(".sidebar-toggler").on("click", function (e) {
     let sidebar = $(".sidebar");
+    e.stopPropagation();
     sidebar.toggleClass("hide-sidebar");
     let shade = $("#shade");
     shade.toggleClass("shown");
@@ -179,6 +180,24 @@ $(document).ready(function () {
     var w = document.body.clientWidth;
     if (w < 768) {
       let sidebar = $(".sidebar");
+      sidebar.addClass("animate__slideOutLeft");
+      window.setTimeout(function () {
+        sidebar.toggleClass("hide-sidebar");
+        sidebar.removeClass("animate__slideOutLeft");
+      }, 1000);
+    }
+  });
+
+  $("body").click(function (event) {
+    var sidebar = $(".sidebar");
+    var targetElement = $(event.target);
+    if (
+      $(window).width() <= 767 &&
+      !targetElement.hasClass("sidebar") &&
+      !targetElement.parents(".sidebar").length &&
+      sidebar.hasClass("animate__slideInLeft") &&
+      !sidebar.hasClass("hide-sidebar")
+    ) {
       sidebar.addClass("animate__slideOutLeft");
       window.setTimeout(function () {
         sidebar.toggleClass("hide-sidebar");
