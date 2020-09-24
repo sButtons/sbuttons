@@ -170,6 +170,8 @@ $(document).ready(function () {
   $(".sidebar-toggler").on("click", function () {
     let sidebar = $(".sidebar");
     sidebar.toggleClass("hide-sidebar");
+    let shade = $("#shade");
+    shade.toggleClass("hidden");
   });
 
   //Closes sidebar if screen size is less than 768 pixels
@@ -187,6 +189,8 @@ $(document).ready(function () {
 
   $(".close-sidebar").on("click", function () {
     let sidebar = $(".sidebar");
+    let shade = $("#shade");
+    shade.toggleClass("hidden");
     sidebar.addClass("animate__slideOutLeft");
     window.setTimeout(function () {
       sidebar.toggleClass("hide-sidebar");

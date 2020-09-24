@@ -359,3 +359,16 @@ button.clipboard:focus {
 .script-copy {
   cursor: pointer;
 }
+
+#shade {
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+  position: fixed;
+  background-color: black;
+  opacity: 30%;
+}
+
+#shade.hidden {
+  display: none;
+}
