@@ -51,6 +51,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/aymenhamada"><img src="https://avatars1.githubusercontent.com/u/48280251?v=4" width="100px;" alt=""/><br /><sub><b>Aymen Hamada</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=aymenhamada" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Aaymenhamada" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/JoanRosell"><img src="https://avatars0.githubusercontent.com/u/16722585?v=4" width="100px;" alt=""/><br /><sub><b>Joan</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=JoanRosell" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/agyeyamishra/"><img src="https://avatars0.githubusercontent.com/u/53916781?v=4" width="100px;" alt=""/><br /><sub><b>Agyeya Mishra</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=AgyeyaMishra" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3AAgyeyaMishra" title="Bug reports">🐛</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
