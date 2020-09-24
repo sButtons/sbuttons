@@ -57,6 +57,11 @@
   color: #fff;
 }
 
+#shade {
+  opacity: 0%;
+  transition: opacity 2s;
+}
+
 @media (max-width: 767px) {
   .row .hide-sidebar {
     display: none;
@@ -96,5 +101,14 @@
   .sidebar.scrolling {
     top: 0;
     z-index: 100;
+  }
+  
+  #shade.shown {
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    position: fixed;
+    background-color: black;
+    opacity: 30%;
   }
 }
