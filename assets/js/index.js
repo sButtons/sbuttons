@@ -171,6 +171,7 @@ $(document).ready(function () {
     let sidebar = $(".sidebar");
     e.stopPropagation();
     sidebar.toggleClass("hide-sidebar");
+    $("#shade").toggleClass("shown");
   });
 
   //Closes sidebar if screen size is less than 768 pixels
@@ -178,6 +179,7 @@ $(document).ready(function () {
     var w = document.body.clientWidth;
     if (w < 768) {
       let sidebar = $(".sidebar");
+      $("#shade").toggleClass("shown");
       sidebar.addClass("animate__slideOutLeft");
       window.setTimeout(function () {
         sidebar.toggleClass("hide-sidebar");
@@ -196,6 +198,7 @@ $(document).ready(function () {
       sidebar.hasClass("animate__slideInLeft") &&
       !sidebar.hasClass("hide-sidebar")
     ) {
+      $("#shade").toggleClass("shown");
       sidebar.addClass("animate__slideOutLeft");
       window.setTimeout(function () {
         sidebar.toggleClass("hide-sidebar");
@@ -206,6 +209,7 @@ $(document).ready(function () {
 
   $(".close-sidebar").on("click", function () {
     let sidebar = $(".sidebar");
+    $("#shade").toggleClass("shown");
     sidebar.addClass("animate__slideOutLeft");
     window.setTimeout(function () {
       sidebar.toggleClass("hide-sidebar");
