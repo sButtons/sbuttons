@@ -158,7 +158,7 @@ $(document).ready(function () {
   $("body").click(function(event) {
     var sidebar = $(".sidebar") ;
     var targetElement = $(event.target);
-    if( $(window).width() <= 767 && !targetElement.hasClass("sidebar") && !targetElement.hasClass("fas") && sidebar.hasClass("animate__slideInLeft") && (!sidebar.hasClass("hide-sidebar"))){
+    if( $(window).width() <= 767 && !targetElement.hasClass("sidebar") && !targetElement.parents('.sidebar').length && sidebar.hasClass("animate__slideInLeft") && (!sidebar.hasClass("hide-sidebar"))){
       sidebar.addClass("animate__slideOutLeft");
       window.setTimeout(function () {
         sidebar.toggleClass("hide-sidebar");
