@@ -9,6 +9,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 1. [Animated](#animated)
 2. [Icon](#icon)
 3. [Special](#special)
+4. [Social Buttons](#socialButtons)
 
 ---
 
@@ -29,3 +30,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 - [ ] **Retro button**: A button that has a retro style to it.
 - [ ] **Neumorphic button**: A button that has a neumorphic style.
+
+ ## Social Buttons
+
+ - [ ] **Add Rounded Social Buttons** : A social button with rounded corners. 
