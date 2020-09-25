@@ -604,6 +604,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .skew-btn:hover {
   transform: skew(10deg);
 }
+.neon-green-btn {
+  transition: all 0.5s ease;
+}
+.neon-green-btn:hover {
+  color: #000;
+  background-color: #39ff14;
+  box-shadow: -11px 7px 52px 5px #39ff14;
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
