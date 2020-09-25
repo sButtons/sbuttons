@@ -29,3 +29,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 - [ ] **Retro button**: A button that has a retro style to it.
 - [ ] **Neumorphic button**: A button that has a neumorphic style.
+
+ ## Sign In | Sign up  Buttons
+
+ - [ ] **Google | FaceBook | Github** : A button with login in or sign up to Google or Facebook or Github, etc. 
