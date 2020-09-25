@@ -9,6 +9,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 1. [Animated](#animated)
 2. [Icon](#icon)
 3. [Special](#special)
+4. [Social Buttons](#socialButtons)
 
 ---
 
@@ -30,6 +31,6 @@ When adding ideas, please add them in the right category (or add a new one if yo
 - [ ] **Retro button**: A button that has a retro style to it.
 - [ ] **Neumorphic button**: A button that has a neumorphic style.
 
- ## Sign In | Sign up  Buttons
+ ## Social Buttons
 
- - [ ] **Google | FaceBook | Github** : A button with login in or sign up to Google or Facebook or Github, etc. 
+ - [ ] **Rounded  Buttons** : A social button with rounded corners. 
