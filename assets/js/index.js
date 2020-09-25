@@ -121,9 +121,9 @@ $(document).ready(function () {
     }
   }
 
-  function toggleSidebar(){
+  function toggleSidebar() {
     let sidebar = $(".sidebar");
-    if(!sidebar.hasClass("hide-sidebar")){
+    if (!sidebar.hasClass("hide-sidebar")) {
       let sidebar = $(".sidebar");
       $("#shade").removeClass("shown");
       sidebar.addClass("animate__slideOutLeft");
@@ -131,7 +131,7 @@ $(document).ready(function () {
         sidebar.addClass("hide-sidebar");
         sidebar.removeClass("animate__slideOutLeft");
       }, 1000);
-    }else{
+    } else {
       let sidebar = $(".sidebar");
       sidebar.removeClass("hide-sidebar");
       $("#shade").addClass("shown");
