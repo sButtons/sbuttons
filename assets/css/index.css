@@ -158,6 +158,10 @@ section {
   font-size: 1.5rem;
 }
 
+[data-theme="dark"] .button-caption-sub {
+  color: #afafaf;
+}
+
 .button-caption-sub {
   color: #656564;
   font-family: monospace;
