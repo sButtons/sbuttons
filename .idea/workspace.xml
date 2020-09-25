@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43b05458-d18d-4f2b-aa19-af9ef0ee1bad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/0d/c0bdc63ecb82f5241a86d46742f11f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/0d/c0bdc63ecb82f5241a86d46742f11f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/bd/99bc7d560e69a5730df2a3e58977ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/bd/99bc7d560e69a5730df2a3e58977ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/db/e4136b8ba271134a1b93d1273b337f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/db/e4136b8ba271134a1b93d1273b337f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbuttons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbuttons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/buttons-examples.f79506a2.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/buttons-examples.f79506a2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/buttons-examples.f79506a2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/buttons-examples.f79506a2.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css.5ec3a257.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css.5ec3a257.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css.5ec3a257.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css.5ec3a257.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js.5c615dc2.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js.5c615dc2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js.5c615dc2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js.5c615dc2.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sbuttons.min.8fe74774.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sbuttons.min.8fe74774.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sbuttons.min.8fe74774.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sbuttons.min.8fe74774.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sidebar.e288082f.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sidebar.e288082f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sidebar.e288082f.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sidebar.e288082f.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/variables.7473ddb8.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/variables.7473ddb8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/variables.7473ddb8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/variables.7473ddb8.js.map" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hzJEPbylbvxFequCVbJrQpza9p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43b05458-d18d-4f2b-aa19-af9ef0ee1bad" name="Default Changelist" comment="" />
+      <created>1601007874592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601007874592</updated>
+      <workItem from="1601007875685" duration="6147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601015068787">
+      <screen x="68" y="32" width="1298" height="736" />
+    </state>
+    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/68.32.1298.736@68.32.1298.736" timestamp="1601015068787" />
+    <state x="504" y="313" width="426" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601014642946">
+      <screen x="68" y="32" width="1298" height="736" />
+    </state>
+    <state x="504" y="313" width="426" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/68.32.1298.736@68.32.1298.736" timestamp="1601014642946" />
+  </component>
+</project>

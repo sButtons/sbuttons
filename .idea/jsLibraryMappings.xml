@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{all, animate.css, bootstrap, jquery-3.5.1, popper.js, prism}" />
+  </component>
+</project>
