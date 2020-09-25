@@ -100,6 +100,11 @@ $(document).ready(function () {
           label: "Skew",
           classes: "skew-btn",
         },
+        {
+          type: "ripple",
+          label: "Ripple",
+          classes: "ripple-btn",
+        },
       ],
     },
     {

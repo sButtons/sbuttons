@@ -1,0 +1,51 @@
+.ripple-btn {
+  transition: background 0.6s;
+  background-position: center;
+  background-image: radial-gradient(
+    circle,
+    transparent 1%,
+    rgb(219, 231, 231) 1%
+  );
+  background-size: 12000%;
+}
+
+.ripple-btn:active {
+  transition: background 0s;
+  background-size: 20%;
+}
+
+.backgroundImg(@color) {
+  background-image: radial-gradient(circle, transparent 1%, @color 1%);
+}
+
+.blue-btn {
+  .backgroundImg(@darkBlue);
+}
+
+.pink-btn {
+  .backgroundImg(@darkPink);
+}
+
+.green-btn {
+  .backgroundImg(@darkGreen);
+}
+
+.yellow-btn {
+  .backgroundImg(@darkYellow);
+}
+
+.red-btn {
+  .backgroundImg(@darkRed);
+}
+
+.purple-btn {
+  .backgroundImg(@darkPurple);
+}
+
+.orange-btn {
+  .backgroundImg(@darkOrange);
+}
+
+.black-btn {
+  .backgroundImg(@lightBlack);
+}
