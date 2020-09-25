@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43b05458-d18d-4f2b-aa19-af9ef0ee1bad" name="Default Changelist" comment="" />
+    <list default="true" id="43b05458-d18d-4f2b-aa19-af9ef0ee1bad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/db/e4136b8ba271134a1b93d1273b337f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/db/e4136b8ba271134a1b93d1273b337f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601007874592</updated>
-      <workItem from="1601007875685" duration="6460000" />
+      <workItem from="1601007875685" duration="7667000" />
     </task>
     <servers />
   </component>
@@ -74,10 +79,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601015365046">
+    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601015519908">
       <screen x="68" y="32" width="1298" height="736" />
     </state>
-    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/68.32.1298.736@68.32.1298.736" timestamp="1601015365046" />
+    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/68.32.1298.736@68.32.1298.736" timestamp="1601015519908" />
     <state x="504" y="313" width="426" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601014642946">
       <screen x="68" y="32" width="1298" height="736" />
     </state>
