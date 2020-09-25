@@ -19,27 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43b05458-d18d-4f2b-aa19-af9ef0ee1bad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/0d/c0bdc63ecb82f5241a86d46742f11f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/0d/c0bdc63ecb82f5241a86d46742f11f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/bd/99bc7d560e69a5730df2a3e58977ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/bd/99bc7d560e69a5730df2a3e58977ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/db/e4136b8ba271134a1b93d1273b337f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/db/e4136b8ba271134a1b93d1273b337f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbuttons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbuttons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/buttons-examples.f79506a2.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/buttons-examples.f79506a2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/buttons-examples.f79506a2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/buttons-examples.f79506a2.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css.5ec3a257.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css.5ec3a257.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css.5ec3a257.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css.5ec3a257.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js.5c615dc2.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js.5c615dc2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js.5c615dc2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js.5c615dc2.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sbuttons.min.8fe74774.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sbuttons.min.8fe74774.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sbuttons.min.8fe74774.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sbuttons.min.8fe74774.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sidebar.e288082f.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sidebar.e288082f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sidebar.e288082f.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sidebar.e288082f.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/variables.7473ddb8.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/variables.7473ddb8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/variables.7473ddb8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/variables.7473ddb8.js.map" afterDir="false" />
-    </list>
+    <list default="true" id="43b05458-d18d-4f2b-aa19-af9ef0ee1bad" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601007874592</updated>
-      <workItem from="1601007875685" duration="6147000" />
+      <workItem from="1601007875685" duration="6460000" />
     </task>
     <servers />
   </component>
@@ -94,10 +74,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601015068787">
+    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601015365046">
       <screen x="68" y="32" width="1298" height="736" />
     </state>
-    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/68.32.1298.736@68.32.1298.736" timestamp="1601015068787" />
+    <state x="312" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/68.32.1298.736@68.32.1298.736" timestamp="1601015365046" />
     <state x="504" y="313" width="426" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601014642946">
       <screen x="68" y="32" width="1298" height="736" />
     </state>
