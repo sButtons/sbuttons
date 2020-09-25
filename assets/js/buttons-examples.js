@@ -131,6 +131,12 @@ $(document).ready(function () {
           classes: "like-btn",
           text: "",
         },
+        {
+          type: "plus",
+          label: "Plus Button",
+          classes: "plus-btn",
+          text: "",
+        },
       ],
     },
     {
@@ -213,12 +219,12 @@ $(document).ready(function () {
 
     section.append(
       "<" +
-        heading +
-        ' class="section-header">' +
-        button.label +
-        "</" +
-        heading +
-        ">"
+      heading +
+      ' class="section-header">' +
+      button.label +
+      "</" +
+      heading +
+      ">"
     );
     if (button.hasOwnProperty("variations")) {
       var buttonGrid = $('<div class="button-grid">');
