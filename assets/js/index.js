@@ -217,8 +217,7 @@ $(document).ready(function () {
     toggleTheme();
   });
 
-  $("#downloadGithubRawHeader, #downloadGithubRawHowTo").on(
-    "click",
-    downloadGithubCssRaw
-  );
+  $(
+    "#downloadGithubRawHeader, #downloadGithubRawButton, #downloadGithubRawHowTo"
+  ).on("click", downloadGithubCssRaw);
 });
