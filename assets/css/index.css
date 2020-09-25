@@ -124,6 +124,10 @@ header .content .sbtn:nth-of-type(2) {
   color: #000;
 }
 
+header .content .sbtn {
+  font-size: 1.3rem;
+}
+
 header .content .sbtn:first-of-type {
   margin-right: 0.5em;
 }
