@@ -219,12 +219,12 @@ $(document).ready(function () {
 
     section.append(
       "<" +
-      heading +
-      ' class="section-header">' +
-      button.label +
-      "</" +
-      heading +
-      ">"
+        heading +
+        ' class="section-header">' +
+        button.label +
+        "</" +
+        heading +
+        ">"
     );
     if (button.hasOwnProperty("variations")) {
       var buttonGrid = $('<div class="button-grid">');
