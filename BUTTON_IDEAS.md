@@ -33,4 +33,4 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
  ## Social Buttons
 
- - [ ] **Rounded  Buttons** : A social button with rounded corners. 
+ - [ ] **Add Rounded Social Buttons** : A social button with rounded corners. 
