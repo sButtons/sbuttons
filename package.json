@@ -7,8 +7,8 @@
   "license": "ISC",
   "scripts": {
     "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev && lite-server && npm run watch:all",
+    "dev": "parcel index.html --open && lite-server",
+    "start": "npm run build && npm run dev && npm run watch:all",
     "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier && npm run clean-css",
     "watch": "concurrently \"less-watch-compiler src dist\" \"onchange -v dist/sbuttons.css -- npm run clean-css \" ",
     "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" \"assets/**\" ",
