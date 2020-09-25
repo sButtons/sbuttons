@@ -25,13 +25,14 @@
     "less-watch-compiler": "^1.14.6",
     "lessc": "^1.0.2",
     "onchange": "^7.0.2",
-    "prettier": "^2.1.1"
-  },
-  "dependencies": {
+    "prettier": "^2.1.1",
     "lite-server": "^2.5.4",
     "node-less": "^1.0.0",
     "node-sass": "^4.14.1",
     "parallelshell": "^3.0.2",
     "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+
   }
 }
