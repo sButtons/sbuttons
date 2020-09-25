@@ -131,6 +131,12 @@ $(document).ready(function () {
           classes: "like-btn",
           text: "",
         },
+        {
+          type: "play",
+          label: "Play Button",
+          classes: "play-btn",
+          text: "",
+        },
       ],
     },
     {
