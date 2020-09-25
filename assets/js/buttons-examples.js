@@ -131,6 +131,12 @@ $(document).ready(function () {
           classes: "like-btn",
           text: "",
         },
+        {
+          type: "plus",
+          label: "plus Button",
+          classes: "plus-btn",
+          text: "",
+        },
       ],
     },
     {

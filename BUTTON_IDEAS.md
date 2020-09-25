@@ -20,7 +20,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 ## Icon
 
-- [ ] **Plus button**: A button just with a plus icon
+- [x] ~~**Plus button**: A button just with a plus icon~~
 - [x] ~~**Buy me coffee button**~~
 
 ## Special
