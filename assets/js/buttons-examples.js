@@ -133,16 +133,22 @@ $(document).ready(function () {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e0fa58e7c522f9bb5fec405973ce7874a16a03d3
           type: "add-to-cart",
           label: "Add To Cart Button",
           classes: "add-to-cart-btn",
           text: "Add To Cart",
+<<<<<<< HEAD
 =======
           type: "plus",
           label: "Plus Button",
           classes: "plus-btn",
           text: "",
 >>>>>>> upstream/master
+=======
+>>>>>>> e0fa58e7c522f9bb5fec405973ce7874a16a03d3
         },
       ],
     },
