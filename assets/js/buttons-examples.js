@@ -131,6 +131,12 @@ $(document).ready(function () {
           classes: "like-btn",
           text: "",
         },
+        {
+          type: "add-to-cart",
+          label: "Add To Cart Button",
+          classes: "add-to-cart-btn",
+          text: "Add To Cart",
+        },
       ],
     },
     {
