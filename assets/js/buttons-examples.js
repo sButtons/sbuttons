@@ -61,6 +61,11 @@ $(document).ready(function () {
           classes: "invert-btn",
         },
         {
+          type: "neon",
+          label: "Neon",
+          classes: "neon-green-btn",
+        },
+        {
           type: "next",
           label: "Next Button",
           classes: "next-arrow-btn",

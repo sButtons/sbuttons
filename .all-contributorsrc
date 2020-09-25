@@ -406,6 +406,33 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "HADES-01",
+      "name": "HADES-01",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/52060608?v=4",
+      "profile": "https://github.com/HADES-01",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "OuissalFX",
+      "name": "OuissalFX",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/69321016?v=4",
+      "profile": "https://github.com/OuissalFX",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Neeraj3508",
+      "name": "Neeraj Gupta",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55191873?v=4",
+      "profile": "https://github.com/Neeraj3508",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
