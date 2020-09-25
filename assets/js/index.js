@@ -221,8 +221,7 @@ $(document).ready(function () {
     toggleTheme();
   });
 
-  $("#downloadGithubRawHeader, #downloadGithubRawButton, #downloadGithubRawHowTo").on(
-    "click",
-    downloadGithubCssRaw
-  );
+  $(
+    "#downloadGithubRawHeader, #downloadGithubRawButton, #downloadGithubRawHowTo"
+  ).on("click", downloadGithubCssRaw);
 });

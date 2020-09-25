@@ -119,13 +119,13 @@ header .content .subtitle {
 }
 
 /* This is overriding the download and documentation button colors for now since we don't have a white class - more than happy to create one! */
-header .content .sbtn { 
+header .content .sbtn {
   background-color: #fff;
   color: #000;
 }
 
 header .content .sbtn:first-of-type {
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 section {
