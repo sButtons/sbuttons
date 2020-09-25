@@ -169,6 +169,10 @@ $(document).ready(function () {
           classes: "weibo",
           text: "Login with Weibo",
         },
+        {
+          classes: "github",
+          text: "Login with Github",
+        },
       ],
       children: [],
     },
