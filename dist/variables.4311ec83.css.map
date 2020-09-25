@@ -1,0 +1,1 @@
+{"version":3,"sources":["variables.css"],"names":[],"mappings":"AAAA,MACE,oBAAqB,CACrB,oBACF","file":"variables.4311ec83.css","sourceRoot":"..","sourcesContent":[":root {\n  --main-color: #3a91ff;\n  --dark-color: #262626;\n}\n"]}
