@@ -58,6 +58,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://codepen.io/keirafoxy"><img src="https://avatars0.githubusercontent.com/u/40696730?v=4" width="100px;" alt=""/><br /><sub><b>Lilya Zilyukina</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=zilyukina" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ruchikamuddinagiri"><img src="https://avatars2.githubusercontent.com/u/52284361?v=4" width="100px;" alt=""/><br /><sub><b>Ruchika </b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=ruchikamuddinagiri" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/vitoriapena"><img src="https://avatars2.githubusercontent.com/u/16581093?v=4" width="100px;" alt=""/><br /><sub><b>Vitória</b></sub></a><br /><a href="#ideas-vitoriapena" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://nichole.is"><img src="https://avatars3.githubusercontent.com/u/5521567?v=4" width="100px;" alt=""/><br /><sub><b>Nichole Dwight</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=nicholedwight" title="Code">💻</a></td>
   </tr>
 </table>
 
