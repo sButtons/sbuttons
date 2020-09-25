@@ -121,6 +121,23 @@ $(document).ready(function () {
     }
   }
 
+  function toggleSidebar(){
+    let sidebar = $(".sidebar");
+    if(!sidebar.hasClass("hide-sidebar")){
+      let sidebar = $(".sidebar");
+      $("#shade").removeClass("shown");
+      sidebar.addClass("animate__slideOutLeft");
+      window.setTimeout(function () {
+        sidebar.addClass("hide-sidebar");
+        sidebar.removeClass("animate__slideOutLeft");
+      }, 1000);
+    }else{
+      let sidebar = $(".sidebar");
+      sidebar.removeClass("hide-sidebar");
+      $("#shade").addClass("shown");
+    }
+  }
+
   var copiedTooltipOptions = {
     title: "Copied",
     trigger: "click",
@@ -168,23 +185,15 @@ $(document).ready(function () {
   });
 
   $(".sidebar-toggler").on("click", function (e) {
-    let sidebar = $(".sidebar");
     e.stopPropagation();
-    sidebar.toggleClass("hide-sidebar");
-    $("#shade").toggleClass("shown");
+    toggleSidebar();
   });
 
   //Closes sidebar if screen size is less than 768 pixels
   $(".sidebar a").on("click", function () {
     var w = document.body.clientWidth;
     if (w < 768) {
-      let sidebar = $(".sidebar");
-      $("#shade").toggleClass("shown");
-      sidebar.addClass("animate__slideOutLeft");
-      window.setTimeout(function () {
-        sidebar.toggleClass("hide-sidebar");
-        sidebar.removeClass("animate__slideOutLeft");
-      }, 1000);
+      toggleSidebar();
     }
   });
 
@@ -198,24 +207,11 @@ $(document).ready(function () {
       sidebar.hasClass("animate__slideInLeft") &&
       !sidebar.hasClass("hide-sidebar")
     ) {
-      $("#shade").toggleClass("shown");
-      sidebar.addClass("animate__slideOutLeft");
-      window.setTimeout(function () {
-        sidebar.toggleClass("hide-sidebar");
-        sidebar.removeClass("animate__slideOutLeft");
-      }, 1000);
+      toggleSidebar();
     }
   });
 
-  $(".close-sidebar").on("click", function () {
-    let sidebar = $(".sidebar");
-    $("#shade").toggleClass("shown");
-    sidebar.addClass("animate__slideOutLeft");
-    window.setTimeout(function () {
-      sidebar.toggleClass("hide-sidebar");
-      sidebar.removeClass("animate__slideOutLeft");
-    }, 1000);
-  });
+  $(".close-sidebar").on("click", toggleSidebar);
 
   $(".toggle-theme").on("click", function () {
     toggleTheme();
