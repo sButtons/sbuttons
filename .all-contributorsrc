@@ -361,6 +361,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "devSouvik",
+      "name": "Souvik Guria",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54489090?v=4",
+      "profile": "https://github.com/devSouvik",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "zilyukina",
+      "name": "Lilya Zilyukina",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40696730?v=4",
+      "profile": "https://codepen.io/keirafoxy",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
