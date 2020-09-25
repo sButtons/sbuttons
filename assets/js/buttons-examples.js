@@ -132,10 +132,17 @@ $(document).ready(function () {
           text: "",
         },
         {
+<<<<<<< HEAD
           type: "add-to-cart",
           label: "Add To Cart Button",
           classes: "add-to-cart-btn",
           text: "Add To Cart",
+=======
+          type: "plus",
+          label: "Plus Button",
+          classes: "plus-btn",
+          text: "",
+>>>>>>> upstream/master
         },
       ],
     },
