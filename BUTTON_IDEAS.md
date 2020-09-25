@@ -22,6 +22,8 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 - [ ] **Plus button**: A button just with a plus icon
 - [x] ~~**Buy me coffee button**~~
+- [ ] **Icon Button**: A button with icons enlargement and shrink effect on hover.
+
 
 ## Special
 
