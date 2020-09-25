@@ -1,0 +1,12 @@
+.neon(@col) {
+  color: @black;
+  background-color: @col;
+  box-shadow: -11px 7px 52px 5px @col;
+}
+
+.neon-green-btn {
+  transition: all 0.5s ease;
+  &:hover {
+    .neon(@neonGreen);
+  }
+}

@@ -15,7 +15,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 ## Animated
 
 - [x] ~~**Skew button**: A button that skews on hover.~~
-- [ ] **Neon button**: A button that glows on hover.
+- [x] **Neon button**: A button that glows on hover.
 - [ ] **Ripple Button**: A button with ripple effect on hover.
 
 ## Icon
