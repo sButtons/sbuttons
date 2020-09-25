@@ -812,3 +812,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f18a";
 }
+.social-btn.github {
+  background-color: #000000;
+  color: #fff;
+}
+.social-btn.github:after {
+  color: #fff;
+  content: "\f09b";
+}

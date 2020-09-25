@@ -156,6 +156,10 @@ $(document).ready(function () {
           text: "Login with Facebook",
         },
         {
+          classes: "github",
+          text: "Login with Github",
+        },
+        {
           classes: "google",
           text: "Login with Google",
         },
