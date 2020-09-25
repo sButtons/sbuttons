@@ -150,6 +150,10 @@ $(document).ready(function () {
           text: "Login with Facebook",
         },
         {
+          classes: "github",
+          text: "Login with Github",
+        },
+        {
           classes: "google",
           text: "Login with Google",
         },
@@ -168,10 +172,6 @@ $(document).ready(function () {
         {
           classes: "weibo",
           text: "Login with Weibo",
-        },
-        {
-          classes: "github",
-          text: "Login with Github",
         },
       ],
       children: [],
