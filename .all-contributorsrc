@@ -452,6 +452,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jad837",
+      "name": "Saurabh Jadhav",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36992945?v=4",
+      "profile": "https://github.com/jad837",
+      "contributions": [
+        "doc",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
