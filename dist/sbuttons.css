@@ -760,6 +760,18 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f1a0";
 }
+.social-btn.google-rounded {
+  background-color: #fff;
+  color: #353535;
+  border-radius: 40px;
+}
+.social-btn.google-rounded:after {
+  color: #ea4335;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f1a0";
+}
 .social-btn.facebook {
   background-color: #3360ff;
   color: #fff;
@@ -788,8 +800,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
   );
   color: #fff;
   border: 0px !important;
+  border-radius: 40px;
 }
 .social-btn.instagram:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f16d";
+}
+.social-btn.instagram-rounded {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: #fff;
+  border: 0px !important;
+}
+.social-btn.instagram-rounded:after {
   color: white;
   position: absolute;
   right: 10px;
@@ -807,11 +839,35 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f099";
 }
+.social-btn.twitter-rounded {
+  background-color: #00acee;
+  color: #fff;
+  border-radius: 40px;
+}
+.social-btn.twitter-rounded:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f099";
+}
 .social-btn.linkedin {
   background-color: #0e76a8;
   color: #fff;
 }
 .social-btn.linkedin:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f0e1";
+}
+.social-btn.linkedin-rounded {
+  background-color: #0e76a8;
+  color: #fff;
+  border-radius: 40px;
+}
+.social-btn.linkedin-rounded:after {
   color: white;
   position: absolute;
   right: 10px;
@@ -829,11 +885,32 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f18a";
 }
+.social-btn.weibo-rounded {
+  background-color: #df2029;
+  color: #fff;
+  border-radius: 40px;
+}
+.social-btn.weibo-rounded:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f18a";
+}
 .social-btn.github {
   background-color: #000000;
   color: #fff;
 }
 .social-btn.github:after {
+  color: #fff;
+  content: "\f09b";
+}
+.social-btn.github-rounded {
+  background-color: #000000;
+  color: #fff;
+  border-radius: 40px;
+}
+.social-btn.github-rounded:after {
   color: #fff;
   content: "\f09b";
 }
