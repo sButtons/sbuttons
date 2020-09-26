@@ -1,0 +1,15 @@
+.invert-btn {
+  &:hover {
+    animation: colorTransformation 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes colorTransformation {
+    0% {
+      filter: invert(0);
+    }
+    100% {
+      filter: invert(1);
+    }
+  }
+}

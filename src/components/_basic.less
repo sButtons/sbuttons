@@ -1,0 +1,107 @@
+.bc(@color) {
+  background-color: @color;
+}
+
+.colorRule(@color) {
+  .bc(@color);
+
+  &:focus,
+  &:active {
+    box-shadow: 0px 0px 0 0.2rem fade(@color, 30%);
+    outline: 0;
+  }
+}
+
+.sbtn {
+  padding: @buttonPadding;
+  text-align: center;
+  -webkit-appearance: none;
+  .bc(transparent);
+  border: 1px solid;
+  cursor: pointer;
+  border-color: transparent;
+  color: @lightText;
+  font-family: inherit;
+  overflow: hidden;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+a.sbtn {
+  &,
+  &:hover,
+  &:active {
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+
+.btn-rounded {
+  border-radius: 25px;
+}
+
+.blue-btn {
+  .colorRule(@blue);
+}
+
+.pink-btn {
+  .colorRule(@pink);
+}
+
+.red-btn {
+  .colorRule(@red);
+}
+
+.green-btn {
+  .colorRule(@green);
+}
+
+.yellow-btn {
+  .colorRule(@yellow);
+
+  &:not(.fill-color-btn) {
+    color: @darkText !important;
+  }
+}
+
+.orange-btn {
+  .colorRule(@orange);
+}
+
+.purple-btn {
+  .colorRule(@purple);
+}
+
+.black-btn {
+  .colorRule(@black);
+
+  &:focus {
+    box-shadow: 0px 0px 0 0.2rem fade(@blackShadow, 67%);
+    outline: 0;
+  }
+}
+
+a.purple-btn,
+a.orange-btn,
+a.green-btn,
+a.red-btn,
+a.pink-btn,
+a.blue-btn {
+  &:hover,
+  &:active {
+    color: @lightText;
+  }
+}
+
+a.yellow-btn {
+  &:hover,
+  &:active {
+    &:not(.fill-color-btn) {
+      color: @darkText !important;
+    }
+  }
+}
