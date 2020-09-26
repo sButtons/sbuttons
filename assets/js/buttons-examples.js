@@ -119,6 +119,13 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "add-to-cart",
+          label: "Add To Cart Button",
+          classes: "add-to-cart-btn",
+          text: "Add To Cart",
+        },
+
+        {
           type: "buy-me-coffee",
           label: "Buy Me Coffee Button",
           classes: "buy-me-coffee-btn",
@@ -164,6 +171,10 @@ $(document).ready(function () {
       variations: [
         {
           classes: "facebook",
+          text: "Login with Facebook",
+        },
+        {
+          classes: "facebook-rounded",
           text: "Login with Facebook",
         },
         {

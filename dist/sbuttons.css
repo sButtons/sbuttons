@@ -761,6 +761,24 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 1.6em;
   padding: 0;
 }
+.add-to-cart-btn {
+  position: relative;
+  padding-right: 1.5em;
+}
+.add-to-cart-btn:after {
+  content: "\f07a";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 0.3em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  top: 23%;
+}
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;
@@ -794,6 +812,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
 }
 .social-btn.facebook:after {
+  color: #fff;
+  content: "\f39e";
+}
+.social-btn.facebook-rounded {
+  background-color: #1e7cff;
+  color: #fff;
+  border-radius: 40px;
+}
+.social-btn.facebook-rounded:after {
   color: #fff;
   content: "\f39e";
 }
