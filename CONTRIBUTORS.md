@@ -67,6 +67,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://calebolojo.me"><img src="https://avatars3.githubusercontent.com/u/48127194?v=4" width="100px;" alt=""/><br /><sub><b>Caleb Olojo</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Caleb335" title="Documentation">📖</a></td>
     <td align="center"><a href="https://shikhargupta-in.github.io/"><img src="https://avatars1.githubusercontent.com/u/59876817?v=4" width="100px;" alt=""/><br /><sub><b>Shikhar Gupta</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=shikhargupta-in" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jad837"><img src="https://avatars2.githubusercontent.com/u/36992945?v=4" width="100px;" alt=""/><br /><sub><b>Saurabh Jadhav</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=jad837" title="Documentation">📖</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Ajad837" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/alkatrivedi"><img src="https://avatars3.githubusercontent.com/u/58396306?v=4" width="100px;" alt=""/><br /><sub><b>alkatrivedi</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=alkatrivedi" title="Code">💻</a></td>
   </tr>
 </table>
 
