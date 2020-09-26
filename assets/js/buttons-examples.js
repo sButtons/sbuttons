@@ -61,6 +61,11 @@ $(document).ready(function () {
           classes: "invert-btn",
         },
         {
+          type: "neon",
+          label: "Neon",
+          classes: "neon-green-btn",
+        },
+        {
           type: "next",
           label: "Next Button",
           classes: "next-arrow-btn",
@@ -137,6 +142,12 @@ $(document).ready(function () {
           classes: "play-btn",
           text: "",
         },
+        {
+          type: "plus",
+          label: "Plus Button",
+          classes: "plus-btn",
+          text: "",
+        },
       ],
     },
     {
@@ -154,6 +165,10 @@ $(document).ready(function () {
         {
           classes: "facebook",
           text: "Login with Facebook",
+        },
+        {
+          classes: "github",
+          text: "Login with Github",
         },
         {
           classes: "google",
