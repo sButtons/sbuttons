@@ -56,6 +56,16 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/JLambertazzo"><img src="https://avatars0.githubusercontent.com/u/42924425?v=4" width="100px;" alt=""/><br /><sub><b>Julien Bertazzo Lambert</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=JLambertazzo" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/devSouvik"><img src="https://avatars3.githubusercontent.com/u/54489090?v=4" width="100px;" alt=""/><br /><sub><b>Souvik Guria</b></sub></a><br /><a href="#ideas-devSouvik" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://codepen.io/keirafoxy"><img src="https://avatars0.githubusercontent.com/u/40696730?v=4" width="100px;" alt=""/><br /><sub><b>Lilya Zilyukina</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=zilyukina" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ruchikamuddinagiri"><img src="https://avatars2.githubusercontent.com/u/52284361?v=4" width="100px;" alt=""/><br /><sub><b>Ruchika </b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=ruchikamuddinagiri" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/vitoriapena"><img src="https://avatars2.githubusercontent.com/u/16581093?v=4" width="100px;" alt=""/><br /><sub><b>Vitória</b></sub></a><br /><a href="#ideas-vitoriapena" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://nichole.is"><img src="https://avatars3.githubusercontent.com/u/5521567?v=4" width="100px;" alt=""/><br /><sub><b>Nichole Dwight</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=nicholedwight" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/HADES-01"><img src="https://avatars0.githubusercontent.com/u/52060608?v=4" width="100px;" alt=""/><br /><sub><b>HADES-01</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=HADES-01" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/OuissalFX"><img src="https://avatars3.githubusercontent.com/u/69321016?v=4" width="100px;" alt=""/><br /><sub><b>OuissalFX</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=OuissalFX" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Neeraj3508"><img src="https://avatars2.githubusercontent.com/u/55191873?v=4" width="100px;" alt=""/><br /><sub><b>Neeraj Gupta</b></sub></a><br /><a href="#ideas-Neeraj3508" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://calebolojo.me"><img src="https://avatars3.githubusercontent.com/u/48127194?v=4" width="100px;" alt=""/><br /><sub><b>Caleb Olojo</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Caleb335" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://shikhargupta-in.github.io/"><img src="https://avatars1.githubusercontent.com/u/59876817?v=4" width="100px;" alt=""/><br /><sub><b>Shikhar Gupta</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=shikhargupta-in" title="Code">💻</a></td>
   </tr>
 </table>
 
