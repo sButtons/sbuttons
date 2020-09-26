@@ -612,6 +612,40 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #39ff14;
   box-shadow: -11px 7px 52px 5px #39ff14;
 }
+.ripple-btn {
+  transition: background 0.6s;
+  background-position: center;
+  background-image: radial-gradient(circle, transparent 1%, #dbe7e7 1%);
+  background-size: 12000%;
+}
+.ripple-btn:active {
+  transition: background 0s;
+  background-size: 20%;
+}
+.blue-btn {
+  background-image: radial-gradient(circle, transparent 1%, #1fa5d6 1%);
+}
+.pink-btn {
+  background-image: radial-gradient(circle, transparent 1%, #be309a 1%);
+}
+.green-btn {
+  background-image: radial-gradient(circle, transparent 1%, #328f4a 1%);
+}
+.yellow-btn {
+  background-image: radial-gradient(circle, transparent 1%, #f9d90b 1%);
+}
+.red-btn {
+  background-image: radial-gradient(circle, transparent 1%, #bf0833 1%);
+}
+.purple-btn {
+  background-image: radial-gradient(circle, transparent 1%, #4c2291 1%);
+}
+.orange-btn {
+  background-image: radial-gradient(circle, transparent 1%, #f06400 1%);
+}
+.black-btn {
+  background-image: radial-gradient(circle, transparent 1%, #262626 1%);
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
