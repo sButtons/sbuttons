@@ -24,7 +24,7 @@ Please note we have a code of conduct, please follow it in all your interactions
         ```
         npm run watch
         ```
-        This will update the CSS in `dist/sbuttons.css` and `dist/sbuttons.min.css` as you make changes. Make sure that if you use watch, you use `npm run prettier` before committing the code.
+        This will update the CSS in `dist/sbuttons.css` as you make changes. Make sure that if you use watch, you use `npm run prettier` before committing the code.
     2. Compile command:
         ```
         npm run compile
