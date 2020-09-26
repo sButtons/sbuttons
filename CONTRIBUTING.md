@@ -20,15 +20,16 @@ Please note we have a code of conduct, please follow it in all your interactions
 
     After making any changes, you need to compile the LESS file into CSS. To do that there you can use the following:
 
-    1. Watch command:
+    1. Start command:
         ```
-        npm run watch
+        npm start
         ```
-        This will update the CSS in `dist/sbuttons.css` as you make changes. Make sure that if you use watch, you use `npm run prettier` before committing the code.
+        This will run sbuttons on a lite server as well as update the CSS in `dist/sbuttons.css` as you make changes.
     2. Compile command:
         ```
         npm run compile
         ```
+    Make sure to run `npm install` before any of these commands.
 3. To make changes to the website:
    1. To add new examples, make changes in `assets/js/buttons-examples.js`.
       1. To add new button colors, add them to the variable `buttonColors`
@@ -50,9 +51,9 @@ Please note we have a code of conduct, please follow it in all your interactions
                         // button styling. Look at social buttons for example on how to use this
          }
          ```
-    2. To edit the HTML, make changes in `index.html`
-    3. To edit the CSS of the website, make changes in `assets/css/`
-    4. To edit the JS of the website, make changes in `assets/js`
+    3. To edit the HTML, make changes in `index.html`
+    4. To edit the CSS of the website, make changes in `assets/css/`
+    5. To edit the JS of the website, make changes in `assets/js`
 
 ## Button Ideas
 
