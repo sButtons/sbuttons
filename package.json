@@ -6,18 +6,15 @@
   "author": "Shahed Nasser",
   "license": "ISC",
   "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open && lite-server",
-    "start": "npm run build && npm run dev && npm run watch:all",
+    "start": "npm run watch:all",
     "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier && npm run clean-css",
     "watch": "concurrently \"less-watch-compiler src dist\" \"onchange -v dist/sbuttons.css -- npm run clean-css \" ",
     "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" \"assets/**\" ",
     "lite": "lite-server",
     "check-prettier": "prettier --check \"src/**/*.less\" \"dist/sbuttons.css\" ",
     "clean-css": "cleancss -o dist/sbuttons.min.css dist/sbuttons.css",
-    "watch:all": "parallelshell 'npm run watch:scss' 'npm run watch:less' 'npm run lite'",
-    "watch:scss": "onchange 'css/*.scss' --npm run scss",
-    "watch:less": "onchange 'css/*.less' --npm run less"
+    "watch:less": "onchange -v src/*.less -- npm run compile",
+    "watch:all": "parallelshell 'npm run watch:less' 'npm run lite'"
   },
   "devDependencies": {
     "clean-css-cli": "^4.3.0",
@@ -29,9 +26,6 @@
     "prettier": "^2.1.1",
     "lite-server": "^2.5.4",
     "node-less": "^1.0.0",
-    "node-sass": "^4.14.1",
-    "parallelshell": "^3.0.2",
-    "parcel-bundler": "^1.12.4"
-  },
-  "dependencies": {}
+    "parallelshell": "^3.0.2"
+  }
 }
