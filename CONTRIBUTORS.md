@@ -64,6 +64,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/HADES-01"><img src="https://avatars0.githubusercontent.com/u/52060608?v=4" width="100px;" alt=""/><br /><sub><b>HADES-01</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=HADES-01" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/OuissalFX"><img src="https://avatars3.githubusercontent.com/u/69321016?v=4" width="100px;" alt=""/><br /><sub><b>OuissalFX</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=OuissalFX" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Neeraj3508"><img src="https://avatars2.githubusercontent.com/u/55191873?v=4" width="100px;" alt=""/><br /><sub><b>Neeraj Gupta</b></sub></a><br /><a href="#ideas-Neeraj3508" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://calebolojo.me"><img src="https://avatars3.githubusercontent.com/u/48127194?v=4" width="100px;" alt=""/><br /><sub><b>Caleb Olojo</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Caleb335" title="Documentation">📖</a></td>
   </tr>
 </table>
 
