@@ -64,6 +64,10 @@ header {
 
 .navbar .logo h1 {
   margin-bottom: 0;
+  color: #007bff;
+}
+.navbar .logo a{
+  text-decoration: none;
 }
 
 .navbar:not(.scrolling) .logo {
