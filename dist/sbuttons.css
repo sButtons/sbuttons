@@ -604,13 +604,55 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .skew-btn:hover {
   transform: skew(10deg);
 }
-.neon-green-btn {
+.neon-btn {
   transition: all 0.5s ease;
 }
-.neon-green-btn:hover {
+.neon-btn.green-btn {
+  transition: all 0.5s ease;
+}
+.neon-btn.green-btn:hover {
   color: #000;
   background-color: #39ff14;
-  box-shadow: -11px 7px 52px 5px #39ff14;
+  box-shadow: 0px 0px 52px 10px #39ff14;
+}
+.neon-btn.blue-btn {
+  transition: all 0.5s ease;
+}
+.neon-btn.blue-btn:hover {
+  color: #000;
+  background-color: #1fffec;
+  box-shadow: 0px 0px 52px 10px #1fffec;
+}
+.neon-btn.red-btn:hover {
+  color: #000;
+  background-color: #ff013c;
+  box-shadow: 0px 0px 52px 10px #ff013c;
+}
+.neon-btn.purple-btn:hover {
+  color: #000;
+  background-color: #8d47ff;
+  box-shadow: 0px 0px 52px 10px #8d47ff;
+}
+.neon-btn.orange-btn:hover {
+  color: #000;
+  background-color: #ff9b18;
+  box-shadow: 0px 0px 52px 10px #ff9b18;
+}
+.neon-btn.yellow-btn:hover {
+  color: #000;
+  background-color: #ffe53d;
+  box-shadow: 0px 0px 52px 10px #ffe53d;
+}
+.neon-btn.pink-btn:hover {
+  color: #000;
+  background-color: #ff2aca;
+  box-shadow: 0px 0px 52px 10px #ff2aca;
+}
+.neon-btn.black-btn:hover {
+  color: #000;
+  background-color: #414141;
+  box-shadow: 0px 0px 52px 10px #414141;
+  color: #fff !important;
 }
 .buy-me-coffee-btn {
   position: relative;
