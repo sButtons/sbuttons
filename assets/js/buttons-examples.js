@@ -113,14 +113,13 @@ $(document).ready(function () {
       label: "Icon Buttons",
       classes: "",
       children: [
-        
         {
           type: "add-to-cart",
           label: "Add To Cart Button",
           classes: "add-to-cart-btn",
           text: "Add To Cart",
         },
-        
+
         {
           type: "buy-me-coffee",
           label: "Buy Me Coffee Button",
