@@ -283,10 +283,6 @@ hr {
 
   .sidebar-list {
     overflow-y: auto;
-<<<<<<< HEAD
-=======
-    display: grid;
->>>>>>> 756790721c9dbd7324ebf8265dcd606de2d269fd
   }
 
   .sidebar-list::-webkit-scrollbar {
