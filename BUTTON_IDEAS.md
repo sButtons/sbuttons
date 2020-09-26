@@ -40,6 +40,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744;| **Retro button**| A button that has a retro style to it| |  
 | &#9744;| **Neumorphic button**| A button that has a neumorphic style |[Vitória](https://github.com/vitoriapena) |
 | &#9744;| **Validation button** | A button that changes color if all the test cases are satisfied and displays with the message "SUCCESS" otherwise "SORRY" if it fails. | [Alina Sahoo](https://github.com/alinasahoo)
+| &#9744;| **Add Button Block** | A button with full width on empty space. | [Sonny Michael](https://github.com/isonnymichael)
 ---
 
 ## Social Buttons
