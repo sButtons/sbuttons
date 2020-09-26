@@ -168,6 +168,10 @@ $(document).ready(function () {
           text: "Login with Facebook",
         },
         {
+          classes: "facebook-rounded",
+          text: "Login with Facebook",
+        },
+        {
           classes: "github",
           text: "Login with Github",
         },

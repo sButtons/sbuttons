@@ -15,22 +15,34 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 ## Animated
 
-- [x] ~~**Skew button**: A button that skews on hover.~~
-- [x] **Neon button**: A button that glows on hover.
-- [ ] **Ripple Button**: A button with ripple effect on hover.
+|status  | Button name    | Description      | Submitted by |
+|--------|----------------|------------------|--------------|
+| &#9745;| ~~**Skew Button**~~| A button that skews on hover. | | 
+| &#9745;| ~~**Neon Button**~~| A button that glows on hover. |[Esakki Selvaraj](https://github.com/esakki-selvaraj) |
+| &#9744;| **Ripple Button**| A button with ripple effect on hover | [Maitryee-Choudhary](https://github.com/Maitryee-Choudhary)
+
+---
 
 ## Icon
 
-- [x] ~~**Plus button**: A button just with a plus icon~~
-- [x] ~~**Buy me coffee button**~~
-- [ ] **Icon Button**: A button with icons enlargement and shrink effect on hover.
+|status  | Button name    | Description      | Submitted by |
+|--------|----------------|------------------|--------------|
+| &#9745;| ~~**Plus button**~~| A button just with a plus icon | | 
+| &#9745;| ~~**Buy me a coffee button**~~|  | |
+| &#9744;| **Icon Button**| A button with icons enlargement and shrink effect on hover | [Souvik Guria](https://github.com/devSouvik)
 
+---
 
 ## Special
 
-- [ ] **Retro button**: A button that has a retro style to it.
-- [ ] **Neumorphic button**: A button that has a neumorphic style.
+|status  | Button name    | Description      | Submitted by |
+|--------|----------------|------------------|--------------|
+| &#9744;| **Retro button**| A button that has a retro style to it| |  
+| &#9744;| **Neumorphic button**| A button that has a neumorphic style |[Vitória](https://github.com/vitoriapena) |
 
- ## Social Buttons
+---
 
- - [ ] **Add Rounded Social Buttons** : A social button with rounded corners. 
+## Social Buttons
+|status  | Button name    | Description      | Submitted by |
+|--------|----------------|------------------|--------------|
+| &#9744;| **Add Rounded Social Buttons** | A social button with rounded corners|[Neeraj Gupta](https://github.com/Neeraj3508)

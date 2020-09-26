@@ -433,6 +433,24 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "Caleb335",
+      "name": "Caleb Olojo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48127194?v=4",
+      "profile": "https://calebolojo.me",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "shikhargupta-in",
+      "name": "Shikhar Gupta",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/59876817?v=4",
+      "profile": "https://shikhargupta-in.github.io/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
