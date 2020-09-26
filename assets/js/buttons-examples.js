@@ -144,6 +144,12 @@ $(document).ready(function () {
           text: "",
         },
         {
+          type: "play",
+          label: "Play Button",
+          classes: "play-btn",
+          text: "",
+        },
+        {
           type: "plus",
           label: "Plus Button",
           classes: "plus-btn",
