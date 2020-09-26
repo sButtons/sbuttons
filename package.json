@@ -6,15 +6,14 @@
   "author": "Shahed Nasser",
   "license": "ISC",
   "scripts": {
-    "start": "npm run watch:all",
+    "start": "npm run watch",
     "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier && npm run clean-css",
-    "watch": "concurrently \"less-watch-compiler src dist\" \"onchange -v dist/sbuttons.css -- npm run clean-css \" ",
     "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" \"assets/**\" ",
     "lite": "lite-server",
     "check-prettier": "prettier --check \"src/**/*.less\" \"dist/sbuttons.css\" ",
     "clean-css": "cleancss -o dist/sbuttons.min.css dist/sbuttons.css",
     "watch:less": "onchange -v src/*.less -- npm run compile",
-    "watch:all": "parallelshell 'npm run watch:less' 'npm run lite'"
+    "watch": "concurrently 'npm run watch:less' 'npm run lite'"
   },
   "devDependencies": {
     "clean-css-cli": "^4.3.0",
@@ -25,7 +24,6 @@
     "onchange": "^7.0.2",
     "prettier": "^2.1.1",
     "lite-server": "^2.5.4",
-    "node-less": "^1.0.0",
-    "parallelshell": "^3.0.2"
+    "node-less": "^1.0.0"
   }
 }
