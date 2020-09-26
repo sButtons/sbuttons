@@ -17,8 +17,8 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 |status  | Button name    | Description      | Submitted by |
 |--------|----------------|------------------|--------------|
-| &#9745;| **Skew Button**| A button that skews on hover. |[who did this]("https://exampleuser.com) | 
-| &#9745;| **Neon Button**| A button that glows on hover. |[who did this]("https://exampleuser.com) |
+| &#9745;| ~~**Skew Button**~~| A button that skews on hover. |[who did this]("https://exampleuser.com) | 
+| &#9745;| ~~**Neon Button**~~| A button that glows on hover. |[who did this]("https://exampleuser.com) |
 | &#9744;| **Ripple Button**| A button with ripple effect on hover | [who did this]("https://exampleuser.com)
 
 ---
@@ -27,8 +27,8 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 |status  | Button name    | Description      | Submitted by |
 |--------|----------------|------------------|--------------|
-| &#9745;| **Plus button**| A button just with a plus icon |[who did this]("https://exampleuser.com) | 
-| &#9745;| **Buy me a coffee button**|  |[who did this]("https://exampleuser.com) |
+| &#9745;| ~~**Plus button**~~| A button just with a plus icon |[who did this]("https://exampleuser.com) | 
+| &#9745;| ~~**Buy me a coffee button**~~|  |[who did this]("https://exampleuser.com) |
 | &#9744;| **Icon Button**| A button with icons enlargement and shrink effect on hover | [who did this]("https://exampleuser.com)
 
 ---
