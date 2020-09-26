@@ -384,3 +384,7 @@ button.clipboard:focus {
 .script-copy {
   cursor: pointer;
 }
+
+.hide {
+  display: none;
+}

@@ -60,8 +60,10 @@ $(document).ready(function () {
   function checkScrollTop() {
     if ($(window).scrollTop() > 100) {
       $(".scroll-top").fadeIn();
+      $(".download-link").removeClass("hide");
     } else {
       $(".scroll-top").fadeOut();
+      $(".download-link").addClass("hide");
     }
   }
 
