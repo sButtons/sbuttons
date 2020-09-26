@@ -768,6 +768,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f39e";
 }
+.social-btn.facebook-rounded {
+  background-color: #1e7cff;
+  color: #fff;
+  border-radius: 40px;
+}
+.social-btn.facebook-rounded:after {
+  color: #fff;
+  content: "\f39e";
+}
 .social-btn.instagram {
   background: linear-gradient(
     45deg,
