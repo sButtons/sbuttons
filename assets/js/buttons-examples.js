@@ -63,7 +63,7 @@ $(document).ready(function () {
         {
           type: "neon",
           label: "Neon",
-          classes: "neon-green-btn",
+          classes: "neon-btn",
         },
         {
           type: "next",
