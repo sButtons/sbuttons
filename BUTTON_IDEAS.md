@@ -17,9 +17,9 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 |status  | Button name    | Description      | Submitted by |
 |--------|----------------|------------------|--------------|
-| &#9745;| ~~**Skew Button**~~| A button that skews on hover. |[who did this]("https://exampleuser.com) | 
-| &#9745;| ~~**Neon Button**~~| A button that glows on hover. |[who did this]("https://exampleuser.com) |
-| &#9744;| **Ripple Button**| A button with ripple effect on hover | [who did this]("https://exampleuser.com)
+| &#9745;| ~~**Skew Button**~~| A button that skews on hover. | | 
+| &#9745;| ~~**Neon Button**~~| A button that glows on hover. |[Esakki Selvaraj](https://github.com/esakki-selvaraj) |
+| &#9744;| **Ripple Button**| A button with ripple effect on hover | [Maitryee-Choudhary](https://github.com/Maitryee-Choudhary)
 
 ---
 
@@ -27,9 +27,9 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 |status  | Button name    | Description      | Submitted by |
 |--------|----------------|------------------|--------------|
-| &#9745;| ~~**Plus button**~~| A button just with a plus icon |[who did this]("https://exampleuser.com) | 
-| &#9745;| ~~**Buy me a coffee button**~~|  |[who did this]("https://exampleuser.com) |
-| &#9744;| **Icon Button**| A button with icons enlargement and shrink effect on hover | [who did this]("https://exampleuser.com)
+| &#9745;| ~~**Plus button**~~| A button just with a plus icon | | 
+| &#9745;| ~~**Buy me a coffee button**~~|  | |
+| &#9744;| **Icon Button**| A button with icons enlargement and shrink effect on hover | [Souvik Guria](https://github.com/devSouvik)
 
 ---
 
@@ -37,12 +37,12 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 |status  | Button name    | Description      | Submitted by |
 |--------|----------------|------------------|--------------|
-| &#9744;| **Retro button**| A button that has a retro style to it|[who did this]("https://exampleuser.com)|  
-| &#9744;| **Neumorphic button**| A button that has a neumorphic style |[who did this]("https://exampleuser.com) |
+| &#9744;| **Retro button**| A button that has a retro style to it| |  
+| &#9744;| **Neumorphic button**| A button that has a neumorphic style |[Vitória](https://github.com/vitoriapena) |
 
 ---
 
 ## Social Buttons
 |status  | Button name    | Description      | Submitted by |
 |--------|----------------|------------------|--------------|
-| &#9744;| **Add Rounded Social Buttons** | A social button with rounded corners|[who did this]("https://exampleuser.com)
+| &#9744;| **Add Rounded Social Buttons** | A social button with rounded corners|[Neeraj Gupta](https://github.com/Neeraj3508)
