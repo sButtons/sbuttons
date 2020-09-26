@@ -71,6 +71,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/alinasahoo"><img src="https://avatars1.githubusercontent.com/u/71794673?v=4" width="100px;" alt=""/><br /><sub><b>Alina Sahoo</b></sub></a><br /><a href="#ideas-alinasahoo" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/aparna202"><img src="https://avatars2.githubusercontent.com/u/62205350?v=4" width="100px;" alt=""/><br /><sub><b>aparna202</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=aparna202" title="Code">💻</a></td>
   </tr>
 </table>
 
