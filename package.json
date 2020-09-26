@@ -6,7 +6,7 @@
   "author": "Shahed Nasser",
   "license": "ISC",
   "scripts": {
-    "start": "npm run watch"
+    "start": "npm run watch",
     "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier",
     "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" \"assets/**\" ",
     "lite": "lite-server",
