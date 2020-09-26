@@ -849,6 +849,18 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f1a0";
 }
+.social-btn.google-rounded {
+  background-color: #fff;
+  color: #353535;
+  border-radius: 40px;
+}
+.social-btn.google-rounded:after {
+  color: #ea4335;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f1a0";
+}
 .social-btn.facebook {
   background-color: #3360ff;
   color: #fff;
