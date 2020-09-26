@@ -713,6 +713,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   animation: play 0.4s;
 }
 .play-btn:not(.btn-rounded) {
+<<<<<<< HEAD
   padding: 0em 0.25em 0 0.25em;
 }
 .play-btn.btn-rounded {
@@ -721,6 +722,16 @@ a.yellow-btn:active:not(.fill-color-btn) {
   padding: 0 0 0 3px;
 }
 @keyframes play {
+=======
+  padding: 0.25em 0.25em 0 0.25em;
+}
+.play-btn.btn-rounded {
+  width: 1.6em;
+  height: 1.6em;
+  padding: 0;
+}
+@keyframes heartBeat {
+>>>>>>> 26b2bfe6a7ded825cef10c4e55ec784dd92cd1f3
   0% {
     transform: scale(1);
   }
