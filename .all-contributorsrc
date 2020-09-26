@@ -433,6 +433,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "Caleb335",
+      "name": "Caleb Olojo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48127194?v=4",
+      "profile": "https://calebolojo.me",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
