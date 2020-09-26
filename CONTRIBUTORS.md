@@ -73,6 +73,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/alinasahoo"><img src="https://avatars1.githubusercontent.com/u/71794673?v=4" width="100px;" alt=""/><br /><sub><b>Alina Sahoo</b></sub></a><br /><a href="#ideas-alinasahoo" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/aparna202"><img src="https://avatars2.githubusercontent.com/u/62205350?v=4" width="100px;" alt=""/><br /><sub><b>aparna202</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=aparna202" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hvirmani"><img src="https://avatars0.githubusercontent.com/u/57362661?v=4" width="100px;" alt=""/><br /><sub><b>Harshit Virmani</b></sub></a><br /><a href="#ideas-hvirmani" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/chaitanya4vedi"><img src="https://avatars0.githubusercontent.com/u/46573355?v=4" width="100px;" alt=""/><br /><sub><b>Chaitanya Chaturvedi</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=chaitanya4vedi" title="Code">💻</a> <a href="#ideas-chaitanya4vedi" title="Ideas, Planning, & Feedback">🤔</a> <a href="#tool-chaitanya4vedi" title="Tools">🔧</a></td>
   </tr>
 </table>
 
