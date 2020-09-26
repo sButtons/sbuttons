@@ -61,6 +61,11 @@ $(document).ready(function () {
           classes: "invert-btn",
         },
         {
+          type: "neon",
+          label: "Neon",
+          classes: "neon-btn",
+        },
+        {
           type: "next",
           label: "Next Button",
           classes: "next-arrow-btn",
@@ -114,6 +119,13 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "add-to-cart",
+          label: "Add To Cart Button",
+          classes: "add-to-cart-btn",
+          text: "Add To Cart",
+        },
+
+        {
           type: "buy-me-coffee",
           label: "Buy Me Coffee Button",
           classes: "buy-me-coffee-btn",
@@ -129,6 +141,18 @@ $(document).ready(function () {
           type: "like",
           label: "Like Button",
           classes: "like-btn",
+          text: "",
+        },
+        {
+          type: "play",
+          label: "Play Button",
+          classes: "play-btn",
+          text: "",
+        },
+        {
+          type: "plus",
+          label: "Plus Button",
+          classes: "plus-btn",
           text: "",
         },
       ],
@@ -148,6 +172,14 @@ $(document).ready(function () {
         {
           classes: "facebook",
           text: "Login with Facebook",
+        },
+        {
+          classes: "facebook-rounded",
+          text: "Login with Facebook",
+        },
+        {
+          classes: "github",
+          text: "Login with Github",
         },
         {
           classes: "google",

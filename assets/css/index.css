@@ -64,6 +64,10 @@ header {
 
 .navbar .logo h1 {
   margin-bottom: 0;
+  color: #007bff;
+}
+.navbar .logo a {
+  text-decoration: none;
 }
 
 .navbar:not(.scrolling) .logo {
@@ -112,6 +116,26 @@ header .content .subtitle {
   font-family: Syne, sans-serif;
 }
 
+header .content .subtitle {
+  font-size: 1.5rem;
+  font-family: Syne, sans-serif;
+  margin-bottom: 1em; /* Adding this for spacing for buttons below */
+}
+
+/* This is overriding the download and documentation button colors for now since we don't have a white class - more than happy to create one! */
+header .content .sbtn:nth-of-type(2) {
+  background-color: #fff;
+  color: #000;
+}
+
+header .content .sbtn {
+  font-size: 1.3rem;
+}
+
+header .content .sbtn:first-of-type {
+  margin-right: 0.5em;
+}
+
 section {
   padding-top: 80px;
   margin-top: -80px;
@@ -136,6 +160,10 @@ section {
 .button-container .sbtn {
   margin-bottom: 1em;
   font-size: 1.5rem;
+}
+
+[data-theme="dark"] .button-caption-sub {
+  color: #afafaf;
 }
 
 .button-caption-sub {

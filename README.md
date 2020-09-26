@@ -1,9 +1,9 @@
 # sButtons
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md) [![Small Size!](https://badge-size.herokuapp.com/shahednasser/sbuttons/master/dist/sbuttons.min.css)](https://github.com/shahednasser/sbuttons/blob/master/dist/sbuttons.min.css)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](./CONTRIBUTERS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-52-orange.svg?style=flat-square)](./CONTRIBUTERS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
-
+`
   
 Simple buttons you can use easily for your next project.
 
@@ -12,16 +12,16 @@ Simple buttons you can use easily for your next project.
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is starting soon, and this repository will help people who don't know where to start contributing. We will be adding a Hacktoberfest label to help contributors find the simple issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/shahednasser/sbuttons/issues/161).
 
 # Usage
-You can download the CSS file [here](https://github.com/shahednasser/sbuttons/blob/master/dist/sbuttons.min.css) and then add it to your html file inbetween the `<head>` tags:
+You can download the CSS file [here](https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css) and then add it to your html file inbetween the `<head>` tags:
 
 ```
 <link rel="stylesheet" href="/path/to/sbuttons.min.css">
 ```
 
-Or instead of downloading the file, you can use the [CDN](https://cdn.jsdelivr.net/gh/shahednasser/sbuttons/dist/sbuttons.min.css):
+Or instead of downloading the file, you can use the [CDN](https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css):
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shahednasser/sbuttons/dist/sbuttons.min.css">
+<link rel="stylesheet" href="https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css">
 ```
 
 In case of using buttons that have icons in them, make sure to include font awesome's [CDN](https://use.fontawesome.com/releases/v5.14.0/css/all.css) in the `<head>` tag:

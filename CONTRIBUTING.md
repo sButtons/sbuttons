@@ -24,7 +24,7 @@ Please note we have a code of conduct, please follow it in all your interactions
         ```
         npm run watch
         ```
-        This will update the CSS in `dist/sbuttons.css` and `dist/sbuttons.min.css` as you make changes. Make sure that if you use watch, you use `npm run prettier` before committing the code.
+        This will update the CSS in `dist/sbuttons.css` as you make changes. Make sure that if you use watch, you use `npm run prettier` before committing the code.
     2. Compile command:
         ```
         npm run compile
@@ -56,11 +56,22 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Button Ideas
 
-You can find on [Button Ideas](./BUTTON_IDEAS.md) a list of ideas for buttons that can be implemented. Make sure to pick an idea that isn't checked off.
-Once you implement your idea, make sure to check it off in that page by adding an x in the brackets and strike it through. For example:
+You can find on [Button Ideas](./BUTTON_IDEAS.md) a list of ideas in a table for buttons that can be implemented. Make sure to pick an idea that isn't checked off.
+Once you implement your idea, make sure to check it off in that page by using this unicode character `&#9745;` and place this symbol `~~` before and after the button name in the `status` column on the table, and make sure to add a link to your github profile 😎.
 
-> - [x] ~~Basic Button~~
+Here's an example of how you can add the link to your profile when you've implemented the button idea of your choice.
 
+`[you can add any name here](https://thelinktoyourprofile)`
+
+> PS:- we used the unicode character to represent ideas that have and haven't been checked 'cause the normal markdown syntax doesn't work in tables... This one `- []` && `- [x]`
+
+Here's an example of how the syntax looks in markdown format...
+```markdown
+|status  | Button name    | Description      | Submitted by |
+|--------|----------------|------------------|--------------|
+| &#9745;| ~~**Skew Button**~~| A button that skews on hover. |[who did this](https://exampleuser.com) | 
+
+```
 ## Create Pull Request
 
 1. Create a new branch:
