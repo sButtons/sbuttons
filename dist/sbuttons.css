@@ -604,13 +604,55 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .skew-btn:hover {
   transform: skew(10deg);
 }
-.neon-green-btn {
+.neon-btn {
   transition: all 0.5s ease;
 }
-.neon-green-btn:hover {
+.neon-btn.green-btn {
+  transition: all 0.5s ease;
+}
+.neon-btn.green-btn:hover {
   color: #000;
   background-color: #39ff14;
-  box-shadow: -11px 7px 52px 5px #39ff14;
+  box-shadow: 0px 0px 52px 10px #39ff14;
+}
+.neon-btn.blue-btn {
+  transition: all 0.5s ease;
+}
+.neon-btn.blue-btn:hover {
+  color: #000;
+  background-color: #1fffec;
+  box-shadow: 0px 0px 52px 10px #1fffec;
+}
+.neon-btn.red-btn:hover {
+  color: #000;
+  background-color: #ff013c;
+  box-shadow: 0px 0px 52px 10px #ff013c;
+}
+.neon-btn.purple-btn:hover {
+  color: #000;
+  background-color: #8d47ff;
+  box-shadow: 0px 0px 52px 10px #8d47ff;
+}
+.neon-btn.orange-btn:hover {
+  color: #000;
+  background-color: #ff9b18;
+  box-shadow: 0px 0px 52px 10px #ff9b18;
+}
+.neon-btn.yellow-btn:hover {
+  color: #000;
+  background-color: #ffe53d;
+  box-shadow: 0px 0px 52px 10px #ffe53d;
+}
+.neon-btn.pink-btn:hover {
+  color: #000;
+  background-color: #ff2aca;
+  box-shadow: 0px 0px 52px 10px #ff2aca;
+}
+.neon-btn.black-btn:hover {
+  color: #000;
+  background-color: #414141;
+  box-shadow: 0px 0px 52px 10px #414141;
+  color: #fff !important;
 }
 .ripple-btn {
   transition: background 0.6s;
@@ -741,6 +783,35 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transform: scale(1);
   }
 }
+.play-btn:before {
+  content: "\f04b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.play-btn:active {
+  animation: play 0.4s;
+}
+.play-btn:not(.btn-rounded) {
+  padding: 0em 0.25em 0 0.25em;
+}
+.play-btn.btn-rounded {
+  width: 2em;
+  height: 2em;
+  padding: 0 0 0 3px;
+}
+@keyframes play {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3, 1.3);
+  }
+}
 .plus-btn {
   transform-origin: center;
   filter: brightness(1);
@@ -765,6 +836,24 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 1.6em;
   height: 1.6em;
   padding: 0;
+}
+.add-to-cart-btn {
+  position: relative;
+  padding-right: 1.5em;
+}
+.add-to-cart-btn:after {
+  content: "\f07a";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 0.3em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  top: 23%;
 }
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
@@ -799,6 +888,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
 }
 .social-btn.facebook:after {
+  color: #fff;
+  content: "\f39e";
+}
+.social-btn.facebook-rounded {
+  background-color: #1e7cff;
+  color: #fff;
+  border-radius: 40px;
+}
+.social-btn.facebook-rounded:after {
   color: #fff;
   content: "\f39e";
 }

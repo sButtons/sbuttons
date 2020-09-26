@@ -53,7 +53,8 @@
       "profile": "https://github.com/isonnymichael",
       "contributions": [
         "code",
-        "bug"
+        "bug",
+        "ideas"
       ]
     },
     {
@@ -431,7 +432,83 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/55191873?v=4",
       "profile": "https://github.com/Neeraj3508",
       "contributions": [
+        "ideas",
+        "code"
+      ]
+    },
+    {
+      "login": "Caleb335",
+      "name": "Caleb Olojo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48127194?v=4",
+      "profile": "https://calebolojo.me",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "shikhargupta-in",
+      "name": "Shikhar Gupta",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/59876817?v=4",
+      "profile": "https://shikhargupta-in.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jad837",
+      "name": "Saurabh Jadhav",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36992945?v=4",
+      "profile": "https://github.com/jad837",
+      "contributions": [
+        "doc",
+        "bug"
+      ]
+    },
+    {
+      "login": "alkatrivedi",
+      "name": "alkatrivedi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/58396306?v=4",
+      "profile": "https://github.com/alkatrivedi",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "alinasahoo",
+      "name": "Alina Sahoo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/71794673?v=4",
+      "profile": "https://github.com/alinasahoo",
+      "contributions": [
         "ideas"
+      ]
+    },
+    {
+      "login": "aparna202",
+      "name": "aparna202",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/62205350?v=4",
+      "profile": "https://github.com/aparna202",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "hvirmani",
+      "name": "Harshit Virmani",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/57362661?v=4",
+      "profile": "https://github.com/hvirmani",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "chaitanya4vedi",
+      "name": "Chaitanya Chaturvedi",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46573355?v=4",
+      "profile": "https://github.com/chaitanya4vedi",
+      "contributions": [
+        "code",
+        "ideas",
+        "tool"
       ]
     }
   ],

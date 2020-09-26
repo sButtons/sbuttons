@@ -1,4 +1,4 @@
-@import "variables.css";
+/* variables.css link included in index.html */
 
 html {
   scroll-behavior: smooth;
@@ -31,7 +31,7 @@ footer {
 
 [data-theme="dark"] .navbar.scrolling {
   background-color: #434343;
-  box-shadow: 0px 2px 3px #1e1e1e;
+  box-shadow: 0 2px 3px #1e1e1e;
 }
 
 [data-theme="dark"] .sidebar {
@@ -64,6 +64,10 @@ header {
 
 .navbar .logo h1 {
   margin-bottom: 0;
+  color: #007bff;
+}
+.navbar .logo a {
+  text-decoration: none;
 }
 
 .navbar:not(.scrolling) .logo {
@@ -80,7 +84,7 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
-  box-shadow: 0px 2px 3px #e9e9e9;
+  box-shadow: 0 2px 3px #e9e9e9;
 }
 
 .logo {
@@ -170,7 +174,7 @@ section {
 
 .button-caption-sub:after {
   content: "\f328";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free", serif;
   font-size: 15px;
   vertical-align: bottom;
   margin-left: 5px;
@@ -367,7 +371,7 @@ button.clipboard:after {
   content: "\f328";
   font-size: 15px;
   vertical-align: bottom;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free", serif;
 }
 button.clipboard:focus {
   outline: 0;

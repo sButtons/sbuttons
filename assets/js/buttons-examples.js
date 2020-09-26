@@ -63,7 +63,7 @@ $(document).ready(function () {
         {
           type: "neon",
           label: "Neon",
-          classes: "neon-green-btn",
+          classes: "neon-btn",
         },
         {
           type: "next",
@@ -124,6 +124,13 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "add-to-cart",
+          label: "Add To Cart Button",
+          classes: "add-to-cart-btn",
+          text: "Add To Cart",
+        },
+
+        {
           type: "buy-me-coffee",
           label: "Buy Me Coffee Button",
           classes: "buy-me-coffee-btn",
@@ -139,6 +146,12 @@ $(document).ready(function () {
           type: "like",
           label: "Like Button",
           classes: "like-btn",
+          text: "",
+        },
+        {
+          type: "play",
+          label: "Play Button",
+          classes: "play-btn",
           text: "",
         },
         {
@@ -163,6 +176,10 @@ $(document).ready(function () {
       variations: [
         {
           classes: "facebook",
+          text: "Login with Facebook",
+        },
+        {
+          classes: "facebook-rounded",
           text: "Login with Facebook",
         },
         {
