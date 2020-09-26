@@ -729,7 +729,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   padding-right: 1.5em;
 }
 .add-to-cart-btn:after {
-  content: "\f7b6";
+  content: "\f07a";
   font-family: "Font Awesome 5 Free";
   display: inline-block;
   font-style: normal;
