@@ -69,6 +69,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/jad837"><img src="https://avatars2.githubusercontent.com/u/36992945?v=4" width="100px;" alt=""/><br /><sub><b>Saurabh Jadhav</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=jad837" title="Documentation">📖</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Ajad837" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/alkatrivedi"><img src="https://avatars3.githubusercontent.com/u/58396306?v=4" width="100px;" alt=""/><br /><sub><b>alkatrivedi</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=alkatrivedi" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/alinasahoo"><img src="https://avatars1.githubusercontent.com/u/71794673?v=4" width="100px;" alt=""/><br /><sub><b>Alina Sahoo</b></sub></a><br /><a href="#ideas-alinasahoo" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
