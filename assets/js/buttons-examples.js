@@ -86,6 +86,11 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
+          type: "ripple",
+          label: "Ripple",
+          classes: "ripple-btn",
+        },
+        {
           type: "scale",
           label: "Scale",
           classes: "scale-btn",
