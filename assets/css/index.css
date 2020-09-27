@@ -306,8 +306,8 @@ hr {
 }
 
 .social-btn {
-  font-family: Syne, sans-serif;
-}
+  font-family: 'Syne', sans-serif !important;
+  }
 
 .scroll-top {
   position: fixed;
