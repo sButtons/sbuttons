@@ -926,3 +926,69 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
+@font-face {
+  font-family: "retro";
+  src: url("/assets/fonts/DiaryOfAn8BitMage-lYDD.ttf");
+}
+.retro-btn {
+  background: #92cd41;
+  display: inline;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  font-family: retro;
+  text-decoration: none;
+  box-shadow: inset -2px -2px 0px 0px #4aa52e;
+}
+.retro-btn:hover,
+.retro-btn:focus {
+  background: #76c442;
+  box-shadow: inset -3px -3px 0px 0px #4aa52e;
+}
+.retro-btn:active {
+  box-shadow: inset 2px 2px 0px 0px #4aa52e;
+}
+.retro-btn:before,
+.retro-btn:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+.retro-btn:before {
+  top: -4px !important;
+  left: 0;
+  border-top: 4px black solid !important;
+  border-bottom: 4px black solid !important;
+}
+.retro-btn:after {
+  left: -4px !important;
+  top: 0;
+  border-left: 4px black solid !important;
+  border-right: 4px black solid !important;
+}
+.retro-btn-reset {
+  background: #e76e55;
+  box-shadow: inset -2px -2px 0px 0px #8c2022;
+}
+.retro-btn-reset:hover,
+.retro-btn-reset:focus {
+  background: #ce372b;
+  box-shadow: inset -3px -3px 0px 0px #8c2022;
+}
+.retro-btn-reset:active {
+  box-shadow: inset 2px 2px 0px 0px #8c2022;
+}
+.retro-btn-proceed {
+  background: #f7d51d;
+  box-shadow: inset -2px -2px 0px 0px #e59400;
+}
+.retro-btn-proceed:hover,
+.retro-btn-proceed:focus {
+  background: #f2c409;
+  box-shadow: inset -3px -3px 0px 0px #e59400;
+}
+.retro-btn-proceed:active {
+  box-shadow: inset 2px 2px 0px 0px #e59400;
+}

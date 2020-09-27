@@ -204,6 +204,25 @@ $(document).ready(function () {
       ],
       children: [],
     },
+    {
+      type: "retro",
+      label: "Retro Buttons",
+      classes: "retro-btn",
+      variations: [
+        {
+          classes: "",
+          text: "Continue",
+        },
+        {
+          classes: "retro-btn-reset",
+          text: "Reset",
+        },
+        {
+          classes: "retro-btn-proceed",
+          text: "Proceed",
+        },
+      ],
+    },
   ];
 
   var sidebar = $(".sidebar-list"),
