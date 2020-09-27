@@ -64,8 +64,7 @@ a.sbtn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(251, 232, 112, 0.3);
   outline: 0;
 }
-.yellow-btn:not(.fill-color-btn),
-.yellow-btn:not(.ripple-btn) {
+.yellow-btn:not(.fill-color-btn):not(.ripple-btn) {
   color: #333 !important;
 }
 .orange-btn {
