@@ -174,10 +174,6 @@ $(document).ready(function () {
           text: "Login with Facebook",
         },
         {
-          classes: "facebook-rounded",
-          text: "Login with Facebook",
-        },
-        {
           classes: "github",
           text: "Login with Github",
         },
@@ -199,6 +195,34 @@ $(document).ready(function () {
         },
         {
           classes: "weibo",
+          text: "Login with Weibo",
+        },
+        {
+          classes: "facebook-rounded",
+          text: "Login with Facebook",
+        },
+        {
+          classes: "google-rounded",
+          text: "Login with Google",
+        },
+        {
+          classes: "github-rounded",
+          text: "Login with Github",
+        },
+        {
+          classes: "instagram-rounded",
+          text: "Login with Instagram",
+        },
+        {
+          classes: "linkedin-rounded",
+          text: "Login with LinkedIn",
+        },
+        {
+          classes: "twitter-rounded",
+          text: "Login with Twitter",
+        },
+        {
+          classes: "weibo-rounded",
           text: "Login with Weibo",
         },
       ],
