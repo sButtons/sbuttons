@@ -388,3 +388,31 @@ button.clipboard:focus {
 .script-copy {
   cursor: pointer;
 }
+
+.banner-link:hover,
+.banner-link:active {
+  color: white;
+  text-decoration: none;
+  background-color: white;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.banner-link {
+  border: 1px solid white;
+  padding: 15px;
+  font-size: 1.3rem;
+  margin-right: 20px;
+  color: white;
+}
+
+.down-link {
+  background-color: white;
+  color: #333;
+}
+
+.down-link:hover,
+.down-link:active {
+  background-color: transparent;
+  color: white;
+}
