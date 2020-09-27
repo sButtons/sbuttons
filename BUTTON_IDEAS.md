@@ -18,6 +18,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 - [x] ~~**Skew button**: A button that skews on hover.~~
 - [x] **Neon button**: A button that glows on hover.
 - [ ] **Ripple Button**: A button with ripple effect on hover.
+- [ ] **3D Button**: A 3D button which appears like a key.
 
 ## Icon
 
@@ -25,12 +26,11 @@ When adding ideas, please add them in the right category (or add a new one if yo
 - [x] ~~**Buy me coffee button**~~
 - [ ] **Icon Button**: A button with icons enlargement and shrink effect on hover.
 
-
 ## Special
 
 - [ ] **Retro button**: A button that has a retro style to it.
 - [ ] **Neumorphic button**: A button that has a neumorphic style.
 
- ## Social Buttons
+## Social Buttons
 
- - [ ] **Add Rounded Social Buttons** : A social button with rounded corners. 
+- [ ] **Add Rounded Social Buttons** : A social button with rounded corners.
