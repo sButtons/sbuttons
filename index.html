@@ -8,9 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
       rel="stylesheet">
-    <link href="dist/sbuttons.min.css" rel="stylesheet" />
     <link href="assets/css/index.css" rel="stylesheet" />
     <link href="assets/css/sidebar.css" rel="stylesheet" />
+    <link href="assets/css/variables.css" rel="stylesheet"/>
+    <link href="dist/sbuttons.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css">
@@ -20,10 +21,10 @@
   <!-- seo friendly og tags-->
   <meta name="description" content="Simple buttons you can use easily for your next project.">
   <meta name="keywords" content="css, less, buttons, simple, project, github, open source, contribute, first timers, animation, hover, basic, social, login">
-  <meta og:url content="https://shahednasser.github.io/sbuttons/">
-  <meta og:description content="Simple buttons you can use easily for your next project.">
-  <meta og:image content="site logo url">
-  <meta og:type content="website">
+  <meta name="og:url" content="https://shahednasser.github.io/sbuttons/">
+  <meta name="og:description" content="Simple buttons you can use easily for your next project.">
+  <meta name="og:image" content="site logo url">
+  <meta name="og:type" content="website">
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -47,7 +48,7 @@
           <i class="fas fa-bars"></i>
         </button>
         <div class="logo">
-          <h1 class="noselect">sButtons</h1>
+          <img src="assets/img/colored-logo.png" class="img-fluid" />
         </div>
         <div class="buttons">
           <a class="toggle-theme" href="#toggleTheme" title="Toggle light/dark mode">
@@ -63,11 +64,13 @@
       </div>
       <div class="content">
         <div class="logo">
-          <h1 class="noselect">sButtons</h1>
+          <img src="assets/img/logo.png" class="img-fluid" />
         </div>
         <div class="subtitle">
           Simple buttons you can use easily for your next project.
         </div>
+        <a href="#" id="downloadGithubRawButton" class="banner-link down-link">Download</a>
+        <a href="https://github.com/shahednasser/sbuttons" target="_blank" class="banner-link">Documentation</a>
       </div>
     </header>
     <div class="container mt-5">
@@ -112,7 +115,7 @@
               <br>
               <div class="code-block-container">
                 <div class="script-copy">
-                  <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shahednasser/sbuttons/dist/sbuttons.min.css"></code></pre>
+                  <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css"></code></pre>
                 <div class="div-copy"><button class="clipboard"></button></div>
                 </div>
               <br>
@@ -160,12 +163,11 @@
                 Do you have amazing ideas for new buttons? Submit them <a href="https://github.com/shahednasser/sbuttons/issues/96" class="cssLink"
                 target="_blank">here</a>.
               </div><br>
-            </div>
           </section>
+            </div>
           <!-- Button examples will go here using JS -->
         </div>
       </div>
-    </div>
     <span class="scroll-top" data-scroll="up" style="display: none;">
       <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
     </span>
@@ -173,6 +175,7 @@
       <span class="tagline">Made with <span class="tagline-heart">❤︎</span></span><br />
       Have any suggestions or want to contribute?
       <a href="https://github.com/shahednasser/sbuttons" target="_blank" title="View on Github">View on Github</a>
+      <div style="font-size: 13px;">Icon in logo made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/components/prism-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/autoloader/prism-autoloader.min.js"></script>
