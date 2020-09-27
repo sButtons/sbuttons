@@ -63,7 +63,8 @@ a.sbtn {
 .yellow-btn {
   .colorRule(@yellow);
 
-  &:not(.fill-color-btn) {
+  &:not(.fill-color-btn),
+  &:not(.ripple-btn) {
     color: @darkText !important;
   }
 }
