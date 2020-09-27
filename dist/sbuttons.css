@@ -125,6 +125,17 @@ a.yellow-btn:hover:not(.fill-color-btn),
 a.yellow-btn:active:not(.fill-color-btn) {
   color: #333 !important;
 }
+.white-btn {
+  background-color: #ffffff;
+}
+.white-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(255, 255, 255, 0.3);
+  outline: 0;
+}
+.white-btn:focus {
+  box-shadow: 0px 0px 0 0.2rem rgba(186, 186, 186, 0.3);
+  outline: 0;
+}
 .outline-btn {
   background-color: transparent;
   border: 1px solid;

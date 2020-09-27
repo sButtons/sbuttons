@@ -113,3 +113,12 @@ a.yellow-btn {
     }
   }
 }
+
+.white-btn {
+  .colorRule(@white);
+
+  &:focus {
+    box-shadow: 0px 0px 0 0.2rem fade(@whiteShadow, 30%);
+    outline: 0;
+  }
+}
