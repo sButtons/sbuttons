@@ -886,7 +886,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   );
   color: #fff;
   border: 0px !important;
-  border-radius: 40px;
 }
 .social-btn.instagram:after {
   color: white;
@@ -906,6 +905,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   );
   color: #fff;
   border: 0px !important;
+  border-radius: 40px;
 }
 .social-btn.instagram-rounded:after {
   color: white;
@@ -983,14 +983,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f18a";
 }
-.social-btn.github {
-  background-color: #000000;
-  color: #fff;
-}
-.social-btn.github:after {
-  color: #fff;
-  content: "\f09b";
-}
 .social-btn.github-rounded {
   background-color: #000000;
   color: #fff;
@@ -999,4 +991,29 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.github-rounded:after {
   color: #fff;
   content: "\f09b";
+}
+.social-btn.github {
+  background-color: #000000;
+  color: #fff;
+}
+.social-btn.github:after {
+  color: #fff;
+  content: "\f09b";
+}
+.social-btn.apple {
+  background-color: #fff;
+  color: #353535;
+}
+.social-btn.apple:after {
+  color: #353535;
+  content: "\f179";
+}
+.social-btn.apple-rounded {
+  background-color: #fff;
+  color: #353535;
+  border-radius: 40px;
+}
+.social-btn.apple-rounded:after {
+  color: #353535;
+  content: "\f179";
 }
