@@ -51,12 +51,9 @@ $(document).ready(function () {
     if (!$(".content").isOnScreen()) {
       $(".navbar").addClass("scrolling");
       $(".sidebar").addClass("scrolling");
-      $(".downloadIcon").css('display','none')
     } else {
       $(".downloadIcon").css('display','inline-block')      
-      $(".navbar").removeClass("scrolling");
-      $(".sidebar").removeClass("scrolling");
-    
+      $(".navbar").removeClass("scrolling");    
     }
   }
 
