@@ -125,17 +125,6 @@ a.yellow-btn:hover:not(.fill-color-btn),
 a.yellow-btn:active:not(.fill-color-btn) {
   color: #333 !important;
 }
-.white-btn {
-  background-color: #ffffff;
-}
-.white-btn:focus {
-  box-shadow: 0px 0px 0 0.2rem rgba(255, 255, 255, 0.3);
-  outline: 0;
-}
-.white-btn:focus {
-  box-shadow: 0px 0px 0 0.2rem rgba(186, 186, 186, 0.3);
-  outline: 0;
-}
 .outline-btn {
   background-color: transparent;
   border: 1px solid;
@@ -698,6 +687,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: 0px 0px 52px 10px #414141;
   color: #fff !important;
 }
+.neon-btn.white-btn:hover {
+  color: #000;
+  background-color: #e2e2e2;
+  box-shadow: 0px 0px 52px 10px #e2e2e2;
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
@@ -930,7 +924,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   );
   color: #fff;
   border: 0px !important;
-  border-radius: 40px;
 }
 .social-btn.instagram:after {
   color: white;
@@ -1027,20 +1020,20 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f18a";
 }
-.social-btn.github {
-  background-color: #000000;
-  color: #fff;
-}
-.social-btn.github:after {
-  color: #fff;
-  content: "\f09b";
-}
 .social-btn.github-rounded {
   background-color: #000000;
   color: #fff;
   border-radius: 40px;
 }
 .social-btn.github-rounded:after {
+  color: #fff;
+  content: "\f09b";
+}
+.social-btn.github {
+  background-color: #000000;
+  color: #fff;
+}
+.social-btn.github:after {
   color: #fff;
   content: "\f09b";
 }
