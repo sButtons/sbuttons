@@ -754,7 +754,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border: none;
   outline: none;
   color: #fff;
-  background: #111;
   cursor: pointer;
   position: relative;
   z-index: 0;
@@ -787,10 +786,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
-.splash-btn:active {
+.splash-btn:hover {
   color: #000;
 }
-.splash-btn:active:after {
+.splash-btn:hover:after {
   background: transparent;
 }
 .splash-btn:hover:before {
@@ -802,7 +801,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #111;
   left: 0;
   top: 0;
   border-radius: 10px;
@@ -1050,6 +1048,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   );
   color: #fff;
   border: 0px !important;
+  border-radius: 40px;
 }
 .social-btn.instagram:after {
   color: white;
