@@ -546,6 +546,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "icoderharshit",
+      "name": "Harshit Sharma",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55023091?v=4",
+      "profile": "https://sourcerer.io/icoderharshit",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
