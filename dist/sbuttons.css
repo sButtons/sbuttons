@@ -999,6 +999,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   );
   color: #fff;
   border: 0px !important;
+  border-radius: 40px;
 }
 .social-btn.instagram-rounded:after {
   color: white;
