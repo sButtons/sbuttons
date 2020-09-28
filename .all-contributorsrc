@@ -528,6 +528,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "martin-garcia-blanco",
+      "name": "Martín García Blanco",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/44866678?v=4",
+      "profile": "https://github.com/martin-garcia-blanco",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
