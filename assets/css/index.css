@@ -413,6 +413,7 @@ button.clipboard:focus {
   font-size: 1.3rem;
   margin-right: 20px;
   color: white;
+  font-family: Syne, sans-serif;
 }
 
 .down-link {
