@@ -81,6 +81,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="https://github.com/hbach24"><img src="https://avatars2.githubusercontent.com/u/57569284?v=4" width="100px;" alt=""/><br /><sub><b>hbach24</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=hbach24" title="Code">💻</a></td>
     <td align="center"><a href="https://sourcerer.io/icoderharshit"><img src="https://avatars3.githubusercontent.com/u/55023091?v=4" width="100px;" alt=""/><br /><sub><b>Harshit Sharma</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=icoderharshit" title="Code">💻</a> <a href="#design-icoderharshit" title="Design">🎨</a></td>
+    <td align="center"><a href="https://dsnehasish74.github.io/portfolio/"><img src="https://avatars0.githubusercontent.com/u/58779604?v=4" width="100px;" alt=""/><br /><sub><b>Snehasish Dhar</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Adsnehasish74" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
