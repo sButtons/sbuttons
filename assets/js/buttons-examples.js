@@ -110,6 +110,11 @@ $(document).ready(function () {
           label: "Skew",
           classes: "skew-btn",
         },
+        {
+          type: "splash",
+          label: "Splash",
+          classes: "splash-btn",
+        },
       ],
     },
     {
