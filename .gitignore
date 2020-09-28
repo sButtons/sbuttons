@@ -1,2 +1,5 @@
 node_modules/
+.cache
+.idea
+.vs
 dist/sbuttons.min.less

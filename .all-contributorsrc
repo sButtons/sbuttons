@@ -499,9 +499,67 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "chaitanya4vedi",
+      "name": "Chaitanya Chaturvedi",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46573355?v=4",
+      "profile": "https://github.com/chaitanya4vedi",
+      "contributions": [
+        "code",
+        "ideas",
+        "tool",
+        "content"
+      ]
+    },
+    {
+      "login": "Charu271",
+      "name": "CHARU SACHDEVA",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/60181628?v=4",
+      "profile": "https://github.com/Charu271",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "anonyda",
+      "name": "Nida Shaikh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30036456?v=4",
+      "profile": "https://github.com/anonyda",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "martin-garcia-blanco",
+      "name": "Martín García Blanco",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/44866678?v=4",
+      "profile": "https://github.com/martin-garcia-blanco",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "hbach24",
+      "name": "hbach24",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/57569284?v=4",
+      "profile": "https://github.com/hbach24",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "icoderharshit",
+      "name": "Harshit Sharma",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55023091?v=4",
+      "profile": "https://sourcerer.io/icoderharshit",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "contributorsSortAlphabetically": false,
-  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](./CONTRIBUTERS.md)"
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](./CONTRIBUTORS.md)"
 }

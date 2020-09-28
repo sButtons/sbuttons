@@ -12,6 +12,7 @@
   position: relative;
   text-decoration: none;
   width: fit-content;
+  margin-bottom: 5px;
 }
 .sidebar a:before {
   position: absolute;
@@ -19,7 +20,7 @@
   height: 2px;
   width: 0;
   background-color: var(--main-color);
-  transition: all 0.2s;
+  transition: all 0.3s;
   content: " ";
   bottom: 0;
 }
