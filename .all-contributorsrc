@@ -567,6 +567,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "ub2906",
+      "name": "Urja Banati",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/48362988?v=4",
+      "profile": "https://github.com/ub2906",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
