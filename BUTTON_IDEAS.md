@@ -22,6 +22,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9745; | ~~**Ripple Button**~~       | A button with ripple effect on hover   | [Maitryee-Choudhary](https://github.com/Maitryee-Choudhary) |
 | &#9744; | **Snake Border Button** | A button with border like snake moving | [Harshit Virmani](https://github.com/hvirmani)              |
 | &#9744; | **3D button**           | A 3D button like a keyboard key        | [Charu Sachdeva](https://github.com/Charu271)               |
+|&#9745;  | ~~**Splash Button**~~  | A button that gives a moving linear gradient of rainbow colors on click| [Urja Banati](https://github.com/ub2906) 
 
 ---
 
