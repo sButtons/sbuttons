@@ -136,6 +136,7 @@ header .content .sbtn:nth-of-type(2) {
 
 header .content .sbtn {
   font-size: 1.3rem;
+  font-family: Syne, sans-serif !important;
 }
 
 header .content .sbtn:first-of-type {
