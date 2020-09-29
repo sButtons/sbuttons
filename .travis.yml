@@ -2,5 +2,5 @@ language: node_js
 node_js:
   - "node"
 
-deploy:
-  provider: surge
+after_success:
+  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then chmod ugo+x ./.deploy.sh; fi
