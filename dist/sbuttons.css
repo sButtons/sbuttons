@@ -813,6 +813,33 @@ a.yellow-btn:active:not(.fill-color-btn) {
     background-position: 0 0;
   }
 }
+.bouncy-btn {
+  animation: bouncy 1s infinite linear;
+  position: relative;
+}
+@keyframes bouncy {
+  0% {
+    top: 0em;
+  }
+  39% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
@@ -1157,4 +1184,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.github:after {
   color: #fff;
   content: "\f09b";
+}
+.badge-btn {
+  display: inline-block;
+  text-align: center;
+}
+.badge-btn.btn-rounded {
+  width: 1.6em;
+  height: 1.6em;
+  padding: 0;
 }
