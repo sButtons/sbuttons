@@ -289,23 +289,6 @@ hr {
   [data-theme="dark"] .sidebar {
     box-shadow: 1px 1px 5px #3b3b3b !important;
   }
-
-  .sidebar-list {
-    overflow-y: auto;
-  }
-
-  .sidebar-list::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  .sidebar-list::-webkit-scrollbar-thumb {
-    background: var(--main-color);
-    border-radius: 2.5px;
-  }
-
-  .sidebar-list::-webkit-scrollbar-thumb:hover {
-    background: var(--main-color);
-  }
 }
 
 @media (min-width: 768px) {

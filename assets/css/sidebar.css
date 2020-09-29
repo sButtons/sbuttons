@@ -63,7 +63,30 @@
   transition: opacity 0.2s;
 }
 
-@media (max-width: 767px) {
+.sidebar-list {
+  overflow-y: auto;
+}
+
+.sidebar-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 2.5px;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb:hover {
+  background: var(--main-color);
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-list {
+    max-height: 80vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .row .hide-sidebar {
     display: none;
   }
