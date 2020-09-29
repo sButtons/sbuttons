@@ -2,5 +2,5 @@ language: node_js
 node_js:
   - "node"
 
-script: 
-  - npm run test-deploy
+after_success:
+  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then chmod ugo+x ./pr_deploy.sh; fi
