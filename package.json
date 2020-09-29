@@ -13,7 +13,8 @@
     "check-prettier": "prettier --check \"src/**/*.less\" \"dist/sbuttons.css\" ",
     "clean-css": "cleancss -o dist/sbuttons.min.css dist/sbuttons.css",
     "watch:less": "onchange -v src/**/*.less -- npm run compile",
-    "watch": "concurrently \"npm run watch:less\" \"npm run lite\""
+    "watch": "concurrently \"npm run watch:less\" \"npm run lite\"",
+    "test": "echo \" No tests available \" "
   },
   "devDependencies": {
     "clean-css-cli": "^4.3.0",
