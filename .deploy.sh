@@ -41,9 +41,7 @@ do
   then
     GITHUB_STATUS_COMMENT=https://api.github.com/repos/${TRAVIS_REPO_SLUG}/statuses/${TRAVIS_PULL_REQUEST_SHA}
     curl -H "Authorization: token ${GITHUB_API_TOKEN}" --request POST ${GITHUB_STATUS_COMMENT} --data '{"state": "success", "target_url": "'${DEPLOY_DOMAIN}'", "description": "Pull Request Deployed!", "context": "CollectiveDynamicDeploy"}'
-    # GITHUB_PR_COMMENTS=https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments
-    # curl -H "Authorization: token ${GITHUB_API_TOKEN}" --request POST ${GITHUB_PR_COMMENTS} --data '{"body":"Pull Request Deployed at: '${DEPLOY_DOMAIN}'"}'
-    # Slack Integration
-    curl -X POST --data-urlencode "payload={\"username\": \"CollectiveDeployBot\",\"text\": \"Pull Request '${TRAVIS_PULL_REQUEST_BRANCH}' of '${REPO_NAME}' deployed at ${DEPLOY_DOMAIN}\", \"icon_emoji\": \":monkey_face:\"}" https://hooks.slack.com/services/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
+    GITHUB_PR_COMMENTS=https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments
+    curl -H "Authorization: token ${GITHUB_API_TOKEN}" --request POST ${GITHUB_PR_COMMENTS} --data '{"body":"Pull Request Deployed at: '${DEPLOY_DOMAIN}'"}'
   fi
 done
