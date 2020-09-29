@@ -22,6 +22,12 @@ $(document).ready(function () {
     },
     {
       type: "animated",
+      label: "Glow Buttons Hover",
+      classes: "glow-btn",
+      children: [],
+    },
+    {
+      type: "animated",
       label: "Animated Buttons",
       classes: "",
       children: [
@@ -108,6 +114,7 @@ $(document).ready(function () {
       classes: "hover-btn",
       children: [],
     },
+
     {
       type: "icon",
       label: "Icon Buttons",

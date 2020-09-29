@@ -604,6 +604,24 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .skew-btn:hover {
   transform: skew(10deg);
 }
+.glow-btn {
+  margin: 5px;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  padding: 10px 15px;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  font-weight: bold;
+}
+.glow-btn:hover {
+  background: #00e6e6;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 5px #00e6e6, 0 0 25px #00e6e6, 0 0 50px #00e6e6,
+    0 0 100px #00e6e6;
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
