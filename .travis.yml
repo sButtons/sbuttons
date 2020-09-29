@@ -3,4 +3,4 @@ node_js:
   - "node"
 
 after_success:
-  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then chmod ugo+x ./pr_deploy.sh; fi
+  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then chmod ugo+x ./.deploy.sh; fi
