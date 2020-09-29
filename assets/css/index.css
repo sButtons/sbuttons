@@ -1,5 +1,4 @@
 /* variables.css link included in index.html */
-
 html {
   scroll-behavior: smooth;
 }
@@ -17,6 +16,9 @@ footer {
 }
 
 .sidebar-list a {
+  font-family: Syne, sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
   display: block;
 }
 
@@ -136,6 +138,7 @@ header .content .sbtn:nth-of-type(2) {
 
 header .content .sbtn {
   font-size: 1.3rem;
+  font-family: Syne, sans-serif !important;
 }
 
 header .content .sbtn:first-of-type {
@@ -410,6 +413,7 @@ button.clipboard:focus {
   font-size: 1.3rem;
   margin-right: 20px;
   color: white;
+  font-family: Syne, sans-serif;
 }
 
 .down-link {

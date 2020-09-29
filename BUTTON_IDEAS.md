@@ -19,9 +19,10 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | ------- | ----------------------- | -------------------------------------- | ----------------------------------------------------------- |
 | &#9745; | ~~**Skew Button**~~     | A button that skews on hover.          |                                                             |
 | &#9745; | ~~**Neon Button**~~     | A button that glows on hover.          | [Esakki Selvaraj](https://github.com/esakki-selvaraj)       |
-| &#9744; | **Ripple Button**       | A button with ripple effect on hover   | [Maitryee-Choudhary](https://github.com/Maitryee-Choudhary) |
+| &#9745; | ~~**Ripple Button**~~       | A button with ripple effect on hover   | [Maitryee-Choudhary](https://github.com/Maitryee-Choudhary) |
 | &#9744; | **Snake Border Button** | A button with border like snake moving | [Harshit Virmani](https://github.com/hvirmani)              |
 | &#9744; | **3D button**           | A 3D button like a keyboard key        | [Charu Sachdeva](https://github.com/Charu271)               |
+|&#9745;  | ~~**Splash Button**~~  | A button that gives a moving linear gradient of rainbow colors on click| [Urja Banati](https://github.com/ub2906) 
 
 ---
 
@@ -39,7 +40,8 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 | status  | Button name           | Description                                                                                                                            | Submitted by                                      |
 | ------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| &#9744; | **Retro button**      | A button that has a retro style to it                                                                                                  |                                                   |
+| &#9744; | **Retro button**      | A button that has a retro style to it                                                                                                  |     [Nida](https://github.com/anonyda)                |
+| &#9744; | **Vintage Button**      | A button that has a Windows 95 Vintage style to it                                                                                         |     [Nida](https://github.com/anonyda)                |
 | &#9744; | **Neumorphic button** | A button that has a neumorphic style                                                                                                   | [Vitória](https://github.com/vitoriapena)         |
 | &#9744; | **Validation button** | A button that changes color if all the test cases are satisfied and displays with the message "SUCCESS" otherwise "SORRY" if it fails. | [Alina Sahoo](https://github.com/alinasahoo)      |
 | &#9744; | **Add Button Block**  | A button with full width on empty space.                                                                                               | [Sonny Michael](https://github.com/isonnymichael) |

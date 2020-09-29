@@ -87,6 +87,11 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
+          type: "ripple",
+          label: "Ripple",
+          classes: "ripple-btn",
+        },
+        {
           type: "scale",
           label: "Scale",
           classes: "scale-btn",
@@ -105,6 +110,11 @@ $(document).ready(function () {
           type: "skew",
           label: "Skew",
           classes: "skew-btn",
+        },
+        {
+          type: "splash",
+          label: "Splash",
+          classes: "splash-btn",
         },
       ],
     },
