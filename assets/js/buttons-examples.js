@@ -173,6 +173,11 @@ $(document).ready(function () {
       classes: "outline-btn",
       children: [],
     },
+    {
+      type: "disable",
+      classes: "",
+      label: "Disabled Buttons",
+    },
 
     {
       type: "social",
@@ -255,6 +260,18 @@ $(document).ready(function () {
         `;
   }
 
+  function getDisabledButtonHtml(classes, textClasses, buttonText) {
+    if (buttonText === false) {
+      buttonText = "Button";
+    }
+    return `
+            <div class="button-container">
+                <button class="${classes}" role="Button" aria-disabled="true" tabindex="-1" disabled>${buttonText}</button><br>
+                <small class="button-caption-sub">${textClasses}</small><br>
+            </div>
+        `;
+  }
+
   function getMenuLinkHtml(type, label, isSubMenu) {
     return (
       '<a href="#' +
@@ -319,11 +336,24 @@ $(document).ready(function () {
           );
         }
         sidebar.append(submenu);
+      } else if (button.type === "disable") {
+        var disabledButton = $('<div class="button-grid">');
+        buttonText = button.hasOwnProperty("text") ? button.text : false;
+        for (var j = 0; j < buttonColors.length; j++) {
+          disabledButton.append(
+            getDisabledButtonHtml(
+              `${defaultClass} ${buttonColors[j]}`,
+              `.${defaultClass} .${buttonColors[j]}`,
+              buttonText
+            )
+          );
+        }
+        section.append(disabledButton);
       } else {
         //add type buttons
         var normalButtonsGrid = $('<div class="button-grid">'),
-          roundedButtonsGrid = $('<div class="button-grid">'),
-          buttonText = button.hasOwnProperty("text") ? button.text : false;
+          roundedButtonsGrid = $('<div class="button-grid">');
+        buttonText = button.hasOwnProperty("text") ? button.text : false;
         for (var j = 0; j < buttonColors.length; j++) {
           normalButtonsGrid.append(
             getButtonHtml(

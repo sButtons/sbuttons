@@ -44,6 +44,16 @@ a.sbtn {
   border-radius: 25px;
 }
 
+button:disabled {
+  opacity: 0.55;
+}
+
+a.btn-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .blue-btn {
   .colorRule(@blue);
 }
