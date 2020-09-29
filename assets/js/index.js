@@ -52,8 +52,8 @@ $(document).ready(function () {
       $(".navbar").addClass("scrolling");
       $(".sidebar").addClass("scrolling");
     } else {
-      $(".downloadIcon").css('display','inline-block')      
-      $(".navbar").removeClass("scrolling");    
+      $(".navbar").removeClass("scrolling");
+      $(".sidebar").removeClass("scrolling");
     }
   }
 
