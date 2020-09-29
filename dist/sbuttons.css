@@ -1158,3 +1158,111 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
+.neu-btn-light {
+  padding: 10px;
+  text-align: center;
+  -webkit-appearance: none;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  overflow: hidden;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.4),
+    3px 3px 6px rgba(0, 0, 0, 0.15);
+}
+.neu-btn-light:not(.btn-rounded) {
+  border-radius: 10px;
+}
+.neu-btn-light.blue-btn {
+  color: #50bfe6;
+  background-color: transparent;
+}
+.neu-btn-light.pink-btn {
+  color: #d53caf;
+  background-color: transparent;
+}
+.neu-btn-light.red-btn {
+  color: #ed0a3f;
+  background-color: transparent;
+}
+.neu-btn-light.green-btn {
+  color: #3aa655;
+  background-color: transparent;
+}
+.neu-btn-light.yellow-btn {
+  color: #fbe870;
+  background-color: transparent;
+}
+.neu-btn-light.orange-btn {
+  color: #ff8833;
+  background-color: transparent;
+}
+.neu-btn-light.purple-btn {
+  color: #652dc1;
+  background-color: transparent;
+}
+.neu-btn-light.black-btn {
+  color: #000;
+  background-color: transparent;
+}
+.neu-btn-light:hover,
+.neu-btn-light:active,
+.neu-btn-light:focus {
+  box-shadow: inset -3px -3px 5px rgba(255, 255, 255, 0.4),
+    inset 3px 3px 6px rgba(0, 0, 0, 0.15);
+}
+.neu-btn-dark {
+  padding: 10px;
+  text-align: center;
+  -webkit-appearance: none;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  overflow: hidden;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.15),
+    3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+.neu-btn-dark:not(.btn-rounded) {
+  border-radius: 10px;
+}
+.neu-btn-dark.blue-btn {
+  color: #50bfe6;
+  background-color: transparent;
+}
+.neu-btn-dark.pink-btn {
+  color: #d53caf;
+  background-color: transparent;
+}
+.neu-btn-dark.red-btn {
+  color: #ed0a3f;
+  background-color: transparent;
+}
+.neu-btn-dark.green-btn {
+  color: #3aa655;
+  background-color: transparent;
+}
+.neu-btn-dark.yellow-btn {
+  color: #fbe870;
+  background-color: transparent;
+}
+.neu-btn-dark.orange-btn {
+  color: #ff8833;
+  background-color: transparent;
+}
+.neu-btn-dark.purple-btn {
+  color: #652dc1;
+  background-color: transparent;
+}
+.neu-btn-dark.black-btn {
+  color: #000;
+  background-color: transparent;
+}
+.neu-btn-dark:hover,
+.neu-btn-dark:active,
+.neu-btn-dark:focus {
+  box-shadow: inset -3px -3px 5px rgba(255, 255, 255, 0.15),
+    inset 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
