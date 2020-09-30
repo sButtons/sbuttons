@@ -252,14 +252,20 @@ $(document).ready(function () {
   var sidebar = $(".sidebar-list"),
     content = $("#content");
 
-  function getButtonHtml(classes, textClasses, buttonText, isBlock, isDisabled) {
+  function getButtonHtml(
+    classes,
+    textClasses,
+    buttonText,
+    isBlock,
+    isDisabled
+  ) {
     if (buttonText === false) {
       buttonText = "Button";
     }
     return `
             <div class="button-container">
                 <button class="${classes}" role="Button"
-                  ${isDisabled ? 'aria-disabled="true" tabindex="-1"' : ''}
+                  ${isDisabled ? 'aria-disabled="true" tabindex="-1"' : ""}
                   >${buttonText}</button>
                 ${!isBlock ? "<br>" : ""}
                 <small class="button-caption-sub">${textClasses}</small><br>
@@ -326,15 +332,22 @@ $(document).ready(function () {
           isDisabled = true;
         }
       }
-  
+
       //add type buttons
       var normalButtonsGrid = $('<div class="button-grid">'),
-      roundedButtonsGrid = $('<div class="button-grid">'),
-      blockButtonsGrid = $('<div class="button-grid">'),
-      buttonText = button.hasOwnProperty("text") ? button.text : false;
+        roundedButtonsGrid = $('<div class="button-grid">'),
+        blockButtonsGrid = $('<div class="button-grid">'),
+        buttonText = button.hasOwnProperty("text") ? button.text : false;
       for (var j = 0; j < buttonArr.length; j++) {
-        var thisButtonText = buttonText !== false ? buttonText : (buttonArr[j].hasOwnProperty('text') ? buttonArr[j].text : false);
-        var thisButtonClasses = buttonArr[j].hasOwnProperty('classes') ? buttonArr[j].classes : buttonArr[j];
+        var thisButtonText =
+          buttonText !== false
+            ? buttonText
+            : buttonArr[j].hasOwnProperty("text")
+            ? buttonArr[j].text
+            : false;
+        var thisButtonClasses = buttonArr[j].hasOwnProperty("classes")
+          ? buttonArr[j].classes
+          : buttonArr[j];
         normalButtonsGrid.append(
           getButtonHtml(
             `${defaultClass} ${button.classes} ${thisButtonClasses}`,
