@@ -25,6 +25,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9745; | ~~**Splash Button**~~  | A button that gives a moving linear gradient of rainbow colors on click| [Urja Banati](https://github.com/ub2906) |
 | &#9744; | **Transparent on Hover Button**  | A button whose background becomes transparent on hover |                                    |
 | &#9744; | **Colored Background on Hover Button** | A button that is originally transparent but its background becomes colored on hover | |
+| &#9744; | **Zoom Effect Button**           | A button which zooms/comes forward on hover        | [Archisman Hota](https://github.com/Archis19)               |
 
 ---
 
@@ -41,6 +42,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744;| **Share Button**               | Button with the share icon only                            |                                              |
 | &#9744; |**Screen Capture Button**        | Button with Screen and Camera to allow taking screenshots on click|[Shruti Jha](https://github.com/ShrutiJha31|
 | &#9744; | **Play Game Button** | A play game button which has a game controller shape |[Nicolas Cheng](https://github.com/nicolakacha)|
+| &#9744; | **Bring to Top Button**           | A button with an UP arrow key to glide to the top of the page        | [Archisman Hota](https://github.com/Archis19)               |
 ---
 
 ## Special
@@ -54,6 +56,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9745; | **Add Button Block**  | A button with full width on empty space.                                                                                               | [Sonny Michael](https://github.com/isonnymichael) |
 | &#9744; | **Dark Mode Toggle**  | A button toggling dark mode.                                                                                                           | [Harshit Virmani](https://github.com/hvirmani)    |
 | &#9745; | **Disabled Buttons**  | A button that has disabled style and non-clickable ability                                                                             | [Zahra Abdullah](https://github.com/zahra-abdullah)    |
+| &#9744; | **Text Size +/- Buttons**           | A button to change the font/text size        | [Archisman Hota](https://github.com/Archis19)               |
 
 ---
 
