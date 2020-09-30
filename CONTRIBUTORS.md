@@ -85,6 +85,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/ub2906"><img src="https://avatars1.githubusercontent.com/u/48362988?v=4" width="100px;" alt=""/><br /><sub><b>Urja Banati</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=ub2906" title="Code">💻</a> <a href="#ideas-ub2906" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/apoorvakadam"><img src="https://avatars1.githubusercontent.com/u/32300994?v=4" width="100px;" alt=""/><br /><sub><b>apoorvakadam</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=apoorvakadam" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/Rohit-Gupta11"><img src="https://avatars3.githubusercontent.com/u/63785612?v=4" width="100px;" alt=""/><br /><sub><b>Rohit Gupta</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Rohit-Gupta11" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ShrutiJha31"><img src="https://avatars2.githubusercontent.com/u/68193836?v=4" width="100px;" alt=""/><br /><sub><b>Shruti Jha</b></sub></a><br /><a href="#ideas-ShrutiJha31" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
