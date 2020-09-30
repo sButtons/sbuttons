@@ -4,7 +4,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-61-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
   
-:large_blue_circle: Simple buttons you can use easily for your next project.
+:bulb: Simple buttons you can use easily for your next project.
 
 # COMING SOON - Hacktoberfest
 
