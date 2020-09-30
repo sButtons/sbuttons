@@ -45,13 +45,13 @@ To use sButtons with block display, add the class to either `<button>` or `<a>` 
 <button class="sbtn basic-btn block-btn">Button</button>
 ```
 
-To make a `<button>` or `<a>` tag disabled, add btn-disabled class as shown below.
+To make a `<button>` or `<a>` tag disabled, add disabled-btn class as shown below.
 
 ```
-<button class="sbtn basic-btn blue-btn btn-disabled">Button</button>
+<button class="sbtn basic-btn blue-btn disabled-btn">Button</button>
 ```
 ```
-<a class="sbtn basic-btn blue-btn btn-disabled">Button</a>
+<a class="sbtn basic-btn blue-btn disabled-btn">Button</a>
 ```
 
 You can find all classes and their corresponding sButtons mentioned in our [website](https://shahednasser.github.io/sbuttons/). 
