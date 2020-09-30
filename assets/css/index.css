@@ -124,7 +124,6 @@ header .content .sbtn:nth-of-type(2) {
 header .content .sbtn {
   font-size: 1.3rem;
   font-family: Syne, sans-serif !important;
-  display: inline-block;
 }
 
 header .content .sbtn:first-of-type {
@@ -376,6 +375,7 @@ button.clipboard:focus {
   margin-right: 20px;
   color: white;
   font-family: Syne, sans-serif;
+  display: inline-block;
 }
 
 .down-link {
