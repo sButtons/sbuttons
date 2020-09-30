@@ -61,6 +61,11 @@ $(document).ready(function () {
           classes: "invert-btn",
         },
         {
+          type: "key",
+          label: "Key",
+          classes: "key-btn",
+        },
+        {
           type: "neon",
           label: "Neon",
           classes: "neon-btn",
