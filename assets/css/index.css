@@ -15,13 +15,6 @@ footer {
   transition: background-color 0.2s;
 }
 
-.sidebar-list a {
-  font-family: Syne, sans-serif;
-  letter-spacing: 1px;
-  font-size: 16px;
-  display: block;
-}
-
 [data-theme="dark"] {
   background-color: var(--dark-color);
   color: #ffffff;
@@ -34,11 +27,6 @@ footer {
 [data-theme="dark"] .navbar.scrolling {
   background-color: #434343;
   box-shadow: 0 2px 3px #1e1e1e;
-}
-
-[data-theme="dark"] .sidebar {
-  background-color: var(--dark-color);
-  color: #ffffff;
 }
 
 [data-theme="dark"] .sidebar a,
@@ -204,12 +192,6 @@ hr {
   vertical-align: sub;
 }
 
-.navbar .sidebar-toggler,
-.close-sidebar {
-  outline: none !important;
-  cursor: pointer;
-}
-
 .navbar .download-link,
 .navbar .icon-link,
 .navbar .sidebar-toggler,
@@ -285,10 +267,6 @@ hr {
 
   .navbar:not(.scrolling) {
     justify-content: space-between;
-  }
-
-  [data-theme="dark"] .sidebar {
-    box-shadow: 1px 1px 5px #3b3b3b !important;
   }
 }
 

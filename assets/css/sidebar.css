@@ -67,6 +67,13 @@
   overflow-y: auto;
 }
 
+.sidebar-list a {
+  font-family: Syne, sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  display: block;
+}
+
 .sidebar-list::-webkit-scrollbar {
   width: 6px;
 }
@@ -78,6 +85,17 @@
 
 .sidebar-list::-webkit-scrollbar-thumb:hover {
   background: var(--main-color);
+}
+
+[data-theme="dark"] .sidebar {
+  background-color: var(--dark-color);
+  color: #ffffff;
+}
+
+.navbar .sidebar-toggler,
+.close-sidebar {
+  outline: none !important;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -94,6 +112,10 @@
 
   .sidebar-toggler {
     padding-left: 0px;
+  }
+
+  [data-theme="dark"] .sidebar {
+    box-shadow: 1px 1px 5px #3b3b3b !important;
   }
 
   .sidebar {
