@@ -87,6 +87,11 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
+          type: "snake",
+          label: "Snake Border",
+          classes: "snake-btn",
+        },
+        {
           type: "ripple",
           label: "Ripple",
           classes: "ripple-btn",

@@ -1,0 +1,63 @@
+.snake-btn {
+  position: relative;
+  border: none;
+  &:before {
+    display: block;
+    content: " ";
+    border: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    top: 0;
+    left: 0;
+  }
+  &:after {
+    display: block;
+    content: " ";
+    border: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    bottom: 0;
+    right: 0;
+  }
+  &:hover {
+    &:before {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      border-top: 0.2rem solid yellow;
+      border-right: 0.2rem solid yellow;
+      transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1),
+        height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
+      border-color: #333;
+    }
+    &:after {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      border-bottom: 0.2rem solid;
+      border-left: 0.2rem solid;
+      transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1),
+        height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
+      border-color: #333;
+    }
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+.snake-btn.rounded-btn {
+  &:hover {
+    &:before {
+      border-radius: 25px;
+    }
+    &:after {
+      border-radius: 25px;
+    }
+  }
+}
