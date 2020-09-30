@@ -1,7 +1,7 @@
 # sButtons
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-61-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-62-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
   
 :bulb: Simple buttons you can use easily for your next project.
@@ -28,16 +28,32 @@ In case of using buttons that have icons in them, make sure to include font awes
 ```
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 ```
-To use sButtons in your project , just add the classes of sButton you want to either  ```<button>``` or ```<a>``` tags :
+To use sButtons in your project , just add the classes of sButton you want to either  `<button>` or `<a>` tags :
 
 ```
 <button class='sbtn basic-btn blue-btn'>Button</button>
 ```
-This code will produce basic sButton with blue colour. Same can be done for ```<a>``` tag
+This code will produce basic sButton with blue colour. Same can be done for `<a>` tag
 
 ```
 <a href='#' class='sbtn basic-btn blue-btn'>Button</a>
 ```
+
+To use sButtons with block display, add the class to either `<button>` or `<a>` tags
+ 
+```
+<button class="sbtn basic-btn block-btn">Button</button>
+```
+
+To make a `<button>` or `<a>` tag disabled, add btn-disabled class as shown below.
+
+```
+<button class="sbtn basic-btn blue-btn btn-disabled">Button</button>
+```
+```
+<a class="sbtn basic-btn blue-btn btn-disabled">Button</a>
+```
+
 You can find all classes and their corresponding sButtons mentioned in our [website](https://shahednasser.github.io/sbuttons/). 
 
 # Installation
