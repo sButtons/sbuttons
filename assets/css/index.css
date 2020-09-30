@@ -49,9 +49,6 @@ footer {
 header {
   background-color: var(--main-color);
   color: #fff;
-  height: 66vh;
-  display: flex !important;
-  flex-direction: column;
 }
 
 .navbar {
@@ -111,7 +108,7 @@ header .logo {
 
 header .content {
   text-align: center;
-  flex: 1;
+  padding-bottom: 30px;
 }
 
 header .content .logo h1 {
@@ -139,6 +136,7 @@ header .content .sbtn:nth-of-type(2) {
 header .content .sbtn {
   font-size: 1.3rem;
   font-family: Syne, sans-serif !important;
+  display: inline-block;
 }
 
 header .content .sbtn:first-of-type {
