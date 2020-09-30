@@ -5,6 +5,11 @@
   "main": "index.html",
   "author": "Shahed Nasser",
   "license": "ISC",
+  "keywords": [
+    "less",
+    "buttons",
+    "css"
+  ],
   "scripts": {
     "start": "npm run watch",
     "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier",
