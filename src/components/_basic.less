@@ -1,107 +1,107 @@
 .bc(@color) {
-  background-color: @color;
+    background-color: @color;
 }
 
 .colorRule(@color) {
-  .bc(@color);
+    .bc(@color);
 
-  &:focus,
-  &:active {
-    box-shadow: 0px 0px 0 0.2rem fade(@color, 30%);
-    outline: 0;
-  }
+    &:focus,
+    &:active {
+        box-shadow: 0px 0px 0 0.2rem fade(@color, 30%);
+        outline: 0;
+    }
 }
 
 .sbtn {
-  padding: @buttonPadding;
-  text-align: center;
-  -webkit-appearance: none;
-  .bc(transparent);
-  border: 1px solid;
-  cursor: pointer;
-  border-color: transparent;
-  color: @lightText;
-  font-family: inherit;
-  overflow: hidden;
-  font-size: @buttonFontSize;
+    padding: @buttonPadding;
+    text-align: center;
+    -webkit-appearance: none;
+    .bc(transparent);
+    border: 1px solid;
+    cursor: pointer;
+    border-color: transparent;
+    color: @lightText;
+    font-family: inherit;
+    overflow: hidden;
+    font-size: @buttonFontSize;
 
-  &:hover,
-  &:active,
-  &:focus {
-    outline: none;
-  }
+    &:hover,
+    &:active,
+    &:focus {
+        outline: none;
+    }
 }
 
 a.sbtn {
-  &,
-  &:hover,
-  &:active {
-    text-decoration: none;
-    display: inline-block;
-  }
+    &,
+    &:hover,
+    &:active {
+        text-decoration: none;
+        display: inline-block;
+    }
 }
 
 .rounded-btn {
-  border-radius: 25px;
+    border-radius: 25px;
 }
 
 .block-btn {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
-.btn-disabled {
-  opacity: 0.55;
-  cursor: not-allowed;
-  pointer-events: none;
+.disabled-btn {
+    opacity: 0.55;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .blue-btn {
-  .colorRule(@blue);
+    .colorRule(@blue);
 }
 
 .pink-btn {
-  .colorRule(@pink);
+    .colorRule(@pink);
 }
 
 .red-btn {
-  .colorRule(@red);
+    .colorRule(@red);
 }
 
 .green-btn {
-  .colorRule(@green);
+    .colorRule(@green);
 }
 
 .yellow-btn {
-  .colorRule(@yellow);
+    .colorRule(@yellow);
 
-  &:not(.fill-color-btn):not(.ripple-btn):not(.outline-btn) {
-    color: @darkText !important;
-  }
+    &:not(.fill-color-btn):not(.ripple-btn):not(.outline-btn) {
+        color: @darkText !important;
+    }
 }
 
 .orange-btn {
-  .colorRule(@orange);
+    .colorRule(@orange);
 }
 
 .purple-btn {
-  .colorRule(@purple);
+    .colorRule(@purple);
 }
 
 .black-btn {
-  .colorRule(@black);
+    .colorRule(@black);
 }
 
 .white-btn {
-  .colorRule(@white);
-  border-color: @whiteBorder;
-  &:focus,
-  &:active {
-    box-shadow: 0px 0px 0 0.2rem fade(@whiteBorder, 67%);
-  }
+    .colorRule(@white);
+    border-color: @whiteBorder;
+    &:focus,
+    &:active {
+        box-shadow: 0px 0px 0 0.2rem fade(@whiteBorder, 67%);
+    }
 
-  &:not(.fill-color-btn) {
-    color: @darkText !important;
-  }
+    &:not(.fill-color-btn) {
+        color: @darkText !important;
+    }
 }
 
 a.purple-btn,
@@ -110,17 +110,17 @@ a.green-btn,
 a.red-btn,
 a.pink-btn,
 a.blue-btn {
-  &:hover,
-  &:active {
-    color: @lightText;
-  }
+    &:hover,
+    &:active {
+        color: @lightText;
+    }
 }
 
 a.yellow-btn {
-  &:hover,
-  &:active {
-    &:not(.fill-color-btn) {
-      color: @darkText !important;
+    &:hover,
+    &:active {
+        &:not(.fill-color-btn) {
+            color: @darkText !important;
+        }
     }
-  }
 }

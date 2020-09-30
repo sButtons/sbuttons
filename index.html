@@ -1,216 +1,357 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>sButtons - Simple and Creative Buttons</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
-      rel="stylesheet">
-    <link href="assets/css/index.css" rel="stylesheet" />
-    <link href="assets/css/sidebar.css" rel="stylesheet" />
-    <link href="assets/css/variables.css" rel="stylesheet"/>
-    <link href="dist/sbuttons.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <head>
+        <title>sButtons - Simple and Creative Buttons</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="assets/css/index.css" rel="stylesheet" />
+        <link href="assets/css/sidebar.css" rel="stylesheet" />
+        <link href="assets/css/variables.css" rel="stylesheet" />
+        <link href="dist/sbuttons.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
 
+        <!-- seo friendly og tags-->
+        <meta
+            name="description"
+            content="Simple buttons you can use easily for your next project."
+        />
+        <meta
+            name="keywords"
+            content="css, less, buttons, simple, project, github, open source, contribute, first timers, animation, hover, basic, social, login"
+        />
+        <meta
+            name="og:url"
+            content="https://shahednasser.github.io/sbuttons/"
+        />
+        <meta
+            name="og:description"
+            content="Simple buttons you can use easily for your next project."
+        />
+        <meta name="og:image" content="site logo url" />
+        <meta name="og:type" content="website" />
 
-  <!-- seo friendly og tags-->
-  <meta name="description" content="Simple buttons you can use easily for your next project.">
-  <meta name="keywords" content="css, less, buttons, simple, project, github, open source, contribute, first timers, animation, hover, basic, social, login">
-  <meta name="og:url" content="https://shahednasser.github.io/sbuttons/">
-  <meta name="og:description" content="Simple buttons you can use easily for your next project.">
-  <meta name="og:image" content="site logo url">
-  <meta name="og:type" content="website">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-149400351-4"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
 
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149400351-4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-149400351-4');
-    </script>
-  </head>
-  <body>
-    <div id="shade"></div>
-    <header>
-      <div class="navbar">
-        <button type="button" class="sidebar-toggler d-none d-block d-md-none">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="logo">
-          <img src="assets/img/colored-logo.png" class="img-fluid" />
-        </div>
-        <div class="buttons">
-          <a class="toggle-theme" href="#toggleTheme" title="Toggle light/dark mode">
-            <i class="fas fa-moon"></i>
-          </a>
-          <a href="#" id="downloadGithubRawHeader" class="download-link">
-            <i class="fas fa-download"></i>
-          </a>
-          <a href="https://github.com/shahednasser/sbuttons" target="_blank" class="icon-link">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
-      <div class="content">
-        <div class="logo">
-          <img src="assets/img/logo.png" class="img-fluid" />
-        </div>
-        <div class="subtitle">
-          Simple buttons you can use easily for your next project.
-        </div>
-        <a href="#" id="downloadGithubRawButton" class="banner-link down-link">Download</a>
-        <a href="https://github.com/shahednasser/sbuttons" target="_blank" class="banner-link">Documentation</a>
-      </div>
-    </header>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-3 d-md-block">
-          <div class="hide-sidebar sidebar animate__animated animate__slideInLeft">
-            <button class="close-sidebar d-none d-block d-md-none"><i class="fas fa-times-circle"></i></button>
-            <div class="sidebar-list">
-              <a href=#how-to-use>How to Use</a>
+            gtag('config', 'UA-149400351-4');
+        </script>
+    </head>
+    <body>
+        <div id="shade"></div>
+        <header>
+            <div class="navbar">
+                <button
+                    type="button"
+                    class="sidebar-toggler d-none d-block d-md-none"
+                >
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="logo">
+                    <img src="assets/img/colored-logo.png" class="img-fluid" />
+                </div>
+                <div class="buttons">
+                    <a
+                        class="toggle-theme"
+                        href="#toggleTheme"
+                        title="Toggle light/dark mode"
+                    >
+                        <i class="fas fa-moon"></i>
+                    </a>
+                    <a
+                        href="#"
+                        id="downloadGithubRawHeader"
+                        class="download-link"
+                    >
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a
+                        href="https://github.com/shahednasser/sbuttons"
+                        target="_blank"
+                        class="icon-link"
+                    >
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
             </div>
-            
-          </div>
-        </div>
-        <div class="col-md-9 col-12" id="content">
-          <section id="how-to-use">
-            <h1 class="section-header">How to Use</h1>
-            <div class="instructions">
-              <div class="text">
-                You can download the CSS file
-                <a href="#" id="downloadGithubRawHowTo" class="cssLink"
-                  target="blank">here</a> and then add it to your html file inbetween the tags.
-              </div>
-              <div class="text">
-                Download the file and link it as a stylesheet in between your <span class="code-text">&lt;head&gt;</span>
-                tags, as shown below.
-              </div>
-              <br>
-              <div class="code-block-container ">
-                <div class="script-copy">
-                  <pre><code class="language-markup"> &lt;link rel="stylesheet" href="/path/to/sbuttons.min.css"></code></pre>
-                  <div class="div-copy"><button class="clipboard"></button></div>
+            <div class="content">
+                <div class="logo">
+                    <img src="assets/img/logo.png" class="img-fluid" />
                 </div>
-              <br>
-              </div>
-              <div class="text">
-                Make sure to replace 
-                <span class="code-text">"/path/to/sbuttons.min.css"</span> with the path you stored it in.
-              </div> <br>
-              <div class="text">
-                Or instead of downloading the file, you can use the CDN
-              </div> 
-              <br>
-              <div class="code-block-container">
-                <div class="script-copy">
-                  <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css"></code></pre>
-                <div class="div-copy"><button class="clipboard"></button></div>
+                <div class="subtitle">
+                    Simple buttons you can use easily for your next project.
                 </div>
-              <br>
-              </div>
-              <div class="text">
-                In case of using buttons that have icons in them, make sure to include font awesome's CDN in the <span
-                  class="code-text">&lt;head&gt;</span> tag.
-              </div>
-              <div class="code-block-container">
-                <div class="script-copy">
-                  <pre><code class="language-markup">&lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"&gt;</code></pre>
-                  <div class="div-copy"><button class="clipboard"></button></div>
-                </div>
-              </div>
-              <br>
-              <div class="text">
-               To use sButtons in your project , just add the classes of sButton you want to either 
-                <span class="code-text">&lt;button&gt;</span>
-                or 
-                <span class="code-text">&lt;a&gt;</span> tags
-              </div>
-              <div class="code-block-container">
-                <div class="script-copy">
-                  <pre><code class="language-markup">&lt;button class="sbtn basic-btn blue-btn"&gt;Button&lt;/button&gt;</code></pre>
-                  <div class="div-copy"><button class="clipboard"></button></div>
-                </div>
-              </div>
-              <br>
-              <div class="text">
-                This code will produce basic sButton with blue colour. Same can be done for 
-                &lt;a&gt; tag
-              </div>
-              <div class="code-block-container">
-                <div class="script-copy">
-                  <pre><code class="language-markup">&lt;a href="#" class="sbtn basic-btn blue-btn"&gt;Button&lt;/a&gt;</code></pre>
-                  <div class="div-copy"><button class="clipboard"></button></div>
-                </div>
-              </div>
-              <br>
-              <div class="text">
-                To use sButtons with block display, add the class to either &lt;button&gt; or &lt;a&gt; tags
-              </div>
-              <div class="code-block-container">
-                <div class="script-copy">
-                  <pre><code class="language-markup">&lt;button class="sbtn basic-btn block-btn"&gt;Button&lt;/button&gt;</code></pre>
-                  <div class="div-copy"><button class="clipboard"></button></div>
-                </div>
-              </div>
-              <div class="text">
-                To make a button or &lt;a&gt; tag disabled, add btn-disabled class as shown below.
-              </div>
-              <div class="code-block-container">
-                <div class="script-copy">
-                  <pre><code class="language-markup">&lt;button class="sbtn basic-btn blue-btn btn-disabled"&gt;Button&lt;/button&gt;</code></pre>
-                  <div class="div-copy"><button class="clipboard"></button></div>
-                </div>
-              </div>
-              <div class="code-block-container">
-                <div class="script-copy">
-                  <pre><code class="language-markup">&lt;a class="sbtn basic-btn blue-btn btn-disabled"&gt;Button&lt;/a&gt;</code></pre>
-                  <div class="div-copy"><button class="clipboard"></button></div>
-                </div>
-              </div>
-              <br>
-              <div class="text">
-                You can find all classes and their corresponding sButtons mentioned below.
-              </div>
-              </div><br>
-              <div class="text">
-                Do you have amazing ideas for new buttons? Submit them <a href="https://github.com/shahednasser/sbuttons/issues/96" class="cssLink"
-                target="_blank">here</a>.
-              </div><br>
-          </section>
+                <a
+                    href="#"
+                    id="downloadGithubRawButton"
+                    class="banner-link down-link"
+                    >Download</a
+                >
+                <a
+                    href="https://github.com/shahednasser/sbuttons"
+                    target="_blank"
+                    class="banner-link"
+                    >Documentation</a
+                >
             </div>
-          <!-- Button examples will go here using JS -->
+        </header>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3 d-md-block">
+                    <div
+                        class="hide-sidebar sidebar animate__animated animate__slideInLeft"
+                    >
+                        <button class="close-sidebar d-none d-block d-md-none">
+                            <i class="fas fa-times-circle"></i>
+                        </button>
+                        <div class="sidebar-list">
+                            <a href="#how-to-use">How to Use</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col-12" id="content">
+                    <section id="how-to-use">
+                        <h1 class="section-header">How to Use</h1>
+                        <div class="instructions">
+                            <div class="text">
+                                You can download the CSS file
+                                <a
+                                    href="#"
+                                    id="downloadGithubRawHowTo"
+                                    class="cssLink"
+                                    target="blank"
+                                    >here</a
+                                >
+                                and then add it to your html file inbetween the
+                                tags.
+                            </div>
+                            <div class="text">
+                                Download the file and link it as a stylesheet in
+                                between your
+                                <span class="code-text">&lt;head&gt;</span>
+                                tags, as shown below.
+                            </div>
+                            <br />
+                            <div class="code-block-container">
+                                <div class="script-copy">
+                                    <pre><code class="language-markup"> &lt;link rel="stylesheet" href="/path/to/sbuttons.min.css"></code></pre>
+                                    <div class="div-copy">
+                                        <button class="clipboard"></button>
+                                    </div>
+                                </div>
+                                <br />
+                            </div>
+                            <div class="text">
+                                Make sure to replace
+                                <span class="code-text"
+                                    >"/path/to/sbuttons.min.css"</span
+                                >
+                                with the path you stored it in.
+                            </div>
+                            <br />
+                            <div class="text">
+                                Or instead of downloading the file, you can use
+                                the CDN
+                            </div>
+                            <br />
+                            <div class="code-block-container">
+                                <div class="script-copy">
+                                    <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css"></code></pre>
+                                    <div class="div-copy">
+                                        <button class="clipboard"></button>
+                                    </div>
+                                </div>
+                                <br />
+                            </div>
+                            <div class="text">
+                                In case of using buttons that have icons in
+                                them, make sure to include font awesome's CDN in
+                                the
+                                <span class="code-text">&lt;head&gt;</span> tag.
+                            </div>
+                            <div class="code-block-container">
+                                <div class="script-copy">
+                                    <pre><code class="language-markup">&lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"&gt;</code></pre>
+                                    <div class="div-copy">
+                                        <button class="clipboard"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="text">
+                                To use sButtons in your project , just add the
+                                classes of sButton you want to either
+                                <span class="code-text">&lt;button&gt;</span>
+                                or
+                                <span class="code-text">&lt;a&gt;</span> tags
+                            </div>
+                            <div class="code-block-container">
+                                <div class="script-copy">
+                                    <pre><code class="language-markup">&lt;button class="sbtn basic-btn blue-btn"&gt;Button&lt;/button&gt;</code></pre>
+                                    <div class="div-copy">
+                                        <button class="clipboard"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="text">
+                                This code will produce basic sButton with blue
+                                colour. Same can be done for &lt;a&gt; tag
+                            </div>
+                            <div class="code-block-container">
+                                <div class="script-copy">
+                                    <pre><code class="language-markup">&lt;a href="#" class="sbtn basic-btn blue-btn"&gt;Button&lt;/a&gt;</code></pre>
+                                    <div class="div-copy">
+                                        <button class="clipboard"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="text">
+                                To use sButtons with block display, add the
+                                class to either &lt;button&gt; or &lt;a&gt; tags
+                            </div>
+                            <div class="code-block-container">
+                                <div class="script-copy">
+                                    <pre><code class="language-markup">&lt;button class="sbtn basic-btn block-btn"&gt;Button&lt;/button&gt;</code></pre>
+                                    <div class="div-copy">
+                                        <button class="clipboard"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                To make a button or &lt;a&gt; tag disabled, add
+                                disabled-btn class as shown below.
+                            </div>
+                            <div class="code-block-container">
+                                <div class="script-copy">
+                                    <pre><code class="language-markup">&lt;button class="sbtn basic-btn blue-btn disabled-btn"&gt;Button&lt;/button&gt;</code></pre>
+                                    <div class="div-copy">
+                                        <button class="clipboard"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="code-block-container">
+                                <div class="script-copy">
+                                    <pre><code class="language-markup">&lt;a class="sbtn basic-btn blue-btn disabled-btn"&gt;Button&lt;/a&gt;</code></pre>
+                                    <div class="div-copy">
+                                        <button class="clipboard"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="text">
+                                You can find all classes and their corresponding
+                                sButtons mentioned below.
+                            </div>
+                        </div>
+                        <br />
+                        <div class="text">
+                            Do you have amazing ideas for new buttons? Submit
+                            them
+                            <a
+                                href="https://github.com/shahednasser/sbuttons/issues/96"
+                                class="cssLink"
+                                target="_blank"
+                                >here</a
+                            >.
+                        </div>
+                        <br />
+                    </section>
+                </div>
+                <!-- Button examples will go here using JS -->
+            </div>
         </div>
-      </div>
-    <span class="scroll-top" data-scroll="up" style="display: none;">
-      <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
-    </span>
-    <footer>
-      <span class="tagline">Made with <span class="tagline-heart">❤︎</span></span><br/>
-      Say Hello to our awesome <a href="https://github.com/shahednasser/sbuttons/blob/master/CONTRIBUTORS.md">contributors</a>!<br/>
-      Have any suggestions or want to contribute?
-      <a href="https://github.com/shahednasser/sbuttons" target="_blank" title="View on Github">View on Github</a>
-      <div style="font-size: 13px;">Icon in logo made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/components/prism-core.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/autoloader/prism-autoloader.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="assets/js/buttons-examples.js"></script>
-    <script src="assets/js/index.js"></script>
-  </body>
+        <span class="scroll-top" data-scroll="up" style="display: none">
+            <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+        </span>
+        <footer>
+            <span class="tagline"
+                >Made with <span class="tagline-heart">❤︎</span></span
+            ><br />
+            Say Hello to our awesome
+            <a
+                href="https://github.com/shahednasser/sbuttons/blob/master/CONTRIBUTORS.md"
+                >contributors</a
+            >!<br />
+            Have any suggestions or want to contribute?
+            <a
+                href="https://github.com/shahednasser/sbuttons"
+                target="_blank"
+                title="View on Github"
+                >View on Github</a
+            >
+            <div style="font-size: 13px">
+                Icon in logo made by
+                <a
+                    href="https://www.flaticon.com/authors/pixel-perfect"
+                    title="Pixel perfect"
+                    >Pixel perfect</a
+                >
+                from
+                <a href="https://www.flaticon.com/" title="Flaticon"
+                    >www.flaticon.com</a
+                >
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/components/prism-core.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/autoloader/prism-autoloader.min.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+        <script src="assets/js/buttons-examples.js"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
 </html>
-
