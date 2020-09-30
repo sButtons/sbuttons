@@ -22,7 +22,7 @@ a.sbtn:active {
   text-decoration: none;
   display: inline-block;
 }
-.btn-rounded {
+.rounded-btn {
   border-radius: 25px;
 }
 .block-btn {

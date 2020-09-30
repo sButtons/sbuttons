@@ -372,8 +372,8 @@ $(document).ready(function () {
           );
           roundedButtonsGrid.append(
             getButtonHtml(
-              `${defaultClass} ${button.classes} btn-rounded ${buttonColors[j]}`,
-              `.${defaultClass} .${button.classes} .btn-rounded .${buttonColors[j]}`,
+              `${defaultClass} ${button.classes} rounded-btn ${buttonColors[j]}`,
+              `.${defaultClass} .${button.classes} .rounded-btn .${buttonColors[j]}`,
               buttonText,
               false
             )
