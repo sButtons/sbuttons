@@ -5,7 +5,8 @@
 .colorRule(@color) {
   .bc(@color);
 
-  &:focus {
+  &:focus,
+  &:active {
     box-shadow: 0px 0px 0 0.2rem fade(@color, 30%);
     outline: 0;
   }
@@ -22,6 +23,7 @@
   color: @lightText;
   font-family: inherit;
   overflow: hidden;
+  font-size: @buttonFontSize;
 
   &:hover,
   &:active,
@@ -35,12 +37,24 @@ a.sbtn {
   &:hover,
   &:active {
     text-decoration: none;
+    display: inline-block;
   }
 }
 
-.btn-rounded {
+.rounded-btn {
   border-radius: 25px;
 }
+
+.block-btn {
+  display: block;
+  width: 100%;
+}
+.btn-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .blue-btn {
   .colorRule(@blue);
 }
@@ -60,7 +74,7 @@ a.sbtn {
 .yellow-btn {
   .colorRule(@yellow);
 
-  &:not(.fill-color-btn) {
+  &:not(.fill-color-btn):not(.ripple-btn):not(.outline-btn) {
     color: @darkText !important;
   }
 }
@@ -71,4 +85,42 @@ a.sbtn {
 
 .purple-btn {
   .colorRule(@purple);
+}
+
+.black-btn {
+  .colorRule(@black);
+}
+
+.white-btn {
+  .colorRule(@white);
+  border-color: @whiteBorder;
+  &:focus,
+  &:active {
+    box-shadow: 0px 0px 0 0.2rem fade(@whiteBorder, 67%);
+  }
+
+  &:not(.fill-color-btn) {
+    color: @darkText !important;
+  }
+}
+
+a.purple-btn,
+a.orange-btn,
+a.green-btn,
+a.red-btn,
+a.pink-btn,
+a.blue-btn {
+  &:hover,
+  &:active {
+    color: @lightText;
+  }
+}
+
+a.yellow-btn {
+  &:hover,
+  &:active {
+    &:not(.fill-color-btn) {
+      color: @darkText !important;
+    }
+  }
 }

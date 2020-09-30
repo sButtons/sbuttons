@@ -12,6 +12,7 @@
   position: relative;
   text-decoration: none;
   width: fit-content;
+  margin-bottom: 5px;
 }
 .sidebar a:before {
   position: absolute;
@@ -19,7 +20,7 @@
   height: 2px;
   width: 0;
   background-color: var(--main-color);
-  transition: all 0.2s;
+  transition: all 0.3s;
   content: " ";
   bottom: 0;
 }
@@ -57,13 +58,64 @@
   color: #fff;
 }
 
-@media (max-width: 767px) {
+#shade {
+  opacity: 0%;
+  transition: opacity 0.2s;
+}
+
+.sidebar-list {
+  overflow-y: auto;
+}
+
+.sidebar-list a {
+  font-family: Syne, sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  display: block;
+}
+
+.sidebar-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 2.5px;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb:hover {
+  background: var(--main-color);
+}
+
+[data-theme="dark"] .sidebar {
+  background-color: var(--dark-color);
+  color: #ffffff;
+}
+
+.navbar .sidebar-toggler,
+.close-sidebar {
+  outline: none !important;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-list {
+    max-height: 80vh;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .row .hide-sidebar {
     display: none;
   }
 
   .sidebar-toggler {
     padding-left: 0px;
+  }
+
+  [data-theme="dark"] .sidebar {
+    box-shadow: 1px 1px 5px #3b3b3b !important;
   }
 
   .sidebar {
@@ -96,5 +148,14 @@
   .sidebar.scrolling {
     top: 0;
     z-index: 100;
+  }
+
+  #shade.shown {
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    position: fixed;
+    background-color: black;
+    opacity: 50%;
   }
 }
