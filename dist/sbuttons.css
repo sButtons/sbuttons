@@ -239,14 +239,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-size: 1.5rem;
   transform: rotateY(90deg);
 }
-.next-arrow-btn:not(.btn-rounded):after {
+.next-arrow-btn:not(.rounded-btn):after {
   right: 0.5em;
   transition: all 0.05s;
 }
-.next-arrow-btn.btn-rounded {
+.next-arrow-btn.rounded-btn {
   transition: padding-right 0.1s;
 }
-.next-arrow-btn.btn-rounded:after {
+.next-arrow-btn.rounded-btn:after {
   right: 11px;
   border-radius: 50%;
   transition: all 0.05s;
@@ -307,14 +307,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-size: 1.5rem;
   transform: rotateY(90deg);
 }
-.previous-arrow-btn:not(.btn-rounded):before {
+.previous-arrow-btn:not(.rounded-btn):before {
   left: 0.5em;
   transition: all 0.05s;
 }
-.previous-arrow-btn.btn-rounded {
+.previous-arrow-btn.rounded-btn {
   transition: padding-left 0.1s;
 }
-.previous-arrow-btn.btn-rounded:before {
+.previous-arrow-btn.rounded-btn:before {
   left: 11px;
   border-radius: 50%;
   transition: all 0.05s;
@@ -960,10 +960,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .like-btn:active {
   animation: heartBeat 1s;
 }
-.like-btn:not(.btn-rounded) {
+.like-btn:not(.rounded-btn) {
   padding: 0.25em 0.25em 0 0.25em;
 }
-.like-btn.btn-rounded {
+.like-btn.rounded-btn {
   width: 1.6em;
   height: 1.6em;
   padding: 0;
@@ -989,10 +989,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .play-btn:active {
   animation: play 0.4s;
 }
-.play-btn:not(.btn-rounded) {
+.play-btn:not(.rounded-btn) {
   padding: 0em 0.25em 0 0.25em;
 }
-.play-btn.btn-rounded {
+.play-btn.rounded-btn {
   width: 2em;
   height: 2em;
   padding: 0 0 0 3px;
@@ -1022,10 +1022,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .plus-btn:focus {
   filter: brightness(1.2);
 }
-.plus-btn:not(.btn-rounded) {
+.plus-btn:not(.rounded-btn) {
   padding: 0 0.5em;
 }
-.plus-btn.btn-rounded {
+.plus-btn.rounded-btn {
   width: 1.6em;
   height: 1.6em;
   padding: 0;
