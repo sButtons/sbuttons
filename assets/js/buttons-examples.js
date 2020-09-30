@@ -120,7 +120,7 @@ $(document).ready(function () {
     },
     {
       type: "disable",
-      classes: "btn-disabled",
+      classes: "disabled-btn",
       label: "Disabled Buttons",
     },
     {
