@@ -87,6 +87,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/Rohit-Gupta11"><img src="https://avatars3.githubusercontent.com/u/63785612?v=4" width="100px;" alt=""/><br /><sub><b>Rohit Gupta</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Rohit-Gupta11" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ShrutiJha31"><img src="https://avatars2.githubusercontent.com/u/68193836?v=4" width="100px;" alt=""/><br /><sub><b>Shruti Jha</b></sub></a><br /><a href="#ideas-ShrutiJha31" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/1880akshay"><img src="https://avatars3.githubusercontent.com/u/56107242?v=4" width="100px;" alt=""/><br /><sub><b>Akshay Jain</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=1880akshay" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3A1880akshay" title="Bug reports">🐛</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
