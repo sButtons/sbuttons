@@ -259,7 +259,7 @@ $(document).ready(function () {
     return `
             <div class="button-container">
                 <button class="${classes}" role="Button">${buttonText}</button>
-                ${!isBlock ? '<br>' : ''}
+                ${!isBlock ? "<br>" : ""}
                 <small class="button-caption-sub">${textClasses}</small><br>
             </div>
         `;
