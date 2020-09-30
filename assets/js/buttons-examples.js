@@ -118,6 +118,11 @@ $(document).ready(function () {
       ],
     },
     {
+      type: "disable",
+      classes: "btn-disabled",
+      label: "Disabled Buttons",
+    },
+    {
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",
@@ -173,7 +178,6 @@ $(document).ready(function () {
       classes: "outline-btn",
       children: [],
     },
-
     {
       type: "social",
       label: "Social Buttons",
@@ -259,6 +263,18 @@ $(document).ready(function () {
         `;
   }
 
+  function getDisabledButtonHtml(classes, textClasses, buttonText) {
+    if (buttonText === false) {
+      buttonText = "Button";
+    }
+    return `
+            <div class="button-container">
+                <button class="${classes}" role="Button" aria-disabled="true" tabindex="-1">${buttonText}</button><br>
+                <small class="button-caption-sub">${textClasses}</small><br>
+            </div>
+        `;
+  }
+
   function getMenuLinkHtml(type, label, isSubMenu) {
     return (
       '<a href="#' +
@@ -323,6 +339,19 @@ $(document).ready(function () {
           );
         }
         sidebar.append(submenu);
+      } else if (button.type === "disable") {
+        var disabledButton = $('<div class="button-grid">');
+        buttonText = button.hasOwnProperty("text") ? button.text : false;
+        for (var j = 0; j < buttonColors.length; j++) {
+          disabledButton.append(
+            getDisabledButtonHtml(
+              `${defaultClass} ${button.classes} ${buttonColors[j]}`,
+              `.${defaultClass} .${button.classes} .${buttonColors[j]}`,
+              buttonText
+            )
+          );
+        }
+        section.append(disabledButton);
       } else {
         //add type buttons
         var normalButtonsGrid = $('<div class="button-grid">'),

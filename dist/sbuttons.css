@@ -28,6 +28,11 @@ a.sbtn:active {
   display: block;
   width: 100%;
 }
+.btn-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 .blue-btn {
   background-color: #50bfe6;
 }
