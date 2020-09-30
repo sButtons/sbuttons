@@ -618,6 +618,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "Nicolakacha",
+      "name": "Nicolas Cheng",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/60566603?v=4",
+      "profile": "https://github.com/Nicolakacha",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
