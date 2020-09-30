@@ -171,6 +171,10 @@ section {
   font-size: 1.5rem;
 }
 
+#hinge .button-container .sbtn {
+  margin-bottom: 1.5em;
+}
+
 [data-theme="dark"] .button-caption-sub {
   color: #afafaf;
 }

@@ -355,8 +355,9 @@ $(document).ready(function () {
       } else {
         //add type buttons
         var normalButtonsGrid = $('<div class="button-grid">'),
-          roundedButtonsGrid = $('<div class="button-grid">');
-        buttonText = button.hasOwnProperty("text") ? button.text : false;
+          roundedButtonsGrid = $('<div class="button-grid">'),
+          blockButtonsGrid = $('<div class="button-grid">'),
+          buttonText = button.hasOwnProperty("text") ? button.text : false;
         for (var j = 0; j < buttonColors.length; j++) {
           normalButtonsGrid.append(
             getButtonHtml(
@@ -372,9 +373,17 @@ $(document).ready(function () {
               buttonText
             )
           );
+          blockButtonsGrid.append(
+            getButtonHtml(
+              `${defaultClass} ${button.classes} block-btn ${buttonColors[j]}`,
+              `.${defaultClass} .${button.classes} .block-btn .${buttonColors[j]}`,
+              buttonText
+            )
+          );
         }
         section.append(normalButtonsGrid);
         section.append(roundedButtonsGrid);
+        section.append(blockButtonsGrid);
       }
     }
     return section;
