@@ -25,6 +25,7 @@
     "minimist": "^1.2.3",
     "node-less": "^1.0.0",
     "onchange": "^7.0.2",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.1",
+    "surge": "^0.21.6"
   }
 }
