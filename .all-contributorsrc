@@ -265,7 +265,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/56398488?v=4",
       "profile": "https://github.com/zahra-abdullah",
       "contributions": [
-        "code"
+        "code",
+        "ideas"
       ]
     },
     {
@@ -565,7 +566,9 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/58779604?v=4",
       "profile": "https://dsnehasish74.github.io/portfolio/",
       "contributions": [
-        "bug"
+        "bug",
+        "code",
+        "ideas"
       ]
     },
     {
@@ -576,6 +579,15 @@
       "contributions": [
         "code",
         "ideas"
+      ]
+    },
+    {
+      "login": "apoorvakadam",
+      "name": "apoorvakadam",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/32300994?v=4",
+      "profile": "https://github.com/apoorvakadam",
+      "contributions": [
+        "test"
       ]
     }
   ],

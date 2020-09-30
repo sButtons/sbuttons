@@ -181,6 +181,10 @@ $(document).ready(function () {
       classes: "social-btn",
       variations: [
         {
+          classes: "apple",
+          text: "Login with Apple",
+        },
+        {
           classes: "facebook",
           text: "Login with Facebook",
         },

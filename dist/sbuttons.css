@@ -1065,6 +1065,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f1a0";
 }
+.social-btn.apple {
+  background-color: #fff;
+  color: #353535;
+}
+.social-btn.apple:after {
+  color: #353535;
+  content: "\f179";
+}
 .social-btn.facebook {
   background-color: #3360ff;
   color: #fff;
