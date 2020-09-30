@@ -608,6 +608,16 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "1880akshay",
+      "name": "Akshay Jain",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56107242?v=4",
+      "profile": "https://github.com/1880akshay",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
