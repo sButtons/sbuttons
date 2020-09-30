@@ -33,6 +33,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9745; | ~~**Plus button**~~            | A button just with a plus icon                             |                                              |
 | &#9745; | ~~**Buy me a coffee button**~~ |                                                            |                                              |
 | &#9744; | **Icon Button**                | A button with icons enlargement and shrink effect on hover | [Souvik Guria](https://github.com/devSouvik) |
+| &#9744; | **App Buttons**                | 2 Buttons "Get it on Play Store" & "Download on the app store" |                                        |
 
 ---
 
@@ -46,6 +47,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744; | **Validation button** | A button that changes color if all the test cases are satisfied and displays with the message "SUCCESS" otherwise "SORRY" if it fails. | [Alina Sahoo](https://github.com/alinasahoo)      |
 | &#9745; | **Add Button Block**  | A button with full width on empty space.                                                                                               | [Sonny Michael](https://github.com/isonnymichael) |
 | &#9744; | **Dark Mode Toggle**  | A button toggling dark mode.                                                                                                           | [Harshit Virmani](https://github.com/hvirmani)    |
+| &#9745; | **Disabled Buttons**  | A button that has disabled style and non-clickable ability                                                                             | [Zahra Abdullah](https://github.com/zahra-abdullah)    |
 
 ---
 
