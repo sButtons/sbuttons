@@ -1161,12 +1161,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f18a";
 }
-.social-btn.github-rounded {
+.social-btn.github {
   background-color: #000000;
   color: #fff;
-  border-radius: 40px;
 }
-.social-btn.github-rounded:after {
+.social-btn.github:after {
   color: #fff;
   content: "\f09b";
 }
