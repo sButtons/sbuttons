@@ -193,15 +193,7 @@ $(document).ready(function () {
           text: "Login with Facebook",
         },
         {
-          classes: "facebook-rounded",
-          text: "Login with Facebook",
-        },
-        {
           classes: "github",
-          text: "Login with Github",
-        },
-        {
-          classes: "github-rounded",
           text: "Login with Github",
         },
         {
@@ -209,15 +201,7 @@ $(document).ready(function () {
           text: "Login with Google",
         },
         {
-          classes: "google-rounded",
-          text: "Login with Google",
-        },
-        {
           classes: "instagram",
-          text: "Login with Instagram",
-        },
-        {
-          classes: "instagram-rounded",
           text: "Login with Instagram",
         },
         {
@@ -225,23 +209,11 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
-          classes: "linkedin-rounded",
-          text: "Login with LinkedIn",
-        },
-        {
           classes: "twitter",
           text: "Login with Twitter",
         },
         {
-          classes: "twitter-rounded",
-          text: "Login with Twitter",
-        },
-        {
           classes: "weibo",
-          text: "Login with Weibo",
-        },
-        {
-          classes: "weibo-rounded",
           text: "Login with Weibo",
         },
       ],
