@@ -627,6 +627,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "arpancodes",
+      "name": "Arpan Abhishek",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42417893?v=4",
+      "profile": "http://arpancodes.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
