@@ -190,6 +190,12 @@ hr {
   vertical-align: sub;
 }
 
+@media (max-width: 368px) {
+  .navbar .buttons {
+    display: none;
+  }
+}
+
 .navbar .download-link,
 .navbar .icon-link,
 .navbar .sidebar-toggler,
