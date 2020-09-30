@@ -25,7 +25,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9745; | ~~**Splash Button**~~  | A button that gives a moving linear gradient of rainbow colors on click| [Urja Banati](https://github.com/ub2906) |
 | &#9744; | **Transparent on Hover Button**  | A button whose background becomes transparent on hover |                                    |
 | &#9744; | **Colored Background on Hover Button** | A button that is originally transparent but its background becomes colored on hover | |
-
+| &#9745;| ~~**Gradient Button**~~| A button with gradient which shifts on hover | | 
 ---
 
 ## Icon
