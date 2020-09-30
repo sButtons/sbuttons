@@ -252,13 +252,14 @@ $(document).ready(function () {
   var sidebar = $(".sidebar-list"),
     content = $("#content");
 
-  function getButtonHtml(classes, textClasses, buttonText) {
+  function getButtonHtml(classes, textClasses, buttonText, isBlock) {
     if (buttonText === false) {
       buttonText = "Button";
     }
     return `
             <div class="button-container">
-                <button class="${classes}" role="Button">${buttonText}</button><br>
+                <button class="${classes}" role="Button">${buttonText}</button>
+                ${!isBlock ? '<br>' : ''}
                 <small class="button-caption-sub">${textClasses}</small><br>
             </div>
         `;
@@ -316,7 +317,8 @@ $(document).ready(function () {
             `.${defaultClass} .${button.classes} .${button.variations[j].classes}`,
             button.variations[j].hasOwnProperty("text")
               ? button.variations[j].text
-              : false
+              : false,
+            false
           )
         );
       }
@@ -364,21 +366,24 @@ $(document).ready(function () {
             getButtonHtml(
               `${defaultClass} ${button.classes} ${buttonColors[j]}`,
               `.${defaultClass} .${button.classes} .${buttonColors[j]}`,
-              buttonText
+              buttonText,
+              false
             )
           );
           roundedButtonsGrid.append(
             getButtonHtml(
               `${defaultClass} ${button.classes} btn-rounded ${buttonColors[j]}`,
               `.${defaultClass} .${button.classes} .btn-rounded .${buttonColors[j]}`,
-              buttonText
+              buttonText,
+              false
             )
           );
           blockButtonsGrid.append(
             getButtonHtml(
               `${defaultClass} ${button.classes} block-btn ${buttonColors[j]}`,
               `.${defaultClass} .${button.classes} .block-btn .${buttonColors[j]}`,
-              buttonText
+              buttonText,
+              true
             )
           );
         }

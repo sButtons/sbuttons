@@ -156,8 +156,8 @@ section {
   margin-bottom: 1em;
 }
 
-#hinge .button-container .sbtn {
-  margin-bottom: 1.5em;
+#hinge .button-container .block-btn {
+  margin-bottom: 2.5em;
 }
 
 [data-theme="dark"] .button-caption-sub {
