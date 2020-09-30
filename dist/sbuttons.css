@@ -1070,7 +1070,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: all 0.2s;
   position: relative;
   padding-right: 35px;
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
 }
 .social-btn:after {
   font-family: "Font Awesome 5 Brands";
