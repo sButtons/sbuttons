@@ -88,10 +88,18 @@ a.sbtn {
 
 .black-btn {
   .colorRule(@black);
+}
 
-  &:focus {
-    box-shadow: 0px 0px 0 0.2rem fade(@blackShadow, 67%);
-    outline: 0;
+.white-btn {
+  .colorRule(@white);
+  border-color: @whiteBorder;
+  &:focus,
+  &:active {
+    box-shadow: 0px 0px 0 0.2rem fade(@whiteBorder, 67%);
+  }
+
+  &:not(.fill-color-btn) {
+    color: @darkText !important;
   }
 }
 
