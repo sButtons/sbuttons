@@ -89,6 +89,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/1880akshay"><img src="https://avatars3.githubusercontent.com/u/56107242?v=4" width="100px;" alt=""/><br /><sub><b>Akshay Jain</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=1880akshay" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3A1880akshay" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/Nicolakacha"><img src="https://avatars3.githubusercontent.com/u/60566603?v=4" width="100px;" alt=""/><br /><sub><b>Nicolas Cheng</b></sub></a><br /><a href="#ideas-Nicolakacha" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

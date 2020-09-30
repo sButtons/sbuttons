@@ -40,7 +40,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744; | **Thumbs Up Button**           | Button with Thumbs up icon only                            |                                              |
 | &#9744;| **Share Button**               | Button with the share icon only                            |                                              |
 | &#9744; |**Screen Capture Button**        | Button with Screen and Camera to allow taking screenshots on click|[Shruti Jha](https://github.com/ShrutiJha31|
-
+| &#9744; | **Play Game Button** | A play game button which has a game controller shape |[Nicolas Cheng](https://github.com/nicolakacha)|
 ---
 
 ## Special
