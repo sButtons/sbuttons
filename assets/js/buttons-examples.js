@@ -118,6 +118,11 @@ $(document).ready(function () {
       ],
     },
     {
+      type: "disable",
+      classes: "btn-disabled",
+      label: "Disabled Buttons",
+    },
+    {
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",
@@ -173,12 +178,6 @@ $(document).ready(function () {
       classes: "outline-btn",
       children: [],
     },
-    {
-      type: "disable",
-      classes: "",
-      label: "Disabled Buttons",
-    },
-
     {
       type: "social",
       label: "Social Buttons",
@@ -266,7 +265,7 @@ $(document).ready(function () {
     }
     return `
             <div class="button-container">
-                <button class="${classes}" role="Button" aria-disabled="true" tabindex="-1" disabled>${buttonText}</button><br>
+                <button class="${classes}" role="Button" aria-disabled="true" tabindex="-1">${buttonText}</button><br>
                 <small class="button-caption-sub">${textClasses}</small><br>
             </div>
         `;
@@ -342,8 +341,8 @@ $(document).ready(function () {
         for (var j = 0; j < buttonColors.length; j++) {
           disabledButton.append(
             getDisabledButtonHtml(
-              `${defaultClass} ${buttonColors[j]}`,
-              `.${defaultClass} .${buttonColors[j]}`,
+              `${defaultClass} ${button.classes} ${buttonColors[j]}`,
+              `.${defaultClass} .${button.classes} .${buttonColors[j]}`,
               buttonText
             )
           );
