@@ -415,7 +415,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/52060608?v=4",
       "profile": "https://github.com/HADES-01",
       "contributions": [
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -588,6 +589,52 @@
       "profile": "https://github.com/apoorvakadam",
       "contributions": [
         "test"
+      ]
+    },
+    {
+      "login": "Rohit-Gupta11",
+      "name": "Rohit Gupta",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/63785612?v=4",
+      "profile": "https://github.com/Rohit-Gupta11",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ShrutiJha31",
+      "name": "Shruti Jha",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/68193836?v=4",
+      "profile": "https://github.com/ShrutiJha31",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "1880akshay",
+      "name": "Akshay Jain",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56107242?v=4",
+      "profile": "https://github.com/1880akshay",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "Nicolakacha",
+      "name": "Nicolas Cheng",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/60566603?v=4",
+      "profile": "https://github.com/Nicolakacha",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "arpancodes",
+      "name": "Arpan Abhishek",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42417893?v=4",
+      "profile": "http://arpancodes.io",
+      "contributions": [
+        "code"
       ]
     }
   ],

@@ -38,7 +38,9 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744; | **App Buttons**                | 2 Buttons "Get it on Play Store" & "Download on the app store" |                                          |
 | &#9744; | **Chat Box Button**            | Buttons For chat box with proper icon                      | [Snehasish Dhar](https://github.com/dsnehasish74)|
 | &#9744; | **Thumbs Up Button**           | Button with Thumbs up icon only                            |                                              |
-
+| &#9744;| **Share Button**               | Button with the share icon only                            |                                              |
+| &#9744; |**Screen Capture Button**        | Button with Screen and Camera to allow taking screenshots on click|[Shruti Jha](https://github.com/ShrutiJha31|
+| &#9744; | **Play Game Button** | A play game button which has a game controller shape |[Nicolas Cheng](https://github.com/nicolakacha)|
 ---
 
 ## Special
@@ -59,4 +61,5 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 | status  | Button name                    | Description                          | Submitted by                                  |
 | ------- | ------------------------------ | ------------------------------------ | --------------------------------------------- |
-| &#9744; | **Add Rounded Social Buttons** | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
+| &#9745; | **Add Rounded Social Buttons** | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
+| &#9744; | **Add Share Social Buttons**   | Share button for different social media platforms |                                  |
