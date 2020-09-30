@@ -35,8 +35,9 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9745; | ~~**Plus button**~~            | A button just with a plus icon                             |                                              |
 | &#9745; | ~~**Buy me a coffee button**~~ |                                                            |                                              |
 | &#9744; | **Icon Button**                | A button with icons enlargement and shrink effect on hover | [Souvik Guria](https://github.com/devSouvik) |
-| &#9744; | **App Buttons**                | 2 Buttons "Get it on Play Store" & "Download on the app store" |                                        |
-| &#9744; | **Chat Box Button**    | Buttons For chat box with proper icon | [Snehasish Dhar](https://github.com/dsnehasish74) |
+| &#9744; | **App Buttons**                | 2 Buttons "Get it on Play Store" & "Download on the app store" |                                          |
+| &#9744; | **Chat Box Button**            | Buttons For chat box with proper icon                      | [Snehasish Dhar](https://github.com/dsnehasish74)|
+| &#9744; | **Thumbs Up Button**           | Button with Thumbs up icon only                            |                                              |
 
 ---
 
