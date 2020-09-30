@@ -89,7 +89,7 @@ $(document).ready(function () {
         {
           type: "snake",
           label: "Snake Border",
-          classes: "snake",
+          classes: "snake-btn",
         },
         {
           type: "ripple",
