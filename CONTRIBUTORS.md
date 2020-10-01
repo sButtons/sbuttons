@@ -116,6 +116,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/adsingh14"><img src="https://avatars2.githubusercontent.com/u/35252877?v=4" width="100px;" alt=""/><br /><sub><b>Amandeep Singh</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=adsingh14" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jamieleo93"><img src="https://avatars1.githubusercontent.com/u/19117470?v=4" width="100px;" alt=""/><br /><sub><b>Jamie</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=jamieleo93" title="Code">💻</a></td>
   </tr>
 </table>
 
