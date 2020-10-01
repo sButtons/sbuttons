@@ -23,6 +23,7 @@
   color: @lightText;
   font-family: inherit;
   overflow: hidden;
+  font-size: @buttonFontSize;
 
   &:hover,
   &:active,
@@ -40,8 +41,24 @@ a.sbtn {
   }
 }
 
-.btn-rounded {
+.rounded-btn {
   border-radius: 25px;
+}
+
+.block-btn {
+  display: block;
+  width: 100%;
+}
+.disabled-btn {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .blue-btn {
@@ -63,7 +80,7 @@ a.sbtn {
 .yellow-btn {
   .colorRule(@yellow);
 
-  &:not(.fill-color-btn) {
+  &:not(.fill-color-btn):not(.ripple-btn):not(.outline-btn) {
     color: @darkText !important;
   }
 }
@@ -78,10 +95,18 @@ a.sbtn {
 
 .black-btn {
   .colorRule(@black);
+}
 
-  &:focus {
-    box-shadow: 0px 0px 0 0.2rem fade(@blackShadow, 67%);
-    outline: 0;
+.white-btn {
+  .colorRule(@white);
+  border-color: @whiteBorder;
+  &:focus,
+  &:active {
+    box-shadow: 0px 0px 0 0.2rem fade(@whiteBorder, 67%);
+  }
+
+  &:not(.fill-color-btn) {
+    color: @darkText !important;
   }
 }
 

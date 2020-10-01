@@ -103,4 +103,13 @@
   &.black-btn {
     .colorBtn(@black);
   }
+
+  &.white-btn {
+    .colorBtn(@white);
+    border-color: @whiteBorder !important;
+    color: @darkText;
+    &:hover {
+      color: @darkText !important;
+    }
+  }
 }

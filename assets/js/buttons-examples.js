@@ -11,6 +11,7 @@ $(document).ready(function () {
     "orange-btn",
     "purple-btn",
     "black-btn",
+    "white-btn",
   ];
   //list of button types
   var buttons = [
@@ -25,6 +26,11 @@ $(document).ready(function () {
       label: "Animated Buttons",
       classes: "",
       children: [
+        {
+          type: "bounce",
+          label: "Bounce",
+          classes: "bouncy-btn",
+        },
         {
           type: "click",
           label: "Click",
@@ -86,6 +92,16 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
+          type: "snake",
+          label: "Snake Border",
+          classes: "snake-btn",
+        },
+        {
+          type: "ripple",
+          label: "Ripple",
+          classes: "ripple-btn",
+        },
+        {
           type: "scale",
           label: "Scale",
           classes: "scale-btn",
@@ -105,7 +121,17 @@ $(document).ready(function () {
           label: "Skew",
           classes: "skew-btn",
         },
+        {
+          type: "splash",
+          label: "Splash",
+          classes: "splash-btn",
+        },
       ],
+    },
+    {
+      type: "disable",
+      classes: "disabled-btn",
+      label: "Disabled Buttons",
     },
     {
       type: "hover",
@@ -130,6 +156,12 @@ $(document).ready(function () {
           label: "Buy Me Coffee Button",
           classes: "buy-me-coffee-btn",
           text: "Buy me coffee",
+        },
+        {
+          type: "chat",
+          label: "Chat Box Button",
+          classes: "chat-btn",
+          text: "",
         },
         {
           type: "download",
@@ -163,18 +195,17 @@ $(document).ready(function () {
       classes: "outline-btn",
       children: [],
     },
-
     {
       type: "social",
       label: "Social Buttons",
       classes: "social-btn",
       variations: [
         {
-          classes: "facebook",
-          text: "Login with Facebook",
+          classes: "apple",
+          text: "Login with Apple",
         },
         {
-          classes: "facebook-rounded",
+          classes: "facebook",
           text: "Login with Facebook",
         },
         {
@@ -182,15 +213,7 @@ $(document).ready(function () {
           text: "Login with Github",
         },
         {
-          classes: "github-rounded",
-          text: "Login with Github",
-        },
-        {
           classes: "google",
-          text: "Login with Google",
-        },
-        {
-          classes: "google-rounded",
           text: "Login with Google",
         },
         {
@@ -198,15 +221,7 @@ $(document).ready(function () {
           text: "Login with Instagram",
         },
         {
-          classes: "instagram-rounded",
-          text: "Login with Instagram",
-        },
-        {
           classes: "linkedin",
-          text: "Login with LinkedIn",
-        },
-        {
-          classes: "linkedin-rounded",
           text: "Login with LinkedIn",
         },
         {
@@ -214,15 +229,7 @@ $(document).ready(function () {
           text: "Login with Twitter",
         },
         {
-          classes: "twitter-rounded",
-          text: "Login with Twitter",
-        },
-        {
           classes: "weibo",
-          text: "Login with Weibo",
-        },
-        {
-          classes: "weibo-rounded",
           text: "Login with Weibo",
         },
       ],
@@ -233,13 +240,22 @@ $(document).ready(function () {
   var sidebar = $(".sidebar-list"),
     content = $("#content");
 
-  function getButtonHtml(classes, textClasses, buttonText) {
+  function getButtonHtml(
+    classes,
+    textClasses,
+    buttonText,
+    isBlock,
+    isDisabled
+  ) {
     if (buttonText === false) {
       buttonText = "Button";
     }
     return `
             <div class="button-container">
-                <button class="${classes}" role="Button">${buttonText}</button><br>
+                <button class="${classes}" role="Button"
+                  ${isDisabled ? 'aria-disabled="true" tabindex="-1"' : ""}
+                  >${buttonText}</button>
+                ${!isBlock ? "<br>" : ""}
                 <small class="button-caption-sub">${textClasses}</small><br>
             </div>
         `;
@@ -276,63 +292,81 @@ $(document).ready(function () {
         heading +
         ">"
     );
-    if (button.hasOwnProperty("variations")) {
-      var buttonGrid = $('<div class="button-grid">');
-      for (var j = 0; j < button.variations.length; j++) {
-        buttonGrid.append(
-          getButtonHtml(
-            `${defaultClass} ${button.classes} ${button.variations[j].classes}`,
-            `.${defaultClass} .${button.classes} .${button.variations[j].classes}`,
-            button.variations[j].hasOwnProperty("text")
-              ? button.variations[j].text
-              : false
+    if (button.hasOwnProperty("children") && button.children.length) {
+      //add children buttons
+      var submenu = $('<div class="submenu-links">');
+      for (var j = 0; j < button.children.length; j++) {
+        var childSection = createSection(button.children[j], false);
+        childSection.appendTo(section);
+        if (j !== 0) {
+          childSection.before('<hr class="secondary-hr">');
+        }
+        submenu.append(
+          getMenuLinkHtml(
+            button.children[j].type,
+            button.children[j].label,
+            true
           )
         );
       }
-      section.append(buttonGrid);
+      sidebar.append(submenu);
     } else {
-      if (button.hasOwnProperty("children") && button.children.length) {
-        //add children buttons
-        var submenu = $('<div class="submenu-links">');
-        for (var j = 0; j < button.children.length; j++) {
-          var childSection = createSection(button.children[j], false);
-          childSection.appendTo(section);
-          if (j !== 0) {
-            childSection.before('<hr class="secondary-hr">');
-          }
-          submenu.append(
-            getMenuLinkHtml(
-              button.children[j].type,
-              button.children[j].label,
-              true
-            )
-          );
-        }
-        sidebar.append(submenu);
+      var buttonArr = buttonColors;
+      var isDisabled = false;
+      if (button.hasOwnProperty("variations")) {
+        buttonArr = button.variations;
       } else {
-        //add type buttons
-        var normalButtonsGrid = $('<div class="button-grid">'),
-          roundedButtonsGrid = $('<div class="button-grid">'),
-          buttonText = button.hasOwnProperty("text") ? button.text : false;
-        for (var j = 0; j < buttonColors.length; j++) {
-          normalButtonsGrid.append(
-            getButtonHtml(
-              `${defaultClass} ${button.classes} ${buttonColors[j]}`,
-              `.${defaultClass} .${button.classes} .${buttonColors[j]}`,
-              buttonText
-            )
-          );
-          roundedButtonsGrid.append(
-            getButtonHtml(
-              `${defaultClass} ${button.classes} btn-rounded ${buttonColors[j]}`,
-              `.${defaultClass} .${button.classes} .btn-rounded .${buttonColors[j]}`,
-              buttonText
-            )
-          );
+        if (button.type === "disable") {
+          isDisabled = true;
         }
-        section.append(normalButtonsGrid);
-        section.append(roundedButtonsGrid);
       }
+
+      //add type buttons
+      var normalButtonsGrid = $('<div class="button-grid">'),
+        roundedButtonsGrid = $('<div class="button-grid">'),
+        blockButtonsGrid = $('<div class="button-grid">'),
+        buttonText = button.hasOwnProperty("text") ? button.text : false;
+      for (var j = 0; j < buttonArr.length; j++) {
+        var thisButtonText =
+          buttonText !== false
+            ? buttonText
+            : buttonArr[j].hasOwnProperty("text")
+            ? buttonArr[j].text
+            : false;
+        var thisButtonClasses = buttonArr[j].hasOwnProperty("classes")
+          ? buttonArr[j].classes
+          : buttonArr[j];
+        normalButtonsGrid.append(
+          getButtonHtml(
+            `${defaultClass} ${button.classes} ${thisButtonClasses}`,
+            `.${defaultClass} .${button.classes} .${thisButtonClasses}`,
+            thisButtonText,
+            false,
+            isDisabled
+          )
+        );
+        roundedButtonsGrid.append(
+          getButtonHtml(
+            `${defaultClass} ${button.classes} rounded-btn ${thisButtonClasses}`,
+            `.${defaultClass} .${button.classes} .rounded-btn .${thisButtonClasses}`,
+            thisButtonText,
+            false,
+            isDisabled
+          )
+        );
+        blockButtonsGrid.append(
+          getButtonHtml(
+            `${defaultClass} ${button.classes} block-btn ${thisButtonClasses}`,
+            `.${defaultClass} .${button.classes} .block-btn .${thisButtonClasses}`,
+            thisButtonText,
+            true,
+            isDisabled
+          )
+        );
+      }
+      section.append(normalButtonsGrid);
+      section.append(roundedButtonsGrid);
+      section.append(blockButtonsGrid);
     }
     return section;
   }
