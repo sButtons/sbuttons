@@ -311,7 +311,20 @@ footer {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #e6e6e6;
+  background-color: var(--main-color);
+}
+
+footer a{
+  color:white;
+}
+footer a:hover{
+  color:white;
+}
+footer a:active{
+  color:white;
+}
+footer a:visited{
+  color:white;
 }
 
 .tagline {
