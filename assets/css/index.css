@@ -364,14 +364,13 @@ button.clipboard:focus {
   cursor: pointer;
 }
 
-
 .navbar:not(.scrolling) .download-link {
   display: none;
 }
 
 .navbar.scrolling .download-link {
   display: inline-block;
-
+}
 .banner-link:hover,
 .banner-link:active {
   color: white;
