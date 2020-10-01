@@ -63,27 +63,32 @@
   transition: opacity 0.2s;
 }
 
-.sidebar-list {
+.sidebar-list,
+.instructions-sidebar {
   overflow-y: auto;
 }
 
-.sidebar-list a {
+.sidebar-list a,
+.instructions-sidebar a {
   font-family: Syne, sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
   display: block;
 }
 
-.sidebar-list::-webkit-scrollbar {
+.sidebar-list::-webkit-scrollbar,
+.instructions-sidebar::-webkit-scrollbar  {
   width: 6px;
 }
 
-.sidebar-list::-webkit-scrollbar-thumb {
+.sidebar-list::-webkit-scrollbar-thumb,
+.instructions-sidebar::-webkit-scrollbar-thumb  {
   background: var(--main-color);
   border-radius: 2.5px;
 }
 
-.sidebar-list::-webkit-scrollbar-thumb:hover {
+.sidebar-list::-webkit-scrollbar-thumb:hover,
+.instructions-sidebar::-webkit-scrollbar-thumb:hover {
   background: var(--main-color);
 }
 

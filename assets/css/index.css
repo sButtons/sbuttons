@@ -259,7 +259,6 @@ hr {
 .text {
   font-size: 1.3rem;
   color: black;
-  text-align: center;
   word-wrap: break-word;
   font-family: "Syne", sans-serif;
 }
@@ -406,6 +405,8 @@ button.clipboard:focus {
 
 .instruction-block {
   margin: 2rem 1rem;
+  padding-top: 80px;
+  margin-top: -80px;
 }
 
 .display-inlineBlock {
