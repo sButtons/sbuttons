@@ -37,6 +37,11 @@ $(document).ready(function () {
           classes: "click-btn",
         },
         {
+          type: "trace",
+          label: "Trace",
+          classes: "trace-btn",
+        },
+        {
           type: "fill-color-down",
           label: "Fill Color - Down",
           classes: "fill-color-btn down-fill",
