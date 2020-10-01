@@ -19,7 +19,6 @@ You can download the CSS file [here](https://cdn.statically.io/gh/shahednasser/s
 ```
 <link rel="stylesheet" href="/path/to/sbuttons.min.css">
 ```
-
 ## CDN
 
 You can use the [CDN](https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css):
@@ -27,7 +26,6 @@ You can use the [CDN](https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f
 ```
 <link rel="stylesheet" href="https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css">
 ```
-
 ## NPM
 
 You can install sButtons using NPM:
@@ -35,7 +33,6 @@ You can install sButtons using NPM:
 ```
 npm i sbuttons
 ```
-
 And then you can import the CSS file found in `dist/sbuttons.css` or the LESS file found in `src/sbuttons.less`.
 
 ### Modifying Button Colors
@@ -57,8 +54,8 @@ To use sButtons in your project , just add the classes of sButton you want to ei
 
 ```
 <button class='sbtn basic-btn blue-btn'>Button</button>
-```
 
+```
 Same can be done for `<a>` tag
 
 ```
@@ -74,7 +71,6 @@ To use sButtons with block display, add the class to either `<button>` or `<a>` 
 ```
 <button class="sbtn basic-btn block-btn">Button</button>
 ```
-
 ## Disabled Buttons
 
 To make a `<button>` or `<a>` tag disabled, add disabled-btn class as shown below.
@@ -93,7 +89,6 @@ In case of using buttons that have icons in them, make sure to include font awes
 ```
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 ```
-
 # Contribution
 
 Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
