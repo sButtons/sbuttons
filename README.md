@@ -1,4 +1,7 @@
-# sButtons
+![sButtons](https://github.com/shahednasser/sbuttons/tree/master/assets/img/sbuttons-nav.png)
+
+ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
+<!-- # sButtons -->
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-67-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
@@ -79,9 +82,9 @@ If you have ideas for buttons, or would like to see a list of ideas that have no
 
 Check out our awesome contributors [here](./CONTRIBUTORS.md)!
 
-# Logo
+<!-- # Logo
 
- Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
+ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit) -->
  
 # LICENSE
 
