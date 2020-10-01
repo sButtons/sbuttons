@@ -62,8 +62,14 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 | status  | Button name                    | Description                          | Submitted by                                  |
 | ------- | ------------------------------ | ------------------------------------ | --------------------------------------------- |
+| &#9744; | **Add Rounded Social Buttons** | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
+| &#9744; | **Add Pinterest Buttons** | A social button linked to pinterest  | [Tushar Raj](https://github.com/Tushar11Raj)  |
+| &#9744; | **Add Behance Buttons** | A social button linked to behance | [Tushar Raj](https://github.com/Tushar11Raj)  |
+| &#9744; | **Add Youtube Buttons** | A social button linked to youtube | [Tushar Raj](https://github.com/Tushar11Raj)  |
+| &#9745; | **Add Rounded Social Buttons** | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
+| &#9744; | **Add Share Social Buttons** | Share button for different social media platforms |                                  |
 | &#9745; | ~~**Add Rounded Social Buttons**~~ | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
-| &#9744; | **Add Share Social Buttons**   | Share button for different social media platforms |                                  |
+| &#9744; | **Add Share Social Buttons** | Share button for different social media platforms |                                  |
 | &#9744; | **Add Neon Social Buttons** | A social button with neon glow and icon only | [Neeraj Gupta](https://github.com/Neeraj3508) |
 | &#9744; | **Add Neon Social Buttons** | A social button with neon glow and icon and text | [Neeraj Gupta](https://github.com/Neeraj3508) |
 | &#9744; | **Add Follow Social Button** | A social button to follow the creators social media handles | [Archisman Hota](https://github.com/Archis19) |
