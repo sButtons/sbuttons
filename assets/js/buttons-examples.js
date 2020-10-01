@@ -282,9 +282,8 @@ $(document).ready(function () {
               text: "Reset",
             },
           ],
-        }
-      ]
-      
+        },
+      ],
     },
   ];
 
