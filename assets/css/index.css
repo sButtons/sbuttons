@@ -259,7 +259,6 @@ hr {
 .text {
   font-size: 1.3rem;
   color: black;
-  text-align: center;
   word-wrap: break-word;
   font-family: "Syne", sans-serif;
 }
@@ -399,6 +398,23 @@ button.clipboard:focus {
 .down-link:active {
   background-color: transparent;
   color: white;
+}
+
+.instructions hr {
+  border-top: 1px solid rgb(247 247 247 / 10%);
+  width: 100%;
+}
+
+.instruction-block {
+  margin: 2rem 1rem;
+}
+
+.display-inlineBlock {
+  display: inline-block;
+}
+
+.margin-left--half {
+  margin-left: .5rem;
 }
 
 .footer {

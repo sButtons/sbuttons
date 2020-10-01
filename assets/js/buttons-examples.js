@@ -423,6 +423,6 @@ $(document).ready(function () {
 
   for (var i = 0; i < buttons.length; i++) {
     var section = createSection(buttons[i], true);
-    section.appendTo(content).before('<hr class="secondary-hr">');
+    section.appendTo(content);
   }
 });
