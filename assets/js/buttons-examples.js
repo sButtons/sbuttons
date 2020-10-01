@@ -265,6 +265,12 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "play-game",
+          label: "Play game Button",
+          classes: "play-game-btn",
+          text: "",
+        },
+        {
           type: "retro",
           label: "Retro",
           classes: "retro-btn",
