@@ -1151,6 +1151,60 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 2em;
   padding: 0;
 }
+.playstore {
+  position: relative;
+  padding-right: 1.5em;
+  transition: all 0.2s;
+}
+.playstore:after {
+  content: "\f3ab";
+  font-family: "Font Awesome 5 brands";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: bold;
+  top: 23%;
+}
+.playstore:hover {
+  box-shadow: 0px 1px 7px #838383;
+}
+.playstore.block-btn:after {
+  padding-left: 15px;
+}
+.playstore:not(.block-btn):after {
+  right: 0.3em;
+}
+.applestore {
+  position: relative;
+  padding-right: 1.5em;
+  transition: all 0.2s;
+}
+.applestore:after {
+  content: "\f179";
+  font-family: "Font Awesome 5 brands";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: bold;
+  top: 23%;
+}
+.applestore:hover {
+  box-shadow: 0px 1px 7px #838383;
+}
+.applestore.block-btn:after {
+  padding-left: 15px;
+}
+.applestore:not(.block-btn):after {
+  right: 0.3em;
+}
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;

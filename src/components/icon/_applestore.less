@@ -1,0 +1,35 @@
+.applestore {
+  position: relative;
+  padding-right: 1.5em;
+  transition: all 0.2s;
+
+  &:after {
+    content: "\f179";
+    font-family: "Font Awesome 5 brands";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: bold;
+    top: 23%;
+  }
+
+  &:hover {
+    box-shadow: 0px 1px 7px #838383;
+  }
+
+  &.block-btn {
+    &:after {
+      padding-left: 15px;
+    }
+  }
+
+  &:not(.block-btn) {
+    &:after {
+      right: 0.3em;
+    }
+  }
+}

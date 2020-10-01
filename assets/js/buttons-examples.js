@@ -145,7 +145,12 @@ $(document).ready(function () {
           classes: "add-to-cart-btn",
           text: "Add To Cart",
         },
-
+        {
+          type: "apple-store",
+          label: "Apple Store Download Button",
+          classes: "applestore",
+          text: "Download",
+        },
         {
           type: "buy-me-coffee",
           label: "Buy Me Coffee Button",
@@ -181,6 +186,12 @@ $(document).ready(function () {
           label: "Plus Button",
           classes: "plus-btn",
           text: "",
+        },
+        {
+          type: "play-store",
+          label: "Play Store Download Button",
+          classes: "playstore",
+          text: "Download",
         },
       ],
     },
