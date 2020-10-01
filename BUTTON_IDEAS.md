@@ -31,7 +31,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744; | ~~**Cracking Neon Button**~~ | A Neon Button that will cracked when clicked | [EmpalGentong](https://github.com/EmpalGentong) |
 | &#9744; | **Trace Button**        | An outline button whose border gets traced, starting and ending at the same point | [Preity Priya](https://github.com/preity-p) |
 | &#9744; | **Expanding Border Button** | On hovering over the button, the border will get pushed inside out, besides the opacity changing | [Preity Priya](https://github.com/preity-p) |
----
+| &#9744; | **Atom Button**| A button with an moving atom on its border on hover.| [Maitryee-Choudhary](https://github.com/Maitryee-Choudhary)|
 
 ## Icon
 
