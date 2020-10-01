@@ -1303,3 +1303,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f1ed";
 }
+.social-btn.qq {
+  background-color: #ffffff;
+  color: #000000;
+}
+.social-btn.qq:after {
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f1d6";
+}

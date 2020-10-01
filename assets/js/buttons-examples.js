@@ -240,6 +240,10 @@ $(document).ready(function () {
           classes: "paypal",
           text: "Login with Paypal",
         },
+        {
+          classes: "qq",
+          text: "Login with QQ",
+        },
       ],
       children: [],
     },
