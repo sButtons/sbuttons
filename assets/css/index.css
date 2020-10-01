@@ -388,11 +388,8 @@ button.clipboard:focus {
     background-color: white;
     color: #333;
     border-radius: 9px;
-    /* border: 2px solid grey; */
   }
-  .banner-link:hover{
-    
-  }
+
   
   .down-link:hover,
   .down-link:active {
