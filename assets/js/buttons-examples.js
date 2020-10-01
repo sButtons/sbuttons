@@ -235,6 +235,25 @@ $(document).ready(function () {
       ],
       children: [],
     },
+    {
+      type: "special",
+      label: "Special Buttons",
+      classes: "",
+      variations: [
+        {
+          classes: "retro-btn",
+          text: "Continue",
+        },
+        {
+          classes: "retro-btn-proceed",
+          text: "Proceed",
+        },
+        {
+          classes: "retro-btn-reset",
+          text: "Reset",
+        },
+      ],
+    },
   ];
 
   var sidebar = $(".sidebar-list"),
