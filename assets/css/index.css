@@ -21,7 +21,7 @@ footer {
 }
 
 [data-theme="dark"] footer {
-  background-color: #434343;
+  background-color: #007bff;
 }
 
 [data-theme="dark"] .navbar.scrolling {
@@ -311,15 +311,16 @@ footer {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #e6e6e6;
+  background-color: #007bff;
 }
 
 .tagline {
   font-size: 1.3rem;
+  color: white;
 }
 
 .tagline-heart {
-  color: #f74545;
+  color: #c02739;
 }
 
 .code-text {
