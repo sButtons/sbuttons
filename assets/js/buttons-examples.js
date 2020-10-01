@@ -187,6 +187,12 @@ $(document).ready(function () {
           classes: "plus-btn",
           text: "",
         },
+        {
+          type: "scroll-to-top",
+          label: "Scroll-to-Top Button",
+          classes: "scroll-to-top-btn",
+          text: "",
+        },
       ],
     },
     {
