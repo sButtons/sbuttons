@@ -14,4 +14,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: '@shahednasser reporting a stale issue.'
-        exempt-issue-labels: 'Always Open'
+        exempt-issue-label: 'Always Open,Cannot Reproduce'

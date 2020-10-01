@@ -12,9 +12,22 @@
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     position: absolute;
-    right: 0.5em;
     font-size: 1.3rem;
     font-weight: bold;
+  }
+
+  &.block-btn {
+    &:before,
+    &:after {
+      right: 25%;
+    }
+  }
+
+  &:not(.block-btn) {
+    &:before,
+    &:after {
+      right: 0.5em;
+    }
   }
 
   @top: 12px;

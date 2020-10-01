@@ -17,6 +17,8 @@ Please note we have a code of conduct, please follow it in all your interactions
 2. To make changes to the existing buttons, or add new ones, all changes should be made in `src/sbuttons.less`.
    1. If you're adding a new button type similar to basic, hover, etc..., create a file in `src/components` with the name preceeded by `_`. For example: `_basic.less`. Remember to include the file when you're done in `src/sbuttons.less`.
    2. If you're adding a new button to an existing type (for example: animated), create a file in `src/components/<type_name>` with the name preceeded by `_`. For example: `_arrow.less`. Remember to include the file when you're done in `src/components/<type_name>`.
+   
+   **Please follow the convention in naming button classes: `new-class-btn` where new-class is the button name. For example, for hover button it's `hover-btn`.**
 
     After making any changes, you need to compile the LESS file into CSS. To do that there you can use the following:
 
