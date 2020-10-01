@@ -426,9 +426,9 @@ $(document).ready(function () {
     }
     return section;
   }
-
   for (var i = 0; i < buttons.length; i++) {
     var section = createSection(buttons[i], true);
     section.appendTo(content);
   }
+  $("#loading_wheel").remove();
 });
