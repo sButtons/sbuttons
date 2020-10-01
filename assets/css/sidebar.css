@@ -13,6 +13,7 @@
   text-decoration: none;
   width: fit-content;
   margin-bottom: 5px;
+  white-space: nowrap;
 }
 .sidebar a:before {
   position: absolute;
@@ -104,7 +105,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .sidebar-list {
+  .sidebar-list,
+  .instructions-sidebar {
     max-height: 80vh;
     padding-right: 20px;
   }

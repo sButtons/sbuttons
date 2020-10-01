@@ -83,27 +83,35 @@
             <div class="hide-sidebar sidebar animate__animated animate__slideInLeft">
                 <button class="close-sidebar d-none d-block d-md-none"><i class="fas fa-times-circle"></i></button>
                 <div class="instructions-sidebar">
-                    <a href="#downloadcss">Download CSS File</a>
-                    <a href="#cdn">Install with CDN</a>
-                    <a href="#npm">Install with NPM</a>
-                    <a href="#modify">Modify Button Colors</a>
-                    <a href="#basic">Basic Button</a>
-                    <a href="#block">Block Button</a>
-                    <a href="#disabled">Disabled Button</a>
-                    <a href="#icon">Icon Button</a>
+                    <a href="#install" class="install has-children-links">Installation</a>
+                    <div class="submenu-links">
+                        <a href="#downloadcss" class="submenu-link">Download CSS File</a>
+                        <a href="#cdn" class="submenu-link">Install with CDN</a>
+                        <a href="#npm" class="submenu-link">Install with NPM</a>
+                    </div>
+                    
+                    <a href="#usage" class="usage has-children-links">Usage</a>
+                    <div class="submenu-links">
+                        <a href="#modify" class="submenu-link">Modify Button Colors</a>
+                        <a href="#basic" class="submenu-link">Basic Button</a>
+                        <a href="#block" class="submenu-link">Block Button</a>
+                        <a href="#disabled" class="submenu-link">Disabled Button</a>
+                        <a href="#icon" class="submenu-link">Icon Button</a>
+                    </div>
+                    
                 </div>
     
             </div>
         </div>
           <div class="col-md-9 col-12">
-            <section id="how-to-use">
+            <div id="how-to-use">
               <h1 class="section-header">Getting Started with sButtons</h1>
               <div class="instructions">
-                <h1>Installation</h1>
-                <hr />
-                <div class="instruction-block" id="downloadcss">
+                <h2 id="install">Installation</h2>
+
+                <section class="instruction-block" id="downloadcss">
                     <h2>Download CSS File</h2>
-                    <hr />
+                    <hr class="secondary-hr"  />
                     <div class="text">
                     You can download the CSS file
                     <a href="#" id="downloadGithubRawHowTo" class="cssLink" target="blank">here</a> and then add it to your
@@ -126,11 +134,11 @@
                       <span class="code-text">"/path/to/sbuttons.min.css"</span> with the path you stored it in.
                     </div> 
                     <br>
-                </div>
+                </section>
                 
-                <div class="instruction-block" id="cdn">
+                <section class="instruction-block" id="cdn">
                     <h2>CDN</h2>
-                    <hr />
+                    <hr class="secondary-hr"  />
                     <div class="text">
                       Or instead of downloading the file, you can use the CDN
                     </div>
@@ -153,11 +161,11 @@
                       </div>
                     </div>
                     <br>
-                </div>
+                </section>
                 
-                <div class="instruction-block" id="npm">
+                <section class="instruction-block" id="npm">
                     <h2>NPM</h2>
-                    <hr />
+                    <hr class="secondary-hr" />
                     <div class="text">
                         You can install sButtons using NPM:
                     </div>
@@ -171,13 +179,13 @@
                         And then you can import the CSS file found in <span class="code-text">dist/sbuttons.css</span> or the LESS file found in <span class="code-text">src/sbuttons.less</span>.
                     </div>
                     <br />
-                </div>
+                </section>
                 
-                <h1>Usage</h1>
+                <h2 id="usage">Usage</h2>
 
-                <div class="instruction-block" id="modify">
+                <section class="instruction-block" id="modify">
                     <h2>Modifying Button Colors</h2>
-                    <hr />
+                    <hr class="secondary-hr" />
                     <div class="text">
                         <p>To modify button colors, import <span class="code-text">src/sbuttons.less</span> in your Less file, then make changes to the variables after the import.</p>
                         <p>For example, to change the blue color to a different shade</p>
@@ -192,12 +200,12 @@
                     <div class="text">
                         Check out <a href="https://github.com/shahednasser/sbuttons/blob/master/src/sbuttons.less" target="_blank">sbuttons.less</a> for the full list of variables.
                     </div>
-                </div>
+                </section>
 
-                <div class="instruction-block" id="basic">
+                <section class="instruction-block" id="basic">
                     <h2 class="display-inlineBlock">Basic Button</h2>
                     <button class="sbtn basic-btn blue-btn display-inlineBlock margin-left--half">Button</button>
-                    <hr />
+                    <hr class="secondary-hr"  />
                     <div class="text">
                       To use sButtons in your project, just add the classes of sButton you want to either
                       <span class="code-text">&lt;button&gt;</span>
@@ -214,11 +222,11 @@
                         You can find all classes and their corresponding sButtons mentioned in our <a href="https://shahednasser.github.io/sbuttons/">website</a>.
                     </div>
                     <br>
-                </div>
+                </section>
                 
-                <div class="instruction-block" id="block">
+                <section class="instruction-block" id="block">
                     <h2>Block Buttons</h2>
-                    <hr />
+                    <hr class="secondary-hr"  />
                     <div class="text">
                         To use sButtons with block display, add the class to either <span class="code-text">&lt;button&gt;</span> or <span class="code-text">&lt;a&gt;</span> tags
                     </div>
@@ -229,12 +237,12 @@
                         </div>
                     </div>
                     <br />
-                </div>
+                </section>
                 
-                <div class="instruction-block" id="disabled">
+                <section class="instruction-block" id="disabled">
                     <h2 class="display-inlineBlock">Disabled Buttons</h2>
                     <button class="sbtn basic-btn blue-btn disabled-btn display-inlineBlock margin-left--half">Button</button>
-                    <hr />
+                    <class="secondary-hr"  />
                     <div class="text">
                         To make a <span class="code-text">&lt;button&gt;</span> or <span class="code-text">&lt;a&gt;</span> tag disabled, add disabled-btn class as shown below.
                     </div>
@@ -246,12 +254,12 @@
                         </div>
                     </div>
                     <br />
-                </div>
+                </section>
                 
-                <div class="instruction-block" id="icon">
+                <section class="instruction-block" id="icon">
                     <h2 class="display-inlineBlock">Icon Buttons</h2>
                     <button class="sbtn add-to-cart-btn blue-btn display-inlineBlock margin-left--half">Button</button>
-                    <hr />
+                    <hr class="secondary-hr"  />
                     <div class="text">
                         In case of using buttons that have icons in them, make sure to include font awesome's <a href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">CDN</a> in the <span class="code-text">&lt;head&gt;</span> tag:
                     </div>
@@ -262,8 +270,8 @@
                         </div>
                     </div>
                     <br />
-                </div>
-            </section>
+                </section>
+            </div>
           </div>
           <!-- Button examples will go here using JS -->
         </div>
