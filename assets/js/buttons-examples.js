@@ -131,6 +131,13 @@ $(document).ready(function () {
         },
 
         {
+          type: "shrink-over-hover",
+          label: "Shrink Over Hover Button",
+          classes: "link shrink-on-hover",
+          text: "Shrink Over Hover",
+        },
+
+        {
           type: "buy-me-coffee",
           label: "Buy Me Coffee Button",
           classes: "buy-me-coffee-btn",
