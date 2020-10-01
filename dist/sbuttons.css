@@ -1297,11 +1297,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f16e";
 }
-.social-btn.snapchat-ghost {
+.social-btn.snapchat {
   background-color: #fffc00;
   color: #353535;
 }
-.social-btn.snapchat-ghost:after {
+.social-btn.snapchat:after {
   color: #353535;
   content: "\f2ac";
 }

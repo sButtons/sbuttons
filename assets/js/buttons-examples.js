@@ -229,7 +229,7 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
-          classes: "snapchat-ghost",
+          classes: "snapchat",
           text: "Login with Snapchat",
         },
         {
