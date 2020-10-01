@@ -375,21 +375,30 @@ button.clipboard:focus {
 
 .banner-link {
   border: 1px solid white;
-  padding: 15px;
-  font-size: 1.3rem;
-  margin-right: 20px;
-  color: white;
-  font-family: Syne, sans-serif;
-  display: inline-block;
-}
-
-.down-link {
-  background-color: white;
-  color: #333;
-}
-
-.down-link:hover,
-.down-link:active {
-  background-color: transparent;
-  color: white;
-}
+    padding: 9px;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    color: white;
+    font-family: Syne, sans-serif;
+    border-radius: 9px;
+    display: inline-block;
+  }
+  
+  .down-link {
+    background-color: white;
+    color: #333;
+    border-radius: 9px;
+    /* border: 2px solid grey; */
+  }
+  .banner-link:hover{
+    
+  }
+  
+  .down-link:hover,
+  .down-link:active {
+    background-color: transparent;
+    padding: 8px;
+    color: white;
+    border:2px solid white;
+  }
+  
