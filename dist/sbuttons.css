@@ -202,7 +202,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .hover-btn.yellow-btn:hover,
 .hover-btn.yellow-btn:active,
 .hover-btn.yellow-btn:focus {
-  background-color: #f9d90b;
+  background-color: #f3da37;
 }
 .hover-btn.red-btn:hover,
 .hover-btn.red-btn:active,
@@ -227,7 +227,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .hover-btn.white-btn:hover,
 .hover-btn.white-btn:active,
 .hover-btn.white-btn:focus {
-  background-color: #fff;
+  background-color: #ebebeb;
 }
 .next-arrow-btn {
   position: relative;
@@ -385,7 +385,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #328f4a;
 }
 .click-btn.yellow-btn:hover {
-  background-color: #f9d90b;
+  background-color: #f3da37;
 }
 .click-btn.orange-btn:hover {
   background-color: #f06400;
@@ -806,7 +806,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #328f4a;
 }
 .shine-btn.yellow-btn:active {
-  background-color: #f9d90b;
+  background-color: #f3da37;
 }
 .shine-btn.red-btn:active {
   background-color: #bf0833;
