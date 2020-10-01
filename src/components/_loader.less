@@ -1,0 +1,57 @@
+.loader-btn {
+  padding-right: calc(@buttonPadding + @buttonFontSize + 0.5rem);
+  position: relative;
+  transition: padding-right 0.2s;
+
+  @loaderThickness: 0.3rem;
+
+  &:before,
+  &:after {
+    content: " ";
+
+    // Match font-size
+    height: @buttonFontSize;
+    width: @buttonFontSize;
+
+    // Position loader
+    position: absolute;
+    right: @buttonPadding;
+    top: calc(50% - @buttonFontSize / 2);
+
+    // Common style
+    border: @loaderThickness solid transparent;
+    border-radius: 50%;
+  }
+
+  // Spinner Background style
+  &:after {
+    border-top-color: @lightText;
+
+    animation: loader-btn-spin 0.75s linear infinite;
+  }
+
+  &.white-btn:not(.fill-color-btn):after,
+  &.yellow-btn:not(.fill-color-btn):after {
+    border-top-color: @darkText !important;
+  }
+
+  // Spinner style
+  &:before {
+    border-color: fade(@lightText, 30%);
+  }
+
+  &.white-btn:not(.fill-color-btn):before,
+  &.yellow-btn:not(.fill-color-btn):before {
+    border-color: fade(@darkText, 30%) !important;
+  }
+}
+
+@keyframes loader-btn-spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(359deg);
+  }
+}

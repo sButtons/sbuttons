@@ -230,6 +230,12 @@ $(document).ready(function () {
       ],
       children: [],
     },
+    {
+      type: "loader",
+      label: "Loader Buttons",
+      classes: "loader-btn",
+      children: [],
+    },
   ];
 
   var sidebar = $(".sidebar-list"),
