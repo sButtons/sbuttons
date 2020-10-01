@@ -120,6 +120,14 @@ a.sbtn:active {
 .white-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(233, 233, 233, 0.67);
 }
+.white-btn .teal-btn {
+  background-color: #008080;
+}
+.white-btn .teal-btn:focus,
+.white-btn .teal-btn:active {
+  box-shadow: 0px 0px 0 0.2rem rgba(0, 128, 128, 0.3);
+  outline: 0;
+}
 .white-btn:not(.fill-color-btn) {
   color: #333 !important;
 }
