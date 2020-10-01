@@ -79,6 +79,10 @@ If you have ideas for buttons, or would like to see a list of ideas that have no
 
 Check out our awesome contributors [here](./CONTRIBUTORS.md)!
 
+# Logo
+
+ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
+ 
 # LICENSE
 
 [MIT](./LICENSE)
