@@ -48,7 +48,8 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744; | **Play Game Button** | A play game button which has a game controller shape |[Nicolas Cheng](https://github.com/nicolakacha)|
 | &#9744; | **Bring to Top Button**           | A button with an UP arrow key to glide to the top of the page        | [Archisman Hota](https://github.com/Archis19)            |
 | &#9744; | **Text Size +/- Buttons**           | A button to change the font/text size        | [Archisman Hota](https://github.com/Archis19)               |
-| &#9745;| ~~**Settings Button**~~| A button to show settings. |[Paramita Majumdar](https://github.com/pari-27) |
+| &#9744;| **Settings Button**| A button to show settings. |[Paramita Majumdar](https://github.com/pari-27) |
+| &#9744;| **Hint Button**| A button bulb icon showing hint in a game. |[Paramita Majumdar](https://github.com/pari-27) |
 ---
 
 ## Special
