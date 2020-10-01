@@ -7,10 +7,10 @@ assignees: ''
 
 ---
 
-**Describe the bug**
+**1 - Describe the bug**
 
-**Expected behavior of what should have happened (if applicable)**
+**2 - Expected behavior of what should have happened (if applicable)**
 
-**Screenshots (if applicable)**
+**3 - Screenshots (if applicable)**
 
-**Additional notes**
+**4 - Additional notes**

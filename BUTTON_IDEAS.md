@@ -29,7 +29,9 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744; | **Colored Liquid Button** | A button that filled the space like liquid | [Muhammad Abdullah](https://github.com/abdullah2205)  |
 | &#9744; | **Animated Gradient Border Button** | A button that has gradient text border background with animation | [Mukesh Shelke](https://github.com/mukesh2309) |
 | &#9744; | ~~**Cracking Neon Button**~~ | A Neon Button that will cracked when clicked | [EmpalGentong](https://github.com/EmpalGentong) |
----
+| &#9744; | **Trace Button**        | An outline button whose border gets traced, starting and ending at the same point | [Preity Priya](https://github.com/preity-p) |
+| &#9744; | **Expanding Border Button** | On hovering over the button, the border will get pushed inside out, besides the opacity changing | [Preity Priya](https://github.com/preity-p) |
+| &#9744; | **Atom Button**             | A button with a moving atom on its border on hover.| [Maitryee-Choudhary](https://github.com/Maitryee-Choudhary)|
 
 ## Icon
 
@@ -44,6 +46,8 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744;| **Share Button**               | Button with the share icon only                            |                                              |
 | &#9744; |**Screen Capture Button**        | Button with Screen and Camera to allow taking screenshots on click|[Shruti Jha](https://github.com/ShrutiJha31|
 | &#9744; | **Play Game Button** | A play game button which has a game controller shape |[Nicolas Cheng](https://github.com/nicolakacha)|
+| &#9744; | **Bring to Top Button**           | A button with an UP arrow key to glide to the top of the page        | [Archisman Hota](https://github.com/Archis19)            |
+| &#9744; | **Text Size +/- Buttons**           | A button to change the font/text size        | [Archisman Hota](https://github.com/Archis19)               |
 ---
 
 ## Special
