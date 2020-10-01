@@ -192,7 +192,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .hover-btn.pink-btn:hover,
 .hover-btn.pink-btn:active,
 .hover-btn.pink-btn:focus {
-  background-color: #c4309f;
+  background-color: #c10c94;
 }
 .hover-btn.green-btn:hover,
 .hover-btn.green-btn:active,
@@ -202,7 +202,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .hover-btn.yellow-btn:hover,
 .hover-btn.yellow-btn:active,
 .hover-btn.yellow-btn:focus {
-  background-color: #f3da37;
+  background-color: #f7da22;
 }
 .hover-btn.red-btn:hover,
 .hover-btn.red-btn:active,
@@ -379,13 +379,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #1fa5d6;
 }
 .click-btn.pink-btn:hover {
-  background-color: #c4309f;
+  background-color: #c10c94;
 }
 .click-btn.green-btn:hover {
   background-color: #328f4a;
 }
 .click-btn.yellow-btn:hover {
-  background-color: #f3da37;
+  background-color: #f7da22;
 }
 .click-btn.orange-btn:hover {
   background-color: #f06400;
@@ -800,13 +800,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #1fa5d6;
 }
 .shine-btn.pink-btn:active {
-  background-color: #c4309f;
+  background-color: #c10c94;
 }
 .shine-btn.green-btn:active {
   background-color: #328f4a;
 }
 .shine-btn.yellow-btn:active {
-  background-color: #f3da37;
+  background-color: #f7da22;
 }
 .shine-btn.red-btn:active {
   background-color: #cf0837;
@@ -1254,4 +1254,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.github:after {
   color: #fff;
   content: "\f09b";
+}
+.social-btn.tumblr {
+  background-color: #001935;
+  color: #fff;
+}
+.social-btn.tumblr:after {
+  color: #fff;
+  content: "\f173";
+}
+.social-btn.flickr {
+  background-color: #000000;
+  color: #fff;
+}
+.social-btn.flickr:after {
+  color: #fff;
+  content: "\f16e";
+}
+.social-btn.snapchat-ghost {
+  background-color: #fffc00;
+  color: #353535;
+}
+.social-btn.snapchat-ghost:after {
+  color: #353535;
+  content: "\f2ac";
 }
