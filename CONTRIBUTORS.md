@@ -110,6 +110,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/preity-p"><img src="https://avatars1.githubusercontent.com/u/69975807?v=4" width="100px;" alt=""/><br /><sub><b>preity-p</b></sub></a><br /><a href="#ideas-preity-p" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/akshatgarg12"><img src="https://avatars2.githubusercontent.com/u/60404253?v=4" width="100px;" alt=""/><br /><sub><b>Akshat Garg</b></sub></a><br /><a href="#ideas-akshatgarg12" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/Balaguru4580"><img src="https://avatars1.githubusercontent.com/u/61746056?v=4" width="100px;" alt=""/><br /><sub><b>Balaguru4580</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Balaguru4580" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/SanyuktaSaha"><img src="https://avatars0.githubusercontent.com/u/36417473?v=4" width="100px;" alt=""/><br /><sub><b>Sanyukta Saha</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=SanyuktaSaha" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3ASanyuktaSaha" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
