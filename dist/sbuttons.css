@@ -1314,3 +1314,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 26%;
   content: "\f1d6";
 }
+.social-btn.vk {
+  background-color: #4f82b9;
+  color: #fff;
+}
+.social-btn.vk:after {
+  background-color: #4f82b9;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f189";
+}

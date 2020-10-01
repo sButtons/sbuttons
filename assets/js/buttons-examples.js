@@ -244,6 +244,10 @@ $(document).ready(function () {
           classes: "qq",
           text: "Login with QQ",
         },
+        {
+          classes: "vk",
+          text: "Login with VK",
+        },
       ],
       children: [],
     },
