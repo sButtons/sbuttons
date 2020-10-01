@@ -199,12 +199,6 @@ $(document).ready(function () {
           classes: "scroll-to-top-btn",
           text: "",
         },
-        {
-          type: "play-game",
-          label: "Play game Button",
-          classes: "play-game-btn",
-          text: "",
-        },
       ],
     },
     {
@@ -270,6 +264,12 @@ $(document).ready(function () {
       label: "Special Buttons",
       classes: "",
       children: [
+        {
+          type: "play-game",
+          label: "Play game Button",
+          classes: "play-game-btn",
+          text: "",
+        },
         {
           type: "retro",
           label: "Retro",
