@@ -1,5 +1,4 @@
-@import "variables.css";
-
+/* variables.css link included in index.html */
 html {
   scroll-behavior: smooth;
 }
@@ -17,6 +16,9 @@ footer {
 }
 
 .sidebar-list a {
+  font-family: Syne, sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
   display: block;
 }
 
@@ -31,7 +33,7 @@ footer {
 
 [data-theme="dark"] .navbar.scrolling {
   background-color: #434343;
-  box-shadow: 0px 2px 3px #1e1e1e;
+  box-shadow: 0 2px 3px #1e1e1e;
 }
 
 [data-theme="dark"] .sidebar {
@@ -47,7 +49,7 @@ footer {
 header {
   background-color: var(--main-color);
   color: #fff;
-  height: 60vh;
+  height: 66vh;
   display: flex !important;
   flex-direction: column;
 }
@@ -62,8 +64,14 @@ header {
   margin-bottom: 2em;
 }
 
-.navbar .logo h1 {
-  margin-bottom: 0;
+.navbar .logo {
+  height: 60px;
+}
+.logo img {
+  height: 100%;
+}
+.navbar .logo a {
+  text-decoration: none;
 }
 
 .navbar:not(.scrolling) .logo {
@@ -80,7 +88,7 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
-  box-shadow: 0px 2px 3px #e9e9e9;
+  box-shadow: 0 2px 3px #e9e9e9;
 }
 
 .logo {
@@ -95,6 +103,10 @@ header {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Microsoft / IE 10+ */
   user-select: none; /* Standard syntax. */
+}
+
+header .logo {
+  height: 110px;
 }
 
 header .content {
@@ -115,7 +127,7 @@ header .content .subtitle {
 header .content .subtitle {
   font-size: 1.5rem;
   font-family: Syne, sans-serif;
-  margin-bottom: 1em; /* Adding this for spacing for buttons below */
+  margin-bottom: 2em; /* Adding this for spacing for buttons below */
 }
 
 /* This is overriding the download and documentation button colors for now since we don't have a white class - more than happy to create one! */
@@ -126,6 +138,7 @@ header .content .sbtn:nth-of-type(2) {
 
 header .content .sbtn {
   font-size: 1.3rem;
+  font-family: Syne, sans-serif !important;
 }
 
 header .content .sbtn:first-of-type {
@@ -170,7 +183,7 @@ section {
 
 .button-caption-sub:after {
   content: "\f328";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free", serif;
   font-size: 15px;
   vertical-align: bottom;
   margin-left: 5px;
@@ -302,7 +315,7 @@ hr {
 }
 
 .social-btn {
-  font-family: Syne, sans-serif;
+  font-family: "Syne", sans-serif !important;
 }
 
 .scroll-top {
@@ -367,7 +380,7 @@ button.clipboard:after {
   content: "\f328";
   font-size: 15px;
   vertical-align: bottom;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free", serif;
 }
 button.clipboard:focus {
   outline: 0;
@@ -385,10 +398,39 @@ button.clipboard:focus {
   cursor: pointer;
 }
 
+
 .navbar:not(.scrolling) .download-link {
   display: none;
 }
 
 .navbar.scrolling .download-link {
   display: inline-block;
+
+.banner-link:hover,
+.banner-link:active {
+  color: white;
+  text-decoration: none;
+  background-color: white;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.banner-link {
+  border: 1px solid white;
+  padding: 15px;
+  font-size: 1.3rem;
+  margin-right: 20px;
+  color: white;
+  font-family: Syne, sans-serif;
+}
+
+.down-link {
+  background-color: white;
+  color: #333;
+}
+
+.down-link:hover,
+.down-link:active {
+  background-color: transparent;
+  color: white;
 }

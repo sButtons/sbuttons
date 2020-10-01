@@ -63,7 +63,7 @@ $(document).ready(function () {
         {
           type: "neon",
           label: "Neon",
-          classes: "neon-green-btn",
+          classes: "neon-btn",
         },
         {
           type: "next",
@@ -86,6 +86,11 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
+          type: "ripple",
+          label: "Ripple",
+          classes: "ripple-btn",
+        },
+        {
           type: "scale",
           label: "Scale",
           classes: "scale-btn",
@@ -105,6 +110,11 @@ $(document).ready(function () {
           label: "Skew",
           classes: "skew-btn",
         },
+        {
+          type: "splash",
+          label: "Splash",
+          classes: "splash-btn",
+        },
       ],
     },
     {
@@ -118,6 +128,13 @@ $(document).ready(function () {
       label: "Icon Buttons",
       classes: "",
       children: [
+        {
+          type: "add-to-cart",
+          label: "Add To Cart Button",
+          classes: "add-to-cart-btn",
+          text: "Add To Cart",
+        },
+
         {
           type: "buy-me-coffee",
           label: "Buy Me Coffee Button",
@@ -134,6 +151,12 @@ $(document).ready(function () {
           type: "like",
           label: "Like Button",
           classes: "like-btn",
+          text: "",
+        },
+        {
+          type: "play",
+          label: "Play Button",
+          classes: "play-btn",
           text: "",
         },
         {
@@ -161,7 +184,15 @@ $(document).ready(function () {
           text: "Login with Facebook",
         },
         {
+          classes: "facebook-rounded",
+          text: "Login with Facebook",
+        },
+        {
           classes: "github",
+          text: "Login with Github",
+        },
+        {
+          classes: "github-rounded",
           text: "Login with Github",
         },
         {
@@ -169,7 +200,15 @@ $(document).ready(function () {
           text: "Login with Google",
         },
         {
+          classes: "google-rounded",
+          text: "Login with Google",
+        },
+        {
           classes: "instagram",
+          text: "Login with Instagram",
+        },
+        {
+          classes: "instagram-rounded",
           text: "Login with Instagram",
         },
         {
@@ -177,11 +216,23 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
+          classes: "linkedin-rounded",
+          text: "Login with LinkedIn",
+        },
+        {
           classes: "twitter",
           text: "Login with Twitter",
         },
         {
+          classes: "twitter-rounded",
+          text: "Login with Twitter",
+        },
+        {
           classes: "weibo",
+          text: "Login with Weibo",
+        },
+        {
+          classes: "weibo-rounded",
           text: "Login with Weibo",
         },
       ],
