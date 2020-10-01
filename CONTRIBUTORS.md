@@ -107,6 +107,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Pranav108"><img src="https://avatars1.githubusercontent.com/u/56934594?v=4" width="100px;" alt=""/><br /><sub><b>Pranav108</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Pranav108" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/preity-p"><img src="https://avatars1.githubusercontent.com/u/69975807?v=4" width="100px;" alt=""/><br /><sub><b>preity-p</b></sub></a><br /><a href="#ideas-preity-p" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
