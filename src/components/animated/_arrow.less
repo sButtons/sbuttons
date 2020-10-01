@@ -36,6 +36,10 @@
   &.purple-btn:@{position} {
     .after(@purple);
   }
+  &.white-btn:@{position} {
+    .after(@white);
+    color: @darkText !important;
+  }
 }
 
 .next-arrow-btn {
@@ -48,14 +52,14 @@
     .arrowRules();
   }
 
-  &:not(.btn-rounded) {
+  &:not(.rounded-btn) {
     &:after {
       right: 0.5em;
       transition: all 0.05s;
     }
   }
 
-  &.btn-rounded {
+  &.rounded-btn {
     transition: padding-right 0.1s;
     &:after {
       right: 11px;
@@ -83,14 +87,14 @@
     .arrowRules();
   }
 
-  &:not(.btn-rounded) {
+  &:not(.rounded-btn) {
     &:before {
       left: 0.5em;
       transition: all 0.05s;
     }
   }
 
-  &.btn-rounded {
+  &.rounded-btn {
     transition: padding-left 0.1s;
     &:before {
       left: 11px;
