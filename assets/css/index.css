@@ -401,12 +401,11 @@ button.clipboard:focus {
 }
 
 .instructions hr {
-  border-top: 1px solid rgb(247 247 247 / 10%);
-  width: 100%;
+  margin: 0;
 }
 
-.instruction-block {
-  margin: 2rem 1rem;
+.instructions > h2 {
+  margin-bottom: 1em;
 }
 
 .display-inlineBlock {
