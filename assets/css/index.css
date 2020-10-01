@@ -1,5 +1,4 @@
-@import "variables.css";
-
+/* variables.css link included in index.html */
 html {
   scroll-behavior: smooth;
 }
@@ -16,10 +15,6 @@ footer {
   transition: background-color 0.2s;
 }
 
-.sidebar-list a {
-  display: block;
-}
-
 [data-theme="dark"] {
   background-color: var(--dark-color);
   color: #ffffff;
@@ -31,12 +26,7 @@ footer {
 
 [data-theme="dark"] .navbar.scrolling {
   background-color: #434343;
-  box-shadow: 0px 2px 3px #1e1e1e;
-}
-
-[data-theme="dark"] .sidebar {
-  background-color: var(--dark-color);
-  color: #ffffff;
+  box-shadow: 0 2px 3px #1e1e1e;
 }
 
 [data-theme="dark"] .sidebar a,
@@ -47,9 +37,6 @@ footer {
 header {
   background-color: var(--main-color);
   color: #fff;
-  height: 60vh;
-  display: flex !important;
-  flex-direction: column;
 }
 
 .navbar {
@@ -59,11 +46,16 @@ header {
   align-items: center;
   background-color: transparent;
   width: 100%;
-  margin-bottom: 2em;
 }
 
-.navbar .logo h1 {
-  margin-bottom: 0;
+.navbar .logo {
+  height: 60px;
+}
+.logo img {
+  height: 100%;
+}
+.navbar .logo a {
+  text-decoration: none;
 }
 
 .navbar:not(.scrolling) .logo {
@@ -80,7 +72,7 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
-  box-shadow: 0px 2px 3px #e9e9e9;
+  box-shadow: 0 2px 3px #e9e9e9;
 }
 
 .logo {
@@ -97,9 +89,13 @@ header {
   user-select: none; /* Standard syntax. */
 }
 
+header .logo {
+  height: 110px;
+}
+
 header .content {
   text-align: center;
-  flex: 1;
+  padding-bottom: 30px;
 }
 
 header .content .logo h1 {
@@ -110,6 +106,27 @@ header .content .logo h1 {
 header .content .subtitle {
   font-size: 1.5rem;
   font-family: Syne, sans-serif;
+}
+
+header .content .subtitle {
+  font-size: 1.5rem;
+  font-family: Syne, sans-serif;
+  margin-bottom: 2em; /* Adding this for spacing for buttons below */
+}
+
+/* This is overriding the download and documentation button colors for now since we don't have a white class - more than happy to create one! */
+header .content .sbtn:nth-of-type(2) {
+  background-color: #fff;
+  color: #000;
+}
+
+header .content .sbtn {
+  font-size: 1.3rem;
+  font-family: Syne, sans-serif !important;
+}
+
+header .content .sbtn:first-of-type {
+  margin-right: 0.5em;
 }
 
 section {
@@ -135,7 +152,14 @@ section {
 
 .button-container .sbtn {
   margin-bottom: 1em;
-  font-size: 1.5rem;
+}
+
+#hinge .button-container .block-btn {
+  margin-bottom: 2.5em;
+}
+
+[data-theme="dark"] .button-caption-sub {
+  color: #afafaf;
 }
 
 .button-caption-sub {
@@ -146,7 +170,7 @@ section {
 
 .button-caption-sub:after {
   content: "\f328";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free", serif;
   font-size: 15px;
   vertical-align: bottom;
   margin-left: 5px;
@@ -166,10 +190,10 @@ hr {
   vertical-align: sub;
 }
 
-.navbar .sidebar-toggler,
-.close-sidebar {
-  outline: none !important;
-  cursor: pointer;
+@media (max-width: 368px) {
+  .navbar .buttons {
+    display: none;
+  }
 }
 
 .navbar .download-link,
@@ -248,27 +272,6 @@ hr {
   .navbar:not(.scrolling) {
     justify-content: space-between;
   }
-
-  [data-theme="dark"] .sidebar {
-    box-shadow: 1px 1px 5px #3b3b3b !important;
-  }
-
-  .sidebar-list {
-    overflow-y: auto;
-  }
-
-  .sidebar-list::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  .sidebar-list::-webkit-scrollbar-thumb {
-    background: var(--main-color);
-    border-radius: 2.5px;
-  }
-
-  .sidebar-list::-webkit-scrollbar-thumb:hover {
-    background: var(--main-color);
-  }
 }
 
 @media (min-width: 768px) {
@@ -278,7 +281,7 @@ hr {
 }
 
 .social-btn {
-  font-family: Syne, sans-serif;
+  font-family: "Syne", sans-serif !important;
 }
 
 .scroll-top {
@@ -343,7 +346,7 @@ button.clipboard:after {
   content: "\f328";
   font-size: 15px;
   vertical-align: bottom;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free", serif;
 }
 button.clipboard:focus {
   outline: 0;
@@ -359,4 +362,34 @@ button.clipboard:focus {
 }
 .script-copy {
   cursor: pointer;
+}
+
+.banner-link:hover,
+.banner-link:active {
+  color: white;
+  text-decoration: none;
+  background-color: white;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.banner-link {
+  border: 1px solid white;
+  padding: 15px;
+  font-size: 1.3rem;
+  margin-right: 20px;
+  color: white;
+  font-family: Syne, sans-serif;
+  display: inline-block;
+}
+
+.down-link {
+  background-color: white;
+  color: #333;
+}
+
+.down-link:hover,
+.down-link:active {
+  background-color: transparent;
+  color: white;
 }
