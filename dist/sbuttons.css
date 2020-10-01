@@ -973,6 +973,69 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .snake-btn.rounded-btn:hover:after {
   border-radius: 25px;
 }
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.expand-btn:link {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: absolute;
+}
+.expand-btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: absolute;
+}
+.expand-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px #262626;
+}
+.expand-btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.expand-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px #262626;
+}
+.expand-btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+.expand-btn-white {
+  background-color: #e2e2e2;
+  color: #414141;
+}
+.expand-btn-white::after {
+  background-color: #e2e2e2;
+}
+.expand-btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
