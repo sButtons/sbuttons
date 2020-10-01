@@ -1281,3 +1281,42 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
+.dashed-btn {
+  background-color: transparent;
+}
+.dashed-btn.blue-btn {
+  border: dashed 2px #50bfe6;
+  color: #50bfe6 !important;
+}
+.dashed-btn.pink-btn {
+  border: dashed 2px #d53caf;
+  color: #d53caf !important;
+}
+.dashed-btn.red-btn {
+  border: dashed 2px #ed0a3f;
+  color: #ed0a3f !important;
+}
+.dashed-btn.green-btn {
+  border: dashed 2px #3aa655;
+  color: #3aa655 !important;
+}
+.dashed-btn.yellow-btn {
+  border: dashed 2px #fbe870;
+  color: #fbe870 !important;
+}
+.dashed-btn.orange-btn {
+  border: dashed 2px #ff8833;
+  color: #ff8833 !important;
+}
+.dashed-btn.purple-btn {
+  border: dashed 2px #652dc1;
+  color: #652dc1 !important;
+}
+.dashed-btn.black-btn {
+  border: dashed 2px #000;
+  color: #000 !important;
+}
+.dashed-btn.white-btn {
+  border-color: #e9e9e9;
+  color: #333 !important;
+}

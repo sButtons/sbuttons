@@ -235,6 +235,12 @@ $(document).ready(function () {
       ],
       children: [],
     },
+    {
+      type: "dashed",
+      label: "Dashed Buttons",
+      classes: "dashed-btn",
+      children: [],
+    },
   ];
 
   var sidebar = $(".sidebar-list"),
