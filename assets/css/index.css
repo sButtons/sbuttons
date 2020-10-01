@@ -364,7 +364,6 @@ button.clipboard:focus {
   cursor: pointer;
 }
 
-
 .navbar:not(.scrolling) .download-link {
   display: none;
 }
