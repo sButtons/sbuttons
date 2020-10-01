@@ -1,0 +1,45 @@
+.doubleOutline(@color) {
+  border-color: @color;
+  color: @color !important;
+}
+
+.doubleOutline-btn {
+  background-color: transparent;
+  border: 3px double !important;
+
+  &.blue-btn {
+    .doubleOutline(@blue);
+  }
+  &.pink-btn {
+    .doubleOutline(@pink);
+  }
+
+  &.red-btn {
+    .doubleOutline(@red);
+  }
+
+  &.green-btn {
+    .doubleOutline(@green);
+  }
+
+  &.yellow-btn {
+    .doubleOutline(@yellow);
+  }
+
+  &.orange-btn {
+    .doubleOutline(@orange);
+  }
+
+  &.purple-btn {
+    .doubleOutline(@purple);
+  }
+
+  &.black-btn {
+    .doubleOutline(@black);
+  }
+
+  &.white-btn {
+    border-color: @whiteBorder;
+    color: @darkText !important;
+  }
+}

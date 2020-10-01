@@ -181,6 +181,46 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #e9e9e9;
   color: #333 !important;
 }
+.doubleOutline-btn {
+  background-color: transparent;
+  border: 3px double !important;
+}
+.doubleOutline-btn.blue-btn {
+  border-color: #50bfe6;
+  color: #50bfe6 !important;
+}
+.doubleOutline-btn.pink-btn {
+  border-color: #d53caf;
+  color: #d53caf !important;
+}
+.doubleOutline-btn.red-btn {
+  border-color: #ed0a3f;
+  color: #ed0a3f !important;
+}
+.doubleOutline-btn.green-btn {
+  border-color: #3aa655;
+  color: #3aa655 !important;
+}
+.doubleOutline-btn.yellow-btn {
+  border-color: #fbe870;
+  color: #fbe870 !important;
+}
+.doubleOutline-btn.orange-btn {
+  border-color: #ff8833;
+  color: #ff8833 !important;
+}
+.doubleOutline-btn.purple-btn {
+  border-color: #652dc1;
+  color: #652dc1 !important;
+}
+.doubleOutline-btn.black-btn {
+  border-color: #000;
+  color: #000 !important;
+}
+.doubleOutline-btn.white-btn {
+  border-color: #e9e9e9;
+  color: #333 !important;
+}
 .hover-btn {
   transition: all 0.2s;
 }

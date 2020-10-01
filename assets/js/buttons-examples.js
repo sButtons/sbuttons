@@ -185,6 +185,12 @@ $(document).ready(function () {
       children: [],
     },
     {
+      type: "double-outline",
+      label: "Double Outline Buttons",
+      classes: "doubleOutline-btn",
+      children: [],
+    },
+    {
       type: "social",
       label: "Social Buttons",
       classes: "social-btn",
