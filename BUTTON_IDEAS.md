@@ -26,7 +26,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744; | **Transparent on Hover Button**  | A button whose background becomes transparent on hover |                                    |
 | &#9744; | **Colored Background on Hover Button** | A button that is originally transparent but its background becomes colored on hover | |
 | &#9744; | **Colored Liquid Button** | A button that filled the space like liquid | [Muhammad Abdullah](https://github.com/abdullah2205) |
-| &#9744; | **Gradient border  Button With Animation**| A button that has gradient text border background with animation | [Mukesh Shelke](https://github.com/mukesh2309) |
+| &#9744; | **Animated Gradient Border Button**| A button that has gradient text border background with animation | [Mukesh Shelke](https://github.com/mukesh2309) |
 ---
 
 ## Icon
