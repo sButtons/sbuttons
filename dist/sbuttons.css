@@ -814,30 +814,27 @@ a.yellow-btn:active:not(.fill-color-btn) {
   }
 }
 .bouncy-btn {
-  animation: bouncy 1s infinite linear;
+  animation-name: bouncy;
+  animation-timing-function: ease;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
   position: relative;
 }
 @keyframes bouncy {
   0% {
-    top: 0em;
+    transform: scale(1, 1) translateY(0);
   }
-  39% {
-    top: 0em;
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
   }
-  43% {
-    top: -0.9em;
-  }
-  46% {
-    top: 0em;
-  }
-  48% {
-    top: -0.4em;
+  30% {
+    transform: scale(0.9, 1.1) translateY(-60px);
   }
   50% {
-    top: 0em;
+    transform: scale(1, 1) translateY(0);
   }
   100% {
-    top: 0em;
+    transform: scale(1, 1) translateY(0);
   }
 }
 .buy-me-coffee-btn {
@@ -1184,13 +1181,4 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.github:after {
   color: #fff;
   content: "\f09b";
-}
-.badge-btn {
-  display: inline-block;
-  text-align: center;
-}
-.badge-btn.btn-rounded {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
 }

@@ -26,6 +26,11 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "bounce",
+          label: "Bounce",
+          classes: "bouncy-btn",
+        },
+        {
           type: "click",
           label: "Click",
           classes: "click-btn",
@@ -115,11 +120,6 @@ $(document).ready(function () {
           label: "Splash",
           classes: "splash-btn",
         },
-        {
-          type: "bounce",
-          label: "Bounce",
-          classes: "bouncy-btn",
-        },
       ],
     },
     {
@@ -177,12 +177,6 @@ $(document).ready(function () {
       label: "Outline Buttons",
       classes: "outline-btn",
       children: [],
-    },
-    {
-      type: "badgeButton",
-      label: "Badge Button",
-      classes: "badge-btn",
-      text: "9",
     },
 
     {
