@@ -6,9 +6,9 @@
   
 :bulb: Simple buttons you can use easily for your next project.
 
-# COMING SOON - Hacktoberfest
+# Particpate in Hacktoberfest!
 
-[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is starting soon, and this repository will help people who don't know where to start contributing. We will be adding a Hacktoberfest label to help contributors find the simple issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/shahednasser/sbuttons/issues/161).
+This repository will help people who don't know how to participate in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) or where to start contributing. We will be adding a Hacktoberfest label to help contributors find the issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/shahednasser/sbuttons/issues/161).
 
 # Usage
 You can download the CSS file [here](https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css) and then add it to your html file inbetween the `<head>` tags:
