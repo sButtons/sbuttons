@@ -15,7 +15,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 ## Animated
 
-| status  | Button name             | Description                            | Submitted by                                                |
+| Status  | Button name             | Description                            | Submitted by                                                |
 | ------- | ----------------------- | -------------------------------------- | ----------------------------------------------------------- |
 | &#9745; | ~~**Skew Button**~~     | A button that skews on hover.          |                                                             |
 | &#9745; | ~~**Neon Button**~~     | A button that glows on hover.          | [Esakki Selvaraj](https://github.com/esakki-selvaraj)       |
@@ -31,7 +31,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 ## Icon
 
-| status  | Button name                    | Description                                                | Submitted by                                 |
+| Status  | Button name                    | Description                                                | Submitted by                                 |
 | ------- | ------------------------------ | ---------------------------------------------------------- | -------------------------------------------- |
 | &#9745; | ~~**Plus button**~~            | A button just with a plus icon                             |                                              |
 | &#9745; | ~~**Buy me a coffee button**~~ |                                                            |                                              |
@@ -46,7 +46,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 ## Special
 
-| status  | Button name           | Description                                                                                                                            | Submitted by                                      |
+| Status  | Button name           | Description                                                                                                                            | Submitted by                                      |
 | ------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | &#9744; | **Retro button**      | A button that has a retro style to it                                                                                                  |     [Nida](https://github.com/anonyda)                |
 | &#9744; | **Vintage Button**      | A button that has a Windows 95 Vintage style to it                                                                                         |     [Nida](https://github.com/anonyda)                |
@@ -63,7 +63,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 
 ## Social Buttons
 
-| status  | Button name                    | Description                          | Submitted by                                  |
+| Status  | Button name                    | Description                          | Submitted by                                  |
 | ------- | ------------------------------ | ------------------------------------ | --------------------------------------------- |
 | &#9744; | **Add Rounded Social Buttons** | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
 | &#9744; | **Add Pinterest Buttons** | A social button linked to pinterest  | [Tushar Raj](https://github.com/Tushar11Raj)  |
