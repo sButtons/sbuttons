@@ -129,6 +129,12 @@ $(document).ready(function () {
       ],
     },
     {
+      type: "dashed",
+      label: "Dashed Buttons",
+      classes: "dashed-btn",
+      children: [],
+    },
+    {
       type: "disable",
       classes: "disabled-btn",
       label: "Disabled Buttons",
