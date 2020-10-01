@@ -209,6 +209,10 @@ $(document).ready(function () {
           text: "Login with Facebook",
         },
         {
+          classes: "flickr",
+          text: "Login with Flickr",
+        },
+        {
           classes: "github",
           text: "Login with Github",
         },
@@ -225,8 +229,16 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
+          classes: "snapchat",
+          text: "Login with Snapchat",
+        },
+        {
           classes: "twitter",
           text: "Login with Twitter",
+        },
+        {
+          classes: "tumblr",
+          text: "Login with Tumblr",
         },
         {
           classes: "weibo",
