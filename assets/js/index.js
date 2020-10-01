@@ -125,7 +125,7 @@ $(document).ready(function () {
     let sidebar = $(".sidebar");
     if (!sidebar.hasClass("hide-sidebar")) {
       let sidebar = $(".sidebar");
-      $("#shade").removeClass("shown");
+      $(".shade").removeClass("shown");
       sidebar.addClass("animate__slideOutLeft");
       window.setTimeout(function () {
         sidebar.addClass("hide-sidebar");
@@ -134,7 +134,7 @@ $(document).ready(function () {
     } else {
       let sidebar = $(".sidebar");
       sidebar.removeClass("hide-sidebar");
-      $("#shade").addClass("shown");
+      $(".shade").addClass("shown");
     }
   }
 

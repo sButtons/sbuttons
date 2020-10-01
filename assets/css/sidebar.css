@@ -58,7 +58,7 @@
   color: #fff;
 }
 
-#shade {
+.shade {
   opacity: 0%;
   transition: opacity 0.2s;
 }
@@ -150,7 +150,7 @@
     z-index: 100;
   }
 
-  #shade.shown {
+  .shade.shown {
     width: 100vw;
     height: 100vh;
     z-index: 9;

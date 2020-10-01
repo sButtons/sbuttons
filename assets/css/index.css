@@ -394,6 +394,28 @@ button.clipboard:focus {
   color: white;
 }
 
+.instructions hr {
+  border-top: 1px solid rgb(247 247 247 / 10%);
+  width: 100%;
+}
+
+.instructions h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.instruction-block {
+  margin: 2rem 1rem;
+}
+
+.display-inlineBlock {
+  display: inline-block;
+}
+
+.margin-left--half {
+  margin-left: .5rem;
+}
+
 .footer {
   color: floralwhite;
   min-height: 150px;
