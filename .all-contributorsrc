@@ -590,7 +590,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/32300994?v=4",
       "profile": "https://github.com/apoorvakadam",
       "contributions": [
-        "test"
+        "test",
+        "code"
       ]
     },
     {
@@ -773,6 +774,25 @@
       "profile": "https://github.com/Balaguru4580",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "SanyuktaSaha",
+      "name": "Sanyukta Saha",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/36417473?v=4",
+      "profile": "https://github.com/SanyuktaSaha",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "khushali77",
+      "name": "Khushali Shah",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/56497513?v=4",
+      "profile": "https://khushali77.github.io/",
+      "contributions": [
+        "content"
       ]
     }
   ],

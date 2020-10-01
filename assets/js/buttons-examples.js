@@ -27,6 +27,11 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "bounce",
+          label: "Bounce",
+          classes: "bouncy-btn",
+        },
+        {
           type: "click",
           label: "Click",
           classes: "click-btn",
