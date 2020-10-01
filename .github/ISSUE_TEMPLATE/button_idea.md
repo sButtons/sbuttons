@@ -11,4 +11,6 @@ assignees: ''
 
 **2. Description**: 
 
-**3. Will you work on it?**:
+**3. Button Type (Animated, Special, etc...)**:
+
+**4. Will you work on it?**:
