@@ -794,6 +794,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Zuhdannur",
+      "name": "Zuhdan Nur Ihsan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30076439?v=4",
+      "profile": "https://znuri.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
