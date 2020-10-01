@@ -59,3 +59,10 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | status  | Button name      | Description                                                      | Submitted by                                |
 | ------- | ---------------- | ---------------------------------------------------------------- | ------------------------------------------- |
 | &#9744; | **Sleek Button** | A sleek button whose background and outline change upon hovering | [Preity Priya](https://github.com/preity-p) |
+
+
+## Outline Buttons
+
+| status  | Button name      | Description                                                                       | Submitted by                                |
+| ------- | ---------------- | --------------------------------------------------------------------------------- | ------------------------------------------- |
+| &#9744; | **Trace Button** | An outline button whose border gets traced, starting and ending at the same point | [Preity Priya](https://github.com/preity-p) |
