@@ -129,6 +129,12 @@ $(document).ready(function () {
       ],
     },
     {
+      type: "dashed",
+      label: "Dashed Buttons",
+      classes: "dashed-btn",
+      children: [],
+    },
+    {
       type: "disable",
       classes: "disabled-btn",
       label: "Disabled Buttons",
@@ -187,6 +193,12 @@ $(document).ready(function () {
           classes: "plus-btn",
           text: "",
         },
+        {
+          type: "scroll-to-top",
+          label: "Scroll-to-Top Button",
+          classes: "scroll-to-top-btn",
+          text: "",
+        },
       ],
     },
     {
@@ -209,6 +221,10 @@ $(document).ready(function () {
           text: "Login with Facebook",
         },
         {
+          classes: "flickr",
+          text: "Login with Flickr",
+        },
+        {
           classes: "github",
           text: "Login with Github",
         },
@@ -225,8 +241,16 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
+          classes: "snapchat",
+          text: "Login with Snapchat",
+        },
+        {
           classes: "twitter",
           text: "Login with Twitter",
+        },
+        {
+          classes: "tumblr",
+          text: "Login with Tumblr",
         },
         {
           classes: "weibo",
@@ -239,20 +263,28 @@ $(document).ready(function () {
       type: "special",
       label: "Special Buttons",
       classes: "",
-      variations: [
+      children: [
         {
+          type: "retro",
+          label: "Retro",
           classes: "retro-btn",
-          text: "Continue",
-        },
-        {
-          classes: "retro-btn-proceed",
-          text: "Proceed",
-        },
-        {
-          classes: "retro-btn-reset",
-          text: "Reset",
-        },
-      ],
+          variations: [
+            {
+              classes: "",
+              text: "Continue",
+            },
+            {
+              classes: "retro-btn-proceed",
+              text: "Proceed",
+            },
+            {
+              classes: "retro-btn-reset",
+              text: "Reset",
+            },
+          ],
+        }
+      ]
+      
     },
   ];
 

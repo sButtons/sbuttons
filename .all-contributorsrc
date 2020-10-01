@@ -794,6 +794,33 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Zuhdannur",
+      "name": "Zuhdan Nur Ihsan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30076439?v=4",
+      "profile": "https://znuri.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "adsingh14",
+      "name": "Amandeep Singh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/35252877?v=4",
+      "profile": "https://github.com/adsingh14",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jamieleo93",
+      "name": "Jamie",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19117470?v=4",
+      "profile": "https://github.com/jamieleo93",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
