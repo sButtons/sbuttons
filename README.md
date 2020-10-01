@@ -97,7 +97,7 @@ In case of using buttons that have icons in them, make sure to include font awes
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 ```
 
-# Contribution
+# Contribution Rules ! 
 
 Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
 
@@ -107,7 +107,7 @@ If you have ideas for buttons, please submit a new issue for it. If you would al
 
 If you would like to check new button ideas, please look at issues with the label [button-idea](https://github.com/shahednasser/sbuttons/labels/button-idea)
 
-# Contributors
+# Know Our Contributors
 
 Check out our awesome contributors [here](./CONTRIBUTORS.md)!
 
