@@ -149,7 +149,7 @@ $(document).ready(function () {
         },
         {
           type: "chat",
-          label: "chat Box Button",
+          label: "Chat Box Button",
           classes: "chat-btn",
           text: "",
         },
