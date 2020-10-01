@@ -1,0 +1,28 @@
+.bouncy-btn {
+  position: relative;
+
+  &:hover {
+    animation-name: bouncy;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bouncy {
+    0% {
+      transform: scale(1, 1) translateY(0);
+    }
+    10% {
+      transform: scale(1.1, 0.9) translateY(0);
+    }
+    30% {
+      transform: scale(0.9, 1.1) translateY(-60px);
+    }
+    50% {
+      transform: scale(1, 1) translateY(0);
+    }
+    100% {
+      transform: scale(1, 1) translateY(0);
+    }
+  }
+}

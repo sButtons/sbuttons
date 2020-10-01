@@ -406,7 +406,9 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/5521567?v=4",
       "profile": "http://nichole.is",
       "contributions": [
-        "code"
+        "code",
+        "design",
+        "content"
       ]
     },
     {
@@ -532,7 +534,9 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/30036456?v=4",
       "profile": "https://github.com/anonyda",
       "contributions": [
-        "ideas"
+        "ideas",
+        "code",
+        "design"
       ]
     },
     {
@@ -590,7 +594,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/32300994?v=4",
       "profile": "https://github.com/apoorvakadam",
       "contributions": [
-        "test"
+        "test",
+        "code"
       ]
     },
     {
@@ -771,6 +776,52 @@
       "name": "Balaguru4580",
       "avatar_url": "https://avatars1.githubusercontent.com/u/61746056?v=4",
       "profile": "https://github.com/Balaguru4580",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "SanyuktaSaha",
+      "name": "Sanyukta Saha",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/36417473?v=4",
+      "profile": "https://github.com/SanyuktaSaha",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "khushali77",
+      "name": "Khushali Shah",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/56497513?v=4",
+      "profile": "https://khushali77.github.io/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Zuhdannur",
+      "name": "Zuhdan Nur Ihsan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30076439?v=4",
+      "profile": "https://znuri.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "adsingh14",
+      "name": "Amandeep Singh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/35252877?v=4",
+      "profile": "https://github.com/adsingh14",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jamieleo93",
+      "name": "Jamie",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19117470?v=4",
+      "profile": "https://github.com/jamieleo93",
       "contributions": [
         "code"
       ]

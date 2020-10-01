@@ -259,7 +259,6 @@ hr {
 .text {
   font-size: 1.3rem;
   color: black;
-  text-align: center;
   word-wrap: break-word;
   font-family: "Syne", sans-serif;
 }
@@ -364,6 +363,13 @@ button.clipboard:focus {
   cursor: pointer;
 }
 
+.navbar:not(.scrolling) .download-link {
+  display: none;
+}
+
+.navbar.scrolling .download-link {
+  display: inline-block;
+}
 .banner-link:hover,
 .banner-link:active {
   color: white;
@@ -392,6 +398,22 @@ button.clipboard:focus {
 .down-link:active {
   background-color: transparent;
   color: white;
+}
+
+.instructions hr {
+  margin: 0;
+}
+
+.instructions > h2 {
+  margin-bottom: 1em;
+}
+
+.display-inlineBlock {
+  display: inline-block;
+}
+
+.margin-left--half {
+  margin-left: 0.5rem;
 }
 
 .footer {
