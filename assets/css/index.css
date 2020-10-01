@@ -403,6 +403,11 @@ button.clipboard:focus {
   ;
 }
 
+.footer a:hover {
+  opacity: 0.6;
+  color: floralwhite;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
