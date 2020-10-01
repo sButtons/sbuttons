@@ -1299,7 +1299,30 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
-
+.social-btn.tumblr {
+  background-color: #001935;
+  color: #fff;
+}
+.social-btn.tumblr:after {
+  color: #fff;
+  content: "\f173";
+}
+.social-btn.flickr {
+  background-color: #000000;
+  color: #fff;
+}
+.social-btn.flickr:after {
+  color: #fff;
+  content: "\f16e";
+}
+.social-btn.snapchat {
+  background-color: #fffc00;
+  color: #353535;
+}
+.social-btn.snapchat:after {
+  color: #353535;
+  content: "\f2ac";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
@@ -1375,6 +1398,22 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .retro-btn-proceed:active {
   box-shadow: inset 4px 4px 0px 0px #e59400;
 }
+.rounded-diagonal-btn {
+  background: #7c26c2;
+  font: bold 24px "Syne";
+}
+.rounded-diagonal-btn.rounded-btn.rd-tl-btn {
+  border-radius: 34px 14px;
+}
+.rounded-diagonal-btn.rounded-btn.rd-tr-btn {
+  border-radius: 14px 34px;
+}
+.rd-tl-btn {
+  border-radius: 24px 4px;
+}
+.rd-tr-btn {
+  border-radius: 4px 24px;
+}
 .dashed-btn {
   background-color: transparent;
 }
@@ -1413,28 +1452,4 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .dashed-btn.white-btn {
   border: dashed 2px #e9e9e9;
   color: #333 !important;
-}
-.social-btn.tumblr {
-  background-color: #001935;
-  color: #fff;
-}
-.social-btn.tumblr:after {
-  color: #fff;
-  content: "\f173";
-}
-.social-btn.flickr {
-  background-color: #000000;
-  color: #fff;
-}
-.social-btn.flickr:after {
-  color: #fff;
-  content: "\f16e";
-}
-.social-btn.snapchat {
-  background-color: #fffc00;
-  color: #353535;
-}
-.social-btn.snapchat:after {
-  color: #353535;
-  content: "\f2ac";
 }

@@ -283,6 +283,22 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "rounded-diagonal",
+          label: "Rounded Diagonal",
+          classes: "rounded-diagonal-btn",
+          // t: top, l: left, b: bottom, r: right
+          variations: [
+            {
+              classes: "rd-tl-btn",
+              text: "TopLeft-BottomRight",
+            },
+            {
+              classes: "rd-tr-btn",
+              text: "TopRight-BottomLeft",
+            },
+          ],
+        },
       ],
     },
   ];
