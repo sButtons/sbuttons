@@ -96,6 +96,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/Archis19"><img src="https://avatars3.githubusercontent.com/u/53935459?v=4" width="100px;" alt=""/><br /><sub><b>Archisman Hota</b></sub></a><br /><a href="#ideas-Archis19" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-Archis19" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/abdullah2205"><img src="https://avatars0.githubusercontent.com/u/45143018?v=4" width="100px;" alt=""/><br /><sub><b>muhammad_abdullah</b></sub></a><br /><a href="#ideas-abdullah2205" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Tushar11Raj"><img src="https://avatars2.githubusercontent.com/u/52966308?v=4" width="100px;" alt=""/><br /><sub><b>Tushar11Raj</b></sub></a><br /><a href="#ideas-Tushar11Raj" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
