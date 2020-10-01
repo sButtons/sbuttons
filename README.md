@@ -1,4 +1,4 @@
-![sButtons](https://github.com/shahednasser/sbuttons/tree/master/assets/img/sbuttons-nav.png)
+![sButtons](./assets/img/sbuttons-nav.png)
 
  Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 <!-- # sButtons -->
