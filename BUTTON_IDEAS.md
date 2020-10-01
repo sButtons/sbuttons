@@ -53,3 +53,9 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | status  | Button name                    | Description                          | Submitted by                                  |
 | ------- | ------------------------------ | ------------------------------------ | --------------------------------------------- |
 | &#9744; | **Add Rounded Social Buttons** | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
+
+## Hover Buttons
+
+| status  | Button name      | Description                                                      | Submitted by                                |
+| ------- | ---------------- | ---------------------------------------------------------------- | ------------------------------------------- |
+| &#9744; | **Sleek Button** | A sleek button whose background and outline change upon hovering | [Preity Priya](https://github.com/preity-p) |
