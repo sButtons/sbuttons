@@ -311,15 +311,39 @@ footer {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #e6e6e6;
+  background-color: #4c4c4c;
+  color: #e8e8e8;
+}
+.footer-link{
+  color: #a6a6a4;
+}
+.footer-link:hover{
+  text-shadow: 12px;
+  color:white;
 }
 
 .tagline {
-  font-size: 1.3rem;
+  color: #a6a6a4;
+  font-size: 1.9rem;
+  font-family: 'Sacramento', cursive;
 }
 
 .tagline-heart {
   color: #f74545;
+}
+
+footer hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: darkgrey;
+  border-width: 2px;
+  width: 100%;
+}
+.footer-img{
+  width: 40%;
+  transform: rotate(-25deg);
+  right: 20%;
+  z-index: 1;
 }
 
 .code-text {
