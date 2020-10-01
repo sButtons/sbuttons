@@ -232,6 +232,10 @@ $(document).ready(function () {
           classes: "weibo",
           text: "Login with Weibo",
         },
+        {
+          classes: "yahoo",
+          text: "Login with Yahoo",
+        },
       ],
       children: [],
     },

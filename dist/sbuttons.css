@@ -1281,3 +1281,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
+.social-btn.yahoo {
+  background-color: #ffffff;
+  color: #591288;
+}
+.social-btn.yahoo:after {
+  background-color: #ffffff;
+  position: absolute;
+  right: 10px;
+  top: 26%;
+  content: "\f19e";
+}
