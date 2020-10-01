@@ -25,8 +25,8 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9745; | ~~**Splash Button**~~  | A button that gives a moving linear gradient of rainbow colors on click| [Urja Banati](https://github.com/ub2906) |
 | &#9744; | **Transparent on Hover Button**  | A button whose background becomes transparent on hover |                                    |
 | &#9744; | **Colored Background on Hover Button** | A button that is originally transparent but its background becomes colored on hover | |
-| &#9744; | **Colored Liquid Button** | A button that filled the space like liquid | [Muhammad Abdullah](https://github.com/abdullah2205) |
-| &#9744; | **Animated Gradient Border Button**| A button that has gradient text border background with animation | [Mukesh Shelke](https://github.com/mukesh2309) |
+| &#9744; | **Colored Liquid Button** | A button that filled the space like liquid | [Muhammad Abdullah](https://github.com/abdullah2205)  |
+| &#9744; | **Animated Gradient Border Button** | A button that has gradient text border background with animation | [Mukesh Shelke](https://github.com/mukesh2309) |
 ---
 
 ## Icon
@@ -37,7 +37,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9745; | ~~**Buy me a coffee button**~~ |                                                            |                                              |
 | &#9744; | **Icon Button**                | A button with icons enlargement and shrink effect on hover | [Souvik Guria](https://github.com/devSouvik) |
 | &#9744; | **App Buttons**                | 2 Buttons "Get it on Play Store" & "Download on the app store" |                                          |
-| &#9745; | **Chat Box Button**            | Buttons For chat box with proper icon                      | [Snehasish Dhar](https://github.com/dsnehasish74)|
+| &#9745; | ~~**Chat Box Button**~~            | Buttons For chat box with proper icon                      | [Snehasish Dhar](https://github.com/dsnehasish74)|
 | &#9744; | **Thumbs Up Button**           | Button with Thumbs up icon only                            |                                              |
 | &#9744;| **Share Button**               | Button with the share icon only                            |                                              |
 | &#9744; |**Screen Capture Button**        | Button with Screen and Camera to allow taking screenshots on click|[Shruti Jha](https://github.com/ShrutiJha31|
@@ -66,7 +66,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744; | **Add Pinterest Buttons** | A social button linked to pinterest  | [Tushar Raj](https://github.com/Tushar11Raj)  |
 | &#9744; | **Add Behance Buttons** | A social button linked to behance | [Tushar Raj](https://github.com/Tushar11Raj)  |
 | &#9744; | **Add Youtube Buttons** | A social button linked to youtube | [Tushar Raj](https://github.com/Tushar11Raj)  |
-| &#9745; | **Add Rounded Social Buttons** | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
+| &#9745; | ~~**Add Rounded Social Buttons**~~ | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
 | &#9744; | **Add Share Social Buttons** | Share button for different social media platforms |                                  |
 | &#9745; | ~~**Add Rounded Social Buttons**~~ | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
 | &#9744; | **Add Share Social Buttons** | Share button for different social media platforms |                                  |
