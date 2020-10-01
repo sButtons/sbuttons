@@ -134,6 +134,10 @@ section {
   margin-top: -80px;
 }
 
+.section-header {
+  text-align: center;
+}
+
 .button-grid {
   display: flex;
   width: 100%;
@@ -175,6 +179,11 @@ section {
 hr {
   width: 30%;
   border-color: rgba(27, 114, 145, 0.48);
+}
+
+.secondary-hr {
+  width: 10%;
+  border-color: rgba(27, 114, 145, 0.3);
 }
 
 .navbar .buttons {
@@ -247,6 +256,12 @@ hr {
   color: #81b4ea;
 }
 
+.text {
+  font-size: 1.3rem;
+  color: black;
+  word-wrap: break-word;
+  font-family: "Syne", sans-serif;
+}
 @media (max-width: 767px) {
   .navbar .download-link,
   .navbar .toggle-theme {
@@ -306,6 +321,13 @@ footer {
   color: #f74545;
 }
 
+.code-text {
+  font-family: monospace;
+}
+
+.code-block-container {
+  position: relative;
+}
 button.clipboard {
   color: var(--main-color);
   border-radius: 4px;
@@ -327,6 +349,18 @@ button.clipboard:after {
 }
 button.clipboard:focus {
   outline: 0;
+}
+.div-copy {
+  position: absolute;
+  top: 9px;
+  right: 0;
+  background-color: #f5f2f0;
+}
+.language-markup {
+  padding-right: 2em;
+}
+.script-copy {
+  cursor: pointer;
 }
 
 .navbar:not(.scrolling) .download-link {
@@ -364,6 +398,22 @@ button.clipboard:focus {
 .down-link:active {
   background-color: transparent;
   color: white;
+}
+
+.instructions hr {
+  margin: 0;
+}
+
+.instructions > h2 {
+  margin-bottom: 1em;
+}
+
+.display-inlineBlock {
+  display: inline-block;
+}
+
+.margin-left--half {
+  margin-left: 0.5rem;
 }
 
 .footer {

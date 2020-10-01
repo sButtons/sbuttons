@@ -126,6 +126,11 @@ $(document).ready(function () {
           label: "Splash",
           classes: "splash-btn",
         },
+        {
+          type: "pudding",
+          label: "Pudding",
+          classes: "pudding-btn",
+        },
       ],
     },
     {
