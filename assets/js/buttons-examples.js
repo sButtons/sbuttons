@@ -125,7 +125,7 @@ $(document).ready(function () {
     },
     {
       type: "disable",
-      classes: "btn-disabled",
+      classes: "disabled-btn",
       label: "Disabled Buttons",
     },
     {
@@ -151,6 +151,12 @@ $(document).ready(function () {
           label: "Buy Me Coffee Button",
           classes: "buy-me-coffee-btn",
           text: "Buy me coffee",
+        },
+        {
+          type: "chat",
+          label: "Chat Box Button",
+          classes: "chat-btn",
+          text: "",
         },
         {
           type: "download",

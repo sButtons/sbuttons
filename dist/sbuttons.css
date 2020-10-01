@@ -29,7 +29,7 @@ a.sbtn:active {
   display: block;
   width: 100%;
 }
-.btn-disabled {
+.disabled-btn {
   opacity: 0.55;
   cursor: not-allowed;
   pointer-events: none;
@@ -1127,6 +1127,29 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .add-to-cart-btn:not(.block-btn):after {
   right: 0.3em;
+}
+.chat-btn {
+  transition: all 0.2s;
+}
+.chat-btn:before {
+  content: "\f27a";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.chat-btn:hover {
+  box-shadow: 0px 1px 7px #838383;
+}
+.chat-btn:not(.rounded-btn) {
+  padding: 0.25em 0.25em 0 0.25em;
+}
+.chat-btn.rounded-btn {
+  width: 2em;
+  height: 2em;
+  padding: 0;
 }
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
