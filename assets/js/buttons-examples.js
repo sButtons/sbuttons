@@ -236,6 +236,10 @@ $(document).ready(function () {
           classes: "yahoo",
           text: "Login with Yahoo",
         },
+        {
+          classes: "paypal",
+          text: "Login with Paypal",
+        },
       ],
       children: [],
     },
