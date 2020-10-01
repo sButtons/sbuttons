@@ -19,13 +19,14 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | ------- | ----------------------- | -------------------------------------- | ----------------------------------------------------------- |
 | &#9745; | ~~**Skew Button**~~     | A button that skews on hover.          |                                                             |
 | &#9745; | ~~**Neon Button**~~     | A button that glows on hover.          | [Esakki Selvaraj](https://github.com/esakki-selvaraj)       |
-| &#9745; | ~~**Ripple Button**~~       | A button with ripple effect on hover   | [Maitryee-Choudhary](https://github.com/Maitryee-Choudhary) |
+| &#9745; | ~~**Ripple Button**~~   | A button with ripple effect on hover   | [Maitryee-Choudhary](https://github.com/Maitryee-Choudhary) |
 | &#9744; | **Snake Border Button** | A button with border like snake moving | [Harshit Virmani](https://github.com/hvirmani)              |
 | &#9744; | **3D button**           | A 3D button like a keyboard key        | [Charu Sachdeva](https://github.com/Charu271)               |
+| &#9744; | **Trace Button**        | An outline button whose border gets traced, starting and ending at the same point | [Preity Priya](https://github.com/preity-p) |
 
 ---
 
-## Icon
+## Icon 
 
 | status  | Button name                    | Description                                                | Submitted by                                 |
 | ------- | ------------------------------ | ---------------------------------------------------------- | -------------------------------------------- |
@@ -59,10 +60,3 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | status  | Button name      | Description                                                      | Submitted by                                |
 | ------- | ---------------- | ---------------------------------------------------------------- | ------------------------------------------- |
 | &#9744; | **Sleek Button** | A sleek button whose background and outline change upon hovering | [Preity Priya](https://github.com/preity-p) |
-
-
-## Outline Buttons
-
-| status  | Button name      | Description                                                                       | Submitted by                                |
-| ------- | ---------------- | --------------------------------------------------------------------------------- | ------------------------------------------- |
-| &#9744; | **Trace Button** | An outline button whose border gets traced, starting and ending at the same point | [Preity Priya](https://github.com/preity-p) |
