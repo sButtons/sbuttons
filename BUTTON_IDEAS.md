@@ -28,6 +28,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9745;| ~~**Gradient Button**~~| A button with gradient which shifts on hover | [Shreya Modi] (https://github.com/shreyamodi1999)| 
 | &#9744; | **Colored Liquid Button** | A button that filled the space like liquid | [Muhammad Abdullah](https://github.com/abdullah2205)  |
 | &#9744; | **Animated Gradient Border Button** | A button that has gradient text border background with animation | [Mukesh Shelke](https://github.com/mukesh2309) |
+| &#9744; | ~~**Cracking Neon Button**~~ | A Neon Button that will cracked when clicked | [EmpalGentong](https://github.com/EmpalGentong) |
 ---
 
 ## Icon
