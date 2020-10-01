@@ -1,51 +1,26 @@
-name: PR Preview
-
+name: Build and Deploy to Netlify
 on:
   pull_request:
-    types:
-      - opened
-      - synchronize
-
+    types: [opened, synchronize]
 jobs:
-
-  # This job will:
-  # -deploy a draft every time there is a pull request created or synchronized that is not on master branch
-  # -comment on that pull request with the deploy URL
-  deployPRDraft:
-    name: Deploy draft to Netlify
+  build:
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' && github.ref != 'refs/heads/master'
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v1
+      - uses: actions/checkout@v2
 
-      - name: Deploy draft to Netlify
-        uses: South-Paw/action-netlify-deploy@v1.0.4
+      # ( Build to ./dist or other directory... )
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.1
         with:
+          publish-dir: './dist'
+          production-branch: master
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
-          build-dir: '.'
-          draft: true
-          comment-on-pull-request: true
-
-  # This job will:
-  # -deploy a production build every time there is a push on the master branch
-  # -comment that commit with the deploy URL
-  # the code is commented for future use.
-  #publishMasterCommit:
-  #  name: Publish to Netlify
-  #  runs-on: ubuntu-latest
-  #  if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-  #  steps:
-  #    - name: Checkout repository
-  #      uses: actions/checkout@v1
-
-  #    - name: Deploy production to Netlify
-  #      uses: South-Paw/action-netlify-deploy@v1.0.4
-  #      with:
-  #        github-token: ${{ secrets.GITHUB_TOKEN }}
-  #        netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-  #        netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
-  #        build-dir: '.'
-  #        comment-on-commit: true
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1
