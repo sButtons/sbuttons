@@ -1,7 +1,6 @@
 name: PR Preview
 
 on:
-  push:
   pull_request:
     types:
       - opened
@@ -33,19 +32,20 @@ jobs:
   # This job will:
   # -deploy a production build every time there is a push on the master branch
   # -comment that commit with the deploy URL
-  publishMasterCommit:
-    name: Publish to Netlify
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v1
+  # the code is commented for future use.
+  #publishMasterCommit:
+  #  name: Publish to Netlify
+  #  runs-on: ubuntu-latest
+  #  if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+  #  steps:
+  #    - name: Checkout repository
+  #      uses: actions/checkout@v1
 
-      - name: Deploy production to Netlify
-        uses: South-Paw/action-netlify-deploy@v1.0.4
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
-          build-dir: '.'
-          comment-on-commit: true
+  #    - name: Deploy production to Netlify
+  #      uses: South-Paw/action-netlify-deploy@v1.0.4
+  #      with:
+  #        github-token: ${{ secrets.GITHUB_TOKEN }}
+  #        netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+  #        netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
+  #        build-dir: '.'
+  #        comment-on-commit: true
