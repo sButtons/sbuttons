@@ -103,7 +103,9 @@ Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
 
 ### Button ideas
 
-If you have ideas for buttons, or would like to see a list of ideas that have not been implemented to work on, you can add them [here](./BUTTON_IDEAS.md).
+If you have ideas for buttons, please submit a new issue for it. If you would also like to work on this idea as well, please indicate so in the issue to be assigned to it.
+
+If you would like to check new button ideas, please look at issues with the label [button-idea](https://github.com/shahednasser/sbuttons/labels/button-idea)
 
 # Contributors
 
