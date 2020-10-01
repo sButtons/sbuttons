@@ -63,3 +63,4 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | ------- | ------------------------------ | ------------------------------------ | --------------------------------------------- |
 | &#9745; | **Add Rounded Social Buttons** | A social button with rounded corners | [Neeraj Gupta](https://github.com/Neeraj3508) |
 | &#9744; | **Add Share Social Buttons**   | Share button for different social media platforms |                                  |
+| &#9744; | **Add Follow Social Button ** | A social button to follow the creators social media handles | [Archisman Hota](https://github.com/Archis19) |
