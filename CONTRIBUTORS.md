@@ -100,6 +100,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/Tushar11Raj"><img src="https://avatars2.githubusercontent.com/u/52966308?v=4" width="100px;" alt=""/><br /><sub><b>Tushar11Raj</b></sub></a><br /><a href="#ideas-Tushar11Raj" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/mukesh2309"><img src="https://avatars3.githubusercontent.com/u/67261625?v=4" width="100px;" alt=""/><br /><sub><b>mukesh shelke</b></sub></a><br /><a href="#ideas-mukesh2309" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/confusedcoder1"><img src="https://avatars1.githubusercontent.com/u/55556359?v=4" width="100px;" alt=""/><br /><sub><b>Shristi Singh</b></sub></a><br /><a href="#ideas-confusedcoder1" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://portfolio-e0c02.firebaseapp.com/"><img src="https://avatars1.githubusercontent.com/u/31659864?v=4" width="100px;" alt=""/><br /><sub><b>naveenbudhwal</b></sub></a><br /><a href="#content-naveenbudhwal" title="Content">🖋</a></td>
   </tr>
 </table>
 
