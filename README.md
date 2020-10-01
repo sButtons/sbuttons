@@ -13,6 +13,8 @@
 
 This repository will help people who don't know how to participate in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) or where to start contributing. We will be adding a Hacktoberfest label to help contributors find the issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/shahednasser/sbuttons/issues/161).
 
+**DO NOT submit any pull request that does no fix based on an issue or an actual bug/fix, as it will be labeled invalid and will not count for your Hacktoberfest participation**
+
 # Installation
 
 ## Download CSS File
