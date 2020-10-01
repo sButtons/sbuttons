@@ -62,6 +62,7 @@ When adding ideas, please add them in the right category (or add a new one if yo
 | &#9744; | **Dark Mode Toggle**  | A button toggling dark mode.                               | [Harshit Virmani](https://github.com/hvirmani)    |
 | &#9745; | ~~**Disabled Buttons**~~  | A button that has disabled style and non-clickable ability | [Zahra Abdullah](https://github.com/zahra-abdullah) |
 | &#9744; | **Spooky Button** | A button with dramatic/spooky touch to it for special website designs. | [Shristi Singh](https://github.com/confusedcoder1)    |
+| &#9744; | **Loading Button** | A button with CSS loading  | [Akshat Garg](https://github.com/akshatgarg12)    |
 ---
 
 ## Social Buttons
