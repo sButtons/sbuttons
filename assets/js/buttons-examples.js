@@ -224,6 +224,22 @@ $(document).ready(function () {
       ],
       children: [],
     },
+    {
+      type: "special",
+      label: "Special Buttons",
+      classes: "special-btn",
+      variations: [
+        {
+          classes: "darkmode",
+          text: "",
+        },
+        {
+          classes: "lightmode",
+          text: "",
+        },
+      ],
+      children: [],
+    },
   ];
 
   var sidebar = $(".sidebar-list"),

@@ -1232,3 +1232,39 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
+.special-btn {
+  box-shadow: 0px 1px 4px #4d4d4d;
+  transition: all 0.2s;
+}
+.special-btn:hover {
+  box-shadow: 0px 1px 7px #4d4d4d;
+  transform: translateY(-3px);
+}
+.special-btn.darkmode {
+  background-color: #1b1c1e;
+  color: #fff;
+}
+.special-btn.darkmode:before {
+  content: "\f042";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.special-btn.lightmode {
+  background-color: #fff;
+  color: #1b1c1e;
+}
+.special-btn.lightmode:before {
+  content: "\f042";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
