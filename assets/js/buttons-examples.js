@@ -12,6 +12,7 @@ $(document).ready(function () {
     "purple-btn",
     "black-btn",
     "white-btn",
+    "btn-black"
   ];
   //list of button types
   var buttons = [

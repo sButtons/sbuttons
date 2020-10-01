@@ -1263,3 +1263,36 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
+
+.btn-black {
+  background: #000;
+  color: #fff;
+  border-radius: 25px;
+  transition: all .25s ease;
+}
+
+.btn-black:hover {
+  transform: translate(-12px, -12px);
+}
+
+.btn-black::after {
+  transform: translate (6px, 8px);
+}
+
+.btn-black:before {
+  transform: translate (12px, 12px);
+}
+
+.btn-black:after, .btn-black:before {
+  content: "";
+  position: absolute;
+  opacity: .4;
+  background: #000;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  bottom: 0px;
+  z-index: -1;
+  transition: all .25s ease;
+}
