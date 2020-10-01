@@ -153,6 +153,12 @@ $(document).ready(function () {
           text: "Buy me coffee",
         },
         {
+          type: "chat",
+          label: "Chat Box Button",
+          classes: "chat-btn",
+          text: "",
+        },
+        {
           type: "download",
           label: "Download Button",
           classes: "download-btn",

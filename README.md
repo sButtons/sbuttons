@@ -1,14 +1,14 @@
 # sButtons
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-68-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-78-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
   
 :bulb: Simple buttons you can use easily for your next project.
 
-# COMING SOON - Hacktoberfest
+# Particpate in Hacktoberfest!
 
-[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is starting soon, and this repository will help people who don't know where to start contributing. We will be adding a Hacktoberfest label to help contributors find the simple issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/shahednasser/sbuttons/issues/161).
+This repository will help people who don't know how to participate in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) or where to start contributing. We will be adding a Hacktoberfest label to help contributors find the issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/shahednasser/sbuttons/issues/161).
 
 # Usage
 You can download the CSS file [here](https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css) and then add it to your html file inbetween the `<head>` tags:
