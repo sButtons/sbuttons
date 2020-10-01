@@ -52,12 +52,16 @@ $(document).ready(function () {
     $(`.${className} + .submenu-links`).toggleClass("show");
   }
 
-  document.addEventListener('click', function (event) {
-    if (!event.target.matches('.has-children-links')) return;
-    event.preventDefault();
-    toggleSidebarSubmenu(event);
-  }, false);
-  
+  document.addEventListener(
+    "click",
+    function (event) {
+      if (!event.target.matches(".has-children-links")) return;
+      event.preventDefault();
+      toggleSidebarSubmenu(event);
+    },
+    false
+  );
+
   function checkNavbar() {
     if (!$(".content").isOnScreen()) {
       $(".navbar").addClass("scrolling");

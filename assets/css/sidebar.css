@@ -78,12 +78,12 @@
 }
 
 .sidebar-list::-webkit-scrollbar,
-.instructions-sidebar::-webkit-scrollbar  {
+.instructions-sidebar::-webkit-scrollbar {
   width: 6px;
 }
 
 .sidebar-list::-webkit-scrollbar-thumb,
-.instructions-sidebar::-webkit-scrollbar-thumb  {
+.instructions-sidebar::-webkit-scrollbar-thumb {
   background: var(--main-color);
   border-radius: 2.5px;
 }
