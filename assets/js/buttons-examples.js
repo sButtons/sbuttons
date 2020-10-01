@@ -126,6 +126,11 @@ $(document).ready(function () {
           label: "Splash",
           classes: "splash-btn",
         },
+        {
+          type: "transparent",
+          label: "Transparent On Hover",
+          classes: "transparent-btn",
+        },
       ],
     },
     {
