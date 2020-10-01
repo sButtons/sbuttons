@@ -114,6 +114,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://khushali77.github.io/"><img src="https://avatars1.githubusercontent.com/u/56497513?v=4" width="100px;" alt=""/><br /><sub><b>Khushali Shah</b></sub></a><br /><a href="#content-khushali77" title="Content">🖋</a></td>
     <td align="center"><a href="https://znuri.com/"><img src="https://avatars2.githubusercontent.com/u/30076439?v=4" width="100px;" alt=""/><br /><sub><b>Zuhdan Nur Ihsan</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Zuhdannur" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/adsingh14"><img src="https://avatars2.githubusercontent.com/u/35252877?v=4" width="100px;" alt=""/><br /><sub><b>Amandeep Singh</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=adsingh14" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
