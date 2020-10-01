@@ -182,6 +182,12 @@ $(document).ready(function () {
           classes: "plus-btn",
           text: "",
         },
+        {
+          type: "play-game",
+          label: "Play game Button",
+          classes: "play-game-btn",
+          text: "",
+        },
       ],
     },
     {
