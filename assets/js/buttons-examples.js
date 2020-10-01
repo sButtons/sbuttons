@@ -222,8 +222,8 @@ $(document).ready(function () {
           text: "Login with Weibo",
         },
         {
-          classes: "whatsapp",
-          text: "Login with WhatsApp",
+          classes: "bitbucket",
+          text: "Login with Bitbucket",
         },
       ],
       children: [],
