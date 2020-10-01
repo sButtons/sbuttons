@@ -1,9 +1,12 @@
 .bouncy-btn {
-  animation-name: bouncy;
-  animation-timing-function: ease;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
   position: relative;
+
+  &:hover {
+    animation-name: bouncy;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
 
   @keyframes bouncy {
     0% {

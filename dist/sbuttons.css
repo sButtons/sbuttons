@@ -814,11 +814,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
   }
 }
 .bouncy-btn {
+  position: relative;
+}
+.bouncy-btn:hover {
   animation-name: bouncy;
   animation-timing-function: ease;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
-  position: relative;
 }
 @keyframes bouncy {
   0% {
