@@ -1,0 +1,44 @@
+.borderRule(@color) {
+  border: dashed 2px @color;
+  color: @color !important;
+}
+
+.dashed-btn {
+  background-color: transparent;
+
+  &.blue-btn {
+    .borderRule(@blue);
+  }
+  &.pink-btn {
+    .borderRule(@pink);
+  }
+
+  &.red-btn {
+    .borderRule(@red);
+  }
+
+  &.green-btn {
+    .borderRule(@green);
+  }
+
+  &.yellow-btn {
+    .borderRule(@yellow);
+  }
+
+  &.orange-btn {
+    .borderRule(@orange);
+  }
+
+  &.purple-btn {
+    .borderRule(@purple);
+  }
+
+  &.black-btn {
+    .borderRule(@black);
+  }
+
+  &.white-btn {
+    border: dashed 2px @whiteBorder;
+    color: @darkText !important;
+  }
+}
