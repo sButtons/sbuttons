@@ -112,6 +112,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/Balaguru4580"><img src="https://avatars1.githubusercontent.com/u/61746056?v=4" width="100px;" alt=""/><br /><sub><b>Balaguru4580</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Balaguru4580" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SanyuktaSaha"><img src="https://avatars0.githubusercontent.com/u/36417473?v=4" width="100px;" alt=""/><br /><sub><b>Sanyukta Saha</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=SanyuktaSaha" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3ASanyuktaSaha" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://khushali77.github.io/"><img src="https://avatars1.githubusercontent.com/u/56497513?v=4" width="100px;" alt=""/><br /><sub><b>Khushali Shah</b></sub></a><br /><a href="#content-khushali77" title="Content">🖋</a></td>
+    <td align="center"><a href="https://znuri.com/"><img src="https://avatars2.githubusercontent.com/u/30076439?v=4" width="100px;" alt=""/><br /><sub><b>Zuhdan Nur Ihsan</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Zuhdannur" title="Code">💻</a></td>
   </tr>
 </table>
 
