@@ -105,6 +105,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/nitish-awasthi"><img src="https://avatars3.githubusercontent.com/u/61836272?v=4" width="100px;" alt=""/><br /><sub><b>Nitish Awasthi</b></sub></a><br /><a href="#content-nitish-awasthi" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/EmpalGentong"><img src="https://avatars0.githubusercontent.com/u/63853541?v=4" width="100px;" alt=""/><br /><sub><b>EmpalGentong</b></sub></a><br /><a href="#ideas-EmpalGentong" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Pranav108"><img src="https://avatars1.githubusercontent.com/u/56934594?v=4" width="100px;" alt=""/><br /><sub><b>Pranav108</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Pranav108" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
