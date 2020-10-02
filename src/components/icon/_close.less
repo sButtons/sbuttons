@@ -1,0 +1,21 @@
+.close-btn {
+  border-color: @black;
+    &::before {
+      content: "\f00d";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 800;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      color: @black;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+
+  
+    &.rounded-btn {
+      width: 2em;
+      height: 2em;
+      padding: 0;
+    }
+  }

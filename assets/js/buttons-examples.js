@@ -170,6 +170,18 @@ $(document).ready(function () {
           text: "",
         },
         {
+          type: "close",
+          label: "Close Button",
+          classes: "",
+          variations: [
+             {  
+                 classes: "close-btn",
+                 label: "",
+                 text:""
+             }
+          ]
+        },
+        {
           type: "download",
           label: "Download Button",
           classes: "download-btn",
@@ -198,7 +210,7 @@ $(document).ready(function () {
           label: "Scroll-to-Top Button",
           classes: "scroll-to-top-btn",
           text: "",
-        },
+        }
       ],
     },
     {
