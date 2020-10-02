@@ -26,11 +26,7 @@ $(document).ready(function () {
       label: "Animated Buttons",
       classes: "",
       children: [
-        {
-          type: "trace",
-          label: "Trace",
-          classes: "trace-btn",
-        },
+        
         {
           type: "bounce",
           label: "Bounce",
@@ -135,7 +131,11 @@ $(document).ready(function () {
           type: "splash",
           label: "Splash",
           classes: "splash-btn",
-        },
+        },{
+          type: "trace",
+          label: "Trace",
+          classes: "trace-btn",
+        }
       ],
     },
     {
