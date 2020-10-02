@@ -8,6 +8,10 @@ body {
   color: #333;
 }
 
+body > .container {
+  min-height:36vh; 
+}
+
 body,
 .navbar,
 .sidebar,
