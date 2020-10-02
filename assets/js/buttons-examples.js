@@ -333,11 +333,11 @@ $(document).ready(function () {
   /**
    * getMenuLinkHtml generates each link inside the sidebar menu
    *
-   * @param {string} type - refers to the type of button it links to
+   * @param {string} type - refers to the type of button and section's ID it links to
    * @param {string} label - refers to the text written in the link
    * @param {boolean} isSubMenu - indicates if the link is a subLink to any other link
    *
-   * @returns {string} - the reuired menu item's html for sidebar
+   * @returns {string} - the required menu item's html for sidebar
    */
   function getMenuLinkHtml(type, label, isSubMenu) {
     return (
@@ -412,7 +412,7 @@ $(document).ready(function () {
         }
       }
 
-      // Add type buttons to the section concerned
+      // Add buttons to the type's button grid
       var normalButtonsGrid = $('<div class="button-grid">'),
         roundedButtonsGrid = $('<div class="button-grid">'),
         blockButtonsGrid = $('<div class="button-grid">'),
