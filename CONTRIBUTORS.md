@@ -132,6 +132,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="http://spoctone.me"><img src="https://avatars1.githubusercontent.com/u/47655017?v=4" width="100px;" alt=""/><br /><sub><b>Subham Patel</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=SPOCTONE" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/JakubIwanowski"><img src="https://avatars0.githubusercontent.com/u/25127286?v=4" width="100px;" alt=""/><br /><sub><b>Jakub Iwanowski</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=JakubIwanowski" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/shngt"><img src="https://avatars0.githubusercontent.com/u/20009551?v=4" width="100px;" alt=""/><br /><sub><b>Shashank Gupta</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=shngt" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
