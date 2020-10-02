@@ -1,4 +1,6 @@
 .star-btn {
+  color: @black;
+
   &:before {
     content: "\f005";
     font-family: "Font Awesome 5 Free";
@@ -11,15 +13,6 @@
 
   &:active {
     font-weight: 900;
-  }
-
-  &:not(.rounded-btn) {
-    padding: 0.25em 0.25em 0 0.25em;
-  }
-
-  &.rounded-btn {
-    width: 1.6em;
-    height: 1.6em;
-    padding: 0;
+    color: @yellow;
   }
 }

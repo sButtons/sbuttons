@@ -224,8 +224,13 @@ $(document).ready(function () {
         {
           type: "star",
           label: "Star Button",
-          classes: "star-btn",
-          text: "",
+          classes: "",
+          variations: [
+            {
+              classes: "star-btn",
+              text: "",
+            },
+          ],
         },
       ],
     },
