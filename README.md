@@ -8,6 +8,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
   
 :bulb: Simple buttons you can use easily for your next project.
+Work smart😎,Save time⌚,go ahead💃,Just Do It🏆!
 
 # Particpate in Hacktoberfest!
 
