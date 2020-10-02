@@ -397,9 +397,13 @@ $(document).ready(function () {
   function createSection(button, shouldAddToSidebar) {
     var heading = "h1",
       //if shouldHaveRoundedType is set set the value to it, else by default show rounded buttons
-      roundedClass = !button.hasOwnProperty('shouldHaveRoundedType') || button.shouldHaveRoundedType,
+      roundedClass =
+        !button.hasOwnProperty("shouldHaveRoundedType") ||
+        button.shouldHaveRoundedType,
       //if shouldHaveBlockType is set set the value to it, else by default show block buttons
-      blockClass = !button.hasOwnProperty('shouldHaveBlockType') || button.shouldHaveBlockType;
+      blockClass =
+        !button.hasOwnProperty("shouldHaveBlockType") ||
+        button.shouldHaveBlockType;
     if (shouldAddToSidebar) {
       // add link to sidebar
       sidebar.append(getMenuLinkHtml(button.type, button.label, false));
@@ -508,7 +512,9 @@ $(document).ready(function () {
         }
       }
       section.append(normalButtonsGrid);
-      roundedClass && roundedButtonsGrid ? section.append(roundedButtonsGrid) : "";
+      roundedClass && roundedButtonsGrid
+        ? section.append(roundedButtonsGrid)
+        : "";
       blockClass && blockButtonsGrid ? section.append(blockButtonsGrid) : "";
     }
     return section;
