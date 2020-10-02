@@ -57,6 +57,11 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
+          type: "glow",
+          label: "Glow",
+          classes: "glow-btn",
+        },
+        {
           type: "hinge",
           label: "Hinge",
           classes: "hinge-btn",
