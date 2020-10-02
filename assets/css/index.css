@@ -16,7 +16,7 @@ footer {
 }
 
 body > .container {
- min-height: 36vh; 
+  min-height: 36vh;
 }
 
 [data-theme="dark"] {
