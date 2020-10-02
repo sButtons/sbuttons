@@ -1206,7 +1206,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-family: "Font Awesome 5 Brands";
   position: absolute;
   right: 10px;
-  top: 26%;
+  top: 20%;
 }
 .social-btn:hover {
   box-shadow: 0px 1px 7px #4d4d4d;
@@ -1223,7 +1223,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #ea4335;
   position: absolute;
   right: 10px;
-  top: 26%;
+  top: 20%;
   content: "\f1a0";
 }
 .social-btn.apple {
@@ -1258,7 +1258,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: white;
   position: absolute;
   right: 10px;
-  top: 26%;
+  top: 20%;
   content: "\f16d";
 }
 .social-btn.twitter {
@@ -1269,7 +1269,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: white;
   position: absolute;
   right: 10px;
-  top: 26%;
+  top: 20%;
   content: "\f099";
 }
 .social-btn.linkedin {
@@ -1280,7 +1280,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: white;
   position: absolute;
   right: 10px;
-  top: 26%;
+  top: 20%;
   content: "\f0e1";
 }
 .social-btn.weibo {
@@ -1291,7 +1291,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: white;
   position: absolute;
   right: 10px;
-  top: 26%;
+  top: 20%;
   content: "\f18a";
 }
 .social-btn.github {
