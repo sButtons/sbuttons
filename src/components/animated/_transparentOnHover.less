@@ -18,10 +18,9 @@
     &.yellow-btn {
       .textColorChange(@yellow);
       &:hover {
-        color: @darkText !important;
+        color: @yellow !important;
       }
     }
-
     &.orange-btn {
       .textColorChange(@orange);
     }
@@ -42,66 +41,63 @@
       .textColorChange(@white);
       border-color: @whiteBorder;
       &:hover {
-        color: grey !important;
+        color: @white !important;
       }
     }
   }
+}
 
-  .transparentOnHover(@color) {
-    border-color: @color;
+.transparentOnHover(@color) {
+  border-color: @color;
 
-    &::before {
-      .bc(@color);
-    }
+  &::before {
+    .bc(@color);
   }
+}
 
-  .textColorChange(@color) {
-    color: @color;
+.textColorChange(@color) {
+  color: @color;
 
-    &::before {
-      .bc(@color);
-    }
+  &::before {
+    .bc(@color);
   }
+}
 
-  &.blue-btn {
-    .transparentOnHover(@blue);
-  }
-  &.pink-btn {
-    .transparentOnHover(@pink);
-  }
+&.blue-btn {
+  .transparentOnHover(@blue);
+}
+&.pink-btn {
+  .transparentOnHover(@pink);
+}
 
-  &.green-btn {
-    .transparentOnHover(@green);
-  }
+&.green-btn {
+  .transparentOnHover(@green);
+}
 
-  &.yellow-btn {
-    .transparentOnHover(@yellow);
-    &:hover {
-      color: @darkText !important;
-    }
-  }
+&.yellow-btn {
+  .transparentOnHover(@yellow);
+}
 
-  &.orange-btn {
-    .transparentOnHover(@orange);
-  }
+&.orange-btn {
+  .transparentOnHover(@orange);
+}
 
-  &.red-btn {
-    .transparentOnHover(@red);
-  }
+&.red-btn {
+  .transparentOnHover(@red);
+}
 
-  &.purple-btn {
-    .transparentOnHover(@purple);
-  }
+&.purple-btn {
+  .transparentOnHover(@purple);
+}
 
-  &.black-btn {
-    .transparentOnHover(@black);
-  }
+&.black-btn {
+  .transparentOnHover(@black);
+}
 
-  &.white-btn {
-    .transparentOnHover(@white);
-    border-color: @whiteBorder;
-    &:hover {
-      color: @darkText !important;
-    }
+&.white-btn {
+  .transparentOnHover(@white);
+  border-color: @whiteBorder;
+  &:hover {
+    color: @darkText !important;
   }
 }

@@ -15,6 +15,10 @@ footer {
   transition: background-color 0.2s;
 }
 
+body > .container {
+  min-height: 36vh;
+}
+
 [data-theme="dark"] {
   background-color: var(--dark-color);
   color: #ffffff;
@@ -106,11 +110,6 @@ header .content .logo h1 {
 header .content .subtitle {
   font-size: 1.5rem;
   font-family: Syne, sans-serif;
-}
-
-header .content .subtitle {
-  font-size: 1.5rem;
-  font-family: Syne, sans-serif;
   margin-bottom: 2em; /* Adding this for spacing for buttons below */
 }
 
@@ -132,10 +131,6 @@ header .content .sbtn:first-of-type {
 section {
   padding-top: 80px;
   margin-top: -80px;
-}
-
-.section-header {
-  text-align: center;
 }
 
 .button-grid {
@@ -179,11 +174,6 @@ section {
 hr {
   width: 30%;
   border-color: rgba(27, 114, 145, 0.48);
-}
-
-.secondary-hr {
-  width: 10%;
-  border-color: rgba(27, 114, 145, 0.3);
 }
 
 .navbar .buttons {
@@ -245,6 +235,9 @@ hr {
   margin-right: 1em;
   text-decoration: none;
 }
+.section-header {
+  text-align: center;
+}
 
 .section-sub-header {
   color: #9c9696;
@@ -256,13 +249,11 @@ hr {
   color: #81b4ea;
 }
 
-.text {
-  font-size: 1.3rem;
-  color: black;
-  text-align: center;
-  word-wrap: break-word;
-  font-family: "Syne", sans-serif;
+.secondary-hr {
+  width: 10%;
+  border-color: rgba(27, 114, 145, 0.3);
 }
+
 @media (max-width: 767px) {
   .navbar .download-link,
   .navbar .toggle-theme {
@@ -322,13 +313,6 @@ footer {
   color: #f74545;
 }
 
-.code-text {
-  font-family: monospace;
-}
-
-.code-block-container {
-  position: relative;
-}
 button.clipboard {
   color: var(--main-color);
   border-radius: 4px;
@@ -350,18 +334,6 @@ button.clipboard:after {
 }
 button.clipboard:focus {
   outline: 0;
-}
-.div-copy {
-  position: absolute;
-  top: 9px;
-  right: 0;
-  background-color: #f5f2f0;
-}
-.language-markup {
-  padding-right: 2em;
-}
-.script-copy {
-  cursor: pointer;
 }
 
 .navbar:not(.scrolling) .download-link {
@@ -428,5 +400,24 @@ button.clipboard:focus {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
