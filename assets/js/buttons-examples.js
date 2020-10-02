@@ -179,6 +179,21 @@ $(document).ready(function () {
           classes: "add-to-cart-btn",
           text: "Add To Cart",
         },
+        {
+          type: "appstore",
+          label: "App Store Button",
+          classes: "appstore-btn",
+          variations: [
+            {
+              classes: "applestore",
+              text: "App Store",
+            },
+            {
+              classes: "playstore",
+              text: "Google Play",
+            },
+          ],
+        },
 
         {
           type: "buy-me-coffee",
