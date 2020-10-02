@@ -10,6 +10,19 @@ Please note we have a code of conduct, please follow it in all your interactions
 2. Before contributing to an issue, make sure that no one is assigned or has taken that issue. If no one is and you would like to work on the issue, please comment on the issue to let others know that someone is working on the issue.
 3. Before creating a pull request, it is **important** that you make sure your branch and repository is up to date with this one. Some conflicts can be resolved, but many are hard to resolve. **Add the upstream** branch and always keep your branch up to date.
 
+# Contents
+
+- [Instructions](#instructions)
+  * [Button Ideas](#button-ideas)
+  * [Create Pull Request](#create-pull-request)
+    + [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
+  * [Code of Conduct](#code-of-conduct)
+    + [Our Pledge](#our-pledge)
+    + [Our Standards](#our-standards)
+    + [Our Responsibilities](#our-responsibilities)
+    + [Scope](#scope)
+    + [Enforcement](#enforcement)
+
 # Instructions
 
 1. Fork the repository.
