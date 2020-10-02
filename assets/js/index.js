@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  // Responsive viewport section
   $.fn.isOnScreen = function () {
     var win = $(window);
 
@@ -7,7 +8,7 @@ $(document).ready(function () {
       left: win.scrollLeft(),
     };
 
-    var marginHeader = 80;
+    var marginHeader = 81;
 
     viewport.right = viewport.left + win.width();
     viewport.bottom = viewport.top + win.height() - marginHeader;
@@ -23,7 +24,7 @@ $(document).ready(function () {
       viewport.top > bounds.bottom
     );
   };
-
+  // Sidebar Links section
   function checkActiveCategory() {
     $("section").each(function () {
       if ($(this).isOnScreen()) {
@@ -79,7 +80,9 @@ $(document).ready(function () {
       $(".scroll-top").fadeOut();
     }
   }
+  // Sidebar Links section - end
 
+  // Theme section
   function setTheme(themeName) {
     document.body.setAttribute("data-theme", themeName);
     localStorage.setItem("currentTheme", themeName);
@@ -99,6 +102,7 @@ $(document).ready(function () {
       setTheme("light");
     }
   }
+  // Theme section - end
 
   function copy(textToCopy, $element) {
     //temp input
