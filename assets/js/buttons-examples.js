@@ -221,6 +221,12 @@ $(document).ready(function () {
           classes: "scroll-to-top-btn",
           text: "",
         },
+        {
+          type: "star",
+          label: "Star Button",
+          classes: "star-btn",
+          text: "",
+        },
       ],
     },
     {
