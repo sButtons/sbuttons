@@ -130,7 +130,7 @@ $(document).ready(function () {
           type: "splash",
           label: "Splash",
           classes: "splash-btn",
-        }
+        },
       ],
     },
     {
