@@ -836,6 +836,15 @@
         "code",
         "tool"
       ]
+    },
+    {
+      "login": "jlt10",
+      "name": "Jamie Tan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31869974?v=4",
+      "profile": "https://github.com/jlt10",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
