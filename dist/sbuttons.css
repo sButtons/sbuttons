@@ -1195,23 +1195,41 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 1.5em;
   padding: 0 0 0 1px;
 }
-.appstore-btn.applestore {
+.appstore-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;
   position: relative;
   padding-top: 15px;
-  padding-left: 50px;
+  padding-left: 60px;
   font-size: 1.5rem !important;
   border: 1px solid #4d4d4d;
-  background-color: #000000;
-  color: #fff;
 }
-.appstore-btn.applestore:before {
+.appstore-btn:before {
   font-family: "Font Awesome 5 Brands";
   position: absolute;
   left: 50px;
   font-size: 2.2rem !important;
   bottom: 13%;
+  color: #fff;
+}
+.appstore-btn:not(.rounded-btn) {
+  border-radius: 10px;
+}
+.appstore-btn:not(.block-btn) {
+  padding-left: 50px;
+}
+.appstore-btn:not(.block-btn):before {
+  left: 10px;
+}
+.appstore-btn:hover {
+  box-shadow: 0px 1px 7px #4d4d4d;
+  transform: translateY(-3px);
+}
+.appstore-btn.applestore {
+  background-color: #000000;
+  color: #fff;
+}
+.appstore-btn.applestore:before {
   color: #fff;
   content: "\f179";
 }
@@ -1222,36 +1240,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   left: 100px;
   font-size: 0.8rem !important;
 }
-.appstore-btn.applestore:not(.rounded-btn) {
-  border-radius: 10px;
-}
-.appstore-btn.applestore:not(.block-btn):before {
-  left: 10px;
-}
 .appstore-btn.applestore:not(.block-btn):after {
   left: 50px;
 }
-.appstore-btn.applestore:hover {
-  box-shadow: 0px 1px 7px #4d4d4d;
-  transform: translateY(-3px);
-}
 .appstore-btn.playstore {
-  box-shadow: 0px 1px 4px #4d4d4d;
-  transition: all 0.2s;
-  position: relative;
-  padding-top: 15px;
-  padding-left: 60px;
-  font-size: 1.5rem !important;
-  border: 1px solid #4d4d4d;
   background-color: #000000;
   color: #fff;
 }
 .appstore-btn.playstore:before {
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  left: 50px;
-  font-size: 2.2rem !important;
-  bottom: 13%;
   color: #fff;
   content: "\f3ab";
 }
@@ -1262,21 +1258,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   left: 100px;
   font-size: 0.8rem !important;
 }
-.appstore-btn.playstore:not(.rounded-btn) {
-  border-radius: 10px;
-}
-.appstore-btn.playstore:not(.block-btn) {
-  padding-left: 50px;
-}
-.appstore-btn.playstore:not(.block-btn):before {
-  left: 15px;
-}
 .appstore-btn.playstore:not(.block-btn):after {
   left: 50px;
-}
-.appstore-btn.playstore:hover {
-  box-shadow: 0px 1px 7px #4d4d4d;
-  transform: translateY(-3px);
 }
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
