@@ -4,6 +4,18 @@ If you have a new button style you would like to add or any fixes you want to co
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
+  * [Important Notes](#important-notes)
+- [Instructions](#instructions)
+  * [Button Ideas](#button-ideas)
+  * [Create Pull Request](#create-pull-request)
+    + [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
+  * [Code of Conduct](#code-of-conduct)
+    + [Our Pledge](#our-pledge)
+    + [Our Standards](#our-standards)
+    + [Our Responsibilities](#our-responsibilities)
+    + [Scope](#scope)
+    + [Enforcement](#enforcement)
+
 ## Important Notes
 
 1. Issues that have the label `first-timers-only` is made for beginners who have contributed to less than 5 repositories. This is a way to help people who are new to open source and contributing.
