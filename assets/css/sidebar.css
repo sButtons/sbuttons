@@ -138,8 +138,8 @@
     box-shadow: 1px 1px 5px #8a8a8a;
   }
   @media screen and (max-width: 768px){
-    div.sidebar-list{
-      padding-top: 50px;
+    .sidebar{
+      padding-top: 75px;
     }
   }
   .sidebar a {
