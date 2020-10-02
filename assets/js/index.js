@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  // Responsive viewport section
   $.fn.isOnScreen = function () {
     var win = $(window);
 
@@ -7,7 +8,7 @@ $(document).ready(function () {
       left: win.scrollLeft(),
     };
 
-    var marginHeader = 80;
+    var marginHeader = 81;
 
     viewport.right = viewport.left + win.width();
     viewport.bottom = viewport.top + win.height() - marginHeader;
@@ -23,7 +24,7 @@ $(document).ready(function () {
       viewport.top > bounds.bottom
     );
   };
-
+  // Sidebar Links section
   function checkActiveCategory() {
     $("section").each(function () {
       if ($(this).isOnScreen()) {
@@ -47,6 +48,21 @@ $(document).ready(function () {
     });
   }
 
+  function toggleSidebarSubmenu(event) {
+    var className = event.srcElement.classList[0].toString();
+    $(`.${className} + .submenu-links`).toggleClass("show");
+  }
+
+  document.addEventListener(
+    "click",
+    function (event) {
+      if (!event.target.matches(".has-children-links")) return;
+      event.preventDefault();
+      toggleSidebarSubmenu(event);
+    },
+    false
+  );
+
   function checkNavbar() {
     if (!$(".content").isOnScreen()) {
       $(".navbar").addClass("scrolling");
@@ -64,7 +80,9 @@ $(document).ready(function () {
       $(".scroll-top").fadeOut();
     }
   }
+  // Sidebar Links section - end
 
+  // Theme section
   function setTheme(themeName) {
     document.body.setAttribute("data-theme", themeName);
     localStorage.setItem("currentTheme", themeName);
@@ -84,6 +102,7 @@ $(document).ready(function () {
       setTheme("light");
     }
   }
+  // Theme section - end
 
   function copy(textToCopy, $element) {
     //temp input
@@ -100,7 +119,7 @@ $(document).ready(function () {
 
   function downloadGithubCssRaw() {
     var link =
-      "https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css";
+      "https://cdn.statically.io/gh/sButtons/sbuttons/c135f5f7/dist/sbuttons.min.css";
     if (window.fetch) {
       fetch(link)
         .then((resp) => resp.blob())
@@ -125,7 +144,7 @@ $(document).ready(function () {
     let sidebar = $(".sidebar");
     if (!sidebar.hasClass("hide-sidebar")) {
       let sidebar = $(".sidebar");
-      $("#shade").removeClass("shown");
+      $(".shade").removeClass("shown");
       sidebar.addClass("animate__slideOutLeft");
       window.setTimeout(function () {
         sidebar.addClass("hide-sidebar");
@@ -134,7 +153,7 @@ $(document).ready(function () {
     } else {
       let sidebar = $(".sidebar");
       sidebar.removeClass("hide-sidebar");
-      $("#shade").addClass("shown");
+      $(".shade").addClass("shown");
     }
   }
 

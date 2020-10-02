@@ -4,22 +4,37 @@
 <!-- # sButtons -->
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-83-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-100-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
   
 :bulb: Simple buttons you can use easily for your next project.
 
-# Particpate in Hacktoberfest!
+# Participate in Hacktoberfest!
 
-This repository will help people who don't know how to participate in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) or where to start contributing. We will be adding a Hacktoberfest label to help contributors find the issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/shahednasser/sbuttons/issues/161).
+This repository will help people who don't know how to participate in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) or where to start contributing. We will be adding a Hacktoberfest label to help contributors find the issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/sbuttons/sbuttons/issues/161).
 
 **DO NOT submit any pull request that does no fix based on an issue or an actual bug/fix, as it will be labeled invalid and will not count for your Hacktoberfest participation**
+
+# Contents
+- [Installation](#installation)
+  - [Download CSS File](#download-css-file)
+  - [CDN](#cdn)
+  - [NPM](#npm)
+  - [Modifying Button Colors](#modifying-button-colors)
+- [Usage](#usage)
+  - [Block Buttons](#block-buttons)
+  - [Disabled Buttons](#disabled-buttons)
+  - [Icon Buttons](#icon-buttons) 
+- [Contribution](#contribution)
+  - [Button ideas](#button-ideas)  
+- [Contributors](#contributors)
+- [LICENSE](#license)
 
 # Installation
 
 ## Download CSS File
 
-You can download the CSS file [here](https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css) and then add it to your html file inbetween the `<head>` tags:
+You can download the CSS file [here](https://cdn.statically.io/gh/sButtons/sbuttons/c135f5f7/dist/sbuttons.min.css) and then add it to your html file inbetween the `<head>` tags:
 
 ```
 <link rel="stylesheet" href="/path/to/sbuttons.min.css">
@@ -27,10 +42,10 @@ You can download the CSS file [here](https://cdn.statically.io/gh/shahednasser/s
 
 ## CDN
 
-You can use the [CDN](https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css):
+You can use the [CDN](https://cdn.statically.io/gh/sButtons/sbuttons/c135f5f7/dist/sbuttons.min.css):
 
 ```
-<link rel="stylesheet" href="https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css">
+<link rel="stylesheet" href="https://cdn.statically.io/gh/sButtons/sbuttons/c135f5f7/dist/sbuttons.min.css">
 ```
 
 ## NPM
@@ -54,7 +69,7 @@ For example, to change the blue color to a different shade
 
 @blue: #54a2bd; /* Make it darker */
 ```
-Check out [sbuttons.less](https://github.com/shahednasser/sbuttons/blob/master/src/sbuttons.less) for the full list of variables.
+Check out [sbuttons.less](https://github.com/sButtons/sbuttons/blob/master/src/sbuttons.less) for the full list of variables.
 
 # Usage
 
@@ -70,7 +85,7 @@ Same can be done for `<a>` tag
 <a href='#' class='sbtn basic-btn blue-btn'>Button</a>
 ```
 
-You can find all classes and their corresponding sButtons mentioned in our [website](https://shahednasser.github.io/sbuttons/). 
+You can find all classes and their corresponding sButtons mentioned in our [website](https://sbuttons.github.io/sbuttons/). 
 
 ## Block Buttons
 
@@ -105,9 +120,7 @@ Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
 
 ### Button ideas
 
-If you have ideas for buttons, please submit a new issue for it. If you would also like to work on this idea as well, please indicate so in the issue to be assigned to it.
-
-If you would like to check new button ideas, please look at issues with the label [button-idea](https://github.com/shahednasser/sbuttons/labels/button-idea)
+If you would like to suggest a new button idea, please create a "New Button Idea" Issue.
 
 # Contributors
 
