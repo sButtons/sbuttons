@@ -421,7 +421,8 @@
         "code",
         "bug",
         "test",
-        "doc"
+        "doc",
+        "review"
       ]
     },
     {
