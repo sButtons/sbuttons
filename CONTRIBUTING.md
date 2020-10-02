@@ -74,7 +74,6 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 If you would like to suggest a new button idea, please create a "New Button Idea" Issue.
 
-```
 ## Create Pull Request
 
 1. Create a new branch:
