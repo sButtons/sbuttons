@@ -236,6 +236,9 @@ hr {
   margin-right: 1em;
   text-decoration: none;
 }
+.section-header {
+  text-align: center;
+}
 
 .section-sub-header {
   color: #9c9696;
@@ -245,6 +248,11 @@ hr {
 
 .section-sub-header .download-link {
   color: #81b4ea;
+}
+
+.secondary-hr {
+  width: 10%;
+  border-color: rgba(27, 114, 145, 0.3);
 }
 
 @media (max-width: 767px) {
