@@ -87,6 +87,11 @@ $(document).ready(function () {
           classes: "previous-arrow-btn",
         },
         {
+          type: "pudding",
+          label: "Pudding",
+          classes: "pudding-btn",
+        },
+        {
           type: "pulse",
           label: "Pulse",
           classes: "pulse-btn",
@@ -125,12 +130,7 @@ $(document).ready(function () {
           type: "splash",
           label: "Splash",
           classes: "splash-btn",
-        },
-        {
-          type: "pudding",
-          label: "Pudding",
-          classes: "pudding-btn",
-        },
+        }
       ],
     },
     {
