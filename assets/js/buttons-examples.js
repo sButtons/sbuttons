@@ -129,6 +129,22 @@ $(document).ready(function () {
       ],
     },
     {
+      type: "appstore",
+      label: "App Store Button",
+      classes: "appstore-btn",
+      variations: [
+        {
+          classes: "applestore",
+          text: "App Store",
+        },
+        {
+          classes: "playstore",
+          text: "Google Play",
+        },
+      ],
+      children: [],
+    },
+    {
       type: "dashed",
       label: "Dashed Buttons",
       classes: "dashed-btn",
