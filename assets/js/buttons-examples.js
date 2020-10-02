@@ -238,7 +238,7 @@ $(document).ready(function () {
         },
         {
           classes: "paypal",
-          text: "Login with Paypal",
+          text: "Pay with Paypal",
         },
         {
           classes: "qq",
