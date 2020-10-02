@@ -1,24 +1,47 @@
 .appstore-btn {
   &.playstore {
+    box-shadow: 0px 1px 4px #4d4d4d;
+    transition: all 0.2s;
+    position: relative;
+    padding-top: 15px;
+    padding-left: 60px;
+    font-size: 1.5rem !important;
+    border: 1px solid #4d4d4d;
     background-color: #000000;
     color: #fff;
 
     &:before {
+      font-family: "Font Awesome 5 Brands";
+      position: absolute;
+      left: 50px;
+      font-size: 2.2rem !important;
+      bottom: 13%;
       color: #fff;
       content: "\f3ab";
     }
 
     &:after {
       position: absolute;
-      content: "Get it on";
+      content: "Download on the";
       top: 0px;
       left: 100px;
       font-size: 0.8rem !important;
     }
+    &:not(.rounded-btn) {
+      border-radius: 10px;
+    }
     &:not(.block-btn) {
+      padding-left: 50px;
+      &:before {
+        left: 15px;
+      }
       &:after {
         left: 50px;
       }
+    }
+    &:hover {
+      box-shadow: 0px 1px 7px #4d4d4d;
+      transform: translateY(-3px);
     }
   }
 }

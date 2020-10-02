@@ -445,3 +445,6 @@ button.clipboard:focus {
     background-position: 0% 50%;
   }
 }
+.appstore-btn {
+  font-family: "Syne" !important;
+}
