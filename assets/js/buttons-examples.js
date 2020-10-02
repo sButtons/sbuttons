@@ -25,11 +25,7 @@ $(document).ready(function () {
       type: "animated",
       label: "Animated Buttons",
       classes: "",
-      children: [{
-          type: "trace",
-          label: "Trace",
-          classes: "trace-btn",
-        },
+      children: [
         {
           type: "bounce",
           label: "Bounce",
