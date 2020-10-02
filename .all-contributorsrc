@@ -419,7 +419,8 @@
       "profile": "https://github.com/HADES-01",
       "contributions": [
         "code",
-        "bug"
+        "bug",
+        "test"
       ]
     },
     {
@@ -823,6 +824,71 @@
       "name": "Jamie",
       "avatar_url": "https://avatars1.githubusercontent.com/u/19117470?v=4",
       "profile": "https://github.com/jamieleo93",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "HeinKhantZaw",
+      "name": "Hein Khant Zaw",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40730345?v=4",
+      "profile": "https://github.com/HeinKhantZaw",
+      "contributions": [
+        "code",
+        "tool"
+      ]
+    },
+    {
+      "login": "jlt10",
+      "name": "Jamie Tan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31869974?v=4",
+      "profile": "https://github.com/jlt10",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "pinkman7009",
+      "name": "Soumik Chaudhuri",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52635583?v=4",
+      "profile": "https://www.linkedin.com/in/soumik-chaudhuri-717bba18a/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "NecroTechno",
+      "name": "NecroTechno",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4073413?v=4",
+      "profile": "https://necro.tech",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "Mancancode",
+      "name": "Ebuka Achonwa",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30212959?v=4",
+      "profile": "http://kimbo.com",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "baspalinckx",
+      "name": "Bas Palinckx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27728063?v=4",
+      "profile": "https://github.com/baspalinckx",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Graviton5",
+      "name": "Graviton5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47978767?v=4",
+      "profile": "https://github.com/Graviton5",
       "contributions": [
         "code"
       ]
