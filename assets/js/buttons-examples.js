@@ -27,6 +27,11 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "trace",
+          label: "Trace",
+          classes: "trace-btn",
+        },
+        {
           type: "bounce",
           label: "Bounce",
           classes: "bouncy-btn",
