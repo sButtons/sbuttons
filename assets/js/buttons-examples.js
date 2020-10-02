@@ -219,6 +219,12 @@ $(document).ready(function () {
           text: "Download",
         },
         {
+          type: "drop-down",
+          label: "Dropdown Button",
+          classes: "drop-down-btn",
+          text: "Dropdown Button",
+        },
+        {
           type: "like",
           label: "Like Button",
           classes: "like-btn",
