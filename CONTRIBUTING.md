@@ -49,7 +49,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
             text,       //the text to show on the button. If this is omitted, the default text will be Button
 
-            variations  //this is for button types that don't use buttonColors or don't have normat and rounded
+            variations  //this is for button types that don't use buttonColors or don't have normal and rounded
                         // button styling. Look at social buttons for example on how to use this
          }
          ```
