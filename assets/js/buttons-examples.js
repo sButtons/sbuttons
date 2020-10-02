@@ -14,17 +14,17 @@ $(document).ready(function () {
     "white-btn",
   ];
   /**buttons is a list of button type objects tht will be rendered on the page load
-  * with their respective class names, labels, children and types.
-  * 
-  * properties with [] are optional
-  * @property {string} type  - denotes the type of button and used as the id of the section of that type
-  * @property {string} label - denotes the title of the button section, which will also be shown in the sidebar menu
-  * @property {string} [classes] - denotes the class that will be assigned to the button on render
-  * @property {list} [children] - contains the list of sub-types of a certain type 
-  * @property {string} [text] - denotes the text to be shown on the button, defaults to default text
-  * @property {list} [variations] - contains the button types that don't use buttonColors or don't have normal and rounded button styling
-  * @property {boolean} [shouldHaveRoundedType] - indicates if rounded button type should hidden or not, defaults to false
-  * @property {boolean} [shouldHaveBlockType] - indicates if block button type should hidden or not, defaults to false
+   * with their respective class names, labels, children and types.
+   *
+   * properties with [] are optional
+   * @property {string} type  - denotes the type of button and used as the id of the section of that type
+   * @property {string} label - denotes the title of the button section, which will also be shown in the sidebar menu
+   * @property {string} [classes] - denotes the class that will be assigned to the button on render
+   * @property {list} [children] - contains the list of sub-types of a certain type
+   * @property {string} [text] - denotes the text to be shown on the button, defaults to default text
+   * @property {list} [variations] - contains the button types that don't use buttonColors or don't have normal and rounded button styling
+   * @property {boolean} [shouldHaveRoundedType] - indicates if rounded button type should hidden or not, defaults to false
+   * @property {boolean} [shouldHaveBlockType] - indicates if block button type should hidden or not, defaults to false
    */
   var buttons = [
     {
