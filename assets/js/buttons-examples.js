@@ -432,3 +432,15 @@ $(document).ready(function () {
     section.appendTo(content);
   }
 });
+<div>
+  <a class="buttonload" href="#"><i class="fa fa-spinner fa-spin fa-1x fa-fw"></i>
+    <span class="sr-only">Loading...</span> LOADING</a>
+  <a class="buttonload" href="#"><i class="fa fa-circle-o-notch fa-spin fa-1x fa-fw"></i>
+    <span class="sr-only">Loading...</span> LOADING</a>
+  <a class="buttonload" href="#"><i class="fa fa-refresh fa-spin fa-1x fa-fw"></i>
+    <span class="sr-only">Loading...</span> LOADING</a>
+  <a class="buttonload" href="#"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+    <span class="sr-only">Loading...</span> LOADING</a>
+  <a class="buttonload" href="#"><i class="fa fa-spinner fa-pulse fa-1x fa-fw"></i>
+    <span class="sr-only">Loading...</span> LOADING</a>
+</div>
