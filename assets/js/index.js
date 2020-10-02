@@ -7,7 +7,7 @@ $(document).ready(function () {
       left: win.scrollLeft(),
     };
 
-    var marginHeader = 80;
+    var marginHeader = 81;
 
     viewport.right = viewport.left + win.width();
     viewport.bottom = viewport.top + win.height() - marginHeader;
