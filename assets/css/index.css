@@ -12,7 +12,7 @@ body,
 .navbar,
 .sidebar,
 footer {
-  transition: background-color 0.2s;
+  transition: background-color ease 0.6s;
 }
 
 body > .container {
@@ -71,7 +71,7 @@ header {
 }
 
 .navbar.scrolling {
-  background-color: #fff;
+  background-color: #434343;
   position: fixed;
   top: 0;
   left: 0;
@@ -105,11 +105,6 @@ header .content {
 header .content .logo h1 {
   color: #fff !important;
   font-size: 4rem;
-}
-
-header .content .subtitle {
-  font-size: 1.5rem;
-  font-family: Syne, sans-serif;
 }
 
 header .content .subtitle {
