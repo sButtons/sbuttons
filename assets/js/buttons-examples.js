@@ -87,6 +87,11 @@ $(document).ready(function () {
           classes: "previous-arrow-btn",
         },
         {
+          type: "pudding",
+          label: "Pudding",
+          classes: "pudding-btn",
+        },
+        {
           type: "pulse",
           label: "Pulse",
           classes: "pulse-btn",
@@ -265,6 +270,12 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "play-game",
+          label: "Play game Button",
+          classes: "play-game-btn",
+          text: "",
+        },
+        {
           type: "retro",
           label: "Retro",
           classes: "retro-btn",
@@ -284,20 +295,16 @@ $(document).ready(function () {
           ],
         },
         {
-          type: "rounded-diagonal",
-          label: "Rounded Diagonal",
-          classes: "rounded-diagonal-btn",
-          // t: top, l: left, b: bottom, r: right
-          variations: [
-            {
-              classes: "rd-tl-btn purple-btn",
-              text: "TopLeft-BottomRight",
-            },
-            {
-              classes: "rd-tr-btn red-btn",
-              text: "TopRight-BottomLeft",
-            },
-          ],
+          type: "rounded-diagonal-tl",
+          label: "Rounded Diagonal (Top Left)",
+          classes: "rounded-diagonal-tl-btn",
+          text: "TopLeft-BottomRight",
+        },
+        {
+          type: "rounded-diagonal-tr",
+          label: "Rounded Diagonal (Top Right)",
+          classes: "rounded-diagonal-tr-btn",
+          text: "TopRight-BottomLeft",
         },
       ],
     },
@@ -437,9 +444,9 @@ $(document).ready(function () {
     }
     return section;
   }
-
   for (var i = 0; i < buttons.length; i++) {
     var section = createSection(buttons[i], true);
-    section.appendTo(content).before('<hr class="secondary-hr">');
+    section.appendTo(content);
   }
+  $("#loading_wheel").remove();
 });
