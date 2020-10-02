@@ -1510,6 +1510,22 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .appstore-btn.playstore:not(.block-btn):after {
   left: 50px;
 }
+.star-btn {
+  color: #000;
+}
+.star-btn:before {
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.star-btn:active {
+  font-weight: 900;
+  color: #fbe870;
+}
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;
