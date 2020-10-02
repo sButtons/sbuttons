@@ -199,6 +199,12 @@ $(document).ready(function () {
           classes: "scroll-to-top-btn",
           text: "",
         },
+        {
+          type: "close",
+          label: "Close Button",
+          classes: "close-btn",
+          text: "",
+        }
       ],
     },
     {
