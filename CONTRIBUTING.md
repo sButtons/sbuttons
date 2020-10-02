@@ -92,7 +92,7 @@ If you would like to suggest a new button idea, please create a "New Button Idea
    ```
 4. To make sure your forked repository is up to date with this repository. Add this repository as the upstream repository by doing the following:
 ```
-git remote add upstream https://github.com/shahednasser/sbuttons.git
+git remote add upstream https://github.com/sButtons/sbuttons.git
 
 ```
 Then, to fetch from this repository:
