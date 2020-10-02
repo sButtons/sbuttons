@@ -119,7 +119,7 @@ $(document).ready(function () {
 
   function downloadGithubCssRaw() {
     var link =
-      "https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css";
+      "https://cdn.statically.io/gh/sButtons/sbuttons/c135f5f7/dist/sbuttons.min.css";
     if (window.fetch) {
       fetch(link)
         .then((resp) => resp.blob())
