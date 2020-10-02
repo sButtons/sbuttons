@@ -845,6 +845,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "pinkman7009",
+      "name": "Soumik Chaudhuri",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52635583?v=4",
+      "profile": "https://www.linkedin.com/in/soumik-chaudhuri-717bba18a/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
