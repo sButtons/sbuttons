@@ -17,7 +17,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 2. To make changes to the existing buttons, or add new ones, all changes should be made in `src/sbuttons.less`.
    1. If you're adding a new button type similar to basic, hover, etc..., create a file in `src/components` with the name preceeded by `_`. For example: `_basic.less`. Remember to include the file when you're done in `src/sbuttons.less`.
    2. If you're adding a new button to an existing type (for example: animated), create a file in `src/components/<type_name>` with the name preceeded by `_`. For example: `_arrow.less`. Remember to include the file when you're done in `src/components/<type_name>`.
-
+   
    **Please follow the convention in naming button classes: `new-class-btn` where new-class is the button name. For example, for hover button it's `hover-btn`.**
 
     After making any changes, you need to compile the LESS file into CSS. To do that there you can use the following:
@@ -49,7 +49,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
             text,       //the text to show on the button. If this is omitted, the default text will be Button
 
-            variations  //this is for button types that don't use buttonColors or don't have normal and rounded
+            variations  //this is for button types that don't use buttonColors or don't have normat and rounded
                         // button styling. Look at social buttons for example on how to use this
          }
          ```
@@ -72,7 +72,7 @@ Here's an example of how the syntax looks in markdown format...
 ```markdown
 |status  | Button name    | Description      | Submitted by |
 |--------|----------------|------------------|--------------|
-| &#9745;| ~~**Skew Button**~~| A button that skews on hover. |[who did this](https://exampleuser.com) |
+| &#9745;| ~~**Skew Button**~~| A button that skews on hover. |[who did this](https://exampleuser.com) | 
 
 ```
 ## Create Pull Request
