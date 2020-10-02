@@ -15,6 +15,7 @@ $(document).ready(function () {
   ];
   /**
    * @param {boolean} shouldHaveRoundedType - indicates if rounded button type should hidden or not
+   * @param {boolean} shouldHaveBlockType - indicates if block button type should hidden or not
    */
   /*
     list of button type objects tht will be rendered on the page load
@@ -395,7 +396,10 @@ $(document).ready(function () {
    */
   function createSection(button, shouldAddToSidebar) {
     var heading = "h1",
-      roundedClass = true;
+      //if shouldHaveRoundedType is set set the value to it, else by default show rounded buttons
+      roundedClass = !button.hasOwnProperty('shouldHaveRoundedType') || button.shouldHaveRoundedType,
+      //if shouldHaveBlockType is set set the value to it, else by default show block buttons
+      blockClass = !button.hasOwnProperty('shouldHaveBlockType') || button.shouldHaveBlockType;
     if (shouldAddToSidebar) {
       // add link to sidebar
       sidebar.append(getMenuLinkHtml(button.type, button.label, false));
@@ -405,10 +409,6 @@ $(document).ready(function () {
 
     // Create a new section with same id as the button type
     var section = $('<section id="' + button.type + '">');
-    // Check if button rounded type setting is on or not
-    if (button.shouldHaveRoundedType == false) {
-      roundedClass = false;
-    }
     // Adding the required heading to the section
     section.append(
       "<" +
@@ -451,9 +451,16 @@ $(document).ready(function () {
 
       // Add buttons to the type's button grid
       var normalButtonsGrid = $('<div class="button-grid">'),
-        roundedButtonsGrid = $('<div class="button-grid">'),
-        blockButtonsGrid = $('<div class="button-grid">'),
         buttonText = button.hasOwnProperty("text") ? button.text : false;
+
+      // If rounded class is allowed for this button, create a button grid for it
+      if (roundedClass) {
+        var roundedButtonsGrid = $('<div class="button-grid">');
+      }
+      // If block class is allowed for this button, create a button grid for it
+      if (blockClass) {
+        var blockButtonsGrid = $('<div class="button-grid">');
+      }
       for (var j = 0; j < buttonArr.length; j++) {
         var thisButtonText =
           buttonText !== false
@@ -465,6 +472,7 @@ $(document).ready(function () {
           ? buttonArr[j].classes
           : buttonArr[j];
 
+        // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
             `${defaultClass} ${button.classes} ${thisButtonClasses}`,
@@ -474,28 +482,34 @@ $(document).ready(function () {
             isDisabled
           )
         );
-        roundedButtonsGrid.append(
-          getButtonHtml(
-            `${defaultClass} ${button.classes} rounded-btn ${thisButtonClasses}`,
-            `.${defaultClass} .${button.classes} .rounded-btn .${thisButtonClasses}`,
-            thisButtonText,
-            false,
-            isDisabled
-          )
-        );
-        blockButtonsGrid.append(
-          getButtonHtml(
-            `${defaultClass} ${button.classes} block-btn ${thisButtonClasses}`,
-            `.${defaultClass} .${button.classes} .block-btn .${thisButtonClasses}`,
-            thisButtonText,
-            true,
-            isDisabled
-          )
-        );
+        if (roundedButtonsGrid) {
+          //add rounded button grid if enabled for button
+          roundedButtonsGrid.append(
+            getButtonHtml(
+              `${defaultClass} ${button.classes} rounded-btn ${thisButtonClasses}`,
+              `.${defaultClass} .${button.classes} .rounded-btn .${thisButtonClasses}`,
+              thisButtonText,
+              false,
+              isDisabled
+            )
+          );
+        }
+        if (blockButtonsGrid) {
+          //add block button grid if enabled for button
+          blockButtonsGrid.append(
+            getButtonHtml(
+              `${defaultClass} ${button.classes} block-btn ${thisButtonClasses}`,
+              `.${defaultClass} .${button.classes} .block-btn .${thisButtonClasses}`,
+              thisButtonText,
+              true,
+              isDisabled
+            )
+          );
+        }
       }
       section.append(normalButtonsGrid);
-      roundedClass ? section.append(roundedButtonsGrid) : "";
-      section.append(blockButtonsGrid);
+      roundedClass && roundedButtonsGrid ? section.append(roundedButtonsGrid) : "";
+      blockClass && blockButtonsGrid ? section.append(blockButtonsGrid) : "";
     }
     return section;
   }
