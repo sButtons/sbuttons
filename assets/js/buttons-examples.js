@@ -13,6 +13,9 @@ $(document).ready(function () {
     "black-btn",
     "white-btn",
   ];
+  /**
+   * @param {boolean} shouldHaveRoundedType - indicates if rounded button type should hidden or not
+   */
   //list of button types
   var buttons = [
     {
@@ -20,6 +23,7 @@ $(document).ready(function () {
       label: "Basic Buttons",
       classes: "basic-btn",
       children: [],
+      shouldHaveRoundedType: true,
     },
     {
       type: "animated",
@@ -299,12 +303,14 @@ $(document).ready(function () {
           label: "Rounded Diagonal (Top Left)",
           classes: "rounded-diagonal-tl-btn",
           text: "TopLeft-BottomRight",
+          shouldHaveRoundedType: false,
         },
         {
           type: "rounded-diagonal-tr",
           label: "Rounded Diagonal (Top Right)",
           classes: "rounded-diagonal-tr-btn",
           text: "TopRight-BottomLeft",
+          shouldHaveRoundedType: false,
         },
       ],
     },
@@ -347,7 +353,8 @@ $(document).ready(function () {
   }
 
   function createSection(button, shouldAddToSidebar) {
-    var heading = "h1";
+    var heading = "h1",
+      roundedClass = true;
     if (shouldAddToSidebar) {
       // add link to sidebar
       sidebar.append(getMenuLinkHtml(button.type, button.label, false));
@@ -355,6 +362,10 @@ $(document).ready(function () {
       heading = "h3";
     }
     var section = $('<section id="' + button.type + '">');
+
+    if (button.shouldHaveRoundedType == false) {
+      roundedClass = false;
+    }
 
     section.append(
       "<" +
@@ -439,7 +450,7 @@ $(document).ready(function () {
         );
       }
       section.append(normalButtonsGrid);
-      section.append(roundedButtonsGrid);
+      roundedClass ? section.append(roundedButtonsGrid) : "";
       section.append(blockButtonsGrid);
     }
     return section;
