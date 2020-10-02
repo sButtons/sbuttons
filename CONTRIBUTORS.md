@@ -121,6 +121,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/jlt10"><img src="https://avatars2.githubusercontent.com/u/31869974?v=4" width="100px;" alt=""/><br /><sub><b>Jamie Tan</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=jlt10" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/soumik-chaudhuri-717bba18a/"><img src="https://avatars1.githubusercontent.com/u/52635583?v=4" width="100px;" alt=""/><br /><sub><b>Soumik Chaudhuri</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=pinkman7009" title="Code">💻</a> <a href="https://github.com/shahednasser/sbuttons/issues?q=author%3Apinkman7009" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://necro.tech"><img src="https://avatars1.githubusercontent.com/u/4073413?v=4" width="100px;" alt=""/><br /><sub><b>NecroTechno</b></sub></a><br /><a href="#design-NecroTechno" title="Design">🎨</a></td>
+    <td align="center"><a href="http://kimbo.com"><img src="https://avatars2.githubusercontent.com/u/30212959?v=4" width="100px;" alt=""/><br /><sub><b>Ebuka Achonwa</b></sub></a><br /><a href="#design-Mancancode" title="Design">🎨</a></td>
   </tr>
 </table>
 
