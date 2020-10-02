@@ -13,6 +13,9 @@ $(document).ready(function () {
     "black-btn",
     "white-btn",
   ];
+  /**
+   * @param {boolean} shouldHaveRoundedType - indicates if rounded button type should hidden or not
+   */
   /*
     list of button type objects tht will be rendered on the page load
     with their respective class names, labels, children and types.
@@ -23,6 +26,7 @@ $(document).ready(function () {
       label: "Basic Buttons",
       classes: "basic-btn",
       children: [],
+      shouldHaveRoundedType: true,
     },
     {
       type: "animated",
@@ -307,6 +311,20 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "rounded-diagonal-tl",
+          label: "Rounded Diagonal (Top Left)",
+          classes: "rounded-diagonal-tl-btn",
+          text: "TopLeft-BottomRight",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-diagonal-tr",
+          label: "Rounded Diagonal (Top Right)",
+          classes: "rounded-diagonal-tr-btn",
+          text: "TopRight-BottomLeft",
+          shouldHaveRoundedType: false,
+        },
       ],
     },
   ];
@@ -376,7 +394,8 @@ $(document).ready(function () {
    * @returns {string} - the required section's html with all the buttons
    */
   function createSection(button, shouldAddToSidebar) {
-    var heading = "h1";
+    var heading = "h1",
+      roundedClass = true;
     if (shouldAddToSidebar) {
       // add link to sidebar
       sidebar.append(getMenuLinkHtml(button.type, button.label, false));
@@ -386,7 +405,10 @@ $(document).ready(function () {
 
     // Create a new section with same id as the button type
     var section = $('<section id="' + button.type + '">');
-
+    // Check if button rounded type setting is on or not
+    if (button.shouldHaveRoundedType == false) {
+      roundedClass = false;
+    }
     // Adding the required heading to the section
     section.append(
       "<" +
@@ -442,6 +464,7 @@ $(document).ready(function () {
         var thisButtonClasses = buttonArr[j].hasOwnProperty("classes")
           ? buttonArr[j].classes
           : buttonArr[j];
+
         normalButtonsGrid.append(
           getButtonHtml(
             `${defaultClass} ${button.classes} ${thisButtonClasses}`,
@@ -471,7 +494,7 @@ $(document).ready(function () {
         );
       }
       section.append(normalButtonsGrid);
-      section.append(roundedButtonsGrid);
+      roundedClass ? section.append(roundedButtonsGrid) : "";
       section.append(blockButtonsGrid);
     }
     return section;
