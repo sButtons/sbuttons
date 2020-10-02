@@ -4,7 +4,7 @@
 <!-- # sButtons -->
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-95-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-97-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
   
 :bulb: Simple buttons you can use easily for your next project.
@@ -14,6 +14,21 @@
 This repository will help people who don't know how to participate in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) or where to start contributing. We will be adding a Hacktoberfest label to help contributors find the issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/shahednasser/sbuttons/issues/161).
 
 **DO NOT submit any pull request that does no fix based on an issue or an actual bug/fix, as it will be labeled invalid and will not count for your Hacktoberfest participation**
+
+# Contents
+- [Installation](#installation)
+  - [Download CSS File](#download-css-file)
+  - [CDN](#cdn)
+  - [NPM](#npm)
+  - [Modifying Button Colors](#modifying-button-colors)
+- [Usage](#usage)
+  - [Block Buttons](#block-buttons)
+  - [Disabled Buttons](#disabled-buttons)
+  - [Icon Buttons](#icon-buttons) 
+- [Contribution](#contribution)
+  - [Button ideas](#button-ideas)  
+- [Contributors](#contributors)
+- [LICENSE](#license)
 
 # Installation
 
