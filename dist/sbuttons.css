@@ -973,6 +973,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .snake-btn.rounded-btn:hover:after {
   border-radius: 25px;
 }
+.pudding-btn {
+  transform-origin: 0 100%;
+}
+.pudding-btn:hover,
+.pudding-btn:focus,
+.pudding-btn:active {
+  animation: jiggle 1s ease-in-out 1;
+}
 @keyframes jiggle {
   16.65% {
     transform: skew(-12deg);
