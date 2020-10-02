@@ -10,6 +10,19 @@ Please note we have a code of conduct, please follow it in all your interactions
 2. Before contributing to an issue, make sure that no one is assigned or has taken that issue. If no one is and you would like to work on the issue, please comment on the issue to let others know that someone is working on the issue.
 3. Before creating a pull request, it is **important** that you make sure your branch and repository is up to date with this one. Some conflicts can be resolved, but many are hard to resolve. **Add the upstream** branch and always keep your branch up to date.
 
+# Contents
+
+- [Instructions](#instructions)
+  * [Button Ideas](#button-ideas)
+  * [Create Pull Request](#create-pull-request)
+    + [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
+  * [Code of Conduct](#code-of-conduct)
+    + [Our Pledge](#our-pledge)
+    + [Our Standards](#our-standards)
+    + [Our Responsibilities](#our-responsibilities)
+    + [Scope](#scope)
+    + [Enforcement](#enforcement)
+
 # Instructions
 
 1. Fork the repository.
@@ -49,7 +62,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
             text,       //the text to show on the button. If this is omitted, the default text will be Button
 
-            variations  //this is for button types that don't use buttonColors or don't have normat and rounded
+            variations  //this is for button types that don't use buttonColors or don't have normal and rounded
                         // button styling. Look at social buttons for example on how to use this
          }
          ```
@@ -59,22 +72,8 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Button Ideas
 
-You can find on [Button Ideas](./BUTTON_IDEAS.md) a list of ideas in a table for buttons that can be implemented. Make sure to pick an idea that isn't checked off.
-Once you implement your idea, make sure to check it off in that page by using this unicode character `&#9745;` and place this symbol `~~` before and after the button name in the `status` column on the table, and make sure to add a link to your github profile 😎.
+If you would like to suggest a new button idea, please create a "New Button Idea" Issue.
 
-Here's an example of how you can add the link to your profile when you've implemented the button idea of your choice.
-
-`[you can add any name here](https://thelinktoyourprofile)`
-
-> PS:- we used the unicode character to represent ideas that have and haven't been checked 'cause the normal markdown syntax doesn't work in tables... This one `- []` && `- [x]`
-
-Here's an example of how the syntax looks in markdown format...
-```markdown
-|status  | Button name    | Description      | Submitted by |
-|--------|----------------|------------------|--------------|
-| &#9745;| ~~**Skew Button**~~| A button that skews on hover. |[who did this](https://exampleuser.com) | 
-
-```
 ## Create Pull Request
 
 1. Create a new branch:

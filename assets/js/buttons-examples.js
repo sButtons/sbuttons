@@ -13,7 +13,10 @@ $(document).ready(function () {
     "black-btn",
     "white-btn",
   ];
-  //list of button types
+  /*
+    list of button type objects tht will be rendered on the page load
+    with their respective class names, labels, children and types.
+  */
   var buttons = [
     {
       type: "basic",
@@ -87,6 +90,11 @@ $(document).ready(function () {
           classes: "previous-arrow-btn",
         },
         {
+          type: "pudding",
+          label: "Pudding",
+          classes: "pudding-btn",
+        },
+        {
           type: "pulse",
           label: "Pulse",
           classes: "pulse-btn",
@@ -127,6 +135,12 @@ $(document).ready(function () {
           classes: "splash-btn",
         },
       ],
+    },
+    {
+      type: "dashed",
+      label: "Dashed Buttons",
+      classes: "dashed-btn",
+      children: [],
     },
     {
       type: "disable",
@@ -187,6 +201,12 @@ $(document).ready(function () {
           classes: "plus-btn",
           text: "",
         },
+        {
+          type: "scroll-to-top",
+          label: "Scroll-to-Top Button",
+          classes: "scroll-to-top-btn",
+          text: "",
+        },
       ],
     },
     {
@@ -209,6 +229,10 @@ $(document).ready(function () {
           text: "Login with Facebook",
         },
         {
+          classes: "flickr",
+          text: "Login with Flickr",
+        },
+        {
           classes: "github",
           text: "Login with Github",
         },
@@ -225,8 +249,16 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
+          classes: "snapchat",
+          text: "Login with Snapchat",
+        },
+        {
           classes: "twitter",
           text: "Login with Twitter",
+        },
+        {
+          classes: "tumblr",
+          text: "Login with Tumblr",
         },
         {
           classes: "weibo",
@@ -251,11 +283,54 @@ $(document).ready(function () {
       ],
       children: [],
     },
+    {
+      type: "special",
+      label: "Special Buttons",
+      classes: "",
+      children: [
+        {
+          type: "play-game",
+          label: "Play game Button",
+          classes: "play-game-btn",
+          text: "",
+        },
+        {
+          type: "retro",
+          label: "Retro",
+          classes: "retro-btn",
+          variations: [
+            {
+              classes: "",
+              text: "Continue",
+            },
+            {
+              classes: "retro-btn-proceed",
+              text: "Proceed",
+            },
+            {
+              classes: "retro-btn-reset",
+              text: "Reset",
+            },
+          ],
+        },
+      ],
+    },
   ];
 
   var sidebar = $(".sidebar-list"),
     content = $("#content");
 
+  /**
+   * getButttonHtml generates the required html for each button to be rendered
+   *
+   * @param {string} classes - refers to the class applied to the button element
+   * @param {string} textClasses - refers to the text written below each button
+   * @param {string} buttonText - refers to text written in each button
+   * @param {boolean} isBlock - indicates if it should be a block button or not
+   * @param {boolean} isDisabled - indicates if the button is diplayed as disabled or not
+   *
+   * @returns {string} - the required button item's html
+   */
   function getButtonHtml(
     classes,
     textClasses,
@@ -276,7 +351,15 @@ $(document).ready(function () {
             </div>
         `;
   }
-
+  /**
+   * getMenuLinkHtml generates each link inside the sidebar menu
+   *
+   * @param {string} type - refers to the type of button and section's ID it links to
+   * @param {string} label - refers to the text written in the link
+   * @param {boolean} isSubMenu - indicates if the link is a subLink to any other link
+   *
+   * @returns {string} - the required menu item's html for sidebar
+   */
   function getMenuLinkHtml(type, label, isSubMenu) {
     return (
       '<a href="#' +
@@ -289,6 +372,15 @@ $(document).ready(function () {
     );
   }
 
+  /**
+   * createSection seperates each type of button from others by creating a section
+   * and adds those types of buttons to it
+   *
+   * @param {object} button - the button object section of which has to be created
+   * @param {boolean} shouldAddToSidebar - indicates if it will be added to the sidebar or not
+   *
+   * @returns {string} - the required section's html with all the buttons
+   */
   function createSection(button, shouldAddToSidebar) {
     var heading = "h1";
     if (shouldAddToSidebar) {
@@ -297,8 +389,11 @@ $(document).ready(function () {
     } else {
       heading = "h3";
     }
+
+    // Create a new section with same id as the button type
     var section = $('<section id="' + button.type + '">');
 
+    // Adding the required heading to the section
     section.append(
       "<" +
         heading +
@@ -308,8 +403,9 @@ $(document).ready(function () {
         heading +
         ">"
     );
+
     if (button.hasOwnProperty("children") && button.children.length) {
-      //add children buttons
+      // Add children buttons to the section concerned
       var submenu = $('<div class="submenu-links">');
       for (var j = 0; j < button.children.length; j++) {
         var childSection = createSection(button.children[j], false);
@@ -337,7 +433,7 @@ $(document).ready(function () {
         }
       }
 
-      //add type buttons
+      // Add buttons to the type's button grid
       var normalButtonsGrid = $('<div class="button-grid">'),
         roundedButtonsGrid = $('<div class="button-grid">'),
         blockButtonsGrid = $('<div class="button-grid">'),
@@ -387,8 +483,11 @@ $(document).ready(function () {
     return section;
   }
 
+  // Main loop that creates all the section and buttons
   for (var i = 0; i < buttons.length; i++) {
     var section = createSection(buttons[i], true);
-    section.appendTo(content).before('<hr class="secondary-hr">');
+    // Append all the button sections to the main body
+    section.appendTo(content);
   }
+  $("#loading_wheel").remove();
 });
