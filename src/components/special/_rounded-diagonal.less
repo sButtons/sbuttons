@@ -1,7 +1,10 @@
 .rounded-diagonal-btn {
-  background: #7c26c2;
-  font: bold 24px "Syne";
-
+  &:hover {
+    box-shadow: 0 10px 10px rgba(@black, 0.3);
+  }
+  &:active {
+    box-shadow: 0 4px 5px rgba(@black, 0.5);
+  }
   &.rounded-btn.rd-tl-btn {
     border-radius: 34px 14px;
   }
@@ -13,7 +16,6 @@
 .rd-tl-btn {
   border-radius: 24px 4px;
 }
-
 .rd-tr-btn {
   border-radius: 4px 24px;
 }

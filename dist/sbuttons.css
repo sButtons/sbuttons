@@ -1398,9 +1398,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .retro-btn-proceed:active {
   box-shadow: inset 4px 4px 0px 0px #e59400;
 }
-.rounded-diagonal-btn {
-  background: #7c26c2;
-  font: bold 24px "Syne";
+.rounded-diagonal-btn:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.rounded-diagonal-btn:active {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
 }
 .rounded-diagonal-btn.rounded-btn.rd-tl-btn {
   border-radius: 34px 14px;

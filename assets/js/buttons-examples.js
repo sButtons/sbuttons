@@ -290,11 +290,11 @@ $(document).ready(function () {
           // t: top, l: left, b: bottom, r: right
           variations: [
             {
-              classes: "rd-tl-btn",
+              classes: "rd-tl-btn purple-btn",
               text: "TopLeft-BottomRight",
             },
             {
-              classes: "rd-tr-btn",
+              classes: "rd-tr-btn red-btn",
               text: "TopRight-BottomLeft",
             },
           ],
@@ -402,6 +402,7 @@ $(document).ready(function () {
         var thisButtonClasses = buttonArr[j].hasOwnProperty("classes")
           ? buttonArr[j].classes
           : buttonArr[j];
+
         normalButtonsGrid.append(
           getButtonHtml(
             `${defaultClass} ${button.classes} ${thisButtonClasses}`,
