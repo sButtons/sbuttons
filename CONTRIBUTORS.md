@@ -125,6 +125,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/baspalinckx"><img src="https://avatars3.githubusercontent.com/u/27728063?v=4" width="100px;" alt=""/><br /><sub><b>Bas Palinckx</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=baspalinckx" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Graviton5"><img src="https://avatars1.githubusercontent.com/u/47978767?v=4" width="100px;" alt=""/><br /><sub><b>Graviton5</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=Graviton5" title="Code">💻</a></td>
   </tr>
 </table>
 
