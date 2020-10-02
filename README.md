@@ -15,6 +15,21 @@ This repository will help people who don't know how to participate in [Hacktober
 
 **DO NOT submit any pull request that does no fix based on an issue or an actual bug/fix, as it will be labeled invalid and will not count for your Hacktoberfest participation**
 
+# Contents
+- [Installation](#installation)
+  - [Download CSS File](#download-css-file)
+  - [CDN](#cdn)
+  - [NPM](#npm)
+  - [Modifying Button Colors](#modifying-button-colors)
+- [Usage](#usage)
+  - [Block Buttons](#block-buttons)
+  - [Disabled Buttons](#disabled-buttons)
+  - [Icon Buttons](#icon-buttons) 
+- [Contribution](#contribution)
+  - [Button ideas](#button-ideas)  
+- [Contributors](#contributors)
+- [LICENSE](#license)
+
 # Installation
 
 ## Download CSS File
