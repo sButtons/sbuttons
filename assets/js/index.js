@@ -24,6 +24,7 @@ $(document).ready(function () {
       viewport.top > bounds.bottom
     );
   };
+
   // Sidebar Links section
   function checkActiveCategory() {
     $("section").each(function () {
@@ -63,6 +64,7 @@ $(document).ready(function () {
     false
   );
 
+  // Navbar toggle here
   function checkNavbar() {
     if (!$(".content").isOnScreen()) {
       $(".navbar").addClass("scrolling");
@@ -73,6 +75,7 @@ $(document).ready(function () {
     }
   }
 
+  // Back-to-Top button toggles here
   function checkScrollTop() {
     if ($(window).scrollTop() > 100) {
       $(".scroll-top").fadeIn();
@@ -104,6 +107,66 @@ $(document).ready(function () {
   }
   // Theme section - end
 
+  // Sidebar/Navigation Links section
+  function toggleSidebar() {
+    let sidebar = $(".sidebar");
+    if (!sidebar.hasClass("hide-sidebar")) {
+      let sidebar = $(".sidebar");
+      $(".shade").removeClass("shown");
+      sidebar.addClass("animate__slideOutLeft");
+      window.setTimeout(function () {
+        sidebar.addClass("hide-sidebar");
+        sidebar.removeClass("animate__slideOutLeft");
+      }, 1000);
+    } else {
+      let sidebar = $(".sidebar");
+      sidebar.removeClass("hide-sidebar");
+      $(".shade").addClass("shown");
+    }
+  }
+
+  $(".sidebar-toggler").on("click", function (e) {
+    e.stopPropagation();
+    toggleSidebar();
+  });
+
+  //Closes sidebar if screen size is less than 768 pixels
+  $(".sidebar a").on("click", function () {
+    var w = document.body.clientWidth;
+    if (w < 768) {
+      toggleSidebar();
+    }
+  });
+
+  $(".close-sidebar").on("click", toggleSidebar);
+  // Sidebar/Navigation Links section - End
+
+  // Load functions on page load
+  initTheme();
+  checkActiveCategory();
+  checkNavbar();
+  checkScrollTop();
+
+  $(window).on("scroll", function () {
+    checkNavbar();
+    checkActiveCategory();
+    checkScrollTop();
+  });
+
+  // Scroll-to-Top button event
+  $(".scroll-top").click(function () {
+    let scrollSpeed = 100; /* Default */
+    if ($(window).width() <= 640)
+      scrollSpeed = 210; /* For small (mobile) Screens */
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      scrollSpeed
+    );
+  });
+
+  //  Text Copy-Select functionality
   function copy(textToCopy, $element) {
     //temp input
     var input = $('<input type="text" value=\'' + textToCopy + "' />");
@@ -116,6 +179,42 @@ $(document).ready(function () {
     //hide tooltip
     setTimeout(() => $element.tooltip("hide"), 1500);
   }
+
+  /**
+   * Copy tooltip functionality
+   * @param {object} copiedTooltipOptions
+   */
+  // Copied tooltip functions
+  var copiedTooltipOptions = {
+    title: "Copied",
+    trigger: "click",
+    placement: "bottom",
+  };
+
+  $(".button-caption-sub").tooltip(copiedTooltipOptions);
+
+  $(".button-caption-sub").click(function () {
+    var classes = $(this).text().trim();
+    classes = classes.replace(/\./g, "");
+    copy(classes, $(this));
+  });
+
+  $(".script-copy").tooltip(copiedTooltipOptions);
+
+  $(".script-copy").click(function () {
+    var script = $(this).text().trim();
+    copy(script, $(this));
+  });
+
+  // Theme changer button
+  $(".toggle-theme").on("click", function () {
+    toggleTheme();
+  });
+
+  // Download Button button
+  $(
+    "#downloadGithubRawHeader, #downloadGithubRawButton, #downloadGithubRawHowTo"
+  ).on("click", downloadGithubCssRaw);
 
   function downloadGithubCssRaw() {
     var link =
@@ -140,82 +239,7 @@ $(document).ready(function () {
     }
   }
 
-  function toggleSidebar() {
-    let sidebar = $(".sidebar");
-    if (!sidebar.hasClass("hide-sidebar")) {
-      let sidebar = $(".sidebar");
-      $(".shade").removeClass("shown");
-      sidebar.addClass("animate__slideOutLeft");
-      window.setTimeout(function () {
-        sidebar.addClass("hide-sidebar");
-        sidebar.removeClass("animate__slideOutLeft");
-      }, 1000);
-    } else {
-      let sidebar = $(".sidebar");
-      sidebar.removeClass("hide-sidebar");
-      $(".shade").addClass("shown");
-    }
-  }
-
-  var copiedTooltipOptions = {
-    title: "Copied",
-    trigger: "click",
-    placement: "bottom",
-  };
-
-  initTheme();
-  checkActiveCategory();
-  checkNavbar();
-  checkScrollTop();
-
-  $(window).on("scroll", function () {
-    checkNavbar();
-    checkActiveCategory();
-    checkScrollTop();
-  });
-
-  $(".scroll-top").click(function () {
-    let scrollSpeed = 100; /* Default */
-    if ($(window).width() <= 640)
-      scrollSpeed = 210; /* For small (mobile) Screens */
-    $("html, body").animate(
-      {
-        scrollTop: 0,
-      },
-      scrollSpeed
-    );
-  });
-
-  $(".button-caption-sub").tooltip(copiedTooltipOptions);
-
-  $(".button-caption-sub").click(function () {
-    var classes = $(this).text().trim();
-    classes = classes.replace(/\./g, "");
-
-    copy(classes, $(this));
-  });
-
-  $(".script-copy").tooltip(copiedTooltipOptions);
-
-  $(".script-copy").click(function () {
-    var script = $(this).text().trim();
-
-    copy(script, $(this));
-  });
-
-  $(".sidebar-toggler").on("click", function (e) {
-    e.stopPropagation();
-    toggleSidebar();
-  });
-
-  //Closes sidebar if screen size is less than 768 pixels
-  $(".sidebar a").on("click", function () {
-    var w = document.body.clientWidth;
-    if (w < 768) {
-      toggleSidebar();
-    }
-  });
-
+  // Body event
   $("body").click(function (event) {
     var sidebar = $(".sidebar");
     var targetElement = $(event.target);
@@ -229,14 +253,4 @@ $(document).ready(function () {
       toggleSidebar();
     }
   });
-
-  $(".close-sidebar").on("click", toggleSidebar);
-
-  $(".toggle-theme").on("click", function () {
-    toggleTheme();
-  });
-
-  $(
-    "#downloadGithubRawHeader, #downloadGithubRawButton, #downloadGithubRawHowTo"
-  ).on("click", downloadGithubCssRaw);
 });

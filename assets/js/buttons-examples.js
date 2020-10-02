@@ -23,8 +23,8 @@ $(document).ready(function () {
    * @property {list} [children] - contains the list of sub-types of a certain type
    * @property {string} [text] - denotes the text to be shown on the button, defaults to default text
    * @property {list} [variations] - contains the button types that don't use buttonColors or don't have normal and rounded button styling
-   * @property {boolean} [shouldHaveRoundedType] - indicates if rounded button type should hidden or not, defaults to false
-   * @property {boolean} [shouldHaveBlockType] - indicates if block button type should hidden or not, defaults to false
+   * @property {boolean} [shouldHaveRoundedType] - indicates if rounded button type should hidden or not, defaults to true
+   * @property {boolean} [shouldHaveBlockType] - indicates if block button type should hidden or not, defaults to true
    */
   var buttons = [
     {
