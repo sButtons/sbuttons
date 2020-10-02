@@ -235,6 +235,12 @@ $(document).ready(function () {
       ],
       children: [],
     },
+    {
+      type: "drop-down",
+      label: "Dropdown Button",
+      classes: "drop-down-btn",
+      text: "Dropdown Button",
+    },
   ];
 
   var sidebar = $(".sidebar-list"),
