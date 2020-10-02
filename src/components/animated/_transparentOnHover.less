@@ -1,0 +1,103 @@
+.transparent-btn {
+  position: relative;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    .bc(transparent);
+
+    &.blue-btn {
+      .textColorChange(@blue);
+    }
+    &.pink-btn {
+      .textColorChange(@pink);
+    }
+
+    &.green-btn {
+      .textColorChange(@green);
+    }
+
+    &.yellow-btn {
+      .textColorChange(@yellow);
+      &:hover {
+        color: @yellow !important;
+      }
+    }
+    &.orange-btn {
+      .textColorChange(@orange);
+    }
+
+    &.red-btn {
+      .textColorChange(@red);
+    }
+
+    &.purple-btn {
+      .textColorChange(@purple);
+    }
+
+    &.black-btn {
+      .textColorChange(@black);
+    }
+
+    &.white-btn {
+      .textColorChange(@white);
+      border-color: @whiteBorder;
+      &:hover {
+        color: @white !important;
+      }
+    }
+  }
+}
+
+.transparentOnHover(@color) {
+  border-color: @color;
+
+  &::before {
+    .bc(@color);
+  }
+}
+
+.textColorChange(@color) {
+  color: @color;
+
+  &::before {
+    .bc(@color);
+  }
+}
+
+&.blue-btn {
+  .transparentOnHover(@blue);
+}
+&.pink-btn {
+  .transparentOnHover(@pink);
+}
+
+&.green-btn {
+  .transparentOnHover(@green);
+}
+
+&.yellow-btn {
+  .transparentOnHover(@yellow);
+}
+
+&.orange-btn {
+  .transparentOnHover(@orange);
+}
+
+&.red-btn {
+  .transparentOnHover(@red);
+}
+
+&.purple-btn {
+  .transparentOnHover(@purple);
+}
+
+&.black-btn {
+  .transparentOnHover(@black);
+}
+
+&.white-btn {
+  .transparentOnHover(@white);
+  border-color: @whiteBorder;
+  &:hover {
+    color: @darkText !important;
+  }
+}
