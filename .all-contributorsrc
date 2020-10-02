@@ -939,6 +939,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "shngt",
+      "name": "Shashank Gupta",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20009551?v=4",
+      "profile": "https://github.com/shngt",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
