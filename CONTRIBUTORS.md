@@ -123,6 +123,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://necro.tech"><img src="https://avatars1.githubusercontent.com/u/4073413?v=4" width="100px;" alt=""/><br /><sub><b>NecroTechno</b></sub></a><br /><a href="#design-NecroTechno" title="Design">🎨</a></td>
     <td align="center"><a href="http://kimbo.com"><img src="https://avatars2.githubusercontent.com/u/30212959?v=4" width="100px;" alt=""/><br /><sub><b>Ebuka Achonwa</b></sub></a><br /><a href="#design-Mancancode" title="Design">🎨</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/baspalinckx"><img src="https://avatars3.githubusercontent.com/u/27728063?v=4" width="100px;" alt=""/><br /><sub><b>Bas Palinckx</b></sub></a><br /><a href="https://github.com/shahednasser/sbuttons/commits?author=baspalinckx" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
