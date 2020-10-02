@@ -855,6 +855,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "NecroTechno",
+      "name": "NecroTechno",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4073413?v=4",
+      "profile": "https://necro.tech",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
