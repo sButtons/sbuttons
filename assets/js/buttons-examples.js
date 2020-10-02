@@ -297,6 +297,18 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "rounded-diagonal-tl",
+          label: "Rounded Diagonal (Top Left)",
+          classes: "rounded-diagonal-tl-btn",
+          text: "TopLeft-BottomRight",
+        },
+        {
+          type: "rounded-diagonal-tr",
+          label: "Rounded Diagonal (Top Right)",
+          classes: "rounded-diagonal-tr-btn",
+          text: "TopRight-BottomLeft",
+        },
       ],
     },
   ];
@@ -432,6 +444,7 @@ $(document).ready(function () {
         var thisButtonClasses = buttonArr[j].hasOwnProperty("classes")
           ? buttonArr[j].classes
           : buttonArr[j];
+
         normalButtonsGrid.append(
           getButtonHtml(
             `${defaultClass} ${button.classes} ${thisButtonClasses}`,
