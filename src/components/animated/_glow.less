@@ -1,19 +1,17 @@
 .glowBorderRule(@color) {
   border-color: @color;
   background-color: rgba(@color, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 
 .glow-btn {
   transition: all 0.5s ease;
   border: 2px solid;
+  color: @black;
 
   .glow(@col) {
     background-color: rgba(@col, 0.3);
     box-shadow: inset 0px 0px 10px 3px @col, 0px 0px 10px 3px @col;
-    --switch: calc((var(light) - var(threshold)) * -100%);
-    border-color: hsl(0, 0%, var(--switch));
+    border-color: @black;
   }
 
   &.blue-btn {

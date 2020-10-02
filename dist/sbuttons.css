@@ -520,123 +520,97 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .glow-btn {
   transition: all 0.5s ease;
   border: 2px solid;
+  color: #000;
 }
 .glow-btn.blue-btn {
   transition: all 0.5s ease;
   border-color: #1fffec;
   background-color: rgba(31, 255, 236, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 .glow-btn.blue-btn:hover {
   background-color: rgba(31, 255, 236, 0.3);
   box-shadow: inset 0px 0px 10px 3px #1fffec, 0px 0px 10px 3px #1fffec;
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  border-color: hsl(0, 0%, var(--switch));
+  border-color: #000;
 }
 .glow-btn.green-btn {
   transition: all 0.5s ease;
   border-color: #39ff14;
   background-color: rgba(57, 255, 20, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 .glow-btn.green-btn:hover {
   background-color: rgba(57, 255, 20, 0.3);
   box-shadow: inset 0px 0px 10px 3px #39ff14, 0px 0px 10px 3px #39ff14;
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  border-color: hsl(0, 0%, var(--switch));
+  border-color: #000;
 }
 .glow-btn.red-btn {
   transition: all 0.5s ease;
   border-color: #ff013c;
   background-color: rgba(255, 1, 60, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 .glow-btn.red-btn:hover {
   background-color: rgba(255, 1, 60, 0.3);
   box-shadow: inset 0px 0px 10px 3px #ff013c, 0px 0px 10px 3px #ff013c;
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  border-color: hsl(0, 0%, var(--switch));
+  border-color: #000;
 }
 .glow-btn.purple-btn {
   transition: all 0.5s ease;
   border-color: #8d47ff;
   background-color: rgba(141, 71, 255, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 .glow-btn.purple-btn:hover {
   background-color: rgba(141, 71, 255, 0.3);
   box-shadow: inset 0px 0px 10px 3px #8d47ff, 0px 0px 10px 3px #8d47ff;
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  border-color: hsl(0, 0%, var(--switch));
+  border-color: #000;
 }
 .glow-btn.orange-btn {
   transition: all 0.5s ease;
   border-color: #ff9b18;
   background-color: rgba(255, 155, 24, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 .glow-btn.orange-btn:hover {
   background-color: rgba(255, 155, 24, 0.3);
   box-shadow: inset 0px 0px 10px 3px #ff9b18, 0px 0px 10px 3px #ff9b18;
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  border-color: hsl(0, 0%, var(--switch));
+  border-color: #000;
 }
 .glow-btn.yellow-btn {
   transition: all 0.5s ease;
   border-color: #ffe53d;
   background-color: rgba(255, 229, 61, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 .glow-btn.yellow-btn:hover {
   background-color: rgba(255, 229, 61, 0.3);
   box-shadow: inset 0px 0px 10px 3px #ffe53d, 0px 0px 10px 3px #ffe53d;
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  border-color: hsl(0, 0%, var(--switch));
+  border-color: #000;
 }
 .glow-btn.pink-btn {
   transition: all 0.5s ease;
   border-color: #ff2aca;
   background-color: rgba(255, 42, 202, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 .glow-btn.pink-btn:hover {
   background-color: rgba(255, 42, 202, 0.3);
   box-shadow: inset 0px 0px 10px 3px #ff2aca, 0px 0px 10px 3px #ff2aca;
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  border-color: hsl(0, 0%, var(--switch));
+  border-color: #000;
 }
 .glow-btn.black-btn {
   transition: all 0.5s ease;
   border-color: #414141;
   background-color: rgba(65, 65, 65, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 .glow-btn.black-btn:hover {
   background-color: rgba(65, 65, 65, 0.3);
   box-shadow: inset 0px 0px 10px 3px #414141, 0px 0px 10px 3px #414141;
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  border-color: hsl(0, 0%, var(--switch));
+  border-color: #000;
 }
 .glow-btn.white-btn {
   transition: all 0.5s ease;
   border-color: #e2e2e2;
   background-color: rgba(226, 226, 226, 0.2);
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  color: hsl(0, 0%, var(--switch));
 }
 .glow-btn.white-btn:hover {
   background-color: rgba(226, 226, 226, 0.3);
   box-shadow: inset 0px 0px 10px 3px #e2e2e2, 0px 0px 10px 3px #e2e2e2;
-  --switch: calc((var(light) - var(threshold)) * -100%);
-  border-color: hsl(0, 0%, var(--switch));
+  border-color: #000;
 }
 .hinge-btn {
   transition: transform 0.2s;
