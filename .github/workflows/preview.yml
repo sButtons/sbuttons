@@ -1,7 +1,7 @@
 name: Build and Deploy to Netlify
 on:
   pull_request:
-    types: [opened, synchronize]
+    #types: [opened, synchronize]
     paths-ignore:
       - '**.md'
       - '.all-contributorsrc'
