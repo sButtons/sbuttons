@@ -1236,7 +1236,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .appstore-btn.applestore:after {
   position: absolute;
   content: "Download on the";
-  top: 0px;
+  top: 3px;
   left: 100px;
   font-size: 0.8rem !important;
 }
@@ -1254,7 +1254,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .appstore-btn.playstore:after {
   position: absolute;
   content: "Get it on";
-  top: 0px;
+  top: 3px;
   left: 100px;
   font-size: 0.8rem !important;
 }

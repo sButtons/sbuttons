@@ -433,6 +433,9 @@ button.clipboard:focus {
   opacity: 0.6;
   color: floralwhite;
 }
+.appstore-btn {
+  font-family: "Syne" !important;
+}
 
 @keyframes gradient {
   0% {
@@ -444,7 +447,4 @@ button.clipboard:focus {
   100% {
     background-position: 0% 50%;
   }
-}
-.appstore-btn {
-  font-family: "Syne" !important;
 }
