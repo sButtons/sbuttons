@@ -366,6 +366,64 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border: 1px solid #fff;
   color: #333 !important;
 }
+.aurapulse-btn {
+  position: relative;
+  z-index: auto;
+  overflow: inherit;
+}
+.aurapulse-btn:before {
+  content: " ";
+  position: absolute;
+  transition: all 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.aurapulse-btn.blue-btn:before {
+  background-color: #50bfe6;
+}
+.aurapulse-btn.pink-btn:before {
+  background-color: #d53caf;
+}
+.aurapulse-btn.green-btn:before {
+  background-color: #3aa655;
+}
+.aurapulse-btn.yellow-btn:before {
+  background-color: #fbe870;
+}
+.aurapulse-btn.orange-btn:before {
+  background-color: #ff8833;
+}
+.aurapulse-btn.red-btn:before {
+  background-color: #ed0a3f;
+}
+.aurapulse-btn.purple-btn:before {
+  background-color: #652dc1;
+}
+.aurapulse-btn.black-btn:before {
+  background-color: #000;
+}
+.aurapulse-btn.white-btn:before {
+  background-color: #ebebeb;
+}
+.aurapulse-btn.rounded-btn:before {
+  border-radius: 25px;
+}
+.aurapulse-btn:hover:before {
+  animation: aurapulse 0.4s infinite;
+}
+@keyframes aurapulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0.2;
+  }
+}
 .click-btn {
   box-shadow: 0px 5px 0px #ccc;
 }
