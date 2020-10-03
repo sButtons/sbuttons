@@ -1005,6 +1005,16 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "Goodiec",
+      "name": "Goodiec",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15726413?v=4",
+      "profile": "https://github.com/Goodiec",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
