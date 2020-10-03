@@ -141,6 +141,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/mohitshende"><img src="https://avatars0.githubusercontent.com/u/54403334?v=4" width="100px;" alt=""/><br /><sub><b>mohitshende</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=mohitshende" title="Code">💻</a> <a href="#content-mohitshende" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Goodiec"><img src="https://avatars3.githubusercontent.com/u/15726413?v=4" width="100px;" alt=""/><br /><sub><b>Goodiec</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Goodiec" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AGoodiec" title="Bug reports">🐛</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="http://genarocolusso.github.io/"><img src="https://avatars3.githubusercontent.com/u/780543?v=4" width="100px;" alt=""/><br /><sub><b>Genaro Colusso</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=genarocolusso" title="Code">💻</a> <a href="#ideas-genarocolusso" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
