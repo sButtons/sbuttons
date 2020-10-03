@@ -573,10 +573,10 @@ $(document).ready(function () {
           : buttonArr[j];
 
         var totalClasses = `${defaultClass} ${button.classes}`,
-            totalWrittenClasses = `.${defaultClass} .${button.classes}`;
+          totalWrittenClasses = `.${defaultClass} .${button.classes}`;
         if (thisButtonClasses.length) {
           totalClasses += ` ${thisButtonClasses}`;
-          totalWrittenClasses += ` .${thisButtonClasses}`
+          totalWrittenClasses += ` .${thisButtonClasses}`;
         }
 
         // add normal button grid for button
