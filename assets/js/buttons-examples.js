@@ -572,11 +572,18 @@ $(document).ready(function () {
           ? buttonArr[j].classes
           : buttonArr[j];
 
+        var totalClasses = `${defaultClass} ${button.classes}`,
+            totalWrittenClasses = `.${defaultClass} .${button.classes}`;
+        if (thisButtonClasses.length) {
+          totalClasses += ` ${thisButtonClasses}`;
+          totalWrittenClasses += ` .${thisButtonClasses}`
+        }
+
         // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
-            `${defaultClass} ${button.classes} ${thisButtonClasses}`,
-            `.${defaultClass} .${button.classes} .${thisButtonClasses}`,
+            totalClasses,
+            totalWrittenClasses,
             thisButtonText,
             false,
             isDisabled
@@ -586,8 +593,8 @@ $(document).ready(function () {
           //add rounded button grid if enabled for button
           roundedButtonsGrid.append(
             getButtonHtml(
-              `${defaultClass} ${button.classes} rounded-btn ${thisButtonClasses}`,
-              `.${defaultClass} .${button.classes} .rounded-btn .${thisButtonClasses}`,
+              `${totalClasses} rounded-btn`,
+              `.${totalWrittenClasses} .rounded-btn`,
               thisButtonText,
               false,
               isDisabled
@@ -598,8 +605,8 @@ $(document).ready(function () {
           //add block button grid if enabled for button
           blockButtonsGrid.append(
             getButtonHtml(
-              `${defaultClass} ${button.classes} block-btn ${thisButtonClasses}`,
-              `.${defaultClass} .${button.classes} .block-btn .${thisButtonClasses}`,
+              `${totalClasses} block-btn`,
+              `.${totalWrittenClasses} .block-btn`,
               thisButtonText,
               true,
               isDisabled
