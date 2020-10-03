@@ -2,6 +2,7 @@
 
 Our amazing contributors helped shape our project and make it much better. Here you can find them all and how they contributed to our project.
 
+<!-- eslint version:6 -->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -148,4 +149,5 @@ Our amazing contributors helped shape our project and make it much better. Here 
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
