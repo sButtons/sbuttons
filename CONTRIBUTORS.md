@@ -139,6 +139,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://twitter.com/_Darkatom_"><img src="https://avatars3.githubusercontent.com/u/6599907?v=4" width="100px;" alt=""/><br /><sub><b>Olsyx</b></sub></a><br /><a href="#ideas-Olsyx" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/sButtons/sbuttons/commits?author=Olsyx" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/gokul112"><img src="https://avatars2.githubusercontent.com/u/11469509?v=4" width="100px;" alt=""/><br /><sub><b>Gokul Raj </b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=gokul112" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mohitshende"><img src="https://avatars0.githubusercontent.com/u/54403334?v=4" width="100px;" alt=""/><br /><sub><b>mohitshende</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=mohitshende" title="Code">💻</a> <a href="#content-mohitshende" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Goodiec"><img src="https://avatars3.githubusercontent.com/u/15726413?v=4" width="100px;" alt=""/><br /><sub><b>Goodiec</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Goodiec" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AGoodiec" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
