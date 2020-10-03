@@ -96,7 +96,7 @@ $(document).ready(function () {
         },
         {
           type: "next",
-          label: "Next Button",
+          label: "Next",
           classes: "next-arrow-btn",
         },
         {
@@ -106,7 +106,7 @@ $(document).ready(function () {
         },
         {
           type: "previous",
-          label: "Previous Button",
+          label: "Previous",
           classes: "previous-arrow-btn",
         },
         {
@@ -169,8 +169,8 @@ $(document).ready(function () {
     },
     {
       type: "disable",
-      classes: "disabled-btn",
       label: "Disabled Buttons",
+      classes: "disabled-btn",
     },
     {
       type: "hover",
@@ -185,13 +185,13 @@ $(document).ready(function () {
       children: [
         {
           type: "add-to-cart",
-          label: "Add To Cart Button",
+          label: "Add To Cart",
           classes: "add-to-cart-btn",
           text: "Add To Cart",
         },
         {
           type: "appstore",
-          label: "App Store Button",
+          label: "App Store",
           classes: "appstore-btn",
           variations: [
             {
@@ -207,55 +207,55 @@ $(document).ready(function () {
 
         {
           type: "buy-me-coffee",
-          label: "Buy Me Coffee Button",
+          label: "Buy Me Coffee",
           classes: "buy-me-coffee-btn",
           text: "Buy me coffee",
         },
         {
           type: "chat",
-          label: "Chat Box Button",
+          label: "Chat Box",
           classes: "chat-btn",
           text: "",
         },
         {
           type: "download",
-          label: "Download Button",
+          label: "Download",
           classes: "download-btn",
           text: "Download",
         },
         {
           type: "drop-down",
-          label: "Dropdown Button",
+          label: "Dropdown",
           classes: "drop-down-btn",
           text: "Dropdown Button",
         },
         {
           type: "like",
-          label: "Like Button",
+          label: "Like",
           classes: "like-btn",
           text: "",
         },
         {
           type: "play",
-          label: "Play Button",
+          label: "Play",
           classes: "play-btn",
           text: "",
         },
         {
           type: "plus",
-          label: "Plus Button",
+          label: "Plus",
           classes: "plus-btn",
           text: "",
         },
         {
           type: "scroll-to-top",
-          label: "Scroll-to-Top Button",
+          label: "Scroll-to-Top",
           classes: "scroll-to-top-btn",
           text: "",
         },
         {
           type: "star",
-          label: "Star Button",
+          label: "Star",
           classes: "star-btn",
           text: "",
           shouldHaveRoundedType: false,
@@ -342,7 +342,7 @@ $(document).ready(function () {
       children: [
         {
           type: "play-game",
-          label: "Play game Button",
+          label: "Play game",
           classes: "play-game-btn",
           text: "",
         },
