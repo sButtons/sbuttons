@@ -1626,6 +1626,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #353535;
   content: "\f2ac";
 }
+.social-btn.microsoft {
+  background-color: #00acee;
+  color: #fff;
+}
+.social-btn.microsoft:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  content: "\f17a";
+}
+.social-btn.reddit {
+  background-color: #ee0000;
+  color: #fff;
+}
+.social-btn.reddit:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  content: "\f1a1";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
