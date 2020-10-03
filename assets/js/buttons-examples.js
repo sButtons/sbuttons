@@ -249,6 +249,14 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
+          classes: "paypal",
+          text: "Pay with Paypal",
+        },
+        {
+          classes: "qq",
+          text: "Login with QQ",
+        },
+        {
           classes: "snapchat",
           text: "Login with Snapchat",
         },
@@ -261,24 +269,16 @@ $(document).ready(function () {
           text: "Login with Tumblr",
         },
         {
+          classes: "vk",
+          text: "Login with VK",
+        },
+        {
           classes: "weibo",
           text: "Login with Weibo",
         },
         {
           classes: "yahoo",
           text: "Login with Yahoo",
-        },
-        {
-          classes: "paypal",
-          text: "Pay with Paypal",
-        },
-        {
-          classes: "qq",
-          text: "Login with QQ",
-        },
-        {
-          classes: "vk",
-          text: "Login with VK",
         },
       ],
       children: [],
