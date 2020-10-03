@@ -412,7 +412,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-radius: 25px;
 }
 .aurapulse-btn:hover:before {
-  animation: aurapulse 0.4s infinite;
+  animation: aurapulse 0.5s infinite;
 }
 @keyframes aurapulse {
   0% {
@@ -1668,6 +1668,26 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .star-btn:active {
   font-weight: 900;
   color: #fbe870;
+}
+.thumbsup-btn {
+  transform-origin: center;
+}
+.thumbsup-btn:before {
+  content: "\f164";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.thumbsup-btn:not(.rounded-btn) {
+  padding: 0.2em;
+}
+.thumbsup-btn.rounded-btn {
+  width: 1.6em;
+  height: 1.6em;
+  padding: 0;
 }
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;

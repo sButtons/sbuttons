@@ -287,6 +287,12 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "thumbs-up",
+          label: "Thumbs-Up",
+          classes: "thumbsup-btn",
+          text: "",
+        },
       ],
     },
     {
