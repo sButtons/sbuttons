@@ -1828,18 +1828,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .retro-btn-proceed:active {
   box-shadow: inset 4px 4px 0px 0px #e59400;
 }
-.rounded-bottom-btn {
-  border-radius: 0 0 24px 24px;
-}
-.rounded-bottom-btn:hover {
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-}
-.rounded-bottom-btn:active {
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
-}
-.rounded-bottom-btn.rounded-btn.rd-tl-btn {
-  border-radius: 0 0 34px 34px;
-}
 .rounded-top-btn {
   border-radius: 24px 24px 0 0;
 }
@@ -1851,6 +1839,18 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .rounded-top-btn.rounded-btn.rd-top-btn {
   border-radius: 14px 34px;
+}
+.rounded-bottom-btn {
+  border-radius: 0 0 24px 24px;
+}
+.rounded-bottom-btn:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.rounded-bottom-btn:active {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+.rounded-bottom-btn.rounded-btn.rd-tl-btn {
+  border-radius: 0 0 34px 34px;
 }
 .rounded-diagonal-tl-btn {
   border-radius: 24px 4px;
@@ -1910,6 +1910,40 @@ a.yellow-btn:active:not(.fill-color-btn) {
     30px 40px #3d3d3d, 35px 40px #3d3d3d, 40px 40px #6e6e6e, 45px 40px #6e6e6e,
     50px 40px #6e6e6e, 55px 40px #3d3d3d, 10px 45px #3d3d3d, 15px 45px #3d3d3d,
     20px 45px #3d3d3d, 40px 45px #3d3d3d, 45px 45px #3d3d3d, 50px 45px #3d3d3d;
+}
+@font-face {
+  font-family: "Questrial";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Questrial Regular"), local("Questrial-Regular"),
+    url(https://fonts.gstatic.com/s/questrial/v12/QdVUSTchPBm7nuUeVf7EuQ.ttf)
+      format("truetype");
+}
+.win95-btn {
+  font-family: "Questrial", sans-serif;
+  font-size: inherit;
+  color: black;
+  background-color: #d4d4d4;
+  padding: 0.3rem 3.4rem;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
+}
+.win95-btn:last-child {
+  margin: 0;
+}
+.win95-btn:hover {
+  box-shadow: 0.4rem 0.4rem 0 black;
+  transform: translate(-0.4rem, -0.4rem);
+}
+.win95-btn:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
 }
 .dashed-btn {
   background-color: transparent;
