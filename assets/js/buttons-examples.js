@@ -380,22 +380,6 @@ $(document).ready(function () {
           ],
         },
         {
-          type: "win95-btn",
-          label: "Windows 95",
-          classes: "win95-btn",
-          variations: [
-            {
-              classes: "",
-              text: "Yes",
-            },
-            {
-              classes: "",
-              text: "No",
-            },
-          ],
-        },
-
-        {
           type: "rounded-bottom",
           label: "Rounded Bottom",
           classes: "rounded-bottom-btn",
@@ -422,6 +406,21 @@ $(document).ready(function () {
           classes: "rounded-diagonal-tr-btn",
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
+        },
+        {
+          type: "win95-btn",
+          label: "Windows 95",
+          classes: "win95-btn",
+          variations: [
+            {
+              classes: "",
+              text: "Yes",
+            },
+            {
+              classes: "",
+              text: "No",
+            },
+          ],
         },
       ],
     },
