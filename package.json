@@ -5,7 +5,7 @@
   "main": "index.html",
   "author": "Shahed Nasser",
   "license": "ISC",
-  "homepage": "https://shahednasser.github.io/sbuttons/",
+  "homepage": "https://sbuttons.github.io/sbuttons/",
   "keywords": [
     "less",
     "buttons",
@@ -35,11 +35,11 @@
     "surge": "^0.21.6"
   },
   "bugs": {
-    "url": "https://github.com/shahednasser/sbuttons/issues",
+    "url": "https://github.com/sButtons/sbuttons/issues",
     "email": "shahednasser@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shahednasser/sbuttons"
+    "url": "https://github.com/sButtons/sbuttons"
   }
 }
