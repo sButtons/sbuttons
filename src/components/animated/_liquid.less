@@ -1,0 +1,93 @@
+.liquid-btn {
+  position: relative;
+  z-index: -1;
+
+  &::before {
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    border-radius: 45%;
+    background: rgba(255, 255, 255, 1);
+    animation: waterEffect 5s linear infinite;
+    z-index: -1;
+  }
+
+  &::after {
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    border-radius: 40%;
+    background: rgba(255, 255, 255, 0.5);
+    animation: waterEffect 10s linear infinite;
+    z-index: -1;
+  }
+
+  .liquidBtn(@color) {
+    border-color: @color;
+    color: #000 !important;
+    .bc(@color);
+
+    &:hover::before {
+      transition: 0.5s linear;
+      top: -120px;
+    }
+
+    &:hover::after {
+      transition: 0.5s linear;
+      top: -120px;
+    }
+  }
+
+  &.blue-btn {
+    .liquidBtn(@blue);
+  }
+  &.pink-btn {
+    .liquidBtn(@pink);
+  }
+
+  &.green-btn {
+    .liquidBtn(@green);
+  }
+
+  &.yellow-btn {
+    .liquidBtn(@yellow);
+    color: #fff;
+  }
+
+  &.orange-btn {
+    .liquidBtn(@orange);
+  }
+
+  &.red-btn {
+    .liquidBtn(@red);
+  }
+
+  &.purple-btn {
+    .liquidBtn(@purple);
+  }
+
+  &.black-btn {
+    .liquidBtn(@black);
+    color: #fff !important;
+  }
+
+  &.white-btn {
+    .liquidBtn(@white);
+  }
+}
+@keyframes waterEffect {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}

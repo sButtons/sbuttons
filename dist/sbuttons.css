@@ -1168,6 +1168,163 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transform: skew(0);
   }
 }
+.liquid-btn {
+  position: relative;
+  z-index: -1;
+}
+.liquid-btn::before {
+  content: "";
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  border-radius: 45%;
+  background: #ffffff;
+  animation: waterEffect 5s linear infinite;
+  z-index: -1;
+}
+.liquid-btn::after {
+  content: "";
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  border-radius: 40%;
+  background: rgba(255, 255, 255, 0.5);
+  animation: waterEffect 10s linear infinite;
+  z-index: -1;
+}
+.liquid-btn.blue-btn {
+  border-color: #50bfe6;
+  color: #000 !important;
+  background-color: #50bfe6;
+}
+.liquid-btn.blue-btn:hover::before {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.blue-btn:hover::after {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.pink-btn {
+  border-color: #d53caf;
+  color: #000 !important;
+  background-color: #d53caf;
+}
+.liquid-btn.pink-btn:hover::before {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.pink-btn:hover::after {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.green-btn {
+  border-color: #3aa655;
+  color: #000 !important;
+  background-color: #3aa655;
+}
+.liquid-btn.green-btn:hover::before {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.green-btn:hover::after {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.yellow-btn {
+  border-color: #fbe870;
+  color: #000 !important;
+  background-color: #fbe870;
+  color: #fff;
+}
+.liquid-btn.yellow-btn:hover::before {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.yellow-btn:hover::after {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.orange-btn {
+  border-color: #ff8833;
+  color: #000 !important;
+  background-color: #ff8833;
+}
+.liquid-btn.orange-btn:hover::before {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.orange-btn:hover::after {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.red-btn {
+  border-color: #ed0a3f;
+  color: #000 !important;
+  background-color: #ed0a3f;
+}
+.liquid-btn.red-btn:hover::before {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.red-btn:hover::after {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.purple-btn {
+  border-color: #652dc1;
+  color: #000 !important;
+  background-color: #652dc1;
+}
+.liquid-btn.purple-btn:hover::before {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.purple-btn:hover::after {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.black-btn {
+  border-color: #000;
+  color: #000 !important;
+  background-color: #000;
+  color: #fff !important;
+}
+.liquid-btn.black-btn:hover::before {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.black-btn:hover::after {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.white-btn {
+  border-color: #fff;
+  color: #000 !important;
+  background-color: #fff;
+}
+.liquid-btn.white-btn:hover::before {
+  transition: 0.5s linear;
+  top: -120px;
+}
+.liquid-btn.white-btn:hover::after {
+  transition: 0.5s linear;
+  top: -120px;
+}
+@keyframes waterEffect {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;

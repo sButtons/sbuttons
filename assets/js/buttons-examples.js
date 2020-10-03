@@ -154,6 +154,11 @@ $(document).ready(function () {
           label: "Transparent On Hover",
           classes: "transparent-btn",
         },
+        {
+          type: "liquid",
+          label: "Liquid Button",
+          classes: "liquid-btn",
+        },
       ],
     },
     {
