@@ -213,6 +213,20 @@ $(document).ready(function () {
           text: "",
         },
         {
+          type: "close",
+          label: "Close Button",
+          classes: "",
+          variations: [
+             {  
+                 classes: "close-btn",
+                 label: "",
+                 text:""
+             }
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false
+        },
+        {
           type: "download",
           label: "Download Button",
           classes: "download-btn",
