@@ -1495,6 +1495,22 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-weight: 900;
   color: #fbe870;
 }
+.share-btn {
+  color: #000;
+  font-weight: 900;
+}
+.share-btn:before {
+  content: "\f1e0";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.share-btn:active {
+  color: #414141;
+}
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;

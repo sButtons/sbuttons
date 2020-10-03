@@ -262,6 +262,20 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "share",
+          label: "Share Button",
+          classes: "share-btn",
+          text: "",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "",
+              text: "",
+            },
+          ],
+        },
       ],
     },
     {
