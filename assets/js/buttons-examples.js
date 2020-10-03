@@ -70,6 +70,11 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
+          type: "aura-pulse",
+          label: "Aura Pulse",
+          classes: "aurapulse-btn",
+        },
+        {
           type: "glow",
           label: "Glow",
           classes: "glow-btn",
