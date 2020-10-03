@@ -32,10 +32,12 @@
       bottom: 0;
     }
 
+    &:not(.active):before,
     &:not(:hover):before {
       height: 0%;
     }
 
+    &.active:before,
     &:hover:before {
       height: 100%;
     }
@@ -47,15 +49,18 @@
       top: 0;
     }
 
+    &:not(.active):before,
     &:not(:hover):before {
       width: 0%;
     }
 
+    &.active:before,
     &:hover:before {
       width: 100%;
     }
   }
 
+  &.active,
   &:hover {
     color: @lightText !important;
   }
@@ -83,6 +88,7 @@
   &.yellow-btn {
     .colorBtn(@yellow);
 
+    &.active,
     &:hover {
       color: @darkText !important;
     }
@@ -108,6 +114,8 @@
     .colorBtn(@white);
     border-color: @whiteBorder !important;
     color: @darkText;
+
+    &.active,
     &:hover {
       color: @darkText !important;
     }

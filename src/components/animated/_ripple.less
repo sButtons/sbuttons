@@ -14,11 +14,13 @@
     transform: translate(-50%, -50%);
   }
 
+  &.active,
   &:hover {
     color: white !important;
     transition: 0.5s;
   }
 
+  &.active::before,
   &:hover::before {
     animation: a-ripple 1s cubic-bezier(0.39, 0.58, 0.57, 1) forwards;
   }
@@ -45,6 +47,7 @@
 
   &.yellow-btn {
     .rippleBtn(@yellow);
+    &.active,
     &:hover {
       color: @darkText !important;
     }
@@ -69,6 +72,7 @@
   &.white-btn {
     .rippleBtn(@white);
     border-color: @whiteBorder;
+    &.active,
     &:hover {
       color: @darkText !important;
     }
