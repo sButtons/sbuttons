@@ -159,6 +159,11 @@ $(document).ready(function () {
           label: "Transparent On Hover",
           classes: "transparent-btn",
         },
+        {
+          type: "expanding",
+          label: "Expanding Border",
+          classes: "expanding-btn",
+        },
       ],
     },
     {
