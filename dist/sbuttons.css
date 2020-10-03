@@ -1923,16 +1923,16 @@ a.yellow-btn:active:not(.fill-color-btn) {
     20px 45px #3d3d3d, 40px 45px #3d3d3d, 45px 45px #3d3d3d, 50px 45px #3d3d3d;
 }
 @font-face {
-  font-family: "Questrial";
+  font-family: "VT323";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Questrial Regular"), local("Questrial-Regular"),
-    url(https://fonts.gstatic.com/s/questrial/v12/QdVUSTchPBm7nuUeVf7EuQ.ttf)
+  src: local("VT323 Regular"), local("VT323-Regular"),
+    url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2hsY.ttf)
       format("truetype");
 }
 .win95-btn {
-  font-family: "Questrial", sans-serif;
+  font-family: "VT323", monospace;
   font-size: inherit;
   color: black;
   background-color: #d4d4d4;
@@ -1949,8 +1949,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   margin: 0;
 }
 .win95-btn:hover {
-  box-shadow: 0.4rem 0.4rem 0 black;
-  transform: translate(-0.4rem, -0.4rem);
+  box-shadow: 0.2rem 0.2rem 0 black;
+  transform: translate(-0.2rem, -0.2rem);
 }
 .win95-btn:active {
   box-shadow: 0 0 0 black;
