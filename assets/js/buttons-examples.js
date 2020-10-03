@@ -353,6 +353,13 @@ $(document).ready(function () {
           ],
         },
         {
+          type: "rounded-bottom",
+          label: "Rounded Bottom",
+          classes: "rounded-bottom-btn",
+          text: "Rounded Bottom",
+          shouldHaveRoundedType: false,
+        },
+        {
           type: "rounded-diagonal-tl",
           label: "Rounded Diagonal (Top Left)",
           classes: "rounded-diagonal-tl-btn",
