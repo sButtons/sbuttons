@@ -43,3 +43,10 @@
 .margin-left--half {
   margin-left: 0.5rem;
 }
+
+.sidebar {
+  border-top: 3px solid #283593;
+  margin-top: 13%;
+  width:83.8%;
+  z-index: -1   
+}

@@ -85,6 +85,13 @@ header {
   height: 3em;
 }
 
+.sidebar {
+    border-top: 3px solid #283593;
+    margin-top: 13%;
+    width:83.8%;
+    z-index: -1   
+}
+
 .logo {
   font-size: 2rem;
   color: var(--main-color);
