@@ -199,6 +199,21 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "base-icon",
+          label: "Base Icon button",
+          classes: "base-icon-btn",
+          variations: [
+            {
+              classes: "icon-right",
+              text: "base icon",
+            },
+            {
+              classes: "icon-left",
+              text: "base icon",
+            },
+          ],
+        },
 
         {
           type: "buy-me-coffee",

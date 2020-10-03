@@ -1495,6 +1495,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-weight: 900;
   color: #fbe870;
 }
+.base-icon-btn {
+  background: darkblue;
+  border: 1px solid red;
+  padding-left: 2%;
+}
+.base-icon-btn:not(.rounded-btn) {
+  border-radius: 5px;
+}
+.base-icon-btn:not(.block-btn) {
+  border-radius: 5px;
+}
+.base-icon-btn.icon-left:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  margin-left: -2%;
+}
+.base-icon-btn.icon-right:after {
+  content: "";
+  border: 1px solid #fff;
+}
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;

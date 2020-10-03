@@ -1,0 +1,31 @@
+.base-icon-btn {
+  background: darkblue;
+  border: 1px solid red;
+  padding-left: 2%;
+
+  &:not(.rounded-btn) {
+    border-radius: 5px;
+  }
+
+  &:not(.block-btn) {
+    border-radius: 5px;
+  }
+
+  &.icon-left {
+    &:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      color: #fff;
+      border: 1px solid #fff;
+      margin-left: -2%;
+    }
+  }
+
+  &.icon-right {
+    &:after {
+      content: "";
+      border: 1px solid #fff;
+    }
+  }
+}
