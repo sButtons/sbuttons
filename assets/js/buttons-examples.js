@@ -294,6 +294,23 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "toggle",
+          label: "Toggle button (on and off)",
+          classes: "toggle-btn",
+          variations: [
+            {
+              classes: "toggle-on-btn",
+              text: "",
+            },
+            {
+              classes: "toggle-off-btn",
+              text: "",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
       ],
     },
   ];
