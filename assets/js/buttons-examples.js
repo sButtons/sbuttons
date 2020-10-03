@@ -85,6 +85,11 @@ $(document).ready(function () {
           classes: "invert-btn",
         },
         {
+          type: "key",
+          label: "Key",
+          classes: "key-btn",
+        },
+        {
           type: "neon",
           label: "Neon",
           classes: "neon-btn",
@@ -304,6 +309,14 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
+          classes: "microsoft",
+          text: "Login with Microsoft",
+        },
+        {
+          classes: "reddit",
+          text: "Login with Reddit",
+        },
+        {
           classes: "snapchat",
           text: "Login with Snapchat",
         },
@@ -351,6 +364,20 @@ $(document).ready(function () {
               text: "Reset",
             },
           ],
+        },
+        {
+          type: "rounded-bottom",
+          label: "Rounded Bottom",
+          classes: "rounded-bottom-btn",
+          text: "Rounded Bottom",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-top",
+          label: "Rounded Top",
+          classes: "rounded-top-btn",
+          text: "Rounded Top",
+          shouldHaveRoundedType: false,
         },
         {
           type: "rounded-diagonal-tl",
