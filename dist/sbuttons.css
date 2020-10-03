@@ -931,18 +931,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .splash-btn:before {
   content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
   top: -2px;
   left: -2px;
@@ -1046,8 +1035,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   opacity: 1;
   border-top: 0.2rem solid yellow;
   border-right: 0.2rem solid yellow;
-  transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1),
-    height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
+  transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1), height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
   border-color: #333;
 }
 .snake-btn:hover:after {
@@ -1056,8 +1044,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   opacity: 1;
   border-bottom: 0.2rem solid;
   border-left: 0.2rem solid;
-  transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1),
-    height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
+  transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1), height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
   border-color: #333;
 }
 .snake-btn:focus {
@@ -1477,6 +1464,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 2em;
   padding: 0;
 }
+.close-btn::before {
+  content: "\f00d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  color: #000;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
 .drop-down-btn {
   position: relative;
   padding-right: 1.5em;
@@ -1648,14 +1646,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   content: "\f39e";
 }
 .social-btn.instagram {
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   color: #fff;
   border: 0px !important;
 }
@@ -1754,13 +1745,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   content: "\f1a1";
 }
 @font-face {
-  font-family: "Press Start 2P";
+  font-family: 'Press Start 2P';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Press Start 2P Regular"), local("PressStart2P-Regular"),
-    url(https://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf)
-      format("truetype");
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf) format('truetype');
 }
 .retro-btn {
   background: #92cd41;
@@ -1892,24 +1881,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   left: 0;
   width: 5px;
   height: 5px;
-  box-shadow: 25px 0px #3d3d3d, 25px 5px #3d3d3d, 30px 10px #3d3d3d,
-    35px 15px #3d3d3d, 15px 15px #3d3d3d, 20px 15px #3d3d3d, 25px 15px #3d3d3d,
-    30px 15px #3d3d3d, 35px 15px #3d3d3d, 40px 15px #3d3d3d, 45px 15px #3d3d3d,
-    10px 20px #3d3d3d, 15px 20px #6e6e6e, 20px 20px #a6a6a6, 25px 20px #a6a6a6,
-    30px 20px #a6a6a6, 30px 20px #a6a6a6, 35px 20px #a6a6a6, 40px 20px #a6a6a6,
-    45px 20px #6e6e6e, 50px 20px #3d3d3d, 5px 25px #3d3d3d, 10px 25px #6e6e6e,
-    15px 25px #3d3d3d, 20px 25px #6e6e6e, 25px 25px #a6a6a6, 30px 25px #a6a6a6,
-    35px 25px #a6a6a6, 40px 25px #6e6e6e, 45px 25px #9ea1ff, 50px 25px #6e6e6e,
-    55px 25px #3d3d3d, 5px 30px #3d3d3d, 10px 30px #3d3d3d, 15px 30px #3d3d3d,
-    20px 30px #3d3d3d, 25px 30px #a6a6a6, 30px 30px #a6a6a6, 35px 30px #a6a6a6,
-    40px 30px #00ff00, 45px 30px #ffffff, 50px 30px #ff0000, 55px 30px #3d3d3d,
-    5px 35px #3d3d3d, 10px 35px #6e6e6e, 15px 35px #3d3d3d, 20px 35px #6e6e6e,
-    25px 35px #a6a6a6, 30px 35px #a6a6a6, 35px 35px #a6a6a6, 40px 35px #6e6e6e,
-    45px 35px #ffff00, 50px 35px #6e6e6e, 55px 35px #3d3d3d, 5px 40px #3d3d3d,
-    10px 40px #6e6e6e, 15px 40px #6e6e6e, 20px 40px #6e6e6e, 25px 40px #3d3d3d,
-    30px 40px #3d3d3d, 35px 40px #3d3d3d, 40px 40px #6e6e6e, 45px 40px #6e6e6e,
-    50px 40px #6e6e6e, 55px 40px #3d3d3d, 10px 45px #3d3d3d, 15px 45px #3d3d3d,
-    20px 45px #3d3d3d, 40px 45px #3d3d3d, 45px 45px #3d3d3d, 50px 45px #3d3d3d;
+  box-shadow: 25px 0px #3d3d3d, 25px 5px #3d3d3d, 30px 10px #3d3d3d, 35px 15px #3d3d3d, 15px 15px #3d3d3d, 20px 15px #3d3d3d, 25px 15px #3d3d3d, 30px 15px #3d3d3d, 35px 15px #3d3d3d, 40px 15px #3d3d3d, 45px 15px #3d3d3d, 10px 20px #3d3d3d, 15px 20px #6e6e6e, 20px 20px #a6a6a6, 25px 20px #a6a6a6, 30px 20px #a6a6a6, 30px 20px #a6a6a6, 35px 20px #a6a6a6, 40px 20px #a6a6a6, 45px 20px #6e6e6e, 50px 20px #3d3d3d, 5px 25px #3d3d3d, 10px 25px #6e6e6e, 15px 25px #3d3d3d, 20px 25px #6e6e6e, 25px 25px #a6a6a6, 30px 25px #a6a6a6, 35px 25px #a6a6a6, 40px 25px #6e6e6e, 45px 25px #9ea1ff, 50px 25px #6e6e6e, 55px 25px #3d3d3d, 5px 30px #3d3d3d, 10px 30px #3d3d3d, 15px 30px #3d3d3d, 20px 30px #3d3d3d, 25px 30px #a6a6a6, 30px 30px #a6a6a6, 35px 30px #a6a6a6, 40px 30px #00ff00, 45px 30px #ffffff, 50px 30px #ff0000, 55px 30px #3d3d3d, 5px 35px #3d3d3d, 10px 35px #6e6e6e, 15px 35px #3d3d3d, 20px 35px #6e6e6e, 25px 35px #a6a6a6, 30px 35px #a6a6a6, 35px 35px #a6a6a6, 40px 35px #6e6e6e, 45px 35px #ffff00, 50px 35px #6e6e6e, 55px 35px #3d3d3d, 5px 40px #3d3d3d, 10px 40px #6e6e6e, 15px 40px #6e6e6e, 20px 40px #6e6e6e, 25px 40px #3d3d3d, 30px 40px #3d3d3d, 35px 40px #3d3d3d, 40px 40px #6e6e6e, 45px 40px #6e6e6e, 50px 40px #6e6e6e, 55px 40px #3d3d3d, 10px 45px #3d3d3d, 15px 45px #3d3d3d, 20px 45px #3d3d3d, 40px 45px #3d3d3d, 45px 45px #3d3d3d, 50px 45px #3d3d3d;
 }
 .dashed-btn {
   background-color: transparent;
