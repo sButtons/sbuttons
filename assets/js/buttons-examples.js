@@ -154,6 +154,11 @@ $(document).ready(function () {
           label: "Transparent On Hover",
           classes: "transparent-btn",
         },
+        {
+          type: "diagonalHover",
+          label: "Diagonal Background on Hover",
+          classes: "diagonal-background-btn",
+        },
       ],
     },
     {

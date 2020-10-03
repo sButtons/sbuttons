@@ -1168,6 +1168,93 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transform: skew(0);
   }
 }
+.diagonal-background-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  background-size: 250%;
+  transition: all 0.4s;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.diagonal-background-btn.purple-btn {
+  background-image: linear-gradient(
+    120deg,
+    transparent 50%,
+    #652dc1 50%
+  ) !important;
+  color: #652dc1 !important;
+}
+.diagonal-background-btn.blue-btn {
+  background-image: linear-gradient(
+    120deg,
+    transparent 50%,
+    #50bfe6 50%
+  ) !important;
+  color: #50bfe6 !important;
+}
+.diagonal-background-btn.pink-btn {
+  background-image: linear-gradient(
+    120deg,
+    transparent 50%,
+    #d53caf 50%
+  ) !important;
+  color: #d53caf !important;
+}
+.diagonal-background-btn.red-btn {
+  background-image: linear-gradient(
+    120deg,
+    transparent 50%,
+    #ed0a3f 50%
+  ) !important;
+  color: #ed0a3f !important;
+}
+.diagonal-background-btn.green-btn {
+  background-image: linear-gradient(
+    120deg,
+    transparent 50%,
+    #3aa655 50%
+  ) !important;
+  color: #3aa655 !important;
+}
+.diagonal-background-btn.yellow-btn {
+  background-image: linear-gradient(
+    120deg,
+    transparent 50%,
+    #fbe870 50%
+  ) !important;
+  color: #fbe870 !important;
+}
+.diagonal-background-btn.orange-btn {
+  background-image: linear-gradient(
+    120deg,
+    transparent 50%,
+    #ff8833 50%
+  ) !important;
+  color: #ff8833 !important;
+}
+.diagonal-background-btn.black-btn {
+  background-image: linear-gradient(
+    120deg,
+    transparent 50%,
+    #000 50%
+  ) !important;
+  color: #313131 !important;
+}
+.diagonal-background-btn.white-btn {
+  background-image: linear-gradient(
+    120deg,
+    transparent 50%,
+    #fff 50%
+  ) !important;
+  color: #313131 !important;
+}
+.diagonal-background-btn:hover {
+  background-position: 100%;
+  color: #fff !important;
+  transform: translateX(16px);
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
