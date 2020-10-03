@@ -380,6 +380,22 @@ $(document).ready(function () {
           ],
         },
         {
+          type: "win95-btn",
+          label: "Windows 95",
+          classes: "win95-btn",
+          variations: [
+            {
+              classes: "",
+              text: "Yes",
+            },
+            {
+              classes: "",
+              text: "No",
+            },
+          ],
+        },
+
+        {
           type: "rounded-bottom",
           label: "Rounded Bottom",
           classes: "rounded-bottom-btn",
