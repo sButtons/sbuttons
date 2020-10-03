@@ -13,6 +13,7 @@
   text-decoration: none;
   width: fit-content;
   margin-bottom: 5px;
+  white-space: nowrap;
 }
 .sidebar a:before {
   position: absolute;
@@ -58,32 +59,37 @@
   color: #fff;
 }
 
-#shade {
+.shade {
   opacity: 0%;
   transition: opacity 0.2s;
 }
 
-.sidebar-list {
+.sidebar-list,
+.instructions-sidebar {
   overflow-y: auto;
 }
 
-.sidebar-list a {
+.sidebar-list a,
+.instructions-sidebar a {
   font-family: Syne, sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
   display: block;
 }
 
-.sidebar-list::-webkit-scrollbar {
+.sidebar-list::-webkit-scrollbar,
+.instructions-sidebar::-webkit-scrollbar {
   width: 6px;
 }
 
-.sidebar-list::-webkit-scrollbar-thumb {
+.sidebar-list::-webkit-scrollbar-thumb,
+.instructions-sidebar::-webkit-scrollbar-thumb {
   background: var(--main-color);
   border-radius: 2.5px;
 }
 
-.sidebar-list::-webkit-scrollbar-thumb:hover {
+.sidebar-list::-webkit-scrollbar-thumb:hover,
+.instructions-sidebar::-webkit-scrollbar-thumb:hover {
   background: var(--main-color);
 }
 
@@ -99,7 +105,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .sidebar-list {
+  .sidebar-list,
+  .instructions-sidebar {
     max-height: 80vh;
     padding-right: 20px;
   }
@@ -150,7 +157,7 @@
     z-index: 100;
   }
 
-  #shade.shown {
+  .shade.shown {
     width: 100vw;
     height: 100vh;
     z-index: 9;
