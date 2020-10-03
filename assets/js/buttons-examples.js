@@ -1,17 +1,17 @@
 $(document).ready(function () {
   //default button class
-  var defaultClass = 'sbtn';
+  var defaultClass = "sbtn";
   //button color variations
   var buttonColors = [
-    'blue-btn',
-    'pink-btn',
-    'red-btn',
-    'green-btn',
-    'yellow-btn',
-    'orange-btn',
-    'purple-btn',
-    'black-btn',
-    'white-btn',
+    "blue-btn",
+    "pink-btn",
+    "red-btn",
+    "green-btn",
+    "yellow-btn",
+    "orange-btn",
+    "purple-btn",
+    "black-btn",
+    "white-btn",
   ];
   /**buttons is a list of button type objects tht will be rendered on the page load
    * with their respective class names, labels, children and types.
@@ -28,67 +28,67 @@ $(document).ready(function () {
    */
   var buttons = [
     {
-      type: 'basic',
-      label: 'Basic Buttons',
-      classes: 'basic-btn',
+      type: "basic",
+      label: "Basic Buttons",
+      classes: "basic-btn",
       children: [],
       shouldHaveRoundedType: true,
     },
     {
-      type: 'animated',
-      label: 'Animated Buttons',
-      classes: '',
+      type: "animated",
+      label: "Animated Buttons",
+      classes: "",
       children: [
         {
-          type: 'aura-pulse',
-          label: 'Aura Pulse',
-          classes: 'aurapulse-btn',
+          type: "aura-pulse",
+          label: "Aura Pulse",
+          classes: "aurapulse-btn",
         },
         {
-          type: 'bounce',
-          label: 'Bounce',
-          classes: 'bouncy-btn',
+          type: "bounce",
+          label: "Bounce",
+          classes: "bouncy-btn",
         },
         {
-          type: 'click',
-          label: 'Click',
-          classes: 'click-btn',
+          type: "click",
+          label: "Click",
+          classes: "click-btn",
         },
         {
-          type: 'fill-color-down',
-          label: 'Fill Color - Down',
-          classes: 'fill-color-btn down-fill',
+          type: "fill-color-down",
+          label: "Fill Color - Down",
+          classes: "fill-color-btn down-fill",
         },
         {
-          type: 'fill-color-left',
-          label: 'Fill Color - Left',
-          classes: 'fill-color-btn',
+          type: "fill-color-left",
+          label: "Fill Color - Left",
+          classes: "fill-color-btn",
         },
         {
-          type: 'fill-color-right',
-          label: 'Fill Color - Right',
-          classes: 'fill-color-btn right-fill',
+          type: "fill-color-right",
+          label: "Fill Color - Right",
+          classes: "fill-color-btn right-fill",
         },
         {
-          type: 'fill-color-up',
-          label: 'Fill Color - Up',
-          classes: 'fill-color-btn up-fill',
+          type: "fill-color-up",
+          label: "Fill Color - Up",
+          classes: "fill-color-btn up-fill",
         },
 
         {
-          type: 'glow',
-          label: 'Glow',
-          classes: 'glow-btn',
+          type: "glow",
+          label: "Glow",
+          classes: "glow-btn",
         },
         {
-          type: 'hinge',
-          label: 'Hinge',
-          classes: 'hinge-btn',
+          type: "hinge",
+          label: "Hinge",
+          classes: "hinge-btn",
         },
         {
-          type: 'invert',
-          label: 'Invert',
-          classes: 'invert-btn',
+          type: "invert",
+          label: "Invert",
+          classes: "invert-btn",
         },
         {
           type: "key",
@@ -106,9 +106,9 @@ $(document).ready(function () {
           classes: "next-arrow-btn",
         },
         {
-          type: 'nudge',
-          label: 'Nudge',
-          classes: 'nudge-btn',
+          type: "nudge",
+          label: "Nudge",
+          classes: "nudge-btn",
         },
         {
           type: "previous",
@@ -116,61 +116,61 @@ $(document).ready(function () {
           classes: "previous-arrow-btn",
         },
         {
-          type: 'pudding',
-          label: 'Pudding',
-          classes: 'pudding-btn',
+          type: "pudding",
+          label: "Pudding",
+          classes: "pudding-btn",
         },
         {
-          type: 'pulse',
-          label: 'Pulse',
-          classes: 'pulse-btn',
+          type: "pulse",
+          label: "Pulse",
+          classes: "pulse-btn",
         },
         {
-          type: 'snake',
-          label: 'Snake Border',
-          classes: 'snake-btn',
+          type: "snake",
+          label: "Snake Border",
+          classes: "snake-btn",
         },
         {
-          type: 'ripple',
-          label: 'Ripple',
-          classes: 'ripple-btn',
+          type: "ripple",
+          label: "Ripple",
+          classes: "ripple-btn",
         },
         {
-          type: 'scale',
-          label: 'Scale',
-          classes: 'scale-btn',
+          type: "scale",
+          label: "Scale",
+          classes: "scale-btn",
         },
         {
-          type: 'shake',
-          label: 'Shake',
-          classes: 'shake-btn',
+          type: "shake",
+          label: "Shake",
+          classes: "shake-btn",
         },
         {
-          type: 'shine',
-          label: 'Shine',
-          classes: 'shine-btn',
+          type: "shine",
+          label: "Shine",
+          classes: "shine-btn",
         },
         {
-          type: 'skew',
-          label: 'Skew',
-          classes: 'skew-btn',
+          type: "skew",
+          label: "Skew",
+          classes: "skew-btn",
         },
         {
-          type: 'splash',
-          label: 'Splash',
-          classes: 'splash-btn',
+          type: "splash",
+          label: "Splash",
+          classes: "splash-btn",
         },
         {
-          type: 'transparent',
-          label: 'Transparent On Hover',
-          classes: 'transparent-btn',
+          type: "transparent",
+          label: "Transparent On Hover",
+          classes: "transparent-btn",
         },
       ],
     },
     {
-      type: 'dashed',
-      label: 'Dashed Buttons',
-      classes: 'dashed-btn',
+      type: "dashed",
+      label: "Dashed Buttons",
+      classes: "dashed-btn",
       children: [],
     },
     {
@@ -179,15 +179,15 @@ $(document).ready(function () {
       classes: "disabled-btn",
     },
     {
-      type: 'hover',
-      label: 'Hover Buttons',
-      classes: 'hover-btn',
+      type: "hover",
+      label: "Hover Buttons",
+      classes: "hover-btn",
       children: [],
     },
     {
-      type: 'icon',
-      label: 'Icon Buttons',
-      classes: '',
+      type: "icon",
+      label: "Icon Buttons",
+      classes: "",
       children: [
         {
           type: "add-to-cart",
@@ -201,12 +201,12 @@ $(document).ready(function () {
           classes: "appstore-btn",
           variations: [
             {
-              classes: 'applestore',
-              text: 'App Store',
+              classes: "applestore",
+              text: "App Store",
             },
             {
-              classes: 'playstore',
-              text: 'Google Play',
+              classes: "playstore",
+              text: "Google Play",
             },
           ],
         },
@@ -282,51 +282,51 @@ $(document).ready(function () {
           shouldHaveBlockType: false,
           variations: [
             {
-              classes: '',
-              text: '',
+              classes: "",
+              text: "",
             },
           ],
         },
       ],
     },
     {
-      type: 'outline',
-      label: 'Outline Buttons',
-      classes: 'outline-btn',
+      type: "outline",
+      label: "Outline Buttons",
+      classes: "outline-btn",
       children: [],
     },
     {
-      type: 'social',
-      label: 'Social Buttons',
-      classes: 'social-btn',
+      type: "social",
+      label: "Social Buttons",
+      classes: "social-btn",
       variations: [
         {
-          classes: 'apple',
-          text: 'Login with Apple',
+          classes: "apple",
+          text: "Login with Apple",
         },
         {
-          classes: 'facebook',
-          text: 'Login with Facebook',
+          classes: "facebook",
+          text: "Login with Facebook",
         },
         {
-          classes: 'flickr',
-          text: 'Login with Flickr',
+          classes: "flickr",
+          text: "Login with Flickr",
         },
         {
-          classes: 'github',
-          text: 'Login with Github',
+          classes: "github",
+          text: "Login with Github",
         },
         {
-          classes: 'google',
-          text: 'Login with Google',
+          classes: "google",
+          text: "Login with Google",
         },
         {
-          classes: 'instagram',
-          text: 'Login with Instagram',
+          classes: "instagram",
+          text: "Login with Instagram",
         },
         {
-          classes: 'linkedin',
-          text: 'Login with LinkedIn',
+          classes: "linkedin",
+          text: "Login with LinkedIn",
         },
         {
           classes: "microsoft",
@@ -341,24 +341,24 @@ $(document).ready(function () {
           text: "Login with Snapchat",
         },
         {
-          classes: 'twitter',
-          text: 'Login with Twitter',
+          classes: "twitter",
+          text: "Login with Twitter",
         },
         {
-          classes: 'tumblr',
-          text: 'Login with Tumblr',
+          classes: "tumblr",
+          text: "Login with Tumblr",
         },
         {
-          classes: 'weibo',
-          text: 'Login with Weibo',
+          classes: "weibo",
+          text: "Login with Weibo",
         },
       ],
       children: [],
     },
     {
-      type: 'special',
-      label: 'Special Buttons',
-      classes: '',
+      type: "special",
+      label: "Special Buttons",
+      classes: "",
       children: [
         {
           type: "play-game",
@@ -367,21 +367,21 @@ $(document).ready(function () {
           text: "",
         },
         {
-          type: 'retro',
-          label: 'Retro',
-          classes: 'retro-btn',
+          type: "retro",
+          label: "Retro",
+          classes: "retro-btn",
           variations: [
             {
-              classes: '',
-              text: 'Continue',
+              classes: "",
+              text: "Continue",
             },
             {
-              classes: 'retro-btn-proceed',
-              text: 'Proceed',
+              classes: "retro-btn-proceed",
+              text: "Proceed",
             },
             {
-              classes: 'retro-btn-reset',
-              text: 'Reset',
+              classes: "retro-btn-reset",
+              text: "Reset",
             },
           ],
         },
@@ -407,10 +407,10 @@ $(document).ready(function () {
           shouldHaveRoundedType: false,
         },
         {
-          type: 'rounded-diagonal-tr',
-          label: 'Rounded Diagonal (Top Right)',
-          classes: 'rounded-diagonal-tr-btn',
-          text: 'TopRight-BottomLeft',
+          type: "rounded-diagonal-tr",
+          label: "Rounded Diagonal (Top Right)",
+          classes: "rounded-diagonal-tr-btn",
+          text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
         },
         {
@@ -432,8 +432,8 @@ $(document).ready(function () {
     },
   ];
 
-  var sidebar = $('.sidebar-list'),
-    content = $('#content');
+  var sidebar = $(".sidebar-list"),
+    content = $("#content");
 
   /**
    * getButttonHtml generates the required html for each button to be rendered
@@ -454,14 +454,14 @@ $(document).ready(function () {
     isDisabled
   ) {
     if (buttonText === false) {
-      buttonText = 'Button';
+      buttonText = "Button";
     }
     return `
             <div class="button-container">
                 <button class="${classes}" role="Button"
-                  ${isDisabled ? 'aria-disabled="true" tabindex="-1"' : ''}
+                  ${isDisabled ? 'aria-disabled="true" tabindex="-1"' : ""}
                   >${buttonText}</button>
-                ${!isBlock ? '<br>' : ''}
+                ${!isBlock ? "<br>" : ""}
                 <small class="button-caption-sub">${textClasses}</small><br>
             </div>
         `;
@@ -480,10 +480,10 @@ $(document).ready(function () {
       '<a href="#' +
       type +
       '" ' +
-      (isSubMenu ? 'class="submenu-link" ' : '') +
-      '>' +
+      (isSubMenu ? 'class="submenu-link" ' : "") +
+      ">" +
       label +
-      '</a>'
+      "</a>"
     );
   }
 
@@ -497,36 +497,36 @@ $(document).ready(function () {
    * @returns {string} - the required section's html with all the buttons
    */
   function createSection(button, shouldAddToSidebar) {
-    var heading = 'h1',
+    var heading = "h1",
       //if shouldHaveRoundedType is set set the value to it, else by default show rounded buttons
       roundedClass =
-        !button.hasOwnProperty('shouldHaveRoundedType') ||
+        !button.hasOwnProperty("shouldHaveRoundedType") ||
         button.shouldHaveRoundedType,
       //if shouldHaveBlockType is set set the value to it, else by default show block buttons
       blockClass =
-        !button.hasOwnProperty('shouldHaveBlockType') ||
+        !button.hasOwnProperty("shouldHaveBlockType") ||
         button.shouldHaveBlockType;
     if (shouldAddToSidebar) {
       // add link to sidebar
       sidebar.append(getMenuLinkHtml(button.type, button.label, false));
     } else {
-      heading = 'h3';
+      heading = "h3";
     }
 
     // Create a new section with same id as the button type
     var section = $('<section id="' + button.type + '">');
     // Adding the required heading to the section
     section.append(
-      '<' +
+      "<" +
         heading +
         ' class="section-header">' +
         button.label +
-        '</' +
+        "</" +
         heading +
-        '>'
+        ">"
     );
 
-    if (button.hasOwnProperty('children') && button.children.length) {
+    if (button.hasOwnProperty("children") && button.children.length) {
       // Add children buttons to the section concerned
       var submenu = $('<div class="submenu-links">');
       for (var j = 0; j < button.children.length; j++) {
@@ -547,17 +547,17 @@ $(document).ready(function () {
     } else {
       var buttonArr = buttonColors;
       var isDisabled = false;
-      if (button.hasOwnProperty('variations')) {
+      if (button.hasOwnProperty("variations")) {
         buttonArr = button.variations;
       } else {
-        if (button.type === 'disable') {
+        if (button.type === "disable") {
           isDisabled = true;
         }
       }
 
       // Add buttons to the type's button grid
       var normalButtonsGrid = $('<div class="button-grid">'),
-        buttonText = button.hasOwnProperty('text') ? button.text : false;
+        buttonText = button.hasOwnProperty("text") ? button.text : false;
 
       // If rounded class is allowed for this button, create a button grid for it
       if (roundedClass) {
@@ -571,10 +571,10 @@ $(document).ready(function () {
         var thisButtonText =
           buttonText !== false
             ? buttonText
-            : buttonArr[j].hasOwnProperty('text')
+            : buttonArr[j].hasOwnProperty("text")
             ? buttonArr[j].text
             : false;
-        var thisButtonClasses = buttonArr[j].hasOwnProperty('classes')
+        var thisButtonClasses = buttonArr[j].hasOwnProperty("classes")
           ? buttonArr[j].classes
           : buttonArr[j];
 
@@ -623,8 +623,8 @@ $(document).ready(function () {
       section.append(normalButtonsGrid);
       roundedClass && roundedButtonsGrid
         ? section.append(roundedButtonsGrid)
-        : '';
-      blockClass && blockButtonsGrid ? section.append(blockButtonsGrid) : '';
+        : "";
+      blockClass && blockButtonsGrid ? section.append(blockButtonsGrid) : "";
     }
     return section;
   }
@@ -635,5 +635,5 @@ $(document).ready(function () {
     // Append all the button sections to the main body
     section.appendTo(content);
   }
-  $('#loading_wheel').remove();
+  $("#loading_wheel").remove();
 });
