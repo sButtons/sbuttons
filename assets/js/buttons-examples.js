@@ -29,14 +29,14 @@ $(document).ready(function () {
   var buttons = [
     {
       type: "basic",
-      label: "Basic Buttons",
+      label: "Button",
       classes: "basic-btn",
       children: [],
       shouldHaveRoundedType: true,
     },
     {
       type: "animated",
-      label: "Animated Buttons",
+      label: "Button",
       classes: "",
       children: [
         {
@@ -158,24 +158,24 @@ $(document).ready(function () {
     },
     {
       type: "dashed",
-      label: "Dashed Buttons",
+      label: "Button",
       classes: "dashed-btn",
       children: [],
     },
     {
       type: "disable",
       classes: "disabled-btn",
-      label: "Disabled Buttons",
+      label: "Button",
     },
     {
       type: "hover",
-      label: "Hover Buttons",
+      label: "Button",
       classes: "hover-btn",
       children: [],
     },
     {
       type: "icon",
-      label: "Icon Buttons",
+      label: "Button",
       classes: "",
       children: [
         {
@@ -266,13 +266,13 @@ $(document).ready(function () {
     },
     {
       type: "outline",
-      label: "Outline Buttons",
+      label: "Button",
       classes: "outline-btn",
       children: [],
     },
     {
       type: "social",
-      label: "Social Buttons",
+      label: "Button",
       classes: "social-btn",
       variations: [
         {
@@ -324,7 +324,7 @@ $(document).ready(function () {
     },
     {
       type: "special",
-      label: "Special Buttons",
+      label: "Button",
       classes: "",
       children: [
         {
