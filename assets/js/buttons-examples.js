@@ -304,6 +304,14 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
+          classes: "microsoft",
+          text: "Login with Microsoft",
+        },
+        {
+          classes: "reddit",
+          text: "Login with Reddit",
+        },
+        {
           classes: "snapchat",
           text: "Login with Snapchat",
         },
