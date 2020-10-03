@@ -224,11 +224,11 @@ $(document).ready(function () {
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
           variations: [
-             {  
-                 classes: "close-btn",
-                 label: "",
-                 text: ""
-                }
+            {
+              classes: "close-btn",
+              label: "",
+              text: "",
+            },
           ],
         },
         {
