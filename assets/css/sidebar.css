@@ -137,7 +137,14 @@
     width: 70%;
     box-shadow: 1px 1px 5px #8a8a8a;
   }
-
+  @media screen and (max-width: 768px) {
+    div.sidebar {
+      z-index: 9999;
+    }
+    .navbar.fixed-top {
+      z-index: 1;
+    }
+  }
   .sidebar a {
     font-size: 1.3rem;
   }
