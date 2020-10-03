@@ -23,8 +23,8 @@ $(document).ready(function () {
    * @property {list} [children] - contains the list of sub-types of a certain type
    * @property {string} [text] - denotes the text to be shown on the button, defaults to default text
    * @property {list} [variations] - contains the button types that don't use buttonColors or don't have normal and rounded button styling
-   * @property {boolean} [shouldHaveRoundedType] - indicates if rounded button type should hidden or not, defaults to false
-   * @property {boolean} [shouldHaveBlockType] - indicates if block button type should hidden or not, defaults to false
+   * @property {boolean} [shouldHaveRoundedType] - indicates if rounded button type should hidden or not, defaults to true
+   * @property {boolean} [shouldHaveBlockType] - indicates if block button type should hidden or not, defaults to true
    */
   var buttons = [
     {
@@ -91,14 +91,19 @@ $(document).ready(function () {
           classes: 'invert-btn',
         },
         {
-          type: 'neon',
-          label: 'Neon',
-          classes: 'neon-btn',
+          type: "key",
+          label: "Key",
+          classes: "key-btn",
         },
         {
-          type: 'next',
-          label: 'Next Button',
-          classes: 'next-arrow-btn',
+          type: "neon",
+          label: "Neon",
+          classes: "neon-btn",
+        },
+        {
+          type: "next",
+          label: "Next",
+          classes: "next-arrow-btn",
         },
         {
           type: 'nudge',
@@ -106,9 +111,9 @@ $(document).ready(function () {
           classes: 'nudge-btn',
         },
         {
-          type: 'previous',
-          label: 'Previous Button',
-          classes: 'previous-arrow-btn',
+          type: "previous",
+          label: "Previous",
+          classes: "previous-arrow-btn",
         },
         {
           type: 'pudding',
@@ -169,9 +174,9 @@ $(document).ready(function () {
       children: [],
     },
     {
-      type: 'disable',
-      classes: 'disabled-btn',
-      label: 'Disabled Buttons',
+      type: "disable",
+      label: "Disabled Buttons",
+      classes: "disabled-btn",
     },
     {
       type: 'hover',
@@ -185,15 +190,15 @@ $(document).ready(function () {
       classes: '',
       children: [
         {
-          type: 'add-to-cart',
-          label: 'Add To Cart Button',
-          classes: 'add-to-cart-btn',
-          text: 'Add To Cart',
+          type: "add-to-cart",
+          label: "Add To Cart",
+          classes: "add-to-cart-btn",
+          text: "Add To Cart",
         },
         {
-          type: 'appstore',
-          label: 'App Store Button',
-          classes: 'appstore-btn',
+          type: "appstore",
+          label: "App Store",
+          classes: "appstore-btn",
           variations: [
             {
               classes: 'applestore',
@@ -207,58 +212,72 @@ $(document).ready(function () {
         },
 
         {
-          type: 'buy-me-coffee',
-          label: 'Buy Me Coffee Button',
-          classes: 'buy-me-coffee-btn',
-          text: 'Buy me coffee',
+          type: "buy-me-coffee",
+          label: "Buy Me Coffee",
+          classes: "buy-me-coffee-btn",
+          text: "Buy me coffee",
         },
         {
-          type: 'chat',
-          label: 'Chat Box Button',
-          classes: 'chat-btn',
-          text: '',
+          type: "chat",
+          label: "Chat Box",
+          classes: "chat-btn",
+          text: "",
         },
         {
-          type: 'download',
-          label: 'Download Button',
-          classes: 'download-btn',
-          text: 'Download',
+          type: "close",
+          label: "Close Button",
+          classes: "",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "close-btn",
+              label: "",
+              text: "",
+            },
+          ],
         },
         {
-          type: 'drop-down',
-          label: 'Dropdown Button',
-          classes: 'drop-down-btn',
-          text: 'Dropdown Button',
+          type: "download",
+          label: "Download",
+          classes: "download-btn",
+          text: "Download",
         },
         {
-          type: 'like',
-          label: 'Like Button',
-          classes: 'like-btn',
-          text: '',
+          type: "drop-down",
+          label: "Dropdown",
+          classes: "drop-down-btn",
+          text: "Dropdown Button",
         },
         {
-          type: 'play',
-          label: 'Play Button',
-          classes: 'play-btn',
-          text: '',
+          type: "like",
+          label: "Like",
+          classes: "like-btn",
+          text: "",
         },
         {
-          type: 'plus',
-          label: 'Plus Button',
-          classes: 'plus-btn',
-          text: '',
+          type: "play",
+          label: "Play",
+          classes: "play-btn",
+          text: "",
         },
         {
-          type: 'scroll-to-top',
-          label: 'Scroll-to-Top Button',
-          classes: 'scroll-to-top-btn',
-          text: '',
+          type: "plus",
+          label: "Plus",
+          classes: "plus-btn",
+          text: "",
         },
         {
-          type: 'star',
-          label: 'Star Button',
-          classes: 'star-btn',
-          text: '',
+          type: "scroll-to-top",
+          label: "Scroll-to-Top",
+          classes: "scroll-to-top-btn",
+          text: "",
+        },
+        {
+          type: "star",
+          label: "Star",
+          classes: "star-btn",
+          text: "",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
           variations: [
@@ -310,8 +329,16 @@ $(document).ready(function () {
           text: 'Login with LinkedIn',
         },
         {
-          classes: 'snapchat',
-          text: 'Login with Snapchat',
+          classes: "microsoft",
+          text: "Login with Microsoft",
+        },
+        {
+          classes: "reddit",
+          text: "Login with Reddit",
+        },
+        {
+          classes: "snapchat",
+          text: "Login with Snapchat",
         },
         {
           classes: 'twitter',
@@ -334,10 +361,10 @@ $(document).ready(function () {
       classes: '',
       children: [
         {
-          type: 'play-game',
-          label: 'Play game Button',
-          classes: 'play-game-btn',
-          text: '',
+          type: "play-game",
+          label: "Play game",
+          classes: "play-game-btn",
+          text: "",
         },
         {
           type: 'retro',
@@ -359,10 +386,24 @@ $(document).ready(function () {
           ],
         },
         {
-          type: 'rounded-diagonal-tl',
-          label: 'Rounded Diagonal (Top Left)',
-          classes: 'rounded-diagonal-tl-btn',
-          text: 'TopLeft-BottomRight',
+          type: "rounded-bottom",
+          label: "Rounded Bottom",
+          classes: "rounded-bottom-btn",
+          text: "Rounded Bottom",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-top",
+          label: "Rounded Top",
+          classes: "rounded-top-btn",
+          text: "Rounded Top",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-diagonal-tl",
+          label: "Rounded Diagonal (Top Left)",
+          classes: "rounded-diagonal-tl-btn",
+          text: "TopLeft-BottomRight",
           shouldHaveRoundedType: false,
         },
         {
@@ -371,6 +412,21 @@ $(document).ready(function () {
           classes: 'rounded-diagonal-tr-btn',
           text: 'TopRight-BottomLeft',
           shouldHaveRoundedType: false,
+        },
+        {
+          type: "win95-btn",
+          label: "Windows 95",
+          classes: "win95-btn",
+          variations: [
+            {
+              classes: "",
+              text: "Yes",
+            },
+            {
+              classes: "",
+              text: "No",
+            },
+          ],
         },
       ],
     },
@@ -522,11 +578,18 @@ $(document).ready(function () {
           ? buttonArr[j].classes
           : buttonArr[j];
 
+        var totalClasses = `${defaultClass} ${button.classes}`,
+          totalWrittenClasses = `.${defaultClass} .${button.classes}`;
+        if (thisButtonClasses.length) {
+          totalClasses += ` ${thisButtonClasses}`;
+          totalWrittenClasses += ` .${thisButtonClasses}`;
+        }
+
         // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
-            `${defaultClass} ${button.classes} ${thisButtonClasses}`,
-            `.${defaultClass} .${button.classes} .${thisButtonClasses}`,
+            totalClasses,
+            totalWrittenClasses,
             thisButtonText,
             false,
             isDisabled
@@ -536,8 +599,8 @@ $(document).ready(function () {
           //add rounded button grid if enabled for button
           roundedButtonsGrid.append(
             getButtonHtml(
-              `${defaultClass} ${button.classes} rounded-btn ${thisButtonClasses}`,
-              `.${defaultClass} .${button.classes} .rounded-btn .${thisButtonClasses}`,
+              `${totalClasses} rounded-btn`,
+              `.${totalWrittenClasses} .rounded-btn`,
               thisButtonText,
               false,
               isDisabled
@@ -548,8 +611,8 @@ $(document).ready(function () {
           //add block button grid if enabled for button
           blockButtonsGrid.append(
             getButtonHtml(
-              `${defaultClass} ${button.classes} block-btn ${thisButtonClasses}`,
-              `.${defaultClass} .${button.classes} .block-btn .${thisButtonClasses}`,
+              `${totalClasses} block-btn`,
+              `.${totalWrittenClasses} .block-btn`,
               thisButtonText,
               true,
               isDisabled
