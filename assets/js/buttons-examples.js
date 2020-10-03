@@ -86,7 +86,7 @@ $(document).ready(function () {
         },
         {
           type: "key",
-          label: "Key",
+          label: "3D Key",
           classes: "key-btn",
         },
         {
