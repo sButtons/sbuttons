@@ -986,6 +986,35 @@
         "ideas",
         "code"
       ]
+    },
+    {
+      "login": "gokul112",
+      "name": "Gokul Raj ",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11469509?v=4",
+      "profile": "https://github.com/gokul112",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mohitshende",
+      "name": "mohitshende",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/54403334?v=4",
+      "profile": "https://github.com/mohitshende",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "Goodiec",
+      "name": "Goodiec",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15726413?v=4",
+      "profile": "https://github.com/Goodiec",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
