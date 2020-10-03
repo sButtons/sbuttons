@@ -304,6 +304,14 @@ $(document).ready(function () {
           text: "Login with LinkedIn",
         },
         {
+          classes: "microsoft",
+          text: "Login with Microsoft",
+        },
+        {
+          classes: "reddit",
+          text: "Login with Reddit",
+        },
+        {
           classes: "snapchat",
           text: "Login with Snapchat",
         },
@@ -357,6 +365,13 @@ $(document).ready(function () {
           label: "Rounded Bottom",
           classes: "rounded-bottom-btn",
           text: "Rounded Bottom",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-top",
+          label: "Rounded Top",
+          classes: "rounded-top-btn",
+          text: "Rounded Top",
           shouldHaveRoundedType: false,
         },
         {
