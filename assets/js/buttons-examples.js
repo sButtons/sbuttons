@@ -190,6 +190,21 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "base-icon",
+          label: "Base Icon button",
+          classes: "base-icon-btn",
+          variations: [
+            {
+              classes: "icon-right",
+              text: "base icon button",
+            },
+            {
+              classes: "icon-left",
+              text: "base icon button",
+            },
+          ],
+        },
+        {
           type: "add-to-cart",
           label: "Add To Cart",
           classes: "add-to-cart-btn",
@@ -207,21 +222,6 @@ $(document).ready(function () {
             {
               classes: "playstore",
               text: "Google Play",
-            },
-          ],
-        },
-        {
-          type: "base-icon",
-          label: "Base Icon button",
-          classes: "base-icon-btn",
-          variations: [
-            {
-              classes: "icon-right",
-              text: "base icon button",
-            },
-            {
-              classes: "icon-left",
-              text: "base icon button",
             },
           ],
         },

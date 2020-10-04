@@ -1673,6 +1673,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background: darkblue;
   position: relative;
 }
+.base-icon-btn i {
+  text-align: center;
+}
 .base-icon-btn:not(.rounded-btn) {
   border-radius: 8px;
 }
