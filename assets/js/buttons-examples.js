@@ -97,7 +97,7 @@ $(document).ready(function () {
         },
         {
           type: "liquid",
-          label: "Liquid Button",
+          label: "Liquid",
           classes: "liquid-btn",
         },
         {

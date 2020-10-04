@@ -1336,10 +1336,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   z-index: 1;
 }
 .liquid-btn::before {
+  content: "";
   animation: waterEffect 5s linear infinite;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 45%;
-  content: "";
   height: 400px;
   left: 50%;
   position: absolute;
@@ -1350,10 +1350,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   z-index: -1;
 }
 .liquid-btn::after {
+  content: "";
   animation: waterEffect 10s linear infinite;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 40%;
-  content: "";
   height: 400px;
   left: 50%;
   position: absolute;
@@ -1364,9 +1364,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   z-index: -1;
 }
 .liquid-btn.blue-btn {
-  background-color: #50bfe6;
   border-color: #50bfe6;
   color: #000 !important;
+  background-color: #50bfe6;
 }
 .liquid-btn.blue-btn:hover::before {
   top: -120px;
@@ -1375,9 +1375,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -120px;
 }
 .liquid-btn.pink-btn {
-  background-color: #d53caf;
   border-color: #d53caf;
   color: #000 !important;
+  background-color: #d53caf;
 }
 .liquid-btn.pink-btn:hover::before {
   top: -120px;
@@ -1386,9 +1386,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -120px;
 }
 .liquid-btn.green-btn {
-  background-color: #3aa655;
   border-color: #3aa655;
   color: #000 !important;
+  background-color: #3aa655;
 }
 .liquid-btn.green-btn:hover::before {
   top: -120px;
@@ -1397,9 +1397,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -120px;
 }
 .liquid-btn.yellow-btn {
-  background-color: #fbe870;
   border-color: #fbe870;
   color: #000 !important;
+  background-color: #fbe870;
   color: #fff;
 }
 .liquid-btn.yellow-btn:hover::before {
@@ -1409,9 +1409,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -120px;
 }
 .liquid-btn.orange-btn {
-  background-color: #ff8833;
   border-color: #ff8833;
   color: #000 !important;
+  background-color: #ff8833;
 }
 .liquid-btn.orange-btn:hover::before {
   top: -120px;
@@ -1420,9 +1420,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -120px;
 }
 .liquid-btn.red-btn {
-  background-color: #ed0a3f;
   border-color: #ed0a3f;
   color: #000 !important;
+  background-color: #ed0a3f;
 }
 .liquid-btn.red-btn:hover::before {
   top: -120px;
@@ -1431,9 +1431,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -120px;
 }
 .liquid-btn.purple-btn {
-  background-color: #652dc1;
   border-color: #652dc1;
   color: #000 !important;
+  background-color: #652dc1;
 }
 .liquid-btn.purple-btn:hover::before {
   top: -120px;
@@ -1442,9 +1442,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -120px;
 }
 .liquid-btn.black-btn {
-  background-color: #000;
   border-color: #000;
   color: #000 !important;
+  background-color: #000;
   color: #fff !important;
 }
 .liquid-btn.black-btn:hover::before {
@@ -1454,10 +1454,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -120px;
 }
 .liquid-btn.white-btn {
-  background-color: transparent;
-  border-color: transparent;
-  border-color: white;
+  border-color: #fff;
   color: #000 !important;
+  background-color: #fff;
+  border-color: white;
 }
 .liquid-btn.white-btn:hover::before {
   top: -120px;
