@@ -206,11 +206,11 @@ $(document).ready(function () {
           variations: [
             {
               classes: "icon-right",
-              text: "base icon",
+              text: "base icon button",
             },
             {
               classes: "icon-left",
-              text: "base icon",
+              text: "base icon button",
             },
           ],
         },

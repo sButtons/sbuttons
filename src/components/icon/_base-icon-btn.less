@@ -1,31 +1,41 @@
 .base-icon-btn {
   background: darkblue;
-  border: 1px solid red;
-  padding-left: 2%;
 
   &:not(.rounded-btn) {
-    border-radius: 5px;
+    border-radius: 8px;
   }
 
-  &:not(.block-btn) {
-    border-radius: 5px;
+  &:hover {
+    transition: all 0.3s ease-in;
+    transform: translateY(5px);
+    transform: translateX(10px, -10px);
+  }
+}
+
+&.icon-left {
+  color: #fff;
+
+  & i {
+    transform: translateX(-30%);
   }
 
-  &.icon-left {
-    &:before {
-      content: "";
-      width: 20px;
-      height: 20px;
-      color: #fff;
-      border: 1px solid #fff;
-      margin-left: -2%;
+  &:not(.rounded-btn) {
+    i {
+      transform: translateX(-26%);
     }
   }
+}
 
-  &.icon-right {
-    &:after {
-      content: "";
-      border: 1px solid #fff;
+&.icon-right {
+  color: #fff;
+
+  i {
+    transform: translateX(45%);
+  }
+
+  &:not(.rounded-btn) {
+    i {
+      transform: translateX(20%);
     }
   }
 }
