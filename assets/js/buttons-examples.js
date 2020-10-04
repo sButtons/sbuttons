@@ -75,6 +75,13 @@ $(document).ready(function () {
           label: "Nudge",
           classes: "nudge-btn",
         },
+
+        {
+          type: "shrink",
+          label: "Shrink",
+          classes: "shrink-btn",
+        },
+
         {
           type: "previous",
           label: "Previous Button",
@@ -128,13 +135,6 @@ $(document).ready(function () {
           label: "Add To Cart Button",
           classes: "add-to-cart-btn",
           text: "Add To Cart",
-        },
-
-        {
-          type: "shrink-over-hover",
-          label: "Shrink Over Hover Button",
-          classes: "link shrink-on-hover",
-          text: "Shrink Over Hover",
         },
 
         {
