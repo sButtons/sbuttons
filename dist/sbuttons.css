@@ -1497,6 +1497,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .base-icon-btn {
   background: darkblue;
+  position: relative;
 }
 .base-icon-btn:not(.rounded-btn) {
   border-radius: 8px;

@@ -113,6 +113,18 @@ In case of using buttons that have icons in them, make sure to include font awes
 ```
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 ```
+# Base Icon Buttons
+
+Base icon buttons allow you to position an icon, either to the left or right side of a button by adding either of these classes `icon-right` or `icon-left`
+
+> ## Usage
+```html
+<button class="sbtn base-icon-btn icon-left">
+  <i class="fab fa-github"></i>
+  icon left
+</button>
+```
+- For the icon to be positioned well in the button, you should place the button text after the fontawesome icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
 
 # Contribution
 
