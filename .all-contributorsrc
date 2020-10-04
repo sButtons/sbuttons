@@ -1034,6 +1034,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "basvandenwijngaard",
+      "name": "Bas van den Wijngaard",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3299167?v=4",
+      "profile": "https://onlinesuperheld.nl/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
