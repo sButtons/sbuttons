@@ -232,6 +232,10 @@ $(document).ready(function () {
           classes: "weibo",
           text: "Login with Weibo",
         },
+        {
+          classes: "pinterest",
+          text: "Login with Pinterest",
+        },
       ],
       children: [],
     },
