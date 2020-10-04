@@ -283,7 +283,7 @@ $(document).ready(function () {
         },
         {
           type: "share",
-          label: "Share Button",
+          label: "Share",
           classes: "share-btn",
           text: "",
           shouldHaveRoundedType: false,
