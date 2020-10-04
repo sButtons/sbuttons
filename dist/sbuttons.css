@@ -1799,3 +1799,52 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border: dashed 2px #e9e9e9;
   color: #333 !important;
 }
+.go-btn,
+.back-btn {
+  height: 50px;
+  width: 10%;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+}
+.go-btn:hover,
+.back-btn:hover {
+  cursor: pointer;
+  transform: skew(-20deg);
+  font-size: 1.5rem;
+}
+.go-btn:hover::after,
+.back-btn:hover::after {
+  content: " 🡢";
+}
+.blue-violet-btn {
+  background-image: linear-gradient(
+    20deg,
+    cornflowerblue 50%,
+    palevioletred 50%
+  );
+}
+.blue-violet-btn:hover {
+  background-image: linear-gradient(
+    to right,
+    palevioletred 50%,
+    cornflowerblue 50%
+  );
+}
+.black-grey-btn {
+  background-image: linear-gradient(20deg, black 50%, #afaaaa 50%);
+}
+.black-grey-btn:hover {
+  background-image: linear-gradient(to right, #afaaaa 50%, black 50%);
+}
+.back-btn:hover {
+  transform: skew(20deg);
+}
+.back-btn:hover::before {
+  content: "🡠 ";
+}
+.back-btn:hover::after {
+  content: "";
+}

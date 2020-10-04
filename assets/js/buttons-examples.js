@@ -368,6 +368,27 @@ $(document).ready(function () {
         },
       ],
     },
+    {
+      type: 'go-and-back',
+      label: 'Go and Back Buttons',
+      children: [
+        {
+          type: 'go',
+          label: 'Go Buttons',
+          classes: '.go-btn .blue-violet-btn .black-grey-btn',
+          text: 'Go',
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: 'back',
+          label: 'Back Buttons',
+          classes: '.back-btn .blue-violet-btn .black-grey-btn',
+          text: 'Back',
+          shouldHaveRoundedType: false,
+        }
+      ],
+
+    }
   ];
 
   var sidebar = $(".sidebar-list"),
@@ -456,12 +477,12 @@ $(document).ready(function () {
     // Adding the required heading to the section
     section.append(
       "<" +
-        heading +
-        ' class="section-header">' +
-        button.label +
-        "</" +
-        heading +
-        ">"
+      heading +
+      ' class="section-header">' +
+      button.label +
+      "</" +
+      heading +
+      ">"
     );
 
     if (button.hasOwnProperty("children") && button.children.length) {
@@ -510,8 +531,8 @@ $(document).ready(function () {
           buttonText !== false
             ? buttonText
             : buttonArr[j].hasOwnProperty("text")
-            ? buttonArr[j].text
-            : false;
+              ? buttonArr[j].text
+              : false;
         var thisButtonClasses = buttonArr[j].hasOwnProperty("classes")
           ? buttonArr[j].classes
           : buttonArr[j];

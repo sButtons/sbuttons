@@ -41,5 +41,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sButtons/sbuttons"
+  },
+  "dependencies": {
+    "compile": "0.0.2",
+    "start": "^5.1.0"
   }
 }
