@@ -1170,7 +1170,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .liquid-btn {
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 .liquid-btn::before {
   content: "";
