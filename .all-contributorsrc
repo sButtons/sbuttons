@@ -1015,6 +1015,16 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "genarocolusso",
+      "name": "Genaro Colusso",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/780543?v=4",
+      "profile": "http://genarocolusso.github.io/",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -40,6 +40,11 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "aura-pulse",
+          label: "Aura Pulse",
+          classes: "aurapulse-btn",
+        },
+        {
           type: "bounce",
           label: "Bounce",
           classes: "bouncy-btn",
@@ -69,6 +74,7 @@ $(document).ready(function () {
           label: "Fill Color - Up",
           classes: "fill-color-btn up-fill",
         },
+
         {
           type: "glow",
           label: "Glow",
@@ -421,6 +427,21 @@ $(document).ready(function () {
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
         },
+        {
+          type: "win95-btn",
+          label: "Windows 95",
+          classes: "win95-btn",
+          variations: [
+            {
+              classes: "",
+              text: "Yes",
+            },
+            {
+              classes: "",
+              text: "No",
+            },
+          ],
+        },
       ],
     },
   ];
@@ -571,11 +592,18 @@ $(document).ready(function () {
           ? buttonArr[j].classes
           : buttonArr[j];
 
+        var totalClasses = `${defaultClass} ${button.classes}`,
+          totalWrittenClasses = `.${defaultClass} .${button.classes}`;
+        if (thisButtonClasses.length) {
+          totalClasses += ` ${thisButtonClasses}`;
+          totalWrittenClasses += ` .${thisButtonClasses}`;
+        }
+
         // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
-            `${defaultClass} ${button.classes} ${thisButtonClasses}`,
-            `.${defaultClass} .${button.classes} .${thisButtonClasses}`,
+            totalClasses,
+            totalWrittenClasses,
             thisButtonText,
             false,
             isDisabled
@@ -585,8 +613,8 @@ $(document).ready(function () {
           //add rounded button grid if enabled for button
           roundedButtonsGrid.append(
             getButtonHtml(
-              `${defaultClass} ${button.classes} rounded-btn ${thisButtonClasses}`,
-              `.${defaultClass} .${button.classes} .rounded-btn .${thisButtonClasses}`,
+              `${totalClasses} rounded-btn`,
+              `.${totalWrittenClasses} .rounded-btn`,
               thisButtonText,
               false,
               isDisabled
@@ -597,8 +625,8 @@ $(document).ready(function () {
           //add block button grid if enabled for button
           blockButtonsGrid.append(
             getButtonHtml(
-              `${defaultClass} ${button.classes} block-btn ${thisButtonClasses}`,
-              `.${defaultClass} .${button.classes} .block-btn .${thisButtonClasses}`,
+              `${totalClasses} block-btn`,
+              `.${totalWrittenClasses} .block-btn`,
               thisButtonText,
               true,
               isDisabled
