@@ -65,6 +65,14 @@
   &.black-btn {
     .rippleBtn(@black);
   }
+
+  &.white-btn {
+    .rippleBtn(@white);
+    border-color: @whiteBorder;
+    &:hover {
+      color: @darkText !important;
+    }
+  }
 }
 
 @keyframes a-ripple {
