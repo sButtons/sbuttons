@@ -54,7 +54,9 @@
       "contributions": [
         "code",
         "bug",
-        "ideas"
+        "ideas",
+        "content",
+        "doc"
       ]
     },
     {
@@ -530,7 +532,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/60181628?v=4",
       "profile": "https://github.com/Charu271",
       "contributions": [
-        "ideas"
+        "ideas",
+        "code"
       ]
     },
     {
@@ -972,6 +975,64 @@
       "contributions": [
         "code",
         "ideas"
+      ]
+    },
+    {
+      "login": "Olsyx",
+      "name": "Olsyx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6599907?v=4",
+      "profile": "https://twitter.com/_Darkatom_",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    },
+    {
+      "login": "gokul112",
+      "name": "Gokul Raj ",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11469509?v=4",
+      "profile": "https://github.com/gokul112",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mohitshende",
+      "name": "mohitshende",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/54403334?v=4",
+      "profile": "https://github.com/mohitshende",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "Goodiec",
+      "name": "Goodiec",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15726413?v=4",
+      "profile": "https://github.com/Goodiec",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "genarocolusso",
+      "name": "Genaro Colusso",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/780543?v=4",
+      "profile": "http://genarocolusso.github.io/",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "wisetok12680",
+      "name": "Aarush Srivastava",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/53168325?v=4",
+      "profile": "https://github.com/wisetok12680",
+      "contributions": [
+        "code"
       ]
     }
   ],
