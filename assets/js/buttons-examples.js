@@ -85,6 +85,11 @@ $(document).ready(function () {
           classes: "invert-btn",
         },
         {
+          type: "liquid",
+          label: "Liquid Button",
+          classes: "liquid-btn",
+        },
+        {
           type: "neon",
           label: "Neon",
           classes: "neon-btn",
@@ -153,11 +158,6 @@ $(document).ready(function () {
           type: "transparent",
           label: "Transparent On Hover",
           classes: "transparent-btn",
-        },
-        {
-          type: "liquid",
-          label: "Liquid Button",
-          classes: "liquid-btn",
         },
       ],
     },

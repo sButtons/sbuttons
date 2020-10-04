@@ -4,29 +4,31 @@
 
   &::before {
     content: "";
-    width: 400px;
+    animation: waterEffect 5s linear infinite;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 45%;
     height: 400px;
+    left: 50%;
     position: absolute;
     top: -80px;
-    left: 50%;
     transform: translate(-50%, -75%);
-    border-radius: 45%;
-    background: rgba(255, 255, 255, 1);
-    animation: waterEffect 5s linear infinite;
+    transition: 0.5s linear;
+    width: 400px;
     z-index: -1;
   }
 
   &::after {
     content: "";
-    width: 400px;
+    animation: waterEffect 10s linear infinite;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 40%;
     height: 400px;
+    left: 50%;
     position: absolute;
     top: -80px;
-    left: 50%;
     transform: translate(-50%, -75%);
-    border-radius: 40%;
-    background: rgba(255, 255, 255, 0.5);
-    animation: waterEffect 10s linear infinite;
+    transition: 0.5s linear;
+    width: 400px;
     z-index: -1;
   }
 
@@ -36,12 +38,10 @@
     .bc(@color);
 
     &:hover::before {
-      transition: 0.5s linear;
       top: -120px;
     }
 
     &:hover::after {
-      transition: 0.5s linear;
       top: -120px;
     }
   }
@@ -49,6 +49,7 @@
   &.blue-btn {
     .liquidBtn(@blue);
   }
+
   &.pink-btn {
     .liquidBtn(@pink);
   }
@@ -80,13 +81,16 @@
   }
 
   &.white-btn {
-    .liquidBtn(@white);
+    .liquidBtn(transparent);
+    border-color: white;
   }
 }
+
 @keyframes waterEffect {
   0% {
     transform: translate(-50%, -75%) rotate(0deg);
   }
+
   100% {
     transform: translate(-50%, -75%) rotate(360deg);
   }

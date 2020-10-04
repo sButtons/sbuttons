@@ -1174,28 +1174,30 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .liquid-btn::before {
   content: "";
-  width: 400px;
+  animation: waterEffect 5s linear infinite;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 45%;
   height: 400px;
+  left: 50%;
   position: absolute;
   top: -80px;
-  left: 50%;
   transform: translate(-50%, -75%);
-  border-radius: 45%;
-  background: #ffffff;
-  animation: waterEffect 5s linear infinite;
+  transition: 0.5s linear;
+  width: 400px;
   z-index: -1;
 }
 .liquid-btn::after {
   content: "";
-  width: 400px;
+  animation: waterEffect 10s linear infinite;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 40%;
   height: 400px;
+  left: 50%;
   position: absolute;
   top: -80px;
-  left: 50%;
   transform: translate(-50%, -75%);
-  border-radius: 40%;
-  background: rgba(255, 255, 255, 0.5);
-  animation: waterEffect 10s linear infinite;
+  transition: 0.5s linear;
+  width: 400px;
   z-index: -1;
 }
 .liquid-btn.blue-btn {
@@ -1204,11 +1206,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #50bfe6;
 }
 .liquid-btn.blue-btn:hover::before {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.blue-btn:hover::after {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.pink-btn {
@@ -1217,11 +1217,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #d53caf;
 }
 .liquid-btn.pink-btn:hover::before {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.pink-btn:hover::after {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.green-btn {
@@ -1230,11 +1228,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #3aa655;
 }
 .liquid-btn.green-btn:hover::before {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.green-btn:hover::after {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.yellow-btn {
@@ -1244,11 +1240,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
 }
 .liquid-btn.yellow-btn:hover::before {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.yellow-btn:hover::after {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.orange-btn {
@@ -1257,11 +1251,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #ff8833;
 }
 .liquid-btn.orange-btn:hover::before {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.orange-btn:hover::after {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.red-btn {
@@ -1270,11 +1262,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #ed0a3f;
 }
 .liquid-btn.red-btn:hover::before {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.red-btn:hover::after {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.purple-btn {
@@ -1283,11 +1273,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #652dc1;
 }
 .liquid-btn.purple-btn:hover::before {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.purple-btn:hover::after {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.black-btn {
@@ -1297,24 +1285,21 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff !important;
 }
 .liquid-btn.black-btn:hover::before {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.black-btn:hover::after {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.white-btn {
-  border-color: #fff;
+  border-color: transparent;
   color: #000 !important;
-  background-color: #fff;
+  background-color: transparent;
+  border-color: white;
 }
 .liquid-btn.white-btn:hover::before {
-  transition: 0.5s linear;
   top: -120px;
 }
 .liquid-btn.white-btn:hover::after {
-  transition: 0.5s linear;
   top: -120px;
 }
 @keyframes waterEffect {
