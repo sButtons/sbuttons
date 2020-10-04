@@ -45,6 +45,11 @@ $(document).ready(function () {
           classes: "aurapulse-btn",
         },
         {
+          type: "bounce-right",
+          label: "Bounce Right",
+          classes: "bounce-right-btn",
+        },
+        {
           type: "bounce",
           label: "Bounce",
           classes: "bouncy-btn",
