@@ -288,20 +288,6 @@ $(document).ready(function () {
           ],
         },
         {
-          type: "share",
-          label: "Share",
-          classes: "share-btn",
-          text: "",
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
-          variations: [
-            {
-              classes: "",
-              text: "",
-            },
-          ],
-        },
-        {
           type: "screen-capture",
           label: "Screen Capture",
           classes: "screen-capture-btn",
