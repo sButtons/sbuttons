@@ -12,14 +12,16 @@
   position: relative;
   text-decoration: none;
   width: fit-content;
+  margin-bottom: 5px;
+  white-space: nowrap;
 }
 .sidebar a:before {
   position: absolute;
   left: 0;
   height: 2px;
   width: 0;
-  background-color: #364c63;
-  transition: all 0.2s;
+  background-color: var(--main-color);
+  transition: all 0.3s;
   content: " ";
   bottom: 0;
 }
@@ -48,6 +50,7 @@
 .navbar .sidebar-toggler {
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 .navbar.scrolling .sidebar-toggler {
   color: var(--main-color);
@@ -56,9 +59,70 @@
   color: #fff;
 }
 
-@media (max-width: 767px) {
+.shade {
+  opacity: 0%;
+  transition: opacity 0.2s;
+}
+
+.sidebar-list,
+.instructions-sidebar {
+  overflow-y: auto;
+}
+
+.sidebar-list a,
+.instructions-sidebar a {
+  font-family: Syne, sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  display: block;
+}
+
+.sidebar-list::-webkit-scrollbar,
+.instructions-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb,
+.instructions-sidebar::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 2.5px;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb:hover,
+.instructions-sidebar::-webkit-scrollbar-thumb:hover {
+  background: var(--main-color);
+}
+
+[data-theme="dark"] .sidebar {
+  background-color: var(--dark-color);
+  color: #ffffff;
+}
+
+.navbar .sidebar-toggler,
+.close-sidebar {
+  outline: none !important;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-list,
+  .instructions-sidebar {
+    max-height: 80vh;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .row .hide-sidebar {
     display: none;
+  }
+
+  .sidebar-toggler {
+    padding-left: 0px;
+  }
+
+  [data-theme="dark"] .sidebar {
+    box-shadow: 1px 1px 5px #3b3b3b !important;
   }
 
   .sidebar {
@@ -66,17 +130,28 @@
     left: 0;
     top: 0;
     height: 100%;
-    padding: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
     width: 70%;
     box-shadow: 1px 1px 5px #8a8a8a;
   }
-
+  @media screen and (max-width: 768px) {
+    div.sidebar {
+      z-index: 9999;
+    }
+    .navbar.fixed-top {
+      z-index: 1;
+    }
+  }
   .sidebar a {
     font-size: 1.3rem;
   }
 
   .close-sidebar {
     border: none;
+    padding-right: 5px;
     background-color: transparent;
     align-self: flex-end;
     cursor: pointer;
@@ -87,5 +162,14 @@
   .sidebar.scrolling {
     top: 0;
     z-index: 100;
+  }
+
+  .shade.shown {
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    position: fixed;
+    background-color: black;
+    opacity: 50%;
   }
 }
