@@ -1,0 +1,25 @@
+.bounce-right-btn {
+  position: relative;
+
+  &:hover {
+    animation-name: bounce_right;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce_right {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: scale(0.8, 1) translateX(50px);
+    }
+    40% {
+      transform: scale(0.9, 1) translateX(5px);
+    }
+    100% {
+      transform: scale(1, 1) translateX(0);
+    }
+  }
+}

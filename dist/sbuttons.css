@@ -412,7 +412,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-radius: 25px;
 }
 .aurapulse-btn:hover:before {
-  animation: aurapulse 0.4s infinite;
+  animation: aurapulse 0.5s infinite;
 }
 @keyframes aurapulse {
   0% {
@@ -454,6 +454,29 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .click-btn.purple-btn:hover {
   background-color: #4c2291;
+}
+.bounce-right-btn {
+  position: relative;
+}
+.bounce-right-btn:hover {
+  animation-name: bounce_right;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce_right {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: scale(0.8, 1) translateX(50px);
+  }
+  40% {
+    transform: scale(0.9, 1) translateX(5px);
+  }
+  100% {
+    transform: scale(1, 1) translateX(0);
+  }
 }
 .fill-color-btn {
   background-color: transparent;
@@ -2043,13 +2066,4 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .dashed-btn.purple-btn {
   border: dashed 2px #652dc1;
-  color: #652dc1 !important;
-}
-.dashed-btn.black-btn {
-  border: dashed 2px #000;
-  color: #000 !important;
-}
-.dashed-btn.white-btn {
-  border: dashed 2px #e9e9e9;
-  color: #333 !important;
-}
+  color: #652dc1 !import
