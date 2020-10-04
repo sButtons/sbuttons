@@ -2066,4 +2066,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .dashed-btn.purple-btn {
   border: dashed 2px #652dc1;
-  color: #652dc1 !import
+  color: #652dc1 !important;
+}
+.dashed-btn.black-btn {
+  border: dashed 2px #000;
+  color: #000 !important;
+}
+.dashed-btn.white-btn {
+  border: dashed 2px #e9e9e9;
+  color: #333 !important;
+}
