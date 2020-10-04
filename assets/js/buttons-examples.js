@@ -225,7 +225,6 @@ $(document).ready(function () {
             },
           ],
         },
-
         {
           type: "buy-me-coffee",
           label: "Buy Me Coffee",
