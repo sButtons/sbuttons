@@ -301,6 +301,20 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "screen-capture",
+          label: "Screen Capture",
+          classes: "screen-capture-btn",
+          text: "",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "",
+              text: "",
+            },
+          ],
+        },
       ],
     },
     {
