@@ -366,6 +366,64 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border: 1px solid #fff;
   color: #333 !important;
 }
+.aurapulse-btn {
+  position: relative;
+  z-index: auto;
+  overflow: inherit;
+}
+.aurapulse-btn:before {
+  content: " ";
+  position: absolute;
+  transition: all 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.aurapulse-btn.blue-btn:before {
+  background-color: #50bfe6;
+}
+.aurapulse-btn.pink-btn:before {
+  background-color: #d53caf;
+}
+.aurapulse-btn.green-btn:before {
+  background-color: #3aa655;
+}
+.aurapulse-btn.yellow-btn:before {
+  background-color: #fbe870;
+}
+.aurapulse-btn.orange-btn:before {
+  background-color: #ff8833;
+}
+.aurapulse-btn.red-btn:before {
+  background-color: #ed0a3f;
+}
+.aurapulse-btn.purple-btn:before {
+  background-color: #652dc1;
+}
+.aurapulse-btn.black-btn:before {
+  background-color: #000;
+}
+.aurapulse-btn.white-btn:before {
+  background-color: #ebebeb;
+}
+.aurapulse-btn.rounded-btn:before {
+  border-radius: 25px;
+}
+.aurapulse-btn:hover:before {
+  animation: aurapulse 0.5s infinite;
+}
+@keyframes aurapulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0.2;
+  }
+}
 .click-btn {
   box-shadow: 0px 5px 0px #ccc;
 }
@@ -1069,6 +1127,111 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .snake-btn.rounded-btn:hover:after {
   border-radius: 25px;
 }
+.key-btn.pink-btn {
+  border-top: 2px solid #d53caf;
+  background-color: #d53caf;
+  box-shadow: inset 0px -12px #7c1f65;
+}
+.key-btn.pink-btn:active {
+  background-color: #b34a98;
+  box-shadow: inset 0px -8px 0px #7c1f65;
+}
+.key-btn.blue-btn {
+  border-top: 2px solid #50bfe6;
+  background-color: #50bfe6;
+  box-shadow: inset 0px -12px #387d96;
+}
+.key-btn.blue-btn:active {
+  background-color: #30a1ca;
+  box-shadow: inset 0px -8px 0px #387d96;
+}
+.key-btn.red-btn {
+  border-top: 2px solid #ed0a3f;
+  background-color: #ed0a3f;
+  box-shadow: inset 0px -12px #80122b;
+}
+.key-btn.red-btn:active {
+  background-color: #bd1139;
+  box-shadow: inset 0px -8px 0px #80122b;
+}
+.key-btn.green-btn {
+  border-top: 2px solid #3aa655;
+  background-color: #3aa655;
+  box-shadow: inset 0px -12px #1d5c2d;
+}
+.key-btn.green-btn:active {
+  background-color: #258d3f;
+  box-shadow: inset 0px -8px 0px #1d5c2d;
+}
+.key-btn.yellow-btn {
+  background-color: #fbe870;
+  box-shadow: inset 0px -12px #dbb81d;
+  border-top: 2px solid #fbe870;
+}
+.key-btn.yellow-btn:active {
+  background-color: #f0d14a;
+  box-shadow: inset 0px -8px 0px #dbb81d;
+}
+.key-btn.orange-btn {
+  border-top: 2px solid #ff8833;
+  background-color: #ff8833;
+  box-shadow: inset 0px -12px #a75215;
+}
+.key-btn.orange-btn:active {
+  background-color: #e7792a;
+  box-shadow: inset 0px -8px 0px #a75215;
+}
+.key-btn.purple-btn {
+  border-top: 2px solid #652dc1;
+  background-color: #652dc1;
+  box-shadow: inset 0px -12px #341368;
+}
+.key-btn.purple-btn:active {
+  background-color: #521ca8;
+  box-shadow: inset 0px -8px 0px #341368;
+}
+.key-btn.black-btn {
+  border-top: 2px solid #686363;
+  background-color: #686363;
+  box-shadow: inset 0px -12px #2c2828;
+}
+.key-btn.black-btn:active {
+  background-color: #474545;
+  box-shadow: inset 0px -8px 0px #2c2828;
+}
+.key-btn.white-btn {
+  border-top: 2px solid #fdf4f4;
+  background-color: #fdf4f4;
+  box-shadow: inset 0px -12px #bdb6b6;
+}
+.key-btn.white-btn:active {
+  background-color: #e4e0e0;
+  box-shadow: inset 0px -8px 0px #bdb6b6;
+}
+.key-btn.rounded-btn {
+  border-radius: 30px;
+}
+.key-btn {
+  border: none;
+  outline: none;
+  display: inline-block;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 4px;
+  position: relative;
+  border-bottom: 6px solid #2b1800;
+  border-left: 2px solid #2b1800;
+  border-right: 2px solid #2b1800;
+}
+.key-btn:active {
+  outline: none;
+  top: 2px;
+  border-top: 2px solid #2b1800;
+}
 .transparent-btn {
   position: relative;
   transition: 0.3s ease-in-out;
@@ -1372,6 +1535,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 2em;
   padding: 0;
 }
+.close-btn::before {
+  content: "\f00d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  color: #000;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
 .drop-down-btn {
   position: relative;
   padding-right: 1.5em;
@@ -1495,6 +1669,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-weight: 900;
   color: #fbe870;
 }
+<<<<<<< HEAD
 .base-icon-btn {
   background: darkblue;
   position: relative;
@@ -1524,6 +1699,27 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .icon-right:not(.rounded-btn) i {
   transform: translateX(20%);
+=======
+.thumbsup-btn {
+  transform-origin: center;
+}
+.thumbsup-btn:before {
+  content: "\f164";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.thumbsup-btn:not(.rounded-btn) {
+  padding: 0.2em;
+}
+.thumbsup-btn.rounded-btn {
+  width: 1.6em;
+  height: 1.6em;
+  padding: 0;
+>>>>>>> upstream/master
 }
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
@@ -1656,6 +1852,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #353535;
   content: "\f2ac";
 }
+.social-btn.microsoft {
+  background-color: #00acee;
+  color: #fff;
+}
+.social-btn.microsoft:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  content: "\f17a";
+}
+.social-btn.reddit {
+  background-color: #ee0000;
+  color: #fff;
+}
+.social-btn.reddit:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  content: "\f1a1";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
@@ -1731,6 +1949,30 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .retro-btn-proceed:active {
   box-shadow: inset 4px 4px 0px 0px #e59400;
 }
+.rounded-top-btn {
+  border-radius: 24px 24px 0 0;
+}
+.rounded-top-btn:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.rounded-top-btn:active {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+.rounded-top-btn.rounded-btn.rd-top-btn {
+  border-radius: 14px 34px;
+}
+.rounded-bottom-btn {
+  border-radius: 0 0 24px 24px;
+}
+.rounded-bottom-btn:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.rounded-bottom-btn:active {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+.rounded-bottom-btn.rounded-btn.rd-tl-btn {
+  border-radius: 0 0 34px 34px;
+}
 .rounded-diagonal-tl-btn {
   border-radius: 24px 4px;
 }
@@ -1789,6 +2031,40 @@ a.yellow-btn:active:not(.fill-color-btn) {
     30px 40px #3d3d3d, 35px 40px #3d3d3d, 40px 40px #6e6e6e, 45px 40px #6e6e6e,
     50px 40px #6e6e6e, 55px 40px #3d3d3d, 10px 45px #3d3d3d, 15px 45px #3d3d3d,
     20px 45px #3d3d3d, 40px 45px #3d3d3d, 45px 45px #3d3d3d, 50px 45px #3d3d3d;
+}
+@font-face {
+  font-family: "VT323";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("VT323 Regular"), local("VT323-Regular"),
+    url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2hsY.ttf)
+      format("truetype");
+}
+.win95-btn {
+  font-family: "VT323", monospace;
+  font-size: inherit;
+  color: black;
+  background-color: #d4d4d4;
+  padding: 0.3rem 3.4rem;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
+}
+.win95-btn:last-child {
+  margin: 0;
+}
+.win95-btn:hover {
+  box-shadow: 0.2rem 0.2rem 0 black;
+  transform: translate(-0.2rem, -0.2rem);
+}
+.win95-btn:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
 }
 .dashed-btn {
   background-color: transparent;
