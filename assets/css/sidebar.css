@@ -107,7 +107,7 @@
 @media screen and (min-width: 768px) {
   .sidebar-list,
   .instructions-sidebar {
-    max-height: 80vh;
+    max-height: 55vh;
     padding-right: 20px;
   }
 }
