@@ -1,4 +1,4 @@
-.diagonal-background-btn {
+.diag-btn {
   text-decoration: none;
   display: inline-block;
   padding: 16px 32px;
@@ -79,10 +79,14 @@
     ) !important;
     color: #313131 !important;
   }
-  &:hover {
+  &:hover:not(.white-btn) {
     background-position: 100%;
     // color: #313131;
     color: @white !important;
+    transform: translateX(16px);
+  }
+  &:hover.white-btn {
+    background-position: 100%;
     transform: translateX(16px);
   }
 }
