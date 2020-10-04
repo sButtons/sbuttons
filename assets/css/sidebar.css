@@ -13,6 +13,7 @@
   text-decoration: none;
   width: fit-content;
   margin-bottom: 5px;
+  white-space: nowrap;
 }
 .sidebar a:before {
   position: absolute;
@@ -58,18 +59,70 @@
   color: #fff;
 }
 
-#shade {
+.shade {
   opacity: 0%;
   transition: opacity 0.2s;
 }
 
-@media (max-width: 767px) {
+.sidebar-list,
+.instructions-sidebar {
+  overflow-y: auto;
+}
+
+.sidebar-list a,
+.instructions-sidebar a {
+  font-family: Syne, sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  display: block;
+}
+
+.sidebar-list::-webkit-scrollbar,
+.instructions-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb,
+.instructions-sidebar::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 2.5px;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb:hover,
+.instructions-sidebar::-webkit-scrollbar-thumb:hover {
+  background: var(--main-color);
+}
+
+[data-theme="dark"] .sidebar {
+  background-color: var(--dark-color);
+  color: #ffffff;
+}
+
+.navbar .sidebar-toggler,
+.close-sidebar {
+  outline: none !important;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-list,
+  .instructions-sidebar {
+    max-height: 80vh;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .row .hide-sidebar {
     display: none;
   }
 
   .sidebar-toggler {
     padding-left: 0px;
+  }
+
+  [data-theme="dark"] .sidebar {
+    box-shadow: 1px 1px 5px #3b3b3b !important;
   }
 
   .sidebar {
@@ -84,7 +137,14 @@
     width: 70%;
     box-shadow: 1px 1px 5px #8a8a8a;
   }
-
+  @media screen and (max-width: 768px) {
+    div.sidebar {
+      z-index: 9999;
+    }
+    .navbar.fixed-top {
+      z-index: 1;
+    }
+  }
   .sidebar a {
     font-size: 1.3rem;
   }
@@ -104,7 +164,7 @@
     z-index: 100;
   }
 
-  #shade.shown {
+  .shade.shown {
     width: 100vw;
     height: 100vh;
     z-index: 9;

@@ -1,0 +1,63 @@
+.transparent-btn {
+  position: relative;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    .bc(transparent);
+
+    &.blue-btn {
+      .textColorChange(@blue);
+      .transparentOnHover(@blue);
+    }
+    &.pink-btn {
+      .textColorChange(@pink);
+      .transparentOnHover(@pink);
+    }
+
+    &.green-btn {
+      .textColorChange(@green);
+      .transparentOnHover(@green);
+    }
+
+    &.yellow-btn {
+      .textColorChange(@yellow);
+      .transparentOnHover(@yellow);
+    }
+    &.orange-btn {
+      .textColorChange(@orange);
+      .transparentOnHover(@orange);
+    }
+
+    &.red-btn {
+      .textColorChange(@red);
+      .transparentOnHover(@red);
+    }
+
+    &.purple-btn {
+      .textColorChange(@purple);
+      .transparentOnHover(@purple);
+    }
+
+    &.black-btn {
+      .textColorChange(@black);
+      .transparentOnHover(@black);
+    }
+
+    &.white-btn {
+      .textColorChange(@white);
+      .transparentOnHover(@white);
+      border-color: @whiteBorder;
+    }
+  }
+}
+
+.transparentOnHover(@color) {
+  border-color: @color;
+
+  &::before {
+    .bc(@color);
+  }
+}
+
+.textColorChange(@color) {
+  color: @color !important;
+}

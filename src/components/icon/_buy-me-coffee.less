@@ -11,9 +11,20 @@
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     position: absolute;
-    right: 0.3em;
     font-size: 1.2rem;
     font-weight: bold;
     top: 23%;
+  }
+
+  &.block-btn {
+    &:after {
+      padding-left: 15px;
+    }
+  }
+
+  &:not(.block-btn) {
+    &:after {
+      right: 0.3em;
+    }
   }
 }
