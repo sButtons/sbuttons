@@ -1047,15 +1047,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
-.splash-btn:hover {
-  color: #000;
-}
-.splash-btn:hover:after {
-  background: transparent;
-}
-.splash-btn:hover:before {
-  opacity: 1;
-}
 .splash-btn:after {
   z-index: -1;
   content: "";
@@ -1065,6 +1056,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+.splash-btn:hover {
+  color: #000;
+}
+.splash-btn:hover:after {
+  background: transparent;
+}
+.splash-btn:hover:before {
+  opacity: 1;
 }
 @keyframes glowing {
   0% {
