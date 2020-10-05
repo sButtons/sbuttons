@@ -11,7 +11,6 @@
   overflow: hidden;
   font-size: 1.5rem;
 }
-
 .sbtn:hover,
 .sbtn:active,
 .sbtn:focus {
@@ -758,16 +757,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .neon-btn {
   transition: all 0.5s ease;
 }
-.neon-btn.green-btn {
-  transition: all 0.5s ease;
-}
 .neon-btn.green-btn:hover {
   color: #000;
   background-color: #39ff14;
   box-shadow: 0px 0px 52px 10px #39ff14;
-}
-.neon-btn.blue-btn {
-  transition: all 0.5s ease;
 }
 .neon-btn.blue-btn:hover {
   color: #000;
@@ -1665,6 +1658,31 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 2em;
   padding: 0;
 }
+.setting-btn {
+  transform-origin: center;
+  filter: brightness(1);
+  transition: filter 0.3s;
+  position: relative;
+  font-weight: 900;
+}
+.setting-btn:before {
+  content: "\f013";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+}
+.setting-btn:focus {
+  filter: brightness(1.2);
+}
+.setting-btn.rounded-btn {
+  width: 1.6em;
+  height: 1.6em;
+  padding: 0;
+}
 .close-btn::before {
   content: "\f00d";
   font-family: "Font Awesome 5 Free";
@@ -1926,35 +1944,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
-
-.setting-btn {
-  transform-origin: center;
-  filter: brightness(1);
-  transition: filter 0.3s;
-  font-weight: 900;
-}
-.setting-btn:before {
-  content: "\f013";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.setting-btn:focus {
-  filter: brightness(1.2);
-}
-.setting-btn:not(.rounded-btn) {
-  padding: 0 0.5em;
-}
-.setting-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-
 .social-btn.tumblr {
   background-color: #001935;
   color: #fff;
