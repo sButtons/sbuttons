@@ -11,7 +11,6 @@
   overflow: hidden;
   font-size: 1.5rem;
 }
-
 .sbtn:hover,
 .sbtn:active,
 .sbtn:focus {
@@ -1609,6 +1608,45 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: translateX(16px);
   color: #313131 !important;
 }
+.expanding-btn {
+  position: relative;
+  border: 0.2rem solid transparent;
+}
+.expanding-btn:before {
+  display: block;
+  content: " ";
+  border: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.expanding-btn:hover {
+  opacity: 1;
+  border: 0.2rem solid #333;
+  transition: border 300ms 300ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
+}
+.expanding-btn:hover:before {
+  width: 150%;
+  height: 150%;
+  opacity: 1;
+  border: 0.2rem solid #333;
+  transition: width 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
+    height 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
+    opacity 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
+}
+.expanding-btn:focus {
+  box-shadow: none;
+}
+.expanding-btn.rounded-btn:hover:before {
+  border-radius: 25px;
+}
+.expanding-btn.rounded-btn:hover:after {
+  border-radius: 25px;
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
@@ -1811,6 +1849,31 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .chat-btn.rounded-btn {
   width: 2em;
   height: 2em;
+  padding: 0;
+}
+.setting-btn {
+  transform-origin: center;
+  filter: brightness(1);
+  transition: filter 0.3s;
+  position: relative;
+  font-weight: 900;
+}
+.setting-btn:before {
+  content: "\f013";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+}
+.setting-btn:focus {
+  filter: brightness(1.2);
+}
+.setting-btn.rounded-btn {
+  width: 1.6em;
+  height: 1.6em;
   padding: 0;
 }
 .close-btn::before {
@@ -2074,35 +2137,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
-
-.setting-btn {
-  transform-origin: center;
-  filter: brightness(1);
-  transition: filter 0.3s;
-  font-weight: 900;
-}
-.setting-btn:before {
-  content: "\f013";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.setting-btn:focus {
-  filter: brightness(1.2);
-}
-.setting-btn:not(.rounded-btn) {
-  padding: 0 0.5em;
-}
-.setting-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-
 .social-btn.tumblr {
   background-color: #001935;
   color: #fff;
@@ -2148,6 +2182,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   right: 10px;
   top: 20%;
   content: "\f1a1";
+}
+.social-btn.discord {
+  background-color: #7289da;
+  color: #fff;
+}
+.social-btn.discord:after {
+  color: #fff;
+  content: "\f392";
 }
 @font-face {
   font-family: "Press Start 2P";
