@@ -431,7 +431,7 @@ $(document).ready(function () {
               text: "",
             },
           ],
-        }
+        },
         {
           type: "rounded-bottom",
           label: "Rounded Bottom",
