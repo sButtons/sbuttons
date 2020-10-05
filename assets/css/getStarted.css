@@ -1,0 +1,45 @@
+.text {
+  font-size: 1.3rem;
+  color: black;
+  word-wrap: break-word;
+  font-family: "Syne", sans-serif;
+}
+
+.code-text {
+  font-family: monospace;
+}
+
+.code-block-container {
+  position: relative;
+}
+
+.div-copy {
+  position: absolute;
+  top: 9px;
+  right: 0;
+  background-color: #f5f2f0;
+}
+
+.language-markup {
+  padding-right: 2em;
+}
+
+.script-copy {
+  cursor: pointer;
+}
+
+.instructions hr {
+  margin: 0;
+}
+
+.instructions > h2 {
+  margin-bottom: 1em;
+}
+
+.display-inlineBlock {
+  display: inline-block;
+}
+
+.margin-left--half {
+  margin-left: 0.5rem;
+}

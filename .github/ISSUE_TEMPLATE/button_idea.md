@@ -1,8 +1,8 @@
 ---
 name: New Button Idea
 about: Suggest a new button idea
-title: '[BUTTON IDEA]:'
-labels: button-idea
+title: "[BUTTON IDEA]:"
+labels: 'Priority: Low, button-idea'
 assignees: ''
 
 ---
