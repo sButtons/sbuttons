@@ -461,6 +461,23 @@ $(document).ready(function () {
           shouldHaveRoundedType: false,
         },
         {
+          type: "toggle",
+          label: "Toggle button (on and off)",
+          classes: "toggle-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "toggle-on-btn",
+              text: "",
+            },
+            {
+              classes: "toggle-off-btn",
+              text: "",
+            },
+          ],
+        },
+        {
           type: "win95-btn",
           label: "Windows 95",
           classes: "win95-btn",
