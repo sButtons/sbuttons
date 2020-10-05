@@ -153,6 +153,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="http://linkedin.com/in/chatterjeesayan/"><img src="https://avatars2.githubusercontent.com/u/22965855?v=4" width="100px;" alt=""/><br /><sub><b>chatRG</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=chatRG" title="Code">💻</a></td>
     <td align="center"><a href="https://paulo9mv.github.io"><img src="https://avatars1.githubusercontent.com/u/17968732?v=4" width="100px;" alt=""/><br /><sub><b>Paulo Viana</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=paulo9mv" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/SamD97"><img src="https://avatars3.githubusercontent.com/u/9783888?v=4" width="100px;" alt=""/><br /><sub><b>Saumil Shah</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=SamD97" title="Code">💻</a></td>
   </tr>
 </table>
 
