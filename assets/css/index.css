@@ -161,6 +161,12 @@ section {
 #neu-btn-light {
   background-color: #f0f0f6;
 }
+#neu-btn .section-header {
+  color: #000;
+}
+#neu-btn-light .section-header,{
+  color: #000;
+}
 #neu-btn-dark {
   background-color: #202026;
 }
