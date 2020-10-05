@@ -2191,26 +2191,23 @@ a.yellow-btn:active:not(.fill-color-btn) {
   position: relative;
 }
 .glossy-btn:hover {
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-}
-.glossy-btn:active {
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 1px rgba(128, 128, 128, 0.3);
 }
 .glossy-btn:after {
+  border: 5px solid rgba(255, 255, 255, 0.5);
   content: "";
+  height: 120%;
+  left: -20%;
   position: absolute;
-  width: 100%;
   top: 0;
-  height: 25%;
-  background: rgba(255, 255, 255, 0.4);
-  left: 0;
+  transition: top 114ms;
+  width: 140%;
 }
 .glossy-btn.white-btn:after {
   background: rgba(221, 221, 221, 0.4);
 }
 .glossy-btn:active:after {
-  height: 10%;
-  top: 90%;
+  top: -20%;
 }
 .play-game-btn {
   min-width: 65px;
