@@ -215,14 +215,6 @@ $(document).ready(function () {
             },
           ],
         },
-
-        {
-          type: "setting",
-          label: "Setting Button",
-          classes: "setting-btn",
-          text: "",
-        },
-
         {
           type: "buy-me-coffee",
           label: "Buy Me Coffee",
@@ -283,6 +275,12 @@ $(document).ready(function () {
           type: "scroll-to-top",
           label: "Scroll-to-Top",
           classes: "scroll-to-top-btn",
+          text: "",
+        },
+        {
+          type: "setting",
+          label: "Setting Button",
+          classes: "setting-btn",
           text: "",
         },
         {
