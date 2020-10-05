@@ -146,6 +146,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/wisetok12680"><img src="https://avatars2.githubusercontent.com/u/53168325?v=4" width="100px;" alt=""/><br /><sub><b>Aarush Srivastava</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=wisetok12680" title="Code">💻</a></td>
     <td align="center"><a href="https://onlinesuperheld.nl/"><img src="https://avatars2.githubusercontent.com/u/3299167?v=4" width="100px;" alt=""/><br /><sub><b>Bas van den Wijngaard</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=basvandenwijngaard" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Abasvandenwijngaard" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/tushar2407"><img src="https://avatars3.githubusercontent.com/u/52780891?v=4" width="100px;" alt=""/><br /><sub><b>Tushar Mohan</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=tushar2407" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/pari-27"><img src="https://avatars2.githubusercontent.com/u/24895454?v=4" width="100px;" alt=""/><br /><sub><b>pari-27</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pari-27" title="Code">💻</a></td>
   </tr>
 </table>
 
