@@ -1460,6 +1460,45 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: translateX(16px);
   color: #313131 !important;
 }
+.expanding-btn {
+  position: relative;
+  border: 0.2rem solid transparent;
+}
+.expanding-btn:before {
+  display: block;
+  content: " ";
+  border: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.expanding-btn:hover {
+  opacity: 1;
+  border: 0.2rem solid #333;
+  transition: border 300ms 300ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
+}
+.expanding-btn:hover:before {
+  width: 150%;
+  height: 150%;
+  opacity: 1;
+  border: 0.2rem solid #333;
+  transition: width 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
+    height 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
+    opacity 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
+}
+.expanding-btn:focus {
+  box-shadow: none;
+}
+.expanding-btn.rounded-btn:hover:before {
+  border-radius: 25px;
+}
+.expanding-btn.rounded-btn:hover:after {
+  border-radius: 25px;
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;

@@ -60,6 +60,11 @@ $(document).ready(function () {
           classes: "diag-btn",
         },
         {
+          type: "expanding",
+          label: "Expanding Border",
+          classes: "expanding-btn",
+        },
+        {
           type: "fill-color-down",
           label: "Fill Color - Down",
           classes: "fill-color-btn down-fill",
