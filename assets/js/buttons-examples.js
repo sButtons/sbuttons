@@ -203,6 +203,8 @@ $(document).ready(function () {
               text: "base icon button",
             },
           ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
         },
         {
           type: "add-to-cart",

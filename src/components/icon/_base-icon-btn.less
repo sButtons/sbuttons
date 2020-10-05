@@ -1,13 +1,10 @@
 .base-icon-btn {
-  background: darkblue;
   position: relative;
+  color: #000;
+  border: 0.5px solid rgb(80, 82, 82);
 
   & i {
     text-align: center;
-  }
-
-  &:not(.rounded-btn) {
-    border-radius: 8px;
   }
 
   &:hover {
@@ -18,6 +15,7 @@
 
 &.icon-left {
   color: #fff;
+  border: none;
 
   & i {
     transform: translateX(-30%);
@@ -32,6 +30,7 @@
 
 &.icon-right {
   color: #fff;
+  border: none;
 
   i {
     transform: translateX(45%);

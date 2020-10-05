@@ -1703,14 +1703,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fbe870;
 }
 .base-icon-btn {
-  background: darkblue;
   position: relative;
+  color: #000;
+  border: 0.5px solid #505252;
 }
 .base-icon-btn i {
   text-align: center;
-}
-.base-icon-btn:not(.rounded-btn) {
-  border-radius: 8px;
 }
 .base-icon-btn:hover {
   transition: all 0.3s ease-in;
@@ -1718,6 +1716,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .icon-left {
   color: #fff;
+  border: none;
 }
 .icon-left i {
   transform: translateX(-30%);
@@ -1727,6 +1726,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .icon-right {
   color: #fff;
+  border: none;
 }
 .icon-right i {
   transform: translateX(45%);
