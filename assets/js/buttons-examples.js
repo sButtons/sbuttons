@@ -321,6 +321,10 @@ $(document).ready(function () {
           text: "Login with Apple",
         },
         {
+          classes: "discord",
+          text: "Login with Discord",
+        },
+        {
           classes: "facebook",
           text: "Login with Facebook",
         },
