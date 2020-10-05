@@ -106,6 +106,11 @@ $(document).ready(function () {
           classes: "key-btn",
         },
         {
+          type: "liquid",
+          label: "Liquid",
+          classes: "liquid-btn",
+        },
+        {
           type: "neon",
           label: "Neon",
           classes: "neon-btn",
