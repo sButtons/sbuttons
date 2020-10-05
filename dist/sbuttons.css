@@ -2349,42 +2349,43 @@ a.yellow-btn:active:not(.fill-color-btn) {
     50px 40px #6e6e6e, 55px 40px #3d3d3d, 10px 45px #3d3d3d, 15px 45px #3d3d3d,
     20px 45px #3d3d3d, 40px 45px #3d3d3d, 45px 45px #3d3d3d, 50px 45px #3d3d3d;
 }
-.toggle-on-btn {
+.toggle-btn {
   width: 90px;
   height: 50px;
   border-radius: 50px;
+  border: 0;
+  transition: all 0.5s ease;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.toggle-btn::before {
+  content: "";
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+}
+.toggle-on-btn {
   background-color: #30d158;
   border: 0;
   border-color: #4ed164;
-  padding: 5px;
+  box-shadow: inset 2px 0 0 0 #4ed164;
 }
 .toggle-off-btn {
-  width: 90px;
-  height: 50px;
-  border-radius: 50px;
   background-color: #e5e5ea;
   border: 1px solid #d9dadc;
-  padding: 5px;
+  box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.05);
 }
-.toggle-on-btn::after {
-  content: "";
-  height: 40px;
-  width: 40px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
-  float: right;
+.toggle-on-btn::before {
+  transform: translateX(1.5em);
 }
 .toggle-off-btn::before {
-  content: "";
-  height: 40px;
-  width: 40px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
-  float: left;
+  transform: translateX(-0.3em);
 }
 @font-face {
   font-family: "VT323";
