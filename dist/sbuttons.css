@@ -1201,7 +1201,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-image: linear-gradient(120deg, transparent 50%, #fff 50%) !important;
   color: #313131 !important;
 }
-.diag-btn:hover:not(.white-btn) {
+.diag-btn:hover:not(.white-btn):not(.yellow-btn) {
   background-position: 100%;
   color: #fff !important;
   transform: translateX(16px);
@@ -1209,6 +1209,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .diag-btn:hover.white-btn {
   background-position: 100%;
   transform: translateX(16px);
+}
+.diag-btn:hover.yellow-btn {
+  background-position: 100%;
+  transform: translateX(16px);
+  color: #313131 !important;
 }
 .buy-me-coffee-btn {
   position: relative;

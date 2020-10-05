@@ -79,7 +79,7 @@
     ) !important;
     color: #313131 !important;
   }
-  &:hover:not(.white-btn) {
+  &:hover:not(.white-btn):not(.yellow-btn) {
     background-position: 100%;
     // color: #313131;
     color: @white !important;
@@ -88,5 +88,10 @@
   &:hover.white-btn {
     background-position: 100%;
     transform: translateX(16px);
+  }
+  &:hover.yellow-btn {
+    background-position: 100%;
+    transform: translateX(16px);
+    color: #313131 !important;
   }
 }
