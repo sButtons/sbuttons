@@ -60,7 +60,7 @@ And then you can import the CSS file found in `dist/sbuttons.css` or the LESS fi
 
 ### Modifying Button Colors
 
-To modify button colors, import `src/sbuttons.less` in your Less file, then make changes to the variables after the import.
+To modify button colors, import `src/_variables.less` in your Less file, then make changes to the variables after the import.
 
 For example, to change the blue color to a different shade
 
@@ -69,7 +69,7 @@ For example, to change the blue color to a different shade
 
 @blue: #54a2bd; /* Make it darker */
 ```
-Check out [sbuttons.less](https://github.com/sButtons/sbuttons/blob/master/src/sbuttons.less) for the full list of variables.
+Check out [sbuttons.less](https://github.com/sButtons/sbuttons/blob/master/src/_variables.less) for the full list of variables.
 
 # Usage
 
