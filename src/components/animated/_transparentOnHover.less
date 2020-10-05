@@ -6,43 +6,46 @@
 
     &.blue-btn {
       .textColorChange(@blue);
+      .transparentOnHover(@blue);
     }
     &.pink-btn {
       .textColorChange(@pink);
+      .transparentOnHover(@pink);
     }
 
     &.green-btn {
       .textColorChange(@green);
+      .transparentOnHover(@green);
     }
 
     &.yellow-btn {
       .textColorChange(@yellow);
-      &:hover {
-        color: @yellow !important;
-      }
+      .transparentOnHover(@yellow);
     }
     &.orange-btn {
       .textColorChange(@orange);
+      .transparentOnHover(@orange);
     }
 
     &.red-btn {
       .textColorChange(@red);
+      .transparentOnHover(@red);
     }
 
     &.purple-btn {
       .textColorChange(@purple);
+      .transparentOnHover(@purple);
     }
 
     &.black-btn {
       .textColorChange(@black);
+      .transparentOnHover(@black);
     }
 
     &.white-btn {
       .textColorChange(@white);
+      .transparentOnHover(@white);
       border-color: @whiteBorder;
-      &:hover {
-        color: @white !important;
-      }
     }
   }
 }
@@ -56,48 +59,5 @@
 }
 
 .textColorChange(@color) {
-  color: @color;
-
-  &::before {
-    .bc(@color);
-  }
-}
-
-&.blue-btn {
-  .transparentOnHover(@blue);
-}
-&.pink-btn {
-  .transparentOnHover(@pink);
-}
-
-&.green-btn {
-  .transparentOnHover(@green);
-}
-
-&.yellow-btn {
-  .transparentOnHover(@yellow);
-}
-
-&.orange-btn {
-  .transparentOnHover(@orange);
-}
-
-&.red-btn {
-  .transparentOnHover(@red);
-}
-
-&.purple-btn {
-  .transparentOnHover(@purple);
-}
-
-&.black-btn {
-  .transparentOnHover(@black);
-}
-
-&.white-btn {
-  .transparentOnHover(@white);
-  border-color: @whiteBorder;
-  &:hover {
-    color: @darkText !important;
-  }
+  color: @color !important;
 }
