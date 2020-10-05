@@ -1025,6 +1025,25 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "wisetok12680",
+      "name": "Aarush Srivastava",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/53168325?v=4",
+      "profile": "https://github.com/wisetok12680",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "basvandenwijngaard",
+      "name": "Bas van den Wijngaard",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3299167?v=4",
+      "profile": "https://onlinesuperheld.nl/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
