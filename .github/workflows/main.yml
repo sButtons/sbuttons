@@ -1,9 +1,11 @@
-name: Format (prettier)
+name: Format (prettier) & Minify
 
 on:
     push:
         branches:
             - 'master'
+        paths: 
+            - '*'
 
 jobs:
     prettier:
