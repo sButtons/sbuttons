@@ -55,6 +55,11 @@ $(document).ready(function () {
           classes: "click-btn",
         },
         {
+          type: "diagonalHover",
+          label: "Diagonal Background on Hover",
+          classes: "diag-btn",
+        },
+        {
           type: "fill-color-down",
           label: "Fill Color - Down",
           classes: "fill-color-btn down-fill",
@@ -210,7 +215,6 @@ $(document).ready(function () {
             },
           ],
         },
-
         {
           type: "buy-me-coffee",
           label: "Buy Me Coffee",
@@ -271,6 +275,12 @@ $(document).ready(function () {
           type: "scroll-to-top",
           label: "Scroll-to-Top",
           classes: "scroll-to-top-btn",
+          text: "",
+        },
+        {
+          type: "setting",
+          label: "Setting",
+          classes: "setting-btn",
           text: "",
         },
         {
