@@ -428,6 +428,23 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "neu-btn",
+          label: "neumorphic",
+          classes: "",
+          children: [
+            {
+              type: "neu-btn-light",
+              label: "neumorphic light",
+              classes: "neu-btn-light",
+            },
+            {
+              type: "neu-btn-dark",
+              label: "neumorphic dark",
+              classes: "neu-btn-dark",
+            },
+          ],
+        },
       ],
     },
   ];

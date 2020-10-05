@@ -158,6 +158,15 @@ section {
 #hinge .button-container .block-btn {
   margin-bottom: 2.5em;
 }
+#neu-btn-light {
+  background-color: #f0f0f6;
+}
+#neu-btn-dark {
+  background-color: #202026;
+}
+#neu-btn-dark .section-header {
+  color: #fff;
+}
 
 [data-theme="dark"] .button-caption-sub {
   color: #afafaf;

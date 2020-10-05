@@ -1,5 +1,5 @@
 .neuColorRule(@color) {
-  color: @color;
+  color: @color !important;
   background-color: transparent;
 }
 .neuBtnRule() {
@@ -49,6 +49,9 @@
 
   &.black-btn {
     .neuColorRule(@black);
+  }
+  &.white-btn {
+    .neuColorRule(@white);
   }
 }
 .neu-btn-light {
