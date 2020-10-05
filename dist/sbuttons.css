@@ -757,16 +757,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .neon-btn {
   transition: all 0.5s ease;
 }
-.neon-btn.green-btn {
-  transition: all 0.5s ease;
-}
 .neon-btn.green-btn:hover {
   color: #000;
   background-color: #39ff14;
   box-shadow: 0px 0px 52px 10px #39ff14;
-}
-.neon-btn.blue-btn {
-  transition: all 0.5s ease;
 }
 .neon-btn.blue-btn:hover {
   color: #000;
