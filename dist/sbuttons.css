@@ -11,7 +11,6 @@
   overflow: hidden;
   font-size: 1.5rem;
 }
-
 .sbtn:hover,
 .sbtn:active,
 .sbtn:focus {
@@ -1023,18 +1022,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .splash-btn:before {
   content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
   top: -2px;
   left: -2px;
@@ -1048,15 +1036,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
-.splash-btn:hover {
-  color: #000;
-}
-.splash-btn:hover:after {
-  background: transparent;
-}
-.splash-btn:hover:before {
-  opacity: 1;
-}
 .splash-btn:after {
   z-index: -1;
   content: "";
@@ -1066,6 +1045,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+.splash-btn:hover {
+  color: #000;
+}
+.splash-btn:hover:after {
+  background: transparent;
+}
+.splash-btn:hover:before {
+  opacity: 1;
 }
 @keyframes glowing {
   0% {
@@ -1138,8 +1126,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   opacity: 1;
   border-top: 0.2rem solid yellow;
   border-right: 0.2rem solid yellow;
-  transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1),
-    height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
+  transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1), height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
   border-color: #333;
 }
 .snake-btn:hover:after {
@@ -1148,8 +1135,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   opacity: 1;
   border-bottom: 0.2rem solid;
   border-left: 0.2rem solid;
-  transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1),
-    height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
+  transition: width 300ms cubic-bezier(0.07, 0.62, 0.61, 1), height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
   border-color: #333;
 }
 .snake-btn:focus {
@@ -1376,75 +1362,39 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border: none;
 }
 .diag-btn.purple-btn {
-  background-image: linear-gradient(
-    120deg,
-    transparent 50%,
-    #652dc1 50%
-  ) !important;
+  background-image: linear-gradient(120deg, transparent 50%, #652dc1 50%) !important;
   color: #652dc1 !important;
 }
 .diag-btn.blue-btn {
-  background-image: linear-gradient(
-    120deg,
-    transparent 50%,
-    #50bfe6 50%
-  ) !important;
+  background-image: linear-gradient(120deg, transparent 50%, #50bfe6 50%) !important;
   color: #50bfe6 !important;
 }
 .diag-btn.pink-btn {
-  background-image: linear-gradient(
-    120deg,
-    transparent 50%,
-    #d53caf 50%
-  ) !important;
+  background-image: linear-gradient(120deg, transparent 50%, #d53caf 50%) !important;
   color: #d53caf !important;
 }
 .diag-btn.red-btn {
-  background-image: linear-gradient(
-    120deg,
-    transparent 50%,
-    #ed0a3f 50%
-  ) !important;
+  background-image: linear-gradient(120deg, transparent 50%, #ed0a3f 50%) !important;
   color: #ed0a3f !important;
 }
 .diag-btn.green-btn {
-  background-image: linear-gradient(
-    120deg,
-    transparent 50%,
-    #3aa655 50%
-  ) !important;
+  background-image: linear-gradient(120deg, transparent 50%, #3aa655 50%) !important;
   color: #3aa655 !important;
 }
 .diag-btn.yellow-btn {
-  background-image: linear-gradient(
-    120deg,
-    transparent 50%,
-    #fbe870 50%
-  ) !important;
+  background-image: linear-gradient(120deg, transparent 50%, #fbe870 50%) !important;
   color: #fbe870 !important;
 }
 .diag-btn.orange-btn {
-  background-image: linear-gradient(
-    120deg,
-    transparent 50%,
-    #ff8833 50%
-  ) !important;
+  background-image: linear-gradient(120deg, transparent 50%, #ff8833 50%) !important;
   color: #ff8833 !important;
 }
 .diag-btn.black-btn {
-  background-image: linear-gradient(
-    120deg,
-    transparent 50%,
-    #000 50%
-  ) !important;
+  background-image: linear-gradient(120deg, transparent 50%, #000 50%) !important;
   color: #313131 !important;
 }
 .diag-btn.white-btn {
-  background-image: linear-gradient(
-    120deg,
-    transparent 50%,
-    #fff 50%
-  ) !important;
+  background-image: linear-gradient(120deg, transparent 50%, #fff 50%) !important;
   color: #313131 !important;
 }
 .diag-btn:hover:not(.white-btn):not(.yellow-btn) {
@@ -1665,6 +1615,31 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 2em;
   padding: 0;
 }
+.setting-btn {
+  transform-origin: center;
+  filter: brightness(1);
+  transition: filter 0.3s;
+  position: relative;
+  font-weight: 900;
+}
+.setting-btn:before {
+  content: "\f013";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+}
+.setting-btn:focus {
+  filter: brightness(1.2);
+}
+.setting-btn.rounded-btn {
+  width: 1.6em;
+  height: 1.6em;
+  padding: 0;
+}
 .close-btn::before {
   content: "\f00d";
   font-family: "Font Awesome 5 Free";
@@ -1867,14 +1842,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   content: "\f39e";
 }
 .social-btn.instagram {
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   color: #fff;
   border: 0px !important;
 }
@@ -1926,35 +1894,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
-
-.setting-btn {
-  transform-origin: center;
-  filter: brightness(1);
-  transition: filter 0.3s;
-  font-weight: 900;
-}
-.setting-btn:before {
-  content: "\f013";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.setting-btn:focus {
-  filter: brightness(1.2);
-}
-.setting-btn:not(.rounded-btn) {
-  padding: 0 0.5em;
-}
-.setting-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-
 .social-btn.tumblr {
   background-color: #001935;
   color: #fff;
@@ -2002,13 +1941,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   content: "\f1a1";
 }
 @font-face {
-  font-family: "Press Start 2P";
+  font-family: 'Press Start 2P';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Press Start 2P Regular"), local("PressStart2P-Regular"),
-    url(https://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf)
-      format("truetype");
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf) format('truetype');
 }
 .retro-btn {
   background: #92cd41;
@@ -2140,33 +2077,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   left: 0;
   width: 5px;
   height: 5px;
-  box-shadow: 25px 0px #3d3d3d, 25px 5px #3d3d3d, 30px 10px #3d3d3d,
-    35px 15px #3d3d3d, 15px 15px #3d3d3d, 20px 15px #3d3d3d, 25px 15px #3d3d3d,
-    30px 15px #3d3d3d, 35px 15px #3d3d3d, 40px 15px #3d3d3d, 45px 15px #3d3d3d,
-    10px 20px #3d3d3d, 15px 20px #6e6e6e, 20px 20px #a6a6a6, 25px 20px #a6a6a6,
-    30px 20px #a6a6a6, 30px 20px #a6a6a6, 35px 20px #a6a6a6, 40px 20px #a6a6a6,
-    45px 20px #6e6e6e, 50px 20px #3d3d3d, 5px 25px #3d3d3d, 10px 25px #6e6e6e,
-    15px 25px #3d3d3d, 20px 25px #6e6e6e, 25px 25px #a6a6a6, 30px 25px #a6a6a6,
-    35px 25px #a6a6a6, 40px 25px #6e6e6e, 45px 25px #9ea1ff, 50px 25px #6e6e6e,
-    55px 25px #3d3d3d, 5px 30px #3d3d3d, 10px 30px #3d3d3d, 15px 30px #3d3d3d,
-    20px 30px #3d3d3d, 25px 30px #a6a6a6, 30px 30px #a6a6a6, 35px 30px #a6a6a6,
-    40px 30px #00ff00, 45px 30px #ffffff, 50px 30px #ff0000, 55px 30px #3d3d3d,
-    5px 35px #3d3d3d, 10px 35px #6e6e6e, 15px 35px #3d3d3d, 20px 35px #6e6e6e,
-    25px 35px #a6a6a6, 30px 35px #a6a6a6, 35px 35px #a6a6a6, 40px 35px #6e6e6e,
-    45px 35px #ffff00, 50px 35px #6e6e6e, 55px 35px #3d3d3d, 5px 40px #3d3d3d,
-    10px 40px #6e6e6e, 15px 40px #6e6e6e, 20px 40px #6e6e6e, 25px 40px #3d3d3d,
-    30px 40px #3d3d3d, 35px 40px #3d3d3d, 40px 40px #6e6e6e, 45px 40px #6e6e6e,
-    50px 40px #6e6e6e, 55px 40px #3d3d3d, 10px 45px #3d3d3d, 15px 45px #3d3d3d,
-    20px 45px #3d3d3d, 40px 45px #3d3d3d, 45px 45px #3d3d3d, 50px 45px #3d3d3d;
+  box-shadow: 25px 0px #3d3d3d, 25px 5px #3d3d3d, 30px 10px #3d3d3d, 35px 15px #3d3d3d, 15px 15px #3d3d3d, 20px 15px #3d3d3d, 25px 15px #3d3d3d, 30px 15px #3d3d3d, 35px 15px #3d3d3d, 40px 15px #3d3d3d, 45px 15px #3d3d3d, 10px 20px #3d3d3d, 15px 20px #6e6e6e, 20px 20px #a6a6a6, 25px 20px #a6a6a6, 30px 20px #a6a6a6, 30px 20px #a6a6a6, 35px 20px #a6a6a6, 40px 20px #a6a6a6, 45px 20px #6e6e6e, 50px 20px #3d3d3d, 5px 25px #3d3d3d, 10px 25px #6e6e6e, 15px 25px #3d3d3d, 20px 25px #6e6e6e, 25px 25px #a6a6a6, 30px 25px #a6a6a6, 35px 25px #a6a6a6, 40px 25px #6e6e6e, 45px 25px #9ea1ff, 50px 25px #6e6e6e, 55px 25px #3d3d3d, 5px 30px #3d3d3d, 10px 30px #3d3d3d, 15px 30px #3d3d3d, 20px 30px #3d3d3d, 25px 30px #a6a6a6, 30px 30px #a6a6a6, 35px 30px #a6a6a6, 40px 30px #00ff00, 45px 30px #ffffff, 50px 30px #ff0000, 55px 30px #3d3d3d, 5px 35px #3d3d3d, 10px 35px #6e6e6e, 15px 35px #3d3d3d, 20px 35px #6e6e6e, 25px 35px #a6a6a6, 30px 35px #a6a6a6, 35px 35px #a6a6a6, 40px 35px #6e6e6e, 45px 35px #ffff00, 50px 35px #6e6e6e, 55px 35px #3d3d3d, 5px 40px #3d3d3d, 10px 40px #6e6e6e, 15px 40px #6e6e6e, 20px 40px #6e6e6e, 25px 40px #3d3d3d, 30px 40px #3d3d3d, 35px 40px #3d3d3d, 40px 40px #6e6e6e, 45px 40px #6e6e6e, 50px 40px #6e6e6e, 55px 40px #3d3d3d, 10px 45px #3d3d3d, 15px 45px #3d3d3d, 20px 45px #3d3d3d, 40px 45px #3d3d3d, 45px 45px #3d3d3d, 50px 45px #3d3d3d;
 }
 @font-face {
-  font-family: "VT323";
+  font-family: 'VT323';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("VT323 Regular"), local("VT323-Regular"),
-    url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2hsY.ttf)
-      format("truetype");
+  src: local('VT323 Regular'), local('VT323-Regular'), url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2hsY.ttf) format('truetype');
 }
 .win95-btn {
   font-family: "VT323", monospace;
