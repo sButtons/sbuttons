@@ -218,7 +218,7 @@ $(document).ready(function () {
 
   function downloadGithubCssRaw() {
     var link =
-      "../../dist/sbuttons.min.css";
+      "https://github.com/sButtons/sbuttons/blob/master/dist/sbuttons.min.css";
     if (window.fetch) {
       fetch(link)
         .then((resp) => resp.blob())
