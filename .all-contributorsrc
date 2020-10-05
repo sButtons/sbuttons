@@ -1081,6 +1081,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "chatRG",
+      "name": "chatRG",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22965855?v=4",
+      "profile": "http://linkedin.com/in/chatterjeesayan/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
