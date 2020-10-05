@@ -145,6 +145,11 @@ $(document).ready(function () {
       label: "Disabled Buttons",
     },
     {
+      type: "gradient",
+      classes: "gradient-btn",
+      label: "Gradient Buttons",
+    },
+    {
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",

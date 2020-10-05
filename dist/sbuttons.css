@@ -1542,3 +1542,61 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border: dashed 2px #e9e9e9;
   color: #333 !important;
 }
+.gradient-btn {
+  border: none;
+  outline: none;
+}
+.gradient-btn.pink-btn {
+  background: linear-gradient(#d53caf, #e60550);
+}
+.gradient-btn.pink-btn:hover {
+  background: linear-gradient(#e60550, #d53caf);
+}
+.gradient-btn.blue-btn {
+  background: linear-gradient(#50bfe6, #085c7a);
+}
+.gradient-btn.blue-btn:hover {
+  background: linear-gradient(#085c7a, #50bfe6);
+}
+.gradient-btn.red-btn {
+  background: linear-gradient(#ed0a3f, #810824);
+}
+.gradient-btn.red-btn:hover {
+  background: linear-gradient(#810824, #ed0a3f);
+}
+.gradient-btn.green-btn {
+  background: linear-gradient(#3aa655, #165f29);
+}
+.gradient-btn.green-btn:hover {
+  background: linear-gradient(#165f29, #3aa655);
+}
+.gradient-btn.yellow-btn {
+  background: linear-gradient(#fbe870, #eece00);
+}
+.gradient-btn.yellow-btn:hover {
+  background: linear-gradient(#eece00, #fbe870);
+}
+.gradient-btn.orange-btn {
+  background: linear-gradient(#ff8833, #a74601);
+}
+.gradient-btn.orange-btn:hover {
+  background: linear-gradient(#a74601, #ff8833);
+}
+.gradient-btn.purple-btn {
+  background: linear-gradient(#652dc1, #28075e);
+}
+.gradient-btn.purple-btn:hover {
+  background: linear-gradient(#28075e, #652dc1);
+}
+.gradient-btn.black-btn {
+  background: linear-gradient(#686363, #000);
+}
+.gradient-btn.black-btn:hover {
+  background: linear-gradient(#000, #686363);
+}
+.gradient-btn.white-btn {
+  background: linear-gradient(#fdf4f4, #a19e9e);
+}
+.gradient-btn.white-btn:hover {
+  background: linear-gradient(#a19e9e, #fdf4f4);
+}
