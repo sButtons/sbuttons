@@ -215,7 +215,6 @@ $(document).ready(function () {
             },
           ],
         },
-
         {
           type: "buy-me-coffee",
           label: "Buy Me Coffee",
@@ -276,6 +275,12 @@ $(document).ready(function () {
           type: "scroll-to-top",
           label: "Scroll-to-Top",
           classes: "scroll-to-top-btn",
+          text: "",
+        },
+        {
+          type: "setting",
+          label: "Setting",
+          classes: "setting-btn",
           text: "",
         },
         {
