@@ -152,6 +152,13 @@ $(document).ready(function () {
         },
 
         {
+          type: "setting",
+          label: "Setting Button",
+          classes: "setting-btn",
+          text: "",
+        },
+
+        {
           type: "buy-me-coffee",
           label: "Buy Me Coffee Button",
           classes: "buy-me-coffee-btn",
