@@ -82,7 +82,13 @@
 
   &.white-btn {
     .liquidBtn(@white);
-    border-color: white;
+    border-color: rgba(0, 0, 0, 0.2);
+    &::before {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    &::after {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
   }
 }
 

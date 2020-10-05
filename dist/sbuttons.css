@@ -1457,13 +1457,19 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #fff;
   color: #000 !important;
   background-color: #fff;
-  border-color: white;
+  border-color: rgba(0, 0, 0, 0.2);
 }
 .liquid-btn.white-btn:hover::before {
   top: -120px;
 }
 .liquid-btn.white-btn:hover::after {
   top: -120px;
+}
+.liquid-btn.white-btn::before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.liquid-btn.white-btn::after {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 @keyframes waterEffect {
   0% {
