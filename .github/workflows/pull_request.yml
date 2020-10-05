@@ -4,7 +4,7 @@ name: Check Prettier
 
 # Controls when the action will run. Triggers the workflow on pull request
 on:
-  pull_request:
+  push:
     # branches: [ master ]
     paths:
       - 'dist/**'
@@ -25,5 +25,5 @@ jobs:
             env:
                 CI: true
 
-          - name: Check prettier
-            run: npm run check-prettier
+          - name: Clean CSS
+            run: npm run clean-css
