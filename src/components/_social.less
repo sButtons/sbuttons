@@ -9,7 +9,7 @@
     font-family: "Font Awesome 5 Brands";
     position: absolute;
     right: 10px;
-    top: 26%;
+    top: 20%;
   }
 
   &:hover {
@@ -17,7 +17,11 @@
     transform: translateY(-3px);
   }
 }
-
+.social-btn.block-btn {
+  &:after {
+    margin-right: 1rem;
+  }
+}
 @import "social/_google.less";
 @import "social/_apple.less";
 @import "social/_facebook.less";
@@ -29,3 +33,6 @@
 @import "social/_tumblr.less";
 @import "social/_flickr.less";
 @import "social/_snapchat.less";
+@import "social/_microsoft.less";
+@import "social/_reddit.less";
+@import "social/_discord.less";
