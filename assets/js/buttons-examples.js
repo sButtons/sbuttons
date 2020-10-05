@@ -316,6 +316,10 @@ $(document).ready(function () {
           text: "Login with Apple",
         },
         {
+          classes: "discord",
+          text: "Login with Discord",
+        },
+        {
           classes: "facebook",
           text: "Login with Facebook",
         },
@@ -362,10 +366,6 @@ $(document).ready(function () {
         {
           classes: "weibo",
           text: "Login with Weibo",
-        },
-        {
-          classes: "discord",
-          text: "Login with Discord",
         },
       ],
       children: [],
