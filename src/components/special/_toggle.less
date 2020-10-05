@@ -1,37 +1,38 @@
-.toggle-on-btn {
-  width: 90px;
-  height: 50px;
-  border-radius: 50px;
-  background-color: rgb(48, 209, 88);
-  border: 0;
-  border-color: #4ed164;
-  padding: 5px;
+.toggle-btn{
+	width: 90px;
+	height: 50px;
+	border-radius: 50px;
+	border: 0;
+	transition: all 0.5s ease;
+	outline: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center; 
 }
-.toggle-off-btn {
-  width: 90px;
-  height: 50px;
-  border-radius: 50px;
-  background-color: rgb(229, 229, 234);
-  border: 1px solid #d9dadc;
-  padding: 5px;
-}
-.toggle-on-btn::after {
-  content: "";
-  height: 40px;
+.toggle-btn::before{
+	content: '';
+	height: 40px;
   width: 40px;
-  background-color: #fff;
-  border-radius: 50%;
+ 	background-color: #fff;
+ 	border-radius: 50%;
   display: inline-block;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
-  float: right;
+	box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+	transition: all 0.5s ease;
 }
-.toggle-off-btn::before {
-  content: "";
-  height: 40px;
-  width: 40px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
-  float: left;
+.toggle-on-btn{
+	background-color: rgb(48,209,88);
+	border: 0;
+	border-color: #4ED164;
+	box-shadow: inset 2px 0 0 0 #4ED164;
+}
+.toggle-off-btn{
+	background-color: rgb(229,229,234); 
+	border: 1px solid #D9DADC;
+	box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+}
+.toggle-on-btn::before{
+		transform: translateX(1.5em);
+}
+.toggle-off-btn::before{
+	transform: translateX(-0.3em);
 }
