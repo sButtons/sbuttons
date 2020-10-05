@@ -55,6 +55,11 @@ $(document).ready(function () {
           classes: "click-btn",
         },
         {
+          type: "diagonalHover",
+          label: "Diagonal Background on Hover",
+          classes: "diag-btn",
+        },
+        {
           type: "fill-color-down",
           label: "Fill Color - Down",
           classes: "fill-color-btn down-fill",

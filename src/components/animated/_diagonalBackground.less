@@ -1,0 +1,97 @@
+.diag-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  background-size: 250%;
+  transition: all 0.4s;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  &.purple-btn {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @purple 50%
+    ) !important;
+    color: @purple !important;
+  }
+  &.blue-btn {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @blue 50%
+    ) !important;
+    color: @blue !important;
+  }
+  &.pink-btn {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @pink 50%
+    ) !important;
+    color: @pink !important;
+  }
+  &.red-btn {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @red 50%
+    ) !important;
+    color: @red !important;
+  }
+  &.green-btn {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @green 50%
+    ) !important;
+    color: @green !important;
+  }
+  &.yellow-btn {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @yellow 50%
+    ) !important;
+    color: @yellow !important;
+  }
+  &.orange-btn {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @orange 50%
+    ) !important;
+    color: @orange !important;
+  }
+  &.black-btn {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @black 50%
+    ) !important;
+    color: #313131 !important;
+  }
+  &.white-btn {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @white 50%
+    ) !important;
+    color: #313131 !important;
+  }
+  &:hover:not(.white-btn):not(.yellow-btn) {
+    background-position: 100%;
+    // color: #313131;
+    color: @white !important;
+    transform: translateX(16px);
+  }
+  &:hover.white-btn {
+    background-position: 100%;
+    transform: translateX(16px);
+  }
+  &:hover.yellow-btn {
+    background-position: 100%;
+    transform: translateX(16px);
+    color: #313131 !important;
+  }
+}
