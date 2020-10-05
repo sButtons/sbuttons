@@ -1109,6 +1109,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "zikos2",
+      "name": "Zack||",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16059617?v=4",
+      "profile": "https://github.com/zikos2",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
