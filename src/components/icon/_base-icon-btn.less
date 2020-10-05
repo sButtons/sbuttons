@@ -1,7 +1,5 @@
 .base-icon-btn {
-  position: relative;
-  color: #000;
-  border: 0.5px solid rgb(80, 82, 82);
+  color: @black;
 
   & i {
     text-align: center;
@@ -11,10 +9,33 @@
     transition: all 0.3s ease-in;
     transform: translateY(5px);
   }
+
+  &:not(.rounded-btn) {
+    &.blue-btn,
+    .pink-btn,
+    .red-btn,
+    .green-btn,
+    .yellow-btn,
+    .orange-btn,
+    .purple-btn,
+    .black-btn {
+      color: @white;
+    }
+  }
+}
+
+&.blue-btn,
+.pink-btn,
+.red-btn,
+.green-btn,
+.yellow-btn,
+.orange-btn,
+.purple-btn,
+.black-btn {
+  color: @white;
 }
 
 &.icon-left {
-  color: #fff;
   border: none;
 
   & i {
@@ -29,16 +50,16 @@
 }
 
 &.icon-right {
-  color: #fff;
   border: none;
 
   i {
-    transform: translateX(45%);
+    transform: translateX(36%);
+    padding-right: 15px;
   }
 
   &:not(.rounded-btn) {
     i {
-      transform: translateX(20%);
+      transform: translateX(15%);
     }
   }
 }

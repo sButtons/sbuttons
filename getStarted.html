@@ -97,8 +97,8 @@
                         <a href="#basic" class="submenu-link">Basic Button</a>
                         <a href="#block" class="submenu-link">Block Button</a>
                         <a href="#disabled" class="submenu-link">Disabled Button</a>
-                        <a href="#base-icon-btn" class="submenu-link">Base Icon Button</a>
                         <a href="#icon" class="submenu-link">Icon Button</a>
+                        <a href="#base-icon-btn" class="submenu-link">Base Icon Button</a>
                     </div>
                     
                 </div>
@@ -258,26 +258,6 @@
                     </div>
                     <br />
                 </section>
-                <section class="instruction-block" id="base-icon-btn">
-                  <h2 class="display-inlineBlock">Base Icon Button</h2>
-                    <button class="sbtn base-icon-btn">base icon button</button>
-                    <hr class="secondary-hr"  />
-                    <div class="text">
-                      Sometimes you might want your icons to be on a particular side of a button, either left or right. You can use the snippet below to position the icon wherever you want it to be.
-                    </div>
-                    <div class="code-block-container">
-                        <div class="script-copy">
-                          <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-left"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;icon left&lt;/button&gt;</code></pre>
-                          <div class="div-copy"><button class="clipboard"></button></div>
-                        </div>
-                    </div>
-                    <div class="text">
-                      For the icon to be positioned well in the button, you should place the button text after the fontawesome icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
-                    </div>
-                    <div class="text">
-                      Apply the <code>icon-left</code> class, if you want the icon to be on the left side or the <code>icon-right</code> class, if you want the icon to be on the right side
-                    </div>
-                </section>
                 <section class="instruction-block" id="icon">
                     <h2 class="display-inlineBlock">Icon Buttons</h2>
                     <button class="sbtn add-to-cart-btn blue-btn display-inlineBlock margin-left--half">Button</button>
@@ -292,6 +272,242 @@
                         </div>
                     </div>
                     <br />
+                </section>
+                <section class="instruction-block" id="base-icon-btn">
+                  <h2 class="display-inlineBlock">Base Icon Button</h2>
+                    <hr class="secondary-hr"/>
+                    <div class="text">
+                      The <code>base-icon-btn</code> class enables you to have a normal, customizable button. Using it, you decide to add any fontawesome icon in it. You can choose to either place it at the left or right side of the button with the available classes which you will see below.
+                      For the icon to be positioned well in the button, you should place the button text after the fontawesome icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
+                    </div>
+                    <br />
+                    <h2 class="display-inlineBlock">How to use</h2>
+                    <hr class="secondary-hr"/>
+                    <br />
+                    <!-- base button class without any icon starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">base icon button</h2>
+                      <button class="sbtn base-icon-btn">
+                        base icon button 
+                      </button>  
+                      <div class="text">
+                        The <code>base-icon-btn</code> class, gives you a default button with no background color and a border. You can choose to style it by adding, some of the other available classes, like <code>btn-orange</code> to change the background color, and <code>icon-right</code> to position the icon in the button. You can make use of it, by copying the sinppet below.
+                      </div>
+                    </div>
+                    <br />
+                    <div class="code-block-container">
+                      <div class="script-copy">
+                        <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn"&gt;base icon button&lt;/button&gt;</code></pre>
+                        <div class="div-copy"><button class="clipboard"></button></div>
+                      </div>
+                    </div>           
+                    <!-- base button class ends here -->
+                    <br />
+                    <!-- left base icon button class starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">left icon button</h2>
+                      <button class="sbtn base-icon-btn left-icon orange-btn">
+                        <i class="fab fa-github"></i>
+                        left icon 
+                      </button>  
+                      <br />
+                      <div class="text">
+                        Adding the <code>left-icon</code> and <code>orange-btn</code> class gives you a button with an orange backround and an icon that is on the left.
+                        Copy the snippet below to try it out.
+                      </div>
+                    </div>
+                    <div class="code-block-container">
+                      <div class="script-copy">
+                        <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-left orange-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;left icon&lt;/button&gt;</code></pre>
+                        <div class="div-copy"><button class="clipboard"></button></div>
+                      </div>
+                    </div>                  
+                    <!-- left base icon button class ends here -->
+                    <br />
+                    <!-- base icon center starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">icon center button</h2>
+                      <button class="sbtn base-icon-btn orange-btn">
+                        <i class="fab fa-github"></i>
+                      </button>
+                      <br />
+                      <div class="text">
+                        The default style of the "base icon button" places any fontawesome icon nested inside the button at the center, so no need of adding any additional classes like <code>right-icon</code> or <code>icon-left</code>
+                        Copy the snippet below to try it out.
+                      </div>
+                    </div>
+                    <br />
+                    <div class="code-block-container">
+                        <div class="script-copy">
+                          <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn orange-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
+                          <div class="div-copy"><button class="clipboard"></button></div>
+                        </div>
+                    </div>
+                    <!-- base icon center ends here -->
+                    <br />
+                    <!-- right icon base button class starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">right icon button</h2>
+                      <button class="sbtn base-icon-btn icon-right orange-btn">
+                        right icon 
+                        <i class="fab fa-github"></i>
+                      </button>
+                      <br />
+                      <div class="text">
+                        Adding the <code>right-icon</code> and <code>orange-btn</code> class gives you a button with an orange backround and an icon that is on the right.
+                        Copy the snippet below to try it out.
+                      </div>
+                    </div>
+                    <br />
+                    <div class="code-block-container">
+                        <div class="script-copy">
+                          <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-right orange-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;right icon&lt;/button&gt;</code></pre>
+                          <div class="div-copy"><button class="clipboard"></button></div>
+                        </div>
+                    </div>
+                    <!-- right icon base class ends here -->
+                    <br />
+                    <!-- rounded icon buttons start here -->
+                    <h2 class="display-block">Rounded Buttons</h2>
+                    <div class="text">
+                      To make your button have rounded side, all you need to do is add this <code>rounded-btn</code> class to the button element.
+                      Check below to see examples of how to use it.
+                    </div>
+                    <br />
+                    <!-- left base icon button class starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">left icon rounded button</h2>
+                      <button class="sbtn base-icon-btn left-icon purple-btn rounded-btn">
+                        <i class="fab fa-github"></i>
+                        right icon rounded 
+                      </button>  
+                      <br />
+                      <div class="text">
+                        Adding the <code>left-icon</code>, <code>rounded-btn</code> and <code>purple-btn</code> class gives you a button with a purple backround and an icon that is on the left.
+                        Copy the snippet below to try it out.
+                      </div>
+                    </div>
+                    <div class="code-block-container">
+                      <div class="script-copy">
+                        <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-left purple-btn rounded-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;left icon&lt;/button&gt;</code></pre>
+                        <div class="div-copy"><button class="clipboard"></button></div>
+                      </div>
+                    </div>                  
+                    <!-- rounded left icon class ends here -->
+                    <br />
+                    <!-- rounded button center starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">icon center button</h2>
+                      <button class="sbtn base-icon-btn purple-btn rounded-btn">
+                        <i class="fab fa-github"></i>
+                      </button>
+                      <br />
+                      <div class="text">
+                        The default style of the "base icon button" places any fontawesome icon nested inside the button at the center, so no need of adding any additional classes like <code>right-icon</code> or <code>icon-left</code>
+                        Copy the snippet below to try it out.
+                      </div>
+                    </div>
+                    <br />
+                    <div class="code-block-container">
+                        <div class="script-copy">
+                          <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn purple-btn rounded-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
+                          <div class="div-copy"><button class="clipboard"></button></div>
+                        </div>
+                    </div>
+                    <!-- rounded button center ends here -->
+                    <br />
+                    <!-- rounded button right icon class starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">right icon rounded button</h2>
+                      <button class="sbtn base-icon-btn icon-right rounded-btn purple-btn">
+                        right icon rounded 
+                        <i class="fab fa-github"></i>
+                      </button>
+                      <br />
+                      <div class="text">
+                        Adding the <code>right-icon</code>, <code>rounded-btn</code> and <code>purple-btn</code> class gives you a round sided button with a purple backround and an icon that is on the right.
+                        Copy the snippet below to try it out.
+                      </div>
+                    </div>
+                    <br />
+                    <div class="code-block-container">
+                        <div class="script-copy">
+                          <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-right rounded-btn purple-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;right icon&lt;/button&gt;</code></pre>
+                          <div class="div-copy"><button class="clipboard"></button></div>
+                        </div>
+                    </div>
+                    <!-- rounded right icon button class ends here -->
+                    <br />
+                    <!-- block buttons start here -->
+                    <h2 class="display-block">Block Buttons</h2>
+                    <div class="text">
+                      The <code>block-btn</code> class gives you a button whose width takes up the width of the parent element/container.
+                      Check below to see examples of how to use it.
+                    </div>
+                    <br />
+                    <!-- left base icon button class starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">left icon button</h2>
+                      <button class="sbtn base-icon-btn left-icon green-btn block-btn">
+                        <i class="fab fa-github"></i>
+                        left icon block
+                      </button>  
+                      <br />
+                      <div class="text">
+                        Adding the <code>left-icon</code>, <code>block-btn</code> and <code>green-btn</code> class gives you a button with a green backround and an icon that is on the left.
+                        Copy the snippet below to try it out.
+                      </div>
+                    </div>
+                    <div class="code-block-container">
+                      <div class="script-copy">
+                        <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-left green-btn block-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;left icon&lt;/button&gt;</code></pre>
+                        <div class="div-copy"><button class="clipboard"></button></div>
+                      </div>
+                    </div>                  
+                    <!-- block button left icon class ends here -->
+                    <br />
+                    <!-- block button center starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">icon center button</h2>
+                      <button class="sbtn base-icon-btn green-btn block-btn">
+                        <i class="fab fa-github"></i>
+                      </button>
+                      <br />
+                      <div class="text">
+                        The default style of the "base icon button" places any fontawesome icon nested inside the button at the center, so no need of adding any additional classes like <code>right-icon</code> or <code>icon-left</code>
+                        Copy the snippet below to try it out.
+                      </div>
+                    </div>
+                    <br />
+                    <div class="code-block-container">
+                        <div class="script-copy">
+                          <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn green-btn block-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
+                          <div class="div-copy"><button class="clipboard"></button></div>
+                        </div>
+                    </div>
+                    <!-- rounded button center ends here -->
+                    <br />
+                    <!-- rounded button right icon class starts here -->
+                    <div class="text">
+                      <h2 class="display-inlineBlock">right icon block button</h2>
+                      <button class="sbtn base-icon-btn icon-right block-btn green-btn">
+                        right icon block 
+                        <i class="fab fa-github"></i>
+                      </button>
+                      <br />
+                      <div class="text">
+                        Adding the <code>right-icon</code>, <code>block-btn</code> and <code>green-btn</code> class gives you a rectangular button with a purple backround and an icon that is on the right.
+                        Copy the snippet below to try it out.
+                      </div>
+                    </div>
+                    <br />
+                    <div class="code-block-container">
+                        <div class="script-copy">
+                          <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-right block-btn green-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;right icon&lt;/button&gt;</code></pre>
+                          <div class="div-copy"><button class="clipboard"></button></div>
+                        </div>
+                    </div>
+                    <!-- block  buttons end here-->
                 </section>
             </div>
           </div>
