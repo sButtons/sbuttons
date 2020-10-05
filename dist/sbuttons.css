@@ -11,7 +11,6 @@
   overflow: hidden;
   font-size: 1.5rem;
 }
-
 .sbtn:hover,
 .sbtn:active,
 .sbtn:focus {
@@ -1971,6 +1970,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   right: 10px;
   top: 20%;
   content: "\f1a1";
+}
+.social-btn.discord {
+  background-color: #7289da;
+  color: #fff;
+}
+.social-btn.discord:after {
+  color: #fff;
+  content: "\f392";
 }
 @font-face {
   font-family: "Press Start 2P";

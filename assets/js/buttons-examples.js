@@ -363,6 +363,10 @@ $(document).ready(function () {
           classes: "weibo",
           text: "Login with Weibo",
         },
+        {
+          classes: "discord",
+          text: "Login with Discord",
+        },
       ],
       children: [],
     },
