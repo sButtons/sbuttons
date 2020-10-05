@@ -7,91 +7,66 @@
   background-color: transparent;
   outline: none;
   border: none;
+
   &.purple-btn {
-    background-image: linear-gradient(
-      120deg,
-      transparent 50%,
-      @purple 50%
-    ) !important;
-    color: @purple !important;
+    .diagonalBackground(@purple, @purple);
   }
+
   &.blue-btn {
-    background-image: linear-gradient(
-      120deg,
-      transparent 50%,
-      @blue 50%
-    ) !important;
-    color: @blue !important;
+    .diagonalBackground(@blue, @blue);
   }
+
   &.pink-btn {
-    background-image: linear-gradient(
-      120deg,
-      transparent 50%,
-      @pink 50%
-    ) !important;
-    color: @pink !important;
+    .diagonalBackground(@pink, @pink);
   }
+
   &.red-btn {
-    background-image: linear-gradient(
-      120deg,
-      transparent 50%,
-      @red 50%
-    ) !important;
-    color: @red !important;
+    .diagonalBackground(@red, @red);
   }
+
   &.green-btn {
-    background-image: linear-gradient(
-      120deg,
-      transparent 50%,
-      @green 50%
-    ) !important;
-    color: @green !important;
+    .diagonalBackground(@green, @green);
   }
+
   &.yellow-btn {
-    background-image: linear-gradient(
-      120deg,
-      transparent 50%,
-      @yellow 50%
-    ) !important;
-    color: @yellow !important;
+    .diagonalBackground(@yellow, @yellow);
+
+    &:hover {
+      background-position: 100%;
+      transform: translateX(16px);
+      color: @darkText !important;
+    }
   }
+
   &.orange-btn {
-    background-image: linear-gradient(
-      120deg,
-      transparent 50%,
-      @orange 50%
-    ) !important;
-    color: @orange !important;
+    .diagonalBackground(@orange, @orange);
   }
+
   &.black-btn {
-    background-image: linear-gradient(
-      120deg,
-      transparent 50%,
-      @black 50%
-    ) !important;
-    color: #313131 !important;
+    .diagonalBackground(@darkText, @black);
   }
+
   &.white-btn {
-    background-image: linear-gradient(
-      120deg,
-      transparent 50%,
-      @white 50%
-    ) !important;
-    color: #313131 !important;
+    .diagonalBackground(@darkText, @white);
+
+    &:hover {
+      background-position: 100%;
+      transform: translateX(16px);
+    }
   }
+
   &:hover:not(.white-btn):not(.yellow-btn) {
     background-position: 100%;
-    // color: #313131;
     color: @white !important;
     transform: translateX(16px);
   }
-  &:hover.white-btn {
-    background-position: 100%;
-    transform: translateX(16px);
-  }
-  &:hover.yellow-btn {
-    background-position: 100%;
-    transform: translateX(16px);
-    color: #313131 !important;
+
+  .diagonalBackground(@color, @bgColor) {
+    background-image: linear-gradient(
+      120deg,
+      transparent 50%,
+      @bgColor 50%
+    ) !important;
+    color: @color !important;
   }
 }
