@@ -279,7 +279,7 @@ $(document).ready(function () {
         },
         {
           type: "setting",
-          label: "Setting Button",
+          label: "Setting",
           classes: "setting-btn",
           text: "",
         },
