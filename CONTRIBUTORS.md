@@ -150,6 +150,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/ryuzaki221"><img src="https://avatars2.githubusercontent.com/u/52002984?v=4" width="100px;" alt=""/><br /><sub><b>ryuzaki221</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ryuzaki221" title="Code">💻</a> <a href="#ideas-ryuzaki221" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/bhavika24"><img src="https://avatars3.githubusercontent.com/u/63905094?v=4" width="100px;" alt=""/><br /><sub><b>bhavika24</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=bhavika24" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="http://linkedin.com/in/chatterjeesayan/"><img src="https://avatars2.githubusercontent.com/u/22965855?v=4" width="100px;" alt=""/><br /><sub><b>chatRG</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=chatRG" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
