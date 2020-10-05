@@ -395,7 +395,8 @@ $(document).ready(function () {
           label: "Glossy",
           classes: "glossy-btn",
           text: "Glossy",
-        }, {
+        },
+        {
           type: "play-game",
           label: "Play game",
           classes: "play-game-btn",
