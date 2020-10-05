@@ -60,6 +60,11 @@ $(document).ready(function () {
           classes: "diag-btn",
         },
         {
+          type: "expanding",
+          label: "Expanding Border",
+          classes: "expanding-btn",
+        },
+        {
           type: "fill-color-down",
           label: "Fill Color - Down",
           classes: "fill-color-btn down-fill",
@@ -99,6 +104,11 @@ $(document).ready(function () {
           type: "key",
           label: "Key",
           classes: "key-btn",
+        },
+        {
+          type: "liquid",
+          label: "Liquid",
+          classes: "liquid-btn",
         },
         {
           type: "neon",
@@ -336,6 +346,10 @@ $(document).ready(function () {
         {
           classes: "apple",
           text: "Login with Apple",
+        },
+        {
+          classes: "discord",
+          text: "Login with Discord",
         },
         {
           classes: "facebook",
