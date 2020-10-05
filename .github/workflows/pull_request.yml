@@ -1,51 +1,31 @@
-# # This is a basic workflow to help you get started with Actions
+# This is a basic workflow to help you get started with Actions
 
-# name: Clean clean-css
+name: Clean clean-css
 
-# # Controls when the action will run. Triggers the workflow on pull request
-# on:
-#   push:
-#     paths:
-#       - 'dist/**'
+# Controls when the action will run. Triggers the workflow on pull request
+on:
+  push:
+    paths:
+      - 'dist/**'
 
-# # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-# jobs:
-#     prettier:
-#         runs-on: ubuntu-latest
-#         steps:
-#           - uses: actions/checkout@v2
-#             with:
-#               ref: ${{ github.head_ref }}
-#           - uses: actions/setup-node@v1
-#             with:
-#               node-version: "12.x"
-#           - name: Install
-#             run: npm install
-#             env:
-#                 CI: true
-
-#           - name: Clean CSS
-#             run: npm run clean-css
-name: minisauras
-
-on: [push]
-
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  read:
-    runs-on: ubuntu-18.04
+    prettier:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+            with:
+              ref: ${{ github.head_ref }}
+          - uses: actions/setup-node@v1
+            with:
+              node-version: "12.x"
+          - name: Install
+            run: npm install
+            env:
+                CI: true
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: minisauras
-      uses: TeamTigers/minisauras@v2.0.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.test_min }}
-      id: dir
-      with:
-        directory: 'dist/' ## minify all files under assets directory
-
-
+          - name: Clean CSS
+            run: npm run clean-css
 
 
 
