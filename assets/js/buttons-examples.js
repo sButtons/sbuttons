@@ -60,6 +60,11 @@ $(document).ready(function () {
           classes: "diag-btn",
         },
         {
+          type: "expanding",
+          label: "Expanding Border",
+          classes: "expanding-btn",
+        },
+        {
           type: "fill-color-down",
           label: "Fill Color - Down",
           classes: "fill-color-btn down-fill",
@@ -99,6 +104,11 @@ $(document).ready(function () {
           type: "key",
           label: "Key",
           classes: "key-btn",
+        },
+        {
+          type: "liquid",
+          label: "Liquid",
+          classes: "liquid-btn",
         },
         {
           type: "neon",
@@ -321,6 +331,10 @@ $(document).ready(function () {
           text: "Login with Apple",
         },
         {
+          classes: "discord",
+          text: "Login with Discord",
+        },
+        {
           classes: "facebook",
           text: "Login with Facebook",
         },
@@ -428,6 +442,23 @@ $(document).ready(function () {
           classes: "rounded-diagonal-tr-btn",
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
+        },
+        {
+          type: "toggle",
+          label: "Toggle button (on and off)",
+          classes: "toggle-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "toggle-on-btn",
+              text: "",
+            },
+            {
+              classes: "toggle-off-btn",
+              text: "",
+            },
+          ],
         },
         {
           type: "win95-btn",
