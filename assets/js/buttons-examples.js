@@ -101,6 +101,11 @@ $(document).ready(function () {
           classes: "invert-btn",
         },
         {
+          type: "jump-layes",
+          label: "Jump Layes",
+          classes: "jump-layes-btn",
+        },
+        {
           type: "key",
           label: "Key",
           classes: "key-btn",
