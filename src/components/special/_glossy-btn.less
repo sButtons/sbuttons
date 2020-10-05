@@ -1,0 +1,30 @@
+.glossy-btn {
+  border-radius: 50px;
+  padding: 5px 20px;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0 10px 10px rgba(@black, 0.3);
+  }
+  &:active {
+    box-shadow: 0 4px 5px rgba(@black, 0.5);
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 25%;
+    background: rgba(white, 0.4);
+    left: 0;
+  }
+  &.white-btn:after {
+    background: rgba(#ddd, 0.4);
+  }
+
+  &:active:after {
+    height: 10%;
+    top: 90%;
+  }
+}
