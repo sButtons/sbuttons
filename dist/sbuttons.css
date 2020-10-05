@@ -539,6 +539,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   ) !important;
   color: #fbe870 !important;
 }
+.diag-btn.yellow-btn:hover {
+  background-position: 100%;
+  transform: translateX(16px);
+  color: #333 !important;
+}
 .diag-btn.orange-btn {
   background-image: linear-gradient(
     120deg,
@@ -553,7 +558,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transparent 50%,
     #000 50%
   ) !important;
-  color: #313131 !important;
+  color: #333 !important;
 }
 .diag-btn.white-btn {
   background-image: linear-gradient(
@@ -561,21 +566,16 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transparent 50%,
     #fff 50%
   ) !important;
-  color: #313131 !important;
+  color: #333 !important;
+}
+.diag-btn.white-btn:hover {
+  background-position: 100%;
+  transform: translateX(16px);
 }
 .diag-btn:hover:not(.white-btn):not(.yellow-btn) {
   background-position: 100%;
   color: #fff !important;
   transform: translateX(16px);
-}
-.diag-btn:hover.white-btn {
-  background-position: 100%;
-  transform: translateX(16px);
-}
-.diag-btn:hover.yellow-btn {
-  background-position: 100%;
-  transform: translateX(16px);
-  color: #313131 !important;
 }
 .fill-color-btn {
   background-color: transparent;
