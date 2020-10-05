@@ -17,10 +17,10 @@
   &:hover {
     color: white !important;
     transition: 0.5s;
-  }
 
-  &:hover::before {
-    animation: a-ripple 1s cubic-bezier(0.39, 0.58, 0.57, 1) forwards;
+    &::before {
+      animation: a-ripple 1s cubic-bezier(0.39, 0.58, 0.57, 1) forwards;
+    }
   }
 
   .rippleBtn(@color) {
@@ -35,6 +35,7 @@
   &.blue-btn {
     .rippleBtn(@blue);
   }
+
   &.pink-btn {
     .rippleBtn(@pink);
   }

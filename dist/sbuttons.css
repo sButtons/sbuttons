@@ -2035,6 +2035,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 20%;
   content: "\f1a1";
 }
+.social-btn.discord {
+  background-color: #7289da;
+  color: #fff;
+}
+.social-btn.discord:after {
+  color: #fff;
+  content: "\f392";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
