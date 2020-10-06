@@ -1,17 +1,17 @@
-.glow(@color) {
-  transition: all 0.5s ease;
-  border-color: @color;
-  background-color: rgba(@color, 0.2);
-  &:hover {
-    background-color: rgba(@color, 0.3);
-    box-shadow: inset 0px 0px 10px 3px @color, 0px 0px 10px 3px @color;
-    border-color: @black;
-  }
-}
-
 .glow-btn {
   border: 2px solid;
   color: @black;
+
+  .glow(@color) {
+    transition: all 0.5s ease;
+    border-color: @color;
+    background-color: rgba(@color, 0.2);
+    &:hover {
+      background-color: rgba(@color, 0.3);
+      box-shadow: inset 0px 0px 10px 3px @color, 0px 0px 10px 3px @color;
+      border-color: @black;
+    }
+  }
 
   &.blue-btn {
     .glow(@neonBlue);
