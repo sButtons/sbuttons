@@ -1929,7 +1929,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: all 0.2s;
   position: relative;
   padding-top: 15px;
-  padding-left: 60px;
+  padding-left: 30px;
   font-size: 1.5rem !important;
   border: 1px solid #4d4d4d;
 }
@@ -1962,19 +1962,23 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: 0px 1px 7px #4d4d4d;
   transform: translateY(-3px);
 }
+.appstore-btn.applestore.block-btn:after {
+  left: 100px;
+}
 .appstore-btn.applestore:before {
   content: "\f179";
 }
 .appstore-btn.applestore:after {
   content: "Download on the";
-  left: 100px;
+}
+.appstore-btn.playstore.block-btn:after {
+  left: 102px;
 }
 .appstore-btn.playstore:before {
   content: "\f3ab";
 }
 .appstore-btn.playstore:after {
   content: "Get it on";
-  left: 87px;
 }
 .star-btn {
   color: #000;

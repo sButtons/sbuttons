@@ -5,7 +5,7 @@
   transition: all 0.2s;
   position: relative;
   padding-top: 15px;
-  padding-left: 60px;
+  padding-left: 30px;
   font-size: 1.5rem !important;
   border: 1px solid #4d4d4d;
 
@@ -43,24 +43,32 @@
   }
 
   &.applestore {
+    &.block-btn {
+      &:after {
+        left: 100px;
+      }
+    }
     &:before {
       content: "\f179";
     }
 
     &:after {
       content: "Download on the";
-      left: 100px;
     }
   }
 
   &.playstore {
+    &.block-btn {
+      &:after {
+        left: 102px;
+      }
+    }
     &:before {
       content: "\f3ab";
     }
 
     &:after {
       content: "Get it on";
-      left: 87px;
     }
   }
 }
