@@ -1,3 +1,11 @@
+.onHover(@color; @borderColor) {
+  border-color: @borderColor;
+  &::before {
+    .bc(@color);
+  }
+  color: @color !important;
+}
+
 .transparent-btn {
   position: relative;
   transition: 0.3s ease-in-out;
@@ -5,59 +13,38 @@
     .bc(transparent);
 
     &.blue-btn {
-      .textColorChange(@blue);
-      .transparentOnHover(@blue);
+      .onHover(@blue, @blue);
     }
     &.pink-btn {
-      .textColorChange(@pink);
-      .transparentOnHover(@pink);
+      .onHover(@pink, @pink);
     }
 
     &.green-btn {
-      .textColorChange(@green);
-      .transparentOnHover(@green);
+      .onHover(@green, @green);
     }
 
     &.yellow-btn {
-      .textColorChange(@yellow);
-      .transparentOnHover(@yellow);
+      .onHover(@yellow, @yellow);
     }
     &.orange-btn {
-      .textColorChange(@orange);
-      .transparentOnHover(@orange);
+      .onHover(@orange, @orange);
     }
 
     &.red-btn {
-      .textColorChange(@red);
-      .transparentOnHover(@red);
+      .onHover(@red, @red);
     }
 
     &.purple-btn {
-      .textColorChange(@purple);
-      .transparentOnHover(@purple);
+      .onHover(@purple, @purple);
     }
 
     &.black-btn {
-      .textColorChange(@black);
-      .transparentOnHover(@black);
+      .onHover(@black, @black);
     }
 
     &.white-btn {
-      .textColorChange(@white);
-      .transparentOnHover(@white);
+      .onHover(@white, @white);
       border-color: @whiteBorder;
     }
   }
-}
-
-.transparentOnHover(@color) {
-  border-color: @color;
-
-  &::before {
-    .bc(@color);
-  }
-}
-
-.textColorChange(@color) {
-  color: @color !important;
 }
