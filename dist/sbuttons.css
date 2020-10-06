@@ -1929,7 +1929,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: all 0.2s;
   position: relative;
   padding-top: 15px;
-  padding-left: 30px;
+  padding-left: 60px;
   font-size: 1.5rem !important;
   border: 1px solid #4d4d4d;
 }
@@ -1961,6 +1961,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .appstore-btn:hover {
   box-shadow: 0px 1px 7px #4d4d4d;
   transform: translateY(-3px);
+}
+.appstore-btn.applestore.block-btn {
+  padding-left: 30px;
 }
 .appstore-btn.applestore.block-btn:after {
   left: 100px;
