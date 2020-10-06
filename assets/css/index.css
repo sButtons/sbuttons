@@ -158,29 +158,6 @@ section {
 #hinge .button-container .block-btn {
   margin-bottom: 2.5em;
 }
-#neu-btn-light {
-  background-color: #f0f0f6;
-  border-style: solid;
-  border-width: thick;
-  border-color: #000;
-}
-#neu-btn .section-header {
-  color: #000;
-  margin-bottom: 6rem;
-}
-#neu-btn-light .section-header,{
-  color: #000;
-}
-#neu-btn-dark {
-  margin-top: 0.2rem;
-  background-color: #202026;
-  border-style: solid;
-  border-width: thick;
-  border-color: #000;
-}
-#neu-btn-dark .section-header {
-  color: #fff;
-}
 
 [data-theme="dark"] .button-caption-sub {
   color: #afafaf;

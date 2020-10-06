@@ -367,6 +367,23 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "neu-btn",
+          label: "Neumorphic",
+          classes: "",
+          children: [
+            {
+              type: "neu-btn-dark",
+              label: "Neumorphic dark",
+              classes: "neu-btn-dark",
+            },
+            {
+              type: "neu-btn-light",
+              label: "Neumorphic light",
+              classes: "neu-btn-light",
+            },
+          ],
+        },
+        {
           type: "play-game",
           label: "Play game",
           classes: "play-game-btn",
@@ -431,23 +448,6 @@ $(document).ready(function () {
             {
               classes: "",
               text: "No",
-            },
-          ],
-        },
-        {
-          type: "neu-btn",
-          label: "neumorphic",
-          classes: "",
-          children: [
-            {
-              type: "neu-btn-light",
-              label: "neumorphic light",
-              classes: "neu-btn-light",
-            },
-            {
-              type: "neu-btn-dark",
-              label: "neumorphic dark",
-              classes: "neu-btn-dark",
             },
           ],
         },
