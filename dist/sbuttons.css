@@ -1924,6 +1924,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .appstore-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
+  background-color: #000000;
+  color: #fff;
   transition: all 0.2s;
   position: relative;
   padding-top: 15px;
@@ -1939,6 +1941,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   bottom: 13%;
   color: #fff;
 }
+.appstore-btn:after {
+  position: absolute;
+  top: 3px;
+  font-size: 0.8rem !important;
+}
 .appstore-btn:not(.rounded-btn) {
   border-radius: 10px;
 }
@@ -1948,45 +1955,33 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .appstore-btn:not(.block-btn):before {
   left: 10px;
 }
+.appstore-btn:not(.block-btn):after {
+  left: 50px;
+}
 .appstore-btn:hover {
   box-shadow: 0px 1px 7px #4d4d4d;
   transform: translateY(-3px);
 }
-.appstore-btn.applestore {
-  background-color: #000000;
-  color: #fff;
+.appstore-btn.applestore.block-btn {
+  padding-left: 30px;
+}
+.appstore-btn.applestore.block-btn:after {
+  left: 100px;
 }
 .appstore-btn.applestore:before {
-  color: #fff;
   content: "\f179";
 }
 .appstore-btn.applestore:after {
-  position: absolute;
   content: "Download on the";
-  top: 3px;
-  left: 100px;
-  font-size: 0.8rem !important;
 }
-.appstore-btn.applestore:not(.block-btn):after {
-  left: 50px;
-}
-.appstore-btn.playstore {
-  background-color: #000000;
-  color: #fff;
+.appstore-btn.playstore.block-btn:after {
+  left: 102px;
 }
 .appstore-btn.playstore:before {
-  color: #fff;
   content: "\f3ab";
 }
 .appstore-btn.playstore:after {
-  position: absolute;
   content: "Get it on";
-  top: 3px;
-  left: 87px;
-  font-size: 0.8rem !important;
-}
-.appstore-btn.playstore:not(.block-btn):after {
-  left: 50px;
 }
 .star-btn {
   color: #000;
