@@ -4,7 +4,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: "Oleo Script Swash Caps", cursive !important;
+  font-family: 'Philosopher', sans-serif;
   color: #333;
 }
 
@@ -38,101 +38,6 @@ body > .container {
   color: #ffffff !important;
 }
 
-header {
-  background-color: var(--main-color);
-  color: #fff;
-  padding-top: 3em;
-}
-
-.navbar {
-  display: flex;
-  height: 0;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  width: 100%;
-  transition: all 0.5s;
-}
-
-.fixed-top {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
-
-.navbar .logo {
-  height: 60px;
-}
-.logo img {
-  height: 100%;
-}
-.navbar .logo a {
-  text-decoration: none;
-}
-
-.navbar:not(.scrolling) .logo {
-  display: none;
-}
-
-.navbar:not(.scrolling) {
-  justify-content: flex-end;
-}
-
-.navbar.scrolling {
-  background-color: #fff;
-  box-shadow: 0 2px 3px #e9e9e9;
-  height: 3em;
-}
-
-.logo {
-  font-size: 2rem;
-  color: var(--main-color);
-  cursor: default;
-}
-
-/* The value of 'none' is useful for static text labels in a user interface which are not meant to be selected. */
-.logo h1.noselect {
-  -webkit-user-select: none; /* Webkit Chrome / Edge / Safari / Opera */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Microsoft / IE 10+ */
-  user-select: none; /* Standard syntax. */
-}
-
-header .logo {
-  height: 110px;
-}
-
-header .content {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-header .content .logo h1 {
-  color: #fff !important;
-  font-size: 4rem;
-}
-
-header .content .subtitle {
-  font-size: 1.5rem;
-  font-family: Syne, sans-serif;
-  margin-bottom: 2em; /* Adding this for spacing for buttons below */
-}
-
-/* This is overriding the download and documentation button colors for now since we don't have a white class - more than happy to create one! */
-header .content .sbtn:nth-of-type(2) {
-  background-color: #fff;
-  color: #000;
-}
-
-header .content .sbtn {
-  font-size: 1.3rem;
-  font-family: Syne, sans-serif !important;
-}
-
-header .content .sbtn:first-of-type {
-  margin-right: 0.5em;
-}
 
 section {
   padding-top: 80px;
@@ -186,61 +91,7 @@ hr {
   vertical-align: sub;
 }
 
-@media (max-width: 368px) {
-  .navbar .buttons {
-    display: none;
-  }
-}
 
-.navbar .download-link,
-.navbar .icon-link,
-.navbar .sidebar-toggler,
-.navbar .toggle-theme {
-  opacity: 0.5;
-  transition: all 0.2s;
-}
-
-.navbar .download-link:hover,
-.navbar .icon-link:hover,
-.navbar .sidebar-toggler:hover,
-.navbar .toggle-theme:hover {
-  opacity: 1;
-}
-
-.download-link,
-.download-link:hover,
-.download-link:visited,
-.download-link:active {
-  text-decoration: underline;
-}
-
-.navbar.scrolling a,
-.navbar.scrolling a:hover,
-.navbar.scrolling a:visited,
-.navbar.scrolling a:active {
-  color: #81b4ea;
-}
-
-.navbar:not(.scrolling) a,
-.navbar:not(.scrolling) a:hover,
-.navbar:not(.scrolling) a:visited,
-.navbar:not(.scrolling) a:active {
-  color: #fff;
-}
-
-.navbar {
-  font-size: 1.5rem;
-}
-
-.navbar .download-link {
-  margin-right: 1em;
-  text-decoration: none;
-}
-
-.navbar .toggle-theme {
-  margin-right: 1em;
-  text-decoration: none;
-}
 .section-header {
   text-align: center;
 }
@@ -342,42 +193,6 @@ button.clipboard:focus {
   outline: 0;
 }
 
-.navbar:not(.scrolling) .download-link {
-  display: none;
-}
-
-.navbar.scrolling .download-link {
-  display: inline-block;
-}
-.banner-link:hover,
-.banner-link:active {
-  color: white;
-  text-decoration: none;
-  background-color: white;
-  color: #333;
-  transition: all 0.3s;
-}
-
-.banner-link {
-  border: 1px solid white;
-  padding: 15px;
-  font-size: 1.3rem;
-  margin-right: 20px;
-  color: white;
-  font-family: Syne, sans-serif;
-  display: inline-block;
-}
-
-.down-link {
-  background-color: white;
-  color: #333;
-}
-
-.down-link:hover,
-.down-link:active {
-  background-color: transparent;
-  color: white;
-}
 
 .footer {
   color: floralwhite;

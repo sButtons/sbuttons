@@ -9,17 +9,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
     rel="stylesheet">
-  <link href="assets/css/index.css" rel="stylesheet" />
-  <link href="assets/css/sidebar.css" rel="stylesheet" />
-  <link href="assets/css/variables.css" rel="stylesheet" />
-  <link href="dist/sbuttons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
+  <link href="assets/css/index.css" rel="stylesheet" />
+  <link href="assets/css/sidebar.css" rel="stylesheet" />
+  <link href="assets/css/variables.css" rel="stylesheet" />
+  <link href="dist/sbuttons.css" rel="stylesheet" />
+  <link href="assets/css/home.css" rel="stylesheet" />
   <!-- seo friendly og tags-->
   <meta name="description" content="Simple buttons you can use easily for your next project.">
   <meta name="keywords"
@@ -45,15 +46,28 @@
 </head>
 
 <body>
-  <div class="shade"></div>
+  <div class="shades"></div>
   <header>
     <div class="navbar fixed-top">
       <button type="button" class="sidebar-toggler d-none d-block d-md-none">
         <i class="fas fa-bars"></i>
       </button>
-      <div class="logo">
-        <img src="assets/img/sbuttons-nav.png" class="img-fluid" />
+      <div class="navbar-brand">
+        <img src="assets/img/sbuttons-icon.png" class="img-fluid" width="64px" />
       </div>
+
+      <div class="links">
+        <a href="/home.html" class="link">
+          Home
+        </a>
+        <a href="/getStarted.html" class="link">
+          Documentation
+        </a>
+        <a href="/index.html" class="link active">
+          Examples
+        </a>
+      </div>
+
       <div class="buttons">
         <a class="toggle-theme" href="#toggleTheme" title="Toggle light/dark mode">
           <i class="fas fa-moon"></i>
@@ -66,17 +80,23 @@
         </a>
       </div>
     </div>
-    <div class="content">
-      <div class="logo">
-        <img src="assets/img/sbuttons.png" class="img-fluid" />
+    <div class="content row">
+      <div class="banner-head col-lg-6 col-md-12 col-sm-12">
+        <h1>Simple and Creative buttons with SButtons.</h1>
+        <div class="subtitle">
+          Quickly design and customize beautiful and animated buttons with sButtons.
+        </div>
+        <div class="banner-links ">
+          <a href="#" id="downloadGithubRawButton" class="banner-link down-link">Download</a>
+          <a href="getStarted.html" class="banner-link">Documentation</a>
+        </div>
       </div>
-      <div class="subtitle">
-        Simple buttons you can use easily for your next project.
+      <div class="logo col-lg-6 col-md-12 col-sm-12 d-lg-block d-md-none d-sm-none">
+        <img src="assets/img/banner.svg" class="img-fluid" />
       </div>
-      <a href="#" id="downloadGithubRawButton" class="banner-link down-link">Download</a>
-      <a href="getStarted.html" class="banner-link">Get Started</a>
     </div>
   </header>
+
   <div class="container mt-5" id="loading_wheel">
     <div class="loader"></div>
   </div>
