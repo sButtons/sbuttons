@@ -1595,9 +1595,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #000;
 }
 .transparent-btn:hover.white-btn {
-  border-color: #fff;
-  color: #fff !important;
   border-color: #e9e9e9;
+  color: #fff !important;
 }
 .transparent-btn:hover.white-btn::before {
   background-color: #fff;
