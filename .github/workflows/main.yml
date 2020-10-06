@@ -1,4 +1,4 @@
-name: Format (prettier)
+name: Format (prettier) & Minify
 
 on:
     push:
