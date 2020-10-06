@@ -2417,6 +2417,35 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: 0 0 0 black;
   transform: translate(0, 0);
 }
+.gradient-color-btn {
+  border-radius: 60px;
+  font-size: 20px;
+  padding: 0.5em 1em;
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+}
+.gradient-1 {
+  background: linear-gradient(90deg, #ff604c 0%, #ff43a0 100%);
+  box-shadow: 0px 4px 40px rgb(255 119 159);
+}
+.gradient-1:hover {
+  box-shadow: none;
+}
+.gradient-2 {
+  background: linear-gradient(90deg, #0082e1 0%, #00dadc 100%);
+  box-shadow: 0px 4px 40px #00d4d7;
+}
+.gradient-2:hover {
+  box-shadow: none;
+}
+.gradient-3 {
+  background: linear-gradient(to right, #00d4d7, #00f93c);
+  box-shadow: 0px 4px 40px #00f93c;
+}
+.gradient-3:hover {
+  box-shadow: none;
+}
 .toggle-btn {
   width: 90px;
   height: 50px;

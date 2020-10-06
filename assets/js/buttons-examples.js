@@ -502,6 +502,25 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "gradient-color",
+          label: "Gradient Color",
+          classes: "gradient-color-btn",
+          variations: [
+            {
+              classes: "gradient-1",
+              text: "Button 1",
+            },
+            {
+              classes: "gradient-2",
+              text: "Button 2",
+            },
+            {
+              classes: "gradient-3",
+              text: "Button 3",
+            },
+          ],
+        },
       ],
     },
   ];
