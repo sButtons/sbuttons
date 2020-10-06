@@ -55,6 +55,16 @@ $(document).ready(function () {
           classes: "click-btn",
         },
         {
+          type: "diagonalHover",
+          label: "Diagonal Background on Hover",
+          classes: "diag-btn",
+        },
+        {
+          type: "expanding",
+          label: "Expanding Border",
+          classes: "expanding-btn",
+        },
+        {
           type: "fill-color-down",
           label: "Fill Color - Down",
           classes: "fill-color-btn down-fill",
@@ -94,6 +104,11 @@ $(document).ready(function () {
           type: "key",
           label: "Key",
           classes: "key-btn",
+        },
+        {
+          type: "liquid",
+          label: "Liquid",
+          classes: "liquid-btn",
         },
         {
           type: "neon",
@@ -210,7 +225,6 @@ $(document).ready(function () {
             },
           ],
         },
-
         {
           type: "buy-me-coffee",
           label: "Buy Me Coffee",
@@ -274,6 +288,12 @@ $(document).ready(function () {
           text: "",
         },
         {
+          type: "setting",
+          label: "Setting",
+          classes: "setting-btn",
+          text: "",
+        },
+        {
           type: "star",
           label: "Star",
           classes: "star-btn",
@@ -309,6 +329,10 @@ $(document).ready(function () {
         {
           classes: "apple",
           text: "Login with Apple",
+        },
+        {
+          classes: "discord",
+          text: "Login with Discord",
         },
         {
           classes: "facebook",
@@ -366,6 +390,13 @@ $(document).ready(function () {
       label: "Special Buttons",
       classes: "",
       children: [
+        {
+          type: "glossy",
+          label: "Glossy",
+          classes: "glossy-btn",
+          text: "Glossy",
+          shouldHaveRoundedType: false,
+        },
         {
           type: "neu-btn",
           label: "Neumorphic",
@@ -435,6 +466,23 @@ $(document).ready(function () {
           classes: "rounded-diagonal-tr-btn",
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
+        },
+        {
+          type: "toggle",
+          label: "Toggle button (on and off)",
+          classes: "toggle-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "toggle-on-btn",
+              text: "",
+            },
+            {
+              classes: "toggle-off-btn",
+              text: "",
+            },
+          ],
         },
         {
           type: "win95-btn",
