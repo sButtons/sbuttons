@@ -1998,6 +1998,52 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-weight: 900;
   color: #fbe870;
 }
+.base-icon-btn {
+  color: #000;
+}
+.base-icon-btn i {
+  text-align: center;
+}
+.base-icon-btn:not(.rounded-btn).blue-btn,
+.base-icon-btn:not(.rounded-btn) .pink-btn,
+.base-icon-btn:not(.rounded-btn) .red-btn,
+.base-icon-btn:not(.rounded-btn) .green-btn,
+.base-icon-btn:not(.rounded-btn) .yellow-btn,
+.base-icon-btn:not(.rounded-btn) .orange-btn,
+.base-icon-btn:not(.rounded-btn) .purple-btn,
+.base-icon-btn:not(.rounded-btn) .black-btn {
+  color: #fff;
+}
+.blue-btn,
+.pink-btn,
+.red-btn,
+.green-btn,
+.yellow-btn,
+.orange-btn,
+.purple-btn,
+.black-btn {
+  color: #fff;
+}
+.icon-left {
+  border: none;
+}
+.icon-left i {
+  transform: translateX(-30%);
+  padding-left: 10px;
+}
+.icon-left:not(.rounded-btn) i {
+  transform: translateX(-26%);
+}
+.icon-right {
+  border: none;
+}
+.icon-right i {
+  transform: translateX(36%);
+  padding-right: 15px;
+}
+.icon-right:not(.rounded-btn) i {
+  transform: translateX(15%);
+}
 .thumbsup-btn {
   transform-origin: center;
 }
