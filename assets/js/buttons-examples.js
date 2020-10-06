@@ -210,11 +210,14 @@ $(document).ready(function () {
           classes: "base-icon-btn",
           variations: [
             {
-              classes: "icon-right",
+              classes: "icon-right purple-btn",
               text: "base icon button <i class='fas fa-book'></i>",
             },
             {
-              classes: "icon-left",
+              text: "<i class='fab fa-apple'></i>",
+            },
+            {
+              classes: "icon-left green-btn",
               text: "<i class='fas fa-pen'></i> base icon button",
             },
           ],

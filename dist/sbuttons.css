@@ -2035,6 +2035,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .icon-left i {
   transform: translateX(-30%);
+  padding-left: 10px;
 }
 .icon-left:not(.rounded-btn) i {
   transform: translateX(-26%);
