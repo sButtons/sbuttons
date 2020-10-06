@@ -1,6 +1,7 @@
 .expanding-btn {
   position: relative;
   border: 0.2rem solid transparent;
+  transition: border 300ms 300ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
   &:before {
     display: block;
     content: " ";
@@ -25,7 +26,6 @@
     }
     opacity: 1;
     border: 0.2rem solid #333;
-    transition: border 300ms 300ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
   }
   &:focus {
     box-shadow: none;

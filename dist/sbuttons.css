@@ -1605,6 +1605,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .expanding-btn {
   position: relative;
   border: 0.2rem solid transparent;
+  transition: border 300ms 300ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
 }
 .expanding-btn:before {
   display: block;
@@ -1621,7 +1622,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .expanding-btn:hover {
   opacity: 1;
   border: 0.2rem solid #333;
-  transition: border 300ms 300ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
 }
 .expanding-btn:hover:before {
   width: 150%;
