@@ -250,6 +250,26 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "base-icon",
+          label: "Base Icon button",
+          classes: "base-icon-btn",
+          variations: [
+            {
+              classes: "icon-right purple-btn",
+              text: "base icon button <i class='fas fa-book'></i>",
+            },
+            {
+              text: "<i class='fab fa-apple'></i>",
+            },
+            {
+              classes: "icon-left green-btn",
+              text: "<i class='fas fa-pen'></i> base icon button",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "add-to-cart",
           label: "Add To Cart",
           classes: "add-to-cart-btn",
