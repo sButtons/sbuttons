@@ -211,11 +211,11 @@ $(document).ready(function () {
           variations: [
             {
               classes: "icon-right",
-              text: "base icon button",
+              text: "base icon button <i class='fas fa-book'></i>",
             },
             {
               classes: "icon-left",
-              text: "base icon button",
+              text: "<i class='fas fa-pen'></i> base icon button",
             },
           ],
           shouldHaveRoundedType: false,
@@ -407,6 +407,13 @@ $(document).ready(function () {
       label: "Special Buttons",
       classes: "",
       children: [
+        {
+          type: "glossy",
+          label: "Glossy",
+          classes: "glossy-btn",
+          text: "Glossy",
+          shouldHaveRoundedType: false,
+        },
         {
           type: "play-game",
           label: "Play game",
