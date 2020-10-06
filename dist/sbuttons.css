@@ -2428,23 +2428,29 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .gradient-1 {
   background: linear-gradient(90deg, #ff604c 0%, #ff43a0 100%);
   box-shadow: 0px 4px 40px rgb(255 119 159);
+  transition: 0.5s;
 }
 .gradient-1:hover {
   box-shadow: none;
+  background: linear-gradient(45deg, #ff43a0 0%, #ff604c 100%);
 }
 .gradient-2 {
   background: linear-gradient(90deg, #0082e1 0%, #00dadc 100%);
   box-shadow: 0px 4px 40px #00d4d7;
+  transition: 0.5s;
 }
 .gradient-2:hover {
   box-shadow: none;
+  background: linear-gradient(45deg, #00dadc 0%, #00bfe1 100%);
 }
 .gradient-3 {
-  background: linear-gradient(to right, #00d4d7, #00f93c);
+  background: linear-gradient(90deg, #00d4d7 0%, #00f93c 100%);
   box-shadow: 0px 4px 40px #00f93c;
+  transition: 0.5s;
 }
 .gradient-3:hover {
   box-shadow: none;
+  background: linear-gradient(45deg, #00f93c 0%, #00d4d7 100%);
 }
 .toggle-btn {
   width: 90px;
