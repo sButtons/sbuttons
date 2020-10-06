@@ -391,6 +391,13 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "glossy",
+          label: "Glossy",
+          classes: "glossy-btn",
+          text: "Glossy",
+          shouldHaveRoundedType: false,
+        },
+        {
           type: "play-game",
           label: "Play game",
           classes: "play-game-btn",

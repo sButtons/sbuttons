@@ -2415,6 +2415,30 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .toggle-off-btn::before {
   transform: translateX(-0.3em);
 }
+.glossy-btn {
+  border-radius: 50px;
+  padding: 5px 20px;
+  position: relative;
+}
+.glossy-btn:hover {
+  box-shadow: 0 2px 1px rgba(128, 128, 128, 0.3);
+}
+.glossy-btn:after {
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  content: "";
+  height: 120%;
+  left: -20%;
+  position: absolute;
+  top: 0;
+  transition: top 114ms;
+  width: 140%;
+}
+.glossy-btn.white-btn:after {
+  background: rgba(221, 221, 221, 0.4);
+}
+.glossy-btn:active:after {
+  top: -20%;
+}
 .dashed-btn {
   background-color: transparent;
 }
