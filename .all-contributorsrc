@@ -1141,6 +1141,16 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "IngoA-1848613",
+      "name": "Ingo Andelhofs",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42770346?v=4",
+      "profile": "https://www.ingoandelhofs.com",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

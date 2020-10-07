@@ -481,6 +481,16 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "handwritten-btn",
+          label: "Handwritten",
+          classes: "handwritten-btn",
+          variations: [
+            {
+              text: "Handwritten",
+            },
+          ],
+        },
+        {
           type: "play-game",
           label: "Play game",
           classes: "play-game-btn",

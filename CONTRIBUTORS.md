@@ -157,6 +157,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/zikos2"><img src="https://avatars3.githubusercontent.com/u/16059617?v=4" width="100px;" alt=""/><br /><sub><b>Zack&#124;&#124;</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=zikos2" title="Code">💻</a> <a href="#content-zikos2" title="Content">🖋</a></td>
     <td align="center"><a href="http://devoftech.com/"><img src="https://avatars3.githubusercontent.com/u/46154313?v=4" width="100px;" alt=""/><br /><sub><b>Harjot Singh</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=harjotscs" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/arkumari2000"><img src="https://avatars0.githubusercontent.com/u/48750169?v=4" width="100px;" alt=""/><br /><sub><b>Archana Kumari</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=arkumari2000" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Aarkumari2000" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://www.ingoandelhofs.com"><img src="https://avatars1.githubusercontent.com/u/42770346?v=4" width="100px;" alt=""/><br /><sub><b>Ingo Andelhofs</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=IngoA-1848613" title="Code">💻</a> <a href="#ideas-IngoA-1848613" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
