@@ -1860,7 +1860,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  position: absolute;
 }
 .setting-btn:focus {
   filter: brightness(1.2);
