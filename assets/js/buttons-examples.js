@@ -400,19 +400,7 @@ $(document).ready(function () {
         {
           type: "neu-btn",
           label: "Neumorphic",
-          classes: "",
-          children: [
-            {
-              type: "neu-btn-dark",
-              label: "Neumorphic dark",
-              classes: "neu-btn-dark",
-            },
-            {
-              type: "neu-btn-light",
-              label: "Neumorphic light",
-              classes: "neu-btn-light",
-            },
-          ],
+          classes: "neu-btn",
         },
         {
           type: "play-game",
