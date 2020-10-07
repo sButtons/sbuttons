@@ -1,0 +1,54 @@
+@trans: 0.3s linear; 
+@bprop: solid 2px;
+@props: {
+	content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+}
+
+body{
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+
+#learn {
+  position: relative;
+  left: 30vmax;
+  top: 20vmax;
+  width: 20vmax;
+  cursor: pointer;
+  padding: 2% 0%;
+}
+#learn::before {
+	@props();
+
+  border-bottom: @bprop;
+  border-left: @bprop;
+  left: 0%;
+  top: 100%;
+  transition: width @trans, top @trans, height @trans;
+}
+#learn::after {
+	@props();
+
+  border-top: @bprop;
+  border-right: @bprop;
+  top: 0%;
+  left: 100%;
+  transition: width @trans, left @trans, height @trans;
+}
+
+#learn:hover::before {
+  width: 40%;
+  height: 50%;
+  top: 50%;
+}
+
+#learn:hover::after {
+  left: 60%;
+  width: 40%;
+  height: 50%;
+}
