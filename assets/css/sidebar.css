@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  z-index: 10;
+  z-index: 1;
 }
 .sidebar.scrolling {
   position: fixed;
@@ -36,6 +36,8 @@
 }
 .sidebar .submenu-links {
   margin-left: 10px;
+  height: 135px;
+  overflow-y: auto;
 }
 .sidebar .submenu-links:not(.show) {
   display: none;
@@ -91,6 +93,15 @@
 .sidebar-list::-webkit-scrollbar-thumb:hover,
 .instructions-sidebar::-webkit-scrollbar-thumb:hover {
   background: var(--main-color);
+}
+
+.sidebar .submenu-links::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar .submenu-links::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 2.5px;
 }
 
 [data-theme="dark"] .sidebar {

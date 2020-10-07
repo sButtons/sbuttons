@@ -506,6 +506,36 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "win95-btn",
+          label: "test window 97",
+          classes: "win95-btn",
+          variations: [
+            {
+              classes: "",
+              text: "Boo",
+            },
+            {
+              classes: "",
+              text: "Baa",
+            },
+          ],
+        },
+        {
+          type: "win95-btn",
+          label: "test window 98",
+          classes: "win95-btn",
+          variations: [
+            {
+              classes: "",
+              text: "blah",
+            },
+            {
+              classes: "",
+              text: "blah",
+            },
+          ],
+        },
       ],
     },
   ];
