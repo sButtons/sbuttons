@@ -5,6 +5,8 @@ name: Minify CSS
 # Controls when the action will run. Triggers the workflow on pull request
 on:
   push:
+    branches: 
+      - master
     paths:
       - 'dist/sbuttons.css'
 
