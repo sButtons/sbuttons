@@ -368,6 +368,11 @@ button.clipboard:focus {
   display: inline-block;
 }
 
+.content .sbtn.transparent-btn {
+  display: inline;
+  padding: 18px;
+}
+
 .down-link {
   background-color: white;
   color: #333;
