@@ -180,6 +180,11 @@ $(document).ready(function () {
           label: "Transparent On Hover",
           classes: "transparent-btn",
         },
+        {
+          type: "flip",
+          label: "Flip",
+          classes: "flip-btn",
+        },
       ],
     },
     {
@@ -528,7 +533,11 @@ $(document).ready(function () {
     isDisabled
   ) {
     if (buttonText === false) {
-      buttonText = "Button";
+      if (classes.includes("flip-btn")) {
+        buttonText = "";
+      } else {
+        buttonText = "Button";
+      }
     }
     return `
             <div class="button-container">

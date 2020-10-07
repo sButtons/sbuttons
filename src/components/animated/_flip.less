@@ -1,0 +1,44 @@
+.sbtn.flip-btn {
+  padding: 0;
+}
+.flip-btn {
+  color: #fff;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  &:hover {
+    &:after {
+      -webkit-transform: translateY(0) rotateX(0);
+      transform: translateY(0) rotateX(0);
+    }
+    &:before {
+      -webkit-transform: translateY(50%) rotateX(90deg);
+      transform: translateY(50%) rotateX(90deg);
+    }
+  }
+  &:before {
+    display: block;
+    padding: 0 30px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+    content: "Button";
+    -webkit-transform: translateY(0) rotateX(0);
+    transform: translateY(0) rotateX(0);
+  }
+  &:after {
+    backdrop-filter: grayscale(40%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: absolute;
+    content: "Flipped";
+    -webkit-transform: translateY(-50%) rotateX(90deg);
+    transform: translateY(-50%) rotateX(90deg);
+  }
+}
