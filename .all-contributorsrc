@@ -455,7 +455,10 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/48127194?v=4",
       "profile": "https://calebolojo.me",
       "contributions": [
-        "doc"
+        "doc",
+        "code",
+        "content",
+        "example"
       ]
     },
     {
@@ -1108,6 +1111,35 @@
       "profile": "https://github.com/SamD97",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "zikos2",
+      "name": "Zack||",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16059617?v=4",
+      "profile": "https://github.com/zikos2",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "harjotscs",
+      "name": "Harjot Singh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46154313?v=4",
+      "profile": "http://devoftech.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "arkumari2000",
+      "name": "Archana Kumari",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/48750169?v=4",
+      "profile": "https://github.com/arkumari2000",
+      "contributions": [
+        "code",
+        "bug"
       ]
     }
   ],
