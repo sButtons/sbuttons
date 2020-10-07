@@ -73,7 +73,7 @@ a, a:hover, a:active {
 }
 
 .content {
-    margin: 16vh 5% 20vh 5%;
+    margin: 16vh 5% 0 5%;
     height: 70vh;
 }
 
@@ -134,49 +134,25 @@ a, a:hover, a:active {
     }
 }
 
-.banner-links {
-    margin-top: 1.4rem;
-}
-
-.banner-link:hover,
-.banner-link:active {
-  color: white;
-  text-decoration: none;
-  background-color: white;
-  color: #333;
-  transition: all 0.3s;
-}
 
 .banner-link {
-  border: 1px solid white;
   padding: 15px;
-  font-size: 1.3rrem;
+  font-size: 1rem;
   border-radius: 10px;
-  margin-right: 20px;
+  margin-right: 1em;
+  margin-top: 1em;
   color: white;
   font-family: Syne, sans-serif;
   display: inline-block;
 }
 
-.down-link {
-  background-color: white;
-  color: #333;
-}
-
-.down-link:hover,
-.down-link:active {
-  background-color: transparent;
-  color: white;
-}
-
-
-section {
+.installation, .cdn {
     padding: 0 5%;
     width: 100%;
     margin-bottom: 20vh;
 }
 
-section .head {
+.installation, .cdn  .head {
     color: #413f3f;
     font-weight: 700;
 }
@@ -190,6 +166,7 @@ section .head {
 }
 .desc {
     font-size: 20px;
+    font-weight: 200;
     opacity: 0;
     animation: slide-in-left 1s forwards;
 }
@@ -208,4 +185,8 @@ section .head {
     font-size: 18px;
     opacity: 0;
     animation: slide-in-right 1s forwards;
+}
+
+.button-grid.active {
+    display: flex;
 }

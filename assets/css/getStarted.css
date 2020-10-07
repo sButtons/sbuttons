@@ -14,8 +14,7 @@
 }
 
 .instruction-block {
-  display: none;
-  min-height: 50vh;
+  margin-bottom: 2em;
 }
 
 .div-copy {
@@ -47,4 +46,15 @@
 
 .margin-left--half {
   margin-left: 0.5rem;
+}
+
+
+.getStarted-head {
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+}
+
+.getStarted-head h1 {
+    font-size: 3em;
 }

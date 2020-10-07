@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
     <link href="assets/css/index.css" rel="stylesheet" />
-    <link href="assets/css/home.css" rel="stylesheet" />
     <link href="assets/css/sidebar.css" rel="stylesheet" />
     <link href="assets/css/variables.css" rel="stylesheet" />
     <link href="dist/sbuttons.css" rel="stylesheet" />
+    <link href="assets/css/home.css" rel="stylesheet" />
+    <link href="assets/css/getStarted.css" rel="stylesheet" />
 
     <!-- seo friendly og tags-->
     <meta name="description" content="Simple buttons you can use easily for your next project.">
@@ -88,8 +89,9 @@
                     Quickly design and customize beautiful and animated buttons with sButtons.
                 </div>
                 <div class="banner-links ">
-                    <a href="#" id="downloadGithubRawButton" class="banner-link down-link">Download</a>
-                    <a href="getStarted.html" class="banner-link">Documentation</a>
+                    <a href="#" id="downloadGithubRawButton" class="sbtn hover-btn white-btn banner-link">Download</a>
+                    <a href="getStarted.html" class="sbtn outline-btn white-btn banner-link"
+                        style="color: white !important;">Documentation</a>
                 </div>
             </div>
             <div class="logo col-lg-6 col-md-12 col-sm-12 d-none d-lg-block">
@@ -97,42 +99,43 @@
             </div>
         </div>
     </header>
-
-    <section class="installation">
-        <div class="head">
-            <h1 class="heading"><i class="fas fa-code"></i> Installation</h1>
-        </div>
-        <div class="instruction row">
-            <div class="desc col col-md-6 col-sm-12">
-                Install sButttons’s source LESS via npm.
-                <br><br>
-                Package managed installs don’t include documentation or our full build scripts. You can also use our
-                npm.
-
+    <div class="container row">
+        <section class="installation">
+            <div class="head">
+                <h1 class="heading"><i class="fas fa-code"></i> Installation</h1>
             </div>
-            <div class="code col col-md-6 col-sm-12">
-                <pre><code class="language-shell"> npm install sbuttons </code></pre>
-            </div>
-        </div>
-    </section>
+            <div class="instruction row">
+                <div class="desc col col-md-6 col-sm-12">
+                    Install sButttons’s source LESS via npm.
+                    <br><br>
+                    Package managed installs don’t include documentation or our full build scripts. You can also use our
+                    npm.
 
-    <section class="cdn">
-        <div class="head">
-            <h1 class="heading"><i class="fas fa-cloud"></i> sButton CDN</h1>
-        </div>
-        <div class="instruction row">
-            <div class="desc col col-md-6 col-sm-12">
-                When you only need to include SButtons’s compiled CSS , you can use SButtonCDN.
-                <br><br>
-                <a href="/index.html" class="banner-link">Explore the docs</a>
+                </div>
+                <div class="code col col-md-6 col-sm-12">
+                    <pre><code class="language-shell"> npm install sbuttons </code></pre>
+                </div>
             </div>
-            <div class="code col col-md-6 col-sm-12">
-                <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/sButtons/sbuttons/c135f5f7/dist/sbuttons.min.css"></code></pre>
+        </section>
 
+        <section class="cdn">
+            <div class="head">
+                <h1 class="heading"><i class="fas fa-cloud"></i> sButton CDN</h1>
             </div>
-        </div>
-    </section>
+            <div class="instruction row">
+                <div class="desc col col-md-6 col-sm-12">
+                    When you only need to include SButtons’s compiled CSS , you can use SButtonCDN.
+                    <br><br>
+                    <a href="/index.html" class="sbtn transparent-btn banner-link">Explore the docs</a>
+                </div>
+                <div class="code col col-md-6 col-sm-12">
+                    <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/sButtons/sbuttons/c135f5f7/dist/sbuttons.min.css"></code></pre>
 
+                </div>
+            </div>
+        </section>
+
+    </div>
     <footer class="footer">
         <span class="tagline">Made with <span style="color: floralwhite" class="tagline-heart">❤︎</span></span><br />
         <div style="padding: 20px 0">Say Hello to our awesome <a

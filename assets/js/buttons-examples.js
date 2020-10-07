@@ -592,12 +592,12 @@ $(document).ready(function () {
     // Adding the required heading to the section
     section.append(
       "<" +
-        heading +
-        ' class="section-header">' +
-        button.label +
-        "</" +
-        heading +
-        ">"
+      heading +
+      ' class="section-header">' +
+      button.label +
+      "</" +
+      heading +
+      ">"
     );
 
     if (button.hasOwnProperty("children") && button.children.length) {
@@ -629,25 +629,42 @@ $(document).ready(function () {
         }
       }
 
+      let navUl = $('<ul class="nav nav-tabs" id="myTab" role="tablist">'),
+        tabCont = $('<div class="tab-content" id="myTabContent">');
+
       // Add buttons to the type's button grid
-      var normalButtonsGrid = $('<div class="button-grid">'),
-        buttonText = button.hasOwnProperty("text") ? button.text : false;
+      var normalButtonsGrid = $(`<div class=" tab-pane fade show active button-grid" id="${button.type}_basicNav" role="tabpanel" aria-labelledby="basic-tab">`),
+        buttonText = button.hasOwnProperty("text") ? button.text : false,
+        basicNav = $('<li class="nav-item" role="presentation">');
+      basicNav.append(`<a class="nav-link active" id="basic-tab" data-toggle="tab" href="#${button.type}_basicNav" role="tab" aria-controls="${button.type}_basicNav" aria-selected="true">Basic</a>`)
+      navUl.append(basicNav);
+      tabCont.append(normalButtonsGrid);
 
       // If rounded class is allowed for this button, create a button grid for it
       if (roundedClass) {
-        var roundedButtonsGrid = $('<div class="button-grid">');
+        var roundedButtonsGrid = $(`<div class="button-grid tab-pane fade" id="${button.type}_rounded" role="tabpanel" aria-labelledby="rounded-tab">`),
+          roundNav = $('<li class="nav-item" role="presentation">');
+        roundNav.append(`<a class="nav-link" id="rounded-tab" data-toggle="tab" href="#${button.type}_rounded" role="tab" aria-controls="${button.type}_rounded" aria-selected="true">Rounded</a>`);
+        navUl.append(roundNav);
+        tabCont.append(roundedButtonsGrid);
       }
       // If block class is allowed for this button, create a button grid for it
       if (blockClass) {
-        var blockButtonsGrid = $('<div class="button-grid">');
+        var blockButtonsGrid = $(`<div class="button-grid tab-pane fade" id="${button.type}_block" role="tabpanel" aria-labelledby="block-tab">`),
+          blockNav = $('<li class="nav-item" role="presentation">');
+        blockNav.append(`<a class="nav-link" id="block-tab" data-toggle="tab" href="#${button.type}_block" role="tab" aria-controls="${button.type}_block" aria-selected="true">Block</a>`);
+        navUl.append(blockNav);
+        tabCont.append(blockButtonsGrid);
       }
+
+
       for (var j = 0; j < buttonArr.length; j++) {
         var thisButtonText =
           buttonText !== false
             ? buttonText
             : buttonArr[j].hasOwnProperty("text")
-            ? buttonArr[j].text
-            : false;
+              ? buttonArr[j].text
+              : false;
         var thisButtonClasses = buttonArr[j].hasOwnProperty("classes")
           ? buttonArr[j].classes
           : buttonArr[j];
@@ -694,11 +711,7 @@ $(document).ready(function () {
           );
         }
       }
-      section.append(normalButtonsGrid);
-      roundedClass && roundedButtonsGrid
-        ? section.append(roundedButtonsGrid)
-        : "";
-      blockClass && blockButtonsGrid ? section.append(blockButtonsGrid) : "";
+      section.append(navUl).append(tabCont);
     }
     return section;
   }
