@@ -155,6 +155,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://paulo9mv.github.io"><img src="https://avatars1.githubusercontent.com/u/17968732?v=4" width="100px;" alt=""/><br /><sub><b>Paulo Viana</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=paulo9mv" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SamD97"><img src="https://avatars3.githubusercontent.com/u/9783888?v=4" width="100px;" alt=""/><br /><sub><b>Saumil Shah</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=SamD97" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/zikos2"><img src="https://avatars3.githubusercontent.com/u/16059617?v=4" width="100px;" alt=""/><br /><sub><b>Zack&#124;&#124;</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=zikos2" title="Code">💻</a> <a href="#content-zikos2" title="Content">🖋</a></td>
+    <td align="center"><a href="http://devoftech.com/"><img src="https://avatars3.githubusercontent.com/u/46154313?v=4" width="100px;" alt=""/><br /><sub><b>Harjot Singh</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=harjotscs" title="Code">💻</a></td>
   </tr>
 </table>
 
