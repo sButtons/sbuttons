@@ -2460,55 +2460,73 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .gradient-btn.pink-btn {
   background: linear-gradient(#d53caf, #e60550);
+  box-shadow: 0px 10px 15px #d53caf;
 }
 .gradient-btn.pink-btn:hover {
   background: linear-gradient(#e60550, #d53caf);
+  box-shadow: 0px 8px 15px #e60550;
 }
 .gradient-btn.blue-btn {
   background: linear-gradient(#50bfe6, #085c7a);
+  box-shadow: 0px 10px 15px #50bfe6;
 }
 .gradient-btn.blue-btn:hover {
+  box-shadow: 0px 8px 15px #085c7a;
   background: linear-gradient(#085c7a, #50bfe6);
 }
 .gradient-btn.red-btn {
   background: linear-gradient(#ed0a3f, #810824);
+  box-shadow: 0px 10px 15px #ed0a3f;
 }
 .gradient-btn.red-btn:hover {
+  box-shadow: 0px 8px 15px #810824;
   background: linear-gradient(#810824, #ed0a3f);
 }
 .gradient-btn.green-btn {
   background: linear-gradient(#3aa655, #165f29);
+  box-shadow: 0px 10px 15px #3aa655;
 }
 .gradient-btn.green-btn:hover {
+  box-shadow: 0px 8px 15px #165f29;
   background: linear-gradient(#165f29, #3aa655);
 }
 .gradient-btn.yellow-btn {
   background: linear-gradient(#fbe870, #eece00);
+  box-shadow: 0px 10px 15px #e2e22e;
 }
 .gradient-btn.yellow-btn:hover {
+  box-shadow: 0px 8px 15px #eece00;
   background: linear-gradient(#eece00, #fbe870);
 }
 .gradient-btn.orange-btn {
   background: linear-gradient(#ff8833, #a74601);
+  box-shadow: 0px 10px 15px #ff8833;
 }
 .gradient-btn.orange-btn:hover {
+  box-shadow: 0px 8px 15px #a74601;
   background: linear-gradient(#a74601, #ff8833);
 }
 .gradient-btn.purple-btn {
   background: linear-gradient(#652dc1, #28075e);
+  box-shadow: 0px 10px 15px #652dc1;
 }
 .gradient-btn.purple-btn:hover {
+  box-shadow: 0px 8px 15px #28075e;
   background: linear-gradient(#28075e, #652dc1);
 }
 .gradient-btn.black-btn {
   background: linear-gradient(#686363, #000);
+  box-shadow: 0px 10px 15px #686363;
 }
 .gradient-btn.black-btn:hover {
+  box-shadow: 0px 8px 15px #000;
   background: linear-gradient(#000, #686363);
 }
 .gradient-btn.white-btn {
   background: linear-gradient(#fdf4f4, #a19e9e);
+  box-shadow: 0px 10px 15px #aca6a6;
 }
 .gradient-btn.white-btn:hover {
+  box-shadow: 0px 8px 15px #a19e9e;
   background: linear-gradient(#a19e9e, #fdf4f4);
 }
