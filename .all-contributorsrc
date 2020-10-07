@@ -1122,6 +1122,15 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "harjotscs",
+      "name": "Harjot Singh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46154313?v=4",
+      "profile": "http://devoftech.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
