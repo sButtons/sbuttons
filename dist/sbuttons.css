@@ -2479,6 +2479,29 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .glossy-btn:active:after {
   top: -20%;
 }
+@font-face {
+  font-family: "Architects Daughter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Architects Daughter Regular"), local("ArchitectsDaughter-Regular"),
+    url(https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY4.ttf)
+      format("truetype");
+}
+.handwritten-btn {
+  font-family: "Architects Daughter", cursive, serif, sans-serif;
+  color: #111111;
+  background-color: #fafafa;
+  padding: 0.3rem 3.4rem;
+  border: 2px solid #111111;
+  border-radius: 2% 98% 1% 99% / 93% 15% 85% 7%;
+}
+.handwritten-btn.rounded-btn {
+  border-radius: 60px 45px 30px 35px / 37px 30px 45px 60px;
+}
+.handwritten-btn.block-btn {
+  border-radius: 30px 2px 30% 3px / 4px 10px 3px 30px;
+}
 .dashed-btn {
   background-color: transparent;
 }

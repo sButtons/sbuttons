@@ -502,6 +502,16 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "handwritten-btn",
+          label: "Handwritten",
+          classes: "handwritten-btn",
+          variations: [
+            {
+              text: "Handwritten",
+            },
+          ],
+        },
       ],
     },
   ];
