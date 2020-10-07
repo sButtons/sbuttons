@@ -39,6 +39,11 @@ $(document).ready(function () {
       label: "Animated Buttons",
       classes: "",
       children: [
+         {
+          type: "half-frame",
+          label: "half frame",
+          classes: "halfframe-btn",
+        },
         {
           type: "aura-pulse",
           label: "Aura Pulse",
