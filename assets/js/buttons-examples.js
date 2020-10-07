@@ -111,11 +111,7 @@ $(document).ready(function () {
           classes: "nudge-btn",
         },
 
-        {
-          type: "shrink",
-          label: "Shrink",
-          classes: "shrink-btn",
-        },
+        
 
         {
           type: "previous",
@@ -131,6 +127,11 @@ $(document).ready(function () {
           type: "pulse",
           label: "Pulse",
           classes: "pulse-btn",
+        },
+        {
+          type: "shrink",
+          label: "Shrink",
+          classes: "shrink-btn",
         },
         {
           type: "snake",
