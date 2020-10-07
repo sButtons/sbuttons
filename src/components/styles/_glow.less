@@ -1,9 +1,9 @@
 .glow-btn {
   border: 2px solid;
   color: @black;
+  transition: all 0.5s ease;
 
   .glow(@color) {
-    transition: all 0.5s ease;
     border-color: @color;
     background-color: rgba(@color, 0.2);
     &:hover {
