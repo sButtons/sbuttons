@@ -35,6 +35,78 @@ $(document).ready(function () {
       shouldHaveRoundedType: true,
     },
     {
+      type: "styles",
+      label: "Button Styles",
+      classes: "",
+      children: [
+        {
+          type: "click",
+          label: "Click",
+          classes: "click-btn",
+        },
+        {
+          type: "glow",
+          label: "Glow",
+          classes: "glow-btn",
+        },
+        {
+          type: "key",
+          label: "Key",
+          classes: "key-btn",
+        },
+        {
+          type: "dashed",
+          label: "Dashed Buttons",
+          classes: "dashed-btn",
+        },
+        {
+          type: "disable",
+          label: "Disabled Buttons",
+          classes: "disabled-btn",
+        },
+        {
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+        },
+        {
+          type: "glossy",
+          label: "Glossy",
+          classes: "glossy-btn",
+          text: "Glossy",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-bottom",
+          label: "Rounded Bottom",
+          classes: "rounded-bottom-btn",
+          text: "Rounded Bottom",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-top",
+          label: "Rounded Top",
+          classes: "rounded-top-btn",
+          text: "Rounded Top",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-diagonal-tl",
+          label: "Rounded Diagonal (Top Left)",
+          classes: "rounded-diagonal-tl-btn",
+          text: "TopLeft-BottomRight",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-diagonal-tr",
+          label: "Rounded Diagonal (Top Right)",
+          classes: "rounded-diagonal-tr-btn",
+          text: "TopRight-BottomLeft",
+          shouldHaveRoundedType: false,
+        },
+      ],
+    },
+    {
       type: "animated",
       label: "Animated Buttons",
       classes: "",
@@ -48,11 +120,6 @@ $(document).ready(function () {
           type: "bounce",
           label: "Bounce",
           classes: "bouncy-btn",
-        },
-        {
-          type: "click",
-          label: "Click",
-          classes: "click-btn",
         },
         {
           type: "diagonalHover",
@@ -84,12 +151,6 @@ $(document).ready(function () {
           label: "Fill Color - Up",
           classes: "fill-color-btn up-fill",
         },
-
-        {
-          type: "glow",
-          label: "Glow",
-          classes: "glow-btn",
-        },
         {
           type: "hinge",
           label: "Hinge",
@@ -99,11 +160,6 @@ $(document).ready(function () {
           type: "invert",
           label: "Invert",
           classes: "invert-btn",
-        },
-        {
-          type: "key",
-          label: "Key",
-          classes: "key-btn",
         },
         {
           type: "liquid",
@@ -181,17 +237,6 @@ $(document).ready(function () {
           classes: "transparent-btn",
         },
       ],
-    },
-    {
-      type: "dashed",
-      label: "Dashed Buttons",
-      classes: "dashed-btn",
-      children: [],
-    },
-    {
-      type: "disable",
-      label: "Disabled Buttons",
-      classes: "disabled-btn",
     },
     {
       type: "hover",
@@ -336,12 +381,6 @@ $(document).ready(function () {
       ],
     },
     {
-      type: "outline",
-      label: "Outline Buttons",
-      classes: "outline-btn",
-      children: [],
-    },
-    {
       type: "social",
       label: "Social Buttons",
       classes: "social-btn",
@@ -411,13 +450,6 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
-          type: "glossy",
-          label: "Glossy",
-          classes: "glossy-btn",
-          text: "Glossy",
-          shouldHaveRoundedType: false,
-        },
-        {
           type: "play-game",
           label: "Play game",
           classes: "play-game-btn",
@@ -441,34 +473,6 @@ $(document).ready(function () {
               text: "Reset",
             },
           ],
-        },
-        {
-          type: "rounded-bottom",
-          label: "Rounded Bottom",
-          classes: "rounded-bottom-btn",
-          text: "Rounded Bottom",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-top",
-          label: "Rounded Top",
-          classes: "rounded-top-btn",
-          text: "Rounded Top",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-diagonal-tl",
-          label: "Rounded Diagonal (Top Left)",
-          classes: "rounded-diagonal-tl-btn",
-          text: "TopLeft-BottomRight",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-diagonal-tr",
-          label: "Rounded Diagonal (Top Right)",
-          classes: "rounded-diagonal-tr-btn",
-          text: "TopRight-BottomLeft",
-          shouldHaveRoundedType: false,
         },
         {
           type: "toggle",
