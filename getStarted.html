@@ -106,9 +106,9 @@
           <div class="instructions-sidebar">
             <a href="#install" class="install has-children-links">Installation</a>
             <div class="submenu-links">
-              <a href="#downloadcss" class="submenu-link">Download CSS File</a>
-              <a href="#cdn" class="submenu-link">Install with CDN</a>
-              <a href="#npm" class="submenu-link">Install with NPM</a>
+              <a href="#downloadcss" class="submenu-link" onclick='openTab("downloadcss")'>Download CSS File</a>
+              <a href="#cdn" class="submenu-link" onclick='openTab("cdn")'>Install with CDN</a>
+              <a href="#npm" class="submenu-link" onclick='openTab("npm")'>Install with NPM</a>
             </div>
 
             <a href="#usage" class="usage has-children-links">Usage</a>
@@ -125,11 +125,11 @@
         </div>
       </div>
       <div class="col-md-9 col-12">
+        <h1 class="section-header">Getting Started with sButtons</h1>
+        <br>
+        <h2 id="install">Installation</h2>
         <div id="how-to-use">
-          <h1 class="section-header">Getting Started with sButtons</h1>
           <div class="instructions">
-            <h2 id="install">Installation</h2>
-
             <section class="instruction-block" id="downloadcss">
               <h2>Download CSS File</h2>
               <hr class="secondary-hr" />
@@ -143,7 +143,7 @@
                   class="code-text">&lt;head&gt;</span>
                 tags, as shown below.
               </div>
-              <br>
+
               <div class="code-block-container ">
                 <div class="script-copy">
                   <pre><code class="language-markup"> &lt;link rel="stylesheet" href="/path/to/sbuttons.min.css"></code></pre>
@@ -203,8 +203,6 @@
               </div>
               <br />
             </section>
-
-            <h2 id="usage">Usage</h2>
 
             <section class="instruction-block" id="modify">
               <h2>Modifying Button Colors</h2>
@@ -334,6 +332,7 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/buttons-examples.js"></script>
   <script src="assets/js/index.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>
