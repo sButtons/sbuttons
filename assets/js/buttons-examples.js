@@ -40,6 +40,11 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "aura-pulse",
+          label: "Aura Pulse",
+          classes: "aurapulse-btn",
+        },
+        {
           type: "bounce",
           label: "Bounce",
           classes: "bouncy-btn",
@@ -48,6 +53,16 @@ $(document).ready(function () {
           type: "click",
           label: "Click",
           classes: "click-btn",
+        },
+        {
+          type: "diagonalHover",
+          label: "Diagonal Background on Hover",
+          classes: "diag-btn",
+        },
+        {
+          type: "expanding",
+          label: "Expanding Border",
+          classes: "expanding-btn",
         },
         {
           type: "fill-color-down",
@@ -69,6 +84,7 @@ $(document).ready(function () {
           label: "Fill Color - Up",
           classes: "fill-color-btn up-fill",
         },
+
         {
           type: "glow",
           label: "Glow",
@@ -90,13 +106,18 @@ $(document).ready(function () {
           classes: "key-btn",
         },
         {
+          type: "liquid",
+          label: "Liquid",
+          classes: "liquid-btn",
+        },
+        {
           type: "neon",
           label: "Neon",
           classes: "neon-btn",
         },
         {
           type: "next",
-          label: "Next Button",
+          label: "Next",
           classes: "next-arrow-btn",
         },
         {
@@ -106,7 +127,7 @@ $(document).ready(function () {
         },
         {
           type: "previous",
-          label: "Previous Button",
+          label: "Previous",
           classes: "previous-arrow-btn",
         },
         {
@@ -169,8 +190,8 @@ $(document).ready(function () {
     },
     {
       type: "disable",
-      classes: "disabled-btn",
       label: "Disabled Buttons",
+      classes: "disabled-btn",
     },
     {
       type: "hover",
@@ -184,14 +205,34 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "base-icon",
+          label: "Base Icon button",
+          classes: "base-icon-btn",
+          variations: [
+            {
+              classes: "icon-right purple-btn",
+              text: "base icon button <i class='fas fa-book'></i>",
+            },
+            {
+              text: "<i class='fab fa-apple'></i>",
+            },
+            {
+              classes: "icon-left green-btn",
+              text: "<i class='fas fa-pen'></i> base icon button",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "add-to-cart",
-          label: "Add To Cart Button",
+          label: "Add To Cart",
           classes: "add-to-cart-btn",
           text: "Add To Cart",
         },
         {
           type: "appstore",
-          label: "App Store Button",
+          label: "App Store",
           classes: "appstore-btn",
           variations: [
             {
@@ -204,58 +245,77 @@ $(document).ready(function () {
             },
           ],
         },
-
         {
           type: "buy-me-coffee",
-          label: "Buy Me Coffee Button",
+          label: "Buy Me Coffee",
           classes: "buy-me-coffee-btn",
           text: "Buy me coffee",
         },
         {
           type: "chat",
-          label: "Chat Box Button",
+          label: "Chat Box",
           classes: "chat-btn",
           text: "",
         },
         {
+          type: "close",
+          label: "Close Button",
+          classes: "",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "close-btn",
+              label: "",
+              text: "",
+            },
+          ],
+        },
+        {
           type: "download",
-          label: "Download Button",
+          label: "Download",
           classes: "download-btn",
           text: "Download",
         },
         {
           type: "drop-down",
-          label: "Dropdown Button",
+          label: "Dropdown",
           classes: "drop-down-btn",
           text: "Dropdown Button",
         },
         {
           type: "like",
-          label: "Like Button",
+          label: "Like",
           classes: "like-btn",
           text: "",
         },
         {
           type: "play",
-          label: "Play Button",
+          label: "Play",
           classes: "play-btn",
           text: "",
         },
         {
           type: "plus",
-          label: "Plus Button",
+          label: "Plus",
           classes: "plus-btn",
           text: "",
         },
         {
           type: "scroll-to-top",
-          label: "Scroll-to-Top Button",
+          label: "Scroll-to-Top",
           classes: "scroll-to-top-btn",
           text: "",
         },
         {
+          type: "setting",
+          label: "Setting",
+          classes: "setting-btn",
+          text: "",
+        },
+        {
           type: "star",
-          label: "Star Button",
+          label: "Star",
           classes: "star-btn",
           text: "",
           shouldHaveRoundedType: false,
@@ -266,6 +326,12 @@ $(document).ready(function () {
               text: "",
             },
           ],
+        },
+        {
+          type: "thumbs-up",
+          label: "Thumbs Up",
+          classes: "thumbsup-btn",
+          text: "",
         },
       ],
     },
@@ -283,6 +349,10 @@ $(document).ready(function () {
         {
           classes: "apple",
           text: "Login with Apple",
+        },
+        {
+          classes: "discord",
+          text: "Login with Discord",
         },
         {
           classes: "facebook",
@@ -341,8 +411,15 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "glossy",
+          label: "Glossy",
+          classes: "glossy-btn",
+          text: "Glossy",
+          shouldHaveRoundedType: false,
+        },
+        {
           type: "play-game",
-          label: "Play game Button",
+          label: "Play game",
           classes: "play-game-btn",
           text: "",
         },
@@ -392,6 +469,38 @@ $(document).ready(function () {
           classes: "rounded-diagonal-tr-btn",
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
+        },
+        {
+          type: "toggle",
+          label: "Toggle button (on and off)",
+          classes: "toggle-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "toggle-on-btn",
+              text: "",
+            },
+            {
+              classes: "toggle-off-btn",
+              text: "",
+            },
+          ],
+        },
+        {
+          type: "win95-btn",
+          label: "Windows 95",
+          classes: "win95-btn",
+          variations: [
+            {
+              classes: "",
+              text: "Yes",
+            },
+            {
+              classes: "",
+              text: "No",
+            },
+          ],
         },
       ],
     },
@@ -543,11 +652,18 @@ $(document).ready(function () {
           ? buttonArr[j].classes
           : buttonArr[j];
 
+        var totalClasses = `${defaultClass} ${button.classes}`,
+          totalWrittenClasses = `.${defaultClass} .${button.classes}`;
+        if (thisButtonClasses.length) {
+          totalClasses += ` ${thisButtonClasses}`;
+          totalWrittenClasses += ` .${thisButtonClasses}`;
+        }
+
         // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
-            `${defaultClass} ${button.classes} ${thisButtonClasses}`,
-            `.${defaultClass} .${button.classes} .${thisButtonClasses}`,
+            totalClasses,
+            totalWrittenClasses,
             thisButtonText,
             false,
             isDisabled
@@ -557,8 +673,8 @@ $(document).ready(function () {
           //add rounded button grid if enabled for button
           roundedButtonsGrid.append(
             getButtonHtml(
-              `${defaultClass} ${button.classes} rounded-btn ${thisButtonClasses}`,
-              `.${defaultClass} .${button.classes} .rounded-btn .${thisButtonClasses}`,
+              `${totalClasses} rounded-btn`,
+              `.${totalWrittenClasses} .rounded-btn`,
               thisButtonText,
               false,
               isDisabled
@@ -569,8 +685,8 @@ $(document).ready(function () {
           //add block button grid if enabled for button
           blockButtonsGrid.append(
             getButtonHtml(
-              `${defaultClass} ${button.classes} block-btn ${thisButtonClasses}`,
-              `.${defaultClass} .${button.classes} .block-btn .${thisButtonClasses}`,
+              `${totalClasses} block-btn`,
+              `.${totalWrittenClasses} .block-btn`,
               thisButtonText,
               true,
               isDisabled
