@@ -29,17 +29,6 @@ a.sbtn:active {
   display: block;
   width: 100%;
 }
-.disabled-btn {
-  opacity: 0.55;
-  cursor: not-allowed;
-  pointer-events: none;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 .blue-btn {
   background-color: #50bfe6;
 }
@@ -259,6 +248,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .dashed-btn.white-btn {
   border: dashed 2px #e9e9e9;
   color: #333 !important;
+}
+.disabled-btn {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .glossy-btn {
   border-radius: 50px;
