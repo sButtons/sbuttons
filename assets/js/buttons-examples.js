@@ -418,6 +418,16 @@ $(document).ready(function () {
           shouldHaveRoundedType: false,
         },
         {
+          type: "handwritten-btn",
+          label: "Handwritten",
+          classes: "handwritten-btn",
+          variations: [
+            {
+              text: "Handwritten",
+            },
+          ],
+        },
+        {
           type: "play-game",
           label: "Play game",
           classes: "play-game-btn",
@@ -499,16 +509,6 @@ $(document).ready(function () {
             {
               classes: "",
               text: "No",
-            },
-          ],
-        },
-        {
-          type: "handwritten-btn",
-          label: "Handwritten",
-          classes: "handwritten-btn",
-          variations: [
-            {
-              text: "Handwritten",
             },
           ],
         },
