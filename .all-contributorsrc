@@ -1169,6 +1169,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "VedantWankhade",
+      "name": "Vedant Wankhade",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54671950?v=4",
+      "profile": "https://github.com/VedantWankhade",
+      "contributions": [
+        "content",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
