@@ -1189,6 +1189,15 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "Hisime",
+      "name": "Ann",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14891758?v=4",
+      "profile": "https://github.com/Hisime",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
