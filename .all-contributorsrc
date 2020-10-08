@@ -1160,6 +1160,35 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "akankshast",
+      "name": "Akanksha Tamboli",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55200393?v=4",
+      "profile": "https://github.com/akankshast",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "VedantWankhade",
+      "name": "Vedant Wankhade",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54671950?v=4",
+      "profile": "https://github.com/VedantWankhade",
+      "contributions": [
+        "content",
+        "doc"
+      ]
+    },
+    {
+      "login": "SahanAmarsha",
+      "name": "Sahan Amarsha",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/60227056?v=4",
+      "profile": "https://iamsahan.web.app/",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

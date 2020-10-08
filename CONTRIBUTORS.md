@@ -161,6 +161,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/varunks99"><img src="https://avatars2.githubusercontent.com/u/51695690?v=4" width="100px;" alt=""/><br /><sub><b>Varun Shiri</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=varunks99" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/akankshast"><img src="https://avatars2.githubusercontent.com/u/55200393?v=4" width="100px;" alt=""/><br /><sub><b>Akanksha Tamboli</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=akankshast" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/VedantWankhade"><img src="https://avatars2.githubusercontent.com/u/54671950?v=4" width="100px;" alt=""/><br /><sub><b>Vedant Wankhade</b></sub></a><br /><a href="#content-VedantWankhade" title="Content">🖋</a> <a href="https://github.com/sButtons/sbuttons/commits?author=VedantWankhade" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://iamsahan.web.app/"><img src="https://avatars1.githubusercontent.com/u/60227056?v=4" width="100px;" alt=""/><br /><sub><b>Sahan Amarsha</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=SahanAmarsha" title="Code">💻</a> <a href="#ideas-SahanAmarsha" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
