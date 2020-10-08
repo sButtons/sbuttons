@@ -552,10 +552,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-radius: 24px 4px;
 }
 .rounded-diagonal-tl-btn:hover {
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px #686363;
 }
 .rounded-diagonal-tl-btn:active {
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 5px #686363;
 }
 .rounded-diagonal-tl-btn.rounded-btn.rd-tl-btn {
   border-radius: 34px 14px;
@@ -564,10 +564,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-radius: 4px 24px;
 }
 .rounded-diagonal-tr-btn:hover {
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px #686363;
 }
 .rounded-diagonal-tr-btn:active {
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 5px #686363;
 }
 .rounded-diagonal-tr-btn.rounded-btn.rd-tr-btn {
   border-radius: 14px 34px;
