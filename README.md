@@ -124,7 +124,7 @@ In case of using buttons that have icons in them, make sure to include font awes
 
 ## Base Icon Buttons
 
-The `base-icon-btn` class enables you to have a normal, customizable button. Using it, you decide to add any fontawesome icon in it. You can choose to either place it at the left or right side of the button with the available classes which you will see below. For the icon to be positioned well in the button, you should place the button text after the fontawesome icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
+The `base-icon-btn` class enables you to have a normal, customizable button. Using it, you decide to add any fontawesome icon in it. You can choose to either place it on the left or right side of the button with the available classes which you will see below. For the icon to be positioned well in the button, you should place the button text after the fontawesome icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
 
 **Content**
 
@@ -141,21 +141,21 @@ The `base-icon-btn` class enables you to have a normal, customizable button. Usi
   - [Right icon block button](#right-icon-block-button)
 
 ### Base icon button 
- The `base-icon-btn` class, gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the sinppet below.
+ The `base-icon-btn` class gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the snippet below.
 
 ```html
 <button class="sbtn base-icon-btn">base icon button</button>
 ```
 
 #### Left icon base button
- Adding the `left-icon` and `orange-btn` class gives you a button with an orange backround and an icon that is on the left. Copy the snippet below to try it out.
+ Adding the `left-icon` and `orange-btn` class gives you a button with an orange background and an icon that is on the left. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-left orange-btn"><i class="fab fa-github"></i>left icon</button>
 ```
 
 #### Right icon base button
- Adding the `right-icon` and `orange-btn` class gives you a button with an orange backround and an icon that is on the right. Copy the snippet below to try it out.
+ Adding the `right-icon` and `orange-btn` class gives you a button with an orange background and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-right orange-btn"><i class="fab fa-github"></i>right icon</button>
@@ -167,7 +167,7 @@ To make your button have rounded side, all you need to do is add this `rounded-b
 
 #### Left icon rounded button
 
- Adding the `left-icon` and `purple-btn` class gives you a button with a purple backround and an icon that is on the left. Copy the snippet below to try it out.
+ Adding the `left-icon` and `purple-btn` class gives you a button with a purple background and an icon that is on the left. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-left purple-btn rounded-btn"><i class="fab fa-github"></i>left icon</button>
@@ -182,7 +182,7 @@ The default style of the "base icon button" places any fontawesome icon nested i
 ```
 
 #### Right icon rounded button 
-Adding the `right-icon`, `rounded-btn` and `purple-btn` class gives you a round sided button with a purple backround and an icon that is on the right. Copy the snippet below to try it out.
+Adding the `right-icon`, `rounded-btn` and `purple-btn` class gives you a round sided button with a purple background and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-right rounded-btn purple-btn"><i class="fab fa-github"></i>right icon</button>
@@ -210,7 +210,7 @@ The default style of the "base icon button" places any fontawesome icon nested i
 
 #### Right icon block button
 
-Adding the `right-icon`, `block-btn` and `green-btn` class gives you a rectangular button with a purple backround and an icon that is on the right. Copy the snippet below to try it out.
+Adding the `right-icon`, `block-btn` and `green-btn` class gives you a rectangular button with a purple background and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-right block-btn green-btn"><i class="fab fa-github"></i>right icon</button>
