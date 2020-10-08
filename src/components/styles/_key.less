@@ -1,87 +1,14 @@
-.key-btn.pink-btn {
-  border-top: 2px solid @pink;
-  background-color: @pink;
-  box-shadow: inset 0px -12px @keyBoxPink;
+.btnVariant(@color, @keyHoverColor, @keyBoxColor) {
+  border-top: 2px solid @color;
+  background-color: @color;
+  box-shadow: inset 0px -12px @keyBoxColor;
+
   &:active {
-    background-color: @keyHoverPink;
-    box-shadow: inset 0px -8px 0px @keyBoxPink;
+    background-color: @keyHoverColor;
+    box-shadow: inset 0px -8px 0px @keyBoxColor;
   }
 }
-.key-btn.blue-btn {
-  border-top: 2px solid @blue;
-  background-color: @blue;
-  box-shadow: inset 0px -12px @keyBoxBlue;
-  &:active {
-    background-color: @keyHoverBlue;
-    box-shadow: inset 0px -8px 0px @keyBoxBlue;
-  }
-}
-.key-btn.red-btn {
-  border-top: 2px solid @red;
-  background-color: @red;
-  box-shadow: inset 0px -12px @keyBoxRed;
-  &:active {
-    background-color: @keyHoverRed;
-    box-shadow: inset 0px -8px 0px @keyBoxRed;
-  }
-}
-.key-btn.green-btn {
-  border-top: 2px solid @green;
-  background-color: @green;
-  box-shadow: inset 0px -12px @keyBoxGreen;
-  &:active {
-    background-color: @keyHoverGreen;
-    box-shadow: inset 0px -8px 0px @keyBoxGreen;
-  }
-}
-.key-btn.yellow-btn {
-  background-color: @yellow;
-  box-shadow: inset 0px -12px @keyBoxYellow;
-  border-top: 2px solid @yellow;
-  &:active {
-    background-color: @keyHoverYellow;
-    box-shadow: inset 0px -8px 0px @keyBoxYellow;
-  }
-}
-.key-btn.orange-btn {
-  border-top: 2px solid @orange;
-  background-color: @orange;
-  box-shadow: inset 0px -12px @keyBoxOrange;
-  &:active {
-    background-color: @keyHoverOrange;
-    box-shadow: inset 0px -8px 0px @keyBoxOrange;
-  }
-}
-.key-btn.purple-btn {
-  border-top: 2px solid @purple;
-  background-color: @purple;
-  box-shadow: inset 0px -12px @keyBoxPurple;
-  &:active {
-    background-color: @keyHoverPurple;
-    box-shadow: inset 0px -8px 0px @keyBoxPurple;
-  }
-}
-.key-btn.black-btn {
-  border-top: 2px solid @diffblack;
-  background-color: @diffblack;
-  box-shadow: inset 0px -12px @keyBoxBlack;
-  &:active {
-    background-color: @keyHoverBlack;
-    box-shadow: inset 0px -8px 0px @keyBoxBlack;
-  }
-}
-.key-btn.white-btn {
-  border-top: 2px solid @diffwhite;
-  background-color: @diffwhite;
-  box-shadow: inset 0px -12px @keyBoxWhite;
-  &:active {
-    background-color: @keyHoverWhite;
-    box-shadow: inset 0px -8px 0px @keyBoxWhite;
-  }
-}
-.key-btn.rounded-btn {
-  border-radius: 30px;
-}
+
 .key-btn {
   border: none;
   outline: none;
@@ -94,12 +21,53 @@
   padding: 15px 25px;
   border-radius: 4px;
   position: relative;
-  border-bottom: 6px solid #2b1800;
-  border-left: 2px solid #2b1800;
-  border-right: 2px solid #2b1800;
+  border-bottom: 6px solid @cola;
+  border-left: 2px solid @cola;
+  border-right: 2px solid @cola;
+
   &:active {
     outline: none;
     top: 2px;
-    border-top: 2px solid #2b1800;
+    border-top: 2px solid @cola;
+  }
+
+  &.pink-btn {
+    .btnVariant(@pink, @keyBoxPink, @keyBoxPink);
+  }
+
+  &.blue-btn {
+    .btnVariant(@blue, @keyBoxBlue, @keyBoxBlue);
+  }
+
+  &.red-btn {
+    .btnVariant(@red, @keyBoxRed, @keyBoxRed);
+  }
+
+  &.green-btn {
+    .btnVariant(@green, @keyBoxGreen, @keyBoxGreen);
+  }
+
+  &.yellow-btn {
+    .btnVariant(@yellow, @keyBoxYellow, @keyBoxYellow);
+  }
+
+  &.orange-btn {
+    .btnVariant(@orange, @keyBoxOrange, @keyBoxOrange);
+  }
+
+  &.purple-btn {
+    .btnVariant(@purple, @keyBoxPurple, @keyBoxPurple);
+  }
+
+  &.black-btn {
+    .btnVariant(@diffblack, @keyBoxBlack, @keyBoxBlack);
+  }
+
+  &.white-btn {
+    .btnVariant(@diffwhite, @keyBoxWhite, @keyBoxWhite);
+  }
+
+  &.rounded-btn {
+    border-radius: 30px;
   }
 }
