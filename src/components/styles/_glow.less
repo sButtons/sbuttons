@@ -1,88 +1,51 @@
-.glowBorderRule(@color) {
-  border-color: @color;
-  background-color: rgba(@color, 0.2);
-}
-
 .glow-btn {
-  transition: all 0.5s ease;
   border: 2px solid;
-  color: @black;
+  color: @darkText !important;
+  transition: all 0.5s ease;
 
-  .glow(@col) {
-    background-color: rgba(@col, 0.3);
-    box-shadow: inset 0px 0px 10px 3px @col, 0px 0px 10px 3px @col;
-    border-color: @black;
+  .glow(@color) {
+    border-color: @color;
+    background-color: rgba(@color, 0.2);
+    &:hover {
+      background-color: rgba(@color, 0.3);
+      box-shadow: inset 0px 0px 10px 3px @color, 0px 0px 10px 3px @color;
+      border-color: @black;
+    }
   }
 
   &.blue-btn {
-    transition: all 0.5s ease;
-    .glowBorderRule(@neonBlue);
-    &:hover {
-      .glow(@neonBlue);
-    }
+    .glow(@neonBlue);
   }
 
   &.green-btn {
-    transition: all 0.5s ease;
-    .glowBorderRule(@neonGreen);
-    &:hover {
-      .glow(@neonGreen);
-    }
+    .glow(@neonGreen);
   }
 
   &.red-btn {
-    transition: all 0.5s ease;
-    .glowBorderRule(@neonRed);
-    &:hover {
-      .glow(@neonRed);
-    }
+    .glow(@neonRed);
   }
 
   &.purple-btn {
-    transition: all 0.5s ease;
-    .glowBorderRule(@neonPurple);
-    &:hover {
-      .glow(@neonPurple);
-    }
+    .glow(@neonPurple);
   }
 
   &.orange-btn {
-    transition: all 0.5s ease;
-    .glowBorderRule(@neonOrange);
-    &:hover {
-      .glow(@neonOrange);
-    }
+    .glow(@neonOrange);
   }
 
   &.yellow-btn {
-    transition: all 0.5s ease;
-    .glowBorderRule(@neonYellow);
-    &:hover {
-      .glow(@neonYellow);
-    }
+    .glow(@neonYellow);
   }
 
   &.pink-btn {
-    transition: all 0.5s ease;
-    .glowBorderRule(@neonPink);
-    &:hover {
-      .glow(@neonPink);
-    }
+    .glow(@neonPink);
   }
 
   &.black-btn {
-    transition: all 0.5s ease;
-    .glowBorderRule(@neonBlack);
-    &:hover {
-      .glow(@neonBlack);
-    }
+    .glow(@neonBlack);
   }
 
   &.white-btn {
-    transition: all 0.5s ease;
-    .glowBorderRule(@neonWhite);
-    &:hover {
-      .glow(@neonWhite);
-    }
+    .glow(@neonWhite);
   }
 }
