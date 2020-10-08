@@ -1,0 +1,17 @@
+@flickr-bg-color: #000000;
+@flickr-text-color: #fff;
+@content: "\f16e";
+
+.stack-btn {
+  &.flickr {
+    &:before {
+      content: @content;
+      background: @flickr-bg-color;
+      color: @flickr-text-color;
+    }
+    &:after {
+      background: @flickr-bg-color;
+      color: @flickr-text-color;
+    }
+  }
+}

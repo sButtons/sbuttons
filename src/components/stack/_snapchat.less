@@ -1,0 +1,20 @@
+@snapchat-bg-color: #fffc00;
+@snapchat-text-color: #000;
+@snapchat-border-color: #000;
+@snapchat-content: "\f2ac";
+
+.stack-btn {
+  &.snapchat {
+    &:before {
+      content: @snapchat-content;
+      background: @snapchat-bg-color;
+      color: @snapchat-text-color;
+      border: @snapchat-border-color solid 2px;
+    }
+    &:after {
+      background: @snapchat-bg-color;
+      color: @snapchat-text-color;
+      border: @snapchat-border-color solid 2px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@twitter-bg-color: #00acee;
+@twitter-text-color: #fff;
+@twitter-content: "\f099";
+
+.stack-btn {
+  &.twitter {
+    &:before {
+      content: @twitter-content;
+      background: @twitter-bg-color;
+      color: @twitter-text-color;
+    }
+    &:after {
+      background: @twitter-bg-color;
+      color: @twitter-text-color;
+    }
+  }
+}

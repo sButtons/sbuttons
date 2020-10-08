@@ -1,0 +1,17 @@
+@github-bg-color: #211f1f;
+@github-text-color: #fff;
+@github-content: "\f09b";
+
+.stack-btn {
+  &.github {
+    &:before {
+      content: @github-content;
+      background: @github-bg-color;
+      color: @github-text-color;
+    }
+    &:after {
+      background: @github-bg-color;
+      color: @github-text-color;
+    }
+  }
+}

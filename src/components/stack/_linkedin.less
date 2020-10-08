@@ -1,0 +1,17 @@
+@linkedin-bg-color: #0e76a8;
+@linkedin-text-color: #fff;
+@linkedin-content: "\f0e1";
+
+.stack-btn {
+  &.linkedin {
+    &:before {
+      content: @linkedin-content;
+      background: @linkedin-bg-color;
+      color: @linkedin-text-color;
+    }
+    &:after {
+      background: @linkedin-bg-color;
+      color: @linkedin-text-color;
+    }
+  }
+}

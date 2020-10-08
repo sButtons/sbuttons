@@ -445,6 +445,70 @@ $(document).ready(function () {
       children: [],
     },
     {
+      type: "stack",
+      label: "Stack Buttons",
+      classes: "stack-btn",
+      variations: [
+        {
+          classes: "apple",
+          text: "",
+        },
+        {
+          classes: "discord",
+          text: "",
+        },
+        {
+          classes: "facebook",
+          text: "",
+        },
+        {
+          classes: "flickr",
+          text: "",
+        },
+        {
+          classes: "github",
+          text: "",
+        },
+        {
+          classes: "google",
+          text: "",
+        },
+        {
+          classes: "instagram",
+          text: "",
+        },
+        {
+          classes: "linkedin",
+          text: "",
+        },
+        {
+          classes: "microsoft",
+          text: "",
+        },
+        {
+          classes: "reddit",
+          text: "",
+        },
+        {
+          classes: "snapchat",
+          text: "",
+        },
+        {
+          classes: "twitter",
+          text: "",
+        },
+        {
+          classes: "tumblr",
+          text: "",
+        },
+        {
+          classes: "weibo",
+          text: "",
+        },
+      ],
+      children: [],
+    },
+    {
       type: "special",
       label: "Special Buttons",
       classes: "",

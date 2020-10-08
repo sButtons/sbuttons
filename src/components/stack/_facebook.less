@@ -1,0 +1,17 @@
+@facebook-bg-color: #4267b2;
+@facebook-text-color: #fff;
+@facebook-content: "\f39e";
+
+.stack-btn {
+  &.facebook {
+    &:before {
+      content: @facebook-content;
+      background: @facebook-bg-color;
+      color: @facebook-text-color;
+    }
+    &:after {
+      background: @facebook-bg-color;
+      color: @facebook-text-color;
+    }
+  }
+}

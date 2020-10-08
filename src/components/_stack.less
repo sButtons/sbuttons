@@ -1,0 +1,104 @@
+@height: 40px;
+@width: @height;
+@rotate: -30deg;
+@skew: 25deg;
+
+.layer(@height, @width, @rotate, @skew) {
+  content: "";
+  height: @height;
+  width: @width;
+  border-radius: inherit;
+  background: red;
+  position: absolute;
+  transform: rotate(@rotate) skew(@skew) translate(-10px, 10px);
+}
+
+.stack-btn {
+  padding: 10px 0 20px 0;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  transform: translateY(30px);
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  position: relative !important;
+  font-family: "Font Awesome 5 Brands";
+  opacity: 1;
+
+  // THE DESIGN LOGIC START
+  &:before {
+    .layer(@height, @width, @rotate, @skew);
+    transition: all 0.5s;
+    opacity: 0.95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &:after {
+    .layer(@height, @width, @rotate, @skew);
+    z-index: -1;
+    opacity: 0.3;
+  }
+  &:hover {
+    &::before {
+      transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+    }
+  }
+  // THE DESIGN LOGIC END
+
+  &.block-btn {
+    margin: 2rem 0;
+    @rotate: -30deg;
+    @skew: 25deg;
+
+    // THE EXACT SAME (CODE) DESIGN LOGIC START
+    &:before {
+      @height: 40px;
+      @width: 3 * @height;
+      .layer(@height, @width, @rotate, @skew);
+      transition: all 0.5s;
+      opacity: 0.95;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &:after {
+      @height: 40px;
+      @width: 3 * @height;
+      .layer(@height, @width, @rotate, @skew);
+      z-index: -1;
+      opacity: 0.3;
+    }
+    &:hover {
+      &::before {
+        transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+      }
+    }
+    // THE DESIGN LOGIC END
+  }
+}
+
+#stack {
+  .button-grid:last-child {
+    .button-container:last-child {
+      padding-bottom: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+@import "stack/_google.less";
+@import "stack/_apple.less";
+@import "stack/_facebook.less";
+@import "stack/_instagram.less";
+@import "stack/_twitter.less";
+@import "stack/_linkedin.less";
+@import "stack/_weibo.less";
+@import "stack/_github.less";
+@import "stack/_tumblr.less";
+@import "stack/_flickr.less";
+@import "stack/_snapchat.less";
+@import "stack/_microsoft.less";
+@import "stack/_reddit.less";
+@import "stack/_discord.less";

@@ -1,0 +1,17 @@
+@google-bg-color: #ea4335;
+@google-text-color: #fff;
+@google-content: "\f1a0";
+
+.stack-btn {
+  &.google {
+    &:before {
+      content: @google-content;
+      background: @google-bg-color;
+      color: @google-text-color;
+    }
+    &:after {
+      background: @google-bg-color;
+      color: @google-text-color;
+    }
+  }
+}

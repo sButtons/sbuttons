@@ -1,0 +1,17 @@
+@weibo-bg-color: #df2029;
+@weibo-text-color: #fff;
+@weibo-content: "\f18a";
+
+.stack-btn {
+  &.weibo {
+    &:before {
+      content: @weibo-content;
+      background: @weibo-bg-color;
+      color: @weibo-text-color;
+    }
+    &:after {
+      background: @weibo-bg-color;
+      color: @weibo-text-color;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@microsoft-bg-color: #00acee;
+@microsoft-text-color: #fff;
+@microsoft-content: "\f17a";
+
+.stack-btn {
+  &.microsoft {
+    &:before {
+      content: @microsoft-content;
+      background: @microsoft-bg-color;
+      color: @microsoft-text-color;
+    }
+    &:after {
+      background: @microsoft-bg-color;
+      color: @microsoft-text-color;
+    }
+  }
+}
