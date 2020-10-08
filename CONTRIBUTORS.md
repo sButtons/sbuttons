@@ -161,6 +161,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/varunks99"><img src="https://avatars2.githubusercontent.com/u/51695690?v=4" width="100px;" alt=""/><br /><sub><b>Varun Shiri</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=varunks99" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/akankshast"><img src="https://avatars2.githubusercontent.com/u/55200393?v=4" width="100px;" alt=""/><br /><sub><b>Akanksha Tamboli</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=akankshast" title="Code">💻</a></td>
   </tr>
 </table>
 
