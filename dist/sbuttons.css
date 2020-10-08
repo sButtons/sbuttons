@@ -2555,8 +2555,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .stack-btn:before {
   content: "";
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius: inherit;
   background: red;
   position: absolute;
@@ -2569,8 +2569,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .stack-btn:after {
   content: "";
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius: inherit;
   background: red;
   position: absolute;
@@ -2613,6 +2613,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
 }
 #stack .button-grid:last-child .button-container:last-child {
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+#stack .button-grid:last-child .button-container:nth-last-child(2) {
   padding-bottom: 4rem;
   margin-bottom: 4rem;
 }
