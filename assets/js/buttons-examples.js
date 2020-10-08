@@ -516,6 +516,16 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "code-btn",
+          label: "Code Button",
+          classes: "code-btn",
+          variations: [
+            {
+              text: "Code",
+            },
+          ],
+        },
       ],
     },
   ];
