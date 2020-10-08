@@ -186,15 +186,9 @@ hr {
   vertical-align: sub;
 }
 
-@media (max-width: 410px) {
-  .logo img {
-    height: 60%;
-  }
-}
-
-@media (max-width: 312px) {
-  .logo img {
-    height: 50%;
+@media (max-width: 368px) {
+  .navbar .buttons {
+    display: none;
   }
 }
 
