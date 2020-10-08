@@ -157,6 +157,11 @@ $(document).ready(function () {
           classes: "hinge-btn",
         },
         {
+          type: "flash",
+          label: "Flash",
+          classes: "flash-btn",
+        },
+        {
           type: "invert",
           label: "Invert",
           classes: "invert-btn",
