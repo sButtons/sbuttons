@@ -248,7 +248,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/57683338?v=4",
       "profile": "https://github.com/chelsi-001011",
       "contributions": [
-        "code"
+        "code",
+        "ideas"
       ]
     },
     {
@@ -454,7 +455,10 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/48127194?v=4",
       "profile": "https://calebolojo.me",
       "contributions": [
-        "doc"
+        "doc",
+        "code",
+        "content",
+        "example"
       ]
     },
     {
@@ -1024,6 +1028,137 @@
       "contributions": [
         "code",
         "ideas"
+      ]
+    },
+    {
+      "login": "wisetok12680",
+      "name": "Aarush Srivastava",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/53168325?v=4",
+      "profile": "https://github.com/wisetok12680",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "basvandenwijngaard",
+      "name": "Bas van den Wijngaard",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3299167?v=4",
+      "profile": "https://onlinesuperheld.nl/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "tushar2407",
+      "name": "Tushar Mohan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/52780891?v=4",
+      "profile": "https://github.com/tushar2407",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "pari-27",
+      "name": "pari-27",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/24895454?v=4",
+      "profile": "https://github.com/pari-27",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ryuzaki221",
+      "name": "ryuzaki221",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/52002984?v=4",
+      "profile": "https://github.com/ryuzaki221",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "bhavika24",
+      "name": "bhavika24",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/63905094?v=4",
+      "profile": "https://github.com/bhavika24",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "chatRG",
+      "name": "chatRG",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22965855?v=4",
+      "profile": "http://linkedin.com/in/chatterjeesayan/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "paulo9mv",
+      "name": "Paulo Viana",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/17968732?v=4",
+      "profile": "https://paulo9mv.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "SamD97",
+      "name": "Saumil Shah",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9783888?v=4",
+      "profile": "https://github.com/SamD97",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "zikos2",
+      "name": "Zack||",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16059617?v=4",
+      "profile": "https://github.com/zikos2",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "harjotscs",
+      "name": "Harjot Singh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46154313?v=4",
+      "profile": "http://devoftech.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "arkumari2000",
+      "name": "Archana Kumari",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/48750169?v=4",
+      "profile": "https://github.com/arkumari2000",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "IngoA-1848613",
+      "name": "Ingo Andelhofs",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42770346?v=4",
+      "profile": "https://www.ingoandelhofs.com",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "varunks99",
+      "name": "Varun Shiri",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/51695690?v=4",
+      "profile": "https://github.com/varunks99",
+      "contributions": [
+        "code"
       ]
     }
   ],
