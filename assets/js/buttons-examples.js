@@ -35,6 +35,78 @@ $(document).ready(function () {
       shouldHaveRoundedType: true,
     },
     {
+      type: "styles",
+      label: "Button Styles",
+      classes: "",
+      children: [
+        {
+          type: "click",
+          label: "Click",
+          classes: "click-btn",
+        },
+        {
+          type: "glow",
+          label: "Glow",
+          classes: "glow-btn",
+        },
+        {
+          type: "key",
+          label: "Key",
+          classes: "key-btn",
+        },
+        {
+          type: "dashed",
+          label: "Dashed Buttons",
+          classes: "dashed-btn",
+        },
+        {
+          type: "disable",
+          label: "Disabled Buttons",
+          classes: "disabled-btn",
+        },
+        {
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+        },
+        {
+          type: "glossy",
+          label: "Glossy",
+          classes: "glossy-btn",
+          text: "Glossy",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-bottom",
+          label: "Rounded Bottom",
+          classes: "rounded-bottom-btn",
+          text: "Rounded Bottom",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-top",
+          label: "Rounded Top",
+          classes: "rounded-top-btn",
+          text: "Rounded Top",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-diagonal-tl",
+          label: "Rounded Diagonal (Top Left)",
+          classes: "rounded-diagonal-tl-btn",
+          text: "TopLeft-BottomRight",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-diagonal-tr",
+          label: "Rounded Diagonal (Top Right)",
+          classes: "rounded-diagonal-tr-btn",
+          text: "TopRight-BottomLeft",
+          shouldHaveRoundedType: false,
+        },
+      ],
+    },
+    {
       type: "animated",
       label: "Animated Buttons",
       classes: "",
@@ -50,14 +122,14 @@ $(document).ready(function () {
           classes: "bouncy-btn",
         },
         {
-          type: "click",
-          label: "Click",
-          classes: "click-btn",
-        },
-        {
           type: "diagonalHover",
           label: "Diagonal Background on Hover",
           classes: "diag-btn",
+        },
+        {
+          type: "expanding",
+          label: "Expanding Border",
+          classes: "expanding-btn",
         },
         {
           type: "fill-color-down",
@@ -79,12 +151,6 @@ $(document).ready(function () {
           label: "Fill Color - Up",
           classes: "fill-color-btn up-fill",
         },
-
-        {
-          type: "glow",
-          label: "Glow",
-          classes: "glow-btn",
-        },
         {
           type: "hinge",
           label: "Hinge",
@@ -96,9 +162,9 @@ $(document).ready(function () {
           classes: "invert-btn",
         },
         {
-          type: "key",
-          label: "Key",
-          classes: "key-btn",
+          type: "liquid",
+          label: "Liquid",
+          classes: "liquid-btn",
         },
         {
           type: "neon",
@@ -173,17 +239,6 @@ $(document).ready(function () {
       ],
     },
     {
-      type: "dashed",
-      label: "Dashed Buttons",
-      classes: "dashed-btn",
-      children: [],
-    },
-    {
-      type: "disable",
-      label: "Disabled Buttons",
-      classes: "disabled-btn",
-    },
-    {
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",
@@ -194,6 +249,26 @@ $(document).ready(function () {
       label: "Icon Buttons",
       classes: "",
       children: [
+        {
+          type: "base-icon",
+          label: "Base Icon button",
+          classes: "base-icon-btn",
+          variations: [
+            {
+              classes: "icon-right purple-btn",
+              text: "base icon button <i class='fas fa-book'></i>",
+            },
+            {
+              text: "<i class='fab fa-apple'></i>",
+            },
+            {
+              classes: "icon-left green-btn",
+              text: "<i class='fas fa-pen'></i> base icon button",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
         {
           type: "add-to-cart",
           label: "Add To Cart",
@@ -306,12 +381,6 @@ $(document).ready(function () {
       ],
     },
     {
-      type: "outline",
-      label: "Outline Buttons",
-      classes: "outline-btn",
-      children: [],
-    },
-    {
       type: "social",
       label: "Social Buttons",
       classes: "social-btn",
@@ -319,6 +388,10 @@ $(document).ready(function () {
         {
           classes: "apple",
           text: "Login with Apple",
+        },
+        {
+          classes: "discord",
+          text: "Login with Discord",
         },
         {
           classes: "facebook",
@@ -377,6 +450,16 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "handwritten-btn",
+          label: "Handwritten",
+          classes: "handwritten-btn",
+          variations: [
+            {
+              text: "Handwritten",
+            },
+          ],
+        },
+        {
           type: "play-game",
           label: "Play game",
           classes: "play-game-btn",
@@ -402,32 +485,21 @@ $(document).ready(function () {
           ],
         },
         {
-          type: "rounded-bottom",
-          label: "Rounded Bottom",
-          classes: "rounded-bottom-btn",
-          text: "Rounded Bottom",
+          type: "toggle",
+          label: "Toggle button (on and off)",
+          classes: "toggle-btn",
           shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-top",
-          label: "Rounded Top",
-          classes: "rounded-top-btn",
-          text: "Rounded Top",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-diagonal-tl",
-          label: "Rounded Diagonal (Top Left)",
-          classes: "rounded-diagonal-tl-btn",
-          text: "TopLeft-BottomRight",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-diagonal-tr",
-          label: "Rounded Diagonal (Top Right)",
-          classes: "rounded-diagonal-tr-btn",
-          text: "TopRight-BottomLeft",
-          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "toggle-on-btn",
+              text: "",
+            },
+            {
+              classes: "toggle-off-btn",
+              text: "",
+            },
+          ],
         },
         {
           type: "win95-btn",
