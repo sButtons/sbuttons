@@ -194,7 +194,7 @@ The `block-btn` class gives you a button whose width takes up the width of the p
 
 #### Left icon block button
 
- Adding the `left-icon`, `block-btn` and `green-btn` class gives you a button with a green backround and an icon that is on the left. Copy the snippet below to try it out.
+ Adding the `left-icon`, `block-btn` and `green-btn` class gives you a button with a green background and an icon that is on the left. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-left green-btn block-btn"><i class="fab fa-github"></i>left icon</button>
