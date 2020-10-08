@@ -152,14 +152,14 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
-          type: "hinge",
-          label: "Hinge",
-          classes: "hinge-btn",
-        },
-        {
           type: "flash",
           label: "Flash",
           classes: "flash-btn",
+        },
+        {
+          type: "hinge",
+          label: "Hinge",
+          classes: "hinge-btn",
         },
         {
           type: "invert",
