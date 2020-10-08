@@ -286,7 +286,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .glow-btn {
   border: 2px solid;
-  color: #000;
+  color: #333 !important;
   transition: all 0.5s ease;
 }
 .glow-btn.blue-btn {
