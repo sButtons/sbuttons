@@ -57,15 +57,17 @@ Please note we have a code of conduct, please follow it in all your interactions
 
             classes,               //the default classes of this section. For example, for basic buttons it's "basic-btn"
 
-            children,              //optional. If the type has subtypes, add them here in an array. The subtypes should
-                                   //also follow this same type format
-
             text,                  //the text to show on the button. If this is omitted, the default text will be Button
 
+            shouldHaveRoundedType, //indicates if rounded button type should hidden or not, defaults to true
+            
+            shouldHaveBlockType,   //indicates if block button type should hidden or not, defaults to true
+            
             variations,            //this is for button types that don't use buttonColors or don't have normal and rounded
                                    // button styling. Look at social buttons for example on how to use this
-            shouldHaveRoundedType, //indicates if rounded button type should hidden or not, defaults to true
-            shouldHaveBlockType,   //indicates if block button type should hidden or not, defaults to true
+                                   
+            children,              //optional. If the type has subtypes, add them here in an array. The subtypes should
+                                   //also follow this same type format
          }
          ```
     3. To edit the HTML, make changes in `index.html`
