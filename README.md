@@ -5,10 +5,9 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 <!-- # sButtons -->
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-120-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
 :bulb: Simple buttons you can use easily for your next project.
 
@@ -16,37 +15,24 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 
 This repository will help people who don't know how to participate in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) or where to start contributing. We will be adding a Hacktoberfest label to help contributors find the issues they can contribute to. If you have any ideas for new issues or ways to help contributors participate in Hacktoberfest, please add them [here](https://github.com/sbuttons/sbuttons/issues/161).
 
-**DO NOT submit any pull request that does no fix based on an issue or an actual bug/fix, as it will be labeled invalid and will not count for your Hacktoberfest participation.**
+**DO NOT submit any pull request that does no fix based on an issue or an actual bug/fix, as it will be labeled invalid and will not count for your Hacktoberfest participation.**  
 
 **New rules have been added to Hacktoberfest participation regarding which PRs and which repositories will count to your participation. Since our repository has the topic "hacktoberfest" then we have opted in for participation in Hacktoberfest. any PR that gets merged or approved by a Member will count to your participation. No labels need to be added.**
 
 # Contents
 
-- [Participate in Hacktoberfest!](#participate-in-hacktoberfest)
-- [Contents](#contents)
 - [Installation](#installation)
   - [Download CSS File](#download-css-file)
   - [CDN](#cdn)
   - [NPM](#npm)
-    - [Modifying Button Colors](#modifying-button-colors)
+  - [Modifying Button Colors](#modifying-button-colors)
 - [Usage](#usage)
   - [Block Buttons](#block-buttons)
   - [Disabled Buttons](#disabled-buttons)
   - [Icon Buttons](#icon-buttons)
   - [Base Icon Buttons](#base-icon-buttons)
-    - [Base icon button](#base-icon-button)
-      - [Left icon base button](#left-icon-base-button)
-      - [Right icon base button](#right-icon-base-button)
-    - [Rounded Buttons](#rounded-buttons)
-      - [Left icon rounded button](#left-icon-rounded-button)
-      - [Icon center rounded button](#icon-center-rounded-button)
-      - [Right icon rounded button](#right-icon-rounded-button)
-    - [Block Icon Buttons](#block-icon-buttons)
-      - [Left icon block button](#left-icon-block-button)
-      - [Icon center block button](#icon-center-block-button)
-      - [Right icon block button](#right-icon-block-button)
 - [Contribution](#contribution)
-    - [Button ideas](#button-ideas)
+  - [Button ideas](#button-ideas)
 - [Contributors](#contributors)
 - [LICENSE](#license)
 
@@ -68,7 +54,7 @@ You can use the [CDN](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbutton
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css">
 ```
 
-## [NPM](https://www.npmjs.com/package/sbuttons)
+## NPM
 
 You can install sButtons using NPM:
 
@@ -142,60 +128,37 @@ The `base-icon-btn` class enables you to have a normal, customizable button. Usi
 
 **Content**
 
-- [Participate in Hacktoberfest!](#participate-in-hacktoberfest)
-- [Contents](#contents)
-- [Installation](#installation)
-  - [Download CSS File](#download-css-file)
-  - [CDN](#cdn)
-  - [NPM](#npm)
-    - [Modifying Button Colors](#modifying-button-colors)
-- [Usage](#usage)
-  - [Block Buttons](#block-buttons)
-  - [Disabled Buttons](#disabled-buttons)
-  - [Icon Buttons](#icon-buttons)
-  - [Base Icon Buttons](#base-icon-buttons)
-    - [Base icon button](#base-icon-button)
-      - [Left icon base button](#left-icon-base-button)
-      - [Right icon base button](#right-icon-base-button)
-    - [Rounded Buttons](#rounded-buttons)
-      - [Left icon rounded button](#left-icon-rounded-button)
-      - [Icon center rounded button](#icon-center-rounded-button)
-      - [Right icon rounded button](#right-icon-rounded-button)
-    - [Block Icon Buttons](#block-icon-buttons)
-      - [Left icon block button](#left-icon-block-button)
-      - [Icon center block button](#icon-center-block-button)
-      - [Right icon block button](#right-icon-block-button)
-- [Contribution](#contribution)
-    - [Button ideas](#button-ideas)
-- [Contributors](#contributors)
-- [LICENSE](#license)
+- [Base icon buttons](#base-icon-button)
+  - [Left icon button](#left-icon-base-button)
+  - [Right icon button](#right-icon-base-button)
+- [Rounded buttons](#rounded-buttons)
+  - [Left icon rounded button](#left-icon-rounded-button)
+  - [Centered icon rounded button](#icon-center-rounded-button)
+  - [Right icon rounded button](#right-icon-rounded-button)
+- [Block buttons](#block-icon-buttons)
+  - [Left icon block button](#left-icon-block-button)
+  - [Centered icon block button](#icon-center-block-button)
+  - [Right icon block button](#right-icon-block-button)
 
-### Base icon button
-
-The `base-icon-btn` class, gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the sinppet below.
+### Base icon button 
+ The `base-icon-btn` class, gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the sinppet below.
 
 ```html
 <button class="sbtn base-icon-btn">base icon button</button>
 ```
 
 #### Left icon base button
-
-Adding the `left-icon` and `orange-btn` class gives you a button with an orange backround and an icon that is on the left. Copy the snippet below to try it out.
+ Adding the `left-icon` and `orange-btn` class gives you a button with an orange backround and an icon that is on the left. Copy the snippet below to try it out.
 
 ```html
-<button class="sbtn base-icon-btn icon-left orange-btn">
-  <i class="fab fa-github"></i>left icon
-</button>
+<button class="sbtn base-icon-btn icon-left orange-btn"><i class="fab fa-github"></i>left icon</button>
 ```
 
 #### Right icon base button
-
-Adding the `right-icon` and `orange-btn` class gives you a button with an orange backround and an icon that is on the right. Copy the snippet below to try it out.
+ Adding the `right-icon` and `orange-btn` class gives you a button with an orange backround and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
-<button class="sbtn base-icon-btn icon-right orange-btn">
-  <i class="fab fa-github"></i>right icon
-</button>
+<button class="sbtn base-icon-btn icon-right orange-btn"><i class="fab fa-github"></i>right icon</button>
 ```
 
 ### Rounded Buttons
@@ -204,32 +167,25 @@ To make your button have rounded side, all you need to do is add this `rounded-b
 
 #### Left icon rounded button
 
-Adding the `left-icon` and `purple-btn` class gives you a button with a purple backround and an icon that is on the left. Copy the snippet below to try it out.
+ Adding the `left-icon` and `purple-btn` class gives you a button with a purple backround and an icon that is on the left. Copy the snippet below to try it out.
 
 ```html
-<button class="sbtn base-icon-btn icon-left purple-btn rounded-btn">
-  <i class="fab fa-github"></i>left icon
-</button>
+<button class="sbtn base-icon-btn icon-left purple-btn rounded-btn"><i class="fab fa-github"></i>left icon</button>
 ```
 
-#### Icon center rounded button
+#### Icon center rounded button 
 
 The default style of the "base icon button" places any fontawesome icon nested inside the button at the center, so no need of adding any additional classes like `right-icon` or `icon-left` Copy the snippet below to try it out.
 
 ```html
-<button class="sbtn base-icon-btn purple-btn rounded-btn">
-  <i class="fab fa-github"></i>
-</button>
+<button class="sbtn base-icon-btn purple-btn rounded-btn"><i class="fab fa-github"></i></button>
 ```
 
-#### Right icon rounded button
-
+#### Right icon rounded button 
 Adding the `right-icon`, `rounded-btn` and `purple-btn` class gives you a round sided button with a purple backround and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
-<button class="sbtn base-icon-btn icon-right rounded-btn purple-btn">
-  <i class="fab fa-github"></i>right icon
-</button>
+<button class="sbtn base-icon-btn icon-right rounded-btn purple-btn"><i class="fab fa-github"></i>right icon</button>
 ```
 
 ### Block Icon Buttons
@@ -238,12 +194,10 @@ The `block-btn` class gives you a button whose width takes up the width of the p
 
 #### Left icon block button
 
-Adding the `left-icon`, `block-btn` and `green-btn` class gives you a button with a green backround and an icon that is on the left. Copy the snippet below to try it out.
+ Adding the `left-icon`, `block-btn` and `green-btn` class gives you a button with a green backround and an icon that is on the left. Copy the snippet below to try it out.
 
 ```html
-<button class="sbtn base-icon-btn icon-left green-btn block-btn">
-  <i class="fab fa-github"></i>left icon
-</button>
+<button class="sbtn base-icon-btn icon-left green-btn block-btn"><i class="fab fa-github"></i>left icon</button>
 ```
 
 #### Icon center block button
@@ -251,9 +205,7 @@ Adding the `left-icon`, `block-btn` and `green-btn` class gives you a button wit
 The default style of the "base icon button" places any fontawesome icon nested inside the button at the center, so no need of adding any additional classes like right-icon or icon-left Copy the snippet below to try it out.
 
 ```html
-<button class="sbtn base-icon-btn green-btn block-btn">
-  <i class="fab fa-github"></i>
-</button>
+<button class="sbtn base-icon-btn green-btn block-btn"><i class="fab fa-github"></i></button>
 ```
 
 #### Right icon block button
@@ -261,9 +213,7 @@ The default style of the "base icon button" places any fontawesome icon nested i
 Adding the `right-icon`, `block-btn` and `green-btn` class gives you a rectangular button with a purple backround and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
-<button class="sbtn base-icon-btn icon-right block-btn green-btn">
-  <i class="fab fa-github"></i>right icon
-</button>
+<button class="sbtn base-icon-btn icon-right block-btn green-btn"><i class="fab fa-github"></i>right icon</button>
 ```
 
 # Contribution
