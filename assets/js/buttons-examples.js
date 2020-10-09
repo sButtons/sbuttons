@@ -104,6 +104,12 @@ $(document).ready(function () {
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
         },
+        {
+          type: "stack",
+          label: "Stack Buttons",
+          classes: "stack-btn",
+          text: "",
+        },
       ],
     },
     {
@@ -440,70 +446,6 @@ $(document).ready(function () {
         {
           classes: "weibo",
           text: "Login with Weibo",
-        },
-      ],
-      children: [],
-    },
-    {
-      type: "stack",
-      label: "Stack Buttons",
-      classes: "stack-btn",
-      variations: [
-        {
-          classes: "apple",
-          text: "",
-        },
-        {
-          classes: "discord",
-          text: "",
-        },
-        {
-          classes: "facebook",
-          text: "",
-        },
-        {
-          classes: "flickr",
-          text: "",
-        },
-        {
-          classes: "github",
-          text: "",
-        },
-        {
-          classes: "google",
-          text: "",
-        },
-        {
-          classes: "instagram",
-          text: "",
-        },
-        {
-          classes: "linkedin",
-          text: "",
-        },
-        {
-          classes: "microsoft",
-          text: "",
-        },
-        {
-          classes: "reddit",
-          text: "",
-        },
-        {
-          classes: "snapchat",
-          text: "",
-        },
-        {
-          classes: "twitter",
-          text: "",
-        },
-        {
-          classes: "tumblr",
-          text: "",
-        },
-        {
-          classes: "weibo",
-          text: "",
         },
       ],
       children: [],

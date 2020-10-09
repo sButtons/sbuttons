@@ -68,7 +68,7 @@ You can use the [CDN](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbutton
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css">
 ```
 
-## [NPM](https://www.npmjs.com/package/sbuttons)
+## NPM
 
 You can install sButtons using NPM:
 
