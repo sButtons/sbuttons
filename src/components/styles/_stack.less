@@ -81,7 +81,10 @@
   &.white-btn {
     @bgColor: @white;
     color: #000;
-    border: #000 2px solid;
+    &:before,
+    &:after {
+      border: #000 solid 2px !important;
+    }
     .design_logic(@bgColor, @height, @width);
   }
 }

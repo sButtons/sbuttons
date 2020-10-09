@@ -820,7 +820,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .stack-btn.white-btn {
   color: #000;
-  border: #000 2px solid;
+}
+.stack-btn.white-btn:before,
+.stack-btn.white-btn:after {
+  border: #000 solid 2px !important;
 }
 .stack-btn.white-btn:before {
   content: "";
@@ -1089,7 +1092,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .stack-btn.block-btn.white-btn {
   color: #000;
-  border: #000 2px solid;
+}
+.stack-btn.block-btn.white-btn:before,
+.stack-btn.block-btn.white-btn:after {
+  border: #000 solid 2px !important;
 }
 .stack-btn.block-btn.white-btn:before {
   content: "";
