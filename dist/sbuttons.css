@@ -285,12 +285,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -20%;
 }
 .glow-btn {
-  transition: all 0.5s ease;
   border: 2px solid;
-  color: #000;
+  color: #333 !important;
+  transition: all 0.5s ease;
 }
 .glow-btn.blue-btn {
-  transition: all 0.5s ease;
   border-color: #1fffec;
   background-color: rgba(31, 255, 236, 0.2);
 }
@@ -300,7 +299,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.green-btn {
-  transition: all 0.5s ease;
   border-color: #39ff14;
   background-color: rgba(57, 255, 20, 0.2);
 }
@@ -310,7 +308,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.red-btn {
-  transition: all 0.5s ease;
   border-color: #ff013c;
   background-color: rgba(255, 1, 60, 0.2);
 }
@@ -320,7 +317,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.purple-btn {
-  transition: all 0.5s ease;
   border-color: #8d47ff;
   background-color: rgba(141, 71, 255, 0.2);
 }
@@ -330,7 +326,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.orange-btn {
-  transition: all 0.5s ease;
   border-color: #ff9b18;
   background-color: rgba(255, 155, 24, 0.2);
 }
@@ -340,7 +335,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.yellow-btn {
-  transition: all 0.5s ease;
   border-color: #ffe53d;
   background-color: rgba(255, 229, 61, 0.2);
 }
@@ -350,7 +344,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.pink-btn {
-  transition: all 0.5s ease;
   border-color: #ff2aca;
   background-color: rgba(255, 42, 202, 0.2);
 }
@@ -360,7 +353,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.black-btn {
-  transition: all 0.5s ease;
   border-color: #414141;
   background-color: rgba(65, 65, 65, 0.2);
 }
@@ -370,7 +362,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.white-btn {
-  transition: all 0.5s ease;
   border-color: #e2e2e2;
   background-color: rgba(226, 226, 226, 0.2);
 }
@@ -1750,6 +1741,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .expanding-btn.rounded-btn:hover:after {
   border-radius: 25px;
+}
+.flash-btn {
+  opacity: 1;
+}
+.flash-btn:hover {
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .buy-me-coffee-btn {
   position: relative;
