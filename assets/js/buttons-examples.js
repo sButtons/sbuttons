@@ -10,8 +10,13 @@ $(document).ready(function () {
     "yellow-btn",
     "orange-btn",
     "purple-btn",
+    "denim-btn",
+    "sand-btn",
+    "choco-btn",
+    "charcoal-btn",
     "black-btn",
     "white-btn",
+
   ];
   /**buttons is a list of button type objects tht will be rendered on the page load
    * with their respective class names, labels, children and types.
