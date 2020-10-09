@@ -1217,6 +1217,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "JoelLau",
+      "name": "Joel Lau",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29514264?v=4",
+      "profile": "https://www.linkedin.com/in/joel-lau/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

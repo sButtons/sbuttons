@@ -168,6 +168,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/kuldeep123kd"><img src="https://avatars0.githubusercontent.com/u/32141441?v=4" width="100px;" alt=""/><br /><sub><b>Kuldeep_KD</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=kuldeep123kd" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/shubh710"><img src="https://avatars0.githubusercontent.com/u/14197114?v=4" width="100px;" alt=""/><br /><sub><b>Shubham R</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=shubh710" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/joel-lau/"><img src="https://avatars3.githubusercontent.com/u/29514264?v=4" width="100px;" alt=""/><br /><sub><b>Joel Lau</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=JoelLau" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
