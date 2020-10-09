@@ -1,3 +1,8 @@
+.star-btn-active() {
+  font-weight: 900;
+  color: @yellow;
+}
+
 .star-btn {
   color: @black;
 
@@ -9,10 +14,10 @@
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+    transition: color .5s;
   }
 
-  &:active {
-    font-weight: 900;
-    color: @yellow;
+  &:active, &.active {
+    .star-btn-active();
   }
 }
