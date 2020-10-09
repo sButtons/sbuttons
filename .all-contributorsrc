@@ -458,7 +458,8 @@
         "doc",
         "code",
         "content",
-        "example"
+        "example",
+        "bug"
       ]
     },
     {
