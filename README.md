@@ -76,7 +76,7 @@ For example, to change the blue color to a different shade
 @blue: #54a2bd; /* Make it darker */
 ```
 
-Check out [sbuttons.less](https://github.com/sButtons/sbuttons/blob/master/src/sbuttons.less) for the full list of variables.
+Check out [_variables.less](https://github.com/sButtons/sbuttons/blob/master/src/_variables.less) for the full list of variables.
 
 # Usage
 
