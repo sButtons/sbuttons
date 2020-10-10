@@ -8,7 +8,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 1. Issues that have the label `first-timers-only` is made for beginners who have contributed to less than 5 repositories. This is a way to help people who are new to open source and contributing.
 2. Before contributing to an issue, make sure that no one is assigned or has taken that issue. If no one is and you would like to work on the issue, please comment on the issue to let others know that someone is working on the issue.
-3. Before creating a pull request, it is **important** that you make sure your branch and repository is up to date with this one. Some conflicts can be resolved, but many are hard to resolve. **Add the upstream** branch and always keep your branch up to date.
+3. Before creating a pull request, it is **important** that you make sure your branch and repository are up to date with this one. Some conflicts can be resolved, but many are hard to resolve. **Add the upstream** branch and always keep your branch up to date.
 
 # Contents
 
@@ -28,8 +28,8 @@ Please note we have a code of conduct, please follow it in all your interactions
 1. Fork the repository.
 
 2. To make changes to the existing buttons, or add new ones, all changes should be made in `src/sbuttons.less`.
-   1. If you're adding a new button type similar to basic, hover, etc..., create a file in `src/components` with the name preceeded by `_`. For example: `_basic.less`. Remember to include the file when you're done in `src/sbuttons.less`.
-   2. If you're adding a new button to an existing type (for example: animated), create a file in `src/components/<type_name>` with the name preceeded by `_`. For example: `_arrow.less`. Remember to include the file when you're done in `src/components/<type_name>`.
+   1. If you're adding a new button type similar to basic, hover, etc..., create a file in `src/components` with the name preceded by `_`. For example: `_basic.less`. Remember to include the file when you're done in `src/sbuttons.less`.
+   2. If you're adding a new button to an existing type (for example: animated), create a file in `src/components/<type_name>` with the name preceded by `_`. For example: `_arrow.less`. Remember to include the file when you're done in `src/components/<type_name>`.
    
    **Please follow the convention in naming button classes: `new-class-btn` where new-class is the button name. For example, for hover button it's `hover-btn`.**
 
@@ -57,15 +57,17 @@ Please note we have a code of conduct, please follow it in all your interactions
 
             classes,               //the default classes of this section. For example, for basic buttons it's "basic-btn"
 
-            children,              //optional. If the type has subtypes, add them here in an array. The subtypes should
-                                   //also follow this same type format
-
             text,                  //the text to show on the button. If this is omitted, the default text will be Button
 
+            shouldHaveRoundedType, //indicates if rounded button type should hidden or not, defaults to true
+            
+            shouldHaveBlockType,   //indicates if block button type should hidden or not, defaults to true
+            
             variations,            //this is for button types that don't use buttonColors or don't have normal and rounded
                                    // button styling. Look at social buttons for example on how to use this
-            shouldHaveRoundedType, //indicates if rounded button type should hidden or not, defaults to true
-            shouldHaveBlockType,   //indicates if block button type should hidden or not, defaults to true
+                                   
+            children,              //optional. If the type has subtypes, add them here in an array. The subtypes should
+                                   //also follow this same type format
          }
          ```
     3. To edit the HTML, make changes in `index.html`
@@ -114,7 +116,7 @@ If a pull request is left unchanged for a week after changes are requested and t
 ### Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
+contributors and maintainers pledge to make participation in our project and
 our community a harassment-free experience for everyone, regardless of age, body
 size, disability, ethnicity, gender identity and expression, level of experience,
 nationality, personal appearance, race, religion, or sexual identity and

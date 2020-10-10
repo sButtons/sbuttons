@@ -9,7 +9,6 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 [![All Contributors](https://img.shields.io/badge/all_contributors-120-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 :bulb: Simple buttons you can use easily for your next project.
 
 # Participate in Hacktoberfest!
@@ -90,7 +89,7 @@ For example, to change the blue color to a different shade
 @blue: #54a2bd; /* Make it darker */
 ```
 
-Check out [sbuttons.less](https://github.com/sButtons/sbuttons/blob/master/src/sbuttons.less) for the full list of variables.
+Check out [_variables.less](https://github.com/sButtons/sbuttons/blob/master/src/_variables.less) for the full list of variables.
 
 # Usage
 
@@ -138,7 +137,7 @@ In case of using buttons that have icons in them, make sure to include font awes
 
 ## Base Icon Buttons
 
-The `base-icon-btn` class enables you to have a normal, customizable button. Using it, you decide to add any fontawesome icon in it. You can choose to either place it at the left or right side of the button with the available classes which you will see below. For the icon to be positioned well in the button, you should place the button text after the fontawesome icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
+The `base-icon-btn` class enables you to have a normal, customizable button. Using it, you decide to add any fontawesome icon in it. You can choose to either place it on the left or right side of the button with the available classes which you will see below. For the icon to be positioned well in the button, you should place the button text after the fontawesome icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
 
 **Content**
 
@@ -173,6 +172,22 @@ The `base-icon-btn` class enables you to have a normal, customizable button. Usi
 ### Base icon button
 
 The `base-icon-btn` class, gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the sinppet below.
+
+- [Base icon buttons](#base-icon-button)
+  - [Left icon button](#left-icon-base-button)
+  - [Right icon button](#right-icon-base-button)
+- [Rounded buttons](#rounded-buttons)
+  - [Left icon rounded button](#left-icon-rounded-button)
+  - [Centered icon rounded button](#icon-center-rounded-button)
+  - [Right icon rounded button](#right-icon-rounded-button)
+- [Block buttons](#block-icon-buttons)
+  - [Left icon block button](#left-icon-block-button)
+  - [Centered icon block button](#icon-center-block-button)
+  - [Right icon block button](#right-icon-block-button)
+
+### Base icon button 
+ The `base-icon-btn` class gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the snippet below.
+
 
 ```html
 <button class="sbtn base-icon-btn">base icon button</button>
@@ -258,7 +273,7 @@ The default style of the "base icon button" places any fontawesome icon nested i
 
 #### Right icon block button
 
-Adding the `right-icon`, `block-btn` and `green-btn` class gives you a rectangular button with a purple backround and an icon that is on the right. Copy the snippet below to try it out.
+Adding the `right-icon`, `block-btn` and `green-btn` class gives you a rectangular button with a purple background and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-right block-btn green-btn">
@@ -280,7 +295,7 @@ Check out our awesome contributors [here](./CONTRIBUTORS.md)!
 
 <!-- # Logo
 
- Logo made by [Harshit Sharma](https://www.github.com/icoderharshit) -->
+Logo made by [Harshit Sharma](https://www.github.com/icoderharshit) -->
 
 # LICENSE
 
