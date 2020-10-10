@@ -563,6 +563,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .rounded-diagonal-tr-btn.rounded-btn.rd-tr-btn {
   border-radius: 14px 34px;
 }
+.xlarge-btn {
+  font-size: 4rem;
+}
+.xsmall-btn {
+  font-size: 0.6rem;
+  padding: 5px !important;
+}
 .next-arrow-btn {
   position: relative;
   transition: all 0.1s;
