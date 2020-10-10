@@ -104,6 +104,12 @@ $(document).ready(function () {
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
         },
+        {
+          type: "stack",
+          label: "Stack",
+          classes: "stack-btn",
+          text: "Buttonz",
+        },
       ],
     },
     {
