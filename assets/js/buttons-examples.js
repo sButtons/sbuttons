@@ -108,7 +108,7 @@ $(document).ready(function () {
           type: "stack",
           label: "Stack",
           classes: "stack-btn",
-          text: "Buttonz",
+          text: "",
         },
       ],
     },
