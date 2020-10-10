@@ -16,7 +16,8 @@ $(document).ready(function () {
 
     var bounds = this.offset();
     bounds.right = bounds.left + this.outerWidth();
-    bounds.bottom = bounds.top + this.outerHeight() - marginHeader - offsetFooter;
+    bounds.bottom =
+      bounds.top + this.outerHeight() - marginHeader - offsetFooter;
 
     return !(
       viewport.right < bounds.left ||
