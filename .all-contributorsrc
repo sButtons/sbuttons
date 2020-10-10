@@ -181,7 +181,8 @@
       "profile": "https://github.com/mayankmohak",
       "contributions": [
         "doc",
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -458,7 +459,8 @@
         "doc",
         "code",
         "content",
-        "example"
+        "example",
+        "bug"
       ]
     },
     {
@@ -1157,6 +1159,81 @@
       "name": "Varun Shiri",
       "avatar_url": "https://avatars2.githubusercontent.com/u/51695690?v=4",
       "profile": "https://github.com/varunks99",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "akankshast",
+      "name": "Akanksha Tamboli",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55200393?v=4",
+      "profile": "https://github.com/akankshast",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "VedantWankhade",
+      "name": "Vedant Wankhade",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54671950?v=4",
+      "profile": "https://github.com/VedantWankhade",
+      "contributions": [
+        "content",
+        "doc"
+      ]
+    },
+    {
+      "login": "SahanAmarsha",
+      "name": "Sahan Amarsha",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/60227056?v=4",
+      "profile": "https://iamsahan.web.app/",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "Hisime",
+      "name": "Ann",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14891758?v=4",
+      "profile": "https://github.com/Hisime",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "kuldeep123kd",
+      "name": "Kuldeep_KD",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/32141441?v=4",
+      "profile": "https://github.com/kuldeep123kd",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "shubh710",
+      "name": "Shubham R",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14197114?v=4",
+      "profile": "https://github.com/shubh710",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "JoelLau",
+      "name": "Joel Lau",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29514264?v=4",
+      "profile": "https://www.linkedin.com/in/joel-lau/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dkochetkov",
+      "name": "Den",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20298318?v=4",
+      "profile": "https://zdp.su",
       "contributions": [
         "code"
       ]

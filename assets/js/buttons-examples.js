@@ -152,6 +152,11 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
+          type: "flash",
+          label: "Flash",
+          classes: "flash-btn",
+        },
+        {
           type: "hinge",
           label: "Hinge",
           classes: "hinge-btn",

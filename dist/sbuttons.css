@@ -285,12 +285,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -20%;
 }
 .glow-btn {
-  transition: all 0.5s ease;
   border: 2px solid;
-  color: #000;
+  color: #333 !important;
+  transition: all 0.5s ease;
 }
 .glow-btn.blue-btn {
-  transition: all 0.5s ease;
   border-color: #1fffec;
   background-color: rgba(31, 255, 236, 0.2);
 }
@@ -300,7 +299,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.green-btn {
-  transition: all 0.5s ease;
   border-color: #39ff14;
   background-color: rgba(57, 255, 20, 0.2);
 }
@@ -310,7 +308,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.red-btn {
-  transition: all 0.5s ease;
   border-color: #ff013c;
   background-color: rgba(255, 1, 60, 0.2);
 }
@@ -320,7 +317,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.purple-btn {
-  transition: all 0.5s ease;
   border-color: #8d47ff;
   background-color: rgba(141, 71, 255, 0.2);
 }
@@ -330,7 +326,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.orange-btn {
-  transition: all 0.5s ease;
   border-color: #ff9b18;
   background-color: rgba(255, 155, 24, 0.2);
 }
@@ -340,7 +335,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.yellow-btn {
-  transition: all 0.5s ease;
   border-color: #ffe53d;
   background-color: rgba(255, 229, 61, 0.2);
 }
@@ -350,7 +344,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.pink-btn {
-  transition: all 0.5s ease;
   border-color: #ff2aca;
   background-color: rgba(255, 42, 202, 0.2);
 }
@@ -360,7 +353,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.black-btn {
-  transition: all 0.5s ease;
   border-color: #414141;
   background-color: rgba(65, 65, 65, 0.2);
 }
@@ -370,7 +362,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .glow-btn.white-btn {
-  transition: all 0.5s ease;
   border-color: #e2e2e2;
   background-color: rgba(226, 226, 226, 0.2);
 }
@@ -378,90 +369,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: rgba(226, 226, 226, 0.3);
   box-shadow: inset 0px 0px 10px 3px #e2e2e2, 0px 0px 10px 3px #e2e2e2;
   border-color: #000;
-}
-.key-btn.pink-btn {
-  border-top: 2px solid #d53caf;
-  background-color: #d53caf;
-  box-shadow: inset 0px -12px #7c1f65;
-}
-.key-btn.pink-btn:active {
-  background-color: #b34a98;
-  box-shadow: inset 0px -8px 0px #7c1f65;
-}
-.key-btn.blue-btn {
-  border-top: 2px solid #50bfe6;
-  background-color: #50bfe6;
-  box-shadow: inset 0px -12px #387d96;
-}
-.key-btn.blue-btn:active {
-  background-color: #30a1ca;
-  box-shadow: inset 0px -8px 0px #387d96;
-}
-.key-btn.red-btn {
-  border-top: 2px solid #ed0a3f;
-  background-color: #ed0a3f;
-  box-shadow: inset 0px -12px #80122b;
-}
-.key-btn.red-btn:active {
-  background-color: #bd1139;
-  box-shadow: inset 0px -8px 0px #80122b;
-}
-.key-btn.green-btn {
-  border-top: 2px solid #3aa655;
-  background-color: #3aa655;
-  box-shadow: inset 0px -12px #1d5c2d;
-}
-.key-btn.green-btn:active {
-  background-color: #258d3f;
-  box-shadow: inset 0px -8px 0px #1d5c2d;
-}
-.key-btn.yellow-btn {
-  background-color: #fbe870;
-  box-shadow: inset 0px -12px #dbb81d;
-  border-top: 2px solid #fbe870;
-}
-.key-btn.yellow-btn:active {
-  background-color: #f0d14a;
-  box-shadow: inset 0px -8px 0px #dbb81d;
-}
-.key-btn.orange-btn {
-  border-top: 2px solid #ff8833;
-  background-color: #ff8833;
-  box-shadow: inset 0px -12px #a75215;
-}
-.key-btn.orange-btn:active {
-  background-color: #e7792a;
-  box-shadow: inset 0px -8px 0px #a75215;
-}
-.key-btn.purple-btn {
-  border-top: 2px solid #652dc1;
-  background-color: #652dc1;
-  box-shadow: inset 0px -12px #341368;
-}
-.key-btn.purple-btn:active {
-  background-color: #521ca8;
-  box-shadow: inset 0px -8px 0px #341368;
-}
-.key-btn.black-btn {
-  border-top: 2px solid #686363;
-  background-color: #686363;
-  box-shadow: inset 0px -12px #2c2828;
-}
-.key-btn.black-btn:active {
-  background-color: #474545;
-  box-shadow: inset 0px -8px 0px #2c2828;
-}
-.key-btn.white-btn {
-  border-top: 2px solid #fdf4f4;
-  background-color: #fdf4f4;
-  box-shadow: inset 0px -12px #bdb6b6;
-}
-.key-btn.white-btn:active {
-  background-color: #e4e0e0;
-  box-shadow: inset 0px -8px 0px #bdb6b6;
-}
-.key-btn.rounded-btn {
-  border-radius: 30px;
 }
 .key-btn {
   border: none;
@@ -483,6 +390,90 @@ a.yellow-btn:active:not(.fill-color-btn) {
   outline: none;
   top: 2px;
   border-top: 2px solid #2b1800;
+}
+.key-btn.pink-btn {
+  border-top: 2px solid #d53caf;
+  background-color: #d53caf;
+  box-shadow: inset 0px -12px #7c1f65;
+}
+.key-btn.pink-btn:active {
+  background-color: #7c1f65;
+  box-shadow: inset 0px -8px 0px #7c1f65;
+}
+.key-btn.blue-btn {
+  border-top: 2px solid #50bfe6;
+  background-color: #50bfe6;
+  box-shadow: inset 0px -12px #387d96;
+}
+.key-btn.blue-btn:active {
+  background-color: #387d96;
+  box-shadow: inset 0px -8px 0px #387d96;
+}
+.key-btn.red-btn {
+  border-top: 2px solid #ed0a3f;
+  background-color: #ed0a3f;
+  box-shadow: inset 0px -12px #80122b;
+}
+.key-btn.red-btn:active {
+  background-color: #80122b;
+  box-shadow: inset 0px -8px 0px #80122b;
+}
+.key-btn.green-btn {
+  border-top: 2px solid #3aa655;
+  background-color: #3aa655;
+  box-shadow: inset 0px -12px #1d5c2d;
+}
+.key-btn.green-btn:active {
+  background-color: #1d5c2d;
+  box-shadow: inset 0px -8px 0px #1d5c2d;
+}
+.key-btn.yellow-btn {
+  border-top: 2px solid #fbe870;
+  background-color: #fbe870;
+  box-shadow: inset 0px -12px #dbb81d;
+}
+.key-btn.yellow-btn:active {
+  background-color: #dbb81d;
+  box-shadow: inset 0px -8px 0px #dbb81d;
+}
+.key-btn.orange-btn {
+  border-top: 2px solid #ff8833;
+  background-color: #ff8833;
+  box-shadow: inset 0px -12px #a75215;
+}
+.key-btn.orange-btn:active {
+  background-color: #a75215;
+  box-shadow: inset 0px -8px 0px #a75215;
+}
+.key-btn.purple-btn {
+  border-top: 2px solid #652dc1;
+  background-color: #652dc1;
+  box-shadow: inset 0px -12px #341368;
+}
+.key-btn.purple-btn:active {
+  background-color: #341368;
+  box-shadow: inset 0px -8px 0px #341368;
+}
+.key-btn.black-btn {
+  border-top: 2px solid #686363;
+  background-color: #686363;
+  box-shadow: inset 0px -12px #2c2828;
+}
+.key-btn.black-btn:active {
+  background-color: #2c2828;
+  box-shadow: inset 0px -8px 0px #2c2828;
+}
+.key-btn.white-btn {
+  border-top: 2px solid #fdf4f4;
+  background-color: #fdf4f4;
+  box-shadow: inset 0px -12px #bdb6b6;
+}
+.key-btn.white-btn:active {
+  background-color: #bdb6b6;
+  box-shadow: inset 0px -8px 0px #bdb6b6;
+}
+.key-btn.rounded-btn {
+  border-radius: 30px;
 }
 .outline-btn {
   background-color: transparent;
@@ -771,25 +762,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .bouncy-btn:hover {
   animation-name: bouncy;
-  animation-timing-function: ease;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 @keyframes bouncy {
-  0% {
-    transform: scale(1, 1) translateY(0);
-  }
-  10% {
-    transform: scale(1.1, 0.9) translateY(0);
+  10%,
+  70%,
+  40%,
+  0%,
+  100% {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
   }
   30% {
-    transform: scale(0.9, 1.1) translateY(-60px);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -60px, 0);
   }
-  50% {
-    transform: scale(1, 1) translateY(0);
+  60% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
   }
-  100% {
-    transform: scale(1, 1) translateY(0);
+  90% {
+    transform: translate3d(0, -15px, 0);
   }
 }
 .diag-btn {
@@ -1750,6 +1744,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .expanding-btn.rounded-btn:hover:after {
   border-radius: 25px;
+}
+.flash-btn {
+  opacity: 1;
+}
+.flash-btn:hover {
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .buy-me-coffee-btn {
   position: relative;
