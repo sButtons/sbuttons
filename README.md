@@ -35,6 +35,7 @@ This repository will help people who don't know how to participate in [Hacktober
   - [Icon Buttons](#icon-buttons)
   - [Base Icon Buttons](#base-icon-buttons)
     - [Base icon button](#base-icon-button)
+    - [Base icon button](#base-icon-button-1)
       - [Left icon base button](#left-icon-base-button)
       - [Right icon base button](#right-icon-base-button)
     - [Rounded Buttons](#rounded-buttons)
@@ -68,9 +69,8 @@ You can use the [CDN](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbutton
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css">
 ```
 
-## [NPM](https://www.npmjs.com/package/sbuttons)
-
-You can install sButtons using NPM:
+## NPM
+You can install sButtons using [NPM](https://www.npmjs.com/package/sbuttons):
 
 ```
 npm i sbuttons
@@ -155,6 +155,7 @@ The `base-icon-btn` class enables you to have a normal, customizable button. Usi
   - [Icon Buttons](#icon-buttons)
   - [Base Icon Buttons](#base-icon-buttons)
     - [Base icon button](#base-icon-button)
+    - [Base icon button](#base-icon-button-1)
       - [Left icon base button](#left-icon-base-button)
       - [Right icon base button](#right-icon-base-button)
     - [Rounded Buttons](#rounded-buttons)
@@ -173,17 +174,34 @@ The `base-icon-btn` class enables you to have a normal, customizable button. Usi
 ### Base icon button
 
 The `base-icon-btn` class, gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the sinppet below.
-- [Base icon buttons](#base-icon-button)
-  - [Left icon button](#left-icon-base-button)
-  - [Right icon button](#right-icon-base-button)
-- [Rounded buttons](#rounded-buttons)
-  - [Left icon rounded button](#left-icon-rounded-button)
-  - [Centered icon rounded button](#icon-center-rounded-button)
-  - [Right icon rounded button](#right-icon-rounded-button)
-- [Block buttons](#block-icon-buttons)
-  - [Left icon block button](#left-icon-block-button)
-  - [Centered icon block button](#icon-center-block-button)
-  - [Right icon block button](#right-icon-block-button)
+- [Participate in Hacktoberfest!](#participate-in-hacktoberfest)
+- [Contents](#contents)
+- [Installation](#installation)
+  - [Download CSS File](#download-css-file)
+  - [CDN](#cdn)
+  - [NPM](#npm)
+    - [Modifying Button Colors](#modifying-button-colors)
+- [Usage](#usage)
+  - [Block Buttons](#block-buttons)
+  - [Disabled Buttons](#disabled-buttons)
+  - [Icon Buttons](#icon-buttons)
+  - [Base Icon Buttons](#base-icon-buttons)
+    - [Base icon button](#base-icon-button)
+    - [Base icon button](#base-icon-button-1)
+      - [Left icon base button](#left-icon-base-button)
+      - [Right icon base button](#right-icon-base-button)
+    - [Rounded Buttons](#rounded-buttons)
+      - [Left icon rounded button](#left-icon-rounded-button)
+      - [Icon center rounded button](#icon-center-rounded-button)
+      - [Right icon rounded button](#right-icon-rounded-button)
+    - [Block Icon Buttons](#block-icon-buttons)
+      - [Left icon block button](#left-icon-block-button)
+      - [Icon center block button](#icon-center-block-button)
+      - [Right icon block button](#right-icon-block-button)
+- [Contribution](#contribution)
+    - [Button ideas](#button-ideas)
+- [Contributors](#contributors)
+- [LICENSE](#license)
 
 ### Base icon button 
  The `base-icon-btn` class gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the snippet below.
