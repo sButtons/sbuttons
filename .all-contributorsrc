@@ -1227,6 +1227,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "dkochetkov",
+      "name": "Den",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20298318?v=4",
+      "profile": "https://zdp.su",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
