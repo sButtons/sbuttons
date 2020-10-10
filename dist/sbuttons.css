@@ -572,6 +572,82 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .rounded-diagonal-tr-btn.rounded-btn.rd-tr-btn {
   border-radius: 14px 34px;
 }
+.gradient-btn {
+  border: none;
+  outline: none;
+}
+.gradient-btn.pink-btn {
+  background: linear-gradient(to right, #d53caf, #e60550);
+  box-shadow: 0px 10px 15px #d53caf;
+}
+.gradient-btn.pink-btn:hover {
+  background: linear-gradient(to right, #e60550, #d53caf);
+  box-shadow: 0px 8px 15px #e60550;
+}
+.gradient-btn.blue-btn {
+  background: linear-gradient(to right, #50bfe6, #085c7a);
+  box-shadow: 0px 10px 15px #50bfe6;
+}
+.gradient-btn.blue-btn:hover {
+  box-shadow: 0px 8px 15px #085c7a;
+  background: linear-gradient(to right, #085c7a, #50bfe6);
+}
+.gradient-btn.red-btn {
+  background: linear-gradient(to right, #ed0a3f, #810824);
+  box-shadow: 0px 10px 15px #ed0a3f;
+}
+.gradient-btn.red-btn:hover {
+  box-shadow: 0px 8px 15px #810824;
+  background: linear-gradient(to right, #810824, #ed0a3f);
+}
+.gradient-btn.green-btn {
+  background: linear-gradient(to right, #3aa655, #165f29);
+  box-shadow: 0px 10px 15px #3aa655;
+}
+.gradient-btn.green-btn:hover {
+  box-shadow: 0px 8px 15px #165f29;
+  background: linear-gradient(to right, #165f29, #3aa655);
+}
+.gradient-btn.yellow-btn {
+  background: linear-gradient(to right, #fbe870, #eece00);
+  box-shadow: 0px 10px 15px #e2e22e;
+}
+.gradient-btn.yellow-btn:hover {
+  box-shadow: 0px 8px 15px #eece00;
+  background: linear-gradient(to right, #eece00, #fbe870);
+}
+.gradient-btn.orange-btn {
+  background: linear-gradient(to right, #ff8833, #a74601);
+  box-shadow: 0px 10px 15px #ff8833;
+}
+.gradient-btn.orange-btn:hover {
+  box-shadow: 0px 8px 15px #a74601;
+  background: linear-gradient(to right, #a74601, #ff8833);
+}
+.gradient-btn.purple-btn {
+  background: linear-gradient(to right, #652dc1, #28075e);
+  box-shadow: 0px 10px 15px #652dc1;
+}
+.gradient-btn.purple-btn:hover {
+  box-shadow: 0px 8px 15px #28075e;
+  background: linear-gradient(to right, #28075e, #652dc1);
+}
+.gradient-btn.black-btn {
+  background: linear-gradient(to right, #686363, #000);
+  box-shadow: 0px 10px 15px #686363;
+}
+.gradient-btn.black-btn:hover {
+  box-shadow: 0px 8px 15px #000;
+  background: linear-gradient(to right, #000, #686363);
+}
+.gradient-btn.white-btn {
+  background: linear-gradient(to right, #fdf4f4, #a19e9e);
+  box-shadow: 0px 10px 15px #aca6a6;
+}
+.gradient-btn.white-btn:hover {
+  box-shadow: 0px 8px 15px #a19e9e;
+  background: linear-gradient(to right, #a19e9e, #fdf4f4);
+}
 .next-arrow-btn {
   position: relative;
   transition: all 0.1s;
@@ -2517,167 +2593,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .toggle-off-btn::before {
   transform: translateX(-0.3em);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-.dashed-btn {
-  background-color: transparent;
-}
-.dashed-btn.blue-btn {
-  border: dashed 2px #50bfe6;
-  color: #50bfe6 !important;
-}
-.dashed-btn.pink-btn {
-  border: dashed 2px #d53caf;
-  color: #d53caf !important;
-}
-.dashed-btn.red-btn {
-  border: dashed 2px #ed0a3f;
-  color: #ed0a3f !important;
-}
-.dashed-btn.green-btn {
-  border: dashed 2px #3aa655;
-  color: #3aa655 !important;
-}
-.dashed-btn.yellow-btn {
-  border: dashed 2px #fbe870;
-  color: #fbe870 !important;
-}
-.dashed-btn.orange-btn {
-  border: dashed 2px #ff8833;
-  color: #ff8833 !important;
-}
-.dashed-btn.purple-btn {
-  border: dashed 2px #652dc1;
-  color: #652dc1 !important;
-}
-.dashed-btn.black-btn {
-  border: dashed 2px #000;
-  color: #000 !important;
-}
-.dashed-btn.white-btn {
-  border: dashed 2px #e9e9e9;
-  color: #333 !important;
-}
-.gradient-btn {
-  border: none;
-  outline: none;
-}
-.gradient-btn.pink-btn {
-  background: linear-gradient(#d53caf, #e60550);
-  box-shadow: 0px 10px 15px #d53caf;
-}
-.gradient-btn.pink-btn:hover {
-  background: linear-gradient(#e60550, #d53caf);
-  box-shadow: 0px 8px 15px #e60550;
-}
-.gradient-btn.blue-btn {
-  background: linear-gradient(#50bfe6, #085c7a);
-  box-shadow: 0px 10px 15px #50bfe6;
-}
-.gradient-btn.blue-btn:hover {
-  box-shadow: 0px 8px 15px #085c7a;
-  background: linear-gradient(#085c7a, #50bfe6);
-}
-.gradient-btn.red-btn {
-  background: linear-gradient(#ed0a3f, #810824);
-  box-shadow: 0px 10px 15px #ed0a3f;
-}
-.gradient-btn.red-btn:hover {
-  box-shadow: 0px 8px 15px #810824;
-  background: linear-gradient(#810824, #ed0a3f);
-}
-.gradient-btn.green-btn {
-  background: linear-gradient(#3aa655, #165f29);
-  box-shadow: 0px 10px 15px #3aa655;
-}
-.gradient-btn.green-btn:hover {
-  box-shadow: 0px 8px 15px #165f29;
-  background: linear-gradient(#165f29, #3aa655);
-}
-.gradient-btn.yellow-btn {
-  background: linear-gradient(#fbe870, #eece00);
-  box-shadow: 0px 10px 15px #e2e22e;
-}
-.gradient-btn.yellow-btn:hover {
-  box-shadow: 0px 8px 15px #eece00;
-  background: linear-gradient(#eece00, #fbe870);
-}
-.gradient-btn.orange-btn {
-  background: linear-gradient(#ff8833, #a74601);
-  box-shadow: 0px 10px 15px #ff8833;
-}
-.gradient-btn.orange-btn:hover {
-  box-shadow: 0px 8px 15px #a74601;
-  background: linear-gradient(#a74601, #ff8833);
-}
-.gradient-btn.purple-btn {
-  background: linear-gradient(#652dc1, #28075e);
-  box-shadow: 0px 10px 15px #652dc1;
-}
-.gradient-btn.purple-btn:hover {
-  box-shadow: 0px 8px 15px #28075e;
-  background: linear-gradient(#28075e, #652dc1);
-}
-.gradient-btn.black-btn {
-  background: linear-gradient(#686363, #000);
-  box-shadow: 0px 10px 15px #686363;
-}
-.gradient-btn.black-btn:hover {
-  box-shadow: 0px 8px 15px #000;
-  background: linear-gradient(#000, #686363);
-}
-.gradient-btn.white-btn {
-  background: linear-gradient(#fdf4f4, #a19e9e);
-  box-shadow: 0px 10px 15px #aca6a6;
-}
-.gradient-btn.white-btn:hover {
-  box-shadow: 0px 8px 15px #a19e9e;
-  background: linear-gradient(#a19e9e, #fdf4f4);
-}
-||||||| 96e4400
-.dashed-btn {
-  background-color: transparent;
-}
-.dashed-btn.blue-btn {
-  border: dashed 2px #50bfe6;
-  color: #50bfe6 !important;
-}
-.dashed-btn.pink-btn {
-  border: dashed 2px #d53caf;
-  color: #d53caf !important;
-}
-.dashed-btn.red-btn {
-  border: dashed 2px #ed0a3f;
-  color: #ed0a3f !important;
-}
-.dashed-btn.green-btn {
-  border: dashed 2px #3aa655;
-  color: #3aa655 !important;
-}
-.dashed-btn.yellow-btn {
-  border: dashed 2px #fbe870;
-  color: #fbe870 !important;
-}
-.dashed-btn.orange-btn {
-  border: dashed 2px #ff8833;
-  color: #ff8833 !important;
-}
-.dashed-btn.purple-btn {
-  border: dashed 2px #652dc1;
-  color: #652dc1 !important;
-}
-.dashed-btn.black-btn {
-  border: dashed 2px #000;
-  color: #000 !important;
-}
-.dashed-btn.white-btn {
-  border: dashed 2px #e9e9e9;
-  color: #333 !important;
-}
-=======
->>>>>>> upstream/master
-||||||| c292640
-=======
 @font-face {
   font-family: "Architects Daughter";
   font-style: normal;
@@ -2701,4 +2616,3 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .handwritten-btn.block-btn {
   border-radius: 30px 2px 30% 3px / 4px 10px 3px 30px;
 }
->>>>>>> upstream/master

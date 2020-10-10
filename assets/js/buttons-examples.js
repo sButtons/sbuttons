@@ -239,7 +239,6 @@ $(document).ready(function () {
       ],
     },
     {
-<<<<<<< HEAD
       type: "dashed",
       label: "Dashed Buttons",
       classes: "dashed-btn",
@@ -256,7 +255,6 @@ $(document).ready(function () {
       label: "Gradient Buttons",
     },
     {
-||||||| 96e4400
       type: "dashed",
       label: "Dashed Buttons",
       classes: "dashed-btn",
@@ -268,8 +266,6 @@ $(document).ready(function () {
       classes: "disabled-btn",
     },
     {
-=======
->>>>>>> upstream/master
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",
