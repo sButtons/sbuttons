@@ -285,3 +285,4 @@ Check out our awesome contributors [here](./CONTRIBUTORS.md)!
 # LICENSE
 
 [MIT](./LICENSE)
+
