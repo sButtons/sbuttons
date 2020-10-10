@@ -490,6 +490,19 @@ $(document).ready(function () {
           ],
         },
         {
+          tyle: "spooky",
+          label: "Spooky",
+          classes: "spooky-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "spooky-btn",
+              text: "",
+            },
+          ],
+        },
+        {
           type: "toggle",
           label: "Toggle button (on and off)",
           classes: "toggle-btn",
