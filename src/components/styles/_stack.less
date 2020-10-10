@@ -1,0 +1,132 @@
+@height: 50px;
+@width: @height;
+@rotate: -30deg;
+@skew: 25deg;
+@bgColor: red;
+
+.layer(@height, @width, @rotate, @skew, @bgColor) {
+  content: "";
+  height: @height;
+  width: @width;
+  border-radius: inherit;
+  background: @bgColor;
+  position: absolute;
+  transform: rotate(@rotate) skew(@skew) translate(-10px, 10px);
+}
+
+.design_logic(@bgColor, @height, @width) {
+  // THE DESIGN LOGIC START
+  &:before {
+    .layer(@height, @width, @rotate, @skew, @bgColor);
+    content: "Button";
+    transition: all 0.5s;
+    opacity: 0.95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &:after {
+    .layer(@height, @width, @rotate, @skew, @bgColor);
+    z-index: -1;
+    opacity: 0.3;
+  }
+  &:hover {
+    &::before {
+      transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+    }
+  }
+  // THE DESIGN LOGIC END
+}
+
+.colors_logic(@height, @width) {
+  &.pink-btn {
+    @bgColor: @darkPink;
+    .design_logic(@bgColor, @height, @width);
+  }
+
+  &.blue-btn {
+    @bgColor: @darkBlue;
+    .design_logic(@bgColor, @height, @width);
+  }
+
+  &.green-btn {
+    @bgColor: @darkGreen;
+    .design_logic(@bgColor, @height, @width);
+  }
+
+  &.yellow-btn {
+    @bgColor: @darkYellow;
+    .design_logic(@bgColor, @height, @width);
+  }
+
+  &.orange-btn {
+    @bgColor: @darkOrange;
+    .design_logic(@bgColor, @height, @width);
+  }
+
+  &.red-btn {
+    @bgColor: @darkRed;
+    .design_logic(@bgColor, @height, @width);
+  }
+
+  &.purple-btn {
+    @bgColor: @darkPurple;
+    .design_logic(@bgColor, @height, @width);
+  }
+  &.black-btn {
+    @bgColor: @black;
+    .design_logic(@bgColor, @height, @width);
+  }
+  &.white-btn {
+    @bgColor: @white;
+    color: #000;
+    &:before,
+    &:after {
+      border: #000 solid 2px !important;
+    }
+    .design_logic(@bgColor, @height, @width);
+  }
+}
+
+.stack-btn {
+  padding: 10px 0 20px 0;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  transform: translateY(30px);
+  background-color: inherit;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  position: relative;
+  border: none;
+  opacity: 1;
+  .colors_logic(@height, @width);
+
+  &.block-btn {
+    font-size: 25px;
+    margin: 2rem 0;
+    @rotate: -30deg;
+    @skew: 25deg;
+    @height: 40px;
+    @width: 3 * @height;
+    .colors_logic(@height, @width);
+  }
+}
+
+#stack {
+  .button-grid:last-child {
+    .button-container:last-child {
+      padding-bottom: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+}
+#stack {
+  .button-grid:last-child {
+    .button-container:nth-last-child(2) {
+      padding-bottom: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+}

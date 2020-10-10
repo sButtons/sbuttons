@@ -104,6 +104,12 @@ $(document).ready(function () {
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
         },
+        {
+          type: "stack",
+          label: "Stack Buttons",
+          classes: "stack-btn",
+          text: "",
+        },
       ],
     },
     {
@@ -150,6 +156,11 @@ $(document).ready(function () {
           type: "fill-color-up",
           label: "Fill Color - Up",
           classes: "fill-color-btn up-fill",
+        },
+        {
+          type: "flash",
+          label: "Flash",
+          classes: "flash-btn",
         },
         {
           type: "hinge",
