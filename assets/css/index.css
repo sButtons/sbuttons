@@ -4,7 +4,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   color: #333;
 }
 
@@ -37,7 +37,6 @@ body > .container {
 [data-theme="dark"] .text {
   color: #ffffff !important;
 }
-
 
 section {
   padding-top: 80px;
@@ -83,14 +82,13 @@ section {
 }
 
 hr {
-  width: 30%;
+  width: 100%;
   border-color: rgba(27, 114, 145, 0.48);
 }
 
 .navbar .buttons {
   vertical-align: sub;
 }
-
 
 .section-header {
   text-align: center;
@@ -107,7 +105,7 @@ hr {
 }
 
 .secondary-hr {
-  width: 10%;
+  width: 100%;
   border-color: rgba(27, 114, 145, 0.3);
 }
 
@@ -174,6 +172,7 @@ button.clipboard {
   color: var(--main-color);
   border-radius: 4px;
   border: transparent;
+  padding: 5px;
   margin: 5px;
   justify-items: right;
   background-color: transparent;
@@ -192,7 +191,6 @@ button.clipboard:after {
 button.clipboard:focus {
   outline: 0;
 }
-
 
 .footer {
   color: floralwhite;
@@ -244,4 +242,9 @@ button.clipboard:focus {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.sidebar-toggler {
+  padding: 10px;
+  font-size: 1.5rem;
 }
