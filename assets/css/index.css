@@ -282,20 +282,20 @@ hr {
   }
 }
 @media (max-width: 265px) {
-    .navbar .toggle-theme, .icon-link,
-    .sidebar-toggler{
-      font-size: 1.0rem;
-    }
-    .navbar.scrolling {
-      height: 3em;
-    }
+  .navbar .toggle-theme,
+  .icon-link,
+  .sidebar-toggler {
+    font-size: 1rem;
+  }
+  .navbar.scrolling {
+    height: 3em;
+  }
 }
 @media (max-width: 225px) {
   .navbar .buttons {
     display: none;
   }
 }
-
 
 .social-btn {
   font-family: "Syne", sans-serif !important;
