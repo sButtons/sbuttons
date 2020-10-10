@@ -490,7 +490,7 @@ $(document).ready(function () {
           ],
         },
         {
-          tyle: "spooky",
+          type: "spooky",
           label: "Spooky",
           classes: "spooky-btn",
           shouldHaveRoundedType: false,
