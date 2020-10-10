@@ -106,7 +106,7 @@ $(document).ready(function () {
         },
         {
           type: "stack",
-          label: "Stack Buttons",
+          label: "Stack",
           classes: "stack-btn",
           text: "",
         },

@@ -5,7 +5,7 @@
 @bgColor: red;
 
 .layer(@height, @width, @rotate, @skew, @bgColor) {
-  content: "";
+  content: '';
   height: @height;
   width: @width;
   border-radius: inherit;
@@ -18,7 +18,7 @@
   // THE DESIGN LOGIC START
   &:before {
     .layer(@height, @width, @rotate, @skew, @bgColor);
-    content: "Button";
+    content: 'Button';
     transition: all 0.5s;
     opacity: 0.95;
     display: flex;
@@ -111,22 +111,5 @@
     @height: 40px;
     @width: 3 * @height;
     .colors_logic(@height, @width);
-  }
-}
-
-#stack {
-  .button-grid:last-child {
-    .button-container:last-child {
-      padding-bottom: 4rem;
-      margin-bottom: 4rem;
-    }
-  }
-}
-#stack {
-  .button-grid:last-child {
-    .button-container:nth-last-child(2) {
-      padding-bottom: 4rem;
-      margin-bottom: 4rem;
-    }
   }
 }
