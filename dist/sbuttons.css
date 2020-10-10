@@ -2557,3 +2557,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   position: relative;
   text-align: center;
 }
+.code-btn:hover,
+.code-btn:focus {
+  background: #1fff00;
+  color: #000;
+}
