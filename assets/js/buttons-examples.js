@@ -373,7 +373,7 @@ $(document).ready(function () {
           variations: [
             {
               classes: "",
-              text: "Star (Inactive)"
+              text: "Star (Inactive)",
             },
             {
               classes: "active",
