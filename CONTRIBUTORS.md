@@ -170,6 +170,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/joel-lau/"><img src="https://avatars3.githubusercontent.com/u/29514264?v=4" width="100px;" alt=""/><br /><sub><b>Joel Lau</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=JoelLau" title="Code">💻</a></td>
+    <td align="center"><a href="https://zdp.su"><img src="https://avatars1.githubusercontent.com/u/20298318?v=4" width="100px;" alt=""/><br /><sub><b>Den</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=dkochetkov" title="Code">💻</a></td>
   </tr>
 </table>
 
