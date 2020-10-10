@@ -186,12 +186,6 @@ hr {
   vertical-align: sub;
 }
 
-@media (max-width: 368px) {
-  .navbar .buttons {
-    display: none;
-  }
-}
-
 .navbar .download-link,
 .navbar .icon-link,
 .navbar .sidebar-toggler,
@@ -276,6 +270,32 @@ hr {
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 410px) {
+  .logo img {
+    height: 60%;
+  }
+}
+@media (max-width: 311px) {
+  .navbar #downloadGithubRawHeader {
+    display: none;
+  }
+}
+@media (max-width: 265px) {
+    .navbar .toggle-theme, .icon-link,
+    .sidebar-toggler{
+      font-size: 1.0rem;
+    }
+    .navbar.scrolling {
+      height: 3em;
+    }
+}
+@media (max-width: 225px) {
+  .navbar .buttons {
+    display: none;
+  }
+}
+
 
 .social-btn {
   font-family: "Syne", sans-serif !important;
