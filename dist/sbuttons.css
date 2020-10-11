@@ -2116,7 +2116,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  transition: color 0.25s;
 }
 .star-btn:active,
 .star-btn.active {
