@@ -2533,30 +2533,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .toggle-off-btn::before {
   transform: translateX(-0.3em);
 }
-<<<<<<< HEAD
-.glossy-btn {
-  border-radius: 50px;
-  padding: 5px 20px;
-  position: relative;
+@font-face {
+  font-family: "Architects Daughter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Architects Daughter Regular"), local("ArchitectsDaughter-Regular"),
+    url(https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY4.ttf)
+      format("truetype");
 }
-.glossy-btn:hover {
-  box-shadow: 0 2px 1px rgba(128, 128, 128, 0.3);
+.handwritten-btn {
+  font-family: "Architects Daughter", cursive, serif, sans-serif;
+  color: #111111;
+  background-color: #fafafa;
+  padding: 0.3rem 3.4rem;
+  border: 2px solid #111111;
+  border-radius: 2% 98% 1% 99% / 93% 15% 85% 7%;
 }
-.glossy-btn:after {
-  border: 5px solid rgba(255, 255, 255, 0.5);
-  content: "";
-  height: 120%;
-  left: -20%;
-  position: absolute;
-  top: 0;
-  transition: top 114ms;
-  width: 140%;
+.handwritten-btn.rounded-btn {
+  border-radius: 60px 45px 30px 35px / 37px 30px 45px 60px;
 }
-.glossy-btn.white-btn:after {
-  background: rgba(221, 221, 221, 0.4);
-}
-.glossy-btn:active:after {
-  top: -20%;
+.handwritten-btn.block-btn {
+  border-radius: 30px 2px 30% 3px / 4px 10px 3px 30px;
 }
 .neu-btn {
   padding: 10px;
@@ -2607,7 +2605,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: transparent;
 }
 .neu-btn.white-btn {
-  color: #fff !important;
+  color: #ccc !important;
   background-color: transparent;
 }
 .neu-btn:hover,
@@ -2615,55 +2613,4 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .neu-btn:focus {
   box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.1),
     inset 4px 4px 8px rgba(0, 0, 0, 0.1);
-}
-.dashed-btn {
-  background-color: transparent;
-}
-.dashed-btn.blue-btn {
-  border: dashed 2px #50bfe6;
-  color: #50bfe6 !important;
-}
-.dashed-btn.pink-btn {
-  border: dashed 2px #d53caf;
-  color: #d53caf !important;
-}
-.dashed-btn.red-btn {
-  border: dashed 2px #ed0a3f;
-  color: #ed0a3f !important;
-}
-.dashed-btn.green-btn {
-  border: dashed 2px #3aa655;
-  color: #3aa655 !important;
-}
-.dashed-btn.yellow-btn {
-  border: dashed 2px #fbe870;
-  color: #fbe870 !important;
-}
-.dashed-btn.orange-btn {
-  border: dashed 2px #ff8833;
-  color: #ff8833 !important;
-=======
-@font-face {
-  font-family: "Architects Daughter";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Architects Daughter Regular"), local("ArchitectsDaughter-Regular"),
-    url(https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY4.ttf)
-      format("truetype");
->>>>>>> upstream/master
-}
-.handwritten-btn {
-  font-family: "Architects Daughter", cursive, serif, sans-serif;
-  color: #111111;
-  background-color: #fafafa;
-  padding: 0.3rem 3.4rem;
-  border: 2px solid #111111;
-  border-radius: 2% 98% 1% 99% / 93% 15% 85% 7%;
-}
-.handwritten-btn.rounded-btn {
-  border-radius: 60px 45px 30px 35px / 37px 30px 45px 60px;
-}
-.handwritten-btn.block-btn {
-  border-radius: 30px 2px 30% 3px / 4px 10px 3px 30px;
 }
