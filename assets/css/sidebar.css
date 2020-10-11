@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  z-index: 10;
 }
 .sidebar.scrolling {
   position: fixed;
@@ -33,9 +32,6 @@
 .sidebar a:hover:before,
 .sidebar a.active:before {
   width: 100%;
-}
-.sidebar .submenu-links {
-  margin-left: 10px;
 }
 .sidebar .submenu-links:not(.show) {
   display: none;
@@ -102,6 +98,27 @@
 .close-sidebar {
   outline: none !important;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .sidebar {
+    z-index: 0;
+  }
+
+  .sidebar .submenu-links {
+    margin-left: 6px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .sidebar .submenu-links::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .sidebar .submenu-links::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 2.5px;
+  }
 }
 
 @media screen and (min-width: 768px) {

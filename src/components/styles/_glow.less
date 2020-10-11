@@ -1,0 +1,51 @@
+.glow-btn {
+  border: 2px solid;
+  color: @darkText !important;
+  transition: all 0.5s ease;
+
+  .glow(@color) {
+    border-color: @color;
+    background-color: rgba(@color, 0.2);
+    &:hover {
+      background-color: rgba(@color, 0.3);
+      box-shadow: inset 0px 0px 10px 3px @color, 0px 0px 10px 3px @color;
+      border-color: @black;
+    }
+  }
+
+  &.blue-btn {
+    .glow(@neonBlue);
+  }
+
+  &.green-btn {
+    .glow(@neonGreen);
+  }
+
+  &.red-btn {
+    .glow(@neonRed);
+  }
+
+  &.purple-btn {
+    .glow(@neonPurple);
+  }
+
+  &.orange-btn {
+    .glow(@neonOrange);
+  }
+
+  &.yellow-btn {
+    .glow(@neonYellow);
+  }
+
+  &.pink-btn {
+    .glow(@neonPink);
+  }
+
+  &.black-btn {
+    .glow(@neonBlack);
+  }
+
+  &.white-btn {
+    .glow(@neonWhite);
+  }
+}
