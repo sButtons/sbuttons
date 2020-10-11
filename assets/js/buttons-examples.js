@@ -334,6 +334,36 @@ $(document).ready(function () {
           text: "Dropdown Button",
         },
         {
+          type: "hamburger",
+          label: "Hamburger",
+          classes: "hamburger-btn",
+          text: "",
+          variations: [
+            {
+              classes: "",
+              text: "",
+            },
+            {
+              classes: "hamburger-x-btn is-active",
+              text: "",
+            },
+            {
+              classes: "hamburger-min-btn is-active",
+              text: "",
+            },
+            {
+              classes: "hamburger-larr-btn is-active",
+              text: "",
+            },
+            {
+              classes: "hamburger-rarr-btn is-active",
+              text: "",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "like",
           label: "Like",
           classes: "like-btn",
