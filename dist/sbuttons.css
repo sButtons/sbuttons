@@ -2200,7 +2200,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-width: 4px 0;
   color: #000;
   border-color: #000;
-  transition: transform 0.2s ease, border 0.2s ease;
+  transition: all 0.2s ease;
 }
 .hamburger-btn:before,
 .hamburger-btn:after {
@@ -2214,6 +2214,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background: currentColor;
   transform: translate(-50%, -50%);
   transition: transform 0.2s ease;
+}
+.hamburger-btn:hover {
+  color: #262626;
+  border-color: #262626;
 }
 .hamburger-x-btn.is-active {
   border-color: transparent;

@@ -6,9 +6,9 @@
   border: none;
   border-style: solid;
   border-width: 4px 0;
-  color: #000;
-  border-color: #000;
-  transition: transform 0.2s ease, border 0.2s ease;
+  color: @black;
+  border-color: @black;
+  transition: all 0.2s ease;
 
   &:before,
   &:after {
@@ -23,6 +23,11 @@
     transform: translate(-50%, -50%);
     transition: transform 0.2s ease;
   }
+}
+
+.hamburger-btn:hover {
+  color: @lightBlack;
+  border-color: @lightBlack;
 }
 
 .hamburger-x-btn.is-active {
