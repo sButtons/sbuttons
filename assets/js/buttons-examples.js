@@ -43,6 +43,23 @@ $(document).ready(function () {
           type: "click",
           label: "Click",
           classes: "click-btn",
+        },        
+        {
+          type: "dashed",
+          label: "Dashed Buttons",
+          classes: "dashed-btn",
+        },
+        {
+          type: "disable",
+          label: "Disabled Buttons",
+          classes: "disabled-btn",
+        },
+        {
+          type: "glossy",
+          label: "Glossy",
+          classes: "glossy-btn",
+          text: "Glossy",
+          shouldHaveRoundedType: false,
         },
         {
           type: "glow",
@@ -55,39 +72,15 @@ $(document).ready(function () {
           classes: "key-btn",
         },
         {
-          type: "dashed",
-          label: "Dashed Buttons",
-          classes: "dashed-btn",
-        },
-        {
-          type: "disable",
-          label: "Disabled Buttons",
-          classes: "disabled-btn",
-        },
-        {
           type: "outline",
           label: "Outline Buttons",
           classes: "outline-btn",
-        },
-        {
-          type: "glossy",
-          label: "Glossy",
-          classes: "glossy-btn",
-          text: "Glossy",
-          shouldHaveRoundedType: false,
         },
         {
           type: "rounded-bottom",
           label: "Rounded Bottom",
           classes: "rounded-bottom-btn",
           text: "Rounded Bottom",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-top",
-          label: "Rounded Top",
-          classes: "rounded-top-btn",
-          text: "Rounded Top",
           shouldHaveRoundedType: false,
         },
         {
@@ -102,6 +95,13 @@ $(document).ready(function () {
           label: "Rounded Diagonal (Top Right)",
           classes: "rounded-diagonal-tr-btn",
           text: "TopRight-BottomLeft",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-top",
+          label: "Rounded Top",
+          classes: "rounded-top-btn",
+          text: "Rounded Top",
           shouldHaveRoundedType: false,
         },
       ],
