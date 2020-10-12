@@ -373,7 +373,11 @@ $(document).ready(function () {
           variations: [
             {
               classes: "",
-              text: "",
+              text: "Star (Inactive)",
+            },
+            {
+              classes: "active",
+              text: "Star (Active)",
             },
           ],
         },
@@ -473,6 +477,11 @@ $(document).ready(function () {
               text: "Handwritten",
             },
           ],
+        },
+        {
+          type: "neu-btn",
+          label: "Neumorphic",
+          classes: "neu-btn",
         },
         {
           type: "play-game",
