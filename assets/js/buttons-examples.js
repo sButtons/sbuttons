@@ -530,7 +530,7 @@ $(document).ready(function () {
               text: "No",
             },
           ],
-        }
+        },
       ],
     },
   ];
