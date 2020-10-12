@@ -455,6 +455,16 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "code-btn",
+          label: "Code Button",
+          classes: "code-btn",
+          variations: [
+            {
+              text: "Code",
+            },
+          ],
+        },
+        {
           type: "handwritten-btn",
           label: "Handwritten",
           classes: "handwritten-btn",
@@ -520,7 +530,7 @@ $(document).ready(function () {
               text: "No",
             },
           ],
-        },
+        }
       ],
     },
   ];

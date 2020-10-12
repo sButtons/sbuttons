@@ -2361,7 +2361,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
       format("truetype");
 }
 .retro-btn {
-  background: #92cd41;
+  background: #000;
   display: inline;
   position: relative;
   text-align: center;
@@ -2555,4 +2555,26 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .handwritten-btn.block-btn {
   border-radius: 30px 2px 30% 3px / 4px 10px 3px 30px;
+}
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Code Pro Regular"), local("SourceCodePro-Regular"),
+    url(https://fonts.gstatic.com/s/sourcecodepro/v13/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOg.ttf)
+      format("truetype");
+}
+.code-btn {
+  font-family: "Source Code Pro", monospace;
+  background-color: #000;
+  color: #1fff00;
+  display: inline;
+  position: relative;
+  text-align: center;
+}
+.code-btn:hover,
+.code-btn:focus {
+  background: #1fff00;
+  color: #000;
 }
