@@ -373,7 +373,11 @@ $(document).ready(function () {
           variations: [
             {
               classes: "",
-              text: "",
+              text: "Star (Inactive)",
+            },
+            {
+              classes: "active",
+              text: "Star (Active)",
             },
           ],
         },
@@ -455,6 +459,16 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "code-btn",
+          label: "Code Button",
+          classes: "code-btn",
+          variations: [
+            {
+              text: "Code",
+            },
+          ],
+        },
+        {
           type: "handwritten-btn",
           label: "Handwritten",
           classes: "handwritten-btn",
@@ -463,6 +477,11 @@ $(document).ready(function () {
               text: "Handwritten",
             },
           ],
+        },
+        {
+          type: "neu-btn",
+          label: "Neumorphic",
+          classes: "neu-btn",
         },
         {
           type: "play-game",
