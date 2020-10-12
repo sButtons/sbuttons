@@ -373,7 +373,11 @@ $(document).ready(function () {
           variations: [
             {
               classes: "",
-              text: "",
+              text: "Star (Inactive)",
+            },
+            {
+              classes: "active",
+              text: "Star (Active)",
             },
           ],
         },
@@ -454,6 +458,16 @@ $(document).ready(function () {
       label: "Special Buttons",
       classes: "",
       children: [
+        {
+          type: "code-btn",
+          label: "Code Button",
+          classes: "code-btn",
+          variations: [
+            {
+              text: "Code",
+            },
+          ],
+        },
         {
           type: "handwritten-btn",
           label: "Handwritten",

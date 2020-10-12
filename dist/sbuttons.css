@@ -261,6 +261,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   user-select: none;
 }
 .glossy-btn {
+  border: none;
   border-radius: 50px;
   padding: 5px 20px;
   position: relative;
@@ -2120,7 +2121,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
-.star-btn:active {
+.star-btn:active,
+.star-btn.active {
   font-weight: 900;
   color: #fbe870;
 }
@@ -2361,7 +2363,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
       format("truetype");
 }
 .retro-btn {
-  background: #92cd41;
+  background: #000;
   display: inline;
   position: relative;
   text-align: center;
@@ -2613,4 +2615,26 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .neu-btn:focus {
   box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.1),
     inset 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Code Pro Regular"), local("SourceCodePro-Regular"),
+    url(https://fonts.gstatic.com/s/sourcecodepro/v13/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOg.ttf)
+      format("truetype");
+}
+.code-btn {
+  font-family: "Source Code Pro", monospace;
+  background-color: #000;
+  color: #1fff00;
+  display: inline;
+  position: relative;
+  text-align: center;
+}
+.code-btn:hover,
+.code-btn:focus {
+  background: #1fff00;
+  color: #000;
 }
