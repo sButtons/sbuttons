@@ -479,6 +479,11 @@ $(document).ready(function () {
           ],
         },
         {
+          type: "neu-btn",
+          label: "Neumorphic",
+          classes: "neu-btn",
+        },
+        {
           type: "play-game",
           label: "Play game",
           classes: "play-game-btn",
