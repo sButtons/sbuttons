@@ -104,6 +104,20 @@ $(document).ready(function () {
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
         },
+        {
+          type: "xsmall",
+          label: "Extra-small",
+          classes: "xsmall-btn",
+          text: "Extra-small",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "xlarge",
+          label: "Extra-large",
+          classes: "xlarge-btn",
+          text: "Extra-large",
+          shouldHaveRoundedType: false,
+        },
       ],
     },
     {
