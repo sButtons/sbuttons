@@ -2121,7 +2121,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
-.star-btn:active {
+.star-btn:active,
+.star-btn.active {
   font-weight: 900;
   color: #fbe870;
 }
