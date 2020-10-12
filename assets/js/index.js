@@ -66,17 +66,6 @@ $(document).ready(function () {
     false
   );
 
-  // Navbar toggle here
-  function checkNavbar() {
-    if (!$(".content").isOnScreen()) {
-      $(".navbar").addClass("scrolling");
-      $(".sidebar").addClass("scrolling");
-    } else {
-      $(".navbar").removeClass("scrolling");
-      $(".sidebar").removeClass("scrolling");
-    }
-  }
-
   // Back-to-Top button toggles here
   function checkScrollTop() {
     if ($(window).scrollTop() > 100) {
@@ -146,11 +135,9 @@ $(document).ready(function () {
   // Load functions on page load
   initTheme();
   checkActiveCategory();
-  checkNavbar();
   checkScrollTop();
 
   $(window).on("scroll", function () {
-    checkNavbar();
     checkActiveCategory();
     checkScrollTop();
   });
