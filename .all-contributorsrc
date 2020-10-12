@@ -1237,6 +1237,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "tmott13",
+      "name": "Tanya Mott",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10003710?v=4",
+      "profile": "http://www.tanyamott.com",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
