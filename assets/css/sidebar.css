@@ -4,7 +4,7 @@
   background-color: white;
 }
 .sidebar.scrolling {
-  position: fixed;
+  position: sticky;
   top: 90px;
 }
 .sidebar a {
