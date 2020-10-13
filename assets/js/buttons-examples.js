@@ -40,70 +40,70 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
-          type: "click",
-          label: "Click",
-          classes: "click-btn",
+          "type": "click",
+          "label": "Click",
+          "classes": "click-btn"
         },
         {
-          type: "glow",
-          label: "Glow",
-          classes: "glow-btn",
+          "type": "dashed",
+          "label": "Dashed Buttons",
+          "classes": "dashed-btn"
         },
         {
-          type: "key",
-          label: "Key",
-          classes: "key-btn",
+          "type": "disable",
+          "label": "Disabled Buttons",
+          "classes": "disabled-btn"
         },
         {
-          type: "dashed",
-          label: "Dashed Buttons",
-          classes: "dashed-btn",
+          "type": "glossy",
+          "label": "Glossy",
+          "classes": "glossy-btn",
+          "text": "Glossy",
+          "shouldHaveRoundedType": false
         },
         {
-          type: "disable",
-          label: "Disabled Buttons",
-          classes: "disabled-btn",
+          "type": "glow",
+          "label": "Glow",
+          "classes": "glow-btn"
         },
         {
-          type: "outline",
-          label: "Outline Buttons",
-          classes: "outline-btn",
+          "type": "key",
+          "label": "Key",
+          "classes": "key-btn"
         },
         {
-          type: "glossy",
-          label: "Glossy",
-          classes: "glossy-btn",
-          text: "Glossy",
-          shouldHaveRoundedType: false,
+          "type": "outline",
+          "label": "Outline Buttons",
+          "classes": "outline-btn"
         },
         {
-          type: "rounded-bottom",
-          label: "Rounded Bottom",
-          classes: "rounded-bottom-btn",
-          text: "Rounded Bottom",
-          shouldHaveRoundedType: false,
+          "type": "rounded-bottom",
+          "label": "Rounded Bottom",
+          "classes": "rounded-bottom-btn",
+          "text": "Rounded Bottom",
+          "shouldHaveRoundedType": false
         },
         {
-          type: "rounded-top",
-          label: "Rounded Top",
-          classes: "rounded-top-btn",
-          text: "Rounded Top",
-          shouldHaveRoundedType: false,
+          "type": "rounded-diagonal-tl",
+          "label": "Rounded Diagonal (Top Left)",
+          "classes": "rounded-diagonal-tl-btn",
+          "text": "TopLeft-BottomRight",
+          "shouldHaveRoundedType": false
         },
         {
-          type: "rounded-diagonal-tl",
-          label: "Rounded Diagonal (Top Left)",
-          classes: "rounded-diagonal-tl-btn",
-          text: "TopLeft-BottomRight",
-          shouldHaveRoundedType: false,
+          "type": "rounded-diagonal-tr",
+          "label": "Rounded Diagonal (Top Right)",
+          "classes": "rounded-diagonal-tr-btn",
+          "text": "TopRight-BottomLeft",
+          "shouldHaveRoundedType": false
         },
         {
-          type: "rounded-diagonal-tr",
-          label: "Rounded Diagonal (Top Right)",
-          classes: "rounded-diagonal-tr-btn",
-          text: "TopRight-BottomLeft",
-          shouldHaveRoundedType: false,
-        },
+          "type": "rounded-top",
+          "label": "Rounded Top",
+          "classes": "rounded-top-btn",
+          "text": "Rounded Top",
+          "shouldHaveRoundedType": false
+        }
       ],
     },
     {
@@ -255,138 +255,138 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
-          type: "base-icon",
-          label: "Base Icon button",
-          classes: "base-icon-btn",
-          variations: [
+          "type": "add-to-cart",
+          "label": "Add To Cart",
+          "classes": "add-to-cart-btn",
+          "text": "Add To Cart"
+        },
+        {
+          "type": "appstore",
+          "label": "App Store",
+          "classes": "appstore-btn",
+          "variations": [
             {
-              classes: "icon-right purple-btn",
-              text: "base icon button <i class='fas fa-book'></i>",
+              "classes": "applestore",
+              "text": "App Store"
             },
             {
-              text: "<i class='fab fa-apple'></i>",
+              "classes": "playstore",
+              "text": "Google Play"
+            }
+          ]
+        },
+        {
+          "type": "base-icon",
+          "label": "Base Icon button",
+          "classes": "base-icon-btn",
+          "variations": [
+            {
+              "classes": "icon-right purple-btn",
+              "text": "base icon button <i class='fas fa-book'></i>"
             },
             {
-              classes: "icon-left green-btn",
-              text: "<i class='fas fa-pen'></i> base icon button",
+              "text": "<i class='fab fa-apple'></i>"
             },
+            {
+              "classes": "icon-left green-btn",
+              "text": "<i class='fas fa-pen'></i> base icon button"
+            }
           ],
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
+          "shouldHaveRoundedType": false,
+          "shouldHaveBlockType": false
         },
         {
-          type: "add-to-cart",
-          label: "Add To Cart",
-          classes: "add-to-cart-btn",
-          text: "Add To Cart",
+          "type": "buy-me-coffee",
+          "label": "Buy Me Coffee",
+          "classes": "buy-me-coffee-btn",
+          "text": "Buy me coffee"
         },
         {
-          type: "appstore",
-          label: "App Store",
-          classes: "appstore-btn",
-          variations: [
+          "type": "chat",
+          "label": "Chat Box",
+          "classes": "chat-btn",
+          "text": ""
+        },
+        {
+          "type": "close",
+          "label": "Close Button",
+          "classes": "",
+          "shouldHaveRoundedType": false,
+          "shouldHaveBlockType": false,
+          "variations": [
             {
-              classes: "applestore",
-              text: "App Store",
+              "classes": "close-btn",
+              "label": "",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "download",
+          "label": "Download",
+          "classes": "download-btn",
+          "text": "Download"
+        },
+        {
+          "type": "drop-down",
+          "label": "Dropdown",
+          "classes": "drop-down-btn",
+          "text": "Dropdown Button"
+        },
+        {
+          "type": "like",
+          "label": "Like",
+          "classes": "like-btn",
+          "text": ""
+        },
+        {
+          "type": "play",
+          "label": "Play",
+          "classes": "play-btn",
+          "text": ""
+        },
+        {
+          "type": "plus",
+          "label": "Plus",
+          "classes": "plus-btn",
+          "text": ""
+        },
+        {
+          "type": "scroll-to-top",
+          "label": "Scroll-to-Top",
+          "classes": "scroll-to-top-btn",
+          "text": ""
+        },
+        {
+          "type": "setting",
+          "label": "Setting",
+          "classes": "setting-btn",
+          "text": ""
+        },
+        {
+          "type": "star",
+          "label": "Star",
+          "classes": "star-btn",
+          "text": "",
+          "shouldHaveRoundedType": false,
+          "shouldHaveBlockType": false,
+          "variations": [
+            {
+              "classes": "",
+              "text": "Star (Inactive)"
             },
             {
-              classes: "playstore",
-              text: "Google Play",
-            },
-          ],
+              "classes": "active",
+              "text": "Star (Active)"
+            }
+          ]
         },
         {
-          type: "buy-me-coffee",
-          label: "Buy Me Coffee",
-          classes: "buy-me-coffee-btn",
-          text: "Buy me coffee",
-        },
-        {
-          type: "chat",
-          label: "Chat Box",
-          classes: "chat-btn",
-          text: "",
-        },
-        {
-          type: "close",
-          label: "Close Button",
-          classes: "",
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
-          variations: [
-            {
-              classes: "close-btn",
-              label: "",
-              text: "",
-            },
-          ],
-        },
-        {
-          type: "download",
-          label: "Download",
-          classes: "download-btn",
-          text: "Download",
-        },
-        {
-          type: "drop-down",
-          label: "Dropdown",
-          classes: "drop-down-btn",
-          text: "Dropdown Button",
-        },
-        {
-          type: "like",
-          label: "Like",
-          classes: "like-btn",
-          text: "",
-        },
-        {
-          type: "play",
-          label: "Play",
-          classes: "play-btn",
-          text: "",
-        },
-        {
-          type: "plus",
-          label: "Plus",
-          classes: "plus-btn",
-          text: "",
-        },
-        {
-          type: "scroll-to-top",
-          label: "Scroll-to-Top",
-          classes: "scroll-to-top-btn",
-          text: "",
-        },
-        {
-          type: "setting",
-          label: "Setting",
-          classes: "setting-btn",
-          text: "",
-        },
-        {
-          type: "star",
-          label: "Star",
-          classes: "star-btn",
-          text: "",
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
-          variations: [
-            {
-              classes: "",
-              text: "Star (Inactive)",
-            },
-            {
-              classes: "active",
-              text: "Star (Active)",
-            },
-          ],
-        },
-        {
-          type: "thumbs-up",
-          label: "Thumbs Up",
-          classes: "thumbsup-btn",
-          text: "",
-        },
+          "type": "thumbs-up",
+          "label": "Thumbs Up",
+          "classes": "thumbsup-btn",
+          "text": ""
+        }
       ],
     },
     {
