@@ -69,7 +69,7 @@ a.sbtn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(251, 232, 112, 0.3);
   outline: 0;
 }
-.yellow-btn:not(.fill-color-btn):not(.ripple-btn):not(.outline-btn):not(.transparent-btn):not(.diag-btn),
+.yellow-btn:not(.fill-color-btn):not(.ripple-btn):not(.outline-btn):not(.transparent-btn):not(.diag-btn):not(.neu-btn),
 .yellow-btn.transparent-btn:not(:hover) {
   color: #333 !important;
 }
@@ -261,6 +261,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   user-select: none;
 }
 .glossy-btn {
+  border: none;
   border-radius: 50px;
   padding: 5px 20px;
   position: relative;
@@ -2631,7 +2632,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
-.star-btn:active {
+.star-btn:active,
+.star-btn.active {
   font-weight: 900;
   color: #fbe870;
 }
@@ -2863,7 +2865,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf) format('truetype');
 }
 .retro-btn {
-  background: #92cd41;
+  background: #000;
   display: inline;
   position: relative;
   text-align: center;
@@ -3036,4 +3038,84 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .handwritten-btn.block-btn {
   border-radius: 30px 2px 30% 3px / 4px 10px 3px 30px;
+}
+.neu-btn {
+  padding: 10px;
+  text-align: center;
+  -webkit-appearance: none;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  overflow: hidden;
+  box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.1),
+    4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.neu-btn:not(.rounded-btn) {
+  border-radius: 10px;
+}
+.neu-btn.blue-btn {
+  color: #50bfe6 !important;
+  background-color: transparent;
+}
+.neu-btn.pink-btn {
+  color: #d53caf !important;
+  background-color: transparent;
+}
+.neu-btn.red-btn {
+  color: #ed0a3f !important;
+  background-color: transparent;
+}
+.neu-btn.green-btn {
+  color: #3aa655 !important;
+  background-color: transparent;
+}
+.neu-btn.yellow-btn {
+  color: #fbe870 !important;
+  background-color: transparent;
+}
+.neu-btn.orange-btn {
+  color: #ff8833 !important;
+  background-color: transparent;
+}
+.neu-btn.purple-btn {
+  color: #652dc1 !important;
+  background-color: transparent;
+}
+.neu-btn.black-btn {
+  color: #000 !important;
+  background-color: transparent;
+}
+.neu-btn.white-btn {
+  color: #ccc !important;
+  background-color: transparent;
+}
+.neu-btn:hover,
+.neu-btn:active,
+.neu-btn:focus {
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.1),
+    inset 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Code Pro Regular"), local("SourceCodePro-Regular"),
+    url(https://fonts.gstatic.com/s/sourcecodepro/v13/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOg.ttf)
+      format("truetype");
+}
+.code-btn {
+  font-family: "Source Code Pro", monospace;
+  background-color: #000;
+  color: #1fff00;
+  display: inline;
+  position: relative;
+  text-align: center;
+}
+.code-btn:hover,
+.code-btn:focus {
+  background: #1fff00;
+  color: #000;
 }
