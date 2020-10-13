@@ -43,7 +43,7 @@ $(document).ready(function () {
           type: "click",
           label: "Click",
           classes: "click-btn",
-        },        
+        },
         {
           type: "dashed",
           label: "Dashed Buttons",
