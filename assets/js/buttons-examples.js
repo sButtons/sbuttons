@@ -521,6 +521,19 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "spooky",
+          label: "Spooky",
+          classes: "spooky-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "spooky-btn",
+              text: "",
+            },
+          ],
+        },
       ],
     },
   ];
