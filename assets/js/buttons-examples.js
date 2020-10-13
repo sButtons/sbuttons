@@ -104,6 +104,12 @@ $(document).ready(function () {
           text: "Rounded Top",
           shouldHaveRoundedType: false,
         },
+        {
+          type: "stack",
+          label: "Stack",
+          classes: "stack-btn",
+          text: "",
+        }
       ],
     },
     {
