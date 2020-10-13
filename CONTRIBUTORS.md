@@ -175,6 +175,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/drewren25"><img src="https://avatars0.githubusercontent.com/u/31221181?v=4" width="100px;" alt=""/><br /><sub><b>drewren25</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=drewren25" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/pontakornth"><img src="https://avatars2.githubusercontent.com/u/37771900?v=4" width="100px;" alt=""/><br /><sub><b>pontakornth</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pontakornth" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/justDOindev"><img src="https://avatars3.githubusercontent.com/u/44042682?v=4" width="100px;" alt=""/><br /><sub><b>Justin Payne</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=justDOindev" title="Code">💻</a></td>
+    <td align="center"><a href="https://brijesh.wtf"><img src="https://avatars2.githubusercontent.com/u/28498071?v=4" width="100px;" alt=""/><br /><sub><b>Brijesh Wawdhane</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=wbrijesh" title="Code">💻</a></td>
   </tr>
 </table>
 

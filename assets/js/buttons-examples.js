@@ -45,16 +45,6 @@ $(document).ready(function () {
           classes: "click-btn",
         },
         {
-          type: "glow",
-          label: "Glow",
-          classes: "glow-btn",
-        },
-        {
-          type: "key",
-          label: "Key",
-          classes: "key-btn",
-        },
-        {
           type: "dashed",
           label: "Dashed Buttons",
           classes: "dashed-btn",
@@ -65,9 +55,18 @@ $(document).ready(function () {
           classes: "disabled-btn",
         },
         {
-          type: "outline",
-          label: "Outline Buttons",
-          classes: "outline-btn",
+          type: "xsmall",
+          label: "Extra-small",
+          classes: "xsmall-btn",
+          text: "Extra-small",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "xlarge",
+          label: "Extra-large",
+          classes: "xlarge-btn",
+          text: "Extra-large",
+          shouldHaveRoundedType: false,
         },
         {
           type: "glossy",
@@ -77,17 +76,25 @@ $(document).ready(function () {
           shouldHaveRoundedType: false,
         },
         {
+          type: "glow",
+          label: "Glow",
+          classes: "glow-btn",
+        },
+        {
+          type: "key",
+          label: "Key",
+          classes: "key-btn",
+        },
+        {
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+        },
+        {
           type: "rounded-bottom",
           label: "Rounded Bottom",
           classes: "rounded-bottom-btn",
           text: "Rounded Bottom",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-top",
-          label: "Rounded Top",
-          classes: "rounded-top-btn",
-          text: "Rounded Top",
           shouldHaveRoundedType: false,
         },
         {
@@ -105,17 +112,10 @@ $(document).ready(function () {
           shouldHaveRoundedType: false,
         },
         {
-          type: "xsmall",
-          label: "Extra-small",
-          classes: "xsmall-btn",
-          text: "Extra-small",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "xlarge",
-          label: "Extra-large",
-          classes: "xlarge-btn",
-          text: "Extra-large",
+          type: "rounded-top",
+          label: "Rounded Top",
+          classes: "rounded-top-btn",
+          text: "Rounded Top",
           shouldHaveRoundedType: false,
         },
       ],
