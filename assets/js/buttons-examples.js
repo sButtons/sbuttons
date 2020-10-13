@@ -33,7 +33,7 @@ $(document).ready(function () {
       classes: "basic-btn",
       children: [],
       shouldHaveRoundedType: true,
-    },
+    
     {
       type: "styles",
       label: "Button Styles",
@@ -449,6 +449,10 @@ $(document).ready(function () {
         {
           classes: "weibo",
           text: "Login with Weibo",
+        },
+        {
+          classes: "whatsapp",
+          text: "Login with Whatsapp",
         },
       ],
       children: [],
