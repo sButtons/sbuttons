@@ -1283,6 +1283,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "crew-guy",
+      "name": "Ankit Sanghvi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/69717009?v=4",
+      "profile": "https://ankit-sanghvi.netlify.app/",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
