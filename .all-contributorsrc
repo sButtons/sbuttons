@@ -181,7 +181,8 @@
       "profile": "https://github.com/mayankmohak",
       "contributions": [
         "doc",
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -1215,7 +1216,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/14197114?v=4",
       "profile": "https://github.com/shubh710",
       "contributions": [
-        "doc"
+        "doc",
+        "code"
       ]
     },
     {
@@ -1223,6 +1225,52 @@
       "name": "Joel Lau",
       "avatar_url": "https://avatars3.githubusercontent.com/u/29514264?v=4",
       "profile": "https://www.linkedin.com/in/joel-lau/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dkochetkov",
+      "name": "Den",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20298318?v=4",
+      "profile": "https://zdp.su",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "tmott13",
+      "name": "Tanya Mott",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10003710?v=4",
+      "profile": "http://www.tanyamott.com",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "drewren25",
+      "name": "drewren25",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/31221181?v=4",
+      "profile": "https://github.com/drewren25",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "pontakornth",
+      "name": "pontakornth",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37771900?v=4",
+      "profile": "https://github.com/pontakornth",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "justDOindev",
+      "name": "Justin Payne",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/44042682?v=4",
+      "profile": "https://github.com/justDOindev",
       "contributions": [
         "code"
       ]

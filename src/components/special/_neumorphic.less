@@ -1,0 +1,68 @@
+.neuColorRule(@color) {
+  color: @color !important;
+  background-color: transparent;
+}
+.neuBtnRule() {
+  padding: @buttonPadding;
+  text-align: center;
+  -webkit-appearance: none;
+  border: none;
+
+  text-decoration: none;
+  display: inline-block;
+
+  cursor: pointer;
+  font-family: inherit;
+  overflow: hidden;
+
+  &:not(.rounded-btn) {
+    border-radius: @buttonPadding;
+  }
+
+  &.blue-btn {
+    .neuColorRule(@blue);
+  }
+
+  &.pink-btn {
+    .neuColorRule(@pink);
+  }
+
+  &.red-btn {
+    .neuColorRule(@red);
+  }
+
+  &.green-btn {
+    .neuColorRule(@green);
+  }
+
+  &.yellow-btn {
+    .neuColorRule(@yellow);
+  }
+
+  &.orange-btn {
+    .neuColorRule(@orange);
+  }
+
+  &.purple-btn {
+    .neuColorRule(@purple);
+  }
+
+  &.black-btn {
+    .neuColorRule(@black);
+  }
+  &.white-btn {
+    .neuColorRule(@lightGray);
+  }
+}
+.neu-btn {
+  .neuBtnRule();
+  box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.1),
+    4px 4px 8px rgba(0, 0, 0, 0.1);
+
+  &:hover,
+  &:active,
+  &:focus {
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.1),
+      inset 4px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
