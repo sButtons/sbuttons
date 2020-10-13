@@ -1,5 +1,5 @@
 .layer(@height, @width, @rotate, @skew, @bgColor) {
-  content: '';
+  content: "";
   height: @height;
   width: @width;
   border-radius: inherit;
@@ -12,7 +12,7 @@
   // THE DESIGN LOGIC START
   &:before {
     .layer(@height, @width, @rotate, @skew, @bgColor);
-    content: 'Button';
+    content: "Button";
     transition: all 0.5s;
     opacity: 0.95;
     display: flex;

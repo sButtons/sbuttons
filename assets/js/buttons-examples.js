@@ -109,7 +109,7 @@ $(document).ready(function () {
           label: "Stack",
           classes: "stack-btn",
           text: "",
-        }
+        },
       ],
     },
     {

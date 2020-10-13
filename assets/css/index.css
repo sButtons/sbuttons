@@ -4,7 +4,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: 'Oleo Script Swash Caps', cursive !important;
+  font-family: "Oleo Script Swash Caps", cursive !important;
   color: #333;
 }
 
@@ -19,22 +19,22 @@ body > .container {
   min-height: 36vh;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   background-color: var(--dark-color);
   color: #ffffff;
 }
 
-[data-theme='dark'] footer {
+[data-theme="dark"] footer {
   background-color: #434343;
 }
 
-[data-theme='dark'] .navbar.scrolling {
+[data-theme="dark"] .navbar.scrolling {
   background-color: #434343;
   box-shadow: 0 2px 3px #1e1e1e;
 }
 
-[data-theme='dark'] .sidebar a,
-[data-theme='dark'] .text {
+[data-theme="dark"] .sidebar a,
+[data-theme="dark"] .text {
   color: #ffffff !important;
 }
 
@@ -159,7 +159,7 @@ section {
   margin-bottom: 2.5em;
 }
 
-[data-theme='dark'] .button-caption-sub {
+[data-theme="dark"] .button-caption-sub {
   color: #afafaf;
 }
 
@@ -170,8 +170,8 @@ section {
 }
 
 .button-caption-sub:after {
-  content: '\f328';
-  font-family: 'Font Awesome 5 Free', serif;
+  content: "\f328";
+  font-family: "Font Awesome 5 Free", serif;
   font-size: 15px;
   vertical-align: bottom;
   margin-left: 5px;
@@ -298,7 +298,7 @@ hr {
 }
 
 .social-btn {
-  font-family: 'Syne', sans-serif !important;
+  font-family: "Syne", sans-serif !important;
 }
 
 .scroll-top {
@@ -355,10 +355,10 @@ button.clipboard:hover {
   background-color: var(--main-color);
 }
 button.clipboard:after {
-  content: '\f328';
+  content: "\f328";
   font-size: 15px;
   vertical-align: bottom;
-  font-family: 'Font Awesome 5 Free', serif;
+  font-family: "Font Awesome 5 Free", serif;
 }
 button.clipboard:focus {
   outline: 0;
@@ -424,7 +424,7 @@ button.clipboard:focus {
   color: floralwhite;
 }
 .appstore-btn {
-  font-family: 'Syne' !important;
+  font-family: "Syne" !important;
 }
 
 @keyframes gradient {
