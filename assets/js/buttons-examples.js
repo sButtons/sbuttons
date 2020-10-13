@@ -33,7 +33,7 @@ $(document).ready(function () {
       classes: "basic-btn",
       children: [],
       shouldHaveRoundedType: true,
-    
+    },
     {
       type: "styles",
       label: "Button Styles",
