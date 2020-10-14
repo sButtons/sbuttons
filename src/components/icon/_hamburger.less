@@ -23,14 +23,14 @@
     transform: translate(-50%, -50%);
     transition: transform 0.2s ease;
   }
+
+  &:hover {
+    color: @lightBlack;
+    border-color: @lightBlack;
+  }
 }
 
-.hamburger-btn:hover {
-  color: @lightBlack;
-  border-color: @lightBlack;
-}
-
-.hamburger-x-btn.is-active {
+.hamburger-btn.is-active {
   border-color: transparent;
 
   &:before {
@@ -38,31 +38,5 @@
   }
   &:after {
     transform: translate(-50%, -50%) rotate(-45deg);
-  }
-}
-
-.hamburger-min-btn.is-active {
-  border-color: transparent;
-}
-
-.hamburger-larr-btn.is-active {
-  border-color: transparent;
-
-  &:before {
-    transform: translate(-50%, -150%) rotate(-45deg) scale(0.5, 1);
-  }
-  &:after {
-    transform: translate(-50%, 50%) rotate(45deg) scale(0.5, 1);
-  }
-}
-
-.hamburger-rarr-btn.is-active {
-  border-color: transparent;
-
-  &:before {
-    transform: translate(-50%, -150%) rotate(45deg) scale(0.5, 1);
-  }
-  &:after {
-    transform: translate(-50%, 50%) rotate(-45deg) scale(0.5, 1);
   }
 }

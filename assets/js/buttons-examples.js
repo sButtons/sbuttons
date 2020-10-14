@@ -344,19 +344,7 @@ $(document).ready(function () {
               text: "",
             },
             {
-              classes: "hamburger-x-btn is-active",
-              text: "",
-            },
-            {
-              classes: "hamburger-min-btn is-active",
-              text: "",
-            },
-            {
-              classes: "hamburger-larr-btn is-active",
-              text: "",
-            },
-            {
-              classes: "hamburger-rarr-btn is-active",
+              classes: "is-active",
               text: "",
             },
           ],

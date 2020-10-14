@@ -2219,35 +2219,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #262626;
   border-color: #262626;
 }
-.hamburger-x-btn.is-active {
+.hamburger-btn.is-active {
   border-color: transparent;
 }
-.hamburger-x-btn.is-active:before {
+.hamburger-btn.is-active:before {
   transform: translate(-50%, -50%) rotate(45deg);
 }
-.hamburger-x-btn.is-active:after {
+.hamburger-btn.is-active:after {
   transform: translate(-50%, -50%) rotate(-45deg);
-}
-.hamburger-min-btn.is-active {
-  border-color: transparent;
-}
-.hamburger-larr-btn.is-active {
-  border-color: transparent;
-}
-.hamburger-larr-btn.is-active:before {
-  transform: translate(-50%, -150%) rotate(-45deg) scale(0.5, 1);
-}
-.hamburger-larr-btn.is-active:after {
-  transform: translate(-50%, 50%) rotate(45deg) scale(0.5, 1);
-}
-.hamburger-rarr-btn.is-active {
-  border-color: transparent;
-}
-.hamburger-rarr-btn.is-active:before {
-  transform: translate(-50%, -150%) rotate(45deg) scale(0.5, 1);
-}
-.hamburger-rarr-btn.is-active:after {
-  transform: translate(-50%, 50%) rotate(-45deg) scale(0.5, 1);
 }
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
