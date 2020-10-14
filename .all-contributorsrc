@@ -1293,6 +1293,16 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "michalwowk",
+      "name": "michalwowk",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34128603?v=4",
+      "profile": "https://github.com/michalwowk",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
