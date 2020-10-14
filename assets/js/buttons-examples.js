@@ -58,15 +58,13 @@ $(document).ready(function () {
           type: "xsmall",
           label: "Extra-small",
           classes: "xsmall-btn",
-          text: "Extra-small",
-          shouldHaveRoundedType: false,
+          text: "Extra-small"
         },
         {
           type: "xlarge",
           label: "Extra-large",
           classes: "xlarge-btn",
-          text: "Extra-large",
-          shouldHaveRoundedType: false,
+          text: "Extra-large"
         },
         {
           type: "glossy",
