@@ -225,95 +225,6 @@ $(document).ready(function () {
           shouldHaveBlockType: false,
         },
         {
-          type: "add-to-cart",
-          label: "Add To Cart",
-          classes: "add-to-cart-btn",
-          text: "Add To Cart",
-        },
-        {
-          type: "appstore",
-          label: "App Store",
-          classes: "appstore-btn",
-          variations: [
-            {
-              classes: "applestore",
-              text: "App Store",
-            },
-            {
-              classes: "playstore",
-              text: "Google Play",
-            },
-          ],
-        },
-        {
-          type: "buy-me-coffee",
-          label: "Buy Me Coffee",
-          classes: "buy-me-coffee-btn",
-          text: "Buy me coffee",
-        },
-        {
-          type: "chat",
-          label: "Chat Box",
-          classes: "chat-btn",
-          text: "",
-        },
-        {
-          type: "close",
-          label: "Close Button",
-          classes: "",
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
-          variations: [
-            {
-              classes: "close-btn",
-              label: "",
-              text: "",
-            },
-          ],
-        },
-        {
-          type: "download",
-          label: "Download",
-          classes: "download-btn",
-          text: "Download",
-        },
-        {
-          type: "drop-down",
-          label: "Dropdown",
-          classes: "drop-down-btn",
-          text: "Dropdown Button",
-        },
-        {
-          type: "like",
-          label: "Like",
-          classes: "like-btn",
-          text: "",
-        },
-        {
-          type: "play",
-          label: "Play",
-          classes: "play-btn",
-          text: "",
-        },
-        {
-          type: "plus",
-          label: "Plus",
-          classes: "plus-btn",
-          text: "",
-        },
-        {
-          type: "scroll-to-top",
-          label: "Scroll-to-Top",
-          classes: "scroll-to-top-btn",
-          text: "",
-        },
-        {
-          type: "setting",
-          label: "Setting",
-          classes: "setting-btn",
-          text: "",
-        },
-        {
           type: "star",
           label: "Star",
           classes: "star-btn",
@@ -326,12 +237,6 @@ $(document).ready(function () {
               text: "",
             },
           ],
-        },
-        {
-          type: "thumbs-up",
-          label: "Thumbs Up",
-          classes: "thumbsup-btn",
-          text: "",
         },
       ],
     },
