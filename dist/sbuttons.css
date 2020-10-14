@@ -2359,7 +2359,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .social-btn.whatsapp:after {
   color: white;
-  content: "\f179";
+  content: "\f232";
 }
 @font-face {
   font-family: "Press Start 2P";
