@@ -1303,6 +1303,16 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "senguyen1011",
+      "name": "Sean Nguyen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/52718953?v=4",
+      "profile": "https://github.com/senguyen1011",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

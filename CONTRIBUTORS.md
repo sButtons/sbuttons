@@ -180,6 +180,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="https://ankit-sanghvi.netlify.app/"><img src="https://avatars3.githubusercontent.com/u/69717009?v=4" width="100px;" alt=""/><br /><sub><b>Ankit Sanghvi</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=crew-guy" title="Code">💻</a> <a href="#ideas-crew-guy" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/michalwowk"><img src="https://avatars1.githubusercontent.com/u/34128603?v=4" width="100px;" alt=""/><br /><sub><b>michalwowk</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=michalwowk" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Amichalwowk" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/senguyen1011"><img src="https://avatars2.githubusercontent.com/u/52718953?v=4" width="100px;" alt=""/><br /><sub><b>Sean Nguyen</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=senguyen1011" title="Code">💻</a> <a href="#ideas-senguyen1011" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
