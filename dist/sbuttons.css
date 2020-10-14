@@ -2746,6 +2746,44 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 1.6em;
   padding: 0;
 }
+.hamburger-btn {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  border-style: solid;
+  border-width: 4px 0;
+  color: #000;
+  border-color: #000;
+  transition: all 0.2s ease;
+}
+.hamburger-btn:before,
+.hamburger-btn:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: currentColor;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease;
+}
+.hamburger-btn:hover {
+  color: #262626;
+  border-color: #262626;
+}
+.hamburger-btn.is-active {
+  border-color: transparent;
+}
+.hamburger-btn.is-active:before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.hamburger-btn.is-active:after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;
