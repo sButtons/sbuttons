@@ -55,6 +55,24 @@ $(document).ready(function () {
           classes: "disabled-btn",
         },
         {
+          type: "gradient",
+          label: "Gradient Buttons",
+          classes: "gradient-btn",
+        },
+        {
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+        },
+        {
           type: "xsmall",
           label: "Extra-small",
           classes: "xsmall-btn",
