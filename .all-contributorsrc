@@ -1323,6 +1323,15 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "android-lewis",
+      "name": "Lewis Baston",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19193574?v=4",
+      "profile": "https://github.com/android-lewis",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
