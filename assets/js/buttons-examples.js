@@ -598,6 +598,13 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "clipped-btn",
+          label: "Clipped Buttons",
+          classes: "clipped-btn",
+          text: "Button",
+          shouldHaveRoundedType: false,
+        },
       ],
     },
   ];

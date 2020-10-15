@@ -1,0 +1,15 @@
+.clipped-btn {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 15px) 0,
+    100% 15px,
+    100% 100%,
+    15px 100%,
+    0 calc(100% - 15px)
+  );
+
+  &:hover {
+    filter: brightness(0.9);
+    transform: translateY(-1px);
+  }
+}
