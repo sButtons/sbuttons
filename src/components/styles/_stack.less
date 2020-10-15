@@ -10,10 +10,10 @@
 
 .design_logic(@stackBgColor, @stackHeight, @stackWidth) {
   // THE DESIGN LOGIC START
-  background-color: @bgColor;
-  height: @height;
-  width: @width;
-  transform: rotate(@rotate) skew(@skew);
+  background-color: @stackBgColor;
+  height: @stackHeight;
+  width: @stackWidth;
+  transform: rotate(@stackRotate) skew(@stackSkew);
   transition: all 0.5s;
   opacity: 0.95;
   display: inline-flex;
@@ -23,7 +23,7 @@
   overflow: visible;
   &:before,
   &:after {
-    background-color: @bgColor;
+    background-color: @stackBgColor;
     border-radius: inherit;
     content: "";
     transition: all 0.5s;
