@@ -21,7 +21,7 @@ body > .container {
 
 [data-theme="dark"] {
   background-color: var(--dark-color);
-  color: #ffffff;
+  color: #FF5733 ;
 }
 
 [data-theme="dark"] footer {
