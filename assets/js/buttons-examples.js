@@ -55,6 +55,36 @@ $(document).ready(function () {
           classes: "disabled-btn",
         },
         {
+          type: "gradient",
+          label: "Gradient Buttons",
+          classes: "gradient-btn",
+        },
+        {
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+        },
+        {
+          type: "xsmall",
+          label: "Extra-small",
+          classes: "xsmall-btn",
+          text: "Extra-small",
+        },
+        {
+          type: "xlarge",
+          label: "Extra-large",
+          classes: "xlarge-btn",
+          text: "Extra-large",
+        },
+        {
           type: "glossy",
           label: "Glossy",
           classes: "glossy-btn",
@@ -473,6 +503,10 @@ $(document).ready(function () {
         {
           classes: "weibo",
           text: "Login with Weibo",
+        },
+        {
+          classes: "whatsapp",
+          text: "Login with Whatsapp",
         },
       ],
       children: [],

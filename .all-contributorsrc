@@ -1313,6 +1313,34 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "RodolfoNei",
+      "name": "Rodolfo Nei",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48540198?v=4",
+      "profile": "https://github.com/RodolfoNei",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "android-lewis",
+      "name": "Lewis Baston",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19193574?v=4",
+      "profile": "https://github.com/android-lewis",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "harsh1868",
+      "name": "Harsh Moradiya",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/47927700?v=4",
+      "profile": "https://github.com/harsh1868",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
