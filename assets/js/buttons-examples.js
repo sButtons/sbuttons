@@ -543,12 +543,12 @@ $(document).ready(function () {
         {
           type: "spooky",
           label: "Spooky",
-          classes: "spooky-btn",
+          classes: "spooky",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
           variations: [
             {
-              classes: "spooky-btn",
+              classes: "spooky",
               text: "",
             },
           ],

@@ -2558,27 +2558,87 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .handwritten-btn.block-btn {
   border-radius: 30px 2px 30% 3px / 4px 10px 3px 30px;
 }
-.spooky-btn {
-  width: 90px;
-  height: 150px;
-  background-color: #808080;
+.spooky{
   position: relative;
+  display: inline block;
+  background-color: #000;
+  width: 60px;
+  height: 99px;
+  top: 0px;
+  left: 0px;
+  transform: rotateX(15deg);
   border-radius: 50px 50px 0px 0px;
 }
-.spooky-btn:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  transform: translate(17px, 40px);
-  background: white;
-  box-shadow: 30px 0px 0 1px #fff, 20px 30px 0 4px #fff;
-  right: 20px;
+.spooky::before{
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    top: 25px;
+    left: 10px;
+    box-shadow: 25px 0px 0 0px #fff;
 }
-.spooky-btn:hover {
-  box-shadow: 10px 10px 8px #888888;
-  background: black;
+.spooky::after{
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 30px;
+    border-radius: 0 0 90px 90px;
+    top: 50px;
+    left: 14px;
+    background: white;
 }
+.spooky:hover::before{
+    border-radius: 0px 0px 90px 90px;
+    box-shadow: 25px 0px 0 0px red;
+    animation-name: changeColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColor{
+    0%{
+        background-color: red;
+        box-shadow: 25px 0px 0 0px red;
+    }
+    25%{
+        background-color: yellow;
+        box-shadow: 25px 0px 0 0px yellow;
+    }
+    50%{
+        background-color: blue;
+        box-shadow: 25px 0px 0 0px blue;
+    }
+    75%{
+        background-color: green;
+        box-shadow: 25px 0px 0 0px green;
+    }
+}
+.spooky:hover::after{
+    top: 43px;
+    height: 20px;
+    border-radius: 90px 90px 90px 90px;
+}
+.spooky:hover{
+    animation-name: bouncy;
+    animation-duration:0.8s;
+    animation-iteration-count: infinite;
+}
+@keyframes bouncy {
+    0% {
+        transform: translate3d(0, 30, 0);
+    }
+    25% {
+     
+      transform: translate3d(0, -60px, 0);
+    }
+    50% {
+      
+      transform: translate3d(0, -30px, 0);
+    }
+    75% {
+      
+      transform: translate3d(0, 0px, 0);
+    }
+  }
