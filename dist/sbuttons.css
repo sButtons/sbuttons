@@ -3334,6 +3334,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.1),
     inset 4px 4px 8px rgba(0, 0, 0, 0.1);
 }
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Code Pro Regular"), local("SourceCodePro-Regular"),
+  url(https://fonts.gstatic.com/s/sourcecodepro/v13/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOg.ttf)
+  format("truetype");
+}
 .code-btn {
   font-family: "Source Code Pro", monospace;
   background-color: #000;
