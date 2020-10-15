@@ -68,6 +68,11 @@ $(document).ready(function () {
           label: "Outline Buttons",
           classes: "outline-btn",
 
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+        },
+        {
           type: "xsmall",
           label: "Extra-small",
           classes: "xsmall-btn",
