@@ -1283,6 +1283,36 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "crew-guy",
+      "name": "Ankit Sanghvi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/69717009?v=4",
+      "profile": "https://ankit-sanghvi.netlify.app/",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "michalwowk",
+      "name": "michalwowk",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34128603?v=4",
+      "profile": "https://github.com/michalwowk",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "senguyen1011",
+      "name": "Sean Nguyen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/52718953?v=4",
+      "profile": "https://github.com/senguyen1011",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
