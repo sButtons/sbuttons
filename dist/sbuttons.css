@@ -2359,6 +2359,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .social-btn.whatsapp:after {
   color: white;
+  right: 0px !important;
   content: "\f232";
 }
 @font-face {
