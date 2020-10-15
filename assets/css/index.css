@@ -457,3 +457,9 @@ button.clipboard:focus {
     transform: rotate(360deg);
   }
 }
+
+#stack .button-grid:last-child .button-container:last-child,
+#stack .button-grid:last-child .button-container:nth-last-child(2) {
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}

@@ -1,0 +1,42 @@
+.hamburger-btn {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  border-style: solid;
+  border-width: 4px 0;
+  color: @black;
+  border-color: @black;
+  transition: all 0.2s ease;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease;
+  }
+
+  &:hover {
+    color: @lightBlack;
+    border-color: @lightBlack;
+  }
+}
+
+.hamburger-btn.is-active {
+  border-color: transparent;
+
+  &:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  &:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}

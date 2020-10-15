@@ -70,10 +70,8 @@ $(document).ready(function () {
   function checkNavbar() {
     if (!$(".content").isOnScreen()) {
       $(".navbar").addClass("scrolling");
-      $(".sidebar").addClass("scrolling");
     } else {
       $(".navbar").removeClass("scrolling");
-      $(".sidebar").removeClass("scrolling");
     }
   }
 
