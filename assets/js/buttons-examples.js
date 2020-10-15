@@ -45,16 +45,6 @@ $(document).ready(function () {
           classes: "click-btn",
         },
         {
-          type: "glow",
-          label: "Glow",
-          classes: "glow-btn",
-        },
-        {
-          type: "key",
-          label: "Key",
-          classes: "key-btn",
-        },
-        {
           type: "dashed",
           label: "Dashed Buttons",
           classes: "dashed-btn",
@@ -65,11 +55,6 @@ $(document).ready(function () {
           classes: "disabled-btn",
         },
         {
-          type: "outline",
-          label: "Outline Buttons",
-          classes: "outline-btn",
-        },
-        {
           type: "glossy",
           label: "Glossy",
           classes: "glossy-btn",
@@ -77,17 +62,25 @@ $(document).ready(function () {
           shouldHaveRoundedType: false,
         },
         {
+          type: "glow",
+          label: "Glow",
+          classes: "glow-btn",
+        },
+        {
+          type: "key",
+          label: "Key",
+          classes: "key-btn",
+        },
+        {
+          type: "outline",
+          label: "Outline Buttons",
+          classes: "outline-btn",
+        },
+        {
           type: "rounded-bottom",
           label: "Rounded Bottom",
           classes: "rounded-bottom-btn",
           text: "Rounded Bottom",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-top",
-          label: "Rounded Top",
-          classes: "rounded-top-btn",
-          text: "Rounded Top",
           shouldHaveRoundedType: false,
         },
         {
@@ -103,6 +96,19 @@ $(document).ready(function () {
           classes: "rounded-diagonal-tr-btn",
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-top",
+          label: "Rounded Top",
+          classes: "rounded-top-btn",
+          text: "Rounded Top",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "stack",
+          label: "Stack",
+          classes: "stack-btn",
+          text: "",
         },
       ],
     },
@@ -332,6 +338,24 @@ $(document).ready(function () {
           label: "Dropdown",
           classes: "drop-down-btn",
           text: "Dropdown Button",
+        },
+        {
+          type: "hamburger",
+          label: "Hamburger",
+          classes: "hamburger-btn",
+          text: "",
+          variations: [
+            {
+              classes: "",
+              text: "",
+            },
+            {
+              classes: "is-active",
+              text: "",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
         },
         {
           type: "like",
