@@ -1,0 +1,250 @@
+/* variables.css link included in index.html */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Philosopher", sans-serif;
+  color: #333;
+}
+
+body,
+.navbar,
+.sidebar,
+footer {
+  transition: background-color 0.2s;
+}
+
+body > .container {
+  min-height: 36vh;
+}
+
+[data-theme="dark"] {
+  background-color: var(--dark-color);
+  color: #ffffff;
+}
+
+[data-theme="dark"] footer {
+  background-color: #434343;
+}
+
+[data-theme="dark"] .navbar.scrolling {
+  background-color: #434343;
+  box-shadow: 0 2px 3px #1e1e1e;
+}
+
+[data-theme="dark"] .sidebar a,
+[data-theme="dark"] .text {
+  color: #ffffff !important;
+}
+
+section {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.button-grid {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-container {
+  text-align: center;
+  padding: 1em;
+}
+
+.button-container .sbtn {
+  margin-bottom: 1em;
+}
+
+#hinge .button-container .block-btn {
+  margin-bottom: 2.5em;
+}
+
+[data-theme="dark"] .button-caption-sub {
+  color: #afafaf;
+}
+
+.button-caption-sub {
+  color: #656564;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.button-caption-sub:after {
+  content: "\f328";
+  font-family: "Font Awesome 5 Free", serif;
+  font-size: 15px;
+  vertical-align: bottom;
+  margin-left: 5px;
+}
+
+hr {
+  width: 100%;
+  border-color: rgba(27, 114, 145, 0.48);
+}
+
+.navbar .buttons {
+  vertical-align: sub;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-sub-header {
+  color: #9c9696;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.section-sub-header .download-link {
+  color: #81b4ea;
+}
+
+.secondary-hr {
+  width: 100%;
+  border-color: rgba(27, 114, 145, 0.3);
+}
+
+@media (max-width: 767px) {
+  .navbar .download-link,
+  .navbar .toggle-theme {
+    font-size: 1.15rem;
+  }
+
+  .navbar:not(.scrolling) {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar .download-link {
+    font-size: 1.5rem;
+  }
+}
+
+.social-btn {
+  font-family: "Syne", sans-serif !important;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: block;
+  font-size: 40px;
+  background: none;
+  margin-left: 90%;
+  cursor: pointer;
+}
+.scroll-top i {
+  font-size: 35px;
+  display: block;
+  color: var(--main-color);
+  background: none;
+}
+@media only screen and (max-width: 600px) {
+  .scroll-top {
+    margin-left: 75%;
+  }
+}
+footer {
+  font-family: Syne, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e6e6e6;
+}
+
+.tagline {
+  font-size: 1.3rem;
+}
+
+.tagline-heart {
+  color: #f74545;
+}
+
+button.clipboard {
+  color: var(--main-color);
+  border-radius: 4px;
+  border: transparent;
+  padding: 5px;
+  margin: 5px;
+  justify-items: right;
+  background-color: transparent;
+  cursor: pointer;
+}
+button.clipboard:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+button.clipboard:after {
+  content: "\f328";
+  font-size: 15px;
+  vertical-align: bottom;
+  font-family: "Font Awesome 5 Free", serif;
+}
+button.clipboard:focus {
+  outline: 0;
+}
+
+.footer {
+  color: floralwhite;
+  min-height: 150px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+.footer a {
+  color: floralwhite;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  opacity: 0.6;
+  color: floralwhite;
+}
+.appstore-btn {
+  font-family: "Syne" !important;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sidebar-toggler {
+  padding: 10px;
+  font-size: 1.5rem;
+}
