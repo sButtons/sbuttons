@@ -55,7 +55,6 @@ $(document).ready(function () {
           classes: "disabled-btn",
         },
         {
-<<<<<<< HEAD
           type: "gradient",
           label: "Gradient Buttons",
           classes: "gradient-btn",
@@ -64,11 +63,8 @@ $(document).ready(function () {
           type: "outline",
           label: "Outline Buttons",
           classes: "outline-btn",
-||||||| fc57935
-          type: "outline",
-          label: "Outline Buttons",
-          classes: "outline-btn",
-=======
+        },
+        {
           type: "xsmall",
           label: "Extra-small",
           classes: "xsmall-btn",
@@ -79,7 +75,6 @@ $(document).ready(function () {
           label: "Extra-large",
           classes: "xlarge-btn",
           text: "Extra-large",
->>>>>>> upstream/master
         },
         {
           type: "glossy",
