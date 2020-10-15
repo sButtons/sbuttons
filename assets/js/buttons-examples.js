@@ -504,6 +504,10 @@ $(document).ready(function () {
           classes: "weibo",
           text: "Login with Weibo",
         },
+        {
+          classes: "whatsapp",
+          text: "Login with Whatsapp",
+        },
       ],
       children: [],
     },

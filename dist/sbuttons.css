@@ -3046,6 +3046,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f392";
 }
+.social-btn.whatsapp {
+  background-color: #25d366;
+  color: #fff;
+}
+.social-btn.whatsapp.block-btn:after {
+  right: 0px !important;
+}
+.social-btn.whatsapp:after {
+  color: white;
+  content: "\f232";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
