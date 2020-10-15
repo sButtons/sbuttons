@@ -1,38 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@outline-width: 6px;
-@shadow-width: 4px;
-
-@button-background: #92cd41;
-@sec-button-background: #76c442;
-@shadow-color: #4aa52e;
-
-@alt-button-background: #f7d51d;
-@alt-sec-button-background: #f2c409;
-@alt-shadow-color: #e59400;
-
-@reset-button-background: #e76e55;
-@reset-sec-button-background: #ce372b;
-@reset-shadow-color: #8c2022;
 
 .retro-btn {
-  background: @button-background;
+  background: @retroButtonBackground;
   display: inline;
   position: relative;
   text-align: center;
   padding: @buttonPadding;
   font-family: "Press Start 2P";
   text-decoration: none;
-  box-shadow: inset (-@shadow-width) (-@shadow-width) 0px 0px @shadow-color;
+  box-shadow: inset (-@retroShadowWidth) (-@retroShadowWidth) 0px 0px
+    @retroShadowColor;
 
   &:hover,
   &:focus {
-    background: @sec-button-background;
-    box-shadow: inset (-@shadow-width*1.5) (-@shadow-width*1.5) 0px 0px
-      @shadow-color;
+    background: @retroSecButtonBackground;
+    box-shadow: inset (-@retroShadowWidth*1.5) (-@retroShadowWidth*1.5) 0px 0px
+      @retroShadowColor;
   }
 
   &:active {
-    box-shadow: inset @shadow-width @shadow-width 0px 0px @shadow-color;
+    box-shadow: inset @retroShadowWidth @retroShadowWidth 0px 0px
+      @retroShadowColor;
   }
 
   &:before {
@@ -41,10 +29,10 @@
     width: 100%;
     height: 100%;
     box-sizing: content-box;
-    top: -@outline-width !important;
+    top: -@retroOutlineWidth !important;
     left: 0;
-    border-top: @outline-width black solid !important;
-    border-bottom: @outline-width black solid !important;
+    border-top: @retroOutlineWidth black solid !important;
+    border-bottom: @retroOutlineWidth black solid !important;
   }
 
   &:after {
@@ -53,45 +41,47 @@
     width: 100%;
     height: 100%;
     box-sizing: content-box;
-    left: -@outline-width !important;
+    left: -@retroOutlineWidth !important;
     top: 0;
-    border-left: @outline-width black solid !important;
-    border-right: @outline-width black solid !important;
+    border-left: @retroOutlineWidth black solid !important;
+    border-right: @retroOutlineWidth black solid !important;
   }
 
   &-reset {
-    background: @reset-button-background;
+    background: @retroResetButtonBackground;
     font-family: "Press Start 2P";
-    box-shadow: inset (-@shadow-width) (-@shadow-width) 0px 0px
-      @reset-shadow-color;
+    box-shadow: inset (-@retroShadowWidth) (-@retroShadowWidth) 0px 0px
+      @retroResetShadowColor;
 
     &:hover,
     &:focus {
-      background: @reset-sec-button-background;
-      box-shadow: inset (-@shadow-width*1.5) (-@shadow-width*1.5) 0px 0px
-        @reset-shadow-color;
+      background: @retroResetSecButtonBackground;
+      box-shadow: inset (-@retroShadowWidth*1.5) (-@retroShadowWidth*1.5) 0px
+        0px @retroResetShadowColor;
     }
 
     &:active {
-      box-shadow: inset @shadow-width @shadow-width 0px 0px @reset-shadow-color;
+      box-shadow: inset @retroShadowWidth @retroShadowWidth 0px 0px
+        @retroResetShadowColor;
     }
   }
 
   &-proceed {
-    background: @alt-button-background;
+    background: @retroAltButtonBackground;
     font-family: "Press Start 2P";
-    box-shadow: inset (-@shadow-width) (-@shadow-width) 0px 0px
-      @alt-shadow-color;
+    box-shadow: inset (-@retroShadowWidth) (-@retroShadowWidth) 0px 0px
+      @retroAltShadowColor;
 
     &:hover,
     &:focus {
-      background: @alt-sec-button-background;
-      box-shadow: inset (-@shadow-width*1.5) (-@shadow-width*1.5) 0px 0px
-        @alt-shadow-color;
+      background: @retroSecAltButtonBackground;
+      box-shadow: inset (-@retroShadowWidth*1.5) (-@retroShadowWidth*1.5) 0px
+        0px @retroAltShadowColor;
     }
 
     &:active {
-      box-shadow: inset @shadow-width @shadow-width 0px 0px @alt-shadow-color;
+      box-shadow: inset @retroShadowWidth @retroShadowWidth 0px 0px
+        @retroAltShadowColor;
     }
   }
 }

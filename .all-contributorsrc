@@ -1274,6 +1274,64 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "wbrijesh",
+      "name": "Brijesh Wawdhane",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/28498071?v=4",
+      "profile": "https://brijesh.wtf",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "crew-guy",
+      "name": "Ankit Sanghvi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/69717009?v=4",
+      "profile": "https://ankit-sanghvi.netlify.app/",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "michalwowk",
+      "name": "michalwowk",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34128603?v=4",
+      "profile": "https://github.com/michalwowk",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "senguyen1011",
+      "name": "Sean Nguyen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/52718953?v=4",
+      "profile": "https://github.com/senguyen1011",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "RodolfoNei",
+      "name": "Rodolfo Nei",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48540198?v=4",
+      "profile": "https://github.com/RodolfoNei",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "android-lewis",
+      "name": "Lewis Baston",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19193574?v=4",
+      "profile": "https://github.com/android-lewis",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

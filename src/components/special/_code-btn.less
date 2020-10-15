@@ -1,19 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
-@button-background: #000;
-@button-color: #1fff00;
-
 .code-btn {
   font-family: "Source Code Pro", monospace;
-  background-color: @button-background;
-  color: @button-color;
+  background-color: @codeButtonBackground;
+  color: @codeButtonColor;
   display: inline;
   position: relative;
   text-align: center;
 
   &:hover,
   &:focus {
-    background: @button-color;
-    color: @button-background;
+    background: @codeButtonColor;
+    color: @codeButtonBackground;
   }
 }
