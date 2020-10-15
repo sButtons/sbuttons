@@ -55,6 +55,18 @@ $(document).ready(function () {
           classes: "disabled-btn",
         },
         {
+          type: "xsmall",
+          label: "Extra-small",
+          classes: "xsmall-btn",
+          text: "Extra-small"
+        },
+        {
+          type: "xlarge",
+          label: "Extra-large",
+          classes: "xlarge-btn",
+          text: "Extra-large"
+        },
+        {
           type: "glossy",
           label: "Glossy",
           classes: "glossy-btn",
