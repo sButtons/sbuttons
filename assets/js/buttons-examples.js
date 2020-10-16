@@ -600,6 +600,35 @@ $(document).ready(function () {
         },
       ],
     },
+    {
+      type: "reaction-btn",
+      label: "Reaction Button",
+      shouldHaveRoundedType: false,
+      shouldHaveBlockType: false,
+      classes: "pop-out",
+      variations: [
+        {
+          classes: "fas fa-heart heart",
+          text: "",
+        },
+        {
+          classes: "fa fa-thumbs-up like",
+          text: "",
+        },
+        {
+          classes: "far fa-thumbs-up like",
+          text: "",
+        },
+        {
+          classes: "fa fa-thumbs-down dislike",
+          text: "",
+        },
+        {
+          classes: "far fa-thumbs-down dislike",
+          text: "",
+        },
+      ],
+    },
   ];
 
   var sidebar = $(".sidebar-list"),
