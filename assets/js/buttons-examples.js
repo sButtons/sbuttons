@@ -46,30 +46,30 @@ $(document).ready(function () {
         },
         {
           type: "dashed",
-          label: "Dashed Buttons",
+          label: "Dashed",
           classes: "dashed-btn",
         },
         {
           type: "disable",
-          label: "Disabled Buttons",
+          label: "Disabled",
           classes: "disabled-btn",
         },
         {
           type: "gradient",
-          label: "Gradient Buttons",
+          label: "Gradient",
           classes: "gradient-btn",
         },
         {
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
 
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
 
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
         },
         {
@@ -103,7 +103,7 @@ $(document).ready(function () {
         },
         {
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
         },
         {
@@ -292,7 +292,7 @@ $(document).ready(function () {
       children: [
         {
           type: "base-icon",
-          label: "Base Icon button",
+          label: "Base Icon",
           classes: "base-icon-btn",
           variations: [
             {
@@ -345,7 +345,7 @@ $(document).ready(function () {
         },
         {
           type: "close",
-          label: "Close Button",
+          label: "Close",
           classes: "",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
@@ -518,7 +518,7 @@ $(document).ready(function () {
       children: [
         {
           type: "code-btn",
-          label: "Code Button",
+          label: "Code",
           classes: "code-btn",
           variations: [
             {
@@ -568,7 +568,7 @@ $(document).ready(function () {
         },
         {
           type: "toggle",
-          label: "Toggle button (on and off)",
+          label: "Toggle (on and off)",
           classes: "toggle-btn",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
