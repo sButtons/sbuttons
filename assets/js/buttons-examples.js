@@ -208,6 +208,23 @@ $(document).ready(function () {
           classes: "liquid-btn",
         },
         {
+          type: "loading",
+          label: "Loading",
+          classes: "loading-btn",
+          variations: [
+            {
+              text: "loading left",
+              classes: "left purple-btn",
+            },
+            {
+              text: "loading right",
+              classes: "right green-btn",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "neon",
           label: "Neon",
           classes: "neon-btn",
