@@ -2121,25 +2121,45 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transform: rotate(0deg);
   }
 }
+@keyframes shine {
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.75s, 0.75s, 0.35s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
+}
 .shine-btn {
   position: relative;
   box-shadow: 1px 2px 8px #ccc;
 }
-.shine-btn:before {
-  content: " ";
+.shine-btn:hover:after {
+  animation: shine 7s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  content: "";
   position: absolute;
-  top: -100%;
-  width: 100%;
-  height: 10px;
-  background-color: #fff;
-  left: 0;
-  filter: blur(6px);
-  transition: top 0.35s;
-  visibility: hidden;
-}
-.shine-btn:hover:before {
-  top: 110%;
-  visibility: visible;
+  top: -150%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 .shine-btn.blue-btn:active {
   background-color: #1fa5d6;
@@ -2161,6 +2181,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .shine-btn.orange-btn:active {
   background-color: #f06400;
+}
+.shine-btn:active:after {
+  opacity: 0;
+}
+.shine-btn .shine-btn:hover:before {
+  top: -110%;
+  visibility: visible;
 }
 .skew-btn {
   transition: transform 0.2s;
