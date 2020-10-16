@@ -690,7 +690,7 @@ $(document).ready(function () {
       "<" +
         heading +
         ' class="section-header">' +
-        button.label +
+        button.label.replace("Buttons", '') +
         "</" +
         heading +
         ">"
