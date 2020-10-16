@@ -184,6 +184,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/RodolfoNei"><img src="https://avatars3.githubusercontent.com/u/48540198?v=4" width="100px;" alt=""/><br /><sub><b>Rodolfo Nei</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=RodolfoNei" title="Code">💻</a> <a href="#ideas-RodolfoNei" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/android-lewis"><img src="https://avatars3.githubusercontent.com/u/19193574?v=4" width="100px;" alt=""/><br /><sub><b>Lewis Baston</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=android-lewis" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/harsh1868"><img src="https://avatars3.githubusercontent.com/u/47927700?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Moradiya</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=harsh1868" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/LeaFranz"><img src="https://avatars2.githubusercontent.com/u/48798335?v=4" width="100px;" alt=""/><br /><sub><b>lfrnz</b></sub></a><br /><a href="#content-LeaFranz" title="Content">🖋</a></td>
   </tr>
 </table>
 
