@@ -593,7 +593,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   padding: 10px 0 20px 0;
   height: 90%;
   width: 90%;
-  display: flex;
+  display: inline-flex;
   transform: translateY(30px);
   background-color: inherit;
   justify-content: center;
@@ -610,7 +610,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -649,7 +648,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -688,7 +686,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -727,7 +724,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -766,7 +762,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -805,7 +800,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -844,7 +838,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -883,7 +876,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -923,7 +915,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -960,8 +951,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: translate(-15px, 15px);
 }
 .stack-btn.block-btn {
+  display: flex;
   font-size: 25px;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 .stack-btn.block-btn.pink-btn {
   background-color: #c10c94;
@@ -970,7 +962,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -1009,7 +1000,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -1048,7 +1038,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -1087,7 +1076,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -1126,7 +1114,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -1165,7 +1152,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -1204,7 +1190,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -1243,7 +1228,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
@@ -1283,7 +1267,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
