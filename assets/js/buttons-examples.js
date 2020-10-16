@@ -102,11 +102,6 @@ $(document).ready(function () {
           classes: "key-btn",
         },
         {
-          type: "outline",
-          label: "Outline Buttons",
-          classes: "outline-btn",
-        },
-        {
           type: "rounded-bottom",
           label: "Rounded Bottom",
           classes: "rounded-bottom-btn",
@@ -587,6 +582,21 @@ $(document).ready(function () {
           type: "win95-btn",
           label: "Windows 95",
           classes: "win95-btn",
+          variations: [
+            {
+              classes: "",
+              text: "Yes",
+            },
+            {
+              classes: "",
+              text: "No",
+            },
+          ],
+        },
+        {
+          type: "grd-brd-btn",
+          label: "Gradient Border",
+          classes: "grd-brd-btn",
           variations: [
             {
               classes: "",
