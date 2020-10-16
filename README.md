@@ -56,7 +56,7 @@ You can use the [CDN](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbutton
 
 ## NPM
 
-You can install sButtons using NPM:
+You can install sButtons using [NPM](https://www.npmjs.com/package/sbuttons):
 
 ```
 npm i sbuttons
