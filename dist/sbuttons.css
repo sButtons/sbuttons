@@ -2081,10 +2081,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .shine-btn.orange-btn:active {
   background-color: #f06400;
 }
-s .shine-btn:active:after {
+.shine-btn:active:after {
   opacity: 0;
 }
-.shine-btn:hover:before {
+.shine-btn .shine-btn:hover:before {
   top: -110%;
   visibility: visible;
 }
