@@ -102,11 +102,6 @@ $(document).ready(function () {
           classes: "key-btn",
         },
         {
-          type: "outline",
-          label: "Outline Buttons",
-          classes: "outline-btn",
-        },
-        {
           type: "rounded-bottom",
           label: "Rounded Bottom",
           classes: "rounded-bottom-btn",
