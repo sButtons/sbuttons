@@ -3342,3 +3342,24 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background: #1fff00;
   color: #000;
 }
+.grd-brd-btn {
+  border: 10px solid transparent;
+  color: black; */
+  text-align: center;
+
+  background-image:
+    linear-gradient(white, white),
+    linear-gradient(180deg, cornflowerblue, purple 50%, cornflowerblue);
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 100% 200%;
+  background-position: 0 0, 0 100%;
+  background-origin: padding-box, border-box;
+  animation: highlight 1s infinite alternate;
+}
+
+@keyframes highlight {
+  100% {
+    background-position: 0 0, 0 0;
+  }
+}

@@ -593,6 +593,21 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "grd-brd-btn",
+          label: "Gradient Border",
+          classes: "grd-brd-btn",
+          variations: [
+            {
+              classes: "",
+              text: "Yes",
+            },
+            {
+              classes: "",
+              text: "No",
+            },
+          ],
+        },
       ],
     },
   ];
@@ -685,7 +700,7 @@ $(document).ready(function () {
       "<" +
         heading +
         ' class="section-header">' +
-        button.label +
+        button.label.replace("Buttons", '') +
         "</" +
         heading +
         ">"
