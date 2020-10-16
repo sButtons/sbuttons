@@ -186,6 +186,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/harsh1868"><img src="https://avatars3.githubusercontent.com/u/47927700?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Moradiya</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=harsh1868" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/LeaFranz"><img src="https://avatars2.githubusercontent.com/u/48798335?v=4" width="100px;" alt=""/><br /><sub><b>lfrnz</b></sub></a><br /><a href="#content-LeaFranz" title="Content">🖋</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/hussein-hub"><img src="https://avatars2.githubusercontent.com/u/60262298?v=4" width="100px;" alt=""/><br /><sub><b>Hussein A Motiwala</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=hussein-hub" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
