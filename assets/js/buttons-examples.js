@@ -29,7 +29,7 @@ $(document).ready(function () {
   var buttons = [
     {
       type: "basic",
-      label: "Basic Buttons",
+      label: "Basic",
       classes: "basic-btn",
       children: [],
       shouldHaveRoundedType: true,
@@ -46,30 +46,30 @@ $(document).ready(function () {
         },
         {
           type: "dashed",
-          label: "Dashed Buttons",
+          label: "Dashed",
           classes: "dashed-btn",
         },
         {
           type: "disable",
-          label: "Disabled Buttons",
+          label: "Disabled",
           classes: "disabled-btn",
         },
         {
           type: "gradient",
-          label: "Gradient Buttons",
+          label: "Gradient",
           classes: "gradient-btn",
         },
         {
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline ",
           classes: "outline-btn",
 
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
 
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline ",
           classes: "outline-btn",
         },
         {
@@ -103,7 +103,7 @@ $(document).ready(function () {
         },
         {
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
         },
         {
@@ -144,7 +144,7 @@ $(document).ready(function () {
     },
     {
       type: "animated",
-      label: "Animated Buttons",
+      label: "Animated",
       classes: "",
       children: [
         {
@@ -281,13 +281,13 @@ $(document).ready(function () {
     },
     {
       type: "hover",
-      label: "Hover Buttons",
+      label: "Hover",
       classes: "hover-btn",
       children: [],
     },
     {
       type: "icon",
-      label: "Icon Buttons",
+      label: "Icon",
       classes: "",
       children: [
         {
@@ -445,7 +445,7 @@ $(document).ready(function () {
     },
     {
       type: "social",
-      label: "Social Buttons",
+      label: "Social",
       classes: "social-btn",
       variations: [
         {
@@ -513,7 +513,7 @@ $(document).ready(function () {
     },
     {
       type: "special",
-      label: "Special Buttons",
+      label: "Special",
       classes: "",
       children: [
         {
