@@ -775,7 +775,7 @@ $(document).ready(function () {
           roundedButtonsGrid.append(
             getButtonHtml(
               `${totalClasses} rounded-btn`,
-              `.${totalWrittenClasses} .rounded-btn`,
+              `${totalWrittenClasses} .rounded-btn`,
               thisButtonText,
               false,
               isDisabled
@@ -787,7 +787,7 @@ $(document).ready(function () {
           blockButtonsGrid.append(
             getButtonHtml(
               `${totalClasses} block-btn`,
-              `.${totalWrittenClasses} .block-btn`,
+              `${totalWrittenClasses} .block-btn`,
               thisButtonText,
               true,
               isDisabled
