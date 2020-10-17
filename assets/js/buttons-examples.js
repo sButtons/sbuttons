@@ -208,6 +208,47 @@ $(document).ready(function () {
           classes: "liquid-btn",
         },
         {
+          type: "loading",
+          label: "Loading",
+          classes: "loading-btn",
+          variations: [
+            {
+              text: "loading left",
+              classes: "spin left purple-btn",
+            },
+            {
+              text: "loading right",
+              classes: "spin right green-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce right red-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce left pink-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat left blue-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat right yellow-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide right black-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide left orange-btn",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "neon",
           label: "Neon",
           classes: "neon-btn",
