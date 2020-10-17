@@ -2423,10 +2423,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
     opacity: 0;
   }
 }
-.loading-btn.yellow-btn .left,
-.loading-btn.yellow-btn .right {
-  background: #000;
-}
 .loading-btn.spin.left:before {
   content: "";
   display: inline-block;
