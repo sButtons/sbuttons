@@ -189,6 +189,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="https://github.com/hussein-hub"><img src="https://avatars2.githubusercontent.com/u/60262298?v=4" width="100px;" alt=""/><br /><sub><b>Hussein A Motiwala</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=hussein-hub" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Yasas4D"><img src="https://avatars0.githubusercontent.com/u/49401137?v=4" width="100px;" alt=""/><br /><sub><b>Yasas Sandeepa</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Yasas4D" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/someoneisyes"><img src="https://avatars3.githubusercontent.com/u/60699076?v=4" width="100px;" alt=""/><br /><sub><b>NaratGutz</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=someoneisyes" title="Code">💻</a> <a href="#ideas-someoneisyes" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

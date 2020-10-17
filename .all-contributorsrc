@@ -1369,6 +1369,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "someoneisyes",
+      "name": "NaratGutz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/60699076?v=4",
+      "profile": "https://github.com/someoneisyes",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
