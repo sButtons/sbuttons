@@ -273,6 +273,11 @@ $(document).ready(function () {
           classes: "splash-btn",
         },
         {
+          type: "spring",
+          label: "Spring",
+          classes: "spring-btn",
+        },
+        {
           type: "transparent",
           label: "Transparent On Hover",
           classes: "transparent-btn",
