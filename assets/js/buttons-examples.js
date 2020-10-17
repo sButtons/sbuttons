@@ -198,6 +198,11 @@ $(document).ready(function () {
           classes: "hinge-btn",
         },
         {
+          type: "hover",
+          label: "Hover",
+          classes: "hover-btn",
+        },
+        {
           type: "invert",
           label: "Invert",
           classes: "invert-btn",
