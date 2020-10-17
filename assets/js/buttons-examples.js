@@ -214,11 +214,35 @@ $(document).ready(function () {
           variations: [
             {
               text: "loading left",
-              classes: "left purple-btn",
+              classes: "spin left purple-btn",
             },
             {
               text: "loading right",
-              classes: "right green-btn",
+              classes: "spin right green-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce right red-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce left pink-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat left blue-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat right yellow-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide right black-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide left orange-btn",
             },
           ],
           shouldHaveRoundedType: false,
