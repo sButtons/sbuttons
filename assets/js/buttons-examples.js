@@ -238,11 +238,6 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
-          type: "snake",
-          label: "Snake Border",
-          classes: "snake-btn",
-        },
-        {
           type: "ripple",
           label: "Ripple",
           classes: "ripple-btn",
@@ -266,6 +261,11 @@ $(document).ready(function () {
           type: "skew",
           label: "Skew",
           classes: "skew-btn",
+        },
+        {
+          type: "snake",
+          label: "Snake Border",
+          classes: "snake-btn",
         },
         {
           type: "splash",
