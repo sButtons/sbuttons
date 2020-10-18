@@ -101,11 +101,7 @@ $(document).ready(function () {
           label: "Key",
           classes: "key-btn",
         },
-        {
-          type: "outline",
-          label: "Outline",
-          classes: "outline-btn",
-        },
+        
         {
           type: "rounded-bottom",
           label: "Rounded Bottom",
