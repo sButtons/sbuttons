@@ -548,6 +548,12 @@ $(document).ready(function () {
           text: "",
         },
         {
+          type: "gamestart-btn",
+          label: "game start 3D",
+          classes: "start-game-3d-btn",
+          text: "START",
+        },
+        {
           type: "retro",
           label: "Retro",
           classes: "retro-btn",
