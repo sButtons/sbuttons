@@ -487,6 +487,12 @@ $(document).ready(function () {
           classes: "thumbsup-btn",
           text: "",
         },
+        {
+          type: "trash",
+          label: "Trash",
+          classes: "trash-btn",
+          text: "",
+        },
       ],
     },
     {
