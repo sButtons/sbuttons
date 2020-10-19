@@ -43,13 +43,37 @@
 
     gtag('config', 'UA-149400351-4');
   </script>
+  <style>
+           .new-btn {
+            font-size: 16px;
+            width: 150px;
+            height: 42px;
+            padding: 12px 7px;
+            border-radius: 25px;
+            border: 2px solid white;
+            color: white;
+            background-color: rgb(102, 153, 153);
+        }
+        
+        .new-btn:hover {
+            font-size: 16px;
+            width: 155px;
+            height: 44px;
+            border: 2px solid rgb(102, 153, 153);
+            background-color: white;
+            cursor: pointer;
+            color: rgb(102, 153, 153);
+        }
+  </style>
+  
+  
 </head>
 
 <body>
     <div class="shade"></div>
     <header>
       <div class="navbar fixed-top">
-        <button type="button" class="sidebar-toggler d-none d-block d-md-none">
+        <button type="button" class="sidebar-toggler d-none d-block d-md-none" >
           <i class="fas fa-bars"></i>
         </button>
         <div class="logo">
@@ -256,6 +280,7 @@
                 <section class="instruction-block" id="block">
                     <h2>Block Buttons</h2>
                     <button class="sbtn basic-btn blue-btn block-btn">Button</button>
+                    <button class="new-btn"">New Button</button>
                     <hr class="secondary-hr"  />
                     <div class="text">
                         To use sButtons with block display, add the class to either <span class="code-text">&lt;button&gt;</span> or <span class="code-text">&lt;a&gt;</span> tags
