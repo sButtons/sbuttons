@@ -1,0 +1,49 @@
+.outlineRule(@color) {
+  border-color: @color;
+  outline: 2px solid #fff;
+  outline-offset: -10px;
+}
+
+.outline-btn {
+  background-color: @color;
+  border: 1px solid;
+
+  &.blue-btn {
+    .outlineRule(@blue);
+  }
+  
+  &.pink-btn {
+    .outlineRule(@pink);
+  }
+
+  &.red-btn {
+    .outlineRule(@red);
+  }
+
+  &.green-btn {
+    .outlineRule(@green);
+  }
+
+  &.yellow-btn {
+    .outlineRule(@yellow);
+  }
+
+  &.orange-btn {
+    .outlineRule(@orange);
+  }
+
+  &.purple-btn {
+    .outlineRule(@purple);
+  }
+
+  &.black-btn {
+    .outlineRule(@black);
+  }
+
+  &.white-btn {
+    border-color: @whiteBorder;
+    color: @darkText !important;
+	outline: 2px solid #000;
+	outline-offset: -10px;
+  }
+}
