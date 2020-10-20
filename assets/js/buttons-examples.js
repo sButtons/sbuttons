@@ -46,30 +46,30 @@ $(document).ready(function () {
         },
         {
           type: "dashed",
-          label: "Dashed Buttons",
+          label: "Dashed",
           classes: "dashed-btn",
         },
         {
           type: "disable",
-          label: "Disabled Buttons",
+          label: "Disabled",
           classes: "disabled-btn",
         },
         {
           type: "gradient",
-          label: "Gradient Buttons",
+          label: "Gradient",
           classes: "gradient-btn",
         },
         {
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
 
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
 
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
         },
         {
@@ -103,7 +103,7 @@ $(document).ready(function () {
         },
         {
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
         },
         {
@@ -208,6 +208,47 @@ $(document).ready(function () {
           classes: "liquid-btn",
         },
         {
+          type: "loading",
+          label: "Loading",
+          classes: "loading-btn",
+          variations: [
+            {
+              text: "loading left",
+              classes: "spin left purple-btn",
+            },
+            {
+              text: "loading right",
+              classes: "spin right green-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce right red-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce left pink-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat left blue-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat right yellow-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide right black-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide left orange-btn",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "neon",
           label: "Neon",
           classes: "neon-btn",
@@ -238,11 +279,6 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
-          type: "snake",
-          label: "Snake Border",
-          classes: "snake-btn",
-        },
-        {
           type: "ripple",
           label: "Ripple",
           classes: "ripple-btn",
@@ -268,9 +304,19 @@ $(document).ready(function () {
           classes: "skew-btn",
         },
         {
+          type: "snake",
+          label: "Snake Border",
+          classes: "snake-btn",
+        },
+        {
           type: "splash",
           label: "Splash",
           classes: "splash-btn",
+        },
+        {
+          type: "spring",
+          label: "Spring",
+          classes: "spring-btn",
         },
         {
           type: "transparent",
@@ -292,7 +338,7 @@ $(document).ready(function () {
       children: [
         {
           type: "base-icon",
-          label: "Base Icon button",
+          label: "Base Icon",
           classes: "base-icon-btn",
           variations: [
             {
@@ -345,7 +391,7 @@ $(document).ready(function () {
         },
         {
           type: "close",
-          label: "Close Button",
+          label: "Close",
           classes: "",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
@@ -518,7 +564,7 @@ $(document).ready(function () {
       children: [
         {
           type: "code-btn",
-          label: "Code Button",
+          label: "Code",
           classes: "code-btn",
           variations: [
             {
@@ -568,7 +614,7 @@ $(document).ready(function () {
         },
         {
           type: "toggle",
-          label: "Toggle button (on and off)",
+          label: "Toggle (on and off)",
           classes: "toggle-btn",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
@@ -770,7 +816,7 @@ $(document).ready(function () {
           roundedButtonsGrid.append(
             getButtonHtml(
               `${totalClasses} rounded-btn`,
-              `.${totalWrittenClasses} .rounded-btn`,
+              `${totalWrittenClasses} .rounded-btn`,
               thisButtonText,
               false,
               isDisabled
@@ -782,7 +828,7 @@ $(document).ready(function () {
           blockButtonsGrid.append(
             getButtonHtml(
               `${totalClasses} block-btn`,
-              `.${totalWrittenClasses} .block-btn`,
+              `${totalWrittenClasses} .block-btn`,
               thisButtonText,
               true,
               isDisabled

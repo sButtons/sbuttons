@@ -2280,25 +2280,45 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transform: rotate(0deg);
   }
 }
+@keyframes shine {
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.75s, 0.75s, 0.35s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
+}
 .shine-btn {
   position: relative;
   box-shadow: 1px 2px 8px #ccc;
 }
-.shine-btn:before {
-  content: " ";
+.shine-btn:hover:after {
+  animation: shine 7s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  content: "";
   position: absolute;
-  top: -100%;
-  width: 100%;
-  height: 10px;
-  background-color: #fff;
-  left: 0;
-  filter: blur(6px);
-  transition: top 0.35s;
-  visibility: hidden;
-}
-.shine-btn:hover:before {
-  top: 110%;
-  visibility: visible;
+  top: -150%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 .shine-btn.blue-btn:active {
   background-color: #1fa5d6;
@@ -2320,6 +2340,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .shine-btn.orange-btn:active {
   background-color: #f06400;
+}
+.shine-btn:active:after {
+  opacity: 0;
+}
+.shine-btn .shine-btn:hover:before {
+  top: -110%;
+  visibility: visible;
 }
 .skew-btn {
   transition: transform 0.2s;
@@ -2580,6 +2607,170 @@ a.yellow-btn:active:not(.fill-color-btn) {
   }
   100% {
     opacity: 0;
+  }
+}
+.loading-btn.spin.left:before {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+  margin-right: 15px;
+  border-top: 4px solid #fff;
+  animation: 1.5s spin linear infinite;
+  border-radius: 50%;
+}
+.loading-btn.spin.right:after {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-top: 4px solid #fff;
+  animation: spin 1.5s linear infinite;
+  border-radius: 50%;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.loading-btn.bounce.left:before {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+  margin-right: 15px;
+  background: #fff;
+  animation: 1.5s bounce linear infinite;
+  border-radius: 50%;
+}
+.loading-btn.bounce.right:after {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background: #fff;
+  animation: bounce 1.5s linear infinite;
+  border-radius: 50%;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(8px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(3px);
+  }
+}
+.loading-btn.heart-beat.left:before {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+  margin-right: 15px;
+  background: #fff;
+  animation: 1.5s bloop linear infinite;
+  border-radius: 50%;
+}
+.loading-btn.heart-beat.right:after {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background: #fff;
+  animation: bloop 1.5s linear infinite;
+  border-radius: 50%;
+}
+@keyframes bloop {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(0.88);
+  }
+  75% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(0.99);
+  }
+}
+.loading-btn.slide.left:before {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+  margin-right: 15px;
+  background: #fff;
+  animation: 1.5s slide linear infinite;
+  border-radius: 50%;
+}
+.loading-btn.slide.right:after {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background: #fff;
+  animation: slide 1.5s ease-in infinite;
+  border-radius: 50%;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(4px);
+  }
+  50% {
+    transform: translateX(7px);
+  }
+  75% {
+    transform: translate(10px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+.spring-btn:hover {
+  animation-name: spring;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+@keyframes spring {
+  0% {
+    transform: scaleY(1);
+  }
+  10% {
+    transform: scaleY(0.7);
+  }
+  50% {
+    transform: scaleY(1.8);
+  }
+  70% {
+    transform: scaleY(0.8);
+  }
+  85% {
+    transform: scaleY(1.3);
+  }
+  100% {
+    transform: scaleY(1);
   }
 }
 .buy-me-coffee-btn {

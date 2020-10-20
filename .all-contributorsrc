@@ -1217,7 +1217,8 @@
       "profile": "https://github.com/shubh710",
       "contributions": [
         "doc",
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -1341,6 +1342,43 @@
       "profile": "https://github.com/harsh1868",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "LeaFranz",
+      "name": "lfrnz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/48798335?v=4",
+      "profile": "https://github.com/LeaFranz",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "hussein-hub",
+      "name": "Hussein A Motiwala",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/60262298?v=4",
+      "profile": "https://github.com/hussein-hub",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Yasas4D",
+      "name": "Yasas Sandeepa",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/49401137?v=4",
+      "profile": "https://github.com/Yasas4D",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "someoneisyes",
+      "name": "NaratGutz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/60699076?v=4",
+      "profile": "https://github.com/someoneisyes",
+      "contributions": [
+        "code",
+        "ideas"
       ]
     }
   ],
