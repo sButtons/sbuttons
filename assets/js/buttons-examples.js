@@ -323,6 +323,11 @@ $(document).ready(function () {
           label: "Transparent On Hover",
           classes: "transparent-btn",
         },
+        {
+          type: "expand",
+          label: "Exapand On Hover",
+          classes: "expand-on-hover-btn",
+        },
       ],
     },
     {
