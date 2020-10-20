@@ -1,54 +1,88 @@
-.key-btn {
-  position: relative;
-  display: inline-block;
-  margin: 20px;
+.btnVariant(@color, @keyHoverColor, @keyBoxColor) {
+  border-top: 2px solid @color;
+  background-color: @color;
 
-  & a {
-    color: white;
-    font-family: Georgia, serif;
-    font-weight: bold;
-    font-size: 60px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #ffa12b;
-    display: block;
-    position: relative;
-    padding: 20px 40px;
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 @keyBoxColor;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 @keyBoxColor;
+  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 @keyBoxColor;
 
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    text-shadow: 1px 5px 2px #000;
-    filter: dropshadow(color=#000, offx=0px, offy=1px);
-
-    -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
-    -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
-    box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
-
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-  }
-
-  & a:active {
+  &:active {
     top: 10px;
-    background-color: #f78900;
+    background-color: @color;
 
-    -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
-    -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
-    box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+    -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 @keyHoverColor;
+    -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 @keyHoverColor;
+    box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 @keyHoverColor;
+  }
+}
+
+.key-btn {
+  border: none;
+  outline: none;
+  display: inline-block;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 4px;
+  position: relative;
+
+  &:active {
+    outline: none;
+    top: 2px;
+    border-top: 2px solid @cola;
   }
 
   &:after {
-    content: "";
-    height: 100%;
-    width: 100%;
+    height: 103%;
+    width: 103%;
     padding: 4px;
     position: absolute;
     bottom: -15px;
     left: -4px;
     z-index: -1;
-    background-color: #221300;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    background-color: @cola;
+  }
+
+  &.pink-btn {
+    .btnVariant(@pink, @keyBoxPink, @keyBoxPink);
+  }
+
+  &.blue-btn {
+    .btnVariant(@blue, @keyBoxBlue, @keyBoxBlue);
+  }
+
+  &.red-btn {
+    .btnVariant(@red, @keyBoxRed, @keyBoxRed);
+  }
+
+  &.green-btn {
+    .btnVariant(@green, @keyBoxGreen, @keyBoxGreen);
+  }
+
+  &.yellow-btn {
+    .btnVariant(@yellow, @keyBoxYellow, @keyBoxYellow);
+  }
+
+  &.orange-btn {
+    .btnVariant(@orange, @keyBoxOrange, @keyBoxOrange);
+  }
+
+  &.purple-btn {
+    .btnVariant(@purple, @keyBoxPurple, @keyBoxPurple);
+  }
+
+  &.black-btn {
+    .btnVariant(@diffblack, @keyBoxBlack, @keyBoxBlack);
+  }
+
+  &.white-btn {
+    .btnVariant(@diffwhite, @keyBoxWhite, @keyBoxWhite);
+  }
+
+  &.rounded-btn {
+    border-radius: 30px;
   }
 }
