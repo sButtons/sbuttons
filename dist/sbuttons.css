@@ -1063,7 +1063,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .liquid-btn {
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 .liquid-btn::before {
   animation: waterEffect 5s linear infinite;
