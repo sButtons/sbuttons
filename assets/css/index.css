@@ -388,6 +388,8 @@ button.clipboard:focus {
   color: white;
   font-family: Syne, sans-serif;
   display: inline-block;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
 .content .sbtn.transparent-btn {
@@ -462,8 +464,4 @@ button.clipboard:focus {
 #stack .button-grid:last-child .button-container:nth-last-child(2) {
   padding-bottom: 4rem;
   margin-bottom: 4rem;
-}
-
-.key-btn {
-  font-family: "Syne", sans-serif !important;
 }
