@@ -1380,6 +1380,16 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "vinbaluyot",
+      "name": "vinbaluyot",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/46494300?v=4",
+      "profile": "http://kcbaluyot.com",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
