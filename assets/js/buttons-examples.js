@@ -100,6 +100,7 @@ $(document).ready(function () {
           type: "key",
           label: "Key",
           classes: "key-btn",
+          text: "START",
         },
         {
           type: "outline",

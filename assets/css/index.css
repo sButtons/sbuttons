@@ -463,3 +463,7 @@ button.clipboard:focus {
   padding-bottom: 4rem;
   margin-bottom: 4rem;
 }
+
+.key-btn {
+  font-family: "Syne", sans-serif !important; 
+}
