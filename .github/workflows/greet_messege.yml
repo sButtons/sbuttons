@@ -10,8 +10,6 @@ jobs:
     name: setup environment
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
       - name: mast joke mara
         uses: deep5050/MastJokeMara@main
         with:
