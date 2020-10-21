@@ -1,0 +1,181 @@
+.loading-btn {
+  &.spin {
+    &.left {
+      &:before {
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+        margin-right: 15px;
+        border-top: 4px solid @white;
+        animation: 1.5s spin linear infinite;
+        border-radius: 50%;
+      }
+    }
+
+    &.right {
+      &:after {
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+        margin-left: 15px;
+        border-top: 4px solid @white;
+        animation: spin 1.5s linear infinite;
+        border-radius: 50%;
+      }
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+  }
+
+  // bounce loader
+  &.bounce {
+    &.left {
+      &:before {
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+        margin-right: 15px;
+        background: @white;
+        animation: 1.5s bounce linear infinite;
+        border-radius: 50%;
+      }
+    }
+
+    &.right {
+      &:after {
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+        margin-left: 15px;
+        background: @white;
+        animation: bounce 1.5s linear infinite;
+        border-radius: 50%;
+      }
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(8px);
+      }
+      50% {
+        transform: translateY(5px);
+      }
+      100% {
+        transform: translateY(3px);
+      }
+    }
+  }
+  // bounce loader ends here
+
+  // heart-beat loader starts here
+  &.heart-beat {
+    &.left {
+      &:before {
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+        margin-right: 15px;
+        background: @white;
+        animation: 1.5s bloop linear infinite;
+        border-radius: 50%;
+      }
+    }
+
+    &.right {
+      &:after {
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+        margin-left: 15px;
+        background: @white;
+        animation: bloop 1.5s linear infinite;
+        border-radius: 50%;
+      }
+    }
+
+    @keyframes bloop {
+      0% {
+        transform: scale(0.5);
+      }
+      50% {
+        transform: scale(0.88);
+      }
+      75% {
+        transform: scale(0.6);
+      }
+      100% {
+        transform: scale(0.99);
+      }
+    }
+  }
+  // heart beat loader ends here
+
+  // slide loader starts here
+  &.slide {
+    &.left {
+      &:before {
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+        margin-right: 15px;
+        background: @white;
+        animation: 1.5s slide linear infinite;
+        border-radius: 50%;
+      }
+    }
+
+    &.right {
+      &:after {
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+        margin-left: 15px;
+        background: @white;
+        animation: slide 1.5s ease-in infinite;
+        border-radius: 50%;
+      }
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateX(0px);
+      }
+      25% {
+        transform: translateX(4px);
+      }
+      50% {
+        transform: translateX(7px);
+      }
+      75% {
+        transform: translate(10px);
+      }
+      100% {
+        transform: translate(0px);
+      }
+    }
+  }
+  // flip loader ends here
+}

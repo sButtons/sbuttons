@@ -1,0 +1,127 @@
+.layer(@stackHeight, @stackWidth, @stackRotate, @stackSkew, @stackBgColor) {
+  content: "";
+  height: @stackHeight;
+  width: @stackWidth;
+  border-radius: inherit;
+  background: @stackBgColor;
+  position: absolute;
+  transform: rotate(@stackRotate) skew(@stackSkew) translate(-10px, 10px);
+}
+
+.design_logic(@stackBgColor, @stackHeight, @stackWidth) {
+  // THE DESIGN LOGIC START
+  background-color: @stackBgColor;
+  height: @stackHeight;
+  width: @stackWidth;
+  transform: rotate(@stackRotate) skew(@stackSkew);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
+  &:before,
+  &:after {
+    background-color: @stackBgColor;
+    border-radius: inherit;
+    content: "";
+    transition: all 0.5s;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  &:before {
+    opacity: 0.95;
+    z-index: -1;
+  }
+  &:after {
+    z-index: -2;
+    opacity: 0.3;
+    top: 0;
+  }
+  &:hover {
+    transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+    &:after {
+      transform: translate(-15px, 15px);
+    }
+  }
+  // THE DESIGN LOGIC END
+}
+
+.colors_logic(@stackHeight, @stackWidth) {
+  &.pink-btn {
+    @stackBgColor: @darkPink;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
+  }
+
+  &.blue-btn {
+    @stackBgColor: @darkBlue;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
+  }
+
+  &.green-btn {
+    @stackBgColor: @darkGreen;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
+  }
+
+  &.yellow-btn {
+    @stackBgColor: @darkYellow;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
+  }
+
+  &.orange-btn {
+    @stackBgColor: @darkOrange;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
+  }
+
+  &.red-btn {
+    @stackBgColor: @darkRed;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
+  }
+
+  &.purple-btn {
+    @stackBgColor: @darkPurple;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
+  }
+  &.black-btn {
+    @stackBgColor: @black;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
+  }
+  &.white-btn {
+    @stackBgColor: @white;
+    color: #000;
+    &:before,
+    &:after {
+      border: #000 solid 2px !important;
+    }
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
+  }
+}
+
+.stack-btn {
+  padding: 10px 0 20px 0;
+  height: 90%;
+  width: 90%;
+  display: inline-flex;
+  transform: translateY(30px);
+  background-color: inherit;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  position: relative;
+  border: none;
+  opacity: 1;
+  .colors_logic(@stackHeight, @stackWidth);
+
+  &.block-btn {
+    display: flex;
+    font-size: 25px;
+    margin: 2rem auto;
+    @stackRotate: -30deg;
+    @stackSkew: 25deg;
+    @stackHeight: 40px;
+    @stackWidth: 3 * @stackHeight;
+    .colors_logic(@stackHeight, @stackWidth);
+  }
+}
