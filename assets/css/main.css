@@ -173,3 +173,54 @@
     opacity: 50%;
   }
 }
+
+.sidebar-toggler {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: block;
+  font-size: 40px;
+  background: none;
+  margin-left: 90%;
+  cursor: pointer;
+}
+.scroll-top i {
+  font-size: 35px;
+  display: block;
+  color: var(--main-color);
+  background: none;
+}
+@media only screen and (max-width: 600px) {
+  .scroll-top {
+    margin-left: 75%;
+  }
+}
+
+button.clipboard {
+  color: var(--main-color);
+  border-radius: 4px;
+  border: transparent;
+  padding: 5px;
+  margin: 5px;
+  justify-items: right;
+  background-color: transparent;
+  cursor: pointer;
+}
+button.clipboard:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+button.clipboard:after {
+  content: "\f328";
+  font-size: 15px;
+  vertical-align: bottom;
+  font-family: "Font Awesome 5 Free", serif;
+}
+button.clipboard:focus {
+  outline: 0;
+}
