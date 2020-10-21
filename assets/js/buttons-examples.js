@@ -138,7 +138,7 @@ $(document).ready(function () {
           type: "stack",
           label: "Stack",
           classes: "stack-btn",
-          text: "",
+          text: "Button",
         },
       ],
     },

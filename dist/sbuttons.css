@@ -593,7 +593,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   padding: 10px 0 20px 0;
   height: 90%;
   width: 90%;
-  display: flex;
+  display: inline-flex;
   transform: translateY(30px);
   background-color: inherit;
   justify-content: center;
@@ -603,545 +603,704 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border: none;
   opacity: 1;
 }
-.stack-btn.pink-btn:before {
-  content: "";
+.stack-btn.pink-btn {
+  background-color: #c10c94;
   height: 50px;
   width: 50px;
-  border-radius: inherit;
-  background: #c10c94;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
+  transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
+}
+.stack-btn.pink-btn:before,
+.stack-btn.pink-btn:after {
+  background-color: #c10c94;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.stack-btn.pink-btn:before {
+  opacity: 0.95;
+  z-index: -1;
 }
 .stack-btn.pink-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.pink-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.pink-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.blue-btn {
+  background-color: #1fa5d6;
   height: 50px;
   width: 50px;
-  border-radius: inherit;
-  background: #c10c94;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.pink-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.blue-btn:before,
+.stack-btn.blue-btn:after {
+  background-color: #1fa5d6;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.blue-btn:before {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: inherit;
-  background: #1fa5d6;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.blue-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.blue-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.blue-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.green-btn {
+  background-color: #328f4a;
   height: 50px;
   width: 50px;
-  border-radius: inherit;
-  background: #1fa5d6;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.blue-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.green-btn:before,
+.stack-btn.green-btn:after {
+  background-color: #328f4a;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.green-btn:before {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: inherit;
-  background: #328f4a;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.green-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.green-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.green-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.yellow-btn {
+  background-color: #f7da22;
   height: 50px;
   width: 50px;
-  border-radius: inherit;
-  background: #328f4a;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.green-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.yellow-btn:before,
+.stack-btn.yellow-btn:after {
+  background-color: #f7da22;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.yellow-btn:before {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: inherit;
-  background: #f7da22;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.yellow-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.yellow-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.yellow-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.orange-btn {
+  background-color: #f06400;
   height: 50px;
   width: 50px;
-  border-radius: inherit;
-  background: #f7da22;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.yellow-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.orange-btn:before,
+.stack-btn.orange-btn:after {
+  background-color: #f06400;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.orange-btn:before {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: inherit;
-  background: #f06400;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.orange-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.orange-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.orange-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.red-btn {
+  background-color: #cf0837;
   height: 50px;
   width: 50px;
-  border-radius: inherit;
-  background: #f06400;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.orange-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.red-btn:before,
+.stack-btn.red-btn:after {
+  background-color: #cf0837;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.red-btn:before {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: inherit;
-  background: #cf0837;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.red-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.red-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.red-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.purple-btn {
+  background-color: #4c2291;
   height: 50px;
   width: 50px;
-  border-radius: inherit;
-  background: #cf0837;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.red-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.purple-btn:before,
+.stack-btn.purple-btn:after {
+  background-color: #4c2291;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.purple-btn:before {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: inherit;
-  background: #4c2291;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.purple-btn:after {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: inherit;
-  background: #4c2291;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
+  z-index: -2;
   opacity: 0.3;
+  top: 0;
 }
-.stack-btn.purple-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.purple-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
 }
-.stack-btn.black-btn:before {
-  content: "";
+.stack-btn.purple-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.black-btn {
+  background-color: #000;
   height: 50px;
   width: 50px;
-  border-radius: inherit;
-  background: #000;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
+  transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
+}
+.stack-btn.black-btn:before,
+.stack-btn.black-btn:after {
+  background-color: #000;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.stack-btn.black-btn:before {
+  opacity: 0.95;
+  z-index: -1;
 }
 .stack-btn.black-btn:after {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: inherit;
-  background: #000;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
+  z-index: -2;
   opacity: 0.3;
+  top: 0;
 }
-.stack-btn.black-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.black-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.black-btn:hover:after {
+  transform: translate(-15px, 15px);
 }
 .stack-btn.white-btn {
   color: #000;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
 .stack-btn.white-btn:before,
 .stack-btn.white-btn:after {
   border: #000 solid 2px !important;
 }
-.stack-btn.white-btn:before {
-  content: "";
-  height: 50px;
-  width: 50px;
+.stack-btn.white-btn:before,
+.stack-btn.white-btn:after {
+  background-color: #fff;
   border-radius: inherit;
-  background: #fff;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
+  content: "";
   transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.stack-btn.white-btn:before {
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.white-btn:after {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: inherit;
-  background: #fff;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
+  z-index: -2;
   opacity: 0.3;
+  top: 0;
 }
-.stack-btn.white-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.white-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.white-btn:hover:after {
+  transform: translate(-15px, 15px);
 }
 .stack-btn.block-btn {
+  display: flex;
   font-size: 25px;
-  margin: 2rem 0;
+  margin: 2rem auto;
+}
+.stack-btn.block-btn.pink-btn {
+  background-color: #c10c94;
+  height: 40px;
+  width: 120px;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
+}
+.stack-btn.block-btn.pink-btn:before,
+.stack-btn.block-btn.pink-btn:after {
+  background-color: #c10c94;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.block-btn.pink-btn:before {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #c10c94;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.block-btn.pink-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.block-btn.pink-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.block-btn.pink-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.block-btn.blue-btn {
+  background-color: #1fa5d6;
   height: 40px;
   width: 120px;
-  border-radius: inherit;
-  background: #c10c94;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.block-btn.pink-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.block-btn.blue-btn:before,
+.stack-btn.block-btn.blue-btn:after {
+  background-color: #1fa5d6;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.block-btn.blue-btn:before {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #1fa5d6;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.block-btn.blue-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.block-btn.blue-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.block-btn.blue-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.block-btn.green-btn {
+  background-color: #328f4a;
   height: 40px;
   width: 120px;
-  border-radius: inherit;
-  background: #1fa5d6;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.block-btn.blue-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.block-btn.green-btn:before,
+.stack-btn.block-btn.green-btn:after {
+  background-color: #328f4a;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.block-btn.green-btn:before {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #328f4a;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.block-btn.green-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.block-btn.green-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.block-btn.green-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.block-btn.yellow-btn {
+  background-color: #f7da22;
   height: 40px;
   width: 120px;
-  border-radius: inherit;
-  background: #328f4a;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.block-btn.green-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.block-btn.yellow-btn:before,
+.stack-btn.block-btn.yellow-btn:after {
+  background-color: #f7da22;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.block-btn.yellow-btn:before {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #f7da22;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.block-btn.yellow-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.block-btn.yellow-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.block-btn.yellow-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.block-btn.orange-btn {
+  background-color: #f06400;
   height: 40px;
   width: 120px;
-  border-radius: inherit;
-  background: #f7da22;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.block-btn.yellow-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.block-btn.orange-btn:before,
+.stack-btn.block-btn.orange-btn:after {
+  background-color: #f06400;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.block-btn.orange-btn:before {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #f06400;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.block-btn.orange-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.block-btn.orange-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.block-btn.orange-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.block-btn.red-btn {
+  background-color: #cf0837;
   height: 40px;
   width: 120px;
-  border-radius: inherit;
-  background: #f06400;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.block-btn.orange-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.block-btn.red-btn:before,
+.stack-btn.block-btn.red-btn:after {
+  background-color: #cf0837;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.block-btn.red-btn:before {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #cf0837;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.block-btn.red-btn:after {
-  content: "";
+  z-index: -2;
+  opacity: 0.3;
+  top: 0;
+}
+.stack-btn.block-btn.red-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.block-btn.red-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.block-btn.purple-btn {
+  background-color: #4c2291;
   height: 40px;
   width: 120px;
-  border-radius: inherit;
-  background: #cf0837;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
-  opacity: 0.3;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
-.stack-btn.block-btn.red-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.block-btn.purple-btn:before,
+.stack-btn.block-btn.purple-btn:after {
+  background-color: #4c2291;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .stack-btn.block-btn.purple-btn:before {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #4c2291;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
-  transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.block-btn.purple-btn:after {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #4c2291;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
+  z-index: -2;
   opacity: 0.3;
+  top: 0;
 }
-.stack-btn.block-btn.purple-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.block-btn.purple-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
 }
-.stack-btn.block-btn.black-btn:before {
-  content: "";
+.stack-btn.block-btn.purple-btn:hover:after {
+  transform: translate(-15px, 15px);
+}
+.stack-btn.block-btn.black-btn {
+  background-color: #000;
   height: 40px;
   width: 120px;
-  border-radius: inherit;
-  background: #000;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
+  transform: rotate(-30deg) skew(25deg);
   transition: all 0.5s;
   opacity: 0.95;
-  display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
+}
+.stack-btn.block-btn.black-btn:before,
+.stack-btn.block-btn.black-btn:after {
+  background-color: #000;
+  border-radius: inherit;
+  content: "";
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.stack-btn.block-btn.black-btn:before {
+  opacity: 0.95;
+  z-index: -1;
 }
 .stack-btn.block-btn.black-btn:after {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #000;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
+  z-index: -2;
   opacity: 0.3;
+  top: 0;
 }
-.stack-btn.block-btn.black-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.block-btn.black-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.block-btn.black-btn:hover:after {
+  transform: translate(-15px, 15px);
 }
 .stack-btn.block-btn.white-btn {
   color: #000;
+  background-color: #fff;
+  height: 40px;
+  width: 120px;
+  transform: rotate(-30deg) skew(25deg);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
 }
 .stack-btn.block-btn.white-btn:before,
 .stack-btn.block-btn.white-btn:after {
   border: #000 solid 2px !important;
 }
-.stack-btn.block-btn.white-btn:before {
-  content: "";
-  height: 40px;
-  width: 120px;
+.stack-btn.block-btn.white-btn:before,
+.stack-btn.block-btn.white-btn:after {
+  background-color: #fff;
   border-radius: inherit;
-  background: #fff;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  content: "Button";
+  content: "";
   transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.stack-btn.block-btn.white-btn:before {
   opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
 }
 .stack-btn.block-btn.white-btn:after {
-  content: "";
-  height: 40px;
-  width: 120px;
-  border-radius: inherit;
-  background: #fff;
-  position: absolute;
-  transform: rotate(-30deg) skew(25deg) translate(-10px, 10px);
-  z-index: -1;
+  z-index: -2;
   opacity: 0.3;
+  top: 0;
 }
-.stack-btn.block-btn.white-btn:hover::before {
-  transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+.stack-btn.block-btn.white-btn:hover {
+  transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+}
+.stack-btn.block-btn.white-btn:hover:after {
+  transform: translate(-15px, 15px);
 }
 .gradient-btn {
   border: none;
