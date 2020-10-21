@@ -10,7 +10,7 @@ jobs:
     name: setup environment
     runs-on: ubuntu-latest
     steps:
-      - name: mast joke mara
+      - name: greet with joke
         uses: deep5050/MastJokeMara@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
