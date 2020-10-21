@@ -1390,6 +1390,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "I3han",
+      "name": "Ishan Avishka",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/49125943?v=4",
+      "profile": "https://www.linkedin.com/in/ishan-avishka-726a65131/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

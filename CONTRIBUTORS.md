@@ -191,6 +191,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/Yasas4D"><img src="https://avatars0.githubusercontent.com/u/49401137?v=4" width="100px;" alt=""/><br /><sub><b>Yasas Sandeepa</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Yasas4D" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/someoneisyes"><img src="https://avatars3.githubusercontent.com/u/60699076?v=4" width="100px;" alt=""/><br /><sub><b>NaratGutz</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=someoneisyes" title="Code">💻</a> <a href="#ideas-someoneisyes" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://kcbaluyot.com"><img src="https://avatars2.githubusercontent.com/u/46494300?v=4" width="100px;" alt=""/><br /><sub><b>vinbaluyot</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=vinbaluyot" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Avinbaluyot" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ishan-avishka-726a65131/"><img src="https://avatars3.githubusercontent.com/u/49125943?v=4" width="100px;" alt=""/><br /><sub><b>Ishan Avishka</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=I3han" title="Code">💻</a></td>
   </tr>
 </table>
 
