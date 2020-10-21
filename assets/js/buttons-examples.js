@@ -165,6 +165,11 @@ $(document).ready(function () {
           label: "Transparent On Hover",
           classes: "transparent-btn",
         },
+        {
+          type: "papercurl",
+          label: "Paper Curl",
+          classes: "papercurl-btn",
+        },
       ],
     },
     {
