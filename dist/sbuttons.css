@@ -420,128 +420,119 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.pink-btn {
   border-top: 2px solid #d53caf;
   background-color: #d53caf;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #7c1f65;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #7c1f65;
-  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #7c1f65;
+  -moz-box-shadow: inset 0 1px 0 #d53caf, 0 10px 0 #7c1f65;
+  -webkit-box-shadow: inset 0 1px 0 #d53caf, 0 10px 0 #7c1f65;
 }
 .key-btn.pink-btn:active {
   top: 10px;
   background-color: #d53caf;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #7c1f65;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #7c1f65;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #7c1f65;
+  -webkit-box-shadow: inset 0 1px 0 #d53caf, inset 0 -3px 0 #7c1f65;
+  -moz-box-shadow: inset 0 1px 0 #d53caf, inset 0 -3pxpx 0 #7c1f65;
+  box-shadow: inset 0 1px 0 #d53caf, inset 0 -3px 0 #7c1f65;
 }
 .key-btn.blue-btn {
   border-top: 2px solid #50bfe6;
   background-color: #50bfe6;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #387d96;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #387d96;
-  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #387d96;
+  -moz-box-shadow: inset 0 1px 0 #50bfe6, 0 10px 0 #387d96;
+  -webkit-box-shadow: inset 0 1px 0 #50bfe6, 0 10px 0 #387d96;
 }
 .key-btn.blue-btn:active {
   top: 10px;
   background-color: #50bfe6;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #387d96;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #387d96;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #387d96;
+  -webkit-box-shadow: inset 0 1px 0 #50bfe6, inset 0 -3px 0 #387d96;
+  -moz-box-shadow: inset 0 1px 0 #50bfe6, inset 0 -3pxpx 0 #387d96;
+  box-shadow: inset 0 1px 0 #50bfe6, inset 0 -3px 0 #387d96;
 }
 .key-btn.red-btn {
   border-top: 2px solid #ed0a3f;
   background-color: #ed0a3f;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #80122b;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #80122b;
-  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #80122b;
+  -moz-box-shadow: inset 0 1px 0 #ed0a3f, 0 10px 0 #80122b;
+  -webkit-box-shadow: inset 0 1px 0 #ed0a3f, 0 10px 0 #80122b;
 }
 .key-btn.red-btn:active {
   top: 10px;
   background-color: #ed0a3f;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #80122b;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #80122b;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #80122b;
+  -webkit-box-shadow: inset 0 1px 0 #ed0a3f, inset 0 -3px 0 #80122b;
+  -moz-box-shadow: inset 0 1px 0 #ed0a3f, inset 0 -3pxpx 0 #80122b;
+  box-shadow: inset 0 1px 0 #ed0a3f, inset 0 -3px 0 #80122b;
 }
 .key-btn.green-btn {
   border-top: 2px solid #3aa655;
   background-color: #3aa655;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #1d5c2d;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #1d5c2d;
-  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #1d5c2d;
+  -moz-box-shadow: inset 0 1px 0 #3aa655, 0 10px 0 #1d5c2d;
+  -webkit-box-shadow: inset 0 1px 0 #3aa655, 0 10px 0 #1d5c2d;
 }
 .key-btn.green-btn:active {
   top: 10px;
   background-color: #3aa655;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #1d5c2d;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #1d5c2d;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #1d5c2d;
+  -webkit-box-shadow: inset 0 1px 0 #3aa655, inset 0 -3px 0 #1d5c2d;
+  -moz-box-shadow: inset 0 1px 0 #3aa655, inset 0 -3pxpx 0 #1d5c2d;
+  box-shadow: inset 0 1px 0 #3aa655, inset 0 -3px 0 #1d5c2d;
 }
 .key-btn.yellow-btn {
   border-top: 2px solid #fbe870;
   background-color: #fbe870;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #dbb81d;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #dbb81d;
-  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #dbb81d;
+  -moz-box-shadow: inset 0 1px 0 #fbe870, 0 10px 0 #dbb81d;
+  -webkit-box-shadow: inset 0 1px 0 #fbe870, 0 10px 0 #dbb81d;
 }
 .key-btn.yellow-btn:active {
   top: 10px;
   background-color: #fbe870;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #dbb81d;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #dbb81d;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #dbb81d;
+  -webkit-box-shadow: inset 0 1px 0 #fbe870, inset 0 -3px 0 #dbb81d;
+  -moz-box-shadow: inset 0 1px 0 #fbe870, inset 0 -3pxpx 0 #dbb81d;
+  box-shadow: inset 0 1px 0 #fbe870, inset 0 -3px 0 #dbb81d;
 }
 .key-btn.orange-btn {
   border-top: 2px solid #ff8833;
   background-color: #ff8833;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #a75215;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #a75215;
-  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #a75215;
+  -moz-box-shadow: inset 0 1px 0 #ff8833, 0 10px 0 #a75215;
+  -webkit-box-shadow: inset 0 1px 0 #ff8833, 0 10px 0 #a75215;
 }
 .key-btn.orange-btn:active {
   top: 10px;
   background-color: #ff8833;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #a75215;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #a75215;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #a75215;
+  -webkit-box-shadow: inset 0 1px 0 #ff8833, inset 0 -3px 0 #a75215;
+  -moz-box-shadow: inset 0 1px 0 #ff8833, inset 0 -3pxpx 0 #a75215;
+  box-shadow: inset 0 1px 0 #ff8833, inset 0 -3px 0 #a75215;
 }
 .key-btn.purple-btn {
   border-top: 2px solid #652dc1;
   background-color: #652dc1;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #341368;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #341368;
-  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #341368;
+  -moz-box-shadow: inset 0 1px 0 #652dc1, 0 10px 0 #341368;
+  -webkit-box-shadow: inset 0 1px 0 #652dc1, 0 10px 0 #341368;
 }
 .key-btn.purple-btn:active {
   top: 10px;
   background-color: #652dc1;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #341368;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #341368;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #341368;
+  -webkit-box-shadow: inset 0 1px 0 #652dc1, inset 0 -3px 0 #341368;
+  -moz-box-shadow: inset 0 1px 0 #652dc1, inset 0 -3pxpx 0 #341368;
+  box-shadow: inset 0 1px 0 #652dc1, inset 0 -3px 0 #341368;
 }
 .key-btn.black-btn {
   border-top: 2px solid #686363;
   background-color: #686363;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #2c2828;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #2c2828;
-  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #2c2828;
+  -moz-box-shadow: inset 0 1px 0 #686363, 0 10px 0 #2c2828;
+  -webkit-box-shadow: inset 0 1px 0 #686363, 0 10px 0 #2c2828;
 }
 .key-btn.black-btn:active {
   top: 10px;
   background-color: #686363;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #2c2828;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #2c2828;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #2c2828;
+  -webkit-box-shadow: inset 0 1px 0 #686363, inset 0 -3px 0 #2c2828;
+  -moz-box-shadow: inset 0 1px 0 #686363, inset 0 -3pxpx 0 #2c2828;
+  box-shadow: inset 0 1px 0 #686363, inset 0 -3px 0 #2c2828;
 }
 .key-btn.white-btn {
   border-top: 2px solid #fdf4f4;
   background-color: #fdf4f4;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #bdb6b6;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #bdb6b6;
-  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #bdb6b6;
+  -moz-box-shadow: inset 0 1px 0 #fdf4f4, 0 10px 0 #bdb6b6;
+  -webkit-box-shadow: inset 0 1px 0 #fdf4f4, 0 10px 0 #bdb6b6;
 }
 .key-btn.white-btn:active {
   top: 10px;
   background-color: #fdf4f4;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #bdb6b6;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #bdb6b6;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #bdb6b6;
+  -webkit-box-shadow: inset 0 1px 0 #fdf4f4, inset 0 -3px 0 #bdb6b6;
+  -moz-box-shadow: inset 0 1px 0 #fdf4f4, inset 0 -3pxpx 0 #bdb6b6;
+  box-shadow: inset 0 1px 0 #fdf4f4, inset 0 -3px 0 #bdb6b6;
 }
 .key-btn.rounded-btn {
   border-radius: 30px;
