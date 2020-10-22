@@ -1,4 +1,10 @@
 $(document).ready(function () {
+  var sidebar = $(".sidebar-list");
+  var content = $("#content");
+  if (!sidebar.length || !content.length) {
+    return;
+  }
+
   //default button class
   var defaultClass = "sbtn";
   //button color variations
@@ -636,9 +642,6 @@ $(document).ready(function () {
       ],
     },
   ];
-
-  var sidebar = $(".sidebar-list"),
-    content = $("#content");
 
   /**
    * getButttonHtml generates the required html for each button to be rendered
