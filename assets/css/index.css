@@ -388,6 +388,8 @@ button.clipboard:focus {
   color: white;
   font-family: Syne, sans-serif;
   display: inline-block;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
 .content .sbtn.transparent-btn {
