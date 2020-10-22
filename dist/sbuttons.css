@@ -2456,6 +2456,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .splash-btn {
   outline: none;
+  border: none;
   color: #fff;
   cursor: pointer;
   position: relative;
