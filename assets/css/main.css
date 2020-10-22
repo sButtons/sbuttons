@@ -22,41 +22,48 @@
 }
 .sidebar {
   padding-left: 2vw;
-  background-color: skyblue;
   display: flex;
+  height: 90vh;
   flex-direction: column;
-  background-color: transparent;
-  z-index: 10;
+  z-index: 11;
 }
 
 .height-shift {
-  height: calc(90vh - 200px);
+  padding-bottom: 200px;
 }
 .sidebar.scrolling {
+  background-color: var(--main-color-light);
   position: fixed;
-  width: calc(100vw / 12 * 3);
+  width: calc(100vw / 12 * 3 - 0.333vw);
   top: 10vh;
 }
 .sidebar a {
+  color: #f2f3f4;
   position: relative;
   text-decoration: none;
   width: fit-content;
   margin-bottom: 5px;
   white-space: nowrap;
 }
+
+.sidebar.scrolling a {
+  color: #ffffff;
+}
+
 .sidebar a:before {
   position: absolute;
   left: 0;
   height: 2px;
   width: 0;
-  background-color: var(--main-color);
+  background-color: rgb(255, 138, 230);
   transition: all 0.3s;
   content: " ";
   bottom: 0;
 }
+
 .sidebar a:hover,
 .sidebar a.active {
-  color: #333;
+  color: rgb(255, 138, 230);
   text-decoration: none;
 }
 .sidebar a:hover:before,
@@ -66,14 +73,17 @@
 .sidebar .submenu-links {
   margin-left: 10px;
 }
-.sidebar .submenu-links:not(.show) {
-  display: none;
-}
 .sidebar a:not(.submenu-link) {
   color: #333;
+  font-size: 20px;
 }
+
+.sidebar.scrolling a:not(.submenu-link) {
+  color: #dfffdf;
+}
+
 .sidebar .submenu-link {
-  color: #636363;
+  color: #333;
   display: block;
 }
 .sidebar-toggler {
@@ -117,11 +127,6 @@
   background: var(--main-color);
 }
 
-[data-theme="dark"] .sidebar {
-  background-color: var(--dark-color);
-  color: #ffffff;
-}
-
 .navbar .sidebar-toggler,
 .close-sidebar {
   outline: none !important;
@@ -131,7 +136,7 @@
 @media screen and (min-width: 768px) {
   .sidebar-list,
   .instructions-sidebar {
-    max-height: 80vh;
+    max-height: 90vh;
     padding-right: 20px;
   }
 }
@@ -228,10 +233,9 @@
 button.clipboard {
   color: var(--main-color);
   border-radius: 4px;
+  height: 100%;
+  width: 100%;
   border: transparent;
-  padding: 5px;
-  margin: 5px;
-  justify-items: right;
   background-color: transparent;
   cursor: pointer;
 }
@@ -241,7 +245,7 @@ button.clipboard:hover {
 }
 button.clipboard:after {
   content: "\f328";
-  font-size: 15px;
+  font-size: 1.3em;
   vertical-align: bottom;
   font-family: "Font Awesome 5 Free", serif;
 }

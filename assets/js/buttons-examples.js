@@ -511,9 +511,6 @@ $(document).ready(function () {
       for (var j = 0; j < button.children.length; j++) {
         var childSection = createSection(button.children[j], false);
         childSection.appendTo(section);
-        if (j !== 0) {
-          childSection.before('<hr class="secondary-hr">');
-        }
         submenu.append(
           getMenuLinkHtml(
             button.children[j].type,

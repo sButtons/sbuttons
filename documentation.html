@@ -5,7 +5,7 @@
   <title>sButtons - Simple and Creative Buttons</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png  " href="favicon.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -111,64 +111,26 @@
           <div class="instructions-sidebar">
             <a href="#install" class="install has-children-links">Installation</a>
             <div class="submenu-links">
-              <a href="#downloadcss" class="submenu-link" onclick="openTab('downloadcss')">Download CSS File</a>
-              <a href="#cdn" class="submenu-link" onclick="openTab('cdn')">Install with CDN</a>
-              <a href="#npm" class="submenu-link" onclick="openTab('npm')">Install with NPM</a>
+              <a href="#downloadcss" class="submenu-link"">Download CSS File</a>
+              <a href="#cdn" class="submenu-link">Install with CDN</a>
+              <a href="#npm" class="submenu-link">Install with NPM</a>
             </div>
 
             <a href="#usage" class="usage has-children-links">Usage</a>
             <div class="submenu-links">
-              <a href="#modify" class="submenu-link" onclick="openTab('modify')">Modify Button Colors</a>
-              <a href="#basic" class="submenu-link" onclick="openTab('basic')">Basic Button</a>
-              <a href="#block" class="submenu-link" onclick="openTab('block')">Block Button</a>
-              <a href="#disabled" class="submenu-link" onclick="openTab('disabled')">Disabled Button</a>
-              <a href="#icon" class="submenu-link" onclick="openTab('icon')">Icon Button</a>
+              <a href="#modify" class="submenu-link">Modify Button Colors</a>
+              <a href="#basic" class="submenu-link">Basic Button</a>
+              <a href="#block" class="submenu-link">Block Button</a>
+              <a href="#disabled" class="submenu-link" >Disabled Button</a>
+              <a href="#base" class="submenu-link">Base Icon Button</a>
             </div>
 
-            <a href="#base-icon-btn" class="base-icon has-children-links">Base Icon Button</a>
-            <div class="submenu-links">
-              <!-- base icon submenu linsk -->
-              <a href="#base" class="base has-children-links">Base button</a>
-              <div class="submenu-links">
-                <a href="#left-icon-base" class="submenu-link" onclick="openTab('left-icon-base')">Base button left</a>
-                <a href="#icon-center-base" class="submenu-link" onclick="openTab('icon-center-base')">Base button
-                  center</a>
-                <a href="#right-icon-base" class="submenu-link" onclick="openTab('right-icon-base')">Base button
-                  right</a>
-              </div>
-              <!-- base icon submenu links -->
-
-              <!-- rounded button submenu links go here -->
-              <a href="#rounded" class="rounded has-children-links">Rounded buttons</a>
-              <div class="submenu-links">
-                <a href="#left-icon-rounded" class="submenu-link" onclick="openTab('left-icon-rounded')">Rounded button
-                  left</a>
-                <a href="#icon-center-rounded" class="submenu-link" onclick="openTab('icon-center-rounded')">Rounded
-                  button center</a>
-                <a href="#right-icon-rounded" class="submenu-link" onclick="openTab('right-icon-rounded')">Rounded
-                  button right</a>
-              </div>
-              <!-- rounded button submenu links go here -->
-
-              <!-- block button submenu links go here -->
-              <a href="#block" class="block has-children-links">Block buttons</a>
-              <div class="submenu-links">
-                <a href="#left-icon-block" class="submenu-link" onclick="openTab('left-icon-block')">Block button
-                  left</a>
-                <a href="#icon-center-block" class="submenu-link" onclick="openTab('icon-center-block')">Block button
-                  center</a>
-                <a href="#right-icon-block" class="submenu-link" onclick="openTab('right-icon-block')">Block button
-                  right</a>
-              </div>
-              <!-- block button submenu links go -->
-            </div>
           </div>
         </div>
       </div>
       <div class="col col-md-9 col-12">
         <section class="instruction-block" id="downloadcss">
           <h2>Download CSS File</h2>
-          <hr class="secondary-hr" />
           <div class="text">
             You can download the CSS file
             <a href="#" id="downloadGithubRawHowTo" class="cssLink" target="blank">here</a> and then add it to your
@@ -194,7 +156,7 @@
         </section>
         <section class="instruction-block" id="cdn">
           <h2>CDN</h2>
-          <hr class="secondary-hr" />
+           
           <div class="text">
             Or instead of downloading the file, you can use the CDN
           </div>
@@ -220,13 +182,13 @@
         </section>
         <section class="instruction-block" id="npm">
           <h2>NPM</h2>
-          <hr class="secondary-hr" />
+           
           <div class="text">
             You can install sButtons using NPM:
           </div>
           <div class="code-block-container">
             <div class="script-copy">
-              <pre><code class="language-markup">npm i sbuttons</code></pre>
+              <pre><code class="language-shell">npm i sbuttons</code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
           </div>
@@ -237,7 +199,7 @@
         </section>
         <section class="instruction-block" id="modify">
           <h2>Modifying Button Colors</h2>
-          <hr class="secondary-hr" />
+           
           <div class="text">
             <p>To modify button colors, import <span class="code-text">src/sbuttons.less</span> in your Less file,
               then make changes to the variables after the import.</p>
@@ -245,8 +207,11 @@
           </div>
           <div class="code-block-container">
             <div class="script-copy">
-              <pre><code class="language-markup">import '/path/to/sbuttons.less';</code></pre>
-              <pre><code class="language-markup">@blue: #54a2bd; /* Make it darker */</code></pre>
+              <pre><code class="language-javascript">import '/path/to/sbuttons.less';</code></pre>
+              <div class="div-copy"><button class="clipboard"></button></div>
+            </div>
+            <div class="script-copy">
+              <pre><code class="language-less">@blue: #54a2bd; /* Make it darker */</code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
           </div>
@@ -259,7 +224,7 @@
         <section class="instruction-block" id="basic">
           <h2 class="display-inlineBlock">Basic Button</h2>
           <button class="sbtn basic-btn blue-btn display-inlineBlock margin-left--half">Button</button>
-          <hr class="secondary-hr" />
+           
           <div class="text">
             To use sButtons in your project, just add the classes of sButton you want to either
             <span class="code-text">&lt;button&gt;</span>
@@ -282,7 +247,7 @@
         <section class="instruction-block" id="block">
           <h2>Block Buttons</h2>
           <button class="sbtn basic-btn blue-btn block-btn">Button</button>
-          <hr class="secondary-hr" />
+           
           <div class="text">
             To use sButtons with block display, add the class to either <span class="code-text">&lt;button&gt;</span> or
             <span class="code-text">&lt;a&gt;</span> tags
@@ -299,7 +264,7 @@
         <section class="instruction-block" id="disabled">
           <h2 class="display-inlineBlock">Disabled Buttons</h2>
           <button class="sbtn basic-btn blue-btn disabled-btn display-inlineBlock margin-left--half">Button</button>
-          <hr class="secondary-hr" />
+           
           <div class="text">
             To make a <span class="code-text">&lt;button&gt;</span> or <span class="code-text">&lt;a&gt;</span> tag
             disabled, add disabled-btn class as shown below.
@@ -307,24 +272,10 @@
           <div class="code-block-container">
             <div class="script-copy">
               <pre><code class="language-markup">&lt;button class="sbtn basic-btn blue-btn disabled-btn"&gt;Button&lt;/button&gt;</code></pre>
-              <pre><code class="language-markup">&lt;a class="sbtn basic-btn blue-btn disabled-btn"&gt;Button&lt;/a&gt;</code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
-          </div>
-          <br />
-        </section>
-        <section class="instruction-block" id="icon">
-          <h2 class="display-inlineBlock">Icon Buttons</h2>
-          <button class="sbtn add-to-cart-btn blue-btn display-inlineBlock margin-left--half">Button</button>
-          <hr class="secondary-hr" />
-          <div class="text">
-            In case of using buttons that have icons in them, make sure to include font awesome's <a
-              href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">CDN</a> in the <span
-              class="code-text">&lt;head&gt;</span> tag:
-          </div>
-          <div class="code-block-container">
             <div class="script-copy">
-              <pre><code class="language-markup">&lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"&gt;</code></pre>
+              <pre><code class="language-markup">&lt;a class="sbtn basic-btn blue-btn disabled-btn"&gt;Button&lt;/a&gt;</code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
           </div>
@@ -341,223 +292,24 @@
             icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
           </div>
           <br />
+          <h4 class="display-inlineBlock">Base button</h4>
+          <button class="sbtn base-icon-btn">
+            <i class="fas fa-book"></i>
+          </button>
           <div class="text">
-            <h2 class="display-inlineBlock">Base button</h2>
-            <button class="sbtn base-icon-btn">
+            The <code>base-icon-btn</code> class, gives you a default button with no background color and a
+            border. You can choose to style it by adding, some of the other available classes, like
+            <code>btn-orange</code> to change the background color, and <code>icon-right</code> to position the
+            icon in the button. You can make use of it, by copying the sinppet below.
+            <br><br>
+            <button class="sbtn base-icon-btn orange-btn icon-right">
+              Something like this
               <i class="fas fa-book"></i>
             </button>
-            <div class="text">
-              The <code>base-icon-btn</code> class, gives you a default button with no background color and a
-              border. You can choose to style it by adding, some of the other available classes, like
-              <code>btn-orange</code> to change the background color, and <code>icon-right</code> to position the
-              icon in the button. You can make use of it, by copying the sinppet below.
-            </div>
-          </div>
-          <br />
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn"&gt;base icon button&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </section>
-        <section class="instruction-block" id="left-icon-base">
-          <div class="text">
-            <h2 class="display-inlineBlock">Left icon button</h2>
-            <button class="sbtn base-icon-btn left-icon orange-btn">
-              <i class="fab fa-github"></i>
-              left icon
-            </button>
-            <br />
-            <div class="text">
-              Adding the <code>left-icon</code> and <code>orange-btn</code> class gives you a button with an orange
-              backround and an icon that is on the left.
-              Copy the snippet below to try it out.
-            </div>
           </div>
           <div class="code-block-container">
             <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-left orange-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;left icon&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </section>
-        <section class="instruction-block" id="icon-center-base">
-          <div class="text">
-            <h2 class="display-inlineBlock">Icon center button</h2>
-            <button class="sbtn base-icon-btn orange-btn">
-              <i class="fab fa-github"></i>
-            </button>
-            <div class="text">
-              The default style of the "base icon button" places any fontawesome icon nested inside the button at
-              the center, so no need of adding any additional classes like <code>right-icon</code> or
-              <code>icon-left</code>
-              Copy the snippet below to try it out.
-            </div>
-          </div>
-          <br />
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn orange-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </section>
-        <section class="instruction-block" id="right-icon-base">
-          <div class="text">
-            <h2 class="display-inlineBlock">Right icon button</h2>
-            <button class="sbtn base-icon-btn icon-right orange-btn">
-              right icon
-              <i class="fab fa-github"></i>
-            </button>
-            <br />
-            <div class="text">
-              Adding the <code>right-icon</code> and <code>orange-btn</code> class gives you a button with an orange
-              backround and an icon that is on the right.
-              Copy the snippet below to try it out.
-            </div>
-          </div>
-          <br />
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-right orange-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;right icon&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </section>
-        <section class="instruction-block" id="left-icon-rounded">
-          <div class="text">
-            <h2 class="display-inlineBlock">Left icon rounded button</h2>
-            <button class="sbtn base-icon-btn left-icon purple-btn rounded-btn">
-              <i class="fab fa-github"></i>
-              right icon rounded
-            </button>
-            <br />
-            <div class="text">
-              Adding the <code>left-icon</code>, <code>rounded-btn</code> and <code>purple-btn</code> class gives
-              you a button with a purple backround and an icon that is on the left.
-              Copy the snippet below to try it out.
-            </div>
-          </div>
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-left purple-btn rounded-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;left icon&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </section>
-        <section class="instruction-block" id="icon-center-rounded">
-          <div class="text">
-            <h2 class="display-inlineBlock">Icon center button</h2>
-            <button class="sbtn base-icon-btn purple-btn rounded-btn">
-              <i class="fab fa-github"></i>
-            </button>
-            <br />
-            <div class="text">
-              The default style of the "base icon button" places any fontawesome icon nested inside the button at
-              the center, so no need of adding any additional classes like <code>right-icon</code> or
-              <code>icon-left</code>
-              Copy the snippet below to try it out.
-            </div>
-          </div>
-          <br />
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn purple-btn rounded-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </section>
-        <section class="instruction-block" id="right-icon-rounded">
-          <div class="text">
-            <h2 class="display-inlineBlock">Right icon rounded button</h2>
-            <button class="sbtn base-icon-btn icon-right rounded-btn purple-btn">
-              right icon rounded
-              <i class="fab fa-github"></i>
-            </button>
-            <br />
-            <div class="text">
-              Adding the <code>right-icon</code>, <code>rounded-btn</code> and <code>purple-btn</code> class gives
-              you a round sided button with a purple backround and an icon that is on the right.
-              Copy the snippet below to try it out.
-            </div>
-          </div>
-          <br />
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-right rounded-btn purple-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;right icon&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </section>
-        <section class="instruction-block" id="left-icon-block">
-          <h2 class="display-block" id="block">Block Buttons</h2>
-          <div class="text">
-            The <code>block-btn</code> class gives you a button whose width takes up the width of the parent
-            element/container.
-            Check below to see examples of how to use it.
-          </div>
-          <br />
-          <div class="text">
-            <h2 class="display-inlineBlock">Left icon button</h2>
-            <button class="sbtn base-icon-btn left-icon green-btn block-btn">
-              <i class="fab fa-github"></i>
-              left icon block
-            </button>
-            <br />
-            <div class="text">
-              Adding the <code>left-icon</code>, <code>block-btn</code> and <code>green-btn</code> class gives you a
-              button with a green backround and an icon that is on the left.
-              Copy the snippet below to try it out.
-            </div>
-          </div>
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-left green-btn block-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;left icon&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </section>
-        <section class="instruction-block" id="icon-center-block">
-          <div class="text">
-            <h2 class="display-inlineBlock">Icon center button</h2>
-            <button class="sbtn base-icon-btn green-btn block-btn">
-              <i class="fab fa-github"></i>
-            </button>
-            <br />
-            <div class="text">
-              The default style of the "base icon button" places any fontawesome icon nested inside the button at
-              the center, so no need of adding any additional classes like <code>right-icon</code> or
-              <code>icon-left</code>
-              Copy the snippet below to try it out.
-            </div>
-          </div>
-          <br />
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn green-btn block-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </section>
-        <section class="instruction-block" id="right-icon-block">
-          <div class="text">
-            <h2 class="display-inlineBlock">Right icon block button</h2>
-            <button class="sbtn base-icon-btn icon-right block-btn green-btn">
-              right icon block
-              <i class="fab fa-github"></i>
-            </button>
-            <br />
-            <div class="text">
-              Adding the <code>right-icon</code>, <code>block-btn</code> and <code>green-btn</code> class gives you
-              a rectangular button with a purple backround and an icon that is on the right.
-              Copy the snippet below to try it out.
-            </div>
-          </div>
-          <br />
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-right block-btn green-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;right icon&lt;/button&gt;</code></pre>
+              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-right orange-btn"&gt;Something like this&lt;i class="fas fa-book"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
           </div>
@@ -591,7 +343,6 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/buttons-examples.js"></script>
   <script src="assets/js/index.js"></script>
-  <!-- <script src="assets/js/app.js"></script> -->
 </body>
 
 </html>
