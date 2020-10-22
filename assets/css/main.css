@@ -1,12 +1,41 @@
+.main-content {
+  padding: 0 0%;
+  width: 100%;
+}
+
+.main-content > .row {
+  margin: 0;
+}
+
+.main-head {
+  height: 15vh;
+  width: 100%;
+  text-align: center;
+}
+
+.main-head h1 {
+  font-size: 4rem;
+}
+
+.sidebar-div {
+  padding: 0;
+}
 .sidebar {
+  padding-left: 2vw;
+  background-color: skyblue;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: transparent;
   z-index: 10;
+}
+
+.height-shift {
+  height: calc(90vh - 200px);
 }
 .sidebar.scrolling {
   position: fixed;
-  top: 90px;
+  width: calc(100vw / 12 * 3);
+  top: 10vh;
 }
 .sidebar a {
   position: relative;
@@ -47,21 +76,16 @@
   color: #636363;
   display: block;
 }
-.navbar .sidebar-toggler {
+.sidebar-toggler {
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
-.navbar.scrolling .sidebar-toggler {
+.sidebar-toggler {
   color: var(--main-color);
 }
-.navbar:not(.scrolling) .sidebar-toggler {
+.sidebar-toggler {
   color: #fff;
-}
-
-.shade {
-  opacity: 0%;
-  transition: opacity 0.2s;
 }
 
 .sidebar-list,

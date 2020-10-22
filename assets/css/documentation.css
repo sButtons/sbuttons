@@ -51,13 +51,3 @@ body {
 .margin-left--half {
   margin-left: 0.5rem;
 }
-
-.getStarted-head {
-  height: 15vh;
-  width: 100%;
-  text-align: center;
-}
-
-.getStarted-head h1 {
-  font-size: 2em;
-}
