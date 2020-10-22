@@ -59,19 +59,7 @@ $(document).ready(function () {
           label: "Gradient",
           classes: "gradient-btn",
         },
-        {
-          type: "outline",
-          label: "Outline",
-          classes: "outline-btn",
-
-          type: "outline",
-          label: "Outline",
-          classes: "outline-btn",
-
-          type: "outline",
-          label: "Outline",
-          classes: "outline-btn",
-        },
+       
         {
           type: "xsmall",
           label: "Extra-small",
