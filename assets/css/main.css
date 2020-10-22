@@ -34,8 +34,13 @@
 .sidebar.scrolling {
   background-color: var(--main-color-light);
   position: fixed;
-  width: calc(100vw / 12 * 3 - 0.333vw);
   top: 10vh;
+}
+
+@media (min-width: 1024px) {
+  .sidebar.scrolling {
+    width: calc(100vw / 12 * 3 - 0.333vw);
+  }
 }
 .sidebar a {
   color: #f2f3f4;
@@ -255,12 +260,19 @@ button.clipboard:focus {
 
 .nav-tabs {
   justify-content: space-evenly;
-  /* border: none; */
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
 }
 
 .tab-content {
   margin-bottom: 3rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-top: none;
+}
+
+[data-theme="dark"] .tab-content {
+  border-color: #fff;
+}
+
+[data-theme="dark"] .nav-link,
+[data-theme="dark"] .nav-link:hover {
+  color: #f2f3f4;
 }

@@ -23,10 +23,6 @@ section {
   margin-bottom: 2.5em;
 }
 
-[data-theme="dark"] .button-caption-sub {
-  color: #afafaf;
-}
-
 .button-caption-sub {
   color: #656564;
   font-family: monospace;
@@ -46,14 +42,15 @@ section {
 }
 
 .section-sub-header {
-  color: #3f3a3a;
+  color: #444343;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
-.section-sub-header .download-link {
-  color: #81b4ea;
+[data-theme="dark"] .button-caption-sub,
+[data-theme="dark"] .section-sub-header {
+  color: #e0e0e0;
 }
 
 .secondary-hr {
