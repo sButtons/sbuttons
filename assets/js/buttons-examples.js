@@ -59,7 +59,7 @@ $(document).ready(function () {
           label: "Gradient",
           classes: "gradient-btn",
         },
-       
+
         {
           type: "xsmall",
           label: "Extra-small",
