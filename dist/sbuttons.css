@@ -1421,8 +1421,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: 0px 8px 15px #a19e9e;
   background: linear-gradient(to right, #a19e9e, #fdf4f4);
 }
-.neon-border-btn {
-  color: black;
+.neon-border-btn.green-btn {
+  color: #000;
+  background-color: #39ff14;
+  box-shadow: inset 0 0 1em #39ff14, 0 0 1em #39ff14;
   background: none;
   border-radius: 0;
   padding: 1.2em 5em;
@@ -1430,12 +1432,148 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-size: 0.7em;
   transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
   margin: 1em;
-  box-shadow: inset 0 0 1em rgba(57, 255, 20), 0 0 1em rgba(57, 255, 20);
-  border: #0dd solid 2px;
+  border: #39ff14 solid 2px;
 }
-.neon-border-btn:hover {
-  background-color: #0dd;
-  box-shadow: inset 0 0 0 rgba(57, 255, 20), 0 0 1.5em rgba(57, 255, 20);
+.neon-border-btn.green-btn:hover {
+  background-color: #39ff14;
+  box-shadow: #39ff14;
+}
+.neon-border-btn.blue-btn {
+  color: #000;
+  background-color: #1fffec;
+  box-shadow: inset 0 0 1em #1fffec, 0 0 1em #1fffec;
+  background: none;
+  border-radius: 0;
+  padding: 1.2em 5em;
+  letter-spacing: 0.35em;
+  font-size: 0.7em;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  margin: 1em;
+  border: #1fffec solid 2px;
+}
+.neon-border-btn.blue-btn:hover {
+  background-color: #1fffec;
+  box-shadow: #1fffec;
+}
+.neon-border-btn.red-btn {
+  color: #000;
+  background-color: #ff013c;
+  box-shadow: inset 0 0 1em #ff013c, 0 0 1em #ff013c;
+  background: none;
+  border-radius: 0;
+  padding: 1.2em 5em;
+  letter-spacing: 0.35em;
+  font-size: 0.7em;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  margin: 1em;
+  border: #ff013c solid 2px;
+}
+.neon-border-btn.red-btn:hover {
+  background-color: #ff013c;
+  box-shadow: #ff013c;
+}
+.neon-border-btn.purple-btn {
+  color: #000;
+  background-color: #8d47ff;
+  box-shadow: inset 0 0 1em #8d47ff, 0 0 1em #8d47ff;
+  background: none;
+  border-radius: 0;
+  padding: 1.2em 5em;
+  letter-spacing: 0.35em;
+  font-size: 0.7em;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  margin: 1em;
+  border: #8d47ff solid 2px;
+}
+.neon-border-btn.purple-btn:hover {
+  background-color: #8d47ff;
+  box-shadow: #8d47ff;
+}
+.neon-border-btn.orange-btn {
+  color: #000;
+  background-color: #ff9b18;
+  box-shadow: inset 0 0 1em #ff9b18, 0 0 1em #ff9b18;
+  background: none;
+  border-radius: 0;
+  padding: 1.2em 5em;
+  letter-spacing: 0.35em;
+  font-size: 0.7em;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  margin: 1em;
+  border: #ff9b18 solid 2px;
+}
+.neon-border-btn.orange-btn:hover {
+  background-color: #ff9b18;
+  box-shadow: #ff9b18;
+}
+.neon-border-btn.yellow-btn {
+  color: #000;
+  background-color: #ffe53d;
+  box-shadow: inset 0 0 1em #ffe53d, 0 0 1em #ffe53d;
+  background: none;
+  border-radius: 0;
+  padding: 1.2em 5em;
+  letter-spacing: 0.35em;
+  font-size: 0.7em;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  margin: 1em;
+  border: #ffe53d solid 2px;
+}
+.neon-border-btn.yellow-btn:hover {
+  background-color: #ffe53d;
+  box-shadow: #ffe53d;
+}
+.neon-border-btn.pink-btn {
+  color: #000;
+  background-color: #ff2aca;
+  box-shadow: inset 0 0 1em #ff2aca, 0 0 1em #ff2aca;
+  background: none;
+  border-radius: 0;
+  padding: 1.2em 5em;
+  letter-spacing: 0.35em;
+  font-size: 0.7em;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  margin: 1em;
+  border: #ff2aca solid 2px;
+}
+.neon-border-btn.pink-btn:hover {
+  background-color: #ff2aca;
+  box-shadow: #ff2aca;
+}
+.neon-border-btn.black-btn {
+  color: #000;
+  background-color: #414141;
+  box-shadow: inset 0 0 1em #414141, 0 0 1em #414141;
+  background: none;
+  border-radius: 0;
+  padding: 1.2em 5em;
+  letter-spacing: 0.35em;
+  font-size: 0.7em;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  margin: 1em;
+  border: #414141 solid 2px;
+}
+.neon-border-btn.black-btn:hover {
+  background-color: #414141;
+  box-shadow: #414141;
+  color: #fff !important;
+}
+.neon-border-btn.white-btn {
+  color: #000;
+  background-color: #e2e2e2;
+  box-shadow: inset 0 0 1em #e2e2e2, 0 0 1em #e2e2e2;
+  background: none;
+  border-radius: 0;
+  padding: 1.2em 5em;
+  letter-spacing: 0.35em;
+  font-size: 0.7em;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  margin: 1em;
+  border: #e2e2e2 solid 2px;
+}
+.neon-border-btn.white-btn:hover {
+  background-color: #e2e2e2;
+  box-shadow: #e2e2e2;
 }
 .next-arrow-btn {
   position: relative;

@@ -59,7 +59,13 @@ $(document).ready(function () {
           label: "Gradient",
           classes: "gradient-btn",
         },
-
+        {
+          type: "neon-border",
+          label: "Neon Border",
+          text: "BUTTON",
+          classes: "neon-border-btn",
+          shouldHaveRoundedType: false,
+        },
         {
           type: "xsmall",
           label: "Extra-small",
