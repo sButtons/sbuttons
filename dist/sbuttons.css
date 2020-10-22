@@ -3533,3 +3533,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background: #1fff00;
   color: #000;
 }
+
+.button{
+  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+ width: 130px; 
+ height: 64.5px;
+}
+  .button:hover {
+
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  }
+
+ 
