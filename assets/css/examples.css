@@ -41,23 +41,15 @@ section {
   margin-left: 5px;
 }
 
-hr {
-  width: 100%;
-  border-color: rgba(27, 114, 145, 0.48);
-}
-
-.navbar .buttons {
-  vertical-align: sub;
-}
-
 .section-header {
   text-align: center;
 }
 
 .section-sub-header {
-  color: #9c9696;
+  color: #3f3a3a;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .section-sub-header .download-link {

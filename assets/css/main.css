@@ -252,3 +252,15 @@ button.clipboard:after {
 button.clipboard:focus {
   outline: 0;
 }
+
+.nav-tabs {
+  justify-content: space-evenly;
+  /* border: none; */
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
+}
+
+.tab-content {
+  margin-bottom: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+}
