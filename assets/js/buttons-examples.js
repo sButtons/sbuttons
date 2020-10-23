@@ -59,7 +59,7 @@ $(document).ready(function () {
           label: "Gradient",
           classes: "gradient-btn",
         },
-       
+
         {
           type: "xsmall",
           label: "Extra-small",
@@ -158,22 +158,22 @@ $(document).ready(function () {
         },
         {
           type: "fill-color-down",
-          label: "Fill Color - Down",
+          label: "Fill Color - Down to Up",
           classes: "fill-color-btn down-fill",
         },
         {
           type: "fill-color-left",
-          label: "Fill Color - Left",
+          label: "Fill Color - Left to Right",
           classes: "fill-color-btn",
         },
         {
           type: "fill-color-right",
-          label: "Fill Color - Right",
+          label: "Fill Color - Right to Left",
           classes: "fill-color-btn right-fill",
         },
         {
           type: "fill-color-up",
-          label: "Fill Color - Up",
+          label: "Fill Color - Up to Down",
           classes: "fill-color-btn up-fill",
         },
         {
