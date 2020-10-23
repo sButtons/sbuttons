@@ -2,14 +2,9 @@
   .neon(@col) {
     color: @black;
     background-color: @col;
-    box-shadow: inset 0 0 1em @col, 0 0 1em @col;
-    background: none;
-    border-radius: 0;
-    padding: 1.2em 5em;
-    letter-spacing: 0.35em;
-    font-size: 0.7em;
+    background: transparent;
+    box-shadow: 0 0 6px @col, 0 0 6px @col;
     transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
-    margin: 1em;
     border: @col solid 2px;
   }
 
