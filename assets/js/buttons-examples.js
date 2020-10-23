@@ -657,19 +657,19 @@ $(document).ready(function () {
               variations: [
                   {
                       classes: "denim-btn",
-                      text: "Continue",
+                      text: "Howdy",
                   },
                   {
                       classes: "choco-btn",
-                      text: "Proceed",
+                      text: "Howdy",
                   },
                   {
                       classes: "charcoal-btn",
-                      text: "Reset",
+                      text: "Howdy",
                   },
                   {
                       classes: "sand-btn",
-                      text: "Reset",
+                      text: "Howdy",
                   }
               ],
           },
