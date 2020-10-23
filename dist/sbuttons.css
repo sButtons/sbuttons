@@ -1889,6 +1889,16 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn:hover {
   color: #fff !important;
 }
+.fill-color-btn.sideways-fill:before {
+  width: 100%;
+  left: 0;
+}
+.fill-color-btn.sideways-fill:not(:hover):before {
+  left: 50%;
+}
+.fill-color-btn.sideways-fill:hover:before {
+  left: 0;
+}
 .fill-color-btn.rounded-btn {
   transition: background 0s cubic-bezier(0.39, 0.58, 0.57, 1) 0s;
 }
