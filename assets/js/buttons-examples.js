@@ -188,6 +188,11 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
+          type: "fill-color-sideways",
+          label: "Fill Color - Sideways",
+          classes: "fill-color-btn sideways-fill",
+        },
+        {
           type: "flash",
           label: "Flash",
           classes: "flash-btn",
