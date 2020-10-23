@@ -55,18 +55,6 @@ $(document).ready(function () {
           classes: "disabled-btn",
         },
         {
-          type: "gradient",
-          label: "Gradient",
-          classes: "gradient-btn",
-        },
-        {
-          type: "neon-border",
-          label: "Neon Border",
-          text: "BUTTON",
-          classes: "neon-border-btn",
-          shouldHaveRoundedType: false,
-        },
-        {
           type: "xsmall",
           label: "Extra-small",
           classes: "xsmall-btn",
@@ -77,6 +65,11 @@ $(document).ready(function () {
           label: "Extra-large",
           classes: "xlarge-btn",
           text: "Extra-large",
+        },
+        {
+          type: "gradient",
+          label: "Gradient",
+          classes: "gradient-btn",
         },
         {
           type: "glossy",
@@ -95,6 +88,13 @@ $(document).ready(function () {
           label: "Key",
           classes: "key-btn",
           text: "START",
+        },
+        {
+          type: "neon-border",
+          label: "Neon Border",
+          text: "button",
+          classes: "neon-border-btn",
+          shouldHaveRoundedType: false,
         },
         {
           type: "outline",
