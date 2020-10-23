@@ -1585,6 +1585,26 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn:not(.up-fill):not(.down-fill):hover:before {
   width: 100%;
 }
+.fill-color-btn.sideways-fill:before {
+  width: 100%;
+  left: 0;
+}
+.fill-color-btn.sideways-fill:not(:hover):before {
+  left: 50%;
+}
+.fill-color-btn.sideways-fill:hover:before {
+  left: 0;
+}
+.fill-color-btn:not(.sideways-fill):before {
+  height: 100%;
+  top: 0;
+}
+.fill-color-btn:not(.sideways-fill):not(:hover):before {
+  width: 0;
+}
+.fill-color-btn:not(.sideways-fill):hover:before {
+  width: 100%;
+}
 .fill-color-btn:hover {
   color: #fff !important;
 }
