@@ -1421,6 +1421,105 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: 0px 8px 15px #a19e9e;
   background: linear-gradient(to right, #a19e9e, #fdf4f4);
 }
+.striped-btn.blue-btn {
+  border: solid 2px #50bfe6;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #50bfe6,
+    #50bfe6 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+}
+.striped-btn.pink-btn {
+  border: solid 2px #d53caf;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #d53caf,
+    #d53caf 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+}
+.striped-btn.red-btn {
+  border: solid 2px #ed0a3f;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ed0a3f,
+    #ed0a3f 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+}
+.striped-btn.green-btn {
+  border: solid 2px #3aa655;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #3aa655,
+    #3aa655 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+}
+.striped-btn.yellow-btn {
+  border: solid 2px #fbe870;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #fbe870,
+    #fbe870 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+}
+.striped-btn.orange-btn {
+  border: solid 2px #ff8833;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ff8833,
+    #ff8833 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+}
+.striped-btn.purple-btn {
+  border: solid 2px #652dc1;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #652dc1,
+    #652dc1 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+}
+.striped-btn.black-btn {
+  border: solid 2px black;
+  color: white !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    black,
+    black 10px,
+    rgba(255, 255, 255, 0.15) 10px,
+    rgba(255, 255, 255, 0.15) 20px
+  );
+}
+.striped-btn.white-btn {
+  border: solid 2px #fff;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #fff,
+    #fff 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+}
 .next-arrow-btn {
   position: relative;
   transition: all 0.1s;

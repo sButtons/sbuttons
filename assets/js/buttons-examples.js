@@ -135,6 +135,11 @@ $(document).ready(function () {
           classes: "stack-btn",
           text: "Button",
         },
+        {
+          type: "striped",
+          label: "Striped",
+          classes: "striped-btn",
+        },
       ],
     },
     {
