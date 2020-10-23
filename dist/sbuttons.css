@@ -1585,6 +1585,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn:not(.up-fill):not(.down-fill):hover:before {
   width: 100%;
 }
+.fill-color-btn:hover {
+  color: #fff !important;
+}
 .fill-color-btn.sideways-fill:before {
   width: 100%;
   left: 0;
@@ -1594,19 +1597,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .fill-color-btn.sideways-fill:hover:before {
   left: 0;
-}
-.fill-color-btn:not(.sideways-fill):before {
-  height: 100%;
-  top: 0;
-}
-.fill-color-btn:not(.sideways-fill):not(:hover):before {
-  width: 0;
-}
-.fill-color-btn:not(.sideways-fill):hover:before {
-  width: 100%;
-}
-.fill-color-btn:hover {
-  color: #fff !important;
 }
 .fill-color-btn.rounded-btn {
   transition: background 0s cubic-bezier(0.39, 0.58, 0.57, 1) 0s;

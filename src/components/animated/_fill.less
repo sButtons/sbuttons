@@ -56,6 +56,10 @@
     }
   }
 
+  &:hover {
+    color: @lightText !important;
+  }
+
   &.sideways-fill {
     &:before {
       width: 100%;
@@ -67,25 +71,6 @@
     &:hover:before {
       left: 0;
     }
-  }
-
-  &:not(.sideways-fill) {
-    &:before {
-      height: 100%;
-      top: 0;
-    }
-
-    &:not(:hover):before {
-      width: 0;
-    }
-
-    &:hover:before {
-      width: 100%;
-    }
-  }
-
-  &:hover {
-    color: @lightText !important;
   }
 
   .colorBtn(@color) {
