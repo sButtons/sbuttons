@@ -1446,6 +1446,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "MorganGodden",
+      "name": "Morgan Rose Godden",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/52884391?v=4",
+      "profile": "https://github.com/MorganGodden",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
