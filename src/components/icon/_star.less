@@ -1,3 +1,8 @@
+.star-btn-active() {
+  font-weight: 900;
+  color: @yellow;
+}
+
 .star-btn {
   color: @black;
 
@@ -11,8 +16,8 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  &:active {
-    font-weight: 900;
-    color: @yellow;
+  &:active,
+  &.active {
+    .star-btn-active();
   }
 }

@@ -60,6 +60,19 @@
     color: @lightText !important;
   }
 
+  &.sideways-fill {
+    &:before {
+      width: 100%;
+      left: 0;
+    }
+    &:not(:hover):before {
+      left: 50%;
+    }
+    &:hover:before {
+      left: 0;
+    }
+  }
+
   .colorBtn(@color) {
     border-color: @color !important;
     color: @color;

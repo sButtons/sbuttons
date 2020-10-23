@@ -186,12 +186,6 @@ hr {
   vertical-align: sub;
 }
 
-@media (max-width: 368px) {
-  .navbar .buttons {
-    display: none;
-  }
-}
-
 .navbar .download-link,
 .navbar .icon-link,
 .navbar .sidebar-toggler,
@@ -274,6 +268,32 @@ hr {
 @media (min-width: 768px) {
   .navbar .download-link {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .logo img {
+    height: 60%;
+  }
+}
+@media (max-width: 311px) {
+  .navbar #downloadGithubRawHeader {
+    display: none;
+  }
+}
+@media (max-width: 265px) {
+  .navbar .toggle-theme,
+  .icon-link,
+  .sidebar-toggler {
+    font-size: 1rem;
+  }
+  .navbar.scrolling {
+    height: 3em;
+  }
+}
+@media (max-width: 225px) {
+  .navbar .buttons {
+    display: none;
   }
 }
 
@@ -368,6 +388,8 @@ button.clipboard:focus {
   color: white;
   font-family: Syne, sans-serif;
   display: inline-block;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
 .content .sbtn.transparent-btn {
@@ -436,4 +458,14 @@ button.clipboard:focus {
   100% {
     transform: rotate(360deg);
   }
+}
+
+#stack .button-grid:last-child .button-container:last-child,
+#stack .button-grid:last-child .button-container:nth-last-child(2) {
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+
+.key-btn {
+  font-family: "Syne", sans-serif !important;
 }

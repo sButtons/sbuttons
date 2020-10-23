@@ -9,13 +9,15 @@ $(document).ready(function () {
     };
 
     var marginHeader = 81;
+    var offsetFooter = 200;
 
     viewport.right = viewport.left + win.width();
     viewport.bottom = viewport.top + win.height() - marginHeader;
 
     var bounds = this.offset();
     bounds.right = bounds.left + this.outerWidth();
-    bounds.bottom = bounds.top + this.outerHeight() - marginHeader;
+    bounds.bottom =
+      bounds.top + this.outerHeight() - marginHeader - offsetFooter;
 
     return !(
       viewport.right < bounds.left ||
@@ -68,10 +70,8 @@ $(document).ready(function () {
   function checkNavbar() {
     if (!$(".content").isOnScreen()) {
       $(".navbar").addClass("scrolling");
-      $(".sidebar").addClass("scrolling");
     } else {
       $(".navbar").removeClass("scrolling");
-      $(".sidebar").removeClass("scrolling");
     }
   }
 

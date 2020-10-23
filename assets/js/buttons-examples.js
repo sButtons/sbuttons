@@ -1,4 +1,10 @@
 $(document).ready(function () {
+  var sidebar = $(".sidebar-list");
+  var content = $("#content");
+  if (!sidebar.length || !content.length) {
+    return;
+  }
+
   //default button class
   var defaultClass = "sbtn";
   //button color variations
@@ -46,29 +52,32 @@ $(document).ready(function () {
           classes: "click-btn",
         },
         {
-          type: "glow",
-          label: "Glow",
-          classes: "glow-btn",
-        },
-        {
-          type: "key",
-          label: "Key",
-          classes: "key-btn",
-        },
-        {
           type: "dashed",
-          label: "Dashed Buttons",
+          label: "Dashed",
           classes: "dashed-btn",
         },
         {
           type: "disable",
-          label: "Disabled Buttons",
+          label: "Disabled",
           classes: "disabled-btn",
         },
         {
-          type: "outline",
-          label: "Outline Buttons",
-          classes: "outline-btn",
+          type: "gradient",
+          label: "Gradient",
+          classes: "gradient-btn",
+        },
+
+        {
+          type: "xsmall",
+          label: "Extra-small",
+          classes: "xsmall-btn",
+          text: "Extra-small",
+        },
+        {
+          type: "xlarge",
+          label: "Extra-large",
+          classes: "xlarge-btn",
+          text: "Extra-large",
         },
         {
           type: "glossy",
@@ -78,17 +87,26 @@ $(document).ready(function () {
           shouldHaveRoundedType: false,
         },
         {
+          type: "glow",
+          label: "Glow",
+          classes: "glow-btn",
+        },
+        {
+          type: "key",
+          label: "Key",
+          classes: "key-btn",
+          text: "START",
+        },
+        {
+          type: "outline",
+          label: "Outline",
+          classes: "outline-btn",
+        },
+        {
           type: "rounded-bottom",
           label: "Rounded Bottom",
           classes: "rounded-bottom-btn",
           text: "Rounded Bottom",
-          shouldHaveRoundedType: false,
-        },
-        {
-          type: "rounded-top",
-          label: "Rounded Top",
-          classes: "rounded-top-btn",
-          text: "Rounded Top",
           shouldHaveRoundedType: false,
         },
         {
@@ -104,6 +122,24 @@ $(document).ready(function () {
           classes: "rounded-diagonal-tr-btn",
           text: "TopRight-BottomLeft",
           shouldHaveRoundedType: false,
+        },
+        {
+          type: "rounded-top",
+          label: "Rounded Top",
+          classes: "rounded-top-btn",
+          text: "Rounded Top",
+          shouldHaveRoundedType: false,
+        },
+        {
+          type: "stack",
+          label: "Stack",
+          classes: "stack-btn",
+          text: "Button",
+        },
+        {
+          type: "striped",
+          label: "Striped",
+          classes: "striped-btn",
         },
       ],
     },
@@ -153,6 +189,11 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
+          type: "fill-color-sideways",
+          label: "Fill Color - Sideways",
+          classes: "fill-color-btn sideways-fill",
+        },
+        {
           type: "flash",
           label: "Flash",
           classes: "flash-btn",
@@ -171,6 +212,47 @@ $(document).ready(function () {
           type: "liquid",
           label: "Liquid",
           classes: "liquid-btn",
+        },
+        {
+          type: "loading",
+          label: "Loading",
+          classes: "loading-btn",
+          variations: [
+            {
+              text: "loading left",
+              classes: "spin left purple-btn",
+            },
+            {
+              text: "loading right",
+              classes: "spin right green-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce right red-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce left pink-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat left blue-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat right yellow-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide right black-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide left orange-btn",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
         },
         {
           type: "neon",
@@ -203,11 +285,6 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
-          type: "snake",
-          label: "Snake Border",
-          classes: "snake-btn",
-        },
-        {
           type: "ripple",
           label: "Ripple",
           classes: "ripple-btn",
@@ -233,9 +310,19 @@ $(document).ready(function () {
           classes: "skew-btn",
         },
         {
+          type: "snake",
+          label: "Snake Border",
+          classes: "snake-btn",
+        },
+        {
           type: "splash",
           label: "Splash",
           classes: "splash-btn",
+        },
+        {
+          type: "spring",
+          label: "Spring",
+          classes: "spring-btn",
         },
         {
           type: "transparent",
@@ -257,7 +344,7 @@ $(document).ready(function () {
       children: [
         {
           type: "base-icon",
-          label: "Base Icon button",
+          label: "Base Icon",
           classes: "base-icon-btn",
           variations: [
             {
@@ -310,7 +397,7 @@ $(document).ready(function () {
         },
         {
           type: "close",
-          label: "Close Button",
+          label: "Close",
           classes: "",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
@@ -333,6 +420,24 @@ $(document).ready(function () {
           label: "Dropdown",
           classes: "drop-down-btn",
           text: "Dropdown Button",
+        },
+        {
+          type: "hamburger",
+          label: "Hamburger",
+          classes: "hamburger-btn",
+          text: "",
+          variations: [
+            {
+              classes: "",
+              text: "",
+            },
+            {
+              classes: "is-active",
+              text: "",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
         },
         {
           type: "like",
@@ -374,7 +479,11 @@ $(document).ready(function () {
           variations: [
             {
               classes: "",
-              text: "",
+              text: "Star (Inactive)",
+            },
+            {
+              classes: "active",
+              text: "Star (Active)",
             },
           ],
         },
@@ -447,6 +556,10 @@ $(document).ready(function () {
           classes: "weibo",
           text: "Login with Weibo",
         },
+        {
+          classes: "whatsapp",
+          text: "Login with Whatsapp",
+        },
       ],
       children: [],
     },
@@ -456,6 +569,16 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "code-btn",
+          label: "Code",
+          classes: "code-btn",
+          variations: [
+            {
+              text: "Code",
+            },
+          ],
+        },
+        {
           type: "handwritten-btn",
           label: "Handwritten",
           classes: "handwritten-btn",
@@ -464,6 +587,11 @@ $(document).ready(function () {
               text: "Handwritten",
             },
           ],
+        },
+        {
+          type: "neu-btn",
+          label: "Neumorphic",
+          classes: "neu-btn",
         },
         {
           type: "play-game",
@@ -492,7 +620,7 @@ $(document).ready(function () {
         },
         {
           type: "toggle",
-          label: "Toggle button (on and off)",
+          label: "Toggle (on and off)",
           classes: "toggle-btn",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
@@ -548,9 +676,6 @@ $(document).ready(function () {
       ],
     },
   ];
-
-  var sidebar = $(".sidebar-list"),
-    content = $("#content");
 
   /**
    * getButttonHtml generates the required html for each button to be rendered
@@ -717,7 +842,7 @@ $(document).ready(function () {
           roundedButtonsGrid.append(
             getButtonHtml(
               `${totalClasses} rounded-btn`,
-              `.${totalWrittenClasses} .rounded-btn`,
+              `${totalWrittenClasses} .rounded-btn`,
               thisButtonText,
               false,
               isDisabled
@@ -729,7 +854,7 @@ $(document).ready(function () {
           blockButtonsGrid.append(
             getButtonHtml(
               `${totalClasses} block-btn`,
-              `.${totalWrittenClasses} .block-btn`,
+              `${totalWrittenClasses} .block-btn`,
               thisButtonText,
               true,
               isDisabled
