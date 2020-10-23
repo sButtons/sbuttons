@@ -1410,6 +1410,42 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "glebkema",
+      "name": "Gleb Kemarsky",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3881568?v=4",
+      "profile": "http://glebkema.ru",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Ovillena",
+      "name": "Ovillena",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/44690943?v=4",
+      "profile": "https://github.com/Ovillena",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "DhrutikPatel",
+      "name": "Dhrutik Rameshbhai Patel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/59195421?v=4",
+      "profile": "https://github.com/DhrutikPatel",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ArshdeepSingh98",
+      "name": "ArshdeepSingh98",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29947024?v=4",
+      "profile": "https://github.com/ArshdeepSingh98",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

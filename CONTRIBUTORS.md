@@ -193,6 +193,12 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="http://kcbaluyot.com"><img src="https://avatars2.githubusercontent.com/u/46494300?v=4" width="100px;" alt=""/><br /><sub><b>vinbaluyot</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=vinbaluyot" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Avinbaluyot" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/ishan-avishka-726a65131/"><img src="https://avatars3.githubusercontent.com/u/49125943?v=4" width="100px;" alt=""/><br /><sub><b>Ishan Avishka</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=I3han" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SARVESHKHANDELWAL"><img src="https://avatars2.githubusercontent.com/u/62640264?v=4" width="100px;" alt=""/><br /><sub><b>SARVESHKHANDELWAL</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=SARVESHKHANDELWAL" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3ASARVESHKHANDELWAL" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://glebkema.ru"><img src="https://avatars3.githubusercontent.com/u/3881568?v=4" width="100px;" alt=""/><br /><sub><b>Gleb Kemarsky</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=glebkema" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Ovillena"><img src="https://avatars0.githubusercontent.com/u/44690943?v=4" width="100px;" alt=""/><br /><sub><b>Ovillena</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Ovillena" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/DhrutikPatel"><img src="https://avatars0.githubusercontent.com/u/59195421?v=4" width="100px;" alt=""/><br /><sub><b>Dhrutik Rameshbhai Patel</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=DhrutikPatel" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ArshdeepSingh98"><img src="https://avatars2.githubusercontent.com/u/29947024?v=4" width="100px;" alt=""/><br /><sub><b>ArshdeepSingh98</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ArshdeepSingh98" title="Code">💻</a></td>
   </tr>
 </table>
 
