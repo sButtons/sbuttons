@@ -10,10 +10,6 @@ $(document).ready(function () {
     "yellow-btn",
     "orange-btn",
     "purple-btn",
-    "denim-btn",
-    "sand-btn",
-    "choco-btn",
-    "charcoal-btn",
     "black-btn",
     "white-btn",
 
@@ -525,7 +521,30 @@ $(document).ready(function () {
               text: "No",
             },
           ],
-        },
+          },
+          {
+              type: "western",
+              label: "Western",
+              classes: "western-btn",
+              variations: [
+                  {
+                      classes: "denim-btn",
+                      text: "Continue",
+                  },
+                  {
+                      classes: "choco-btn",
+                      text: "Proceed",
+                  },
+                  {
+                      classes: "charcoal-btn",
+                      text: "Reset",
+                  },
+                  {
+                      classes: "sand-btn",
+                      text: "Reset",
+                  }
+              ],
+          },
       ],
     },
   ];
