@@ -41,7 +41,7 @@ $(document).ready(function () {
             hasClass = parent.hasClass("submenu-links");
           if (hasClass && !parent.hasClass("show")) {
             $(".submenu-links.show").removeClass("show");
-            parent.addClass("show");
+            sidebarLink.parents(".submenu-links").addClass("show");
           } else if (!hasClass) {
             $(".submenu-links.show").removeClass("show");
           }
