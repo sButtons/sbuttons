@@ -79,6 +79,11 @@ $(document).ready(function () {
           text: "Extra-large",
         },
         {
+          type: "gradient",
+          label: "Gradient",
+          classes: "gradient-btn",
+        },
+        {
           type: "glossy",
           label: "Glossy",
           classes: "glossy-btn",
@@ -95,6 +100,13 @@ $(document).ready(function () {
           label: "Key",
           classes: "key-btn",
           text: "START",
+        },
+        {
+          type: "neon-border",
+          label: "Neon Border",
+          text: "button",
+          classes: "neon-border-btn",
+          shouldHaveRoundedType: false,
         },
         {
           type: "outline",
