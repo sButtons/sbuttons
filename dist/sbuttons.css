@@ -3096,9 +3096,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 0;
   border-color: white;
 }
-.papercurl-btn:hover:before,
-.papercurl-btn:focus:before,
-.papercurl-btn:active:before {
+.papercurl-btn:hover::before,
+.papercurl-btn:focus::before,
+.papercurl-btn:active::before {
   height: 25px;
   width: 25px;
 }
