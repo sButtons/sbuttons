@@ -1039,7 +1039,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/53168325?v=4",
       "profile": "https://github.com/wisetok12680",
       "contributions": [
-        "code"
+        "code",
+        "ideas"
       ]
     },
     {
@@ -1455,6 +1456,24 @@
       "contributions": [
         "code",
         "bug"
+      ]
+    },
+    {
+      "login": "Hrshk15",
+      "name": "Harsh Karki",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56513758?v=4",
+      "profile": "https://github.com/Hrshk15",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "RakshitaTantry28",
+      "name": "RakshitaTantry28",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/55851040?v=4",
+      "profile": "https://github.com/RakshitaTantry28",
+      "contributions": [
+        "code"
       ]
     }
   ],
