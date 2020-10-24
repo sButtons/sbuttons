@@ -3999,6 +3999,16 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.1),
     inset 4px 4px 8px rgba(0, 0, 0, 0.1);
 }
+[data-theme="dark"] .neu-btn {
+  box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.01),
+    4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+[data-theme="dark"] .neu-btn:hover,
+[data-theme="dark"] .neu-btn:active,
+[data-theme="dark"] .neu-btn:focus {
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.01),
+    inset 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
 @font-face {
   font-family: "Source Code Pro";
   font-style: normal;
