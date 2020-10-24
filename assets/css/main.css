@@ -1,3 +1,7 @@
+body {
+  font-family: "Philosopher";
+}
+
 .main-content {
   padding: 0 0%;
   width: 100%;
@@ -23,36 +27,36 @@
 .sidebar {
   padding-left: 2vw;
   display: flex;
-  height: 90vh;
+  height: 90%;
   flex-direction: column;
   z-index: 11;
 }
 
 .height-shift {
-  padding-bottom: 200px;
+  padding-bottom: 20vh;
 }
 .sidebar.scrolling {
-  background-color: var(--main-color-light);
+  background-color: var(--sidebar-color);
   position: fixed;
   top: 10vh;
+  transition: all ease-in-out 0.3s;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .sidebar.scrolling {
     width: calc(100vw / 12 * 3 - 0.333vw);
   }
 }
 .sidebar a {
-  color: #f2f3f4;
+  color: var(--sidebar-links);
   position: relative;
   text-decoration: none;
   width: fit-content;
   margin-bottom: 5px;
-  white-space: nowrap;
 }
 
 .sidebar.scrolling a {
-  color: #ffffff;
+  color: white;
 }
 
 .sidebar a:before {
@@ -60,7 +64,7 @@
   left: 0;
   height: 2px;
   width: 0;
-  background-color: rgb(255, 138, 230);
+  background-color: var(--sidebar-link-highlight);
   transition: all 0.3s;
   content: " ";
   bottom: 0;
@@ -68,7 +72,7 @@
 
 .sidebar a:hover,
 .sidebar a.active {
-  color: rgb(255, 138, 230);
+  color: var(--sidebar-link-highlight);
   text-decoration: none;
 }
 .sidebar a:hover:before,
@@ -106,6 +110,7 @@
 .sidebar-list,
 .instructions-sidebar {
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .sidebar-list a,
@@ -138,7 +143,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .sidebar-list,
   .instructions-sidebar {
     max-height: 90vh;
@@ -146,7 +151,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   .row .hide-sidebar {
     display: none;
   }

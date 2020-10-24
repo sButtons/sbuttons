@@ -3,7 +3,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: "Philosopher", sans-serif;
+  font-family: "Philosopher";
   color: #333;
 }
 
@@ -21,15 +21,6 @@ body > .container {
 [data-theme="dark"] {
   background-color: var(--dark-color);
   color: #ffffff;
-}
-
-[data-theme="dark"] footer {
-  background-color: #434343;
-}
-
-[data-theme="dark"] .navbar.scrolling {
-  background-color: #434343;
-  box-shadow: 0 2px 3px #1e1e1e;
 }
 
 [data-theme="dark"] .sidebar a,
@@ -179,7 +170,6 @@ a:active {
   margin-right: 1em;
   margin-top: 1em;
   color: white;
-  font-family: Syne, sans-serif;
   display: inline-block;
 }
 

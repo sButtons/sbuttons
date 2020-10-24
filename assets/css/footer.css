@@ -1,21 +1,18 @@
 footer {
   font-family: Syne, sans-serif;
-  /* text-align: center; */
   padding: 0px 2%;
   background-color: #e6e6e6;
 }
 .footer {
   color: floralwhite;
+  background-color: var(--footer-color);
   position: relative;
   z-index: 12;
-  min-height: 150px;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  min-height: 20vh;
 }
 
 .footer .row {
-  height: 150px;
+  min-height: 20vh;
 }
 
 .footer-desc,
@@ -47,22 +44,7 @@ footer {
   text-decoration: none;
 }
 
-.credit {
-  justify-self: end;
-}
 .footer a:hover {
   opacity: 0.6;
   color: floralwhite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
