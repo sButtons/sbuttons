@@ -201,6 +201,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/ArshdeepSingh98"><img src="https://avatars2.githubusercontent.com/u/29947024?v=4" width="100px;" alt=""/><br /><sub><b>ArshdeepSingh98</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ArshdeepSingh98" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/MorganGodden"><img src="https://avatars2.githubusercontent.com/u/52884391?v=4" width="100px;" alt=""/><br /><sub><b>Morgan Rose Godden</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=MorganGodden" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AMorganGodden" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/Hrshk15"><img src="https://avatars3.githubusercontent.com/u/56513758?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Karki</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Hrshk15" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/RakshitaTantry28"><img src="https://avatars1.githubusercontent.com/u/55851040?v=4" width="100px;" alt=""/><br /><sub><b>RakshitaTantry28</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=RakshitaTantry28" title="Code">💻</a></td>
   </tr>
 </table>
 
