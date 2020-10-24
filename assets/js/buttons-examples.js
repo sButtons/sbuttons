@@ -509,6 +509,15 @@ $(document).ready(function () {
           classes: "thumbsup-btn",
           text: "",
         },
+        {
+          type: "grow",
+          label: "Grow",
+          classes: "grow-btn",
+          text: "",
+
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
       ],
     },
     {
