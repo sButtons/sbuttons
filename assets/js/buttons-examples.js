@@ -176,22 +176,22 @@ $(document).ready(function () {
         },
         {
           type: "fill-color-down",
-          label: "Fill Color - Down to Up",
+          label: "Fill Color - Down",
           classes: "fill-color-btn down-fill",
         },
         {
           type: "fill-color-left",
-          label: "Fill Color - Left to Right",
+          label: "Fill Color - Left",
           classes: "fill-color-btn",
         },
         {
           type: "fill-color-right",
-          label: "Fill Color - Right to Left",
+          label: "Fill Color - Right",
           classes: "fill-color-btn right-fill",
         },
         {
           type: "fill-color-up",
-          label: "Fill Color - Up to Down",
+          label: "Fill Color - Up",
           classes: "fill-color-btn up-fill",
         },
         {
