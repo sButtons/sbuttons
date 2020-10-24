@@ -1494,6 +1494,115 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .gradient-btn.white-btn:hover {
   box-shadow: 0px 6px 4px #a19e9e;
 }
+.neon-border-btn.green-btn {
+  color: #000;
+  background-color: #39ff14;
+  background: transparent;
+  box-shadow: inset 0 0 6px #39ff14, 0 0 6px #39ff14;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  border: #39ff14 solid 2px;
+}
+.neon-border-btn.green-btn:hover {
+  background-color: #39ff14;
+  box-shadow: #39ff14;
+}
+.neon-border-btn.blue-btn {
+  color: #000;
+  background-color: #1fffec;
+  background: transparent;
+  box-shadow: inset 0 0 6px #1fffec, 0 0 6px #1fffec;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  border: #1fffec solid 2px;
+}
+.neon-border-btn.blue-btn:hover {
+  background-color: #1fffec;
+  box-shadow: #1fffec;
+}
+.neon-border-btn.red-btn {
+  color: #000;
+  background-color: #ff013c;
+  background: transparent;
+  box-shadow: inset 0 0 6px #ff013c, 0 0 6px #ff013c;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  border: #ff013c solid 2px;
+}
+.neon-border-btn.red-btn:hover {
+  background-color: #ff013c;
+  box-shadow: #ff013c;
+}
+.neon-border-btn.purple-btn {
+  color: #000;
+  background-color: #8d47ff;
+  background: transparent;
+  box-shadow: inset 0 0 6px #8d47ff, 0 0 6px #8d47ff;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  border: #8d47ff solid 2px;
+}
+.neon-border-btn.purple-btn:hover {
+  background-color: #8d47ff;
+  box-shadow: #8d47ff;
+}
+.neon-border-btn.orange-btn {
+  color: #000;
+  background-color: #ff9b18;
+  background: transparent;
+  box-shadow: inset 0 0 6px #ff9b18, 0 0 6px #ff9b18;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  border: #ff9b18 solid 2px;
+}
+.neon-border-btn.orange-btn:hover {
+  background-color: #ff9b18;
+  box-shadow: #ff9b18;
+}
+.neon-border-btn.yellow-btn {
+  color: #000;
+  background-color: #ffe53d;
+  background: transparent;
+  box-shadow: inset 0 0 6px #ffe53d, 0 0 6px #ffe53d;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  border: #ffe53d solid 2px;
+}
+.neon-border-btn.yellow-btn:hover {
+  background-color: #ffe53d;
+  box-shadow: #ffe53d;
+}
+.neon-border-btn.pink-btn {
+  color: #000;
+  background-color: #ff2aca;
+  background: transparent;
+  box-shadow: inset 0 0 6px #ff2aca, 0 0 6px #ff2aca;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  border: #ff2aca solid 2px;
+}
+.neon-border-btn.pink-btn:hover {
+  background-color: #ff2aca;
+  box-shadow: #ff2aca;
+}
+.neon-border-btn.black-btn {
+  color: #000;
+  background-color: #414141;
+  background: transparent;
+  box-shadow: inset 0 0 6px #414141, 0 0 6px #414141;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  border: #414141 solid 2px;
+}
+.neon-border-btn.black-btn:hover {
+  background-color: #414141;
+  box-shadow: #414141;
+  color: #fff !important;
+}
+.neon-border-btn.white-btn {
+  color: #000;
+  background-color: #e2e2e2;
+  background: transparent;
+  box-shadow: inset 0 0 6px #e2e2e2, 0 0 6px #e2e2e2;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  border: #e2e2e2 solid 2px;
+}
+.neon-border-btn.white-btn:hover {
+  background-color: #e2e2e2;
+  box-shadow: #e2e2e2;
+}
 .striped-btn.blue-btn {
   border: solid 2px #50bfe6;
   color: black !important;
@@ -2767,13 +2876,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .splash-btn {
   outline: none;
+  border: none;
   color: #fff;
   cursor: pointer;
   position: relative;
   z-index: 0;
-}
-.splash-btn.white-btn {
-  border-color: #e9e9e9;
 }
 .splash-btn:before {
   content: "";
@@ -2800,7 +2907,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   animation: glowing 20s linear infinite;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
 }
 .splash-btn:after {
   z-index: -1;
@@ -2810,7 +2916,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 100%;
   left: 0;
   top: 0;
-  border-radius: 10px;
 }
 .splash-btn:hover {
   color: #000;
@@ -3126,6 +3231,37 @@ a.yellow-btn:active:not(.fill-color-btn) {
   100% {
     transform: scaleY(1);
   }
+}
+.papercurl-btn {
+  backface-visibility: hidden;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  display: inline-block;
+  position: relative;
+  transform: translateZ(0px);
+  vertical-align: middle;
+}
+.papercurl-btn:before {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(315deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%)
+    repeat scroll 0 0;
+  /*display smooth transitions between two or more specified colors */
+  bottom: 0;
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+  content: "";
+  height: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  transition-duration: 0.3s;
+  transition-property: width, height;
+  width: 0;
+  border-color: white;
+}
+.papercurl-btn:hover::before,
+.papercurl-btn:focus::before,
+.papercurl-btn:active::before {
+  height: 25px;
+  width: 25px;
 }
 .buy-me-coffee-btn {
   position: relative;
@@ -4023,6 +4159,16 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .neu-btn:focus {
   box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.1),
     inset 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+[data-theme="dark"] .neu-btn {
+  box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.01),
+    4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+[data-theme="dark"] .neu-btn:hover,
+[data-theme="dark"] .neu-btn:active,
+[data-theme="dark"] .neu-btn:focus {
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.01),
+    inset 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 @font-face {
   font-family: "Source Code Pro";
