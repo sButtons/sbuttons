@@ -3745,7 +3745,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-size: 100% 100%, 200% 200%;
 }
 .rainbow-border-btn:hover {
-  animation: colorwave 1.6s ease infinite;
+  animation: colorwave 3.6s ease infinite;
 }
 @keyframes colorwave {
   0% {
@@ -3753,5 +3753,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   }
   50% {
     background-position: 0 0, 100% 50%;
+  }
+  100% {
+    background-position: 0 0, 0 50%;
   }
 }
