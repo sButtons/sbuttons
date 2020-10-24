@@ -1,77 +1,126 @@
 .gradient-btn {
   border: none;
   outline: none;
+  background-size: 200% auto;
+  transition: 0.5s;
+}
+.gradient-btn:hover {
+  background-position: right center;
 }
 .gradient-btn.pink-btn {
-  background: linear-gradient(to right, @pink, @gradientPink);
-  box-shadow: 0px 10px 15px @pink;
+  background-image: linear-gradient(
+    to right,
+    @pink 0%,
+    @gradientPink 51%,
+    @pink 100%
+  );
+  box-shadow: 0px 4px 4px @pink;
 
   &:hover {
-    background: linear-gradient(to right, @gradientPink, @pink);
-    box-shadow: 0px 8px 15px @gradientPink;
+    box-shadow: 0px 6px 4px @gradientPink;
   }
 }
 .gradient-btn.blue-btn {
-  background: linear-gradient(to right, @blue, @gradientBlue);
-  box-shadow: 0px 10px 15px @blue;
+  background-image: linear-gradient(
+    to right,
+    @blue 0%,
+    @gradientBlue 51%,
+    @blue 100%
+  );
+  box-shadow: 0px 4px 4px @blue;
+
   &:hover {
-    box-shadow: 0px 8px 15px @gradientBlue;
-    background: linear-gradient(to right, @gradientBlue, @blue);
+    box-shadow: 0px 6px 4px @gradientBlue;
   }
 }
 .gradient-btn.red-btn {
-  background: linear-gradient(to right, @red, @gradientRed);
-  box-shadow: 0px 10px 15px @red;
+  background-image: linear-gradient(
+    to right,
+    @red 0%,
+    @gradientRed 51%,
+    @red 100%
+  );
+  box-shadow: 0px 4px 4px @red;
+
   &:hover {
-    box-shadow: 0px 8px 15px @gradientRed;
-    background: linear-gradient(to right, @gradientRed, @red);
+    box-shadow: 0px 6px 4px @gradientRed;
   }
 }
 .gradient-btn.green-btn {
-  background: linear-gradient(to right, @green, @gradientGreen);
-  box-shadow: 0px 10px 15px @green;
+  background-image: linear-gradient(
+    to right,
+    @green 0%,
+    @gradientGreen 51%,
+    @green 100%
+  );
+  box-shadow: 0px 4px 4px @green;
+
   &:hover {
-    box-shadow: 0px 8px 15px @gradientGreen;
-    background: linear-gradient(to right, @gradientGreen, @green);
+    box-shadow: 0px 6px 4px @gradientGreen;
   }
 }
 .gradient-btn.yellow-btn {
-  background: linear-gradient(to right, @yellow, @gradientYellow);
-  box-shadow: 0px 10px 15px @boxShadowYellow;
+  background-image: linear-gradient(
+    to right,
+    @yellow 0%,
+    @gradientYellow 51%,
+    @yellow 100%
+  );
+  box-shadow: 0px 4px 4px @boxShadowYellow;
+
   &:hover {
-    box-shadow: 0px 8px 15px @gradientYellow;
-    background: linear-gradient(to right, @gradientYellow, @yellow);
+    box-shadow: 0px 6px 4px @gradientYellow;
   }
 }
 .gradient-btn.orange-btn {
-  background: linear-gradient(to right, @orange, @gradientOrange);
-  box-shadow: 0px 10px 15px @orange;
+  background-image: linear-gradient(
+    to right,
+    @orange 0%,
+    @gradientOrange 51%,
+    @orange 100%
+  );
+  box-shadow: 0px 4px 4px @orange;
+
   &:hover {
-    box-shadow: 0px 8px 15px @gradientOrange;
-    background: linear-gradient(to right, @gradientOrange, @orange);
+    box-shadow: 0px 6px 4px @gradientOrange;
   }
 }
 .gradient-btn.purple-btn {
-  background: linear-gradient(to right, @purple, @gradientPurple);
-  box-shadow: 0px 10px 15px @purple;
+  background-image: linear-gradient(
+    to right,
+    @purple 0%,
+    @gradientPurple 51%,
+    @purple 100%
+  );
+  box-shadow: 0px 4px 4px @purple;
+
   &:hover {
-    box-shadow: 0px 8px 15px @gradientPurple;
-    background: linear-gradient(to right, @gradientPurple, @purple);
+    box-shadow: 0px 6px 4px @gradientPurple;
   }
 }
 .gradient-btn.black-btn {
-  background: linear-gradient(to right, @diffblack, @black);
-  box-shadow: 0px 10px 15px @diffblack;
+  background-image: linear-gradient(
+    to right,
+    @diffblack 0%,
+    @black 51%,
+    @diffblack 100%
+  );
+  box-shadow: 0px 4px 4px @diffblack;
+
   &:hover {
-    box-shadow: 0px 8px 15px @black;
-    background: linear-gradient(to right, @black, @diffblack);
+    box-shadow: 0px 6px 4px @black;
   }
 }
 .gradient-btn.white-btn {
-  background: linear-gradient(to right, @diffwhite, @gradientwhite);
-  box-shadow: 0px 10px 15px @boxShadowWhite;
+  background-image: linear-gradient(
+    to right,
+    @diffwhite 0%,
+    @gradientwhite 51%,
+    @diffwhite 100%
+  );
+  box-shadow: 0px 4px 4px @boxShadowWhite;
+
   &:hover {
-    box-shadow: 0px 8px 15px @gradientwhite;
-    background: linear-gradient(to right, @gradientwhite, @diffwhite);
+    box-shadow: 0px 6px 4px @gradientwhite;
   }
 }
