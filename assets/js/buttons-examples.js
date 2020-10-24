@@ -269,6 +269,11 @@ $(document).ready(function () {
           classes: "nudge-btn",
         },
         {
+          type: "papercurl",
+          label: "Paper Curl",
+          classes: "papercurl-btn",
+        },
+        {
           type: "previous",
           label: "Previous",
           classes: "previous-arrow-btn",
