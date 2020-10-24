@@ -568,6 +568,18 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "atom",
+          label: "Atom",
+          classes: "atom-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              text: "Atom",
+            },
+          ],
+        },
+        {
           type: "code-btn",
           label: "Code",
           classes: "code-btn",
