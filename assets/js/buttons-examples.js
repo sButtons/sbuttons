@@ -573,6 +573,18 @@ $(document).ready(function () {
           ],
         },
         {
+          type: "code-btn",
+          label: " ",
+          classes: "code-btn-colored-hover",
+          variations: [
+            {
+              text: "Code",
+            },
+          ],
+        },
+        
+    
+        {
           type: "handwritten-btn",
           label: "Handwritten",
           classes: "handwritten-btn",

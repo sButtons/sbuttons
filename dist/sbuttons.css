@@ -3544,4 +3544,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   }
 
- 
+  .code-btn-colored-hover{
+    background: transparent;
+color: black;
+border: 1px solid black;
+  }
+  .code-btn-colored-hover:hover{
+    background-color: #1fff00;
+  }
