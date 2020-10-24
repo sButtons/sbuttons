@@ -148,6 +148,13 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "atom",
+          label: "Atom",
+          classes: "atom-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "aura-pulse",
           label: "Aura Pulse",
           classes: "aurapulse-btn",
@@ -567,18 +574,6 @@ $(document).ready(function () {
       label: "Special Buttons",
       classes: "",
       children: [
-        {
-          type: "atom",
-          label: "Atom",
-          classes: "atom-btn",
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
-          variations: [
-            {
-              text: "Atom",
-            },
-          ],
-        },
         {
           type: "code-btn",
           label: "Code",
