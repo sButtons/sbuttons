@@ -79,11 +79,6 @@ $(document).ready(function () {
           text: "Extra-large",
         },
         {
-          type: "gradient",
-          label: "Gradient",
-          classes: "gradient-btn",
-        },
-        {
           type: "glossy",
           label: "Glossy",
           classes: "glossy-btn",
