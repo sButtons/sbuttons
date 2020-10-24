@@ -2462,9 +2462,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   position: relative;
   z-index: 0;
 }
-.splash-btn.white-btn {
-  border-color: #e9e9e9;
-}
 .splash-btn:before {
   content: "";
   background: linear-gradient(
@@ -2490,7 +2487,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   animation: glowing 20s linear infinite;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
 }
 .splash-btn:after {
   z-index: -1;
@@ -2500,7 +2496,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 100%;
   left: 0;
   top: 0;
-  border-radius: 10px;
 }
 .splash-btn:hover {
   color: #000;
