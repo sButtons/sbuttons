@@ -3096,9 +3096,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 0;
   border-color: white;
 }
-.papercurl-btn:hover::before,
-.papercurl-btn:focus::before,
-.papercurl-btn:active::before {
+.papercurl-btn:hover:before,
+.papercurl-btn:focus:before,
+.papercurl-btn:active:before {
   height: 25px;
   width: 25px;
 }
@@ -3735,6 +3735,22 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.whatsapp:after {
   color: white;
   content: "\f232";
+}
+.social-btn.gitlab {
+  background-color: #e25235;
+  color: #fff;
+}
+.social-btn.gitlab:after {
+  color: #fff;
+  content: "\f296";
+}
+.social-btn.bitbucket {
+  background-color: #0349b2;
+  color: #fff;
+}
+.social-btn.bitbucket:after {
+  color: #fff;
+  content: "\f171";
 }
 @font-face {
   font-family: "Press Start 2P";

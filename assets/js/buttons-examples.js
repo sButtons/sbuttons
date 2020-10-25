@@ -521,6 +521,10 @@ $(document).ready(function () {
           text: "Login with Apple",
         },
         {
+          classes: "bitbucket",
+          text: "Login with Bitbucket",
+        },
+        {
           classes: "discord",
           text: "Login with Discord",
         },
@@ -535,6 +539,10 @@ $(document).ready(function () {
         {
           classes: "github",
           text: "Login with Github",
+        },
+        {
+          classes: "gitlab",
+          text: "Login with GitLab",
         },
         {
           classes: "google",
