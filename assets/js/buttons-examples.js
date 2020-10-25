@@ -1,4 +1,10 @@
 $(document).ready(function () {
+  var sidebar = $(".sidebar-list");
+  var content = $("#content");
+  if (!sidebar.length || !content.length) {
+    return;
+  }
+
   //default button class
   var defaultClass = "sbtn";
   //button color variations
@@ -46,13 +52,36 @@ $(document).ready(function () {
         },
         {
           type: "dashed",
-          label: "Dashed Buttons",
+          label: "Dashed",
           classes: "dashed-btn",
         },
         {
           type: "disable",
-          label: "Disabled Buttons",
+          label: "Disabled",
           classes: "disabled-btn",
+        },
+        {
+          type: "gradient",
+          label: "Gradient",
+          classes: "gradient-btn",
+        },
+
+        {
+          type: "xsmall",
+          label: "Extra-small",
+          classes: "xsmall-btn",
+          text: "Extra-small",
+        },
+        {
+          type: "xlarge",
+          label: "Extra-large",
+          classes: "xlarge-btn",
+          text: "Extra-large",
+        },
+        {
+          type: "gradient",
+          label: "Gradient",
+          classes: "gradient-btn",
         },
         {
           type: "glossy",
@@ -70,10 +99,18 @@ $(document).ready(function () {
           type: "key",
           label: "Key",
           classes: "key-btn",
+          text: "START",
+        },
+        {
+          type: "neon-border",
+          label: "Neon Border",
+          text: "button",
+          classes: "neon-border-btn",
+          shouldHaveRoundedType: false,
         },
         {
           type: "outline",
-          label: "Outline Buttons",
+          label: "Outline",
           classes: "outline-btn",
         },
         {
@@ -108,7 +145,12 @@ $(document).ready(function () {
           type: "stack",
           label: "Stack",
           classes: "stack-btn",
-          text: "",
+          text: "Button",
+        },
+        {
+          type: "striped",
+          label: "Striped",
+          classes: "striped-btn",
         },
       ],
     },
@@ -158,6 +200,11 @@ $(document).ready(function () {
           classes: "fill-color-btn up-fill",
         },
         {
+          type: "fill-color-sideways",
+          label: "Fill Color - Sideways",
+          classes: "fill-color-btn sideways-fill",
+        },
+        {
           type: "flash",
           label: "Flash",
           classes: "flash-btn",
@@ -178,6 +225,47 @@ $(document).ready(function () {
           classes: "liquid-btn",
         },
         {
+          type: "loading",
+          label: "Loading",
+          classes: "loading-btn",
+          variations: [
+            {
+              text: "loading left",
+              classes: "spin left purple-btn",
+            },
+            {
+              text: "loading right",
+              classes: "spin right green-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce right red-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce left pink-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat left blue-btn",
+            },
+            {
+              text: "loading right",
+              classes: "heart-beat right yellow-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide right black-btn",
+            },
+            {
+              text: "loading right",
+              classes: "slide left orange-btn",
+            },
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "neon",
           label: "Neon",
           classes: "neon-btn",
@@ -193,6 +281,11 @@ $(document).ready(function () {
           classes: "nudge-btn",
         },
         {
+          type: "papercurl",
+          label: "Paper Curl",
+          classes: "papercurl-btn",
+        },
+        {
           type: "previous",
           label: "Previous",
           classes: "previous-arrow-btn",
@@ -206,11 +299,6 @@ $(document).ready(function () {
           type: "pulse",
           label: "Pulse",
           classes: "pulse-btn",
-        },
-        {
-          type: "snake",
-          label: "Snake Border",
-          classes: "snake-btn",
         },
         {
           type: "ripple",
@@ -238,9 +326,19 @@ $(document).ready(function () {
           classes: "skew-btn",
         },
         {
+          type: "snake",
+          label: "Snake Border",
+          classes: "snake-btn",
+        },
+        {
           type: "splash",
           label: "Splash",
           classes: "splash-btn",
+        },
+        {
+          type: "spring",
+          label: "Spring",
+          classes: "spring-btn",
         },
         {
           type: "transparent",
@@ -262,7 +360,7 @@ $(document).ready(function () {
       children: [
         {
           type: "base-icon",
-          label: "Base Icon button",
+          label: "Base Icon",
           classes: "base-icon-btn",
           variations: [
             {
@@ -315,7 +413,7 @@ $(document).ready(function () {
         },
         {
           type: "close",
-          label: "Close Button",
+          label: "Close",
           classes: "",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
@@ -474,6 +572,10 @@ $(document).ready(function () {
           classes: "weibo",
           text: "Login with Weibo",
         },
+        {
+          classes: "whatsapp",
+          text: "Login with Whatsapp",
+        },
       ],
       children: [],
     },
@@ -484,7 +586,7 @@ $(document).ready(function () {
       children: [
         {
           type: "code-btn",
-          label: "Code Button",
+          label: "Code",
           classes: "code-btn",
           variations: [
             {
@@ -534,7 +636,7 @@ $(document).ready(function () {
         },
         {
           type: "toggle",
-          label: "Toggle button (on and off)",
+          label: "Toggle (on and off)",
           classes: "toggle-btn",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
@@ -567,9 +669,6 @@ $(document).ready(function () {
       ],
     },
   ];
-
-  var sidebar = $(".sidebar-list"),
-    content = $("#content");
 
   /**
    * getButttonHtml generates the required html for each button to be rendered
@@ -736,7 +835,7 @@ $(document).ready(function () {
           roundedButtonsGrid.append(
             getButtonHtml(
               `${totalClasses} rounded-btn`,
-              `.${totalWrittenClasses} .rounded-btn`,
+              `${totalWrittenClasses} .rounded-btn`,
               thisButtonText,
               false,
               isDisabled
@@ -748,7 +847,7 @@ $(document).ready(function () {
           blockButtonsGrid.append(
             getButtonHtml(
               `${totalClasses} block-btn`,
-              `.${totalWrittenClasses} .block-btn`,
+              `${totalWrittenClasses} .block-btn`,
               thisButtonText,
               true,
               isDisabled

@@ -1,0 +1,83 @@
+.neon-border-btn {
+  .neon(@col) {
+    color: @black;
+    background-color: @col;
+    background: transparent;
+    box-shadow: inset 0 0 6px @col, 0 0 6px @col;
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+    border: @col solid 2px;
+  }
+
+  &.green-btn {
+    .neon(@neonGreen);
+    &:hover {
+      background-color: @neonGreen;
+      box-shadow: @neonGreen;
+    }
+  }
+
+  &.blue-btn {
+    .neon(@neonBlue);
+    &:hover {
+      background-color: @neonBlue;
+      box-shadow: @neonBlue;
+    }
+  }
+
+  &.red-btn {
+    .neon(@neonRed);
+    &:hover {
+      background-color: @neonRed;
+      box-shadow: @neonRed;
+    }
+  }
+
+  &.purple-btn {
+    .neon(@neonPurple);
+    &:hover {
+      background-color: @neonPurple;
+      box-shadow: @neonPurple;
+    }
+  }
+
+  &.orange-btn {
+    .neon(@neonOrange);
+    &:hover {
+      background-color: @neonOrange;
+      box-shadow: @neonOrange;
+    }
+  }
+
+  &.yellow-btn {
+    .neon(@neonYellow);
+    &:hover {
+      background-color: @neonYellow;
+      box-shadow: @neonYellow;
+    }
+  }
+
+  &.pink-btn {
+    .neon(@neonPink);
+    &:hover {
+      background-color: @neonPink;
+      box-shadow: @neonPink;
+    }
+  }
+
+  &.black-btn {
+    .neon(@neonBlack);
+    &:hover {
+      background-color: @neonBlack;
+      box-shadow: @neonBlack;
+      color: @lightText !important;
+    }
+  }
+
+  &.white-btn {
+    .neon(@neonWhite);
+    &:hover {
+      background-color: @neonWhite;
+      box-shadow: @neonWhite;
+    }
+  }
+}

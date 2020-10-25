@@ -1,84 +1,101 @@
-.layer(@height, @width, @rotate, @skew, @bgColor) {
+.layer(@stackHeight, @stackWidth, @stackRotate, @stackSkew, @stackBgColor) {
   content: "";
-  height: @height;
-  width: @width;
+  height: @stackHeight;
+  width: @stackWidth;
   border-radius: inherit;
-  background: @bgColor;
+  background: @stackBgColor;
   position: absolute;
-  transform: rotate(@rotate) skew(@skew) translate(-10px, 10px);
+  transform: rotate(@stackRotate) skew(@stackSkew) translate(-10px, 10px);
 }
 
-.design_logic(@bgColor, @height, @width) {
+.design_logic(@stackBgColor, @stackHeight, @stackWidth) {
   // THE DESIGN LOGIC START
-  &:before {
-    .layer(@height, @width, @rotate, @skew, @bgColor);
-    content: "Button";
+  background-color: @stackBgColor;
+  height: @stackHeight;
+  width: @stackWidth;
+  transform: rotate(@stackRotate) skew(@stackSkew);
+  transition: all 0.5s;
+  opacity: 0.95;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow: visible;
+  &:before,
+  &:after {
+    background-color: @stackBgColor;
+    border-radius: inherit;
+    content: "";
     transition: all 0.5s;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  &:before {
     opacity: 0.95;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: -1;
   }
   &:after {
-    .layer(@height, @width, @rotate, @skew, @bgColor);
-    z-index: -1;
+    z-index: -2;
     opacity: 0.3;
+    top: 0;
   }
   &:hover {
-    &::before {
-      transform: rotate(-30deg) skew(25deg) translate(5px, -5px);
+    transform: rotate(-30deg) skew(25deg) translate(15px, -15px);
+    &:after {
+      transform: translate(-15px, 15px);
     }
   }
   // THE DESIGN LOGIC END
 }
 
-.colors_logic(@height, @width) {
+.colors_logic(@stackHeight, @stackWidth) {
   &.pink-btn {
-    @bgColor: @darkPink;
-    .design_logic(@bgColor, @height, @width);
+    @stackBgColor: @darkPink;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
   }
 
   &.blue-btn {
-    @bgColor: @darkBlue;
-    .design_logic(@bgColor, @height, @width);
+    @stackBgColor: @darkBlue;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
   }
 
   &.green-btn {
-    @bgColor: @darkGreen;
-    .design_logic(@bgColor, @height, @width);
+    @stackBgColor: @darkGreen;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
   }
 
   &.yellow-btn {
-    @bgColor: @darkYellow;
-    .design_logic(@bgColor, @height, @width);
+    @stackBgColor: @darkYellow;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
   }
 
   &.orange-btn {
-    @bgColor: @darkOrange;
-    .design_logic(@bgColor, @height, @width);
+    @stackBgColor: @darkOrange;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
   }
 
   &.red-btn {
-    @bgColor: @darkRed;
-    .design_logic(@bgColor, @height, @width);
+    @stackBgColor: @darkRed;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
   }
 
   &.purple-btn {
-    @bgColor: @darkPurple;
-    .design_logic(@bgColor, @height, @width);
+    @stackBgColor: @darkPurple;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
   }
   &.black-btn {
-    @bgColor: @black;
-    .design_logic(@bgColor, @height, @width);
+    @stackBgColor: @black;
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
   }
   &.white-btn {
-    @bgColor: @white;
+    @stackBgColor: @white;
     color: #000;
     &:before,
     &:after {
       border: #000 solid 2px !important;
     }
-    .design_logic(@bgColor, @height, @width);
+    .design_logic(@stackBgColor, @stackHeight, @stackWidth);
   }
 }
 
@@ -86,7 +103,7 @@
   padding: 10px 0 20px 0;
   height: 90%;
   width: 90%;
-  display: flex;
+  display: inline-flex;
   transform: translateY(30px);
   background-color: inherit;
   justify-content: center;
@@ -95,15 +112,16 @@
   position: relative;
   border: none;
   opacity: 1;
-  .colors_logic(@height, @width);
+  .colors_logic(@stackHeight, @stackWidth);
 
   &.block-btn {
+    display: flex;
     font-size: 25px;
-    margin: 2rem 0;
-    @rotate: -30deg;
-    @skew: 25deg;
-    @height: 40px;
-    @width: 3 * @height;
-    .colors_logic(@height, @width);
+    margin: 2rem auto;
+    @stackRotate: -30deg;
+    @stackSkew: 25deg;
+    @stackHeight: 40px;
+    @stackWidth: 3 * @stackHeight;
+    .colors_logic(@stackHeight, @stackWidth);
   }
 }

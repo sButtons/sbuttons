@@ -1,13 +1,10 @@
 .splash-btn {
   outline: none;
+  border: none;
   color: @lightText;
   cursor: pointer;
   position: relative;
   z-index: 0;
-
-  &.white-btn {
-    border-color: @whiteBorder;
-  }
 
   &:before {
     content: "";
@@ -34,7 +31,6 @@
     animation: glowing 20s linear infinite;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    border-radius: 10px;
   }
 
   &:after {
@@ -45,7 +41,6 @@
     height: 100%;
     left: 0;
     top: 0;
-    border-radius: 10px;
   }
 
   &:hover {
