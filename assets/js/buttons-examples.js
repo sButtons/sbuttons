@@ -31,6 +31,7 @@ $(document).ready(function () {
    * @property {list} [variations] - contains the button types that don't use buttonColors or don't have normal and rounded button styling
    * @property {boolean} [shouldHaveRoundedType] - indicates if rounded button type should hidden or not, defaults to true
    * @property {boolean} [shouldHaveBlockType] - indicates if block button type should hidden or not, defaults to true
+   * @property {string} [theme] - indicates the theme to set the button
    */
   var buttons = [
     {
@@ -678,6 +679,7 @@ $(document).ready(function () {
    * @param {string} buttonText - refers to text written in each button
    * @param {boolean} isBlock - indicates if it should be a block button or not
    * @param {boolean} isDisabled - indicates if the button is diplayed as disabled or not
+   * @param {string} theme - indicates the theme to set the button
    *
    * @returns {string} - the required button item's html
    */
@@ -686,13 +688,18 @@ $(document).ready(function () {
     textClasses,
     buttonText,
     isBlock,
-    isDisabled
+    isDisabled,
+    theme
   ) {
     if (buttonText === false) {
       buttonText = "Button";
     }
+    var datatheme = "";
+    if (theme != null) {
+      datatheme = 'data-theme="' + theme + '"';
+    }
     return `
-            <div class="button-container">
+            <div ${datatheme} class="button-container">
                 <button class="${classes}" role="Button"
                   ${isDisabled ? 'aria-disabled="true" tabindex="-1"' : ""}
                   >${buttonText}</button>
@@ -813,6 +820,8 @@ $(document).ready(function () {
           ? buttonArr[j].classes
           : buttonArr[j];
 
+        var theme = buttonArr[j].theme;
+
         var totalClasses = `${defaultClass} ${button.classes}`,
           totalWrittenClasses = `.${defaultClass} .${button.classes}`;
         if (thisButtonClasses.length) {
@@ -827,7 +836,8 @@ $(document).ready(function () {
             totalWrittenClasses,
             thisButtonText,
             false,
-            isDisabled
+            isDisabled,
+            theme
           )
         );
         if (roundedButtonsGrid) {
@@ -838,7 +848,8 @@ $(document).ready(function () {
               `${totalWrittenClasses} .rounded-btn`,
               thisButtonText,
               false,
-              isDisabled
+              isDisabled,
+              theme
             )
           );
         }
@@ -850,7 +861,8 @@ $(document).ready(function () {
               `${totalWrittenClasses} .block-btn`,
               thisButtonText,
               true,
-              isDisabled
+              isDisabled,
+              theme
             )
           );
         }

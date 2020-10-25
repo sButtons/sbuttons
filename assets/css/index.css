@@ -24,6 +24,11 @@ body > .container {
   color: #ffffff;
 }
 
+.button-container[data-theme="light"] {
+  background-color: #fff;
+  color: #333;
+}
+
 [data-theme="dark"] footer {
   background-color: #434343;
 }
@@ -159,7 +164,7 @@ section {
   margin-bottom: 2.5em;
 }
 
-[data-theme="dark"] .button-caption-sub {
+[data-theme="dark"] .button-caption-sub:not([data-theme="light"] .button-caption-sub) {
   color: #afafaf;
 }
 
