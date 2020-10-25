@@ -525,6 +525,10 @@ $(document).ready(function () {
           text: "Login with Discord",
         },
         {
+          classes: "steam",
+          text: "Login with Steam",
+        },
+        {
           classes: "facebook",
           text: "Login with Facebook",
         },

@@ -3603,6 +3603,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #353535;
   content: "\f179";
 }
+.social-btn.steam {
+  background-color:  #202329;
+  color: #fff;
+}
+.social-btn.steam:after {
+  color: #fff;
+  content: "\f1b6";
+}
 .social-btn.facebook {
   background-color: #3360ff;
   color: #fff;
