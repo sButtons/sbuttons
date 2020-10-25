@@ -160,6 +160,13 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "atom",
+          label: "Atom",
+          classes: "atom-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "aura-pulse",
           label: "Aura Pulse",
           classes: "aurapulse-btn",

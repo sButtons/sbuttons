@@ -545,33 +545,65 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #50bfe6;
   color: #50bfe6 !important;
 }
+.outline-btn.blue-btn::after {
+  border-color: #50bfe6;
+  background: #50bfe6;
+}
 .outline-btn.pink-btn {
   border-color: #d53caf;
   color: #d53caf !important;
+}
+.outline-btn.pink-btn::after {
+  border-color: #d53caf;
+  background: #d53caf;
 }
 .outline-btn.red-btn {
   border-color: #ed0a3f;
   color: #ed0a3f !important;
 }
+.outline-btn.red-btn::after {
+  border-color: #ed0a3f;
+  background: #ed0a3f;
+}
 .outline-btn.green-btn {
   border-color: #3aa655;
   color: #3aa655 !important;
+}
+.outline-btn.green-btn::after {
+  border-color: #3aa655;
+  background: #3aa655;
 }
 .outline-btn.yellow-btn {
   border-color: #fbe870;
   color: #fbe870 !important;
 }
+.outline-btn.yellow-btn::after {
+  border-color: #fbe870;
+  background: #fbe870;
+}
 .outline-btn.orange-btn {
   border-color: #ff8833;
   color: #ff8833 !important;
+}
+.outline-btn.orange-btn::after {
+  border-color: #ff8833;
+  background: #ff8833;
 }
 .outline-btn.purple-btn {
   border-color: #652dc1;
   color: #652dc1 !important;
 }
+.outline-btn.purple-btn::after {
+  border-color: #652dc1;
+  background: #652dc1;
+}
 .outline-btn.black-btn {
   border-color: #000;
   color: #000 !important;
+}
+.outline-btn.black-btn::after {
+  border-color: #000;
+  background: #000;
 }
 .outline-btn.white-btn {
   border-color: #e9e9e9;
@@ -3096,11 +3128,140 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 0;
   border-color: white;
 }
-.papercurl-btn:hover::before,
-.papercurl-btn:focus::before,
-.papercurl-btn:active::before {
+.papercurl-btn:hover:before,
+.papercurl-btn:focus:before,
+.papercurl-btn:active:before {
   height: 25px;
   width: 25px;
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Lato Regular"), local("Lato-Regular"),
+    url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHvxk.ttf)
+      format("truetype");
+}
+.atom-btn {
+  border: 4px solid;
+  background-color: transparent;
+  font-family: "Lato", monospace;
+  overflow: initial;
+  position: relative;
+  text-align: center;
+}
+.atom-btn.blue-btn {
+  border-color: #50bfe6;
+  color: #50bfe6 !important;
+}
+.atom-btn.blue-btn::after {
+  border-color: #50bfe6;
+  background: #50bfe6;
+}
+.atom-btn.pink-btn {
+  border-color: #d53caf;
+  color: #d53caf !important;
+}
+.atom-btn.pink-btn::after {
+  border-color: #d53caf;
+  background: #d53caf;
+}
+.atom-btn.red-btn {
+  border-color: #ed0a3f;
+  color: #ed0a3f !important;
+}
+.atom-btn.red-btn::after {
+  border-color: #ed0a3f;
+  background: #ed0a3f;
+}
+.atom-btn.green-btn {
+  border-color: #3aa655;
+  color: #3aa655 !important;
+}
+.atom-btn.green-btn::after {
+  border-color: #3aa655;
+  background: #3aa655;
+}
+.atom-btn.yellow-btn {
+  border-color: #fbe870;
+  color: #fbe870 !important;
+}
+.atom-btn.yellow-btn::after {
+  border-color: #fbe870;
+  background: #fbe870;
+}
+.atom-btn.orange-btn {
+  border-color: #ff8833;
+  color: #ff8833 !important;
+}
+.atom-btn.orange-btn::after {
+  border-color: #ff8833;
+  background: #ff8833;
+}
+.atom-btn.purple-btn {
+  border-color: #652dc1;
+  color: #652dc1 !important;
+}
+.atom-btn.purple-btn::after {
+  border-color: #652dc1;
+  background: #652dc1;
+}
+.atom-btn.black-btn {
+  border-color: #000;
+  color: #000 !important;
+}
+.atom-btn.black-btn::after {
+  border-color: #000;
+  background: #000;
+}
+.atom-btn.white-btn {
+  border-color: #e9e9e9;
+  color: #e9e9e9 !important;
+  color: #333 !important;
+}
+.atom-btn.white-btn::after {
+  border-color: #e9e9e9;
+  background: #e9e9e9;
+}
+.atom-btn::after {
+  background: inherit;
+  content: "";
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border-width: 4px;
+  border-style: solid;
+  display: none;
+}
+.atom-btn:hover::after,
+.atom-btn:focus::after {
+  display: inline-block;
+  animation: atom 2s infinite linear;
+}
+@keyframes atom {
+  0% {
+    left: -2px;
+    top: -2px;
+  }
+  30% {
+    left: calc(100% + 2px);
+    top: -2px;
+  }
+  50% {
+    left: calc(100% + 2px);
+    top: 100%;
+  }
+  80% {
+    left: -2px;
+    top: calc(100% + 2px);
+  }
+  100% {
+    left: -2px;
+    top: -2px;
+  }
 }
 .buy-me-coffee-btn {
   position: relative;
