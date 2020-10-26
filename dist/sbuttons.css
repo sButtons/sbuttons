@@ -3736,6 +3736,22 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: white;
   content: "\f232";
 }
+.social-btn.gitlab {
+  background-color: #e25235;
+  color: #fff;
+}
+.social-btn.gitlab:after {
+  color: #fff;
+  content: "\f296";
+}
+.social-btn.bitbucket {
+  background-color: #0349b2;
+  color: #fff;
+}
+.social-btn.bitbucket:after {
+  color: #fff;
+  content: "\f171";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
