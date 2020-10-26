@@ -204,6 +204,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/RakshitaTantry28"><img src="https://avatars1.githubusercontent.com/u/55851040?v=4" width="100px;" alt=""/><br /><sub><b>RakshitaTantry28</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=RakshitaTantry28" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Soumi150"><img src="https://avatars3.githubusercontent.com/u/56203058?v=4" width="100px;" alt=""/><br /><sub><b>Soumi Das</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Soumi150" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/dasari810"><img src="https://avatars0.githubusercontent.com/u/64162781?v=4" width="100px;" alt=""/><br /><sub><b>Madhava Dasari</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=dasari810" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
