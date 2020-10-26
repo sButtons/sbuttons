@@ -611,6 +611,17 @@ $(document).ready(function () {
           text: "",
         },
         {
+          type: "rainbow-border",
+          label: "Rainbow Border",
+          classes: "rainbow-border-btn",
+          shouldHaveRoundedType: false,
+          variations: [
+            {
+              text: "Rainbow",
+            },
+          ],
+        },
+        {
           type: "retro",
           label: "Retro",
           classes: "retro-btn",
