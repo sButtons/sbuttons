@@ -3096,11 +3096,34 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 0;
   border-color: white;
 }
-.papercurl-btn:hover::before,
-.papercurl-btn:focus::before,
-.papercurl-btn:active::before {
+.papercurl-btn:hover:before,
+.papercurl-btn:focus:before,
+.papercurl-btn:active:before {
   height: 25px;
   width: 25px;
+}
+.vibrate-btn {
+  animation: vibrate 0.3s linear infinite both;
+}
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 .buy-me-coffee-btn {
   position: relative;

@@ -225,6 +225,11 @@ $(document).ready(function () {
           classes: "liquid-btn",
         },
         {
+          type: "vibrate",
+          label: "vibrate",
+          classes: "vibrate-btn",
+        },
+        {
           type: "loading",
           label: "Loading",
           classes: "loading-btn",
