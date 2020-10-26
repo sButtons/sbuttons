@@ -451,6 +451,23 @@ $(document).ready(function () {
           shouldHaveBlockType: false,
         },
         {
+          type: "icon-hatch",
+          label: "Icon Hatch",
+          classes: "icon-hatch-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "",
+              text: "<i class='fas fa-camera'></i>",
+            },
+            {
+              classes: "",
+              text: "<i class='fas fa-book'></i>",
+            },
+          ],
+        },
+        {
           type: "like",
           label: "Like",
           classes: "like-btn",
@@ -503,23 +520,6 @@ $(document).ready(function () {
           label: "Thumbs Up",
           classes: "thumbsup-btn",
           text: "",
-        },
-        {
-          type: "icon-hatch",
-          label: "Icon Hatch",
-          classes: "icon-hatch-btn",
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
-          variations: [
-            {
-              classes: "",
-              text: "<i class='fas fa-camera'></i>",
-            },
-            {
-              classes: "",
-              text: "<i class='fas fa-book'></i>",
-            },
-          ],
         },
       ],
     },
