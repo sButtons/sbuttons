@@ -1,7 +1,5 @@
-@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
 .grow-btn {
   display: inline-block;
-  font-family: "Arial";
   height: 60px;
   width: 60px;
   margin: 0 70px;
@@ -11,20 +9,19 @@
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-out;
+  transition: all 0.3s;
   &:hover {
     &:after {
       content: " Favourite";
-      font-family: "Arial";
       font-style: normal;
       font-variant: normal;
       text-rendering: auto;
       -webkit-font-smoothing: antialiased;
-      transition: all 0.3s ease-out;
+      transition: all 0.3s;
     }
     width: 200px;
     margin: 0 0 1em 0;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s;
   }
   &::before {
     content: "\f004";
@@ -33,6 +30,6 @@
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s;
   }
 }
