@@ -504,6 +504,23 @@ $(document).ready(function () {
           classes: "thumbsup-btn",
           text: "",
         },
+        {
+          type: "icon-hatch",
+          label: "Icon Hatch",
+          classes: "icon-hatch-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "",
+              text: "<i class='fas fa-camera'></i>",
+            },
+            {
+              classes: "",
+              text: "<i class='fas fa-book'></i>",
+            },
+          ],
+        },
       ],
     },
     {
