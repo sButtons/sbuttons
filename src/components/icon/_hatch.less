@@ -1,10 +1,11 @@
-.icon-hatch-btn {
-  --iconHatchCol: @black;
+.hatch-btn {
+  color: @black;
+  border-color: @black;
   [data-theme="dark"] & {
-    .icon-hatch-dark();
+    .hatch-dark();
   }
   @media (prefers-color-scheme: dark) {
-    .icon-hatch-dark();
+    .hatch-dark();
   }
 
   height: 50px;
@@ -14,8 +15,6 @@
   border: solid 0px;
 
   background: transparent;
-  color: var(--iconHatchCol);
-  border-color: var(--iconHatchCol);
   transition: 0.25s ease-in;
 
   &:hover {
@@ -43,8 +42,11 @@
   }
 }
 
-.icon-hatch-dark() {
-  --iconHatchCol: @white;
+.hatch-dark() {
+  & {
+    color: @white;
+    border-color: @white;
+  }
   &:hover {
     box-shadow: 6px 0 5px rgba(255, 255, 255, 0.25);
   }

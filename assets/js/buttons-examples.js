@@ -451,9 +451,9 @@ $(document).ready(function () {
           shouldHaveBlockType: false,
         },
         {
-          type: "icon-hatch",
-          label: "Icon Hatch",
-          classes: "icon-hatch-btn",
+          type: "hatch",
+          label: "Hatch",
+          classes: "hatch-btn",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
           variations: [
