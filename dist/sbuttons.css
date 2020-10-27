@@ -128,7 +128,7 @@
   border-color: transparent;
   color: #fff;
   font-family: inherit;
-  /* overflow: hidden; */
+  overflow: hidden;
   font-size: 1.5rem;
 }
 .sbtn:hover,
