@@ -225,11 +225,6 @@ $(document).ready(function () {
           classes: "liquid-btn",
         },
         {
-          type: "vibrate",
-          label: "vibrate",
-          classes: "vibrate-btn",
-        },
-        {
           type: "loading",
           label: "Loading",
           classes: "loading-btn",
@@ -349,6 +344,11 @@ $(document).ready(function () {
           type: "transparent",
           label: "Transparent On Hover",
           classes: "transparent-btn",
+        },
+        {
+          type: "Vibrate",
+          label: "Vibrate",
+          classes: "vibrate-btn",
         },
       ],
     },

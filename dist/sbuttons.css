@@ -3102,7 +3102,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 25px;
   width: 25px;
 }
-.vibrate-btn {
+.vibrate-btn:hover {
   animation: vibrate 0.3s linear infinite both;
 }
 @keyframes vibrate {
