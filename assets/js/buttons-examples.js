@@ -160,6 +160,11 @@ $(document).ready(function () {
           classes: "aurapulse-btn",
         },
         {
+          type: "blob",
+          label: "blob-btn",
+          classes: "blob-btn"
+        },
+        {
           type: "bounce",
           label: "Bounce",
           classes: "bouncy-btn",
