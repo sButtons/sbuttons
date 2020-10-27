@@ -161,8 +161,16 @@ $(document).ready(function () {
         },
         {
           type: "blob",
-          label: "blob-btn",
-          classes: "blob-btn"
+          label: "Blob-btn",
+          classes: "blob-btn",
+          variations:[
+           { 
+             type:"blob",
+             classes:"blob-btn"
+           }
+          ],
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false
         },
         {
           type: "bounce",
@@ -838,7 +846,18 @@ $(document).ready(function () {
           totalClasses += ` ${thisButtonClasses}`;
           totalWrittenClasses += ` .${thisButtonClasses}`;
         }
-
+        if(buttonArr[0].type=="blob")
+        {
+        console.log(totalClasses);
+        console.log(totalWrittenClasses)
+        var zap = totalClasses;
+        
+          _totalClasses = [zap.split(" ")[1],zap.split(" ")[2]];
+        
+          totalClasses = _totalClasses.join(" ");
+        
+        //console.log(totalClasses.join(" "));
+        }
         // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
