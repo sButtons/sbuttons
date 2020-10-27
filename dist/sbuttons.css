@@ -2038,6 +2038,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .fill-color-btn:hover {
   color: #fff !important;
+  border-width: 0rem;
 }
 .fill-color-btn.sideways-fill:before {
   width: 100%;
@@ -2076,12 +2077,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #d53caf;
 }
 .fill-color-btn.green-btn {
-  border-color: #3aa655 !important;
+  border-color: #3aa655;
   color: #3aa655;
+  
 }
 .fill-color-btn.green-btn:before {
   background-color: #3aa655;
+  border-color: white;
 }
+
 .fill-color-btn.green-btn.rounded-btn:hover {
   background-color: #3aa655;
 }
