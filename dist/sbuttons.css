@@ -3096,11 +3096,33 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 0;
   border-color: white;
 }
-.papercurl-btn:hover::before,
-.papercurl-btn:focus::before,
-.papercurl-btn:active::before {
+.papercurl-btn:hover:before,
+.papercurl-btn:focus:before,
+.papercurl-btn:active:before {
   height: 25px;
   width: 25px;
+}
+.blinking-btn:hover {
+  animation: blinkingText 1.2s infinite;
+  border: none;
+  background-color: none;
+}
+@keyframes blinkingText {
+  0% {
+    color: #000;
+  }
+  49% {
+    color: #000;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #000;
+  }
 }
 .buy-me-coffee-btn {
   position: relative;

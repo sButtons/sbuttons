@@ -169,6 +169,12 @@ $(document).ready(function () {
           label: "Bounce",
           classes: "bouncy-btn",
         },
+
+        {
+          type: "Blinking",
+          label: "Blinking",
+          classes: "blinking-btn",
+        },
         {
           type: "diagonalHover",
           label: "Diagonal Background on Hover",
