@@ -42,7 +42,7 @@ This repository will help people who don't know how to participate in [Hacktober
 
 You can download the CSS file [here](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css) and then add it to your html file inbetween the `<head>` tags:
 
-```
+```html
 <link rel="stylesheet" href="/path/to/sbuttons.min.css">
 ```
 
@@ -50,7 +50,7 @@ You can download the CSS file [here](https://cdn.jsdelivr.net/gh/sButtons/sbutto
 
 You can use the [CDN](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css):
 
-```
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css">
 ```
 
@@ -58,7 +58,7 @@ You can use the [CDN](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbutton
 
 You can install sButtons using [NPM](https://www.npmjs.com/package/sbuttons):
 
-```
+```bash
 npm i sbuttons
 ```
 
@@ -70,7 +70,7 @@ To modify button colors, import `src/sbuttons.less` in your Less file, then make
 
 For example, to change the blue color to a different shade
 
-```
+```css
 @import '/path/to/sbuttons.less';
 
 @blue: #54a2bd; /* Make it darker */
@@ -82,13 +82,13 @@ Check out [_variables.less](https://github.com/sButtons/sbuttons/blob/master/src
 
 To use sButtons in your project , just add the classes of sButton you want to either `<button>` or `<a>` tags :
 
-```
+```html
 <button class='sbtn basic-btn blue-btn'>Button</button>
 ```
 
 Same can be done for `<a>` tag
 
-```
+```html
 <a href='#' class='sbtn basic-btn blue-btn'>Button</a>
 ```
 
@@ -98,7 +98,7 @@ You can find all classes and their corresponding sButtons mentioned in our [webs
 
 To use sButtons with block display, add the class to either `<button>` or `<a>` tags
 
-```
+```html
 <button class="sbtn basic-btn block-btn">Button</button>
 ```
 
@@ -106,11 +106,11 @@ To use sButtons with block display, add the class to either `<button>` or `<a>` 
 
 To make a `<button>` or `<a>` tag disabled, add disabled-btn class as shown below.
 
-```
+```html
 <button class="sbtn basic-btn blue-btn disabled-btn">Button</button>
 ```
 
-```
+```html
 <a class="sbtn basic-btn blue-btn disabled-btn">Button</a>
 ```
 
@@ -118,7 +118,7 @@ To make a `<button>` or `<a>` tag disabled, add disabled-btn class as shown belo
 
 In case of using buttons that have icons in them, make sure to include font awesome's [CDN](https://use.fontawesome.com/releases/v5.14.0/css/all.css) in the `<head>` tag:
 
-```
+```html
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 ```
 
