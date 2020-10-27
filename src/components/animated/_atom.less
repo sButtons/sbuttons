@@ -1,19 +1,15 @@
 // code by harjotkarwal
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
 .outlineRule(@color) {
   border-color: @color;
   color: @color !important;
   &::after {
     border-color: @color;
-    background: @color;
   }
 }
 
 .atom-btn {
   border: 4px solid;
   background-color: transparent;
-  font-family: "Lato", monospace;
   overflow: initial;
   position: relative;
   text-align: center;
@@ -55,7 +51,7 @@
   }
 
   &::after {
-    background: inherit;
+    background: white;
     content: "";
     position: absolute;
     height: 14px;
