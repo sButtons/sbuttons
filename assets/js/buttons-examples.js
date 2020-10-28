@@ -346,7 +346,7 @@ $(document).ready(function () {
           classes: "transparent-btn",
         },
         {
-          type: "Vibrate",
+          type: "vibrate",
           label: "Vibrate",
           classes: "vibrate-btn",
         },
