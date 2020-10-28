@@ -580,7 +580,7 @@ $(document).ready(function () {
           classes: "snapchat",
           text: "Login with Snapchat",
         },
-         {
+        {
           classes: "steam",
           text: "Login with Steam",
         },
