@@ -347,7 +347,7 @@ $(document).ready(function () {
         },
         {
           type: "vibrate",
-          label: "Vibrate",
+          label: "Vibrate", 
           classes: "vibrate-btn",
         },
       ],
