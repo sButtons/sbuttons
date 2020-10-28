@@ -1496,6 +1496,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Ajax-Light",
+      "name": "Ujwal Kundur",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54140487?v=4",
+      "profile": "https://github.com/Ajax-Light",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
