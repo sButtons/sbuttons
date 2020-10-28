@@ -2039,6 +2039,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn:hover {
   color: #fff !important;
   border-width: 0rem;
+  width: 5.6rem;
   height: 3.62rem;
 }
 .fill-color-btn.sideways-fill:before {
