@@ -206,6 +206,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/dasari810"><img src="https://avatars0.githubusercontent.com/u/64162781?v=4" width="100px;" alt=""/><br /><sub><b>Madhava Dasari</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=dasari810" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Ajax-Light"><img src="https://avatars2.githubusercontent.com/u/54140487?v=4" width="100px;" alt=""/><br /><sub><b>Ujwal Kundur</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Ajax-Light" title="Documentation">📖</a></td>
   </tr>
 </table>
 
