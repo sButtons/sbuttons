@@ -498,6 +498,12 @@ $(document).ready(function () {
           text: "",
         },
         {
+          type: "subtract",
+          label: "Subtract",
+          classes: "subtract-btn",
+          text: "",
+        },
+        {
           type: "scroll-to-top",
           label: "Scroll-to-Top",
           classes: "scroll-to-top-btn",

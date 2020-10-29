@@ -3434,6 +3434,31 @@ a.yellow-btn:active:not(.fill-color-btn) {
   height: 1.6em;
   padding: 0;
 }
+.subtract-btn {
+  transform-origin: center;
+  filter: brightness(1);
+  transition: filter 0.3s;
+}
+.subtract-btn:before {
+  content: "\2212";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.subtract-btn:focus {
+  filter: brightness(1.2);
+}
+.subtract-btn:not(.rounded-btn) {
+  padding: 0 0.5em;
+}
+.subtract-btn.rounded-btn {
+  width: 1.6em;
+  height: 1.6em;
+  padding: 0;
+}
 .add-to-cart-btn {
   position: relative;
   padding-right: 1.5em;
