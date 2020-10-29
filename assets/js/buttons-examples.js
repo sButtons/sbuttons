@@ -18,7 +18,6 @@ $(document).ready(function () {
     "purple-btn",
     "black-btn",
     "white-btn",
-
   ];
   /**buttons is a list of button type objects tht will be rendered on the page load
    * with their respective class names, labels, children and types.
@@ -713,30 +712,30 @@ $(document).ready(function () {
               text: "No",
             },
           ],
-          },
-          {
-            type: "western",
-            label: "Western",
-            classes: "western-btn",
-            variations: [
-                {
-                    classes: "denim-btn",
-                    text: "Howdy",
-                },
-                {
-                    classes: "choco-btn",
-                    text: "Howdy",
-                },
-                {
-                    classes: "charcoal-btn",
-                    text: "Howdy",
-                },
-                {
-                    classes: "sand-btn",
-                    text: "Howdy",
-                }
-             ],
-          },
+        },
+        {
+          type: "western",
+          label: "Western",
+          classes: "western-btn",
+          variations: [
+            {
+              classes: "denim",
+              text: "Howdy",
+            },
+            {
+              classes: "choco",
+              text: "Howdy",
+            },
+            {
+              classes: "charcoal",
+              text: "Howdy",
+            },
+            {
+              classes: "sand",
+              text: "Howdy",
+            },
+          ],
+        },
       ],
     },
   ];

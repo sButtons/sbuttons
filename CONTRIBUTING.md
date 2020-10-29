@@ -13,7 +13,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 # Contents
 
 - [Instructions](#instructions)
-  * [Button Ideas](#button-ideas)
+  * [Button Ideas](#button-ideas)ru
   * [Create Pull Request](#create-pull-request)
     + [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
   * [Code of Conduct](#code-of-conduct)
