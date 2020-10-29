@@ -1039,7 +1039,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/53168325?v=4",
       "profile": "https://github.com/wisetok12680",
       "contributions": [
-        "code"
+        "code",
+        "ideas"
       ]
     },
     {
@@ -1417,7 +1418,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/3881568?v=4",
       "profile": "http://glebkema.ru",
       "contributions": [
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -1444,7 +1446,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/29947024?v=4",
       "profile": "https://github.com/ArshdeepSingh98",
       "contributions": [
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -1455,6 +1458,71 @@
       "contributions": [
         "code",
         "bug"
+      ]
+    },
+    {
+      "login": "Hrshk15",
+      "name": "Harsh Karki",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56513758?v=4",
+      "profile": "https://github.com/Hrshk15",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "RakshitaTantry28",
+      "name": "RakshitaTantry28",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/55851040?v=4",
+      "profile": "https://github.com/RakshitaTantry28",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Soumi150",
+      "name": "Soumi Das",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56203058?v=4",
+      "profile": "https://github.com/Soumi150",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dasari810",
+      "name": "Madhava Dasari",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/64162781?v=4",
+      "profile": "https://github.com/dasari810",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Ajax-Light",
+      "name": "Ujwal Kundur",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54140487?v=4",
+      "profile": "https://github.com/Ajax-Light",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "hmankodiya",
+      "name": "Harsh Mankodiya",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/52171362?v=4",
+      "profile": "https://github.com/hmankodiya",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "harjotkarwal",
+      "name": "Harjot S.",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/73360250?v=4",
+      "profile": "https://github.com/harjotkarwal",
+      "contributions": [
+        "code"
       ]
     }
   ],

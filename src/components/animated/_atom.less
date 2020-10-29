@@ -1,0 +1,93 @@
+// code by harjotkarwal
+.outlineRule(@color) {
+  border-color: @color;
+  color: @color !important;
+  &::after {
+    border-color: @color;
+  }
+}
+
+.atom-btn {
+  border: 4px solid;
+  background-color: transparent;
+  overflow: initial;
+  position: relative;
+  text-align: center;
+
+  &.blue-btn {
+    .outlineRule(@blue);
+  }
+  &.pink-btn {
+    .outlineRule(@pink);
+  }
+
+  &.red-btn {
+    .outlineRule(@red);
+  }
+
+  &.green-btn {
+    .outlineRule(@green);
+  }
+
+  &.yellow-btn {
+    .outlineRule(@yellow);
+  }
+
+  &.orange-btn {
+    .outlineRule(@orange);
+  }
+
+  &.purple-btn {
+    .outlineRule(@purple);
+  }
+
+  &.black-btn {
+    .outlineRule(@black);
+  }
+
+  &.white-btn {
+    .outlineRule(@whiteBorder);
+    color: @darkText !important;
+  }
+
+  &::after {
+    background: white;
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border-width: 4px;
+    border-style: solid;
+    display: none;
+  }
+  &:hover::after,
+  &:focus::after {
+    display: inline-block;
+    animation: atom 2s infinite linear;
+  }
+
+  @keyframes atom {
+    0% {
+      left: -2px;
+      top: -2px;
+    }
+    30% {
+      left: calc(100% + 2px);
+      top: -2px;
+    }
+    50% {
+      left: calc(100% + 2px);
+      top: 100%;
+    }
+    80% {
+      left: -2px;
+      top: calc(100% + 2px);
+    }
+    100% {
+      left: -2px;
+      top: -2px;
+    }
+  }
+}

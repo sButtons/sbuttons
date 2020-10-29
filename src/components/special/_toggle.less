@@ -1,38 +1,78 @@
+input[type="radio"].toggle-btn,
+input[type="checkbox"].toggle-btn {
+  padding: 10px !important;
+}
+
 .toggle-btn {
-  width: 90px;
-  height: 50px;
-  border-radius: 50px;
+  width: @toggleWidth;
+  height: @toggleHeight;
+  border-radius: @toggleBorderRadius;
   border: 0;
   transition: all 0.5s ease;
-  outline: none;
+  outline: 0;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
+  position: relative;
+  &:before,
+  &:after {
+    content: "";
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  &:before {
+    background-color: @toggleSwitchColor;
+    border-radius: 50%;
+    display: inline-block;
+    height: calc(@toggleWidth / 2.25);
+    width: calc(@toggleWidth / 2.25);
+    transition: all 0.5s ease;
+    transform: @toggleSwitchOffPosition;
+  }
+  &:after {
+    background-color: @toggleOffBgColor;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: background-color 0.5s ease;
+    transition-delay: 0.2s;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  &:checked:before {
+    transform: @toggleSwitchOnPosition;
+  }
+  &:checked:after {
+    background-color: @toggleOnBgColor;
+  }
 }
-.toggle-btn::before {
-  content: "";
-  height: 40px;
-  width: 40px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s ease;
-}
+
 .toggle-on-btn {
-  background-color: rgb(48, 209, 88);
-  border: 0;
-  border-color: #4ed164;
-  box-shadow: inset 2px 0 0 0 #4ed164;
+  &:before {
+    transform: @toggleSwitchOnPosition;
+  }
+  &:after {
+    background-color: @toggleOnBgColor;
+  }
+  &:active:before {
+    transform: @toggleSwitchOffPosition;
+  }
+  &:active:after {
+    background-color: @toggleOffBgColor;
+  }
 }
+
 .toggle-off-btn {
-  background-color: rgb(229, 229, 234);
-  border: 1px solid #d9dadc;
-  box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.05);
-}
-.toggle-on-btn::before {
-  transform: translateX(1.5em);
-}
-.toggle-off-btn::before {
-  transform: translateX(-0.3em);
+  &:before {
+    transform: @toggleSwitchOffPosition;
+  }
+  &:after {
+    background-color: @toggleOffBgColor;
+  }
+  &:active:before {
+    transform: @toggleSwitchOnPosition;
+  }
+  &:active:after {
+    background-color: @toggleOnBgColor;
+  }
 }

@@ -1,0 +1,53 @@
+.hatch-btn {
+  color: @black;
+  border-color: @black;
+  [data-theme="dark"] & {
+    .hatch-dark();
+  }
+  @media (prefers-color-scheme: dark) {
+    .hatch-dark();
+  }
+
+  height: 50px;
+  width: 50px;
+
+  border-radius: 100%;
+  border: solid 0px;
+
+  background: transparent;
+  transition: 0.25s ease-in;
+
+  &:hover {
+    border-right: solid 15px;
+    transition: 0.5s ease-out;
+  }
+
+  i {
+    width: 100%;
+    height: 100%;
+    margin-top: 2px;
+    text-shadow: -2px -2px 5px rgba(255, 255, 255, 0.15),
+      2px 2px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.25s ease-in;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    & > i {
+      text-shadow: -2px -2px 5px rgba(255, 255, 255, 0.15),
+        7px 2px 8px rgba(0, 0, 0, 0.25);
+      transform: translateX(-7.5px) rotateY(-45deg);
+      transition: 0.5s ease-out;
+    }
+  }
+}
+
+.hatch-dark() {
+  & {
+    color: @white;
+    border-color: @white;
+  }
+  &:hover {
+    box-shadow: 6px 0 5px rgba(255, 255, 255, 0.25);
+  }
+}
