@@ -14,6 +14,8 @@
 /* END VARIABLES IN special/_handwritten-btn.less */
 /* BEGIN VARIABLES IN special/_retro.less */
 /* END VARIABLES IN special/_retro.less */
+/* BEGIN VARIABLES IN special/_toggle.less */
+/* END VARIABLES IN special/_toggle.less */
 /* BEGIN VARIABLES IN special/_gradient.less */
 /* END VARIABLES IN special/_gradient.less */
 .sbtn {
@@ -3782,14 +3784,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.apple:after {
   color: #353535;
   content: "\f179";
-}
-.social-btn.steam {
-  background-color: #202329;
-  color: #fff;
-}
-.social-btn.steam:after {
-  color: #fff;
-  content: "\f1b6";
 }
 .social-btn.facebook {
   background-color: #3360ff;
