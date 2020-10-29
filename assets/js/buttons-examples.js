@@ -79,11 +79,6 @@ $(document).ready(function () {
           text: "Extra-large",
         },
         {
-          type: "gradient",
-          label: "Gradient",
-          classes: "gradient-btn",
-        },
-        {
           type: "glossy",
           label: "Glossy",
           classes: "glossy-btn",
@@ -159,6 +154,13 @@ $(document).ready(function () {
       label: "Animated Buttons",
       classes: "",
       children: [
+        {
+          type: "atom",
+          label: "Atom",
+          classes: "atom-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
         {
           type: "aura-pulse",
           label: "Aura Pulse",
@@ -461,6 +463,23 @@ $(document).ready(function () {
           shouldHaveBlockType: false,
         },
         {
+          type: "hatch",
+          label: "Hatch",
+          classes: "hatch-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "",
+              text: "<i class='fas fa-camera'></i>",
+            },
+            {
+              classes: "",
+              text: "<i class='fas fa-book'></i>",
+            },
+          ],
+        },
+        {
           type: "like",
           label: "Like",
           classes: "like-btn",
@@ -526,6 +545,10 @@ $(document).ready(function () {
           text: "Login with Apple",
         },
         {
+          classes: "bitbucket",
+          text: "Login with Bitbucket",
+        },
+        {
           classes: "discord",
           text: "Login with Discord",
         },
@@ -540,6 +563,10 @@ $(document).ready(function () {
         {
           classes: "github",
           text: "Login with Github",
+        },
+        {
+          classes: "gitlab",
+          text: "Login with GitLab",
         },
         {
           classes: "google",
@@ -564,6 +591,10 @@ $(document).ready(function () {
         {
           classes: "snapchat",
           text: "Login with Snapchat",
+        },
+        {
+          classes: "steam",
+          text: "Login with Steam",
         },
         {
           classes: "twitter",
@@ -619,6 +650,17 @@ $(document).ready(function () {
           label: "Play game",
           classes: "play-game-btn",
           text: "",
+        },
+        {
+          type: "rainbow-border",
+          label: "Rainbow Border",
+          classes: "rainbow-border-btn",
+          shouldHaveRoundedType: false,
+          variations: [
+            {
+              text: "Rainbow",
+            },
+          ],
         },
         {
           type: "retro",
