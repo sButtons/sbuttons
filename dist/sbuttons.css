@@ -3127,6 +3127,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 25px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .vibrate-btn:hover {
   animation: vibrate 0.3s linear infinite both;
 }
@@ -3258,6 +3259,29 @@ a.yellow-btn:active:not(.fill-color-btn) {
     left: -2px;
     top: -2px;
 >>>>>>> e7ef0d8896f9bd735f3933c8680fe0032e78e495
+=======
+.blinking-btn:hover {
+  animation: blinkingText 1.2s infinite;
+  border: none;
+  color: gray;
+  background-color: none;
+}
+@keyframes blinkingText {
+  0% {
+    color: gray;
+  }
+  49% {
+    color: transparent;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: gray;
+>>>>>>> 6aee9781f9f81a1a331d6cb64799ca29258b8434
   }
 }
 .buy-me-coffee-btn {

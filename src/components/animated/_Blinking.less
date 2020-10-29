@@ -1,0 +1,23 @@
+.blinking-btn&:hover {
+  animation: blinkingText 1.2s infinite;
+  border: none;
+  color: gray;
+  background-color: none;
+}
+@keyframes blinkingText {
+  0% {
+    color: gray;
+  }
+  49% {
+    color: transparent;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: gray;
+  }
+}

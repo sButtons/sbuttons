@@ -167,10 +167,17 @@ $(document).ready(function () {
           classes: "aurapulse-btn",
         },
         {
+          type: "blinking",
+          label: "Blinking",
+          classes: "blinking-btn",
+        },
+
+        {
           type: "bounce",
           label: "Bounce",
           classes: "bouncy-btn",
         },
+
         {
           type: "diagonalHover",
           label: "Diagonal Background on Hover",
