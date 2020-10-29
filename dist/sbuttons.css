@@ -14,6 +14,8 @@
 /* END VARIABLES IN special/_handwritten-btn.less */
 /* BEGIN VARIABLES IN special/_retro.less */
 /* END VARIABLES IN special/_retro.less */
+/* BEGIN VARIABLES IN special/_toggle.less */
+/* END VARIABLES IN special/_toggle.less */
 /* BEGIN VARIABLES IN special/_gradient.less */
 /* END VARIABLES IN special/_gradient.less */
 .sbtn {
@@ -3783,14 +3785,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #353535;
   content: "\f179";
 }
-.social-btn.steam {
-  background-color: #202329;
-  color: #fff;
-}
-.social-btn.steam:after {
-  color: #fff;
-  content: "\f1b6";
-}
 .social-btn.facebook {
   background-color: #3360ff;
   color: #fff;
@@ -4084,43 +4078,76 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: 0 0 0 black;
   transform: translate(0, 0);
 }
+input[type="radio"].toggle-btn,
+input[type="checkbox"].toggle-btn {
+  padding: 10px !important;
+}
 .toggle-btn {
   width: 90px;
   height: 50px;
   border-radius: 50px;
   border: 0;
   transition: all 0.5s ease;
-  outline: none;
+  outline: 0;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
+  position: relative;
 }
-.toggle-btn::before {
+.toggle-btn:before,
+.toggle-btn:after {
   content: "";
-  height: 40px;
-  width: 40px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.toggle-btn:before {
   background-color: #fff;
   border-radius: 50%;
   display: inline-block;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  height: calc(90px / 2.25);
+  width: calc(90px / 2.25);
   transition: all 0.5s ease;
+  transform: translateX(calc(90px * -0.07));
 }
-.toggle-on-btn {
-  background-color: #30d158;
-  border: 0;
-  border-color: #4ed164;
-  box-shadow: inset 2px 0 0 0 #4ed164;
-}
-.toggle-off-btn {
+.toggle-btn:after {
   background-color: #e5e5ea;
-  border: 1px solid #d9dadc;
-  box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: background-color 0.5s ease;
+  transition-delay: 0.2s;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
-.toggle-on-btn::before {
-  transform: translateX(1.5em);
+.toggle-btn:checked:before {
+  transform: translateX(calc(90px * 0.4));
 }
-.toggle-off-btn::before {
-  transform: translateX(-0.3em);
+.toggle-btn:checked:after {
+  background-color: #30d158;
+}
+.toggle-on-btn:before {
+  transform: translateX(calc(90px * 0.4));
+}
+.toggle-on-btn:after {
+  background-color: #30d158;
+}
+.toggle-on-btn:active:before {
+  transform: translateX(calc(90px * -0.07));
+}
+.toggle-on-btn:active:after {
+  background-color: #e5e5ea;
+}
+.toggle-off-btn:before {
+  transform: translateX(calc(90px * -0.07));
+}
+.toggle-off-btn:after {
+  background-color: #e5e5ea;
+}
+.toggle-off-btn:active:before {
+  transform: translateX(calc(90px * 0.4));
+}
+.toggle-off-btn:active:after {
+  background-color: #30d158;
 }
 @font-face {
   font-family: "Architects Daughter";
