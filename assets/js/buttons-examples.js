@@ -303,6 +303,11 @@ $(document).ready(function () {
           classes: "pulse-btn",
         },
         {
+          type: "rainbow",
+          label: "Rainbow",
+          classes: "rainbow-btn",
+        },
+        {
           type: "ripple",
           label: "Ripple",
           classes: "ripple-btn",
