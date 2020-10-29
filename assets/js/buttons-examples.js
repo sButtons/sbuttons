@@ -715,27 +715,27 @@ $(document).ready(function () {
           ],
           },
           {
-              type: "western",
-              label: "Western",
-              classes: "western-btn",
-              variations: [
-                  {
-                      classes: "denim-btn",
-                      text: "Howdy",
-                  },
-                  {
-                      classes: "choco-btn",
-                      text: "Howdy",
-                  },
-                  {
-                      classes: "charcoal-btn",
-                      text: "Howdy",
-                  },
-                  {
-                      classes: "sand-btn",
-                      text: "Howdy",
-                  }
-              ],
+            type: "western",
+            label: "Western",
+            classes: "western-btn",
+            variations: [
+                {
+                    classes: "denim-btn",
+                    text: "Howdy",
+                },
+                {
+                    classes: "choco-btn",
+                    text: "Howdy",
+                },
+                {
+                    classes: "charcoal-btn",
+                    text: "Howdy",
+                },
+                {
+                    classes: "sand-btn",
+                    text: "Howdy",
+                }
+             ],
           },
       ],
     },
