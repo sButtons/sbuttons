@@ -3236,6 +3236,44 @@ a.yellow-btn:active:not(.fill-color-btn) {
     top: -2px;
   }
 }
+.rainbow-btn:hover {
+  transition: 0.3s;
+  animation: rainbow 5s infinite ease-in-out;
+}
+@keyframes rainbow {
+  0% {
+    background-color: red;
+    box-shadow: 1px 4px 5px #d45454;
+  }
+  14.28% {
+    background-color: orange;
+    box-shadow: 1px 4px 5px #dbb35b;
+  }
+  28.56% {
+    background-color: yellow;
+    box-shadow: 1px 4px 5px #d4df70;
+  }
+  42.84% {
+    background-color: #2ef72e;
+    box-shadow: 1px 4px 5px #7cc45b;
+  }
+  57.12% {
+    background-color: #5fdcec;
+    box-shadow: 1px 4px 5px #60b7c7;
+  }
+  71.4% {
+    background-color: #ae58eb;
+    box-shadow: 1px 4px 5px #4b4da5;
+  }
+  85.68% {
+    background-color: violet;
+    box-shadow: 1px 4px 5px #af3b96;
+  }
+  100% {
+    background-color: red;
+    box-shadow: 1px 4px 5px #d13636;
+  }
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
@@ -3782,14 +3820,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.apple:after {
   color: #353535;
   content: "\f179";
-}
-.social-btn.steam {
-  background-color: #202329;
-  color: #fff;
-}
-.social-btn.steam:after {
-  color: #fff;
-  content: "\f1b6";
 }
 .social-btn.facebook {
   background-color: #3360ff;

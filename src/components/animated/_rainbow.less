@@ -1,0 +1,40 @@
+.rainbow-btn {
+  &:hover {
+    transition: 0.3s;
+    animation: rainbow 5s infinite ease-in-out;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-color: red;
+    box-shadow: 1px 4px 5px rgb(212, 84, 84);
+  }
+  14.28% {
+    background-color: orange;
+    box-shadow: 1px 4px 5px rgb(219, 179, 91);
+  }
+  28.56% {
+    background-color: yellow;
+    box-shadow: 1px 4px 5px rgb(212, 223, 112);
+  }
+  42.84% {
+    background-color: rgb(46, 247, 46);
+    box-shadow: 1px 4px 5px rgb(124, 196, 91);
+  }
+  57.12% {
+    background-color: rgb(95, 220, 236);
+    box-shadow: 1px 4px 5px rgb(96, 183, 199);
+  }
+  71.4% {
+    background-color: rgb(174, 88, 235);
+    box-shadow: 1px 4px 5px rgb(75, 77, 165);
+  }
+  85.68% {
+    background-color: violet;
+    box-shadow: 1px 4px 5px rgb(175, 59, 150);
+  }
+  100% {
+    background-color: red;
+    box-shadow: 1px 4px 5px rgb(209, 54, 54);
+  }
+} // Red, Orange, Yellow, Green, Blue, Indigo  Violet.
