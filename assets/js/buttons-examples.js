@@ -352,6 +352,11 @@ $(document).ready(function () {
           label: "Transparent On Hover",
           classes: "transparent-btn",
         },
+        {
+          type: "vibrate",
+          label: "Vibrate",
+          classes: "vibrate-btn",
+        },
       ],
     },
     {

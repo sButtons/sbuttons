@@ -3276,6 +3276,29 @@ a.yellow-btn:active:not(.fill-color-btn) {
     box-shadow: 1px 4px 5px #d13636;
   }
 }
+.vibrate-btn:hover {
+  animation: vibrate 0.3s linear infinite both;
+}
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
 .buy-me-coffee-btn {
   position: relative;
   padding-right: 1.5em;
