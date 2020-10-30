@@ -438,6 +438,15 @@ $(document).ready(function () {
           text: "Dropdown Button",
         },
         {
+          type: "grow",
+          label: "Grow",
+          classes: "grow-btn",
+          text: "",
+
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "hamburger",
           label: "Hamburger",
           classes: "hamburger-btn",
@@ -508,15 +517,6 @@ $(document).ready(function () {
           label: "Thumbs Up",
           classes: "thumbsup-btn",
           text: "",
-        },
-        {
-          type: "grow",
-          label: "Grow",
-          classes: "grow-btn",
-          text: "",
-
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
         },
       ],
     },
