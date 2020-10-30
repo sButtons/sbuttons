@@ -6,7 +6,7 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-118-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-159-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
 :bulb: Simple buttons you can use easily for your next project.
@@ -42,7 +42,7 @@ This repository will help people who don't know how to participate in [Hacktober
 
 You can download the CSS file [here](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css) and then add it to your html file inbetween the `<head>` tags:
 
-```
+```html
 <link rel="stylesheet" href="/path/to/sbuttons.min.css">
 ```
 
@@ -50,15 +50,15 @@ You can download the CSS file [here](https://cdn.jsdelivr.net/gh/sButtons/sbutto
 
 You can use the [CDN](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css):
 
-```
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css">
 ```
 
 ## NPM
 
-You can install sButtons using NPM:
+You can install sButtons using [NPM](https://www.npmjs.com/package/sbuttons):
 
-```
+```bash
 npm i sbuttons
 ```
 
@@ -70,25 +70,25 @@ To modify button colors, import `src/sbuttons.less` in your Less file, then make
 
 For example, to change the blue color to a different shade
 
-```
+```css
 @import '/path/to/sbuttons.less';
 
 @blue: #54a2bd; /* Make it darker */
 ```
 
-Check out [sbuttons.less](https://github.com/sButtons/sbuttons/blob/master/src/sbuttons.less) for the full list of variables.
+Check out [_variables.less](https://github.com/sButtons/sbuttons/blob/master/src/_variables.less) for the full list of variables.
 
 # Usage
 
 To use sButtons in your project , just add the classes of sButton you want to either `<button>` or `<a>` tags :
 
-```
+```html
 <button class='sbtn basic-btn blue-btn'>Button</button>
 ```
 
 Same can be done for `<a>` tag
 
-```
+```html
 <a href='#' class='sbtn basic-btn blue-btn'>Button</a>
 ```
 
@@ -98,7 +98,7 @@ You can find all classes and their corresponding sButtons mentioned in our [webs
 
 To use sButtons with block display, add the class to either `<button>` or `<a>` tags
 
-```
+```html
 <button class="sbtn basic-btn block-btn">Button</button>
 ```
 
@@ -106,11 +106,11 @@ To use sButtons with block display, add the class to either `<button>` or `<a>` 
 
 To make a `<button>` or `<a>` tag disabled, add disabled-btn class as shown below.
 
-```
+```html
 <button class="sbtn basic-btn blue-btn disabled-btn">Button</button>
 ```
 
-```
+```html
 <a class="sbtn basic-btn blue-btn disabled-btn">Button</a>
 ```
 
@@ -118,13 +118,13 @@ To make a `<button>` or `<a>` tag disabled, add disabled-btn class as shown belo
 
 In case of using buttons that have icons in them, make sure to include font awesome's [CDN](https://use.fontawesome.com/releases/v5.14.0/css/all.css) in the `<head>` tag:
 
-```
+```html
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 ```
 
 ## Base Icon Buttons
 
-The `base-icon-btn` class enables you to have a normal, customizable button. Using it, you decide to add any fontawesome icon in it. You can choose to either place it at the left or right side of the button with the available classes which you will see below. For the icon to be positioned well in the button, you should place the button text after the fontawesome icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
+The `base-icon-btn` class enables you to have a normal, customizable button. Using it, you decide to add any fontawesome icon in it. You can choose to either place it on the left or right side of the button with the available classes which you will see below. For the icon to be positioned well in the button, you should place the button text after the fontawesome icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
 
 **Content**
 
@@ -141,21 +141,21 @@ The `base-icon-btn` class enables you to have a normal, customizable button. Usi
   - [Right icon block button](#right-icon-block-button)
 
 ### Base icon button 
- The `base-icon-btn` class, gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the sinppet below.
+ The `base-icon-btn` class gives you a default button with no background color and a border. You can choose to style it by adding some of the other available classes, like `btn-orange` to change the background color, and `icon-right` to position the icon in the button. You can make use of it, by copying the snippet below.
 
 ```html
 <button class="sbtn base-icon-btn">base icon button</button>
 ```
 
 #### Left icon base button
- Adding the `left-icon` and `orange-btn` class gives you a button with an orange backround and an icon that is on the left. Copy the snippet below to try it out.
+ Adding the `left-icon` and `orange-btn` class gives you a button with an orange background and an icon that is on the left. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-left orange-btn"><i class="fab fa-github"></i>left icon</button>
 ```
 
 #### Right icon base button
- Adding the `right-icon` and `orange-btn` class gives you a button with an orange backround and an icon that is on the right. Copy the snippet below to try it out.
+ Adding the `right-icon` and `orange-btn` class gives you a button with an orange background and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-right orange-btn"><i class="fab fa-github"></i>right icon</button>
@@ -167,7 +167,7 @@ To make your button have rounded side, all you need to do is add this `rounded-b
 
 #### Left icon rounded button
 
- Adding the `left-icon` and `purple-btn` class gives you a button with a purple backround and an icon that is on the left. Copy the snippet below to try it out.
+ Adding the `left-icon` and `purple-btn` class gives you a button with a purple background and an icon that is on the left. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-left purple-btn rounded-btn"><i class="fab fa-github"></i>left icon</button>
@@ -182,7 +182,7 @@ The default style of the "base icon button" places any fontawesome icon nested i
 ```
 
 #### Right icon rounded button 
-Adding the `right-icon`, `rounded-btn` and `purple-btn` class gives you a round sided button with a purple backround and an icon that is on the right. Copy the snippet below to try it out.
+Adding the `right-icon`, `rounded-btn` and `purple-btn` class gives you a round sided button with a purple background and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-right rounded-btn purple-btn"><i class="fab fa-github"></i>right icon</button>
@@ -194,7 +194,7 @@ The `block-btn` class gives you a button whose width takes up the width of the p
 
 #### Left icon block button
 
- Adding the `left-icon`, `block-btn` and `green-btn` class gives you a button with a green backround and an icon that is on the left. Copy the snippet below to try it out.
+ Adding the `left-icon`, `block-btn` and `green-btn` class gives you a button with a green background and an icon that is on the left. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-left green-btn block-btn"><i class="fab fa-github"></i>left icon</button>
@@ -210,7 +210,7 @@ The default style of the "base icon button" places any fontawesome icon nested i
 
 #### Right icon block button
 
-Adding the `right-icon`, `block-btn` and `green-btn` class gives you a rectangular button with a purple backround and an icon that is on the right. Copy the snippet below to try it out.
+Adding the `right-icon`, `block-btn` and `green-btn` class gives you a rectangular button with a purple background and an icon that is on the right. Copy the snippet below to try it out.
 
 ```html
 <button class="sbtn base-icon-btn icon-right block-btn green-btn"><i class="fab fa-github"></i>right icon</button>

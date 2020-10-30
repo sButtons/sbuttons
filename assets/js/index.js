@@ -9,13 +9,15 @@ $(document).ready(function () {
     };
 
     var marginHeader = 81;
+    var offsetFooter = 200;
 
     viewport.right = viewport.left + win.width();
     viewport.bottom = viewport.top + win.height() - marginHeader;
 
     var bounds = this.offset();
     bounds.right = bounds.left + this.outerWidth();
-    bounds.bottom = bounds.top + this.outerHeight() - marginHeader;
+    bounds.bottom =
+      bounds.top + this.outerHeight() - marginHeader - offsetFooter;
 
     return !(
       viewport.right < bounds.left ||
@@ -32,18 +34,18 @@ $(document).ready(function () {
         var sidebarLink = $(".sidebar a[href='#" + $(this).attr("id") + "']");
         $(".sidebar a.active").removeClass("active");
         sidebarLink.addClass("active");
-        var hasClass = sidebarLink.hasClass("submenu-link"),
-          nextHasClass = sidebarLink.next().hasClass("submenu-links");
-        if (hasClass || (!hasClass && !nextHasClass)) {
-          var parent = sidebarLink.parent(),
-            hasClass = parent.hasClass("submenu-links");
-          if (hasClass && !parent.hasClass("show")) {
-            $(".submenu-links.show").removeClass("show");
-            parent.addClass("show");
-          } else if (!hasClass) {
+        var isTerminal = sidebarLink.hasClass("submenu-link");
+        var hasSubmenu = sidebarLink.next().hasClass("submenu-links");
+        if (isTerminal || (!isTerminal && !hasSubmenu)) {
+          var parent = sidebarLink.parent();
+          if (parent.hasClass("submenu-links")) {
+            if (!parent.hasClass("show")) {
+              $(".submenu-links.show").removeClass("show");
+              sidebarLink.parents(".submenu-links").addClass("show");
+            }
+          } else {
             $(".submenu-links.show").removeClass("show");
           }
-          return false;
         }
       }
     });

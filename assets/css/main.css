@@ -47,6 +47,7 @@ body {
     width: calc(100vw / 12 * 3 - 0.333vw);
   }
 }
+
 .sidebar a {
   color: var(--sidebar-links);
   position: relative;

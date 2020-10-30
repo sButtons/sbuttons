@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+.handwritten-btn {
+  font-family: "Architects Daughter", cursive, serif, sans-serif;
+
+  color: @handwrittenPencilColor;
+  background-color: @handwrittenPaperColor;
+
+  padding: 0.3rem 3.4rem;
+
+  border: 2px solid @handwrittenPencilColor;
+  border-radius: ~"2% 98% 1% 99% / 93% 15% 85% 7%";
+  &.rounded-btn {
+    border-radius: ~"60px 45px 30px 35px / 37px 30px 45px 60px";
+  }
+  &.block-btn {
+    border-radius: ~"30px 2px 30% 3px / 4px 10px 3px 30px";
+  }
+}

@@ -32,7 +32,7 @@
     "node-less": "^1.0.0",
     "onchange": "^7.0.2",
     "prettier": "^2.1.1",
-    "surge": "^0.21.6"
+    "object-path": ">=0.11.5"
   },
   "bugs": {
     "url": "https://github.com/sButtons/sbuttons/issues",

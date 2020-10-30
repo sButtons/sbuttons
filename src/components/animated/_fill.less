@@ -57,7 +57,22 @@
   }
 
   &:hover {
-    color: @lightText !important;
+    color: #fff !important;
+    height: 3.62rem;
+    border: 0rem;
+  }
+
+  &.sideways-fill {
+    &:before {
+      width: 100%;
+      left: 0;
+    }
+    &:not(:hover):before {
+      left: 50%;
+    }
+    &:hover:before {
+      left: 0;
+    }
   }
 
   .colorBtn(@color) {
@@ -117,7 +132,6 @@
   &.black-btn {
     .colorBtn(@black);
   }
-
   &.white-btn {
     .colorBtn(@white);
     border-color: @whiteBorder !important;
@@ -125,5 +139,8 @@
     &:hover {
       color: @darkText !important;
     }
+  }
+  &:not(.block-btn):hover {
+    width: 5.6rem;
   }
 }

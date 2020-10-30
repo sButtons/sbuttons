@@ -1,0 +1,33 @@
+.papercurl-btn {
+  backface-visibility: hidden;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  display: inline-block;
+  position: relative;
+  transform: translateZ(0px);
+  vertical-align: middle;
+
+  &:before {
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(315deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%)
+      repeat scroll 0 0; /*display smooth transitions between two or more specified colors */
+    bottom: 0;
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+    content: "";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    transition-duration: 0.3s;
+    transition-property: width, height;
+    width: 0;
+    border-color: white;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    &:before {
+      height: 25px;
+      width: 25px;
+    }
+  }
+}
