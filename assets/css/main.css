@@ -228,6 +228,8 @@ body {
   background: none;
   margin-left: 90%;
   cursor: pointer;
+  /* "To The Top of Page" button / glyph was hiding beneath the footer. Footer has z-index:12. */
+  z-index: 13;
 }
 .scroll-top i {
   font-size: 35px;
