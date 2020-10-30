@@ -273,6 +273,13 @@ $(document).ready(function () {
           classes: "neon-btn",
         },
         {
+          type: "share",
+          label: "Share",
+          classes: "share-btn",
+          text: "",
+          shouldHaveRoundedType: false
+        },
+        {
           type: "next",
           label: "Next",
           classes: "next-arrow-btn",
