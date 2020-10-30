@@ -404,6 +404,15 @@ $(document).ready(function () {
           ],
         },
         {
+          type: "grow",
+          label: "Grow",
+          classes: "grow-btn",
+          text: "",
+
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "hatch",
           label: "Hatch",
           classes: "hatch-btn",

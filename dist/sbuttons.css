@@ -3743,6 +3743,40 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .hamburger-btn.is-active:after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+.grow-btn {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+.grow-btn:hover {
+  width: 200px;
+  margin: 0 0 1em 0;
+  transition: all 0.3s;
+}
+.grow-btn:hover:after {
+  content: " Favourite";
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  transition: all 0.3s;
+}
+.grow-btn::before {
+  content: "\f004";
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  transition: all 0.3s;
+}
 .hatch-btn {
   color: #000;
   border-color: #000;
