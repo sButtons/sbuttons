@@ -2066,6 +2066,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .fill-color-btn:hover {
   color: #fff !important;
+  height: 3.62rem;
+  border: 0rem;
 }
 .fill-color-btn.sideways-fill:before {
   width: 100%;
@@ -2180,6 +2182,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .fill-color-btn.white-btn:hover {
   color: #333 !important;
+}
+.fill-color-btn:not(.block-btn):hover {
+  width: 5.6rem;
 }
 .hinge-btn {
   transition: transform 0.2s;
@@ -3278,346 +3283,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
     box-shadow: 1px 4px 5px #d13636;
   }
 }
-.buy-me-coffee-btn {
-  position: relative;
-  padding-right: 1.5em;
+.vibrate-btn:hover {
+  animation: vibrate 0.3s linear infinite both;
 }
-.buy-me-coffee-btn:after {
-  content: "\f7b6";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  font-size: 1.2rem;
-  font-weight: bold;
-  top: 23%;
-}
-.buy-me-coffee-btn.block-btn:after {
-  padding-left: 15px;
-}
-.buy-me-coffee-btn:not(.block-btn):after {
-  right: 0.3em;
-}
-.download-btn {
-  position: relative;
-  padding-right: 1.5em;
-}
-.download-btn:before,
-.download-btn:after {
-  content: "\f063";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-.download-btn.block-btn:before,
-.download-btn.block-btn:after {
-  right: 25%;
-}
-.download-btn:not(.block-btn):before,
-.download-btn:not(.block-btn):after {
-  right: 0.5em;
-}
-.download-btn:before {
-  top: -100%;
-}
-.download-btn:after {
-  top: 12px;
-}
-.download-btn:hover:before {
-  animation: slideDownFirst 0.5s;
-}
-.download-btn:hover:after {
-  animation: slideDownSecond 0.5s;
-}
-@keyframes slideDownFirst {
+@keyframes vibrate {
   0% {
-    top: 12px;
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
   }
   100% {
-    top: 120%;
+    transform: translate(0);
   }
-}
-@keyframes slideDownSecond {
-  0% {
-    top: -100%;
-  }
-  100% {
-    top: 12px;
-  }
-}
-.like-btn:before {
-  content: "\f004";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.like-btn:active {
-  animation: heartBeat 1s;
-}
-.like-btn:not(.rounded-btn) {
-  padding: 0.25em 0.25em 0 0.25em;
-}
-.like-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-@keyframes heartBeat {
-  0% {
-    transform: scale(0.75);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-.play-btn:before {
-  content: "\f04b";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 800;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.play-btn:active {
-  animation: play 0.4s;
-}
-.play-btn:not(.rounded-btn) {
-  padding: 0em 0.25em 0 0.25em;
-}
-.play-btn.rounded-btn {
-  width: 2em;
-  height: 2em;
-  padding: 0 0 0 3px;
-}
-@keyframes play {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.3, 1.3);
-  }
-}
-.plus-btn {
-  transform-origin: center;
-  filter: brightness(1);
-  transition: filter 0.3s;
-}
-.plus-btn:before {
-  content: "\002B";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.plus-btn:focus {
-  filter: brightness(1.2);
-}
-.plus-btn:not(.rounded-btn) {
-  padding: 0 0.5em;
-}
-.plus-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-.add-to-cart-btn {
-  position: relative;
-  padding-right: 1.5em;
-}
-.add-to-cart-btn:after {
-  content: "\f07a";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  font-size: 1.2rem;
-  font-weight: bold;
-  top: 23%;
-}
-.add-to-cart-btn.block-btn:after {
-  padding-left: 15px;
-}
-.add-to-cart-btn:not(.block-btn):after {
-  right: 0.3em;
-}
-.chat-btn {
-  transition: all 0.2s;
-}
-.chat-btn:before {
-  content: "\f27a";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.chat-btn:hover {
-  box-shadow: 0px 1px 7px #838383;
-}
-.chat-btn:not(.rounded-btn) {
-  padding: 0.25em 0.25em 0 0.25em;
-}
-.chat-btn.rounded-btn {
-  width: 2em;
-  height: 2em;
-  padding: 0;
-}
-.setting-btn {
-  transform-origin: center;
-  filter: brightness(1);
-  transition: filter 0.3s;
-  position: relative;
-  font-weight: 900;
-}
-.setting-btn:before {
-  content: "\f013";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.setting-btn:focus {
-  filter: brightness(1.2);
-}
-.setting-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-.close-btn::before {
-  content: "\f00d";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 800;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  color: #000;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.drop-down-btn {
-  position: relative;
-  padding-right: 1.5em;
-}
-.drop-down-btn:after {
-  content: "\f0d7";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  font-size: 1.8rem;
-  font-weight: bold;
-  top: 12%;
-}
-.drop-down-btn.block-btn:after {
-  padding-left: 15px;
-}
-.drop-down-btn:not(.block-btn):after {
-  right: 0.3em;
-}
-.scroll-to-top-btn:before {
-  content: "\f106";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 800;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.scroll-to-top-btn:not(.rounded-btn) {
-  padding: 0 0.5em;
-}
-.scroll-to-top-btn.rounded-btn {
-  width: 1.5em;
-  height: 1.5em;
-  padding: 0 0 0 1px;
-}
-.appstore-btn {
-  box-shadow: 0px 1px 4px #4d4d4d;
-  background-color: #000000;
-  color: #fff;
-  transition: all 0.2s;
-  position: relative;
-  padding-top: 15px;
-  padding-left: 60px;
-  font-size: 1.5rem !important;
-  border: 1px solid #4d4d4d;
-}
-.appstore-btn:before {
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  left: 50px;
-  font-size: 2.2rem !important;
-  bottom: 13%;
-  color: #fff;
-}
-.appstore-btn:after {
-  position: absolute;
-  top: 3px;
-  font-size: 0.8rem !important;
-}
-.appstore-btn:not(.rounded-btn) {
-  border-radius: 10px;
-}
-.appstore-btn:not(.block-btn) {
-  padding-left: 50px;
-}
-.appstore-btn:not(.block-btn):before {
-  left: 10px;
-}
-.appstore-btn:not(.block-btn):after {
-  left: 50px;
-}
-.appstore-btn:hover {
-  box-shadow: 0px 1px 7px #4d4d4d;
-  transform: translateY(-3px);
-}
-.appstore-btn.applestore.block-btn {
-  padding-left: 30px;
-}
-.appstore-btn.applestore.block-btn:after {
-  left: 100px;
-}
-.appstore-btn.applestore:before {
-  content: "\f179";
-}
-.appstore-btn.applestore:after {
-  content: "Download on the";
-}
-.appstore-btn.playstore.block-btn:after {
-  left: 102px;
-}
-.appstore-btn.playstore:before {
-  content: "\f3ab";
-}
-.appstore-btn.playstore:after {
-  content: "Get it on";
 }
 .star-btn {
   color: #000;
@@ -3682,63 +3369,39 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .icon-right:not(.rounded-btn) i {
   transform: translateX(15%);
 }
-.thumbsup-btn {
-  transform-origin: center;
-}
-.thumbsup-btn:before {
-  content: "\f164";
-  font-family: "Font Awesome 5 Free";
+.grow-btn {
   display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+.grow-btn:hover {
+  width: 200px;
+  margin: 0 0 1em 0;
+  transition: all 0.3s;
+}
+.grow-btn:hover:after {
+  content: " Favourite";
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
+  transition: all 0.3s;
 }
-.thumbsup-btn:not(.rounded-btn) {
-  padding: 0.2em;
-}
-.thumbsup-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-.hamburger-btn {
-  position: relative;
-  width: 30px;
-  height: 20px;
-  background: transparent;
-  border: none;
-  border-style: solid;
-  border-width: 4px 0;
-  color: #000;
-  border-color: #000;
-  transition: all 0.2s ease;
-}
-.hamburger-btn:before,
-.hamburger-btn:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background: currentColor;
-  transform: translate(-50%, -50%);
-  transition: transform 0.2s ease;
-}
-.hamburger-btn:hover {
-  color: #262626;
-  border-color: #262626;
-}
-.hamburger-btn.is-active {
-  border-color: transparent;
-}
-.hamburger-btn.is-active:before {
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-.hamburger-btn.is-active:after {
-  transform: translate(-50%, -50%) rotate(-45deg);
+.grow-btn::before {
+  content: "\f004";
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  transition: all 0.3s;
 }
 .hatch-btn {
   color: #000;

@@ -57,7 +57,9 @@
   }
 
   &:hover {
-    color: @lightText !important;
+    color: #fff !important;
+    height: 3.62rem;
+    border: 0rem;
   }
 
   &.sideways-fill {
@@ -130,7 +132,6 @@
   &.black-btn {
     .colorBtn(@black);
   }
-
   &.white-btn {
     .colorBtn(@white);
     border-color: @whiteBorder !important;
@@ -138,5 +139,8 @@
     &:hover {
       color: @darkText !important;
     }
+  }
+  &:not(.block-btn):hover {
+    width: 5.6rem;
   }
 }

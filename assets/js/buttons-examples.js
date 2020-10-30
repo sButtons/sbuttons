@@ -352,6 +352,11 @@ $(document).ready(function () {
           label: "Transparent On Hover",
           classes: "transparent-btn",
         },
+        {
+          type: "vibrate",
+          label: "Vibrate",
+          classes: "vibrate-btn",
+        },
       ],
     },
     {
@@ -386,79 +391,29 @@ $(document).ready(function () {
           shouldHaveBlockType: false,
         },
         {
-          type: "add-to-cart",
-          label: "Add To Cart",
-          classes: "add-to-cart-btn",
-          text: "Add To Cart",
-        },
-        {
-          type: "appstore",
-          label: "App Store",
-          classes: "appstore-btn",
-          variations: [
-            {
-              classes: "applestore",
-              text: "App Store",
-            },
-            {
-              classes: "playstore",
-              text: "Google Play",
-            },
-          ],
-        },
-        {
-          type: "buy-me-coffee",
-          label: "Buy Me Coffee",
-          classes: "buy-me-coffee-btn",
-          text: "Buy me coffee",
-        },
-        {
-          type: "chat",
-          label: "Chat Box",
-          classes: "chat-btn",
+          type: "star",
+          label: "Star",
+          classes: "star-btn",
           text: "",
-        },
-        {
-          type: "close",
-          label: "Close",
-          classes: "",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
           variations: [
             {
-              classes: "close-btn",
-              label: "",
-              text: "",
-            },
-          ],
-        },
-        {
-          type: "download",
-          label: "Download",
-          classes: "download-btn",
-          text: "Download",
-        },
-        {
-          type: "drop-down",
-          label: "Dropdown",
-          classes: "drop-down-btn",
-          text: "Dropdown Button",
-        },
-        {
-          type: "hamburger",
-          label: "Hamburger",
-          classes: "hamburger-btn",
-          text: "",
-          variations: [
-            {
               classes: "",
-              text: "",
+              text: "Star (Inactive)",
             },
             {
-              classes: "is-active",
-              text: "",
+              classes: "active",
+              text: "Star (Active)",
             },
           ],
+        },
+        {
+          type: "grow",
+          label: "Grow",
+          classes: "grow-btn",
+          text: "",
+
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
         },
@@ -478,60 +433,6 @@ $(document).ready(function () {
               text: "<i class='fas fa-book'></i>",
             },
           ],
-        },
-        {
-          type: "like",
-          label: "Like",
-          classes: "like-btn",
-          text: "",
-        },
-        {
-          type: "play",
-          label: "Play",
-          classes: "play-btn",
-          text: "",
-        },
-        {
-          type: "plus",
-          label: "Plus",
-          classes: "plus-btn",
-          text: "",
-        },
-        {
-          type: "scroll-to-top",
-          label: "Scroll-to-Top",
-          classes: "scroll-to-top-btn",
-          text: "",
-        },
-        {
-          type: "setting",
-          label: "Setting",
-          classes: "setting-btn",
-          text: "",
-        },
-        {
-          type: "star",
-          label: "Star",
-          classes: "star-btn",
-          text: "",
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
-          variations: [
-            {
-              classes: "",
-              text: "Star (Inactive)",
-            },
-            {
-              classes: "active",
-              text: "Star (Active)",
-            },
-          ],
-        },
-        {
-          type: "thumbs-up",
-          label: "Thumbs Up",
-          classes: "thumbsup-btn",
-          text: "",
         },
       ],
     },
@@ -810,25 +711,21 @@ $(document).ready(function () {
       //if shouldHaveBlockType is set set the value to it, else by default show block buttons
       blockClass =
         !button.hasOwnProperty("shouldHaveBlockType") ||
-        button.shouldHaveBlockType;
+        button.shouldHaveBlockType,
+      headerClass = "section-header";
     if (shouldAddToSidebar) {
       // add link to sidebar
       sidebar.append(getMenuLinkHtml(button.type, button.label, false));
     } else {
       heading = "h3";
+      headerClass = "section-sub-header";
     }
 
     // Create a new section with same id as the button type
     var section = $('<section id="' + button.type + '">');
     // Adding the required heading to the section
     section.append(
-      "<" +
-        heading +
-        ' class="section-header">' +
-        button.label +
-        "</" +
-        heading +
-        ">"
+      `<${heading} class=${headerClass}>${button.label}</${heading}`
     );
 
     if (button.hasOwnProperty("children") && button.children.length) {
@@ -837,9 +734,6 @@ $(document).ready(function () {
       for (var j = 0; j < button.children.length; j++) {
         var childSection = createSection(button.children[j], false);
         childSection.appendTo(section);
-        if (j !== 0) {
-          childSection.before('<hr class="secondary-hr">');
-        }
         submenu.append(
           getMenuLinkHtml(
             button.children[j].type,
@@ -860,18 +754,46 @@ $(document).ready(function () {
         }
       }
 
+      let navUl = $('<ul class="nav nav-tabs" id="myTab" role="tablist">'),
+        tabCont = $('<div class="tab-content" id="myTabContent">');
+
       // Add buttons to the type's button grid
-      var normalButtonsGrid = $('<div class="button-grid">'),
-        buttonText = button.hasOwnProperty("text") ? button.text : false;
+      var normalButtonsGrid = $(
+          `<div class=" tab-pane fade show active button-grid" id="${button.type}_basicNav" role="tabpanel" aria-labelledby="basic-tab">`
+        ),
+        buttonText = button.hasOwnProperty("text") ? button.text : false,
+        basicNav = $('<li class="nav-item" role="presentation">');
+      basicNav.append(
+        `<a class="nav-link active" id="basic-tab" data-toggle="tab" href="#${button.type}_basicNav" role="tab" aria-controls="${button.type}_basicNav" aria-selected="true">Basic</a>`
+      );
+      navUl.append(basicNav);
+      tabCont.append(normalButtonsGrid);
 
       // If rounded class is allowed for this button, create a button grid for it
       if (roundedClass) {
-        var roundedButtonsGrid = $('<div class="button-grid">');
+        var roundedButtonsGrid = $(
+            `<div class="button-grid tab-pane fade" id="${button.type}_rounded" role="tabpanel" aria-labelledby="rounded-tab">`
+          ),
+          roundNav = $('<li class="nav-item" role="presentation">');
+        roundNav.append(
+          `<a class="nav-link" id="rounded-tab" data-toggle="tab" href="#${button.type}_rounded" role="tab" aria-controls="${button.type}_rounded" aria-selected="true">Rounded</a>`
+        );
+        navUl.append(roundNav);
+        tabCont.append(roundedButtonsGrid);
       }
       // If block class is allowed for this button, create a button grid for it
       if (blockClass) {
-        var blockButtonsGrid = $('<div class="button-grid">');
+        var blockButtonsGrid = $(
+            `<div class="button-grid tab-pane fade" id="${button.type}_block" role="tabpanel" aria-labelledby="block-tab">`
+          ),
+          blockNav = $('<li class="nav-item" role="presentation">');
+        blockNav.append(
+          `<a class="nav-link" id="block-tab" data-toggle="tab" href="#${button.type}_block" role="tab" aria-controls="${button.type}_block" aria-selected="true">Block</a>`
+        );
+        navUl.append(blockNav);
+        tabCont.append(blockButtonsGrid);
       }
+
       for (var j = 0; j < buttonArr.length; j++) {
         var thisButtonText =
           buttonText !== false
@@ -925,11 +847,7 @@ $(document).ready(function () {
           );
         }
       }
-      section.append(normalButtonsGrid);
-      roundedClass && roundedButtonsGrid
-        ? section.append(roundedButtonsGrid)
-        : "";
-      blockClass && blockButtonsGrid ? section.append(blockButtonsGrid) : "";
+      section.append(navUl).append(tabCont);
     }
     return section;
   }
