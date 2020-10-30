@@ -213,6 +213,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/parresh77"><img src="https://avatars0.githubusercontent.com/u/35279064?v=4" width="100px;" alt=""/><br /><sub><b>Paresh Wadhwani</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=parresh77" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/adrsh79086"><img src="https://avatars2.githubusercontent.com/u/72243915?v=4" width="100px;" alt=""/><br /><sub><b>Adarsh Kumar</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=adrsh79086" title="Code">💻</a> <a href="#ideas-adrsh79086" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/pratyushakatti13"><img src="https://avatars2.githubusercontent.com/u/64535305?v=4" width="100px;" alt=""/><br /><sub><b>Pratyusha Katti</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pratyushakatti13" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
