@@ -9,6 +9,13 @@ footer {
   position: relative;
   z-index: 12;
   min-height: 20vh;
+  transition: all ease-in-out 0.3s;
+}
+
+@media (min-width: 992px) {
+  .footer.with-sidebar {
+    margin-left: calc(100vw / 12 * 3 - 5vw);
+  }
 }
 
 .footer .row {
