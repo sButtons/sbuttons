@@ -402,7 +402,7 @@ $(document).ready(function () {
               text: "Star (Active)",
             },
           ],
-        },      
+        },
         {
           type: "grow",
           label: "Grow",
