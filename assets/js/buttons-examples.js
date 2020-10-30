@@ -401,16 +401,16 @@ $(document).ready(function () {
               classes: "active",
               text: "Star (Active)",
             },
-            {
-              type: "grow",
-              label: "Grow",
-              classes: "grow-btn",
-              text: "",
-
-              shouldHaveRoundedType: false,
-              shouldHaveBlockType: false,
-            },
           ],
+        },      
+        {
+          type: "grow",
+          label: "Grow",
+          classes: "grow-btn",
+          text: "",
+
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
         },
         {
           type: "hatch",
