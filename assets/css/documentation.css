@@ -1,5 +1,10 @@
+section {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
 .text {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: black;
   word-wrap: break-word;
   font-family: "Syne", sans-serif;
@@ -11,12 +16,20 @@
 
 .code-block-container {
   position: relative;
+  max-width: 700px;
+}
+
+.instruction-block {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .div-copy {
   position: absolute;
-  top: 9px;
+  height: 100%;
   right: 0;
+  top: 0;
+  width: 3em;
   background-color: #f5f2f0;
 }
 
@@ -26,6 +39,7 @@
 
 .script-copy {
   cursor: pointer;
+  position: relative;
 }
 
 .instructions hr {
@@ -42,4 +56,8 @@
 
 .margin-left--half {
   margin-left: 0.5rem;
+}
+
+.sbtn {
+  font-size: 1rem;
 }

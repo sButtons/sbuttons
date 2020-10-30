@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>sButtons - Simple and Creative Buttons</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="dist/sbuttons.css" rel="stylesheet" />
+  <link href="assets/css/main.css" rel="stylesheet" />
+  <link href="assets/css/variables.css" rel="stylesheet" />
+  <link href="assets/css/header.css" rel="stylesheet" />
+  <link href="assets/css/footer.css" rel="stylesheet" />
+  <link href="assets/css/examples.css" rel="stylesheet" />
+
+
+  <!-- seo friendly og tags-->
+  <meta name="description" content="Simple buttons you can use easily for your next project.">
+  <meta name="keywords"
+    content="css, less, buttons, simple, project, github, open source, contribute, first timers, animation, hover, basic, social, login">
+  <meta name="og:url" content="https://sButtons.github.io/sbuttons/">
+  <meta name="og:description" content="Simple buttons you can use easily for your next project.">
+  <meta name="og:image" content="site logo url">
+  <meta name="og:type" content="website">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149400351-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149400351-4');
+  </script>
+</head>
+
+<body>
+  <div class="shades"></div>
+  <header>
+    <div class="navbar fixed-top">
+      <button type="button" class="sidebar-toggler d-none d-block d-lg-none">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="navbar-brand">
+        <img src="assets/img/sbuttons-icon.png" class="img-fluid" width="64px" />
+      </div>
+
+      <div class="links">
+        <a href="index.html" class="link">
+          Home
+        </a>
+        <a href="documentation.html" class="link">
+          Documentation
+        </a>
+        <a href="examples.html" class="link active">
+          Examples
+        </a>
+      </div>
+
+      <div class="buttons">
+        <a class="toggle-theme" href="#toggleTheme" title="Toggle light/dark mode">
+          <i class="fas fa-moon"></i>
+        </a>
+        <a href="#" id="downloadGithubRawHeader" class="download-link">
+          <i class="fas fa-download"></i>
+        </a>
+        <a href="https://github.com/sButtons/sbuttons" target="_blank" class="icon-link">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <div class="content row">
+      <div class="banner-head col-lg-6 col-md-12 col-sm-12">
+        <h1>Simple and Creative buttons with SButtons.</h1>
+        <div class="subtitle">
+          Quickly design and customize beautiful and animated buttons with sButtons.
+        </div>
+        <div class="banner-links ">
+          <a href="#" id="downloadGithubRawButton" class="sbtn hover-btn white-btn banner-link">Download</a>
+          <a href="documentation.html" class="sbtn outline-btn white-btn banner-link"
+            style="color: white !important;">Documentation</a>
+        </div>
+      </div>
+      <div class="logo col-lg-6 col-md-12 col-sm-12 d-none d-lg-block">
+        <img src="assets/img/banner.svg" class="img-fluid" />
+      </div>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div class="main-head">
+      <h1>Some Examples Of SButtons</h1>
+    </div>
+    <div class="container mt-5" id="loading_wheel">
+      <div class="loader"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 d-md-block sidebar-div">
+        <div class="hide-sidebar sidebar animate__animated animate__slideInLeft">
+          <button class="close-sidebar d-none d-block d-lg-none">
+            <i class="fas fa-times-circle"></i>
+          </button>
+          <div class="sidebar-list"></div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-12" id="content"></div>
+      <!-- Button examples will go here using JS -->
+    </div>
+  </div>
+  <span class="scroll-top" data-scroll="up" style="display: none">
+    <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+  </span>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="footer-desc">
+          <p>Every Cool and Awesome button you see here has been made possible with the help of our awesome <a
+            href="https://github.com/sButtons/sbuttons/blob/master/CONTRIBUTORS.md">contributors</a>!</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-block">
+        <div class="footer-logo">
+          <img src="assets/img/sbuttons.png" alt="">
+          <p class="credit">Logo made by <a href="https://www.github.com/icoderharshit" title="Harshit Sharma">Harshit Sharma</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-links">
+          <a href="https://github.com/sButtons/sbuttons" target="_blank" title="View on Github"> <i class="fab fa-github"></i> GitHub</a>
+          <a href="https://github.com/sButtons/sbuttons" target="_blank" title="View on Github"> <i class="fas fa-book"></i> Examples</a>
+          <a href="https://github.com/sButtons/sbuttons/issues/new/choose" target="_blank" title="View on Github"> <i class="fas fa-bug"></i> Report A Bug</a>
+          
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/components/prism-core.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/buttons-examples.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>

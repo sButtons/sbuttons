@@ -16,10 +16,6 @@
       href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link href="assets/css/index.css" rel="stylesheet" />
-    <link href="assets/css/sidebar.css" rel="stylesheet" />
-    <link href="assets/css/variables.css" rel="stylesheet" />
-    <link href="dist/sbuttons.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -40,6 +36,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/header.css" rel="stylesheet" />
+    <link href="assets/css/footer.css" rel="stylesheet" />
+    <link href="assets/css/header.css" rel="stylesheet" />
+    <link href="assets/css/variables.css" rel="stylesheet" />
+    <link href="dist/sbuttons.css" rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+    <link href="assets/css/documentation.css" rel="stylesheet" />
 
     <!-- seo friendly og tags-->
     <meta
@@ -76,15 +84,19 @@
   </head>
 
   <body>
-    <div class="shade"></div>
+    <div class="shades"></div>
     <header>
       <div class="navbar fixed-top">
-        <button type="button" class="sidebar-toggler d-none d-block d-md-none">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="logo">
-          <a href="index.html"><img src="assets/img/sbuttons-nav.png" class="img-fluid" /></a>
+        <div class="navbar-brand">
+          <img src="assets/img/sbuttons-icon.png" class="" width="64px" />
         </div>
+
+        <div class="links">
+          <a href="index.html" class="link active"> Home </a>
+          <a href="documentation.html" class="link"> Documentation </a>
+          <a href="examples.html" class="link"> Examples </a>
+        </div>
+
         <div class="buttons">
           <a
             class="toggle-theme"
@@ -105,69 +117,89 @@
           </a>
         </div>
       </div>
-      <div class="content">
-        <div class="logo">
-          <img src="assets/img/sbuttons.png" class="img-fluid" />
-        </div>
-        <div class="subtitle">
-          Simple buttons you can use easily for your next project.
-        </div>
-        <a
-          href="#"
-          id="downloadGithubRawButton"
-          class="sbtn transparent-btn white-btn"
-          >Download</a
-        >
-        <a href="getStarted.html" class="banner-link">Get Started</a>
-      </div>
-    </header>
-    <div class="container mt-5" id="loading_wheel">
-      <div class="loader"></div>
-    </div>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-3 d-md-block">
-          <div
-            class="hide-sidebar sidebar animate__animated animate__slideInLeft"
-          >
-            <button class="close-sidebar d-none d-block d-md-none">
-              <i class="fas fa-times-circle"></i>
-            </button>
-            <div class="sidebar-list"></div>
+      <div class="content row">
+        <div class="banner-head col-lg-6 col-md-12 col-sm-12">
+          <h1>Simple and Creative buttons with SButtons.</h1>
+          <div class="subtitle">
+            Quickly design and customize beautiful and animated buttons with
+            sButtons.
+          </div>
+          <div class="banner-links ">
+            <a href="#" id="downloadGithubRawButton" class="sbtn hover-btn white-btn banner-link">Download</a>
+            <a href="documentation.html" class="sbtn outline-btn white-btn banner-link"
+              style="color: white !important;">Documentation</a>
           </div>
         </div>
-        <div class="col-md-9 col-12" id="content"></div>
-        <!-- Button examples will go here using JS -->
+        <div class="logo col-lg-6 col-md-12 col-sm-12 d-none d-lg-block">
+          <img src="assets/img/banner.svg" class="img-fluid" />
+        </div>
       </div>
-    </div>
-    <span class="scroll-top" data-scroll="up" style="display: none">
-      <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
-    </span>
-    <footer class="footer">
-      <span class="tagline"
-        >Made with
-        <span style="color: floralwhite" class="tagline-heart">❤︎</span></span
-      ><br />
-      <div style="padding: 20px 0">
-        Say Hello to our awesome
-        <a
-          href="https://github.com/sButtons/sbuttons/blob/master/CONTRIBUTORS.md"
-          >contributors</a
-        >!<br />
-        Have any suggestions or want to contribute?
-        <a
-          href="https://github.com/sButtons/sbuttons"
-          target="_blank"
-          title="View on Github"
-          >View on Github</a
-        >
+    </header>
+    <div class="container">
+      <section class="installation">
+        <div class="head">
+          <h1 class="heading"><i class="fas fa-code"></i> Installation</h1>
+        </div>
+        <div class="instruction row">
+          <div class="desc col col-md-6 col-sm-12">
+            Install sButttons’s source LESS via npm.
+            <br /><br />
+            Package managed installs don’t include documentation or our full
+            build scripts. You can also use our npm.
+          </div>
+          <div class="code col-md-6 col-sm-12">
+            <pre><code class="language-shell"> npm install sbuttons </code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="cdn">
+        <div class="head">
+          <h1 class="heading"><i class="fas fa-cloud"></i> sButton CDN</h1>
+        </div>
+        <div class="instruction row">
+          <div class="desc col col-md-6 col-sm-12">
+            When you only need to include SButtons’s compiled CSS , you can use
+            SButtonCDN.
+            <br /><br />
+            <a href="/examples.html" class="sbtn transparent-btn banner-link"
+              >Explore the docs</a
+            >
+          </div>
+          <div class="code col col-md-6 col-sm-12">
+            <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/sButtons/sbuttons/c135f5f7/dist/sbuttons.min.css"></code></pre>
+          </div>
+        </div>
+      </section>
+    </div><footer class="footer">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-desc">
+            <p>Every Cool and Awesome button you see here has been made possible with the help of our awesome <a
+                href="https://github.com/sButtons/sbuttons/blob/master/CONTRIBUTORS.md">contributors</a>!</p>
+          </div>
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <div class="footer-logo">
+            <img src="assets/img/sbuttons.png" alt="">
+            <p class="credit">Logo made by <a href="https://www.github.com/icoderharshit" title="Harshit Sharma">Harshit
+                Sharma</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-links">
+            <a href="https://github.com/sButtons/sbuttons" target="_blank" title="View on Github"> <i
+                class="fab fa-github"></i> GitHub</a>
+            <a href="https://github.com/sButtons/sbuttons" target="_blank" title="View on Github"> <i
+                class="fas fa-book"></i> Examples</a>
+            <a href="https://github.com/sButtons/sbuttons/issues/new/choose" target="_blank" title="View on Github"> <i
+                class="fas fa-bug"></i> Report A Bug</a>
+    
+          </div>
+        </div>
       </div>
-      <div style="padding: 20px 0 0 0; font-size: 13px">
-        Logo made by
-        <a href="https://www.github.com/icoderharshit" title="Harshit Sharma"
-          >Harshit Sharma</a
-        >
-      </div>
+    
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/components/prism-core.min.js"></script>

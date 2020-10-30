@@ -1,17 +1,63 @@
+body {
+  font-family: "Philosopher";
+}
+
+.main-content {
+  padding: 0 0%;
+  width: 100%;
+}
+
+.main-content > .row {
+  margin: 0;
+}
+
+.main-head {
+  height: 15vh;
+  width: 100%;
+  text-align: center;
+}
+
+.main-head h1 {
+  font-size: 4rem;
+}
+
+.sidebar-div {
+  padding: 0;
+}
 .sidebar {
+  padding-left: 2vw;
   display: flex;
+  height: 90%;
   flex-direction: column;
-  background-color: white;
-  position: sticky;
-  top: 90px;
+  z-index: 11;
+}
+
+.height-shift {
+  padding-bottom: 20vh;
+}
+.sidebar.scrolling {
+  background-color: var(--sidebar-color);
+  position: fixed;
+  top: 10vh;
+  transition: all ease-in-out 0.3s;
+}
+
+@media (min-width: 992px) {
+  .sidebar.scrolling {
+    width: calc(100vw / 12 * 3 - 5vw);
+  }
 }
 
 .sidebar a {
+  color: var(--sidebar-links);
   position: relative;
   text-decoration: none;
   width: fit-content;
   margin-bottom: 5px;
-  white-space: nowrap;
+}
+
+.sidebar.scrolling a {
+  color: white;
 }
 
 .sidebar a:before {
@@ -19,50 +65,53 @@
   left: 0;
   height: 2px;
   width: 0;
-  background-color: var(--main-color);
+  background-color: var(--sidebar-link-highlight);
   transition: all 0.3s;
   content: " ";
   bottom: 0;
 }
+
 .sidebar a:hover,
 .sidebar a.active {
-  color: #333;
+  color: var(--sidebar-link-highlight);
   text-decoration: none;
 }
 .sidebar a:hover:before,
 .sidebar a.active:before {
   width: 100%;
 }
-.sidebar .submenu-links:not(.show) {
-  display: none;
+.sidebar .submenu-links {
+  margin-left: 10px;
 }
 .sidebar a:not(.submenu-link) {
   color: #333;
+  font-size: 20px;
 }
+
+.sidebar.scrolling a:not(.submenu-link) {
+  color: #dfffdf;
+}
+
 .sidebar .submenu-link {
-  color: #636363;
+  color: #333;
   display: block;
 }
-.navbar .sidebar-toggler {
+.sidebar-toggler {
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
-.navbar.scrolling .sidebar-toggler {
+.sidebar-toggler {
   color: var(--main-color);
 }
-.navbar:not(.scrolling) .sidebar-toggler {
+.sidebar-toggler {
   color: #fff;
-}
-
-.shade {
-  opacity: 0%;
-  transition: opacity 0.2s;
 }
 
 .sidebar-list,
 .instructions-sidebar {
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .sidebar-list a,
@@ -89,47 +138,21 @@
   background: var(--main-color);
 }
 
-[data-theme="dark"] .sidebar {
-  background-color: var(--dark-color);
-  color: #ffffff;
-}
-
 .navbar .sidebar-toggler,
 .close-sidebar {
   outline: none !important;
   cursor: pointer;
 }
 
-@media only screen and (min-width: 600px) {
-  .sidebar {
-    z-index: 0;
-  }
-
-  .sidebar .submenu-links {
-    margin-left: 6px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-
-  .sidebar .submenu-links::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  .sidebar .submenu-links::-webkit-scrollbar-thumb {
-    background: var(--main-color);
-    border-radius: 2.5px;
-  }
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .sidebar-list,
   .instructions-sidebar {
-    max-height: 80vh;
+    max-height: 90vh;
     padding-right: 20px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   .row .hide-sidebar {
     display: none;
   }
@@ -189,4 +212,73 @@
     background-color: black;
     opacity: 50%;
   }
+}
+
+.sidebar-toggler {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: block;
+  font-size: 40px;
+  background: none;
+  margin-left: 90%;
+  cursor: pointer;
+}
+.scroll-top i {
+  font-size: 35px;
+  display: block;
+  color: var(--main-color);
+  background: none;
+}
+@media only screen and (max-width: 600px) {
+  .scroll-top {
+    margin-left: 75%;
+  }
+}
+
+button.clipboard {
+  color: var(--main-color);
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+button.clipboard:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+button.clipboard:after {
+  content: "\f328";
+  font-size: 1.3em;
+  vertical-align: bottom;
+  font-family: "Font Awesome 5 Free", serif;
+}
+button.clipboard:focus {
+  outline: 0;
+}
+
+.nav-tabs {
+  justify-content: space-evenly;
+}
+
+.tab-content {
+  margin-bottom: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+}
+
+[data-theme="dark"] .tab-content {
+  border-color: #fff;
+}
+
+[data-theme="dark"] .nav-link,
+[data-theme="dark"] .nav-link:hover {
+  color: #f2f3f4;
 }
