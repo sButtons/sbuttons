@@ -2064,6 +2064,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .fill-color-btn:hover {
   color: #fff !important;
+  height: 3.62rem;
+  border: 0rem;
 }
 .fill-color-btn.sideways-fill:before {
   width: 100%;
@@ -2178,6 +2180,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .fill-color-btn.white-btn:hover {
   color: #333 !important;
+}
+.fill-color-btn:not(.block-btn):hover {
+  width: 5.6rem;
 }
 .hinge-btn {
   transition: transform 0.2s;
