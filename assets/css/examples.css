@@ -1,0 +1,97 @@
+section {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-container {
+  text-align: center;
+  padding: 1em;
+}
+
+.button-container .sbtn {
+  margin-bottom: 1em;
+}
+
+#hinge .button-container .block-btn {
+  margin-bottom: 2.5em;
+}
+
+.button-caption-sub {
+  color: #656564;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.button-caption-sub:after {
+  content: "\f328";
+  font-family: "Font Awesome 5 Free", serif;
+  font-size: 15px;
+  vertical-align: bottom;
+  margin-left: 5px;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-sub-header {
+  color: #444343;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+[data-theme="dark"] .button-caption-sub,
+[data-theme="dark"] .section-sub-header {
+  color: #e0e0e0;
+}
+
+.secondary-hr {
+  width: 100%;
+  border-color: rgba(27, 114, 145, 0.3);
+}
+
+.social-btn {
+  font-family: "Syne", sans-serif !important;
+}
+
+.tagline {
+  font-size: 1.3rem;
+}
+
+.tagline-heart {
+  color: #f74545;
+}
+
+.appstore-btn {
+  font-family: "Syne" !important;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.button-grid.active {
+  display: flex;
+}

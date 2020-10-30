@@ -67,11 +67,17 @@ $(document).ready(function () {
   );
 
   // Navbar toggle here
-  function checkNavbar() {
-    if (!$(".content").isOnScreen()) {
-      $(".navbar").addClass("scrolling");
+  function checkSidebar() {
+    if (!$(".main-head").isOnScreen()) {
+      $(".sidebar").addClass("scrolling");
     } else {
-      $(".navbar").removeClass("scrolling");
+      $(".sidebar").removeClass("scrolling");
+    }
+
+    if (!$(".footer").isOnScreen()) {
+      $(".sidebar").removeClass("height-shift");
+    } else {
+      $(".sidebar").addClass("height-shift");
     }
   }
 
@@ -144,11 +150,11 @@ $(document).ready(function () {
   // Load functions on page load
   initTheme();
   checkActiveCategory();
-  checkNavbar();
+  checkSidebar();
   checkScrollTop();
 
   $(window).on("scroll", function () {
-    checkNavbar();
+    checkSidebar();
     checkActiveCategory();
     checkScrollTop();
   });
