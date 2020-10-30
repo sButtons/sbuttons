@@ -215,6 +215,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/pratyushakatti13"><img src="https://avatars2.githubusercontent.com/u/64535305?v=4" width="100px;" alt=""/><br /><sub><b>Pratyusha Katti</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pratyushakatti13" title="Code">💻</a></td>
+    <td align="center"><a href="https://aikakitsune.pl"><img src="https://avatars0.githubusercontent.com/u/17385340?v=4" width="100px;" alt=""/><br /><sub><b>aika</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=redpfire" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Aredpfire" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
