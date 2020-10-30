@@ -484,26 +484,20 @@ $(document).ready(function () {
       //if shouldHaveBlockType is set set the value to it, else by default show block buttons
       blockClass =
         !button.hasOwnProperty("shouldHaveBlockType") ||
-        button.shouldHaveBlockType;
+        button.shouldHaveBlockType,
+      headerClass = "section-header";
     if (shouldAddToSidebar) {
       // add link to sidebar
       sidebar.append(getMenuLinkHtml(button.type, button.label, false));
     } else {
       heading = "h3";
+      headerClass = "section-sub-header";
     }
 
     // Create a new section with same id as the button type
     var section = $('<section id="' + button.type + '">');
     // Adding the required heading to the section
-    section.append(
-      "<" +
-      heading +
-      ' class="section-header">' +
-      button.label +
-      "</" +
-      heading +
-      ">"
-    );
+    section.append(`<${heading} class=${headerClass}>${button.label}</${heading}`);
 
     if (button.hasOwnProperty("children") && button.children.length) {
       // Add children buttons to the section concerned
@@ -511,9 +505,6 @@ $(document).ready(function () {
       for (var j = 0; j < button.children.length; j++) {
         var childSection = createSection(button.children[j], false);
         childSection.appendTo(section);
-        if (j !== 0) {
-          childSection.before('<hr class="secondary-hr">');
-        }
         submenu.append(
           getMenuLinkHtml(
             button.children[j].type,
