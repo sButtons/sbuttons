@@ -44,7 +44,7 @@ body {
 
 @media (min-width: 992px) {
   .sidebar.scrolling {
-    width: calc(100vw / 12 * 3 - 3vw);
+    width: calc(100vw / 12 * 3 - 5vw);
   }
 }
 
