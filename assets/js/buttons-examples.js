@@ -155,6 +155,13 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "atom",
+          label: "Atom",
+          classes: "atom-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
+        {
           type: "aura-pulse",
           label: "Aura Pulse",
           classes: "aurapulse-btn",
@@ -294,6 +301,11 @@ $(document).ready(function () {
           type: "pulse",
           label: "Pulse",
           classes: "pulse-btn",
+        },
+        {
+          type: "rainbow",
+          label: "Rainbow",
+          classes: "rainbow-btn",
         },
         {
           type: "ripple",
@@ -451,6 +463,23 @@ $(document).ready(function () {
           shouldHaveBlockType: false,
         },
         {
+          type: "hatch",
+          label: "Hatch",
+          classes: "hatch-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "",
+              text: "<i class='fas fa-camera'></i>",
+            },
+            {
+              classes: "",
+              text: "<i class='fas fa-book'></i>",
+            },
+          ],
+        },
+        {
           type: "like",
           label: "Like",
           classes: "like-btn",
@@ -562,6 +591,10 @@ $(document).ready(function () {
         {
           classes: "snapchat",
           text: "Login with Snapchat",
+        },
+        {
+          classes: "steam",
+          text: "Login with Steam",
         },
         {
           classes: "twitter",
