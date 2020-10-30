@@ -210,6 +210,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/hmankodiya"><img src="https://avatars0.githubusercontent.com/u/52171362?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Mankodiya</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=hmankodiya" title="Code">💻</a> <a href="#ideas-hmankodiya" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/harjotkarwal"><img src="https://avatars1.githubusercontent.com/u/73360250?v=4" width="100px;" alt=""/><br /><sub><b>Harjot S.</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=harjotkarwal" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/divyanshutewari17"><img src="https://avatars0.githubusercontent.com/u/51994346?v=4" width="100px;" alt=""/><br /><sub><b>Divyanshu Tewari</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=divyanshutewari17" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Adivyanshutewari17" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/parresh77"><img src="https://avatars0.githubusercontent.com/u/35279064?v=4" width="100px;" alt=""/><br /><sub><b>Paresh Wadhwani</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=parresh77" title="Code">💻</a></td>
   </tr>
 </table>
 
