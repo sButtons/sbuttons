@@ -3988,10 +3988,20 @@ input[type="checkbox"].toggle-btn {
     background-position: 0 0, 0 50%;
   }
 }
+@font-face {
+  font-family: "IM Fell English SC";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("IM FELL English SC"), local("IM_FELL_English_SC"),
+    url(https://fonts.gstatic.com/s/imfellenglishsc/v10/a8IENpD3CDX-4zrWfr1VY879qFF05pZLOw.ttf)
+      format("truetype");
+}
 .western-btn {
   position: relative;
   transition: all 150ms linear;
-  border: 1px dashed rgba(232, 208, 81, 0.6);
+  font-family: "IM Fell English SC";
+  border: 1px dashed #e9d25a;
 }
 .western-btn:hover {
   transition: all 150ms linear;
@@ -3999,46 +4009,46 @@ input[type="checkbox"].toggle-btn {
   box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
   border: 1px dashed #d59f58;
 }
-.western-btn-denim {
+.western-btn.denim {
   background: #3b58b1;
   text-shadow: -3px -2px 0 #2b4082;
   box-shadow: 0px 2px 0 #314993, 2px 4px 6px #344e9e;
   color: #acbae3;
 }
-.western-btn-denim:hover {
+.western-btn.denim:hover {
   background: #354fa0;
   color: #6b83ce;
   text-shadow: -1px -1px 0 #2b4082;
 }
-.western-btn-choco {
+.western-btn.choco {
   background: #634d30;
   text-shadow: -2px -2px 0 #382c1b;
   box-shadow: 0px 2px 0 #483823, 2px 4px 6px #524028;
   color: #dfd0bd;
 }
-.western-btn-choco:hover {
+.western-btn.choco:hover {
   background: #544129;
   color: #977549;
   text-shadow: -1px -1px 0 #382c1b;
 }
-.western-btn-charcoal {
+.western-btn.charcoal {
   background: #393e61;
   text-shadow: -2px -2px 0 #212438;
   box-shadow: 0px 2px 0 #2a2e47, 2px 4px 6px #2f3451;
   color: #c5c9dd;
 }
-.western-btn-charcoal:hover {
+.western-btn.charcoal:hover {
   background: #303552;
   color: #555d91;
   text-shadow: -1px -1px 0 #212438;
 }
-.western-btn-sand {
+.western-btn.sand {
   background: #c4947a;
   text-shadow: -2px -2px 0 #b0714e;
   box-shadow: 0px 2px 0 #b77e5d, 2px 4px 6px #bc8668;
   color: #ffffff;
 }
-.western-btn-sand:hover {
+.western-btn.sand:hover {
   background: #bd886a;
   color: #dbbfaf;
   text-shadow: -1px -1px 0 #b0714e;
