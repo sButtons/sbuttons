@@ -1612,6 +1612,16 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "MSTEWARDSON",
+      "name": "MSTEWARDSON",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54907226?v=4",
+      "profile": "https://github.com/MSTEWARDSON",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
