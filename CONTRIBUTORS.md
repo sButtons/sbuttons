@@ -218,6 +218,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://aikakitsune.pl"><img src="https://avatars0.githubusercontent.com/u/17385340?v=4" width="100px;" alt=""/><br /><sub><b>aika</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=redpfire" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Aredpfire" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/sleekyom"><img src="https://avatars1.githubusercontent.com/u/43440929?v=4" width="100px;" alt=""/><br /><sub><b>Emmanuel Kolawole</b></sub></a><br /><a href="#content-sleekyom" title="Content">🖋</a></td>
     <td align="center"><a href="http://shresthalucky.github.io/"><img src="https://avatars2.githubusercontent.com/u/4192121?v=4" width="100px;" alt=""/><br /><sub><b>Lucky Shrestha</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=shresthalucky" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.karleypetracca.com"><img src="https://avatars1.githubusercontent.com/u/39736230?v=4" width="100px;" alt=""/><br /><sub><b>Karley Petracca</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=karleypetracca" title="Code">💻</a></td>
   </tr>
 </table>
 
