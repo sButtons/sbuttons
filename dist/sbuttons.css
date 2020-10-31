@@ -2921,7 +2921,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .flash-btn:hover {
   animation-name: flash;
-  animation-duration: 2s;
+  animation-duration: 0.6s;
   animation-timing-function: ease-in-out;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -2930,9 +2930,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 @keyframes flash {
   0% {
     opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
   }
   100% {
     opacity: 0;
