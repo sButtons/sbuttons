@@ -34,18 +34,18 @@ $(document).ready(function () {
         var sidebarLink = $(".sidebar a[href='#" + $(this).attr("id") + "']");
         $(".sidebar a.active").removeClass("active");
         sidebarLink.addClass("active");
-        var hasClass = sidebarLink.hasClass("submenu-link"),
-          nextHasClass = sidebarLink.next().hasClass("submenu-links");
-        if (hasClass || (!hasClass && !nextHasClass)) {
-          var parent = sidebarLink.parent(),
-            hasClass = parent.hasClass("submenu-links");
-          if (hasClass && !parent.hasClass("show")) {
-            $(".submenu-links.show").removeClass("show");
-            parent.addClass("show");
-          } else if (!hasClass) {
+        var isTerminal = sidebarLink.hasClass("submenu-link");
+        var hasSubmenu = sidebarLink.next().hasClass("submenu-links");
+        if (isTerminal || (!isTerminal && !hasSubmenu)) {
+          var parent = sidebarLink.parent();
+          if (parent.hasClass("submenu-links")) {
+            if (!parent.hasClass("show")) {
+              $(".submenu-links.show").removeClass("show");
+              sidebarLink.parents(".submenu-links").addClass("show");
+            }
+          } else {
             $(".submenu-links.show").removeClass("show");
           }
-          return false;
         }
       }
     });
@@ -67,11 +67,17 @@ $(document).ready(function () {
   );
 
   // Navbar toggle here
-  function checkNavbar() {
-    if (!$(".content").isOnScreen()) {
-      $(".navbar").addClass("scrolling");
+  function checkSidebar() {
+    if (!$(".main-head").isOnScreen()) {
+      $(".sidebar").addClass("scrolling");
     } else {
-      $(".navbar").removeClass("scrolling");
+      $(".sidebar").removeClass("scrolling");
+    }
+
+    if (!$(".footer").isOnScreen()) {
+      $(".sidebar").removeClass("height-shift");
+    } else {
+      $(".sidebar").addClass("height-shift");
     }
   }
 
@@ -144,11 +150,11 @@ $(document).ready(function () {
   // Load functions on page load
   initTheme();
   checkActiveCategory();
-  checkNavbar();
+  checkSidebar();
   checkScrollTop();
 
   $(window).on("scroll", function () {
-    checkNavbar();
+    checkSidebar();
     checkActiveCategory();
     checkScrollTop();
   });
