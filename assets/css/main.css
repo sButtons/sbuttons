@@ -281,3 +281,7 @@ button.clipboard:focus {
 [data-theme="dark"] .nav-link:hover {
   color: #f2f3f4;
 }
+
+[data-theme="dark"] .nav-link.active:hover {
+  color: var(--main-color);
+}
