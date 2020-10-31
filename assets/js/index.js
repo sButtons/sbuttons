@@ -68,13 +68,13 @@ $(document).ready(function () {
 
   // Navbar toggle here
   function checkSidebar() {
-    if (!$(".main-head").isOnScreen()) {
+    if ($(".main-head").length && !$(".main-head").isOnScreen()) {
       $(".sidebar").addClass("scrolling");
     } else {
       $(".sidebar").removeClass("scrolling");
     }
 
-    if (!$(".footer").isOnScreen()) {
+    if ($(".footer").length && !$(".footer").isOnScreen()) {
       $(".sidebar").removeClass("height-shift");
     } else {
       $(".sidebar").addClass("height-shift");
