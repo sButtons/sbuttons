@@ -155,6 +155,20 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
+          type: "gradient-border",
+          label: "Animated Gradient Border",
+          classes: "gradient-border",
+          text: "Button",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "",
+              text: "Gradient Border",
+            },
+          ],
+        },
+        {
           type: "atom",
           label: "Atom",
           classes: "atom-btn",
