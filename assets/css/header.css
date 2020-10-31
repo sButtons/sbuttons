@@ -186,17 +186,43 @@ a:active {
   }
 }
 
-@media (max-width: 425px) {
+.navbar.burger {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .main-head {
+    height: auto !important;
+  }
+
   .banner-head h1 {
     font-size: 2rem;
   }
 
-  .links {
-    font-size: 0.1rem;
+  .link {
+    font-size: 1rem;
   }
 
   .navbar-brand {
-    display: none;
+    margin-right: 0.25rem;
+  }
+
+  .navbar-brand img {
+    width: 2.5rem;
+    height: auto;
+  }
+
+  .navbar.burger {
+    display: flex;
+    top: 10vh;
+  }
+  
+  .burger-inline {
+    display: none !important;
+  }
+
+  .content.row {
+    margin-top: 26vh;
   }
 }
 
