@@ -3,15 +3,17 @@ section {
   margin-top: -80px;
 }
 
-@media screen and (max-width: 442px){
-.main-head{
-  padding-bottom: 18em ;
-}}
+@media screen and (max-width: 442px) {
+  .main-head {
+    padding-bottom: 18em;
+  }
+}
 
-@media screen and (min-width: 443px) and (max-width: 790px){
-.main-head{
-  padding-bottom: 13em ;
-}}
+@media screen and (min-width: 443px) and (max-width: 790px) {
+  .main-head {
+    padding-bottom: 13em;
+  }
+}
 
 .button-grid {
   display: flex;

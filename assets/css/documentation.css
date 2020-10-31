@@ -3,15 +3,17 @@ section {
   margin-top: -80px;
 }
 
-@media screen and (max-width: 400px){
-.main-head{
-  padding-bottom: 18em ;
-}}
+@media screen and (max-width: 400px) {
+  .main-head {
+    padding-bottom: 18em;
+  }
+}
 
-@media screen and (min-width: 401px) and (max-width: 730px){
-.main-head{
-  padding-bottom: 13em ;
-}}
+@media screen and (min-width: 401px) and (max-width: 730px) {
+  .main-head {
+    padding-bottom: 13em;
+  }
+}
 
 .text {
   font-size: 1rem;
