@@ -223,7 +223,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/MSTEWARDSON"><img src="https://avatars3.githubusercontent.com/u/54907226?v=4" width="100px;" alt=""/><br /><sub><b>MSTEWARDSON</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=MSTEWARDSON" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AMSTEWARDSON" title="Bug reports">🐛</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="http://linkedin.com/in/lopesfelipem"><img src="https://avatars0.githubusercontent.com/u/7880548?v=4" width="100px;" alt=""/><br /><sub><b>Felipe Lopes</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=felops" title="Code">💻</a></td>
+    <td align="center"><a href="http://linkedin.com/in/lopesfelipem"><img src="https://avatars0.githubusercontent.com/u/7880548?v=4" width="100px;" alt=""/><br /><sub><b>Felipe Lopes</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=felops" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Afelops" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
