@@ -1623,6 +1623,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "felops",
+      "name": "Felipe Lopes",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7880548?v=4",
+      "profile": "http://linkedin.com/in/lopesfelipem",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
