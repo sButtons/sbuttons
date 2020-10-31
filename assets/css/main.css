@@ -235,6 +235,11 @@ body {
   color: var(--main-color);
   background: none;
 }
+
+[data-theme="dark"] .scroll-top i {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .scroll-top {
     margin-left: 75%;
