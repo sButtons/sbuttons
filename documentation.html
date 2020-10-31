@@ -123,6 +123,11 @@
               <a href="#block" class="submenu-link">Block Button</a>
               <a href="#disabled" class="submenu-link" >Disabled Button</a>
               <a href="#base" class="submenu-link">Base Icon Button</a>
+              <div class="submenu-links">
+                <a href="#iconNoBg" class="submenu-link">Icon With No Background</a>
+                <a href="#iconPositionLeft" class="submenu-link">Icon Positioned to The Left</a>
+                <a href="#iconPositionRight" class="submenu-link">Icon Positioned to The Right</a>
+              </div>
             </div>
 
           </div>
@@ -285,34 +290,61 @@
         <section class="instruction-block" id="base">
           <h2 id="base-icon-btn">Base Icon Button</h2>
           <div class="text">
-            The <code>base-icon-btn</code> class enables you to have a normal, customizable button. Using it, you
-            decide to add any fontawesome icon in it. You can choose to either place it at the left or right side of
-            the button with the available classes which you will see below.
-            For the icon to be positioned well in the button, you should place the button text after the fontawesome
-            icon if you want the icon to be on the left side of the button and vice versa for the right icon too.
+            The <code>base-icon-btn</code> class enables you to have a normal, customizable button. 
+            Using it, you decide to add any fontawesome icon in it. You can choose to either place it on the
+             left or right side of the button with the available classes.
           </div>
           <br />
-          <h4 class="display-inlineBlock">Base button</h4>
-          <button class="sbtn base-icon-btn">
-            <i class="fas fa-book"></i>
-          </button>
-          <div class="text">
-            The <code>base-icon-btn</code> class, gives you a default button with no background color and a
-            border. You can choose to style it by adding, some of the other available classes, like
-            <code>btn-orange</code> to change the background color, and <code>icon-right</code> to position the
-            icon in the button. You can make use of it, by copying the sinppet below.
-            <br><br>
-            <button class="sbtn base-icon-btn orange-btn icon-right">
-              Something like this
-              <i class="fas fa-book"></i>
-            </button>
-          </div>
-          <div class="code-block-container">
-            <div class="script-copy">
-              <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-right orange-btn"&gt;Something like this&lt;i class="fas fa-book"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
+          <section class="instruction-block" id="iconNoBg">
+            <h4 class="display-inlineBlock">Icon With No Background</h4>
+            <div class="text">
+              The <code>base-icon-btn</code> class alone gives you a default button with no background color and a border.
+              <br><br>
+              <button class="sbtn base-icon-btn">
+                <i class="fas fa-book"></i>
+              </button>
             </div>
-          </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn"&gt;&lt;i class="fas fa-book"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+          </section>
+          <section class="instruction-block" id="iconPositionLeft">
+            <h4 class="display-inlineBlock">Icon Positioned to The Left</h4>
+            <div class="text">
+              Adding the <code>left-icon</code> class to a button makes the icon positioned to the left. For example:
+              <br><br>
+              <button class="sbtn base-icon-btn icon-left orange-btn">
+                <i class="fas fa-book"></i>
+                To the Left
+              </button>
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-left orange-btn"&gt;&lt;i class="fas fa-book"&gt;&lt;/i&gt;To the Left&lt;/button&gt;</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+          </section>
+          <section class="instruction-block" id="iconPositionRight">
+            <h4 class="display-inlineBlock">Icon Positioned to The Right</h4>
+            <div class="text">
+              Adding the <code>right-icon</code> class to a button makes the icon positioned to the right. For example:
+              <br><br>
+              <button class="sbtn base-icon-btn icon-right orange-btn">
+                To the Right
+                <i class="fas fa-book"></i>
+              </button>
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn icon-right orange-btn"&gt;To The Right&lt;i class="fas fa-book"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+          </section>
         </section>
       </div>
     </div>
