@@ -235,6 +235,11 @@ body {
   color: var(--main-color);
   background: none;
 }
+
+.main-head h1  {
+  font-size: 3rem;
+  }
+
 @media only screen and (max-width: 600px) {
   .scroll-top {
     margin-left: 75%;
