@@ -76,10 +76,12 @@ $(document).ready(function () {
       }
     }
 
-    if (!$(".footer").isOnScreen()) {
-      $(".sidebar").removeClass("height-shift");
-    } else {
-      $(".sidebar").addClass("height-shift");
+    if ($(".footer").length) {
+      if (!$(".footer").isOnScreen()) {
+        $(".sidebar").removeClass("height-shift");
+      } else {
+        $(".sidebar").addClass("height-shift");
+      }
     }
   }
 
