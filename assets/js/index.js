@@ -76,8 +76,6 @@ $(document).ready(function () {
       }
     }
 
-
-
     if (!$(".footer").isOnScreen()) {
       $(".sidebar").removeClass("height-shift");
     } else {
