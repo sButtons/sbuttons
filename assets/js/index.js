@@ -68,11 +68,15 @@ $(document).ready(function () {
 
   // Navbar toggle here
   function checkSidebar() {
-    if (!$(".main-head").isOnScreen()) {
-      $(".sidebar").addClass("scrolling");
-    } else {
-      $(".sidebar").removeClass("scrolling");
+    if ($(".main-head").length) {
+      if (!$(".main-head").isOnScreen()) {
+        $(".sidebar").addClass("scrolling");
+      } else {
+        $(".sidebar").removeClass("scrolling");
+      }
     }
+
+
 
     if (!$(".footer").isOnScreen()) {
       $(".sidebar").removeClass("height-shift");
