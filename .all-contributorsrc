@@ -1581,6 +1581,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "shresthalucky",
+      "name": "Lucky Shrestha",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4192121?v=4",
+      "profile": "http://shresthalucky.github.io/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
