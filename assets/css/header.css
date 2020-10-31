@@ -196,7 +196,12 @@ a:active {
   }
 
   .navbar-brand {
-    display: none;
+    margin-right: 0.25rem;
+  }
+
+  .navbar-brand img {
+    width: 3rem;
+    height: auto;
   }
 }
 
