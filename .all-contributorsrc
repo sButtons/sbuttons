@@ -1257,7 +1257,9 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/31221181?v=4",
       "profile": "https://github.com/drewren25",
       "contributions": [
-        "code"
+        "code",
+        "ideas",
+        "content"
       ]
     },
     {
@@ -1552,6 +1554,73 @@
       "contributions": [
         "code",
         "ideas"
+      ]
+    },
+    {
+      "login": "pratyushakatti13",
+      "name": "Pratyusha Katti",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/64535305?v=4",
+      "profile": "https://github.com/pratyushakatti13",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "redpfire",
+      "name": "aika",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17385340?v=4",
+      "profile": "https://aikakitsune.pl",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "sleekyom",
+      "name": "Emmanuel Kolawole",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43440929?v=4",
+      "profile": "https://github.com/sleekyom",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "shresthalucky",
+      "name": "Lucky Shrestha",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4192121?v=4",
+      "profile": "http://shresthalucky.github.io/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "karleypetracca",
+      "name": "Karley Petracca",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/39736230?v=4",
+      "profile": "http://www.karleypetracca.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Mani-07",
+      "name": "Mani-07",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/51812399?v=4",
+      "profile": "https://github.com/Mani-07",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "MSTEWARDSON",
+      "name": "MSTEWARDSON",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54907226?v=4",
+      "profile": "https://github.com/MSTEWARDSON",
+      "contributions": [
+        "code",
+        "bug"
       ]
     }
   ],

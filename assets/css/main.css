@@ -243,7 +243,6 @@ body {
 
 button.clipboard {
   color: var(--main-color);
-  border-radius: 4px;
   height: 100%;
   width: 100%;
   border: transparent;
