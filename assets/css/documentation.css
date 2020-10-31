@@ -3,6 +3,11 @@ section {
   margin-top: -80px;
 }
 
+@media screen and (max-width: 600px){
+.main-head{
+  padding-bottom: 18em ;
+}}
+
 .text {
   font-size: 1rem;
   color: black;

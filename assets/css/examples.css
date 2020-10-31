@@ -3,6 +3,11 @@ section {
   margin-top: -80px;
 }
 
+@media screen and (max-width: 600px){
+.main-head{
+  padding-bottom: 18em ;
+}}
+
 .button-grid {
   display: flex;
   flex-wrap: wrap;
