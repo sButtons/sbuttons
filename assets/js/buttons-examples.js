@@ -160,7 +160,7 @@ $(document).ready(function () {
           classes: "gradient-border",
           text: "Button",
           shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
+          // shouldHaveBlockType: false,
           variations: [
             {
               classes: "",
