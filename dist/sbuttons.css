@@ -3109,6 +3109,18 @@ a.yellow-btn:active:not(.fill-color-btn) {
   position: relative;
   transform: translateZ(0px);
   vertical-align: middle;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 0,
+    100% 100%,
+    100% 100%,
+    0 100%,
+    0 100%,
+    0 0
+  );
+  transition-duration: 0.3s;
+  transition-property: clip-path;
 }
 .papercurl-btn:before {
   background: rgba(0, 0, 0, 0)
