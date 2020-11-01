@@ -31,8 +31,8 @@ body > .container {
 a,
 a:hover,
 a:active {
-  color: black;
-  text-decoration: none;
+  color: #50BFE6;
+  text-decoration: underline;
 }
 .navbar {
   background-color: var(--main-color);
