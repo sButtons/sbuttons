@@ -29,10 +29,12 @@ body > .container {
 }
 
 a,
-a:hover,
 a:active {
   color: #50BFE6;
-  text-decoration: underline;
+}
+a:hover{
+	color: #ff8ae6;
+	text-decoration: none;
 }
 .navbar {
   background-color: var(--main-color);
