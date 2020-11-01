@@ -3112,7 +3112,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .papercurl-btn:before {
   background: rgba(0, 0, 0, 0)
-    linear-gradient(315deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%)
+    linear-gradient(
+      315deg,
+      transparent 45%,
+      #aaaaaa 50%,
+      #cccccc 56%,
+      white 80%
+    )
     repeat scroll 0 0;
   /*display smooth transitions between two or more specified colors */
   bottom: 0;
