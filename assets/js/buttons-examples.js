@@ -155,20 +155,6 @@ $(document).ready(function () {
       classes: "",
       children: [
         {
-          type: "gradient-border",
-          label: "Animated Gradient Border",
-          classes: "gradient-border",
-          text: "Button",
-          shouldHaveRoundedType: false,
-          // shouldHaveBlockType: false,
-          variations: [
-            {
-              classes: "",
-              text: "Gradient Border",
-            },
-          ],
-        },
-        {
           type: "atom",
           label: "Atom",
           classes: "atom-btn",
@@ -224,6 +210,20 @@ $(document).ready(function () {
           type: "flash",
           label: "Flash",
           classes: "flash-btn",
+        },
+        {
+          type: "gradient-border",
+          label: "Gradient Border",
+          classes: "gradient-border",
+          text: "Button",
+          shouldHaveRoundedType: false,
+          // shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "",
+              text: "Gradient Border",
+            },
+          ],
         },
         {
           type: "hinge",
