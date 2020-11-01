@@ -165,7 +165,7 @@ a:active {
 
 .banner-link {
   padding: 15px;
-  font-size: 1rem;
+  font-size: 14px !important;
   border-radius: 10px;
   margin-right: 1em;
   margin-top: 1em;
