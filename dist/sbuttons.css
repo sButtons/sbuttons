@@ -3109,10 +3109,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
   position: relative;
   transform: translateZ(0px);
   vertical-align: middle;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 0,
+    100% 100%,
+    100% 100%,
+    0 100%,
+    0 100%,
+    0 0
+  );
+  transition-duration: 0.3s;
+  transition-property: clip-path;
 }
 .papercurl-btn:before {
   background: rgba(0, 0, 0, 0)
-    linear-gradient(315deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%)
+    linear-gradient(
+      315deg,
+      transparent 45%,
+      #aaaaaa 50%,
+      #cccccc 56%,
+      white 80%
+    )
     repeat scroll 0 0;
   /*display smooth transitions between two or more specified colors */
   bottom: 0;
@@ -3126,6 +3144,20 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition-property: width, height;
   width: 0;
   border-color: white;
+}
+.papercurl-btn:hover,
+.papercurl-btn:focus,
+.papercurl-btn:active {
+  clip-path: polygon(
+    25px 0%,
+    100% 0,
+    100% 25px,
+    100% calc(100% - 25px),
+    calc(100% - 25px) 100%,
+    25px 100%,
+    0 100%,
+    0 0
+  );
 }
 .papercurl-btn:hover:before,
 .papercurl-btn:focus:before,
