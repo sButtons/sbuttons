@@ -240,12 +240,12 @@ $(document).ready(function () {
               classes: "spin right green-btn",
             },
             {
-              text: "loading left",
-              classes: "bounce left red-btn",
+              text: "loading right",
+              classes: "bounce right red-btn",
             },
             {
-              text: "loading right",
-              classes: "bounce right pink-btn",
+              text: "loading left",
+              classes: "bounce left pink-btn",
             },
             {
               text: "loading left",
@@ -256,12 +256,12 @@ $(document).ready(function () {
               classes: "heart-beat right yellow-btn",
             },
             {
-              text: "loading left",
-              classes: "slide left black-btn",
+              text: "loading right",
+              classes: "slide right black-btn",
             },
             {
-              text: "loading right",
-              classes: "slide right orange-btn",
+              text: "loading left",
+              classes: "slide left orange-btn",
             },
           ],
           shouldHaveRoundedType: false,
