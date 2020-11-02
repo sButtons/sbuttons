@@ -53,7 +53,7 @@ a:active {
   width: 100%;
   pointer-events: none;
   z-index: -2;
-  height: 100vh;
+  height: 105vh;
   background: linear-gradient(
     158deg,
     var(--main-color) 50%,
@@ -165,7 +165,7 @@ a:active {
 
 .banner-link {
   padding: 15px;
-  font-size: 14px !important;
+  font-size: 1rem !important;
   border-radius: 10px;
   margin-right: 1em;
   margin-top: 1em;
