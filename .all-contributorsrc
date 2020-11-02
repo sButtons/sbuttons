@@ -1642,6 +1642,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ZeroniaFX",
+      "name": "ZeroniaFX",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/73082227?v=4",
+      "profile": "https://github.com/ZeroniaFX",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
