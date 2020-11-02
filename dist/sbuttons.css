@@ -119,7 +119,7 @@ a.sbtn:active {
 }
 .white-btn {
   background-color: #fff;
-  border-color: #e9e9e9;
+  border-color: #ffffff;
 }
 .white-btn:focus,
 .white-btn:active {
@@ -128,7 +128,7 @@ a.sbtn:active {
 }
 .white-btn:focus,
 .white-btn:active {
-  box-shadow: 0px 0px 0 0.2rem rgba(233, 233, 233, 0.67);
+  box-shadow: 0px 0px 0 0.2rem rgba(255, 255, 255, 0.67);
 }
 .white-btn:not(.fill-color-btn) {
   color: #333 !important;
@@ -266,7 +266,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000 !important;
 }
 .dashed-btn.white-btn {
-  border: dashed 2px #e9e9e9;
+  border: dashed 2px #ffffff;
   color: #333 !important;
 }
 .disabled-btn {
@@ -600,7 +600,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .outline-btn.white-btn {
-  border-color: #e9e9e9;
+  border-color: #ffffff;
   color: #333 !important;
 }
 .rounded-bottom-btn {
@@ -2169,7 +2169,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.white-btn {
   border-color: #fff !important;
   color: #fff;
-  border-color: #e9e9e9 !important;
+  border-color: #ffffff !important;
   color: #333;
 }
 .fill-color-btn.white-btn:before {
@@ -2560,7 +2560,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .ripple-btn.white-btn {
   border-color: #fff;
   color: #fff;
-  border-color: #e9e9e9;
+  border-color: #ffffff;
 }
 .ripple-btn.white-btn::before {
   background-color: #fff;
@@ -2871,7 +2871,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #000;
 }
 .transparent-btn:hover.white-btn {
-  border-color: #e9e9e9;
+  border-color: #ffffff;
   color: #fff !important;
 }
 .transparent-btn:hover.white-btn::before {
@@ -3197,12 +3197,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
 }
 .atom-btn.white-btn {
-  border-color: #e9e9e9;
-  color: #e9e9e9 !important;
+  border-color: #ffffff;
+  color: #ffffff !important;
   color: #333 !important;
 }
 .atom-btn.white-btn::after {
-  border-color: #e9e9e9;
+  border-color: #ffffff;
 }
 .atom-btn::after {
   background: white;
