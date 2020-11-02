@@ -245,11 +245,11 @@ $(document).ready(function () {
             },
             {
               text: "loading right",
-              classes: "bounce left pink-btn",
+              classes: "bounce right pink-btn",
             },
             {
               text: "loading right",
-              classes: "heart-beat left blue-btn",
+              classes: "heart-beat right blue-btn",
             },
             {
               text: "loading right",
@@ -261,7 +261,7 @@ $(document).ready(function () {
             },
             {
               text: "loading right",
-              classes: "slide left orange-btn",
+              classes: "slide right orange-btn",
             },
           ],
           shouldHaveRoundedType: false,
