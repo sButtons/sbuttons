@@ -116,8 +116,8 @@ a:active {
   font-size: 3.6rem;
   font-weight: 700;
 }
-.outline-btn.white-btn {
-  border-color: #e9e9e9;
+a.outline-btn.white-btn {
+  border-color: white !important;
   color: white !important;
 }
 @keyframes jump-up {
