@@ -240,24 +240,24 @@ $(document).ready(function () {
               classes: "spin right green-btn",
             },
             {
-              text: "loading right",
-              classes: "bounce right red-btn",
+              text: "loading left",
+              classes: "bounce left red-btn",
             },
             {
               text: "loading right",
               classes: "bounce right pink-btn",
             },
             {
-              text: "loading right",
-              classes: "heart-beat right blue-btn",
+              text: "loading left",
+              classes: "heart-beat left blue-btn",
             },
             {
               text: "loading right",
               classes: "heart-beat right yellow-btn",
             },
             {
-              text: "loading right",
-              classes: "slide right black-btn",
+              text: "loading left",
+              classes: "slide left black-btn",
             },
             {
               text: "loading right",
