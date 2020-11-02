@@ -30,11 +30,11 @@ body > .container {
 
 a,
 a:active {
-  color: #50BFE6;
+  color: #50bfe6;
 }
-a:hover{
-	color: #ff8ae6;
-	text-decoration: none;
+a:hover {
+  color: #ff8ae6;
+  text-decoration: none;
 }
 .navbar {
   background-color: var(--main-color);
