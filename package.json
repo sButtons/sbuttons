@@ -30,9 +30,9 @@
     "lite-server": "^2.5.4",
     "minimist": "^1.2.3",
     "node-less": "^1.0.0",
-    "object-path": ">=0.11.5",
     "onchange": "^7.0.2",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.1",
+    "object-path": ">=0.11.5"
   },
   "bugs": {
     "url": "https://github.com/sButtons/sbuttons/issues",
