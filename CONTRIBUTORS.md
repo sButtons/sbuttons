@@ -225,6 +225,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="http://linkedin.com/in/lopesfelipem"><img src="https://avatars0.githubusercontent.com/u/7880548?v=4" width="100px;" alt=""/><br /><sub><b>Felipe Lopes</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=felops" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Afelops" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/d3fau7t"><img src="https://avatars2.githubusercontent.com/u/57768970?v=4" width="100px;" alt=""/><br /><sub><b>d3fau7t</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=d3fau7t" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ZeroniaFX"><img src="https://avatars1.githubusercontent.com/u/73082227?v=4" width="100px;" alt=""/><br /><sub><b>ZeroniaFX</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ZeroniaFX" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AZeroniaFX" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
