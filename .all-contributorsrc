@@ -1661,6 +1661,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "AndreJesusBrito",
+      "name": "André Jesus Brito",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/35274086?v=4",
+      "profile": "https://github.com/AndreJesusBrito",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
