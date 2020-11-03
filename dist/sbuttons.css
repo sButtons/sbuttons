@@ -16,310 +16,211 @@
 /* END VARIABLES IN special/_retro.less */
 /* BEGIN VARIABLES IN special/_gradient.less */
 /* END VARIABLES IN special/_gradient.less */
-.sbtn.hoverCC{
-    position: relative;
-    padding:0px;
-    color:black;
-    height:50px;
-    width:200px;
-    background-color: transparent;
-    cursor:pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: none; 
-}
-.hoverCC:hover{
-  animation: fonnt 0.25s ease-in forwards;
-}
-.blue-btn.hoverCC:hover{
-  animation: fonnt 0.25s ease-in forwards;
 
-  background-color: blue;
-}
-.blue-btn.hoverCC{
-  border:3px double blue;
-  box-shadow: inset 0px 0px 10px blue;
-}
-.pink-btn.hoverCC:hover{
-  animation: fonnt 0.25s ease-in forwards;
-
-  background-color: pink;
-}
-.pink-btn.hoverCC{
-  border:3px double pink;
-  box-shadow: inset 0px 0px 10px pink;
-}
-.red-btn.hoverCC:hover{
-  animation: fonnt 0.25s ease-in forwards;
-  background-color: red;
-}
-.red-btn.hoverCC{
-  border:3px double red;
-  box-shadow: inset 0px 0px 10px red;
-}
-.green-btn.hoverCC:hover{
-  animation: fonnt 0.25s ease-in forwards;
-  background-color: green;
-}
-.green-btn.hoverCC{
-  border:3px double green;
-  box-shadow: inset 0px 0px 10px green;
-}
-.yellow-btn.hoverCC:hover{
-  animation: fonnt 0.25s ease-in forwards;
-  background-color: yellow;
-}
-.yellow-btn.hoverCC{
-  border:3px double yellow;
-  box-shadow: inset 0px 0px 10px yellow;
-}
-.orange-btn.hoverCC:hover{
-  animation: fonnt 0.25s ease-in forwards;
-  background-color: orange;
-}
-.orange-btn.hoverCC{
-  border:3px double orange;
-  box-shadow: inset 0px 0px 10px orange;
-}
-.purple-btn.hoverCC:hover{
-  animation: fonnt 0.25s ease-in forwards;
-  background-color: purple;
-}
-.purple-btn.hoverCC{
-  border:3px double purple;
-  box-shadow: inset 0px 0px 10px purple;
-}
-.black-btn.hoverCC:hover{
-  animation: fonnt 0.25s ease-in forwards;
-  background-color: black;
-}
-.black-btn.hoverCC{
-  border:3px double black;
-  box-shadow: inset 0px 0px 10px black;
-}
-.white-btn.hoverCC:hover{
-  animation: fonntrev 0.25s ease-in forwards;
-  background-color: white;
-}
-.white-btn.hoverCC{
+.sbtn.spotlight-btn{
+  /* @mrsidsat */
+  position: relative;
+  padding:0px;
   color:black;
-  border:3px double #9c9a9a;
-  box-shadow: inset 0px 0px 10px #aaaaaa;
+  border:3px solid #0cbfcf ;
+  height:50px;
+  width:200px;
+  background-color: transparent;
+  overflow:visible !important;
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0px 0px 10px  #0fe0f5;  
 }
-.sbtn.spotlight{
-    /* @mrsidsat */
-    position: relative;
-    padding:0px;
-    color:black;
-    border:5px solid #0cbfcf ;
-    height:50px;
-    width:200px;
-    background-color: transparent;
-    overflow:visible !important;
-    cursor:pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 0px 0px 10px  #0fe0f5;  
+.spotlight-btn:after{             
+  content:"";
+  border:3px solid #07dae9;
+  box-shadow: inset 0px 0px 10px #0fe0f5;
+  height:50px;
+  width:200px;
+  top:3px;
+  left:3px;
+  opacity: 1;
+  position: absolute;
+  z-index: -10;
+  background-color: transparent;
+  overflow:visible;
 }
-.spotlight:after{             
-    content:"";
-    border:5px solid #07dae9;
-    box-shadow: inset 0px 0px 10px #0fe0f5;
-    height:50px;
-    width:200px;
-    top:3px;
-    left:3px;
-    opacity: 1;
-    position: absolute;
-    z-index: -10;
-    background-color: transparent;
-    overflow:visible;
+.spotlight-btn:hover{
+  
+  animation: fonnt 0.5s ease-in 0.25s forwards !important;
 }
-.spotlight:hover{
-    
-    animation: fonnt 0.5s ease-in 0.25s forwards !important;
+.spotlight-btn:before{
+  content: "";
+  padding:20px;
+  position: absolute;
+  height:50px;
+  width:50px;
+  background-color: #0cbfcf;
+  top:100px;
+  opacity:0;
+  z-index: -1;
+  left:100px;
+  transform: translateX(-50%) translateX(-5px);
+  border-radius: 50%;
 }
-.spotlight:before{
-    content: "";
-    padding:20px;
-    position: absolute;
-    height:50px;
-    width:50px;
-    background-color: #0cbfcf;
-    top:100px;
-    opacity:0;
-    z-index: -1;
-    left:100px;
-    transform: translateX(-50%) translateX(-5px);
-    border-radius: 50%;
+.spotlight-btn:hover:before{
+  animation: pop 0.5s ease-in forwards, mrsidsat 0.25s ease-in 0.5s forwards;
 }
-.spotlight:hover:before{
-    animation: pop 0.5s ease-in forwards, mrsidsat 0.25s ease-in 0.5s forwards;
-}
-.spotlight:hover:after{
-    animation: bor 0.5s ease-in forwards;
+.spotlight-btn:hover:after{
+  animation: bor 0.5s ease-in forwards;
 }
 @keyframes pop {
-    0%{
-        top:100px;
-        opacity:0;
-        border-radius: 50%;
-    } 
-    100%{
-        top:-5px;
-        opacity:1;
-        border-radius: 50%;
-    } 
+  0%{
+      top:100px;
+      opacity:0;
+      border-radius: 50%;
+  } 
+  100%{
+      top:-5px;
+      opacity:1;
+      border-radius: 50%;
+  } 
 }
 @keyframes mrsidsat {
-    0%{
-        border-radius: 50%;
-        /* top:0.5px; */
-        width:50px;
-    } 
-    100%{
-        border-radius: 0%;
-        /* top:0.5px; */
-        width:200px;   
-    }  
+  0%{
+      border-radius: 50%;
+      /* top:0.5px; */
+      width:50px;
+  } 
+  100%{
+      border-radius: 0%;
+      /* top:0.5px; */
+      width:200px;   
+  }  
 }
 @keyframes bor {
-    0%{
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-    100%{
-        transform: translate(-10px,-10px);
-        opacity: 0;
-    }
-    
-}
-@keyframes fonnt {
-    0%{
-        color: black;
-        
-    }
-    100%{
-        color: cornsilk;
-        text-shadow: 0px 0px 20px white;
-        box-shadow: inset 0px 0px 5px cornsilk;
-        
-    }
-}
-@keyframes fonntrev {
   0%{
-      color:black;
+      transform: translate(0px,0px);
+      opacity: 1;
   }
   100%{
+      transform: translate(-10px,-10px);
+      opacity: 0;
+  }
+  
+}
+@keyframes fonnt {
+  0%{
+      color: black;
       
-      color:black;
-      box-shadow: inset 0px 0px 5px black;
+  }
+  100%{
+      color: cornsilk;
+      text-shadow: 0px 0px 20px white;
+      box-shadow: inset 0px 0px 5px cornsilk;
       
   }
 }
-.spotlight.blue-btn{
-  border:5px solid blue;
-  box-shadow: inset 0px 0px 10px blue;  
+
+.spotlight-btn.blue-btn{
+border:3px solid blue;
+box-shadow: inset 0px 0px 10px blue;  
 }
-  
-.blue-btn.spotlight:before{
-  background-color: blue;
+
+.blue-btn.spotlight-btn:before{
+background-color: blue;
 }
-.blue-btn.spotlight:after{
-  border:5px solid blue;
-    box-shadow: inset 0px 0px 10px blue;
+.blue-btn.spotlight-btn:after{
+border:3px solid blue;
+  box-shadow: inset 0px 0px 10px blue;
 }
-.spotlight.pink-btn{
-  border:5px solid pink;
-  box-shadow: inset 0px 0px 10px pink;  
+.spotlight-btn.pink-btn{
+border:3px solid pink;
+box-shadow: inset 0px 0px 10px pink;  
 }
-  
-.pink-btn.spotlight:before{
-  background-color: pink;
+
+.pink-btn.spotlight-btn:before{
+background-color: pink;
 }
-.pink-btn.spotlight:after{
-  border:5px solid pink;
-    box-shadow: inset 0px 0px 10px pink;
+.pink-btn.spotlight-btn:after{
+border:3px solid pink;
+  box-shadow: inset 0px 0px 10px pink;
 }
-.spotlight.red-btn{
-  border:5px solid red;
-  box-shadow: inset 0px 0px 10px red;  
+.spotlight-btn.red-btn{
+border:3px solid red;
+box-shadow: inset 0px 0px 10px red;  
 }  
-.red-btn.spotlight:before{
-  background-color: red;
+.red-btn.spotlight-btn:before{
+background-color: red;
 }
-.red-btn.spotlight:after{
-  border:5px solid red;
-    box-shadow: inset 0px 0px 10px red;
+.red-btn.spotlight-btn:after{
+border:3px solid red;
+  box-shadow: inset 0px 0px 10px red;
 }
-.spotlight.green-btn{
-  border:5px solid green;
-  box-shadow: inset 0px 0px 10px green;  
+.spotlight-btn.green-btn{
+border:3px solid green;
+box-shadow: inset 0px 0px 10px green;  
 } 
-.green-btn.spotlight:before{
-  background-color: green;
+.green-btn.spotlight-btn:before{
+background-color: green;
 }
-.green-btn.spotlight:after{
-  border:5px solid green;
-    box-shadow: inset 0px 0px 10px green;
+.green-btn.spotlight-btn:after{
+border:3px solid green;
+  box-shadow: inset 0px 0px 10px green;
 }
-.spotlight.yellow-btn{
-  border:5px solid yellow;
-  box-shadow: inset 0px 0px 10px yellow;  
+.spotlight-btn.yellow-btn{
+border:3px solid yellow;
+box-shadow: inset 0px 0px 10px yellow;  
 } 
-.yellow-btn.spotlight:before{
-  background-color: yellow;
+.yellow-btn.spotlight-btn:before{
+background-color: yellow;
 }
-.yellow-btn.spotlight:after{
-  border:5px solid yellow;
-    box-shadow: inset 0px 0px 10px yellow;
+.yellow-btn.spotlight-btn:after{
+border:3px solid yellow;
+  box-shadow: inset 0px 0px 10px yellow;
 }
-.spotlight.orange-btn{
-  border:5px solid orange;
-  box-shadow: inset 0px 0px 10px orange;  
+.spotlight-btn.orange-btn{
+border:3px solid orange;
+box-shadow: inset 0px 0px 10px orange;  
 } 
-.orange-btn.spotlight:before{
-  background-color: orange;
+.orange-btn.spotlight-btn:before{
+background-color: orange;
 }
-.orange-btn.spotlight:after{
-  border:5px solid orange;
-    box-shadow: inset 0px 0px 10px orange;
+.orange-btn.spotlight-btn:after{
+border:3px solid orange;
+  box-shadow: inset 0px 0px 10px orange;
 }
-.spotlight.purple-btn{
-  border:5px solid purple;
-  box-shadow: inset 0px 0px 10px purple;  
+.spotlight-btn.purple-btn{
+border:3px solid purple;
+box-shadow: inset 0px 0px 10px purple;  
 } 
-.purple-btn.spotlight:before{
-  background-color: purple;
+.purple-btn.spotlight-btn:before{
+background-color: purple;
 }
-.purple-btn.spotlight:after{
-  border:5px solid purple;
-    box-shadow: inset 0px 0px 10px purple;
+.purple-btn.spotlight-btn:after{
+border:3px solid purple;
+  box-shadow: inset 0px 0px 10px purple;
 }
-.spotlight.black-btn{
-  border:5px solid black;
-  box-shadow: inset 0px 0px 10px black;  
+.spotlight-btn.black-btn{
+border:3px solid black;
+box-shadow: inset 0px 0px 10px black;  
 } 
-.black-btn.spotlight:before{
-  background-color: black;
+.black-btn.spotlight-btn:before{
+background-color: black;
 }
-.black-btn.spotlight:after{
-  border:5px solid black;
-    box-shadow: inset 0px 0px 10px black;
+.black-btn.spotlight-btn:after{
+border:3px solid black;
+  box-shadow: inset 0px 0px 10px black;
 }
-.spotlight.white-btn{
-  border:5px solid  #0cbfcf;
-  box-shadow: inset 0px 0px 10px  #0cbfcf;  
+.spotlight-btn.white-btn{
+border:3px solid  #0cbfcf;
+box-shadow: inset 0px 0px 10px  #0cbfcf;  
 } 
-.white-btn.spotlight:before{
-  background-color:  #0cbfcf;
+.white-btn.spotlight-btn:before{
+background-color:  #0cbfcf;
 }
-.white-btn.spotlight:after{
-  border:5px solid  #0cbfcf;
-    box-shadow: inset 0px 0px 10px  #0cbfcf;
+.white-btn.spotlight-btn:after{
+border:3px solid  #0cbfcf;
+  box-shadow: inset 0px 0px 10px  #0cbfcf;
 }
+
 .sbtn {
   padding: 10px;
   text-align: center;
@@ -391,7 +292,7 @@ a.sbtn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(251, 232, 112, 0.3);
   outline: 0;
 }
-.yellow-btn:not(.fill-color-btn .spotlight):not(.ripple-btn):not(.outline-btn):not(.transparent-btn):not(.diag-btn):not(.neu-btn),
+.yellow-btn:not(.fill-color-btn .spotlight-btn):not(.ripple-btn):not(.outline-btn):not(.transparent-btn):not(.diag-btn):not(.neu-btn),
 .yellow-btn.transparent-btn:not(:hover) {
   color: #333 !important;
 }
@@ -432,7 +333,7 @@ a.sbtn:active {
 .white-btn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(233, 233, 233, 0.67);
 }
-.white-btn:not(.fill-color-btn .spotlight) {
+.white-btn:not(.fill-color-btn .spotlight-btn) {
   color: #333 !important;
 }
 a.purple-btn:hover,
