@@ -3538,8 +3538,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: 0.25s ease-in;
 }
 .hatch-btn:hover > i,
-.hatch-btn:active > i,
-.hatch-btn:focus > i {
+.hatch-btn:active > i {
   text-shadow: -2px -2px 5px rgba(255, 255, 255, 0.15),
     7px 2px 8px rgba(0, 0, 0, 0.25);
   transform: translateX(-7.5px) rotateY(-45deg);
