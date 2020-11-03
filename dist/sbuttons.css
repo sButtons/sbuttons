@@ -89,10 +89,6 @@ a.sbtn:active {
   box-shadow: 0px 0px 0 0.2rem rgba(251, 232, 112, 0.3);
   outline: 0;
 }
-.yellow-btn:not(.fill-color-btn):not(.ripple-btn):not(.outline-btn):not(.transparent-btn):not(.diag-btn):not(.neu-btn),
-.yellow-btn.transparent-btn:not(:hover) {
-  color: #333 !important;
-}
 .orange-btn {
   background-color: #ff8833;
 }
@@ -1745,7 +1741,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .next-arrow-btn.yellow-btn:after {
   background-color: #fbe870;
   border: 1px solid #fbe870;
-  color: #333 !important;
+  color: #fff !important;
 }
 .next-arrow-btn.orange-btn:after {
   background-color: #ff8833;
@@ -1813,7 +1809,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .previous-arrow-btn.yellow-btn:before {
   background-color: #fbe870;
   border: 1px solid #fbe870;
-  color: #333 !important;
+  color: #fff !important;
 }
 .previous-arrow-btn.orange-btn:before {
   background-color: #ff8833;
@@ -1980,7 +1976,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .diag-btn.yellow-btn:hover {
   background-position: 100%;
   transform: translateX(16px);
-  color: #333 !important;
+  color: #fff !important;
 }
 .diag-btn.orange-btn {
   background-image: linear-gradient(
@@ -2124,7 +2120,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #fbe870;
 }
 .fill-color-btn.yellow-btn:hover {
-  color: #333 !important;
+  color: #fff !important;
 }
 .fill-color-btn.orange-btn {
   border-color: #ff8833 !important;
@@ -2527,7 +2523,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #fbe870;
 }
 .ripple-btn.yellow-btn:hover {
-  color: #333 !important;
+  color: #fff !important;
 }
 .ripple-btn.orange-btn {
   border-color: #ff8833;
