@@ -236,20 +236,20 @@ $(document).ready(function () {
               classes: "spin left purple-btn",
             },
             {
-              text: "loading right",
-              classes: "spin right green-btn",
+              text: "loading left",
+              classes: "spin left green-btn",
             },
             {
-              text: "loading right",
-              classes: "bounce right red-btn",
+              text: "loading left",
+              classes: "bounce left red-btn",
             },
             {
               text: "loading left",
               classes: "bounce left pink-btn",
             },
             {
-              text: "loading left",
-              classes: "heart-beat left blue-btn",
+              text: "loading right",
+              classes: "heart-beat right blue-btn",
             },
             {
               text: "loading right",
@@ -260,8 +260,8 @@ $(document).ready(function () {
               classes: "slide right black-btn",
             },
             {
-              text: "loading left",
-              classes: "slide left orange-btn",
+              text: "loading right",
+              classes: "slide right orange-btn",
             },
           ],
           shouldHaveRoundedType: false,
