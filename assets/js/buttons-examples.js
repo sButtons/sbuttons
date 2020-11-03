@@ -373,7 +373,7 @@ $(document).ready(function () {
         {
           type: "base-icon",
           label: "Base Icon",
-          classes: "base-icon-btn",
+          classes: "icon-btn",
           variations: [
             {
               classes: "icon-right purple-btn",
@@ -434,69 +434,6 @@ $(document).ready(function () {
             },
           ],
         },
-<<<<<<< HEAD
-        {
-          type: "like",
-          label: "Like",
-          classes: "like-btn",
-          text: "",
-        },
-        {
-          type: "play",
-          label: "Play",
-          classes: "play-btn",
-          text: "",
-        },
-        {
-          type: "plus",
-          label: "Plus",
-          classes: "plus-btn",
-          text: "",
-        },
-        {
-          type: "subtract",
-          label: "Subtract",
-          classes: "subtract-btn",
-          text: "",
-        },
-        {
-          type: "scroll-to-top",
-          label: "Scroll-to-Top",
-          classes: "scroll-to-top-btn",
-          text: "",
-        },
-        {
-          type: "setting",
-          label: "Setting",
-          classes: "setting-btn",
-          text: "",
-        },
-        {
-          type: "star",
-          label: "Star",
-          classes: "star-btn",
-          text: "",
-          shouldHaveRoundedType: false,
-          shouldHaveBlockType: false,
-          variations: [
-            {
-              classes: "",
-              text: "Star (Inactive)",
-            },
-            {
-              classes: "active",
-              text: "Star (Active)",
-            },
-          ],
-        },
-        {
-          type: "thumbs-up",
-          label: "Thumbs Up",
-          classes: "thumbsup-btn",
-          text: "",
-        },
-=======
->>>>>>> 09d6b747848f8ab1067fcee9aaf21d843b754ef4
       ],
     },
     {

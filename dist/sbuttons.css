@@ -3350,242 +3350,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
     transform: translate(0);
   }
 }
-<<<<<<< HEAD
-.plus-btn {
-  transform-origin: center;
-  filter: brightness(1);
-  transition: filter 0.3s;
-}
-.plus-btn:before {
-  content: "\002B";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.plus-btn:focus {
-  filter: brightness(1.2);
-}
-.plus-btn:not(.rounded-btn) {
-  padding: 0 0.5em;
-}
-.plus-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-.subtract-btn {
-  transform-origin: center;
-  filter: brightness(1);
-  transition: filter 0.3s;
-}
-.subtract-btn:before {
-  content: "\2212";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.subtract-btn:focus {
-  filter: brightness(1.2);
-}
-.subtract-btn:not(.rounded-btn) {
-  padding: 0 0.5em;
-}
-.subtract-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-.add-to-cart-btn {
-  position: relative;
-  padding-right: 1.5em;
-}
-.add-to-cart-btn:after {
-  content: "\f07a";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  font-size: 1.2rem;
-  font-weight: bold;
-  top: 23%;
-}
-.add-to-cart-btn.block-btn:after {
-  padding-left: 15px;
-}
-.add-to-cart-btn:not(.block-btn):after {
-  right: 0.3em;
-}
-.chat-btn {
-  transition: all 0.2s;
-}
-.chat-btn:before {
-  content: "\f27a";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.chat-btn:hover {
-  box-shadow: 0px 1px 7px #838383;
-}
-.chat-btn:not(.rounded-btn) {
-  padding: 0.25em 0.25em 0 0.25em;
-}
-.chat-btn.rounded-btn {
-  width: 2em;
-  height: 2em;
-  padding: 0;
-}
-.setting-btn {
-  transform-origin: center;
-  filter: brightness(1);
-  transition: filter 0.3s;
-  position: relative;
-  font-weight: 900;
-}
-.setting-btn:before {
-  content: "\f013";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.setting-btn:focus {
-  filter: brightness(1.2);
-}
-.setting-btn.rounded-btn {
-  width: 1.6em;
-  height: 1.6em;
-  padding: 0;
-}
-.close-btn::before {
-  content: "\f00d";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 800;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  color: #000;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.drop-down-btn {
-  position: relative;
-  padding-right: 1.5em;
-}
-.drop-down-btn:after {
-  content: "\f0d7";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  font-size: 1.8rem;
-  font-weight: bold;
-  top: 12%;
-}
-.drop-down-btn.block-btn:after {
-  padding-left: 15px;
-}
-.drop-down-btn:not(.block-btn):after {
-  right: 0.3em;
-}
-.scroll-to-top-btn:before {
-  content: "\f106";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 800;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.scroll-to-top-btn:not(.rounded-btn) {
-  padding: 0 0.5em;
-}
-.scroll-to-top-btn.rounded-btn {
-  width: 1.5em;
-  height: 1.5em;
-  padding: 0 0 0 1px;
-}
-.appstore-btn {
-  box-shadow: 0px 1px 4px #4d4d4d;
-  background-color: #000000;
-  color: #fff;
-  transition: all 0.2s;
-  position: relative;
-  padding-top: 15px;
-  padding-left: 60px;
-  font-size: 1.5rem !important;
-  border: 1px solid #4d4d4d;
-}
-.appstore-btn:before {
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  left: 50px;
-  font-size: 2.2rem !important;
-  bottom: 13%;
-  color: #fff;
-}
-.appstore-btn:after {
-  position: absolute;
-  top: 3px;
-  font-size: 0.8rem !important;
-}
-.appstore-btn:not(.rounded-btn) {
-  border-radius: 10px;
-}
-.appstore-btn:not(.block-btn) {
-  padding-left: 50px;
-}
-.appstore-btn:not(.block-btn):before {
-  left: 10px;
-}
-.appstore-btn:not(.block-btn):after {
-  left: 50px;
-}
-.appstore-btn:hover {
-  box-shadow: 0px 1px 7px #4d4d4d;
-  transform: translateY(-3px);
-}
-.appstore-btn.applestore.block-btn {
-  padding-left: 30px;
-}
-.appstore-btn.applestore.block-btn:after {
-  left: 100px;
-}
-.appstore-btn.applestore:before {
-  content: "\f179";
-}
-.appstore-btn.applestore:after {
-  content: "Download on the";
-}
-.appstore-btn.playstore.block-btn:after {
-  left: 102px;
-}
-.appstore-btn.playstore:before {
-  content: "\f3ab";
-}
-.appstore-btn.playstore:after {
-  content: "Get it on";
-}
-=======
->>>>>>> 09d6b747848f8ab1067fcee9aaf21d843b754ef4
 .star-btn {
   color: #000;
 }
@@ -3603,20 +3367,20 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-weight: 900;
   color: #fbe870;
 }
-.base-icon-btn {
+.icon-btn {
   color: #000;
 }
-.base-icon-btn i {
+.icon-btn i {
   text-align: center;
 }
-.base-icon-btn:not(.rounded-btn).blue-btn,
-.base-icon-btn:not(.rounded-btn) .pink-btn,
-.base-icon-btn:not(.rounded-btn) .red-btn,
-.base-icon-btn:not(.rounded-btn) .green-btn,
-.base-icon-btn:not(.rounded-btn) .yellow-btn,
-.base-icon-btn:not(.rounded-btn) .orange-btn,
-.base-icon-btn:not(.rounded-btn) .purple-btn,
-.base-icon-btn:not(.rounded-btn) .black-btn {
+.icon-btn:not(.rounded-btn).blue-btn,
+.icon-btn:not(.rounded-btn) .pink-btn,
+.icon-btn:not(.rounded-btn) .red-btn,
+.icon-btn:not(.rounded-btn) .green-btn,
+.icon-btn:not(.rounded-btn) .yellow-btn,
+.icon-btn:not(.rounded-btn) .orange-btn,
+.icon-btn:not(.rounded-btn) .purple-btn,
+.icon-btn:not(.rounded-btn) .black-btn {
   color: #fff;
 }
 .blue-btn,
