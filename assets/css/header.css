@@ -29,9 +29,11 @@ body > .container {
 }
 
 a,
-a:hover,
 a:active {
-  color: black;
+  color: #50bfe6;
+}
+a:hover {
+  color: #ff8ae6;
   text-decoration: none;
 }
 .navbar {
@@ -53,7 +55,7 @@ a:active {
   width: 100%;
   pointer-events: none;
   z-index: -2;
-  height: 100vh;
+  height: 105vh;
   background: linear-gradient(
     158deg,
     var(--main-color) 50%,
@@ -165,7 +167,7 @@ a:active {
 
 .banner-link {
   padding: 15px;
-  font-size: 1rem;
+  font-size: 1rem !important;
   border-radius: 10px;
   margin-right: 1em;
   margin-top: 1em;
@@ -186,17 +188,43 @@ a:active {
   }
 }
 
-@media (max-width: 425px) {
+.navbar.burger {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .main-head {
+    height: auto !important;
+  }
+
   .banner-head h1 {
     font-size: 2rem;
   }
 
-  .links {
-    font-size: 0.1rem;
+  .link {
+    font-size: 1rem;
   }
 
   .navbar-brand {
-    display: none;
+    margin-right: 0.25rem;
+  }
+
+  .navbar-brand img {
+    width: 2.5rem;
+    height: auto;
+  }
+
+  .navbar.burger {
+    display: flex;
+    top: 10vh;
+  }
+
+  .burger-inline {
+    display: none !important;
+  }
+
+  .content.row {
+    margin-top: 26vh;
   }
 }
 

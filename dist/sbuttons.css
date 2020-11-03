@@ -2921,7 +2921,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .flash-btn:hover {
   animation-name: flash;
-  animation-duration: 2s;
+  animation-duration: 0.6s;
   animation-timing-function: ease-in-out;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -2930,9 +2930,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 @keyframes flash {
   0% {
     opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
   }
   100% {
     opacity: 0;
@@ -2976,7 +2973,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   margin-top: 10px;
   margin-right: 15px;
   background: #fff;
-  animation: 1.5s bounce linear infinite;
+  animation: 0.7s bounce linear infinite alternate;
   border-radius: 50%;
 }
 .loading-btn.bounce.right:after {
@@ -2987,18 +2984,18 @@ a.yellow-btn:active:not(.fill-color-btn) {
   margin-top: 10px;
   margin-left: 15px;
   background: #fff;
-  animation: bounce 1.5s linear infinite;
+  animation: bounce 0.7s linear infinite alternate;
   border-radius: 50%;
 }
 @keyframes bounce {
   0% {
-    transform: translateY(8px);
-  }
-  50% {
     transform: translateY(5px);
   }
+  50% {
+    transform: translateY(-2px);
+  }
   100% {
-    transform: translateY(3px);
+    transform: translateY(-5px);
   }
 }
 .loading-btn.heart-beat.left:before {
@@ -3027,14 +3024,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   0% {
     transform: scale(0.5);
   }
-  50% {
+  25% {
     transform: scale(0.88);
   }
-  75% {
+  50% {
     transform: scale(0.6);
   }
-  100% {
+  75% {
     transform: scale(0.99);
+  }
+  100% {
+    transform: scale(0.5);
   }
 }
 .loading-btn.slide.left:before {
@@ -3045,7 +3045,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   margin-top: 10px;
   margin-right: 15px;
   background: #fff;
-  animation: 1.5s slide linear infinite;
+  animation: 1.5s slide linear infinite reverse;
   border-radius: 50%;
 }
 .loading-btn.slide.right:after {
@@ -3056,7 +3056,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   margin-top: 10px;
   margin-left: 15px;
   background: #fff;
-  animation: slide 1.5s ease-in infinite;
+  animation: slide 1.5s linear infinite;
   border-radius: 50%;
 }
 @keyframes slide {
@@ -3109,10 +3109,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
   position: relative;
   transform: translateZ(0px);
   vertical-align: middle;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 0,
+    100% 100%,
+    100% 100%,
+    0 100%,
+    0 100%,
+    0 0
+  );
+  transition-duration: 0.3s;
+  transition-property: clip-path;
 }
 .papercurl-btn:before {
   background: rgba(0, 0, 0, 0)
-    linear-gradient(315deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%)
+    linear-gradient(
+      315deg,
+      transparent 45%,
+      #aaaaaa 50%,
+      #cccccc 56%,
+      white 80%
+    )
     repeat scroll 0 0;
   /*display smooth transitions between two or more specified colors */
   bottom: 0;
@@ -3126,6 +3144,20 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition-property: width, height;
   width: 0;
   border-color: white;
+}
+.papercurl-btn:hover,
+.papercurl-btn:focus,
+.papercurl-btn:active {
+  clip-path: polygon(
+    25px 0%,
+    100% 0,
+    100% 25px,
+    100% calc(100% - 25px),
+    calc(100% - 25px) 100%,
+    25px 100%,
+    0 100%,
+    0 0
+  );
 }
 .papercurl-btn:hover:before,
 .papercurl-btn:focus:before,
@@ -3203,6 +3235,20 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .atom-btn.white-btn::after {
   border-color: #e9e9e9;
+}
+.atom-btn.animated::after {
+  background: white;
+  content: "";
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border-width: 4px;
+  border-style: solid;
+  display: none;
+  display: inline-block;
+  animation: atom 2s infinite linear;
 }
 .atom-btn::after {
   background: white;

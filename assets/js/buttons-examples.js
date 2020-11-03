@@ -101,7 +101,7 @@ $(document).ready(function () {
           label: "Neon Border",
           text: "button",
           classes: "neon-border-btn",
-          shouldHaveRoundedType: false,
+          shouldHaveRoundedType: true,
         },
         {
           type: "outline",

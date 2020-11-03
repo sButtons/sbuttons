@@ -235,6 +235,11 @@ body {
   color: var(--main-color);
   background: none;
 }
+
+[data-theme="dark"] .scroll-top i {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .scroll-top {
     margin-left: 75%;
@@ -243,7 +248,6 @@ body {
 
 button.clipboard {
   color: var(--main-color);
-  border-radius: 4px;
   height: 100%;
   width: 100%;
   border: transparent;
@@ -281,4 +285,8 @@ button.clipboard:focus {
 [data-theme="dark"] .nav-link,
 [data-theme="dark"] .nav-link:hover {
   color: #f2f3f4;
+}
+
+[data-theme="dark"] .nav-link.active:hover {
+  color: var(--main-color);
 }

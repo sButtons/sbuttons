@@ -1257,7 +1257,9 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/31221181?v=4",
       "profile": "https://github.com/drewren25",
       "contributions": [
-        "code"
+        "code",
+        "ideas",
+        "content"
       ]
     },
     {
@@ -1485,7 +1487,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/56203058?v=4",
       "profile": "https://github.com/Soumi150",
       "contributions": [
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -1552,6 +1555,111 @@
       "contributions": [
         "code",
         "ideas"
+      ]
+    },
+    {
+      "login": "pratyushakatti13",
+      "name": "Pratyusha Katti",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/64535305?v=4",
+      "profile": "https://github.com/pratyushakatti13",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "redpfire",
+      "name": "aika",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17385340?v=4",
+      "profile": "https://aikakitsune.pl",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "sleekyom",
+      "name": "Emmanuel Kolawole",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43440929?v=4",
+      "profile": "https://github.com/sleekyom",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "shresthalucky",
+      "name": "Lucky Shrestha",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4192121?v=4",
+      "profile": "http://shresthalucky.github.io/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "karleypetracca",
+      "name": "Karley Petracca",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/39736230?v=4",
+      "profile": "http://www.karleypetracca.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Mani-07",
+      "name": "Mani-07",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/51812399?v=4",
+      "profile": "https://github.com/Mani-07",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "MSTEWARDSON",
+      "name": "MSTEWARDSON",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54907226?v=4",
+      "profile": "https://github.com/MSTEWARDSON",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "felops",
+      "name": "Felipe Lopes",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7880548?v=4",
+      "profile": "http://linkedin.com/in/lopesfelipem",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "d3fau7t",
+      "name": "d3fau7t",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/57768970?v=4",
+      "profile": "https://github.com/d3fau7t",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ZeroniaFX",
+      "name": "ZeroniaFX",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/73082227?v=4",
+      "profile": "https://github.com/ZeroniaFX",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "beachgurl",
+      "name": "Fiona",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15624863?v=4",
+      "profile": "https://github.com/beachgurl",
+      "contributions": [
+        "code"
       ]
     }
   ],

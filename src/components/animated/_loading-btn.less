@@ -49,7 +49,7 @@
         margin-top: 10px;
         margin-right: 15px;
         background: @white;
-        animation: 1.5s bounce linear infinite;
+        animation: 0.7s bounce linear infinite alternate;
         border-radius: 50%;
       }
     }
@@ -63,20 +63,20 @@
         margin-top: 10px;
         margin-left: 15px;
         background: @white;
-        animation: bounce 1.5s linear infinite;
+        animation: bounce 0.7s linear infinite alternate;
         border-radius: 50%;
       }
     }
 
     @keyframes bounce {
       0% {
-        transform: translateY(8px);
-      }
-      50% {
         transform: translateY(5px);
       }
+      50% {
+        transform: translateY(-2px);
+      }
       100% {
-        transform: translateY(3px);
+        transform: translateY(-5px);
       }
     }
   }
@@ -116,14 +116,17 @@
       0% {
         transform: scale(0.5);
       }
-      50% {
+      25% {
         transform: scale(0.88);
       }
-      75% {
+      50% {
         transform: scale(0.6);
       }
-      100% {
+      75% {
         transform: scale(0.99);
+      }
+      100% {
+        transform: scale(0.5);
       }
     }
   }
@@ -140,7 +143,7 @@
         margin-top: 10px;
         margin-right: 15px;
         background: @white;
-        animation: 1.5s slide linear infinite;
+        animation: 1.5s slide linear infinite reverse;
         border-radius: 50%;
       }
     }
@@ -154,7 +157,7 @@
         margin-top: 10px;
         margin-left: 15px;
         background: @white;
-        animation: slide 1.5s ease-in infinite;
+        animation: slide 1.5s linear infinite;
         border-radius: 50%;
       }
     }

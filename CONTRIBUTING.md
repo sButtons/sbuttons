@@ -13,6 +13,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 # Contents
 
 - [Instructions](#instructions)
+  * [Notes on Creating New Buttons](#notes-on-creating-new-buttons)
   * [Button Ideas](#button-ideas)
   * [Create Pull Request](#create-pull-request)
     + [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
@@ -73,6 +74,20 @@ Please note we have a code of conduct, please follow it in all your interactions
     3. To edit the HTML, make changes in `index.html`
     4. To edit the CSS of the website, make changes in `assets/css/`
     5. To edit the JS of the website, make changes in `assets/js`
+    
+## Notes on Creating New Buttons 
+
+### Animated Buttons
+
+When adding a new animated button, you need to place the animation or transition that happens on hover in a mixin. Then, you need to call that mixin in the hover state and in an `animated` class nested inside that button, so that when the `animated` class is added to the button the animation runs without needing to hover the button. Depending on your button, the animation should either be continuous (run infinitly) or just once. 
+
+### Dark Mode
+
+All buttons need to support dark mode when needed. If your button on dark mode does not look so good (problem with the color, animation, etc...), you need to do the following:
+
+1. add a `dark-mode` class to the button
+2. add support for having a parent with `[data-theme="dark"]`.
+3. add support to the [dark mode media query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme).
 
 ## Button Ideas
 
