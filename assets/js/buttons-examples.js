@@ -160,15 +160,9 @@ $(document).ready(function () {
           classes: "aurapulse-btn",
         },
         {
-          type: "blob",
-          label: "Blob-btn",
-          classes: "blob-btn",
-          variations:[
-           { 
-             type:"blob",
-             classes:"blob-btn"
-           }
-          ],
+          type: "Spotlight",
+          label: "Spotlight",
+          classes: "spotlight",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false
         },
@@ -846,18 +840,7 @@ $(document).ready(function () {
           totalClasses += ` ${thisButtonClasses}`;
           totalWrittenClasses += ` .${thisButtonClasses}`;
         }
-        if(buttonArr[0].type=="blob")
-        {
-        console.log(totalClasses);
-        console.log(totalWrittenClasses)
-        var zap = totalClasses;
-        
-          _totalClasses = [zap.split(" ")[1],zap.split(" ")[2]];
-        
-          totalClasses = _totalClasses.join(" ");
-        
-        //console.log(totalClasses.join(" "));
-        }
+        //
         // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
