@@ -353,7 +353,13 @@ $(document).ready(function () {
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",
-      children: [],
+      children: [
+        {
+          type:"hover",
+          label:"HoverColorChange",
+          classes:"hoverCC"
+        }
+      ],
     },
     {
       type: "icon",
