@@ -116,10 +116,7 @@ a:active {
   font-size: 3.6rem;
   font-weight: 700;
 }
-a.outline-btn.white-btn {
-  border-color: white !important;
-  color: white !important;
-}
+
 @keyframes jump-up {
   from {
     transform: translateY(30%);
