@@ -237,27 +237,27 @@ $(document).ready(function () {
             },
             {
               text: "loading left",
-              classes: "spin left green-btn",
+              classes: "bounce left green-btn",
+            },
+            {
+              text: "loading right",
+              classes: "spin  right red-btn",
+            },
+            {
+              text: "loading right",
+              classes: "bounce right pink-btn",
             },
             {
               text: "loading left",
-              classes: "bounce left red-btn",
+              classes: "heart-beat left blue-btn",
             },
             {
               text: "loading left",
-              classes: "bounce left pink-btn",
+              classes: "slide left yellow-btn",
             },
             {
               text: "loading right",
-              classes: "heart-beat right blue-btn",
-            },
-            {
-              text: "loading right",
-              classes: "heart-beat right yellow-btn",
-            },
-            {
-              text: "loading right",
-              classes: "slide right black-btn",
+              classes: "heart-beat right black-btn",
             },
             {
               text: "loading right",
