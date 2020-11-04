@@ -228,6 +228,7 @@ body {
   background: none;
   margin-left: 90%;
   cursor: pointer;
+	z-index: 20;
 }
 .scroll-top i {
   font-size: 35px;
