@@ -229,6 +229,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/beachgurl"><img src="https://avatars0.githubusercontent.com/u/15624863?v=4" width="100px;" alt=""/><br /><sub><b>Fiona</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=beachgurl" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AndreJesusBrito"><img src="https://avatars1.githubusercontent.com/u/35274086?v=4" width="100px;" alt=""/><br /><sub><b>André Jesus Brito</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=AndreJesusBrito" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AAndreJesusBrito" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/Yashs911"><img src="https://avatars0.githubusercontent.com/u/64412143?v=4" width="100px;" alt=""/><br /><sub><b>Yash Saravgi</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Yashs911" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jlieow"><img src="https://avatars2.githubusercontent.com/u/52845474?v=4" width="100px;" alt=""/><br /><sub><b>jlieow</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=jlieow" title="Code">💻</a></td>
   </tr>
 </table>
 
