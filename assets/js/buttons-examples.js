@@ -212,6 +212,19 @@ $(document).ready(function () {
           classes: "flash-btn",
         },
         {
+          type: "gradient-border",
+          label: "Gradient Border",
+          classes: "gradient-border",
+          text: "Button",
+          shouldHaveRoundedType: false,
+          variations: [
+            {
+              classes: "",
+              text: "Gradient Border",
+            },
+          ],
+        },
+        {
           type: "hinge",
           label: "Hinge",
           classes: "hinge-btn",
