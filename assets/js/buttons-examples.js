@@ -249,32 +249,32 @@ $(document).ready(function () {
               classes: "spin left purple-btn",
             },
             {
-              text: "loading right",
-              classes: "spin right green-btn",
+              text: "loading left",
+              classes: "bounce left green-btn",
             },
             {
               text: "loading right",
-              classes: "bounce right red-btn",
+              classes: "spin  right red-btn",
             },
             {
               text: "loading right",
-              classes: "bounce left pink-btn",
+              classes: "bounce right pink-btn",
             },
             {
-              text: "loading right",
+              text: "loading left",
               classes: "heart-beat left blue-btn",
             },
             {
-              text: "loading right",
-              classes: "heart-beat right yellow-btn",
+              text: "loading left",
+              classes: "slide left yellow-btn",
             },
             {
               text: "loading right",
-              classes: "slide right black-btn",
+              classes: "heart-beat right black-btn",
             },
             {
               text: "loading right",
-              classes: "slide left orange-btn",
+              classes: "slide right orange-btn",
             },
           ],
           shouldHaveRoundedType: false,
