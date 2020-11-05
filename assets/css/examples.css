@@ -30,6 +30,10 @@ section {
   margin-bottom: 1em;
 }
 
+.button-container .xlarge-btn {
+  margin-bottom: 0.15em;
+}
+
 #hinge .button-container .block-btn {
   margin-bottom: 2.5em;
 }
