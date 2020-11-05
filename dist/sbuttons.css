@@ -3676,8 +3676,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   content: "\f2ac";
 }
 .social-btn.steam {
-    background-color: #202329;
-    color: #fff;
+  background-color: #202329;
+  color: #fff;
 }
 .social-btn.steam:after {
   color: #fff;
