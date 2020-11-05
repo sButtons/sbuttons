@@ -231,6 +231,10 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/Yashs911"><img src="https://avatars0.githubusercontent.com/u/64412143?v=4" width="100px;" alt=""/><br /><sub><b>Yash Saravgi</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Yashs911" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jlieow"><img src="https://avatars2.githubusercontent.com/u/52845474?v=4" width="100px;" alt=""/><br /><sub><b>jlieow</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=jlieow" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/KyleBreedlove"><img src="https://avatars1.githubusercontent.com/u/69554757?v=4" width="100px;" alt=""/><br /><sub><b>KyleBreedlove</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=KyleBreedlove" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AKyleBreedlove" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/crnguyen"><img src="https://avatars3.githubusercontent.com/u/65331182?v=4" width="100px;" alt=""/><br /><sub><b>Cristina Nguyen</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=crnguyen" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
