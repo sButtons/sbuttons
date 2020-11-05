@@ -3,6 +3,18 @@ section {
   margin-top: -80px;
 }
 
+@media screen and (max-width: 400px) {
+  .main-head {
+    padding-bottom: 18em;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 730px) {
+  .main-head {
+    padding-bottom: 13em;
+  }
+}
+
 .text {
   font-size: 1rem;
   color: black;
@@ -56,8 +68,4 @@ section {
 
 .margin-left--half {
   margin-left: 0.5rem;
-}
-
-.sbtn {
-  font-size: 1rem;
 }

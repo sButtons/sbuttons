@@ -101,7 +101,7 @@ $(document).ready(function () {
           label: "Neon Border",
           text: "button",
           classes: "neon-border-btn",
-          shouldHaveRoundedType: false,
+          shouldHaveRoundedType: true,
         },
         {
           type: "outline",
@@ -212,6 +212,19 @@ $(document).ready(function () {
           classes: "flash-btn",
         },
         {
+          type: "gradient-border",
+          label: "Gradient Border",
+          classes: "gradient-border",
+          text: "Button",
+          shouldHaveRoundedType: false,
+          variations: [
+            {
+              classes: "",
+              text: "Gradient Border",
+            },
+          ],
+        },
+        {
           type: "hinge",
           label: "Hinge",
           classes: "hinge-btn",
@@ -236,32 +249,32 @@ $(document).ready(function () {
               classes: "spin left purple-btn",
             },
             {
-              text: "loading right",
-              classes: "spin right green-btn",
+              text: "loading left",
+              classes: "bounce left green-btn",
             },
             {
               text: "loading right",
-              classes: "bounce right red-btn",
+              classes: "spin  right red-btn",
             },
             {
               text: "loading right",
-              classes: "bounce left pink-btn",
+              classes: "bounce right pink-btn",
             },
             {
-              text: "loading right",
+              text: "loading left",
               classes: "heart-beat left blue-btn",
             },
             {
-              text: "loading right",
-              classes: "heart-beat right yellow-btn",
+              text: "loading left",
+              classes: "slide left yellow-btn",
             },
             {
               text: "loading right",
-              classes: "slide right black-btn",
+              classes: "heart-beat right black-btn",
             },
             {
               text: "loading right",
-              classes: "slide left orange-btn",
+              classes: "slide right orange-btn",
             },
           ],
           shouldHaveRoundedType: false,
@@ -373,7 +386,7 @@ $(document).ready(function () {
         {
           type: "base-icon",
           label: "Base Icon",
-          classes: "base-icon-btn",
+          classes: "icon-btn",
           variations: [
             {
               classes: "icon-right purple-btn",
