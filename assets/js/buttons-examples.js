@@ -101,7 +101,7 @@ $(document).ready(function () {
           label: "Neon Border",
           text: "button",
           classes: "neon-border-btn",
-          shouldHaveRoundedType: false,
+          shouldHaveRoundedType: true,
         },
         {
           type: "outline",
@@ -210,6 +210,19 @@ $(document).ready(function () {
           type: "flash",
           label: "Flash",
           classes: "flash-btn",
+        },
+        {
+          type: "gradient-border",
+          label: "Gradient Border",
+          classes: "gradient-border",
+          text: "Button",
+          shouldHaveRoundedType: false,
+          variations: [
+            {
+              classes: "",
+              text: "Gradient Border",
+            },
+          ],
         },
         {
           type: "hinge",
