@@ -233,7 +233,7 @@ body {
 .scroll-top i {
   font-size: 35px;
   display: block;
-  color: var(--main-color);
+  color: var(--gray);
   background: none;
 }
 
