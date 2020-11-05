@@ -386,7 +386,7 @@ $(document).ready(function () {
         {
           type: "base-icon",
           label: "Base Icon",
-          classes: "base-icon-btn",
+          classes: "icon-btn",
           variations: [
             {
               classes: "icon-right purple-btn",
