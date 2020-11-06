@@ -1,0 +1,22 @@
+name: "Greet With A Random Joke"
+on:
+  issues:
+    types: [opened, reopened]
+jobs:
+  test:
+    name: setup environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: mast joke mara
+        uses: deep5050/MastJokeMara@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          issue_msg: |
+            Hi, {{author}},
+            Thanks for opening an issue :blue_heart: your issue will be seen by maintainers soon.
+            Contributors :people_holding_hands:  like you make the open source community :earth_africa:  such an amazing place to learn :book: , inspire :angel:, and create :art: .
+             We will investigate :eyes:  and get back to you as soon as possible :+1: . 
+             Just make sure you have given us sufficient information :information_source:.
+             By that time enjoy this joke :point_down: , hope you like it :smile:
+            
+            {{joke}}
