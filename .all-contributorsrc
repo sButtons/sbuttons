@@ -1708,6 +1708,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Fogeinator",
+      "name": "Ong Zhi Zheng",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47311100?v=4",
+      "profile": "https://ongzz.me",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
