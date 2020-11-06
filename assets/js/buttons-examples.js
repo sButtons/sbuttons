@@ -361,6 +361,13 @@ $(document).ready(function () {
           classes: "splash-btn",
         },
         {
+          type: "Spotlight",
+          label: "Spotlight",
+          classes: "spotlight-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false
+        },
+        {
           type: "spring",
           label: "Spring",
           classes: "spring-btn",
@@ -381,7 +388,8 @@ $(document).ready(function () {
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",
-      children: [],
+      children: []
+      
     },
     {
       type: "icon",
@@ -806,7 +814,7 @@ $(document).ready(function () {
           totalClasses += ` ${thisButtonClasses}`;
           totalWrittenClasses += ` .${thisButtonClasses}`;
         }
-
+        
         // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
