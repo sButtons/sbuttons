@@ -228,11 +228,12 @@ body {
   background: none;
   margin-left: 90%;
   cursor: pointer;
+  z-index: 13;
 }
 .scroll-top i {
   font-size: 35px;
   display: block;
-  color: var(--main-color);
+  color: var(--gray);
   background: none;
 }
 
