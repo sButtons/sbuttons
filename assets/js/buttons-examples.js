@@ -165,6 +165,11 @@ $(document).ready(function () {
           classes: "bouncy-btn",
         },
         {
+          type:"colored-on-hover",
+          label:"Colored On Hover",
+          classes:"colored-on-hover-btn"
+        },
+        {
           type: "diagonalHover",
           label: "Diagonal Background on Hover",
           classes: "diag-btn",
