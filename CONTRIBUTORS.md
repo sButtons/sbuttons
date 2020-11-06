@@ -234,6 +234,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="https://github.com/KyleBreedlove"><img src="https://avatars1.githubusercontent.com/u/69554757?v=4" width="100px;" alt=""/><br /><sub><b>KyleBreedlove</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=KyleBreedlove" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AKyleBreedlove" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/crnguyen"><img src="https://avatars3.githubusercontent.com/u/65331182?v=4" width="100px;" alt=""/><br /><sub><b>Cristina Nguyen</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=crnguyen" title="Code">💻</a></td>
+    <td align="center"><a href="https://ongzz.me"><img src="https://avatars2.githubusercontent.com/u/47311100?v=4" width="100px;" alt=""/><br /><sub><b>Ong Zhi Zheng</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Fogeinator" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AFogeinator" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
