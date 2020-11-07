@@ -381,7 +381,7 @@ $(document).ready(function () {
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",
-      children: []
+      children:[],
       
     },
     {
@@ -807,7 +807,6 @@ $(document).ready(function () {
           totalClasses += ` ${thisButtonClasses}`;
           totalWrittenClasses += ` .${thisButtonClasses}`;
         }
-        
         // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
