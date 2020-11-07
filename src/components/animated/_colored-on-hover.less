@@ -1,21 +1,24 @@
-@keyframes fonnt {
-	0% {
-		color: black;
-	}
-	100% {
-		color: cornsilk;
-		text-shadow: 0px 0px 20px white;
-		box-shadow: inset 0px 0px 5px cornsilk;
-	}
+@colorbtns:blue-btn,pink-btn,red-btn,green-btn,yellow-btn,orange-btn,purple-btn,black-btn;
+.colored-on-hover-colorspecific-mixin(@param) when (@param = "hover")
+{
+	each(@colorbtns,{
+		&.@{value}{
+			background-color: replace(@value,"-btn","");
+			color:white;
+
+		}
+	})
 }
-@keyframes fonntrev {
-	0% {
-		color: black;
-	}
-	100% {
-		color: black;
-		box-shadow: inset 0px 0px 5px black;
-	}
+.colored-on-hover-colorspecific-mixin(@param) when (@param = "hoverless")
+{
+	each(@colorbtns,{
+		&.@{value}{
+			background-color: transparent;
+			border-color: replace(@value,"-btn","");
+			color:black;
+			transition: background-color 0.25s, color 0.25s ;
+		}
+	})
 }
 .sbtn.colored-on-hover-btn {
 	position: relative;
@@ -29,80 +32,19 @@
 	align-items: center;
 	justify-content: center;
 	outline: none;
+	border-width: 3px;
+	border-style: solid;
+	.colored-on-hover-colorspecific-mixin("hoverless");
+	&.white-btn{
+		border-color:  #9c9a9a;
+		box-shadow: inset 0px 0px 10px #b1afaf;
+		transition: background-color 0.25s;
+	}
 	&:hover {
-		animation: fonnt 0.25s ease-in forwards;
-	}
-	.bluebtn{
-		&:hover {
-			animation: fonnt 0.25s ease-in forwards;
-			background-color: blue;
-		}
-		border: 3px double blue;
-		
-	}
-	.pink-btn{
-		&:hover {
-			animation: fonnt 0.25s ease-in forwards;
-			background-color: pink;
-		}
-		border: 3px double pink;
-		
-	}
-	.red-btn{
-		&:hover {
-			animation: fonnt 0.25s ease-in forwards;
-			background-color: red;
-		}
-		border: 3px double red;
-		
-	}
-	.green-btn{
-		&:hover {
-			animation: fonnt 0.25s ease-in forwards;
-			background-color: green;
-		}
-		border: 3px double green;
-		
-	}
-	.yellow-btn{
-		&:hover {
-			animation: fonnt 0.25s ease-in forwards;
-			background-color: yellow;
-		}
-		border: 3px double yellow;
-		
-	}
-	.orange-btn{
-		&:hover {
-			animation: fonnt 0.25s ease-in forwards;
-			background-color: orange;
-		}
-		border: 3px double orange;
-		
-	}
-	.purple-btn{
-		&:hover {
-			animation: fonnt 0.25s ease-in forwards;
-			background-color: purple;
-		}
-		border: 3px double purple;
-		
-	}
-	.black-btn{
-		&:hover {
-			animation: fonnt 0.25s ease-in forwards;
-			background-color: black;
-		}
-		border: 3px double black;
-		
-	}
-	.white-btn{
-		&:hover {
-			animation: fonntrev 0.25s ease-in forwards;
+		.colored-on-hover-colorspecific-mixin("hover");
+		&.white-btn{
 			background-color: white;
+			box-shadow: none;
 		}
-		color: black;
-		border: 3px double #9c9a9a;
-		
-	}
+	}		
 }

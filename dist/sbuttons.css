@@ -45,120 +45,111 @@ a.sbtn:active {
   text-decoration: none;
   display: inline-block;
 }
-.sbtn.colored-on-hover-btn{
+.sbtn.colored-on-hover-btn {
   position: relative;
-  padding:0px;
-  color:black;
-  height:50px;
-  width:200px;
+  padding: 0px;
+  color: black;
+  height: 50px;
+  width: 200px;
   background-color: transparent;
-  cursor:pointer;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: none; 
+  outline: none;
+  border-width: 3px;
+  border-style: solid;
 }
-.colored-on-hover-btn:hover{
-animation: fonnt 0.25s ease-in forwards;
+.sbtn.colored-on-hover-btn.blue-btn {
+  background-color: transparent;
+  border-color: blue;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
 }
-.blue-btn.colored-on-hover-btn:hover{
-animation: fonnt 0.25s ease-in forwards;
+.sbtn.colored-on-hover-btn.pink-btn {
+  background-color: transparent;
+  border-color: pink;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.red-btn {
+  background-color: transparent;
+  border-color: red;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.green-btn {
+  background-color: transparent;
+  border-color: green;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.yellow-btn {
+  background-color: transparent;
+  border-color: yellow;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.orange-btn {
+  background-color: transparent;
+  border-color: orange;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.purple-btn {
+  background-color: transparent;
+  border-color: purple;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.black-btn {
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.white-btn {
+  border-color: #9c9a9a;
+  box-shadow: inset 0px 0px 10px #b1afaf;
+  transition: background-color 0.25s;
+}
+.sbtn.colored-on-hover-btn:hover.blue-btn {
+  background-color: blue;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.pink-btn {
+  background-color: pink;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.red-btn {
+  background-color: red;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.green-btn {
+  background-color: green;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.yellow-btn {
+  background-color: yellow;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.orange-btn {
+  background-color: orange;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.purple-btn {
+  background-color: purple;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.black-btn {
+  background-color: black;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.white-btn {
+  background-color: white;
+  box-shadow:none;
+}
 
-background-color: blue;
-}
-.blue-btn.colored-on-hover-btn{
-border:3px double blue;
-
-}
-.pink-btn.colored-on-hover-btn:hover{
-animation: fonnt 0.25s ease-in forwards;
-
-background-color: pink;
-}
-.pink-btn.colored-on-hover-btn{
-border:3px double pink;
-
-}
-.red-btn.colored-on-hover-btn:hover{
-animation: fonnt 0.25s ease-in forwards;
-background-color: red;
-}
-.red-btn.colored-on-hover-btn{
-border:3px double red;
-
-}
-.green-btn.colored-on-hover-btn:hover{
-animation: fonnt 0.25s ease-in forwards;
-background-color: green;
-}
-.green-btn.colored-on-hover-btn{
-border:3px double green;
-
-}
-.yellow-btn.colored-on-hover-btn:hover{
-animation: fonnt 0.25s ease-in forwards;
-background-color: yellow;
-}
-.yellow-btn.colored-on-hover-btn{
-border:3px double yellow;
-
-}
-.orange-btn.colored-on-hover-btn:hover{
-animation: fonnt 0.25s ease-in forwards;
-background-color: orange;
-}
-.orange-btn.colored-on-hover-btn{
-border:3px double orange;
-
-}
-.purple-btn.colored-on-hover-btn:hover{
-animation: fonnt 0.25s ease-in forwards;
-background-color: purple;
-}
-.purple-btn.colored-on-hover-btn{
-border:3px double purple;
-
-}
-.black-btn.colored-on-hover-btn:hover{
-animation: fonnt 0.25s ease-in forwards;
-background-color: black;
-}
-.black-btn.colored-on-hover-btn{
-border:3px double black;
-
-}
-.white-btn.colored-on-hover-btn:hover{
-animation: fonntrev 0.25s ease-in forwards;
-background-color: white;
-}
-.white-btn.colored-on-hover-btn{
-color:black;
-border:3px double #9c9a9a;
-
-}
-@keyframes fonntrev {
-0%{
-    color:black;
-}
-100%{
-    
-    color:black;
-    box-shadow: inset 0px 0px 5px black;
-    
-}
-}
-@keyframes fonnt{
-  0%{
-    color: black;
-    
-}
-100%{
-    color: cornsilk;
-    text-shadow: 0px 0px 20px white;
-    box-shadow: inset 0px 0px 5px cornsilk;
-    
-}
-}
 .rounded-btn {
   border-radius: 25px;
 }
