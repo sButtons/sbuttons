@@ -1,45 +1,12 @@
 .arrowRules() {
-  position: absolute;
-  color: @lightText;
-  height: 100%;
-  top: -1px;
-  display: flex;
   align-items: center;
+  color: inherit;
+  display: flex;
   font-size: 1.5rem;
-  transform: rotateY(90deg);
-}
-
-.arrowColorRules(@position) {
-  .after(@color) {
-    .bc(@color);
-    border: 1px solid @color;
-  }
-  &.blue-btn:@{position} {
-    .after(@blue);
-  }
-  &.pink-btn:@{position} {
-    .after(@pink);
-  }
-  &.green-btn:@{position} {
-    .after(@green);
-  }
-  &.yellow-btn:@{position} {
-    .after(@yellow);
-    color: @darkText !important;
-  }
-  &.orange-btn:@{position} {
-    .after(@orange);
-  }
-  &.red-btn:@{position} {
-    .after(@red);
-  }
-  &.purple-btn:@{position} {
-    .after(@purple);
-  }
-  &.white-btn:@{position} {
-    .after(@white);
-    color: @darkText !important;
-  }
+  height: 100%;
+  position: absolute;
+  top: -1px;
+  transition: inherit;
 }
 
 .next-arrow-btn {
@@ -48,67 +15,36 @@
 
   &:after {
     content: "\203A";
-    padding-left: 0.5em;
+    padding-right: @arrowPadding;
+    right: -@arrowExpansion;
     .arrowRules();
   }
 
-  &:not(.rounded-btn) {
-    &:after {
-      right: 0.5em;
-      transition: all 0.05s;
-    }
-  }
-
-  &.rounded-btn {
-    transition: padding-right 0.1s;
-    &:after {
-      right: 11px;
-      border-radius: 50%;
-      transition: all 0.05s;
-    }
-  }
-
   &:hover {
-    padding-right: 1.5em;
+    padding-right: @arrowExpansion;
     &:after {
-      transform: rotateY(0);
+      opacity: 1;
+      right: 0;
     }
   }
-
-  .arrowColorRules(after);
 }
 
 .previous-arrow-btn {
   position: relative;
   transition: all 0.1s;
+
   &:before {
     content: "\2039";
-    padding-right: 0.5em;
+    left: -@arrowExpansion;
+    padding-left: @arrowPadding;
     .arrowRules();
   }
 
-  &:not(.rounded-btn) {
-    &:before {
-      left: 0.5em;
-      transition: all 0.05s;
-    }
-  }
-
-  &.rounded-btn {
-    transition: padding-left 0.1s;
-    &:before {
-      left: 11px;
-      border-radius: 50%;
-      transition: all 0.05s;
-    }
-  }
-
   &:hover {
-    padding-left: 1.5em;
+    padding-left: @arrowExpansion;
     &:before {
-      transform: rotateY(0);
+      left: 0;
+      opacity: 1;
     }
   }
-
-  .arrowColorRules(before);
 }
