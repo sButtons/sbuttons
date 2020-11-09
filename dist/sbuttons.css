@@ -1877,6 +1877,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .aurapulse-btn.rounded-btn:before {
   border-radius: 25px;
 }
+.aurapulse-btn.animated:before {
+  content: " ";
+  position: absolute;
+  transition: all 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  animation: aurapulse 0.5s infinite;
+}
 .aurapulse-btn:hover:before {
   animation: aurapulse 0.5s infinite;
 }
@@ -3674,14 +3685,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.snapchat:after {
   color: #353535;
   content: "\f2ac";
-}
-.social-btn.steam {
-  background-color: #202329;
-  color: #fff;
-}
-.social-btn.steam:after {
-  color: #fff;
-  content: "\f1b6";
 }
 .social-btn.microsoft {
   background-color: #00acee;
