@@ -1,9 +1,21 @@
+@colors:
+	 #50bfe6,
+	 #d53caf,
+	 #ed0a3f,
+	 #3aa655,
+	 #fbe870,
+	 #ff8833,
+	 #652dc1,
+	 #000,
+;
 @colorbtns:blue-btn,pink-btn,red-btn,green-btn,yellow-btn,orange-btn,purple-btn,black-btn;
 .colored-on-hover-colorspecific-mixin(@param) when (@param = "hover")
 {
 	each(@colorbtns,{
+		
 		&.@{value}{
-			background-color: replace(@value,"-btn","");
+			@colortoget : @key;
+			background-color: extract(@colors,@key);
 			color:white;
 
 		}
@@ -14,7 +26,7 @@
 	each(@colorbtns,{
 		&.@{value}{
 			background-color: transparent;
-			border-color: replace(@value,"-btn","");
+			border-color: extract(@colors,@key) ;
 			color:black;
 			transition: background-color 0.25s, color 0.25s ;
 		}
@@ -22,10 +34,10 @@
 }
 .sbtn.colored-on-hover-btn {
 	position: relative;
-	padding: 0px;
+	padding: 10px;
 	color: black;
-	height: 50px;
-	width: 200px;
+	height: unset;
+	width: unset;
 	background-color: transparent;
 	cursor: pointer;
 	display: flex;
@@ -35,6 +47,11 @@
 	border-width: 3px;
 	border-style: solid;
 	.colored-on-hover-colorspecific-mixin("hoverless");
+	&.block-btn{
+		padding:0px;
+		height:50px;
+		width:200px;
+	}
 	&.white-btn{
 		border-color:  #9c9a9a;
 		box-shadow: inset 0px 0px 10px #b1afaf;
