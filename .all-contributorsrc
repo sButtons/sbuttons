@@ -1719,6 +1719,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "TomWBush",
+      "name": "Tom Wang",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/34357020?v=4",
+      "profile": "https://github.com/TomWBush",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
