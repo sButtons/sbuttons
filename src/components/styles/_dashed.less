@@ -35,10 +35,28 @@
 
   &.black-btn {
     .borderRule(@black);
+
+    [data-theme="dark"] &,
+    &.dark-mode {
+      .borderRule(@white);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .borderRule(@white);
+    }
   }
 
   &.white-btn {
     border: dashed 2px @whiteBorder;
     color: @darkText !important;
+
+    [data-theme="dark"] &,
+    &.dark-mode {
+      .borderRule(@white);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .borderRule(@white);
+    }
   }
 }
