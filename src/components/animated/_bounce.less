@@ -1,10 +1,18 @@
+.bounceAnimation() {
+  animation-name: bouncy;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 .bouncy-btn {
   position: relative;
 
   &:hover {
-    animation-name: bouncy;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    .bounceAnimation();
+  }
+
+  &.animated {
+    .bounceAnimation();
   }
 
   @keyframes bouncy {

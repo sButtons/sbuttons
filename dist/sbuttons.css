@@ -1823,6 +1823,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
+.bouncy-btn.animated {
+  animation-name: bouncy;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
 @keyframes bouncy {
   10%,
   70%,
