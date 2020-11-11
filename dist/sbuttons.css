@@ -1967,6 +1967,44 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff !important;
   transform: translateX(16px);
 }
+.diag-btn.animated:not(.white-btn):not(.yellow-btn) {
+  background-position: 100%;
+  color: #fff !important;
+  transform: translateX(16px);
+}
+.diag-btn.animated.white-btn {
+  background-position: 100%;
+  transform: translateX(16px);
+}
+.diag-btn.animated.yellow-btn {
+  background-position: 100%;
+  transform: translateX(16px);
+  color: #333 !important;
+}
+@keyframes upDownFill {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 100%;
+  }
+}
+@keyframes leftRightFill {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes sidewayFill {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
 .fill-color-btn {
   background-color: transparent;
   position: relative;
@@ -1996,25 +2034,37 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.down-fill.down-fill:before {
   bottom: 0;
 }
-.fill-color-btn.up-fill:not(:hover):before,
-.fill-color-btn.down-fill:not(:hover):before {
+.fill-color-btn.up-fill:not(:hover):not(.animated):before,
+.fill-color-btn.down-fill:not(:hover):not(.animated):before {
   height: 0%;
 }
-.fill-color-btn.up-fill:hover:before,
-.fill-color-btn.down-fill:hover:before {
+.fill-color-btn.up-fill:hover:not(.animated):before,
+.fill-color-btn.down-fill:hover:not(.animated):before {
   height: 100%;
+}
+.fill-color-btn.up-fill.animated:before,
+.fill-color-btn.down-fill.animated:before {
+  animation-name: upDownFill;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }
 .fill-color-btn:not(.up-fill):not(.down-fill):before {
   height: 100%;
   top: 0;
 }
-.fill-color-btn:not(.up-fill):not(.down-fill):not(:hover):before {
+.fill-color-btn:not(.up-fill):not(.down-fill):not(:hover):not(.animated):before {
   width: 0%;
 }
-.fill-color-btn:not(.up-fill):not(.down-fill):hover:before {
+.fill-color-btn:not(.up-fill):not(.down-fill):hover:not(.animated):before {
   width: 100%;
 }
-.fill-color-btn:hover {
+.fill-color-btn:not(.up-fill):not(.down-fill).animated:before {
+  animation-name: leftRightFill;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.fill-color-btn:hover,
+.fill-color-btn.animated {
   color: #fff !important;
   height: 3.62rem;
   border: 0rem;
@@ -2023,16 +2073,22 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 100%;
   left: 0;
 }
-.fill-color-btn.sideways-fill:not(:hover):before {
+.fill-color-btn.sideways-fill:not(:hover):not(.animated):before {
   left: 50%;
 }
-.fill-color-btn.sideways-fill:hover:before {
+.fill-color-btn.sideways-fill:hover:not(.animated):before {
   left: 0;
+}
+.fill-color-btn.sideways-fill.animated:before {
+  animation-name: sidewayFill;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }
 .fill-color-btn.rounded-btn {
   transition: background 0s cubic-bezier(0.39, 0.58, 0.57, 1) 0s;
 }
-.fill-color-btn.rounded-btn:hover {
+.fill-color-btn.rounded-btn:hover,
+.fill-color-btn.rounded-btn.animated {
   transition: background 0.03s cubic-bezier(0.39, 0.58, 0.57, 1) 0.15s;
 }
 .fill-color-btn.blue-btn {
@@ -2042,7 +2098,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.blue-btn:before {
   background-color: #50bfe6;
 }
-.fill-color-btn.blue-btn.rounded-btn:hover {
+.fill-color-btn.blue-btn.rounded-btn:hover,
+.fill-color-btn.blue-btn.rounded-btn.animated {
   background-color: #50bfe6;
 }
 .fill-color-btn.pink-btn {
@@ -2052,7 +2109,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.pink-btn:before {
   background-color: #d53caf;
 }
-.fill-color-btn.pink-btn.rounded-btn:hover {
+.fill-color-btn.pink-btn.rounded-btn:hover,
+.fill-color-btn.pink-btn.rounded-btn.animated {
   background-color: #d53caf;
 }
 .fill-color-btn.green-btn {
@@ -2062,7 +2120,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.green-btn:before {
   background-color: #3aa655;
 }
-.fill-color-btn.green-btn.rounded-btn:hover {
+.fill-color-btn.green-btn.rounded-btn:hover,
+.fill-color-btn.green-btn.rounded-btn.animated {
   background-color: #3aa655;
 }
 .fill-color-btn.yellow-btn {
@@ -2072,10 +2131,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.yellow-btn:before {
   background-color: #fbe870;
 }
-.fill-color-btn.yellow-btn.rounded-btn:hover {
+.fill-color-btn.yellow-btn.rounded-btn:hover,
+.fill-color-btn.yellow-btn.rounded-btn.animated {
   background-color: #fbe870;
 }
-.fill-color-btn.yellow-btn:hover {
+.fill-color-btn.yellow-btn:hover,
+.fill-color-btn.yellow-btn.animated {
   color: #333 !important;
 }
 .fill-color-btn.orange-btn {
@@ -2085,7 +2146,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.orange-btn:before {
   background-color: #ff8833;
 }
-.fill-color-btn.orange-btn.rounded-btn:hover {
+.fill-color-btn.orange-btn.rounded-btn:hover,
+.fill-color-btn.orange-btn.rounded-btn.animated {
   background-color: #ff8833;
 }
 .fill-color-btn.red-btn {
@@ -2095,7 +2157,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.red-btn:before {
   background-color: #ed0a3f;
 }
-.fill-color-btn.red-btn.rounded-btn:hover {
+.fill-color-btn.red-btn.rounded-btn:hover,
+.fill-color-btn.red-btn.rounded-btn.animated {
   background-color: #ed0a3f;
 }
 .fill-color-btn.purple-btn {
@@ -2105,7 +2168,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.purple-btn:before {
   background-color: #652dc1;
 }
-.fill-color-btn.purple-btn.rounded-btn:hover {
+.fill-color-btn.purple-btn.rounded-btn:hover,
+.fill-color-btn.purple-btn.rounded-btn.animated {
   background-color: #652dc1;
 }
 .fill-color-btn.black-btn {
@@ -2115,7 +2179,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.black-btn:before {
   background-color: #000;
 }
-.fill-color-btn.black-btn.rounded-btn:hover {
+.fill-color-btn.black-btn.rounded-btn:hover,
+.fill-color-btn.black-btn.rounded-btn.animated {
   background-color: #000;
 }
 .fill-color-btn.white-btn {
@@ -2127,13 +2192,16 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.white-btn:before {
   background-color: #fff;
 }
-.fill-color-btn.white-btn.rounded-btn:hover {
+.fill-color-btn.white-btn.rounded-btn:hover,
+.fill-color-btn.white-btn.rounded-btn.animated {
   background-color: #fff;
 }
-.fill-color-btn.white-btn:hover {
+.fill-color-btn.white-btn:hover,
+.fill-color-btn.white-btn.animated {
   color: #333 !important;
 }
-.fill-color-btn:not(.block-btn):hover {
+.fill-color-btn:not(.block-btn):hover,
+.fill-color-btn.animated:not(.block-btn) {
   width: 5.6rem;
 }
 .hinge-btn {
@@ -2851,6 +2919,19 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border: 0.2rem solid #333;
 }
 .expanding-btn:hover:before {
+  width: 150%;
+  height: 150%;
+  opacity: 1;
+  border: 0.2rem solid #333;
+  transition: width 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
+    height 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
+    opacity 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
+}
+.expanding-btn.animated {
+  opacity: 1;
+  border: 0.2rem solid #333;
+}
+.expanding-btn.animated:before {
   width: 150%;
   height: 150%;
   opacity: 1;

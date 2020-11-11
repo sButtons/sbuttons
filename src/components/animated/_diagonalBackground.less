@@ -1,3 +1,20 @@
+.diagonalAnimation() {
+  background-position: 100%;
+  color: @white !important;
+  transform: translateX(16px);
+}
+
+.diagonalYellowAnimation() {
+  background-position: 100%;
+  transform: translateX(16px);
+  color: @darkText !important;
+}
+
+.diagonalWhiteAnimation() {
+  background-position: 100%;
+  transform: translateX(16px);
+}
+
 .diag-btn {
   text-decoration: none;
   display: inline-block;
@@ -32,9 +49,7 @@
     .diagonalBackground(@yellow, @yellow);
 
     &:hover {
-      background-position: 100%;
-      transform: translateX(16px);
-      color: @darkText !important;
+      .diagonalYellowAnimation();
     }
   }
 
@@ -50,15 +65,24 @@
     .diagonalBackground(@darkText, @white);
 
     &:hover {
-      background-position: 100%;
-      transform: translateX(16px);
+      .diagonalWhiteAnimation();
     }
   }
 
   &:hover:not(.white-btn):not(.yellow-btn) {
-    background-position: 100%;
-    color: @white !important;
-    transform: translateX(16px);
+    .diagonalAnimation();
+  }
+
+  &.animated:not(.white-btn):not(.yellow-btn) {
+    .diagonalAnimation();
+  }
+
+  &.animated.white-btn {
+    .diagonalWhiteAnimation();
+  }
+
+  &.animated.yellow-btn {
+    .diagonalYellowAnimation();
   }
 
   .diagonalBackground(@color, @bgColor) {
