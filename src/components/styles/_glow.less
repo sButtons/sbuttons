@@ -13,6 +13,19 @@
     }
   }
 
+  .darkMode() {
+    color: @white !important;
+  }
+
+  [data-theme="dark"] &,
+  &.dark-mode {
+    .darkMode();
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .darkMode();
+  }
+
   &.blue-btn {
     .glow(@glowBlue);
   }
@@ -43,6 +56,15 @@
 
   &.black-btn {
     .glow(@glowBlack);
+
+    [data-theme="dark"] &,
+    &.dark-mode {
+      .glow(@glowWhite);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .glow(@glowWhite);
+    }
   }
 
   &.white-btn {
