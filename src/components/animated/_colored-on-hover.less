@@ -1,18 +1,9 @@
-@colors:
-	 #50bfe6,
-	 #d53caf,
-	 #ed0a3f,
-	 #3aa655,
-	 #fbe870,
-	 #ff8833,
-	 #652dc1,
-	 #000,
-;
+@import "./_variables.less";
+@colors : @blue,@pink,@red,@green,@yellow,@orange,@purple,@black;
 @colorbtns:blue-btn,pink-btn,red-btn,green-btn,yellow-btn,orange-btn,purple-btn,black-btn;
 .colored-on-hover-colorspecific-mixin(@param) when (@param = "hover")
 {
 	each(@colorbtns,{
-		
 		&.@{value}{
 			@colortoget : @key;
 			background-color: extract(@colors,@key);
@@ -44,7 +35,6 @@
 	align-items: center;
 	justify-content: center;
 	outline: none;
-	border-width: 3px;
 	border-style: solid;
 	.colored-on-hover-colorspecific-mixin("hoverless");
 	&.block-btn{

@@ -45,110 +45,6 @@ a.sbtn:active {
   text-decoration: none;
   display: inline-block;
 }
-/* .sbtn.colored-on-hover-btn {
-  position: relative;
-  padding: 0px;
-  color: black;
-  height: 50px;
-  width: 200px;
-  background-color: transparent;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  outline: none;
-  border-width: 3px;
-  border-style: solid;
-}
-.sbtn.colored-on-hover-btn.blue-btn {
-  background-color: transparent;
-  border-color: blue;
-  color: black;
-  transition: background-color 0.25s, color 0.25s;
-}
-.sbtn.colored-on-hover-btn.pink-btn {
-  background-color: transparent;
-  border-color: pink;
-  color: black;
-  transition: background-color 0.25s, color 0.25s;
-}
-.sbtn.colored-on-hover-btn.red-btn {
-  background-color: transparent;
-  border-color: red;
-  color: black;
-  transition: background-color 0.25s, color 0.25s;
-}
-.sbtn.colored-on-hover-btn.green-btn {
-  background-color: transparent;
-  border-color: green;
-  color: black;
-  transition: background-color 0.25s, color 0.25s;
-}
-.sbtn.colored-on-hover-btn.yellow-btn {
-  background-color: transparent;
-  border-color: yellow;
-  color: black;
-  transition: background-color 0.25s, color 0.25s;
-}
-.sbtn.colored-on-hover-btn.orange-btn {
-  background-color: transparent;
-  border-color: orange;
-  color: black;
-  transition: background-color 0.25s, color 0.25s;
-}
-.sbtn.colored-on-hover-btn.purple-btn {
-  background-color: transparent;
-  border-color: purple;
-  color: black;
-  transition: background-color 0.25s, color 0.25s;
-}
-.sbtn.colored-on-hover-btn.black-btn {
-  background-color: transparent;
-  border-color: black;
-  color: black;
-  transition: background-color 0.25s, color 0.25s;
-}
-.sbtn.colored-on-hover-btn.white-btn {
-  border-color: #9c9a9a;
-  box-shadow: inset 0px 0px 10px #b1afaf;
-  transition: background-color 0.25s;
-}
-.sbtn.colored-on-hover-btn:hover.blue-btn {
-  background-color: blue;
-  color: white;
-}
-.sbtn.colored-on-hover-btn:hover.pink-btn {
-  background-color: pink;
-  color: white;
-}
-.sbtn.colored-on-hover-btn:hover.red-btn {
-  background-color: red;
-  color: white;
-}
-.sbtn.colored-on-hover-btn:hover.green-btn {
-  background-color: green;
-  color: white;
-}
-.sbtn.colored-on-hover-btn:hover.yellow-btn {
-  background-color: yellow;
-  color: white;
-}
-.sbtn.colored-on-hover-btn:hover.orange-btn {
-  background-color: orange;
-  color: white;
-}
-.sbtn.colored-on-hover-btn:hover.purple-btn {
-  background-color: purple;
-  color: white;
-}
-.sbtn.colored-on-hover-btn:hover.black-btn {
-  background-color: black;
-  color: white;
-}
-.sbtn.colored-on-hover-btn:hover.white-btn {
-  background-color: white;
-  box-shadow:none;
-} */
 .sbtn.colored-on-hover-btn {
   position: relative;
   padding: 10px;
@@ -161,7 +57,6 @@ a.sbtn:active {
   align-items: center;
   justify-content: center;
   outline: none;
-  border-width: 3px;
   border-style: solid;
 }
 .sbtn.colored-on-hover-btn.blue-btn {
@@ -258,6 +153,7 @@ a.sbtn:active {
   background-color: white;
   box-shadow: none;
 }
+
 
 
 
