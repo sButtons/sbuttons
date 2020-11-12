@@ -44,6 +44,126 @@ a.sbtn:active {
   text-decoration: none;
   display: inline-block;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8d614ed56d1e1ef882729489f9d154bec6a090c5
+.sbtn.colored-on-hover-btn {
+  position: relative;
+  padding: 10px;
+  color: black;
+  height: unset;
+  width: unset;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border-style: solid;
+}
+.sbtn.colored-on-hover-btn.blue-btn {
+  background-color: transparent;
+  border-color: #50bfe6;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.pink-btn {
+  background-color: transparent;
+  border-color: #d53caf;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.red-btn {
+  background-color: transparent;
+  border-color: #ed0a3f;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.green-btn {
+  background-color: transparent;
+  border-color: #3aa655;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.yellow-btn {
+  background-color: transparent;
+  border-color: #fbe870;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.orange-btn {
+  background-color: transparent;
+  border-color: #ff8833;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.purple-btn {
+  background-color: transparent;
+  border-color: #652dc1;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.black-btn {
+  background-color: transparent;
+  border-color: #000;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+.sbtn.colored-on-hover-btn.block-btn {
+  padding: 0px;
+  height: 50px;
+  width: 200px;
+}
+.sbtn.colored-on-hover-btn.white-btn {
+  border-color: #9c9a9a;
+  box-shadow: inset 0px 0px 10px #b1afaf;
+  transition: background-color 0.25s;
+}
+.sbtn.colored-on-hover-btn:hover.blue-btn {
+  background-color: #50bfe6;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.pink-btn {
+  background-color: #d53caf;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.red-btn {
+  background-color: #ed0a3f;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.green-btn {
+  background-color: #3aa655;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.yellow-btn {
+  background-color: #fbe870;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.orange-btn {
+  background-color: #ff8833;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.purple-btn {
+  background-color: #652dc1;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.black-btn {
+  background-color: #000;
+  color: white;
+}
+.sbtn.colored-on-hover-btn:hover.white-btn {
+  background-color: white;
+  box-shadow: none;
+}
+<<<<<<< HEAD
+
+
+
+
+
+=======
+>>>>>>> 8d614ed56d1e1ef882729489f9d154bec6a090c5
 .rounded-btn {
   border-radius: 25px;
 }

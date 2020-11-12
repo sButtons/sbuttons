@@ -172,6 +172,11 @@ $(document).ready(function () {
           classes: "bouncy-btn",
         },
         {
+          type:"colored-on-hover",
+          label:"Colored On Hover",
+          classes:"colored-on-hover-btn"
+        },
+        {
           type: "diagonalHover",
           label: "Diagonal Background on Hover",
           classes: "diag-btn",
@@ -376,7 +381,8 @@ $(document).ready(function () {
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",
-      children: [],
+      children:[],
+      
     },
     {
       type: "icon",
@@ -801,7 +807,6 @@ $(document).ready(function () {
           totalClasses += ` ${thisButtonClasses}`;
           totalWrittenClasses += ` .${thisButtonClasses}`;
         }
-
         // add normal button grid for button
         normalButtonsGrid.append(
           getButtonHtml(
