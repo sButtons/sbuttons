@@ -18,9 +18,6 @@
 /* END VARIABLES IN special/_toggle.less */
 /* BEGIN VARIABLES IN special/_gradient.less */
 /* END VARIABLES IN special/_gradient.less */
-
-
-
 .sbtn {
   padding: 10px;
   text-align: center;
@@ -45,6 +42,10 @@ a.sbtn:active {
   text-decoration: none;
   display: inline-block;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8d614ed56d1e1ef882729489f9d154bec6a090c5
 .sbtn.colored-on-hover-btn {
   position: relative;
   padding: 10px;
@@ -153,11 +154,14 @@ a.sbtn:active {
   background-color: white;
   box-shadow: none;
 }
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 8d614ed56d1e1ef882729489f9d154bec6a090c5
 .rounded-btn {
   border-radius: 25px;
 }
