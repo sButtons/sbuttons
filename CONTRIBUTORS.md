@@ -237,6 +237,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://ongzz.me"><img src="https://avatars2.githubusercontent.com/u/47311100?v=4" width="100px;" alt=""/><br /><sub><b>Ong Zhi Zheng</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Fogeinator" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AFogeinator" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/TomWBush"><img src="https://avatars0.githubusercontent.com/u/34357020?v=4" width="100px;" alt=""/><br /><sub><b>Tom Wang</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=TomWBush" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/singhtalwinder"><img src="https://avatars3.githubusercontent.com/u/61012185?v=4" width="100px;" alt=""/><br /><sub><b>singhtalwinder</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=singhtalwinder" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mrSidSat"><img src="https://avatars0.githubusercontent.com/u/58354243?v=4" width="100px;" alt=""/><br /><sub><b>mrSidSat</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=mrSidSat" title="Code">💻</a></td>
   </tr>
 </table>
 
