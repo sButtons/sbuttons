@@ -8,7 +8,7 @@ $(document).ready(function () {
       left: win.scrollLeft(),
     };
 
-    var marginHeader = 81;
+    var marginHeader = 100;
     var offsetFooter = 200;
 
     viewport.right = viewport.left + win.width();
