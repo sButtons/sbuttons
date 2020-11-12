@@ -1,57 +1,56 @@
 @import "./_variables.less";
-@colors : @blue,@pink,@red,@green,@yellow,@orange,@purple,@black;
-@colorbtns:blue-btn,pink-btn,red-btn,green-btn,yellow-btn,orange-btn,purple-btn,black-btn;
-.colored-on-hover-colorspecific-mixin(@param) when (@param = "hover")
-{
-	each(@colorbtns,{
+@colors: @blue, @pink, @red, @green, @yellow, @orange, @purple, @black;
+@colorbtns: blue-btn, pink-btn, red-btn, green-btn, yellow-btn, orange-btn,
+  purple-btn, black-btn;
+.colored-on-hover-colorspecific-mixin(@param) when (@param = "hover") {
+  each(@colorbtns,{
 		&.@{value}{
 			@colortoget : @key;
 			background-color: extract(@colors,@key);
 			color:white;
 
 		}
-	})
+	});
 }
-.colored-on-hover-colorspecific-mixin(@param) when (@param = "hoverless")
-{
-	each(@colorbtns,{
+.colored-on-hover-colorspecific-mixin(@param) when (@param = "hoverless") {
+  each(@colorbtns,{
 		&.@{value}{
 			background-color: transparent;
 			border-color: extract(@colors,@key) ;
 			color:black;
 			transition: background-color 0.25s, color 0.25s ;
 		}
-	})
+	});
 }
 .sbtn.colored-on-hover-btn {
-	position: relative;
-	padding: 10px;
-	color: black;
-	height: unset;
-	width: unset;
-	background-color: transparent;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	outline: none;
-	border-style: solid;
-	.colored-on-hover-colorspecific-mixin("hoverless");
-	&.block-btn{
-		padding:0px;
-		height:50px;
-		width:200px;
-	}
-	&.white-btn{
-		border-color:  #9c9a9a;
-		box-shadow: inset 0px 0px 10px #b1afaf;
-		transition: background-color 0.25s;
-	}
-	&:hover {
-		.colored-on-hover-colorspecific-mixin("hover");
-		&.white-btn{
-			background-color: white;
-			box-shadow: none;
-		}
-	}		
+  position: relative;
+  padding: 10px;
+  color: black;
+  height: unset;
+  width: unset;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border-style: solid;
+  .colored-on-hover-colorspecific-mixin("hoverless");
+  &.block-btn {
+    padding: 0px;
+    height: 50px;
+    width: 200px;
+  }
+  &.white-btn {
+    border-color: #9c9a9a;
+    box-shadow: inset 0px 0px 10px #b1afaf;
+    transition: background-color 0.25s;
+  }
+  &:hover {
+    .colored-on-hover-colorspecific-mixin("hover");
+    &.white-btn {
+      background-color: white;
+      box-shadow: none;
+    }
+  }
 }

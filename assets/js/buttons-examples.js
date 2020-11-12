@@ -172,9 +172,9 @@ $(document).ready(function () {
           classes: "bouncy-btn",
         },
         {
-          type:"colored-on-hover",
-          label:"Colored On Hover",
-          classes:"colored-on-hover-btn"
+          type: "colored-on-hover",
+          label: "Colored On Hover",
+          classes: "colored-on-hover-btn",
         },
         {
           type: "diagonalHover",
@@ -381,8 +381,7 @@ $(document).ready(function () {
       type: "hover",
       label: "Hover Buttons",
       classes: "hover-btn",
-      children:[],
-      
+      children: [],
     },
     {
       type: "icon",
