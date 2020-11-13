@@ -12,6 +12,34 @@
   }
 }
 
+.whiteBtnDarkMode() {
+  &.white-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: white !important;
+    }
+    @media (prefers-color-scheme: dark) {
+      color: white !important;
+    }
+
+    &:hover {
+      color: @darkText !important;
+    }
+  }
+}
+
+.blackBtnDarkMode() {
+  &.black-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: white !important;
+    }
+    @media (prefers-color-scheme: dark) {
+      color: white !important;
+    }
+  }
+}
+
 .sbtn {
   padding: @buttonPadding;
   text-align: center;
