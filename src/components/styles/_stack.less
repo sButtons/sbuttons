@@ -99,6 +99,13 @@
   }
 }
 
+.stackDarkMode () {
+  &:before,
+  &:after {
+    border: none !important;
+  }
+}
+
 .stack-btn {
   padding: 10px 0 20px 0;
   height: 90%;
@@ -123,5 +130,18 @@
     @stackHeight: 40px;
     @stackWidth: 3 * @stackHeight;
     .colors_logic(@stackHeight, @stackWidth);
+  }
+
+  &.white-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      .stackDarkMode();
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &.white-btn {
+      .stackDarkMode();
+    }
   }
 }

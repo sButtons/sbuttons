@@ -1406,6 +1406,18 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .stack-btn.block-btn.white-btn:hover:after {
   transform: translate(-15px, 15px);
 }
+[data-theme="dark"] .stack-btn.white-btn:before,
+.stack-btn.white-btn.dark-mode:before,
+[data-theme="dark"] .stack-btn.white-btn:after,
+.stack-btn.white-btn.dark-mode:after {
+  border: none !important;
+}
+@media (prefers-color-scheme: dark) {
+  .stack-btn.white-btn:before,
+  .stack-btn.white-btn:after {
+    border: none !important;
+  }
+}
 .gradient-btn {
   border: none;
   outline: none;
