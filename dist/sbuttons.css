@@ -623,9 +623,20 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .outline-btn.black-btn::after {
   border-color: #000;
 }
+[data-theme="dark"] .outline-btn.black-btn,
+.outline-btn.black-btn.dark-mode {
+  color: #fff !important;
+  border-color: #fff !important;
+}
 .outline-btn.white-btn {
   border-color: #e9e9e9;
   color: #e9e9e9 !important;
+}
+@media (prefers-color-scheme: dark) {
+  .outline-btn.black-btn {
+    color: #fff !important;
+    border-color: #fff !important;
+  }
 }
 .rounded-bottom-btn {
   border-radius: 0 0 24px 24px;
