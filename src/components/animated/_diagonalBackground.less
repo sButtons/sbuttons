@@ -15,6 +15,20 @@
   transform: translateX(16px);
 }
 
+.diagonalBlackDarkMode() {
+  &.black-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: #000 !important;
+      text-shadow: 2px 2px #333333;
+    }
+    @media (prefers-color-scheme: dark) {
+      color: #000 !important;
+      text-shadow: 2px 2px #333333;
+    }
+  }
+}
+
 .diag-btn {
   text-decoration: none;
   display: inline-block;
@@ -58,10 +72,12 @@
   }
 
   &.black-btn {
+    .diagonalBlackDarkMode();
     .diagonalBackground(@darkText, @black);
   }
 
   &.white-btn {
+    .whiteBtnDarkMode();
     .diagonalBackground(@darkText, @white);
 
     &:hover {
