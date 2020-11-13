@@ -46,6 +46,9 @@
 
   &.yellow-btn {
     .rippleBtn(@yellow);
+    &:not(:hover) {
+      color: @yellow !important;
+    }
     &:hover {
       color: @darkText !important;
     }

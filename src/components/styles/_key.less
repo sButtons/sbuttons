@@ -22,12 +22,15 @@
   display: inline-block;
   background-color: transparent;
   font-size: 1.5rem;
-  color: white;
   font-weight: bolder;
   text-decoration: none;
   padding: 15px 25px;
   border-radius: 4px;
   position: relative;
+
+  &:not(.yellow-btn) {
+    color: white;
+  }
 
   &:active {
     outline: none;

@@ -1,4 +1,3 @@
-// code by harjotkarwal
 .outlineRule(@color) {
   border-color: @color;
   color: @color !important;
@@ -23,6 +22,10 @@
 .animationRule() {
   display: inline-block;
   animation: atom 2s infinite linear;
+}
+
+.atomDarkMode() {
+  color: @white !important;
 }
 
 .atom-btn {
@@ -105,6 +108,22 @@
     100% {
       left: -2px;
       top: -2px;
+    }
+  }
+
+  //dark mode support
+  &.white-btn,
+  &.black-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      .atomDarkMode();
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &.white-btn,
+    &.black-btn {
+      .atomDarkMode();
     }
   }
 }
