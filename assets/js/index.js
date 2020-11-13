@@ -47,6 +47,10 @@ $(document).ready(function () {
             $(".submenu-links.show").removeClass("show");
           }
         }
+        
+        if (!hasSubmenu) {
+          return false;
+        }
       }
     });
   }
