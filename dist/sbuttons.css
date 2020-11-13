@@ -1952,13 +1952,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 [data-theme="dark"] .diag-btn.black-btn.black-btn,
 .diag-btn.black-btn.black-btn.dark-mode {
-  color: #000 !important;
-  text-shadow: 2px 2px #333333;
+  color: white !important;
 }
 @media (prefers-color-scheme: dark) {
   .diag-btn.black-btn.black-btn {
-    color: #000 !important;
-    text-shadow: 2px 2px #333333;
+    color: white !important;
   }
 }
 .diag-btn.white-btn {
@@ -2089,8 +2087,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn:hover,
 .fill-color-btn.animated {
   color: #fff !important;
-  height: 3.62rem;
-  border: 0rem;
 }
 .fill-color-btn.sideways-fill:before {
   width: 100%;
@@ -2201,13 +2197,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 [data-theme="dark"] .fill-color-btn.black-btn.black-btn,
 .fill-color-btn.black-btn.black-btn.dark-mode {
-  color: #000;
-  text-shadow: 2px 2px #333333;
+  color: white !important;
 }
 @media (prefers-color-scheme: dark) {
   .fill-color-btn.black-btn.black-btn {
-    color: #000;
-    text-shadow: 2px 2px #333333;
+    color: white !important;
   }
 }
 .fill-color-btn.black-btn:before {
@@ -2245,10 +2239,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .fill-color-btn.white-btn:hover,
 .fill-color-btn.white-btn.animated {
   color: #333 !important;
-}
-.fill-color-btn:not(.block-btn):hover,
-.fill-color-btn.animated:not(.block-btn) {
-  width: 5.6rem;
 }
 .hinge-btn {
   transition: transform 0.2s;
@@ -2622,13 +2612,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 [data-theme="dark"] .ripple-btn.black-btn.black-btn,
 .ripple-btn.black-btn.black-btn.dark-mode {
-  color: #000;
-  text-shadow: 2px 2px #333333;
+  color: white !important;
 }
 @media (prefers-color-scheme: dark) {
   .ripple-btn.black-btn.black-btn {
-    color: #000;
-    text-shadow: 2px 2px #333333;
+    color: white !important;
   }
 }
 .ripple-btn.black-btn::before {
