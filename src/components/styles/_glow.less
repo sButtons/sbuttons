@@ -22,10 +22,6 @@
     .darkMode();
   }
 
-  @media (prefers-color-scheme: dark) {
-    .darkMode();
-  }
-
   &.blue-btn {
     .glow(@glowBlue);
   }
@@ -59,10 +55,6 @@
 
     [data-theme="dark"] &,
     &.dark-mode {
-      .glow(@glowWhite);
-    }
-
-    @media (prefers-color-scheme: dark) {
       .glow(@glowWhite);
     }
   }
