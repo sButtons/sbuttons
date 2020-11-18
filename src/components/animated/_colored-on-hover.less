@@ -16,11 +16,19 @@
 
   /* set black-btn and white-btn apart to add dark mode */
   &.black-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: @white !important;
+    }
     background-color: @black;
     color: @white;
   }
 
   &.white-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: @black !important;
+    }
     background-color: @white;
     color: @black;
   }
@@ -41,11 +49,21 @@
   &.black-btn {
     border-color: @black;
     color: @black;
+
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: @white !important;
+    }
   }
 
   &.white-btn {
     border-color: @white;
     color: @black;
+
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: @white !important;
+    }
   }
 }
 
