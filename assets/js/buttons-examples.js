@@ -808,9 +808,9 @@ $(document).ready(function () {
         }
         // add normal button grid for button
         let newText = (totalWrittenClasses.split(" "));
-        if(newText.length > 3)
+        if(newText.length >=4)
         {
-          for(let i=2;i<newText.length;i++)
+          for(let i=3;i<newText.length;i++)
           {
             newText[i]= '.'+newText[i];
 
