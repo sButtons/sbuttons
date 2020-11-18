@@ -807,13 +807,13 @@ $(document).ready(function () {
           totalWrittenClasses += ` .${thisButtonClasses}`;
         }
         // add normal button grid for button
-        let newText = (totalWrittenClasses.split(" "));
+        let newText = totalWrittenClasses.split(" ").filter(x => x.length > 0);
         if(newText.length >=4)
         {
+          console.log(newText)
           for(let i=3;i<newText.length;i++)
           {
             newText[i]= '.'+newText[i];
-
           }
           totalWrittenClasses =newText.join(" ");
         }
