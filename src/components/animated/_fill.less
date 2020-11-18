@@ -101,8 +101,6 @@
   &:hover,
   &.animated {
     color: #fff !important;
-    height: 3.62rem;
-    border: 0rem;
   }
 
   &.sideways-fill {
@@ -182,10 +180,12 @@
   }
 
   &.black-btn {
+    .blackBtnDarkMode();
     .colorBtn(@black);
   }
 
   &.white-btn {
+    .whiteBtnDarkMode();
     .colorBtn(@white);
     border-color: @whiteBorder !important;
     color: @darkText;
@@ -193,10 +193,5 @@
     &.animated {
       color: @darkText !important;
     }
-  }
-
-  &:not(.block-btn):hover,
-  &.animated:not(.block-btn) {
-    width: 5.6rem;
   }
 }

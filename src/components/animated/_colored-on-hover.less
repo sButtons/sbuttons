@@ -1,0 +1,39 @@
+@colors: @blue, @pink, @red, @green, @yellow, @orange, @purple, @black, @white;
+@colorbtns: blue-btn, pink-btn, red-btn, green-btn, yellow-btn, orange-btn,
+  purple-btn, black-btn, white-btn;
+
+.colored-on-hover-colorspecific-mixin(@param) when (@param ="hover") {
+  each(@colorbtns, {
+      &.@{value} {
+        @colortoget : extract(@colors, @key);
+        background-color: @colortoget;
+        color: if(@colortoget = @yellow or @colortoget = @white, @darkText, #fff);
+
+      }
+    }
+
+  );
+}
+
+.colored-on-hover-colorspecific-mixin(@param) when (@param ="hoverless") {
+  each(@colorbtns, {
+      &.@{value} {
+        @colortoget : extract(@colors, @key);
+        border-color: @colortoget;
+        color: @colortoget;
+      }
+    }
+
+  );
+}
+
+.sbtn.colored-on-hover-btn {
+  background-color: transparent;
+  transition: all 0.25s;
+
+  .colored-on-hover-colorspecific-mixin("hoverless");
+
+  &:hover {
+    .colored-on-hover-colorspecific-mixin("hover");
+  }
+}

@@ -12,6 +12,28 @@
   }
 }
 
+.whiteBtnDarkMode() {
+  &.white-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: white !important;
+    }
+
+    &:hover {
+      color: @darkText !important;
+    }
+  }
+}
+
+.blackBtnDarkMode() {
+  &.black-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: white !important;
+    }
+  }
+}
+
 .sbtn {
   padding: @buttonPadding;
   text-align: center;
@@ -68,11 +90,7 @@ a.sbtn {
 
 .yellow-btn {
   .colorRule(@yellow);
-
-  &:not(.fill-color-btn):not(.ripple-btn):not(.glow-btn):not(.outline-btn):not(.transparent-btn):not(.diag-btn):not(.neu-btn),
-  &.transparent-btn:not(:hover) {
-    color: @darkText !important;
-  }
+  color: @darkText;
 }
 
 .orange-btn {
