@@ -3680,11 +3680,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background: transparent;
   transition: 0.25s ease-in;
 }
-[data-theme="dark"] .hatch-btn {
+[data-theme="dark"] .hatch-btn,
+.hatch-btn.dark-mode {
   color: #fff;
   border-color: #fff;
 }
-[data-theme="dark"] .hatch-btn:hover {
+[data-theme="dark"] .hatch-btn:hover,
+.hatch-btn.dark-mode:hover {
   box-shadow: 6px 0 5px rgba(255, 255, 255, 0.25);
 }
 .hatch-btn:hover {
