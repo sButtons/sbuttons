@@ -319,6 +319,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #333 !important;
   transition: all 0.5s ease;
 }
+[data-theme="dark"] .glow-btn,
+.glow-btn.dark-mode {
+  color: #fff !important;
+}
 .glow-btn.blue-btn {
   border-color: #1fffec;
   background-color: rgba(31, 255, 236, 0.2);
@@ -389,6 +393,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .glow-btn.black-btn:hover {
   background-color: rgba(65, 65, 65, 0.3);
   box-shadow: inset 0px 0px 10px 3px #414141, 0px 0px 10px 3px #414141;
+  border-color: #000;
+}
+[data-theme="dark"] .glow-btn.black-btn,
+.glow-btn.black-btn.dark-mode {
+  border-color: #e2e2e2;
+  background-color: rgba(226, 226, 226, 0.2);
+}
+[data-theme="dark"] .glow-btn.black-btn:hover,
+.glow-btn.black-btn.dark-mode:hover {
+  background-color: rgba(226, 226, 226, 0.3);
+  box-shadow: inset 0px 0px 10px 3px #e2e2e2, 0px 0px 10px 3px #e2e2e2;
   border-color: #000;
 }
 .glow-btn.white-btn {
