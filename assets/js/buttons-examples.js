@@ -810,10 +810,10 @@ $(document).ready(function () {
         let newText = totalWrittenClasses.split(" ").filter(x => x.length > 0);
         if(newText.length >=4)
         {
-          console.log(newText)
-          for(let i=3;i<newText.length;i++)
+          for(let i=0;i<newText.length;i++)
           {
-            newText[i]= '.'+newText[i];
+            if(newText[i][0]!='.')
+               newText[i]= '.'+newText[i];
           }
           totalWrittenClasses =newText.join(" ");
         }
