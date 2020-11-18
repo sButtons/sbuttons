@@ -240,6 +240,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/mrSidSat"><img src="https://avatars0.githubusercontent.com/u/58354243?v=4" width="100px;" alt=""/><br /><sub><b>mrSidSat</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=mrSidSat" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/iamtalwinder"><img src="https://avatars3.githubusercontent.com/u/61012185?v=4" width="100px;" alt=""/><br /><sub><b>iamtalwinder</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=iamtalwinder" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/farhanfajarr"><img src="https://avatars1.githubusercontent.com/u/50999021?v=4" width="100px;" alt=""/><br /><sub><b>Farhan Fajar Ramadhan</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=farhanfajarr" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
