@@ -3252,6 +3252,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .sbtn.colored-on-hover-btn {
   background-color: transparent;
   transition: all 0.25s;
+  /* set black-btn and white-btn apart to add dark mode */
 }
 .sbtn.colored-on-hover-btn.blue-btn {
   border-color: #50bfe6;
@@ -3285,9 +3286,20 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #000;
   color: #000;
 }
+[data-theme="dark"] .sbtn.colored-on-hover-btn.black-btn,
+.sbtn.colored-on-hover-btn.black-btn.dark-mode {
+  color: #fff !important;
+}
 .sbtn.colored-on-hover-btn.white-btn {
   border-color: #fff;
-  color: #fff;
+  color: #000;
+}
+[data-theme="dark"] .sbtn.colored-on-hover-btn.white-btn,
+.sbtn.colored-on-hover-btn.white-btn.dark-mode {
+  color: #fff !important;
+}
+.sbtn.colored-on-hover-btn:hover {
+  /* set black-btn and white-btn apart to add dark mode */
 }
 .sbtn.colored-on-hover-btn:hover.blue-btn {
   background-color: #50bfe6;
@@ -3321,9 +3333,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #000;
   color: #fff;
 }
+[data-theme="dark"] .sbtn.colored-on-hover-btn:hover.black-btn,
+.sbtn.colored-on-hover-btn:hover.black-btn.dark-mode {
+  color: #fff !important;
+}
 .sbtn.colored-on-hover-btn:hover.white-btn {
   background-color: #fff;
-  color: #333;
+  color: #000;
+}
+[data-theme="dark"] .sbtn.colored-on-hover-btn:hover.white-btn,
+.sbtn.colored-on-hover-btn:hover.white-btn.dark-mode {
+  color: #000 !important;
 }
 .atom-btn {
   border: 4px solid;
@@ -3675,11 +3695,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background: transparent;
   transition: 0.25s ease-in;
 }
-[data-theme="dark"] .hatch-btn {
+[data-theme="dark"] .hatch-btn,
+.hatch-btn.dark-mode {
   color: #fff;
   border-color: #fff;
 }
-[data-theme="dark"] .hatch-btn:hover {
+[data-theme="dark"] .hatch-btn:hover,
+.hatch-btn.dark-mode:hover {
   box-shadow: 6px 0 5px rgba(255, 255, 255, 0.25);
 }
 .hatch-btn:hover {
@@ -3894,9 +3916,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Press Start 2P Regular"), local("PressStart2P-Regular"),
-    url(https://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf)
-      format("truetype");
+  src: url(https://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf)
+    format("truetype");
 }
 .retro-btn {
   background: #92cd41;
@@ -4004,9 +4025,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("VT323 Regular"), local("VT323-Regular"),
-    url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2hsY.ttf)
-      format("truetype");
+  src: url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2hsY.ttf)
+    format("truetype");
 }
 .win95-btn {
   font-family: "VT323", monospace;
@@ -4109,9 +4129,8 @@ input[type="checkbox"].toggle-btn {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Architects Daughter Regular"), local("ArchitectsDaughter-Regular"),
-    url(https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY4.ttf)
-      format("truetype");
+  src: url(https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY4.ttf)
+    format("truetype");
 }
 .handwritten-btn {
   font-family: "Architects Daughter", cursive, serif, sans-serif;
@@ -4200,9 +4219,8 @@ input[type="checkbox"].toggle-btn {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Source Code Pro Regular"), local("SourceCodePro-Regular"),
-    url(https://fonts.gstatic.com/s/sourcecodepro/v13/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOg.ttf)
-      format("truetype");
+  src: url(https://fonts.gstatic.com/s/sourcecodepro/v13/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOg.ttf)
+    format("truetype");
 }
 .code-btn {
   font-family: "Source Code Pro", monospace;
