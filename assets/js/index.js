@@ -271,15 +271,15 @@ $(document).ready(function () {
   // function to hide sidebar when footer is reached
   $(document).scroll(function () {
     var footerSelector = ".footer";
-    var socialBarSelector = ".sidebar";
+    var sideBarSelector = ".sidebar";
 
     var bottomViewPort = $(window).scrollTop() + $(window).height();
     var footerTop = $(footerSelector).offset().top;
 
     if (bottomViewPort >= footerTop) {
-      $(socialBarSelector).fadeOut("fast");
+      $(sideBarSelector).fadeOut("fast");
     } else {
-      $(socialBarSelector).fadeIn();
+      $(sideBarSelector).fadeIn();
     }
   });
 
