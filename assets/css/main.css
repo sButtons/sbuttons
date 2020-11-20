@@ -2,10 +2,6 @@ body {
   font-family: "Philosopher";
 }
 
-.sidebar .scrolling {
-  display: none;
-}
-
 .main-content {
   padding: 0 0%;
   width: 100%;
