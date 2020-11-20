@@ -2800,6 +2800,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
     height 150ms 300ms cubic-bezier(0.07, 0.62, 0.61, 1);
   border-color: #333;
 }
+[data-theme="dark"] .snake-btn:hover:before,
+.snake-btn:hover.dark-mode:before {
+  border-color: #fff;
+}
+[data-theme="dark"] .snake-btn:hover:after,
+.snake-btn:hover.dark-mode:after {
+  border-color: #fff;
+}
 .snake-btn:focus {
   box-shadow: none;
 }
