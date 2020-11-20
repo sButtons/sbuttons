@@ -2965,23 +2965,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.expanding-btn:hover {
-  opacity: 1;
-  border: 0.2rem solid #333;
-}
-.expanding-btn:hover:before {
-  width: 150%;
-  height: 150%;
-  opacity: 1;
-  border: 0.2rem solid #333;
-  transition: width 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
-    height 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
-    opacity 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
-}
+.expanding-btn:hover,
 .expanding-btn.animated {
   opacity: 1;
   border: 0.2rem solid #333;
 }
+.expanding-btn:hover:before,
 .expanding-btn.animated:before {
   width: 150%;
   height: 150%;
@@ -2990,6 +2979,18 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: width 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
     height 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
     opacity 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
+}
+[data-theme="dark"] .expanding-btn:hover,
+[data-theme="dark"] .expanding-btn.animated,
+.expanding-btn:hover.dark-mode,
+.expanding-btn.animated.dark-mode {
+  border: 0.2rem solid #fff;
+}
+[data-theme="dark"] .expanding-btn:hover:before,
+[data-theme="dark"] .expanding-btn.animated:before,
+.expanding-btn:hover.dark-mode:before,
+.expanding-btn.animated.dark-mode:before {
+  border: 0.2rem solid #fff;
 }
 .expanding-btn:focus {
   box-shadow: none;
