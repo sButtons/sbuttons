@@ -3614,6 +3614,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-weight: 900;
   color: #fbe870;
 }
+[data-theme="dark"] .star-btn:not(.active),
+.star-btn.dark-mode:not(.active) {
+  color: #fff;
+}
 .icon-btn {
   color: #000;
 }
