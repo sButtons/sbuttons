@@ -272,17 +272,14 @@ $(document).ready(function () {
   $(document).scroll(function () {
     var footerSelector = ".footer";
     var sideBarSelector = ".sidebar";
-    const mediaQuery = window.matchMedia("(min-width: 992px)");
 
     var bottomViewPort = $(window).scrollTop() + $(window).height();
     var footerTop = $(footerSelector).offset().top;
-    
-    if (mediaQuery.matches){
-      if (bottomViewPort >= footerTop) {
-        $(sideBarSelector).fadeOut("fast");
-      } else {
-        $(sideBarSelector).fadeIn();
-      }
+
+    if (bottomViewPort >= footerTop) {
+      $(sideBarSelector).fadeOut("fast");
+    } else {
+      $(sideBarSelector).fadeIn();
     }
   });
 
