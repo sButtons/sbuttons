@@ -1,4 +1,3 @@
-@import "./_variables.less";
 @colors : @blue,@pink,@red,@green,@yellow,@orange,@purple,@black;
 @colorbtns:blue-btn,pink-btn,red-btn,green-btn,yellow-btn,orange-btn,purple-btn,black-btn;
 .spotlight-colorspecific-mixin(@param) when (@param = "main")
@@ -30,18 +29,10 @@
 .sbtn.spotlight-btn{
 	position: relative;
 	padding:10px;
-	color:black;
-	height:unset;
-	width:unset;
+	color:@darkText;
 	background-color: transparent;
 	overflow:visible !important;
-	cursor:pointer;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	outline:none;
-	border-width: 3px; 
-	border-style: solid;
 	z-index: 0;
 	.spotlight-colorspecific-mixin("main");
 	&.block-btn{
@@ -63,12 +54,10 @@
 	.spotlight-colorspecific-mixin("after/before");
 	&:after{             
 		content:"";
-		border-width:3px;
-		border-style: solid;
 		height:100%;
 		width:100%;
-		top:3px;
-		left:3px;
+		top:6px;
+		left:6px;
 		opacity: 1;
 		position: absolute;
 		z-index: -10;
@@ -100,7 +89,6 @@
 		border-radius: 50%;
 		border-radius: inherit;
 		border-width: 1px;
-  		border-style:solid;
 	}
 }
 @keyframes spotappear {
@@ -138,7 +126,7 @@
 }
 @keyframes font_color_change {
 	0%{
-		color: black;
+		color: @darkText;
 		
 	}
 	100%{
