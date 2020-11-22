@@ -3889,6 +3889,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 20%;
   content: "\f1a1";
 }
+.social-btn.steam {
+  background-color: #202329;
+  color: #fff;
+}
+.social-btn.steam:after {
+  color: #fff;
+  content: "\f1b6";
+}
 .social-btn.discord {
   background-color: #7289da;
   color: #fff;
@@ -3923,6 +3931,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.bitbucket:after {
   color: #fff;
   content: "\f171";
+}
+.social-btn.steam {
+  background-color: #202329;
+  color: #fff;
+}
+.social-btn.steam:after {
+  color: #fff;
+  content: "\f1b6";
 }
 @font-face {
   font-family: "Press Start 2P";
