@@ -2801,9 +2801,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #333;
 }
 [data-theme="dark"] .snake-btn:hover:before,
-.snake-btn:hover.dark-mode:before {
-  border-color: #fff;
-}
+.snake-btn:hover.dark-mode:before,
 [data-theme="dark"] .snake-btn:hover:after,
 .snake-btn:hover.dark-mode:after {
   border-color: #fff;
@@ -2991,9 +2989,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 [data-theme="dark"] .expanding-btn:hover,
 [data-theme="dark"] .expanding-btn.animated,
 .expanding-btn:hover.dark-mode,
-.expanding-btn.animated.dark-mode {
-  border: 0.2rem solid #fff;
-}
+.expanding-btn.animated.dark-mode,
 [data-theme="dark"] .expanding-btn:hover:before,
 [data-theme="dark"] .expanding-btn.animated:before,
 .expanding-btn:hover.dark-mode:before,
@@ -3888,14 +3884,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   right: 10px;
   top: 20%;
   content: "\f1a1";
-}
-.social-btn.steam {
-  background-color: #202329;
-  color: #fff;
-}
-.social-btn.steam:after {
-  color: #fff;
-  content: "\f1b6";
 }
 .social-btn.discord {
   background-color: #7289da;
