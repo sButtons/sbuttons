@@ -152,7 +152,7 @@ body {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .row .hide-sidebar {
     display: none;
   }
@@ -175,7 +175,12 @@ body {
     padding-right: 5px;
     padding-top: 5px;
     width: 70%;
+    max-width: 352px;
+    min-width: 250px;
     box-shadow: 1px 1px 5px #8a8a8a;
+  }
+  .sidebar.scrolling {
+    padding-left: 40px;
   }
   @media screen and (max-width: 768px) {
     div.sidebar {
@@ -201,7 +206,7 @@ body {
 
   .sidebar.scrolling {
     top: 0;
-    z-index: 100;
+    z-index: 1050;
   }
 
   .shade.shown {

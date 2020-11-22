@@ -83,7 +83,7 @@ $(document).ready(function () {
         $(".sidebar").removeClass("scrolling");
       }
     }
-    if (w < 990) {
+    if (w <= 991) {
       $(".sidebar").addClass("scrolling");
     }
     if ($(".footer").length) {
@@ -94,6 +94,15 @@ $(document).ready(function () {
       }
     }
   }
+
+  //to make sidebar hide while resizing to large screen
+  window.addEventListener("resize", function () {
+    var w = window.innerWidth;
+    if (w > 991) {
+      $(".sidebar").removeClass("scrolling");
+      checkSidebar();
+    }
+  });
 
   //to display sidebar in mobilescreen
   window.addEventListener("resize", () => {
