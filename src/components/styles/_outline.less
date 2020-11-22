@@ -3,6 +3,11 @@
   color: @color !important;
 }
 
+.outlineDarkMode() {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
 .outline-btn {
   background-color: transparent;
   border: 1px solid;
@@ -36,6 +41,11 @@
 
   &.black-btn {
     .outlineRule(@black);
+
+    [data-theme="dark"] &,
+    &.dark-mode {
+      .outlineDarkMode();
+    }
   }
 
   &.white-btn {

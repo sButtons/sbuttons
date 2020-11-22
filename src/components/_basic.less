@@ -18,9 +18,6 @@
     &.dark-mode {
       color: white !important;
     }
-    @media (prefers-color-scheme: dark) {
-      color: white !important;
-    }
 
     &:hover {
       color: @darkText !important;
@@ -32,9 +29,6 @@
   &.black-btn {
     [data-theme="dark"] &,
     &.dark-mode {
-      color: white !important;
-    }
-    @media (prefers-color-scheme: dark) {
       color: white !important;
     }
   }
@@ -96,11 +90,7 @@ a.sbtn {
 
 .yellow-btn {
   .colorRule(@yellow);
-
-  &:not(.fill-color-btn):not(.ripple-btn):not(.outline-btn):not(.transparent-btn):not(.diag-btn):not(.neu-btn),
-  &.transparent-btn:not(:hover) {
-    color: @darkText !important;
-  }
+  color: @darkText;
 }
 
 .orange-btn {

@@ -1,10 +1,8 @@
 .hatch-btn {
   color: @black;
   border-color: @black;
-  [data-theme="dark"] & {
-    .hatch-dark();
-  }
-  @media (prefers-color-scheme: dark) {
+  [data-theme="dark"] &,
+  &.dark-mode {
     .hatch-dark();
   }
 

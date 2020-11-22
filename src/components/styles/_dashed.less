@@ -40,10 +40,6 @@
     &.dark-mode {
       .borderRule(@white);
     }
-
-    @media (prefers-color-scheme: dark) {
-      .borderRule(@white);
-    }
   }
 
   &.white-btn {
@@ -52,10 +48,6 @@
 
     [data-theme="dark"] &,
     &.dark-mode {
-      .borderRule(@white);
-    }
-
-    @media (prefers-color-scheme: dark) {
       .borderRule(@white);
     }
   }

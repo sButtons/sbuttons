@@ -1517,7 +1517,8 @@
       "profile": "https://github.com/hmankodiya",
       "contributions": [
         "code",
-        "ideas"
+        "ideas",
+        "bug"
       ]
     },
     {
@@ -1745,6 +1746,34 @@
       "profile": "https://github.com/mrSidSat",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "iamtalwinder",
+      "name": "iamtalwinder",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/61012185?v=4",
+      "profile": "https://github.com/iamtalwinder",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "farhanfajarr",
+      "name": "Farhan Fajar Ramadhan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50999021?v=4",
+      "profile": "https://github.com/farhanfajarr",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JithinAji",
+      "name": "Jithin Aji",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/29234101?v=4",
+      "profile": "https://github.com/JithinAji",
+      "contributions": [
+        "code",
+        "bug"
       ]
     }
   ],

@@ -1,29 +1,70 @@
-@colors: @blue, @pink, @red, @green, @yellow, @orange, @purple, @black;
+@colors: @blue, @pink, @red, @green, @yellow, @orange, @purple, @black, @white;
 @colorbtns: blue-btn, pink-btn, red-btn, green-btn, yellow-btn, orange-btn,
-  purple-btn, black-btn;
+  purple-btn;
 
 .colored-on-hover-colorspecific-mixin(@param) when (@param ="hover") {
   each(@colorbtns, {
       &.@{value} {
-        @colortoget : @key;
-        background-color: extract(@colors, @key);
-        color:white;
+        @colortoget : extract(@colors, @key);
+        background-color: @colortoget;
+        color: if(@colortoget = @yellow or @colortoget = @white, @darkText, #fff);
 
       }
     }
 
   );
+
+  /* set black-btn and white-btn apart to add dark mode */
+  &.black-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: @white !important;
+    }
+    background-color: @black;
+    color: @white;
+  }
+
+  &.white-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: @black !important;
+    }
+    background-color: @white;
+    color: @black;
+  }
 }
 
 .colored-on-hover-colorspecific-mixin(@param) when (@param ="hoverless") {
   each(@colorbtns, {
       &.@{value} {
-        border-color: extract(@colors, @key);
-        color: extract(@colors, @key);
+        @colortoget : extract(@colors, @key);
+        border-color: @colortoget;
+        color: @colortoget;
       }
     }
 
   );
+
+  /* set black-btn and white-btn apart to add dark mode */
+  &.black-btn {
+    border-color: @black;
+    color: @black;
+
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: @white !important;
+    }
+  }
+
+  &.white-btn {
+    border-color: @white;
+    color: @black;
+
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: @white !important;
+    }
+  }
 }
 
 .sbtn.colored-on-hover-btn {
@@ -34,9 +75,5 @@
 
   &:hover {
     .colored-on-hover-colorspecific-mixin("hover");
-
-    &.white-btn {
-      background-color: white;
-    }
   }
 }
