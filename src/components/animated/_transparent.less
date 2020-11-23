@@ -1,0 +1,55 @@
+.onHover(@color; @borderColor) {
+  border-color: @borderColor;
+  &::before {
+    .bc(@color);
+  }
+  color: @color !important;
+}
+
+.transparent-btn {
+  position: relative;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    .bc(transparent);
+
+    &.blue-btn {
+      .onHover(@blue, @blue);
+    }
+    &.pink-btn {
+      .onHover(@pink, @pink);
+    }
+
+    &.green-btn {
+      .onHover(@green, @green);
+    }
+
+    &.yellow-btn {
+      .onHover(@yellow, @yellow);
+    }
+    &.orange-btn {
+      .onHover(@orange, @orange);
+    }
+
+    &.red-btn {
+      .onHover(@red, @red);
+    }
+
+    &.purple-btn {
+      .onHover(@purple, @purple);
+    }
+
+    &.black-btn {
+      .onHover(@black, @black);
+
+      [data-theme="dark"] &,
+      &.dark-mode {
+        .onHover(@white, @white);
+      }
+    }
+
+    &.white-btn {
+      .onHover(@white, @whiteBorder);
+    }
+  }
+}

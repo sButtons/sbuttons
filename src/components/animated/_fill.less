@@ -1,0 +1,197 @@
+@keyframes upDownFill {
+  from {
+    height: 0%;
+  }
+
+  to {
+    height: 100%;
+  }
+}
+
+@keyframes leftRightFill {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes sidewayFill {
+  from {
+    left: 50%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+.fill-color-btn {
+  .bc(transparent);
+  position: relative;
+
+  &:before {
+    content: " ";
+    position: absolute;
+    transition: all 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
+    z-index: -1;
+  }
+
+  &:not(.right-fill):before {
+    left: 0;
+  }
+
+  &.right-fill:before {
+    right: 0;
+  }
+
+  &.up-fill,
+  &.down-fill {
+    &:before {
+      width: 100%;
+      left: 0;
+    }
+
+    &.up-fill:before {
+      top: 0;
+    }
+
+    &.down-fill:before {
+      bottom: 0;
+    }
+
+    &:not(:hover):not(.animated):before {
+      height: 0%;
+    }
+
+    &:hover:not(.animated):before {
+      height: 100%;
+    }
+
+    &.animated:before {
+      animation-name: upDownFill;
+      animation-duration: 0.3s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  &:not(.up-fill):not(.down-fill) {
+    &:before {
+      height: 100%;
+      top: 0;
+    }
+
+    &:not(:hover):not(.animated):before {
+      width: 0%;
+    }
+
+    &:hover:not(.animated):before {
+      width: 100%;
+    }
+
+    &.animated:before {
+      animation-name: leftRightFill;
+      animation-duration: 0.3s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  &:hover,
+  &.animated {
+    color: #fff !important;
+  }
+
+  &.sideways-fill {
+    &:before {
+      width: 100%;
+      left: 0;
+    }
+    &:not(:hover):not(.animated):before {
+      left: 50%;
+    }
+    &:hover:not(.animated):before {
+      left: 0;
+    }
+
+    &.animated:before {
+      animation-name: sidewayFill;
+      animation-duration: 0.3s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  .colorBtn(@color) {
+    border-color: @color !important;
+    color: @color;
+
+    &:before {
+      .bc(@color);
+    }
+
+    &.rounded-btn {
+      &:hover,
+      &.animated {
+        .bc(@color);
+      }
+    }
+  }
+
+  &.rounded-btn {
+    transition: background 0s cubic-bezier(0.39, 0.58, 0.57, 1) 0s;
+
+    &:hover,
+    &.animated {
+      transition: background 0.03s cubic-bezier(0.39, 0.58, 0.57, 1) 0.15s;
+    }
+  }
+
+  &.blue-btn {
+    .colorBtn(@blue);
+  }
+  &.pink-btn {
+    .colorBtn(@pink);
+  }
+
+  &.green-btn {
+    .colorBtn(@green);
+  }
+
+  &.yellow-btn {
+    .colorBtn(@yellow);
+
+    &:hover,
+    &.animated {
+      color: @darkText !important;
+    }
+  }
+
+  &.orange-btn {
+    .colorBtn(@orange);
+  }
+
+  &.red-btn {
+    .colorBtn(@red);
+  }
+
+  &.purple-btn {
+    .colorBtn(@purple);
+  }
+
+  &.black-btn {
+    .blackBtnDarkMode();
+    .colorBtn(@black);
+  }
+
+  &.white-btn {
+    .whiteBtnDarkMode();
+    .colorBtn(@white);
+    border-color: @whiteBorder !important;
+    color: @darkText;
+    &:hover,
+    &.animated {
+      color: @darkText !important;
+    }
+  }
+}

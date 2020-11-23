@@ -1,0 +1,30 @@
+.star-btn-active() {
+  font-weight: 900;
+  color: @yellow;
+}
+
+.star-btn {
+  color: @black;
+
+  &:before {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  &:active,
+  &.active {
+    .star-btn-active();
+  }
+
+  [data-theme="dark"] &,
+  &.dark-mode {
+    &:not(.active) {
+      color: @white;
+    }
+  }
+}

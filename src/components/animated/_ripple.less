@@ -1,0 +1,98 @@
+.ripple-btn {
+  .bc(transparent);
+  position: relative;
+
+  &::before {
+    content: " ";
+    z-index: -1;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover {
+    color: white !important;
+    transition: 0.5s;
+
+    &::before {
+      animation: a-ripple 1s cubic-bezier(0.39, 0.58, 0.57, 1) forwards;
+    }
+  }
+
+  .rippleBtn(@color) {
+    border-color: @color;
+    color: @color;
+
+    &::before {
+      .bc(@color);
+    }
+  }
+
+  &.blue-btn {
+    .rippleBtn(@blue);
+  }
+
+  &.pink-btn {
+    .rippleBtn(@pink);
+  }
+
+  &.green-btn {
+    .rippleBtn(@green);
+  }
+
+  &.yellow-btn {
+    .rippleBtn(@yellow);
+    &:not(:hover) {
+      color: @yellow !important;
+    }
+    &:hover {
+      color: @darkText !important;
+    }
+  }
+
+  &.orange-btn {
+    .rippleBtn(@orange);
+  }
+
+  &.red-btn {
+    .rippleBtn(@red);
+  }
+
+  &.purple-btn {
+    .rippleBtn(@purple);
+  }
+
+  &.black-btn {
+    .blackBtnDarkMode();
+
+    .rippleBtn(@black);
+  }
+
+  &.white-btn {
+    .whiteBtnDarkMode();
+
+    .rippleBtn(@white);
+    border-color: @whiteBorder;
+    &:hover {
+      color: @darkText !important;
+    }
+  }
+}
+
+@keyframes a-ripple {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    padding-bottom: 200%;
+    opacity: 1;
+  }
+}

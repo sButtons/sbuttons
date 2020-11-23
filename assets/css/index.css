@@ -1,0 +1,49 @@
+.installation,
+.cdn {
+  margin-bottom: 10vh;
+}
+
+.installation,
+.cdn .head {
+  font-weight: 700;
+}
+
+.installation .head {
+  color: violet;
+}
+
+.cdn .head {
+  color: tomato;
+}
+.desc {
+  font-size: 20px;
+  font-weight: 200;
+  opacity: 0;
+  animation: slide-in-left 1s forwards;
+}
+
+.desc a {
+  border-color: tomato;
+  color: tomato;
+}
+
+.desc a:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.code {
+  font-size: 18px;
+  opacity: 0;
+  animation: slide-in-right 1s forwards;
+}
+
+#stack .button-grid:last-child .button-container:last-child,
+#stack .button-grid:last-child .button-container:nth-last-child(2) {
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+
+.key-btn {
+  font-family: "Syne", sans-serif !important;
+}

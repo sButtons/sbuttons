@@ -1,0 +1,45 @@
+{
+  "name": "sbuttons",
+  "version": "1.0.4",
+  "description": "Simple and creative buttons",
+  "main": "index.html",
+  "author": "Shahed Nasser",
+  "license": "ISC",
+  "homepage": "https://sbuttons.github.io/sbuttons/",
+  "keywords": [
+    "less",
+    "buttons",
+    "css"
+  ],
+  "scripts": {
+    "start": "npm run watch",
+    "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier",
+    "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" \"assets/**/*.css\" \"assets/**/*.js\" ",
+    "lite": "lite-server",
+    "check-prettier": "prettier --check \"src/**/*.less\" \"dist/sbuttons.css\" ",
+    "clean-css": "cleancss -o dist/sbuttons.min.css dist/sbuttons.css",
+    "watch:less": "onchange -v src/**/*.less -- npm run compile",
+    "watch": "concurrently \"npm run watch:less\" \"npm run lite\""
+  },
+  "devDependencies": {
+    "clean-css-cli": "^4.3.0",
+    "concurrently": "^5.3.0",
+    "less": "^3.12.2",
+    "less-watch-compiler": "^1.14.6",
+    "lessc": "^1.0.2",
+    "lite-server": "^2.5.4",
+    "minimist": "^1.2.3",
+    "node-less": "^1.0.0",
+    "onchange": "^7.0.2",
+    "prettier": "^2.1.1",
+    "object-path": ">=0.11.5"
+  },
+  "bugs": {
+    "url": "https://github.com/sButtons/sbuttons/issues",
+    "email": "shahednasser@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sButtons/sbuttons"
+  }
+}

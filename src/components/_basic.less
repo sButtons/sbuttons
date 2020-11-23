@@ -1,0 +1,140 @@
+.bc(@color) {
+  background-color: @color;
+}
+
+.colorRule(@color) {
+  .bc(@color);
+
+  &:focus,
+  &:active {
+    box-shadow: 0px 0px 0 0.2rem fade(@color, 30%);
+    outline: 0;
+  }
+}
+
+.whiteBtnDarkMode() {
+  &.white-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: white !important;
+    }
+
+    &:hover {
+      color: @darkText !important;
+    }
+  }
+}
+
+.blackBtnDarkMode() {
+  &.black-btn {
+    [data-theme="dark"] &,
+    &.dark-mode {
+      color: white !important;
+    }
+  }
+}
+
+.sbtn {
+  padding: @buttonPadding;
+  text-align: center;
+  -webkit-appearance: none;
+  .bc(transparent);
+  border: 1px solid;
+  cursor: pointer;
+  border-color: transparent;
+  color: @lightText;
+  font-family: inherit;
+  overflow: hidden;
+  font-size: @buttonFontSize;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+a.sbtn {
+  &,
+  &:hover,
+  &:active {
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+
+.rounded-btn {
+  border-radius: 25px;
+}
+
+.block-btn {
+  display: block;
+  width: 100%;
+}
+
+.blue-btn {
+  .colorRule(@blue);
+}
+
+.pink-btn {
+  .colorRule(@pink);
+}
+
+.red-btn {
+  .colorRule(@red);
+}
+
+.green-btn {
+  .colorRule(@green);
+}
+
+.yellow-btn {
+  .colorRule(@yellow);
+  color: @darkText;
+}
+
+.orange-btn {
+  .colorRule(@orange);
+}
+
+.purple-btn {
+  .colorRule(@purple);
+}
+
+.black-btn {
+  .colorRule(@black);
+}
+
+.white-btn {
+  .colorRule(@white);
+  border-color: @whiteBorder;
+  &:focus,
+  &:active {
+    box-shadow: 0px 0px 0 0.2rem fade(@whiteBorder, 67%);
+  }
+
+  &:not(.fill-color-btn) {
+    color: @darkText !important;
+  }
+}
+
+a.purple-btn,
+a.orange-btn,
+a.green-btn,
+a.red-btn,
+a.pink-btn,
+a.blue-btn {
+  &:hover,
+  &:active {
+    color: @lightText;
+  }
+}
+
+a.yellow-btn {
+  &:hover,
+  &:active {
+    &:not(.fill-color-btn) {
+      color: @darkText !important;
+    }
+  }
+}

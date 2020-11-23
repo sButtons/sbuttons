@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+.win95-btn {
+  font-family: "VT323", monospace;
+  font-size: inherit;
+  color: black;
+  background-color: #d4d4d4;
+  padding: 0.3rem 3.4rem;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  &:hover {
+    box-shadow: 0.2rem 0.2rem 0 black;
+    transform: translate(-0.2rem, -0.2rem);
+  }
+
+  &:active {
+    box-shadow: 0 0 0 black;
+    transform: translate(0, 0);
+  }
+}

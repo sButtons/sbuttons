@@ -1,0 +1,61 @@
+.icon-btn {
+  color: @black;
+
+  & i {
+    text-align: center;
+  }
+
+  &:not(.rounded-btn) {
+    &.blue-btn,
+    &.pink-btn,
+    &.red-btn,
+    &.green-btn,
+    &.yellow-btn,
+    &.orange-btn,
+    &.purple-btn,
+    &.black-btn {
+      color: @white;
+    }
+  }
+
+  &.blue-btn,
+  &.pink-btn,
+  &.red-btn,
+  &.green-btn,
+  &.yellow-btn,
+  &.orange-btn,
+  &.purple-btn,
+  &.black-btn {
+    color: @white;
+  }
+}
+
+&.icon-left {
+  border: none;
+
+  & i {
+    transform: translateX(-30%);
+    padding-left: 10px;
+  }
+
+  &:not(.rounded-btn) {
+    i {
+      transform: translateX(-26%);
+    }
+  }
+}
+
+&.icon-right {
+  border: none;
+
+  i {
+    transform: translateX(36%);
+    padding-right: 15px;
+  }
+
+  &:not(.rounded-btn) {
+    i {
+      transform: translateX(15%);
+    }
+  }
+}

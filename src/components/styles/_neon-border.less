@@ -1,0 +1,54 @@
+.neon-border-btn {
+  .neon(@col) {
+    color: @col;
+    background-color: @col;
+    background: transparent;
+    box-shadow: inset 0 0 6px @col, 0 0 6px @col;
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+    border: @col solid 2px;
+
+    &:hover {
+      background-color: @col;
+      box-shadow: @col;
+    }
+  }
+
+  &.green-btn {
+    .neon(@neonGreen);
+  }
+
+  &.blue-btn {
+    .neon(@neonBlue);
+  }
+
+  &.red-btn {
+    .neon(@neonRed);
+  }
+
+  &.purple-btn {
+    .neon(@neonPurple);
+  }
+
+  &.orange-btn {
+    .neon(@neonOrange);
+  }
+
+  &.yellow-btn {
+    .neon(@neonYellow);
+  }
+
+  &.pink-btn {
+    .neon(@neonPink);
+  }
+
+  &.black-btn {
+    .neon(@neonBlack);
+    &:hover {
+      color: @lightText !important;
+    }
+  }
+
+  &.white-btn {
+    .neon(@neonWhite);
+  }
+}

@@ -1,0 +1,50 @@
+.arrowRules() {
+  align-items: center;
+  color: inherit;
+  display: flex;
+  font-size: 1.5rem;
+  height: 100%;
+  position: absolute;
+  top: -1px;
+  transition: inherit;
+}
+
+.next-arrow-btn {
+  position: relative;
+  transition: all 0.1s;
+
+  &:after {
+    content: "\203A";
+    padding-right: @arrowPadding;
+    right: -@arrowExpansion;
+    .arrowRules();
+  }
+
+  &:hover {
+    padding-right: @arrowExpansion;
+    &:after {
+      opacity: 1;
+      right: 0;
+    }
+  }
+}
+
+.previous-arrow-btn {
+  position: relative;
+  transition: all 0.1s;
+
+  &:before {
+    content: "\2039";
+    left: -@arrowExpansion;
+    padding-left: @arrowPadding;
+    .arrowRules();
+  }
+
+  &:hover {
+    padding-left: @arrowExpansion;
+    &:before {
+      left: 0;
+      opacity: 1;
+    }
+  }
+}

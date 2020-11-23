@@ -1,0 +1,97 @@
+.auraAnimation() {
+  animation: aurapulse 0.5s infinite;
+}
+
+.auraRule() {
+  content: " ";
+  position: absolute;
+  transition: all 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.aurapulse-btn {
+  position: relative;
+
+  z-index: auto;
+  overflow: inherit;
+
+  &:before {
+    .auraRule();
+  }
+
+  .colorBefore(@color) {
+    &:before {
+      .bc(@color);
+    }
+  }
+
+  &.blue-btn {
+    .colorBefore(@blue);
+  }
+  &.pink-btn {
+    .colorBefore(@pink);
+  }
+
+  &.green-btn {
+    .colorBefore(@green);
+  }
+
+  &.yellow-btn {
+    .colorBefore(@yellow);
+  }
+
+  &.orange-btn {
+    .colorBefore(@orange);
+  }
+
+  &.red-btn {
+    .colorBefore(@red);
+  }
+
+  &.purple-btn {
+    .colorBefore(@purple);
+  }
+
+  &.black-btn {
+    .colorBefore(@black);
+  }
+
+  &.white-btn {
+    //needs to be darkWhite
+    .colorBefore(@darkWhite);
+  }
+
+  &.rounded-btn {
+    &:before {
+      border-radius: 25px;
+    }
+  }
+
+  &.animated {
+    &:before {
+      .auraRule();
+      .auraAnimation();
+    }
+  }
+
+  &:hover {
+    &:before {
+      .auraAnimation();
+    }
+  }
+
+  @keyframes aurapulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0.2;
+    }
+  }
+}
