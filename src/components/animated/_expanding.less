@@ -8,8 +8,17 @@
       height 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3),
       opacity 450ms cubic-bezier(0.07, 0.62, 0.61, 0.3);
   }
+
   opacity: 1;
   border: 0.2rem solid #333;
+
+  [data-theme="dark"] &,
+  &.dark-mode {
+    &,
+    &:before {
+      border: 0.2rem solid #fff;
+    }
+  }
 }
 
 .expanding-btn {
@@ -30,10 +39,7 @@
     transform: translate(-50%, -50%);
   }
 
-  &:hover {
-    .expandingAnimation();
-  }
-
+  &:hover,
   &.animated {
     .expandingAnimation();
   }

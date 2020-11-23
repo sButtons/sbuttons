@@ -41,6 +41,11 @@
 
     &.black-btn {
       .onHover(@black, @black);
+
+      [data-theme="dark"] &,
+      &.dark-mode {
+        .onHover(@white, @white);
+      }
     }
 
     &.white-btn {
