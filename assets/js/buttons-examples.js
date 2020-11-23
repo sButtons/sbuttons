@@ -804,16 +804,9 @@ $(document).ready(function () {
           totalWrittenClasses = `.${defaultClass} .${button.classes}`;
         if (thisButtonClasses.length) {
           totalClasses += ` ${thisButtonClasses}`;
-          totalWrittenClasses += ` .${thisButtonClasses}`;
+          totalWrittenClasses += ` .${thisButtonClasses.replace(/\s\s/g," ").replace(/\s/g , " .")}`;
         }
         // add normal button grid for button
-         let newText = totalWrittenClasses.split(" ").filter(x => x.length > 0);
-          for(let i=0;i<newText.length;i++)
-          {
-              if(newText[i][0]!='.')
-                newText[i]= '.'+newText[i];
-          }
-        totalWrittenClasses =newText.join(" ");
         normalButtonsGrid.append(
           getButtonHtml(
             totalClasses,
