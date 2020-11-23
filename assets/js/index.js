@@ -27,6 +27,8 @@ $(document).ready(function () {
     );
   };
 
+  $(".sidebar").addClass("sidebar-shiftdown");
+
   // Sidebar Links section
   function checkActiveCategory() {
     $("section").each(function () {
@@ -71,6 +73,7 @@ $(document).ready(function () {
   );
 
   // Navbar toggle here
+
   function checkSidebar() {
     if ($(".main-head").length) {
       let scroll = $(window).scrollTop();
@@ -78,13 +81,16 @@ $(document).ready(function () {
       if (!$(".main-head").isOnScreen()) {
         if (scroll > 450) {
           $(".sidebar").addClass("scrolling");
+          $(".sidebar").removeClass("sidebar-shiftdown");
         }
       } else {
         $(".sidebar").removeClass("scrolling");
+        $(".sidebar").addClass("sidebar-shiftdown");
       }
     }
-    if (w <= 991) {
+    if (w < 990) {
       $(".sidebar").addClass("scrolling");
+      //$(".sidebar").css("padding-top", 0%);
     }
     if ($(".footer").length) {
       if (!$(".footer").isOnScreen()) {
@@ -95,18 +101,9 @@ $(document).ready(function () {
     }
   }
 
-  //to make sidebar hide while resizing to large screen
-  window.addEventListener("resize", function () {
-    var w = window.innerWidth;
-    if (w > 991) {
-      $(".sidebar").removeClass("scrolling");
-      checkSidebar();
-    }
-  });
-
   //to display sidebar in mobilescreen
   window.addEventListener("resize", () => {
-    if (window.innerWidth < 990) {
+    if (window.innerWidth <= 991) {
       $(".sidebar").addClass("scrolling");
     }
   });
@@ -119,6 +116,15 @@ $(document).ready(function () {
       $(".scroll-top").fadeOut();
     }
   }
+
+  //to make sidebar hide while resizing to large screen
+  window.addEventListener("resize", function () {
+    var w = window.innerWidth;
+    if (w > 991) {
+      $(".sidebar").removeClass("scrolling");
+      checkSidebar();
+    }
+  });
   // Sidebar Links section - end
 
   // Theme section

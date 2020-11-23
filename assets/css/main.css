@@ -32,6 +32,10 @@ body {
   z-index: 11;
 }
 
+.sidebar-shiftdown {
+  padding-top: 0%;
+}
+
 .height-shift {
   padding-bottom: 20vh;
 }
@@ -43,6 +47,9 @@ body {
 }
 
 @media (min-width: 992px) {
+  .sidebar-shiftdown {
+    padding-top: 20%;
+  }
   .sidebar.scrolling {
     width: calc(100vw / 12 * 3 - 5vw);
   }
