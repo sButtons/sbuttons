@@ -13,6 +13,15 @@
     }
   }
 
+  .darkMode() {
+    color: @white !important;
+  }
+
+  [data-theme="dark"] &,
+  &.dark-mode {
+    .darkMode();
+  }
+
   &.blue-btn {
     .glow(@glowBlue);
   }
@@ -43,6 +52,11 @@
 
   &.black-btn {
     .glow(@glowBlack);
+
+    [data-theme="dark"] &,
+    &.dark-mode {
+      .glow(@glowWhite);
+    }
   }
 
   &.white-btn {

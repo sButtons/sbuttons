@@ -107,9 +107,6 @@
   </header>
 
   <div class="main-content">
-    <div class="main-head">
-      <h1>Get Started with sButtons</h1>
-    </div>
     <div class="row">
       <div class="col-md-3 d-md-block sidebar-div">
         <div class="sidebar hide-sidebar animate__animated animate__slideInLeft">
@@ -134,12 +131,20 @@
                 <a href="#iconPositionLeft" class="submenu-link">Icon Positioned to The Left</a>
                 <a href="#iconPositionRight" class="submenu-link">Icon Positioned to The Right</a>
               </div>
+              <a href="#toggle" class="submenu-link">Toggle Button</a>
+              <div class="submenu-links">
+                <a href="#toggleCheckbox" class="submenu-link">Toggle Button as Checkboxes</a>
+                <a href="#toggleRadio" class="submenu-link">Toggle Button as Radio Button</a>
+              </div>
             </div>
 
           </div>
         </div>
       </div>
       <div class="col col-lg-9 col-12">
+        <div class="main-head text-left">
+          <h1>Get Started with sButtons</h1>
+        </div>
         <section class="instruction-block" id="downloadcss">
           <h2>Download CSS File</h2>
           <div class="text">
@@ -351,6 +356,43 @@
               </div>
             </div>
           </section>
+        </section>
+        <!-- Toggle button class starts here -->
+        <section class="instruction-block" id="toggle">
+          <h2 id="base-icon-btn">Toggle Button</h2>
+          <div class="text">
+            The <code>toggle-btn</code> class along with the <code>toggle-off-btn</code> / <code>toggle-on-btn</code> state class enables you to have a toggle button. Apart from the basic use, it can also be used for checkboxes and radio buttons. While not necessary, you can use the available state classes to choose whether your checkboxes and radio buttons are checked or not.
+          </div>
+          <br />
+          <section class="instruction-block" id="toggleCheckbox">
+            <h4 class="display-inlineBlock">Toggle Button as Checkboxes</h4>
+            <div class="text">
+              Adding the <code>toggle-btn</code> class to your checkbox inputs converts them to toggle buttons. For example:
+              <br><br>
+              <input type="checkbox" class="sbtn toggle-btn"/>
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-markup">&lt;input type="checkbox" class="sbtn toggle-btn"/&gt;</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+          </section>
+          <section class="instruction-block" id="toggleRadio">
+            <h4 class="display-inlineBlock">Toggle Button as Radio Button</h4>
+            <div class="text">
+              Adding the <code>toggle-btn</code> class to your radio inputs converts them to toggle buttons. For example:
+              <br><br>
+              <input type="radio" class="sbtn toggle-btn"/>
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-markup">&lt;input type="radio" class="sbtn toggle-btn"/&gt;</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+          </section>
+          
         </section>
       </div>
     </div>

@@ -73,13 +73,19 @@ $(document).ready(function () {
   // Navbar toggle here
   function checkSidebar() {
     if ($(".main-head").length) {
+      let scroll = $(window).scrollTop();
+      var w = window.innerWidth;
       if (!$(".main-head").isOnScreen()) {
-        $(".sidebar").addClass("scrolling");
+        if (scroll > 450) {
+          $(".sidebar").addClass("scrolling");
+        }
       } else {
         $(".sidebar").removeClass("scrolling");
       }
     }
-
+    if (w < 990) {
+      $(".sidebar").addClass("scrolling");
+    }
     if ($(".footer").length) {
       if (!$(".footer").isOnScreen()) {
         $(".sidebar").removeClass("height-shift");
@@ -88,6 +94,13 @@ $(document).ready(function () {
       }
     }
   }
+
+  //to display sidebar in mobilescreen
+  window.addEventListener("resize", () => {
+    if (window.innerWidth < 990) {
+      $(".sidebar").addClass("scrolling");
+    }
+  });
 
   // Back-to-Top button toggles here
   function checkScrollTop() {

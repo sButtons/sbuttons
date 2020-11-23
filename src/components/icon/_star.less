@@ -20,4 +20,11 @@
   &.active {
     .star-btn-active();
   }
+
+  [data-theme="dark"] &,
+  &.dark-mode {
+    &:not(.active) {
+      color: @white;
+    }
+  }
 }
