@@ -26,6 +26,9 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
     - [Icon With No Background](#icon-with-no-background)
     - [Icon Positioned to The Left](#icon-positioned-to-the-left)
     - [Icon Positioned to The Right](#icon-positioned-to-the-right)
+  - [Toggle Button](#toggle-button)
+    - [Toggle Button as Checkboxes](#toggle-button-as-checkboxes)
+    - [Toggle Button as Radio Button](#toggle-button-as-radio-button)  
 - [Contribution](#contribution)
   - [Button ideas](#button-ideas)
 - [Contributors](#contributors)
@@ -143,6 +146,26 @@ Adding the `right-icon` class to a button makes the icon positioned to the right
 
 ```html
 <button class="sbtn base-icon-btn icon-right orange-btn"><i class="fab fa-github"></i>right icon</button>
+```
+
+## Toggle Button
+
+The `toggle-btn` class along with the `toggle-off-btn` / `toggle-on-btn` state class enables you to have a toggle button. Apart from the basic use, it can also be used for checkboxes and radio buttons. While not necessary, you can use the available state classes to choose whether your checkboxes and radio buttons are checked or not.
+
+### Toggle Button as Checkboxes
+
+Adding the `toggle-btn` class to your checkbox inputs converts them to toggle buttons. For example:
+
+```html
+<input type="checkbox" class="sbtn toggle-btn"/>
+```
+
+### Toggle Button as Radio Button
+
+Adding the `toggle-btn` class to your radio inputs converts them to toggle buttons. For example:
+
+```html
+<input type="radio" class="sbtn toggle-btn"/>
 ```
 
 # Contribution
