@@ -150,7 +150,7 @@ Adding the `right-icon` class to a button makes the icon positioned to the right
 
 ## Toggle Button
 
-The `toggle-btn` class along with `toggle-off-btn` / `toggle-on-btn` state class enables you to have a toggle button.Apart from its basic use, it can be used for checkboxes and radio buttons.
+The `toggle-btn` class along with the `toggle-off-btn` / `toggle-on-btn` state class enables you to have a toggle button. Apart from the basic use, it can also be used for checkboxes and radio buttons. While not necessary, you can use the available state classes to choose whether your checkboxes and radio buttons are checked or not.
 
 ### Toggle Button as Checkboxes
 
