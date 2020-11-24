@@ -42,7 +42,6 @@
 /* END VARIABLES IN special/_gradient.less */
 .sbtn.spotlight-btn {
   position: relative;
-  padding: 10px;
   color: #333;
   background-color: transparent;
   overflow: visible !important;
@@ -195,8 +194,6 @@
   z-index: -1;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 50%;
-  border-radius: inherit;
   border-width: 1px;
 }
 @keyframes spotappear {
