@@ -2655,6 +2655,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .shake-btn:hover {
   animation: shake 0.75s;
 }
+.shake-btn.animated {
+  animation: shake 0.75s infinite;
+}
 @keyframes shake {
   0% {
     transform: rotate(0deg);
