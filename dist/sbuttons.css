@@ -2701,7 +2701,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   position: relative;
   box-shadow: 1px 2px 8px #ccc;
 }
-.shine-btn:hover:after {
+.shine-btn:hover:after,
+.shine-btn.animated:after {
   animation: shine 7s ease-in-out infinite;
   animation-fill-mode: forwards;
   content: "";
