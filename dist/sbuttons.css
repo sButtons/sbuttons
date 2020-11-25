@@ -102,7 +102,7 @@
 }
 .sbtn.spotlight-btn.blue-btn:before {
   background-color: #50bfe6;
-  border-color: white ;
+  border-color: white;
 }
 .sbtn.spotlight-btn.pink-btn:after {
   border-color: #d53caf;
@@ -110,7 +110,7 @@
 }
 .sbtn.spotlight-btn.pink-btn:before {
   background-color: #d53caf;
-  border-color: white ;
+  border-color: white;
 }
 .sbtn.spotlight-btn.red-btn:after {
   border-color: #ed0a3f;
@@ -118,7 +118,7 @@
 }
 .sbtn.spotlight-btn.red-btn:before {
   background-color: #ed0a3f;
-  border-color: white ;
+  border-color: white;
 }
 .sbtn.spotlight-btn.green-btn:after {
   border-color: #3aa655;
@@ -126,7 +126,7 @@
 }
 .sbtn.spotlight-btn.green-btn:before {
   background-color: #3aa655;
-  border-color: white ;
+  border-color: white;
 }
 .sbtn.spotlight-btn.yellow-btn:after {
   border-color: #fbe870;
@@ -134,7 +134,7 @@
 }
 .sbtn.spotlight-btn.yellow-btn:before {
   background-color: #fbe870;
-  border-color: white ;
+  border-color: white;
 }
 .sbtn.spotlight-btn.orange-btn:after {
   border-color: #ff8833;
@@ -142,7 +142,7 @@
 }
 .sbtn.spotlight-btn.orange-btn:before {
   background-color: #ff8833;
-  border-color: white ;
+  border-color: white;
 }
 .sbtn.spotlight-btn.purple-btn:after {
   border-color: #652dc1;
@@ -150,7 +150,7 @@
 }
 .sbtn.spotlight-btn.purple-btn:before {
   background-color: #652dc1;
-  border-color: white ;
+  border-color: white;
 }
 .sbtn.spotlight-btn.black-btn:after {
   border-color: #000;
@@ -158,7 +158,7 @@
 }
 .sbtn.spotlight-btn.black-btn:before {
   background-color: #000;
-  border-color: white ;
+  border-color: white;
 }
 .sbtn.spotlight-btn:after {
   content: "";
@@ -178,7 +178,8 @@
   animation: font_color_change 0.5s ease-in 0.25s forwards !important;
 }
 .sbtn.spotlight-btn:hover:before {
-  animation: spotappear 0.5s ease-in forwards, spotexpand 0.25s ease-in 0.5s forwards;
+  animation: spotappear 0.5s ease-in forwards,
+    spotexpand 0.25s ease-in 0.5s forwards;
 }
 .sbtn.spotlight-btn:hover:after {
   animation: after_returns_to_main 0.5s ease-in forwards;
@@ -238,7 +239,6 @@
     box-shadow: inset 0px 0px 5px cornsilk;
   }
 }
-
 
 .sbtn {
   padding: 10px;

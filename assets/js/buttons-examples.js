@@ -361,9 +361,9 @@ $(document).ready(function () {
           classes: "splash-btn",
         },
         {
-          type:"Spotlight",
-          label:"Spotlight",
-          classes:"spotlight-btn",
+          type: "Spotlight",
+          label: "Spotlight",
+          classes: "spotlight-btn",
         },
         {
           type: "spring",
