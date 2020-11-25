@@ -1794,6 +1794,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Hanaffi",
+      "name": "Ahmed Essam",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/35642947?v=4",
+      "profile": "https://github.com/Hanaffi",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
