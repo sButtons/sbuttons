@@ -809,7 +809,7 @@ $(document).ready(function () {
           totalWrittenClasses = `.${defaultClass} .${button.classes}`;
         if (thisButtonClasses.length) {
           totalClasses += ` ${thisButtonClasses}`;
-          totalWrittenClasses += ` .${thisButtonClasses.replace(/\s+/g,' .')}`;
+          totalWrittenClasses += ` .${thisButtonClasses.replace(/\s+/g, " .")}`;
         }
         // add normal button grid for button
         normalButtonsGrid.append(
