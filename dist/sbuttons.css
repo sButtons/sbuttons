@@ -2873,6 +2873,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .splash-btn:hover:before {
   opacity: 1;
 }
+.splash-btn.animated {
+  color: #000;
+}
+.splash-btn.animated:after {
+  background: transparent;
+}
+.splash-btn.animated:before {
+  opacity: 1;
+}
 @keyframes glowing {
   0% {
     background-position: 0 0;
@@ -3175,6 +3184,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   }
 }
 .spring-btn:hover {
+  animation-name: spring;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+.spring-btn.animated {
   animation-name: spring;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
