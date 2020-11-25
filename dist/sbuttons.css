@@ -2286,6 +2286,44 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 400px;
   z-index: -1;
 }
+
+.liquid-btn.animated{
+  position: relative;
+  z-index: 0;
+}
+
+.liquid-btn.animated:before{
+  animation: waterEffect 5s linear infinite;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 45%;
+  content: "";
+  height: 400px;
+  left: 50%;
+  position: absolute;
+  top: -80px;
+  transform: translate(-50%, -75%);
+  transition: 0.5s linear;
+  width: 400px;
+  z-index: -1;
+}
+
+.liquid-btn.animated:after{
+  animation: waterEffect 10s linear infinite;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 40%;
+  content: "";
+  height: 400px;
+  left: 50%;
+  position: absolute;
+  top: -80px;
+  transform: translate(-50%, -75%);
+  transition: 0.5s linear;
+  width: 400px;
+  z-index: -1;
+}
+
+
+
 .liquid-btn.blue-btn {
   border-color: #50bfe6;
   color: #000 !important;
@@ -2394,6 +2432,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .liquid-btn.white-btn::after {
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+
 @keyframes waterEffect {
   0% {
     transform: translate(-50%, -75%) rotate(0deg);
@@ -2891,6 +2931,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .transparent-btn:hover {
   background-color: transparent;
 }
+.transparent-btn.animated{
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.transparent-btn.animated:before{
+  background-color: transparent;
+}
+
 .transparent-btn:hover.blue-btn {
   border-color: #50bfe6;
   color: #50bfe6 !important;
