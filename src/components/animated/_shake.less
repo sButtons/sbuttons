@@ -1,10 +1,11 @@
 .shake-btn {
-  &:hover {
+  &:hover,
+  &.animated {
     animation: shake 0.75s;
   }
 
   &.animated {
-    animation: shake 0.75s infinite;
+    animation-iteration-count: infinite;
   }
 
   @keyframes shake {

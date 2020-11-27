@@ -2652,11 +2652,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .scale-btn:hover {
   transform: scale(1.2);
 }
-.shake-btn:hover {
+.shake-btn:hover,
+.shake-btn.animated {
   animation: shake 0.75s;
 }
 .shake-btn.animated {
-  animation: shake 0.75s infinite;
+  animation-iteration-count: infinite;
 }
 @keyframes shake {
   0% {
