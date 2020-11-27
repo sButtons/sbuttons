@@ -1,10 +1,18 @@
+.springAnimation() {
+  animation-name: spring;
+  animation-duration: 1.5s;
+  //animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
 .spring-btn {
   &:hover {
-    animation-name: spring;
-    animation-duration: 1.5s;
-    //animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
+    .springAnimation();
+  }
+
+  &.animated {
+    .springAnimation();
   }
 
   @keyframes spring {

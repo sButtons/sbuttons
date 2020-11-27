@@ -1,3 +1,15 @@
+.splashAnimation() {
+  color: @black;
+
+  &:after {
+    background: transparent;
+  }
+
+  &:before {
+    opacity: 1;
+  }
+}
+
 .splash-btn {
   outline: none;
   border: none;
@@ -52,15 +64,11 @@
   }
 
   &:hover {
-    color: @black;
+    .splashAnimation();
+  }
 
-    &:after {
-      background: transparent;
-    }
-
-    &:before {
-      opacity: 1;
-    }
+  &.animated {
+    .splashAnimation();
   }
 }
 
