@@ -3484,8 +3484,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-style: solid;
   display: none;
 }
-.atom-btn:hover::after,
-.atom-btn:focus::after {
+.atom-btn:hover::after {
   display: inline-block;
   animation: atom 2s infinite linear;
 }
