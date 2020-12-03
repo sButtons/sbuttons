@@ -295,4 +295,21 @@ $(document).ready(function () {
       toggleSidebar();
     }
   });
+
+  let mq = window.matchMedia("(min-width: 992px)");
+  if (mq.matches) {
+    // Hide sidebar when footer is reached
+    $(document).scroll(function () {
+      let bottomViewPort = $(window).scrollTop() + $(window).height();
+      let footerTop = $(".footer").offset().top;
+
+      if (bottomViewPort >= footerTop) {
+        $(".sidebar").fadeOut("fast");
+      } else {
+        $(".sidebar").fadeIn();
+      }
+    });
+  } else {
+    // Do nothing
+  }
 });
