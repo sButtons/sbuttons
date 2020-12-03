@@ -1752,10 +1752,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -1px;
   transition: inherit;
 }
-.next-arrow-btn:hover {
+.next-arrow-btn:hover,
+.next-arrow-btn.animated {
   padding-right: 1.5em;
 }
-.next-arrow-btn:hover:after {
+.next-arrow-btn:hover:after,
+.next-arrow-btn.animated:after {
   opacity: 1;
   right: 0;
 }
