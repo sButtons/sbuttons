@@ -2451,11 +2451,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #e2e2e2;
   box-shadow: 0px 0px 52px 10px #e2e2e2;
 }
-.nudge-btn:hover {
+.nudge-btn:hover,
+.nudge-btn.animated {
   animation: nudge 0.75s;
 }
 .nudge-btn.animated {
-  animation: nudge 0.75s;
+  animation-iteration-count: infinite;
 }
 @keyframes nudge {
   0%,
@@ -3553,9 +3554,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     box-shadow: 1px 4px 5px #d13636;
   }
 }
-.vibrate-btn:hover {
-  animation: vibrate 0.3s linear infinite both;
-}
+.vibrate-btn:hover,
 .vibrate-btn.animated {
   animation: vibrate 0.3s linear infinite both;
 }
