@@ -308,7 +308,7 @@ $(document).ready(function () {
     }
   }
 
-  // Only hide footer on large screens when footer is reached.
+  // Only hide the sidebar on large screens when footer is reached.
   function addScrollHandler() {
     let mq = window.matchMedia("(min-width: 992px)");
     if (mq.matches) {
