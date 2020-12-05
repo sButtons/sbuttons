@@ -297,7 +297,7 @@ $(document).ready(function () {
   });
 
   // Hide sidebar when footer is reached
-  function scrollHandlerHelper() {
+  function scrollHandler() {
     let bottomViewPort = $(window).scrollTop() + $(window).height();
     let footerTop = $(".footer").offset().top;
 
@@ -308,18 +308,18 @@ $(document).ready(function () {
     }
   }
 
-  function scrollHandler() {
-    // scrollHanlder is only turned on for large screens.
+  // Only hide footer on large screens when footer is reached.
+  function addScrollHandler() {
     let mq = window.matchMedia("(min-width: 992px)");
     if (mq.matches) {
-      $(document).scroll(scrollHandlerHelper);
+      $(document).scroll(scrollHandler);
     } else {
-      $(document).off("scroll", scrollHandlerHelper);
+      $(document).off("scroll", scrollHandler);
     }
   }
 
-  // Determine whether sidebar should be turned on based on viewport
-  scrollHandler();
-  // Re-determine when the window is resized
-  window.addEventListener("resize", scrollHandler);
+  // Add scrollHandler on start
+  addScrollHandler();
+  // Re-determine on/off of the scrollHanlder when the window is resized
+  window.addEventListener("resize", addScrollHandler);
 });
