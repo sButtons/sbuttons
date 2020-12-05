@@ -296,20 +296,26 @@ $(document).ready(function () {
     }
   });
 
-  let mq = window.matchMedia("(min-width: 992px)");
-  if (mq.matches) {
-    // Hide sidebar when footer is reached
-    $(document).scroll(function () {
-      let bottomViewPort = $(window).scrollTop() + $(window).height();
-      let footerTop = $(".footer").offset().top;
+  // Hide sidebar when footer is reached
+  function scrollHandler() {
+    let bottomViewPort = $(window).scrollTop() + $(window).height();
+    let footerTop = $(".footer").offset().top;
 
-      if (bottomViewPort >= footerTop) {
-        $(".sidebar").fadeOut("fast");
-      } else {
-        $(".sidebar").fadeIn();
-      }
-    });
-  } else {
-    // Do nothing
+    if (bottomViewPort >= footerTop) {
+      $(".sidebar").fadeOut("fast");
+    } else {
+      $(".sidebar").fadeIn();
+    }
   }
+
+  // Determine whether scrollHandler should be turned on when the window is resized
+  window.addEventListener("resize", function () {
+    // scrollHanlder is only turned on for large screens.
+    let mq = window.matchMedia("(min-width: 992px)");
+    if (mq.matches) {
+      $(document).scroll(scrollHandler);
+    } else {
+      $(document).off("scroll", scrollHandler);
+    }
+  });
 });
