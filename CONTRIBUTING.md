@@ -85,9 +85,8 @@ When adding a new animated button, you need to place the animation or transition
 
 All buttons need to support dark mode when needed. If your button on dark mode does not look so good (problem with the color, animation, etc...), you need to do the following:
 
-1. add a `dark-mode` class to the button
+1. add a `dark-mode` class to the button.
 2. add support for having a parent with `[data-theme="dark"]`.
-3. add support to the [dark mode media query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme).
 
 ## Button Ideas
 
