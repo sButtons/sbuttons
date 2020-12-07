@@ -300,11 +300,20 @@ $(document).ready(function () {
   function scrollHandler() {
     let bottomViewPort = $(window).scrollTop() + $(window).height();
     let footerTop = $(".footer").offset().top;
+    let sidebar = $(".sidebar");
 
     if (bottomViewPort >= footerTop) {
-      $(".sidebar").fadeOut("fast");
+      if (!sidebar.hasClass("hide-sidebar")) {
+        sidebar.removeClass("animate__slideInLeft");
+        sidebar.addClass("animate__slideOutLeft");
+        sidebar.addClass("hide-sidebar");
+      }
     } else {
-      $(".sidebar").fadeIn();
+      if (sidebar.hasClass("hide-sidebar")) {
+        sidebar.removeClass("animate__slideOutLeft");
+        sidebar.removeClass("hide-sidebar");
+        sidebar.addClass("animate__slideInLeft");
+      }
     }
   }
 
