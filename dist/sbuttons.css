@@ -1752,10 +1752,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: -1px;
   transition: inherit;
 }
-.next-arrow-btn:hover {
+.next-arrow-btn:hover,
+.next-arrow-btn.animated {
   padding-right: 1.5em;
 }
-.next-arrow-btn:hover:after {
+.next-arrow-btn:hover:after,
+.next-arrow-btn.animated:after {
   opacity: 1;
   right: 0;
 }
@@ -2405,54 +2407,67 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .neon-btn {
   transition: all 0.5s ease;
 }
-.neon-btn.green-btn:hover {
+.neon-btn.green-btn:hover,
+.neon-btn.green-btn.animated {
   color: #000;
   background-color: #39ff14;
   box-shadow: 0px 0px 52px 10px #39ff14;
 }
-.neon-btn.blue-btn:hover {
+.neon-btn.blue-btn:hover,
+.neon-btn.blue-btn.animated {
   color: #000;
   background-color: #1fffec;
   box-shadow: 0px 0px 52px 10px #1fffec;
 }
-.neon-btn.red-btn:hover {
+.neon-btn.red-btn:hover,
+.neon-btn.red-btn.animated {
   color: #000;
   background-color: #ff013c;
   box-shadow: 0px 0px 52px 10px #ff013c;
 }
-.neon-btn.purple-btn:hover {
+.neon-btn.purple-btn:hover,
+.neon-btn.purple-btn.animated {
   color: #000;
   background-color: #8d47ff;
   box-shadow: 0px 0px 52px 10px #8d47ff;
 }
-.neon-btn.orange-btn:hover {
+.neon-btn.orange-btn:hover,
+.neon-btn.orange-btn.animated {
   color: #000;
   background-color: #ff9b18;
   box-shadow: 0px 0px 52px 10px #ff9b18;
 }
-.neon-btn.yellow-btn:hover {
+.neon-btn.yellow-btn:hover,
+.neon-btn.yellow-btn.animated {
   color: #000;
   background-color: #ffe53d;
   box-shadow: 0px 0px 52px 10px #ffe53d;
 }
-.neon-btn.pink-btn:hover {
+.neon-btn.pink-btn:hover,
+.neon-btn.pink-btn.animated {
   color: #000;
   background-color: #ff2aca;
   box-shadow: 0px 0px 52px 10px #ff2aca;
 }
-.neon-btn.black-btn:hover {
+.neon-btn.black-btn:hover,
+.neon-btn.black-btn.animated {
   color: #000;
   background-color: #414141;
   box-shadow: 0px 0px 52px 10px #414141;
   color: #fff !important;
 }
-.neon-btn.white-btn:hover {
+.neon-btn.white-btn:hover,
+.neon-btn.white-btn.animated {
   color: #000;
   background-color: #e2e2e2;
   box-shadow: 0px 0px 52px 10px #e2e2e2;
 }
-.nudge-btn:hover {
+.nudge-btn:hover,
+.nudge-btn.animated {
   animation: nudge 0.75s;
+}
+.nudge-btn.animated {
+  animation-iteration-count: infinite;
 }
 @keyframes nudge {
   0%,
@@ -3554,7 +3569,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
     box-shadow: 1px 4px 5px #d13636;
   }
 }
-.vibrate-btn:hover {
+.vibrate-btn:hover,
+.vibrate-btn.animated {
   animation: vibrate 0.3s linear infinite both;
 }
 @keyframes vibrate {
