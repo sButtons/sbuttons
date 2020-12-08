@@ -1,6 +1,13 @@
 .icon-btn {
   color: @black;
 
+  [data-theme="dark"] &,
+  &.dark-mode {
+    & {
+      color: @white;
+    }
+  }
+
   & i {
     text-align: center;
   }
