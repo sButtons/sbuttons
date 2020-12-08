@@ -164,6 +164,8 @@ $(document).ready(function () {
       let sidebar = $(".sidebar");
       sidebar.removeClass("hide-sidebar");
       $(".shade").addClass("shown");
+      sidebar.addClass("animate__slideInLeft");
+      sidebar.removeClass("animate__slideOutLeft");
     }
   }
 
@@ -315,6 +317,39 @@ $(document).ready(function () {
         sidebar.addClass("animate__slideInLeft");
       }
     }
+
+    // let sidebar = $(".sidebar");
+    // if (!sidebar.hasClass("hide-sidebar")) {
+    //   let sidebar = $(".sidebar");
+    //   $(".shade").removeClass("shown");
+    //   sidebar.addClass("animate__slideOutLeft");
+    //   window.setTimeout(function () {
+    //     sidebar.addClass("hide-sidebar");
+    //     sidebar.removeClass("animate__slideOutLeft");
+    //   }, 1000);
+    // } else {
+    //   let sidebar = $(".sidebar");
+    //   sidebar.removeClass("hide-sidebar");
+    //   $(".shade").addClass("shown");
+    // }
+
+
+    // if (bottomViewPort >= footerTop) {
+    //   $(".shade").removeClass("shown");
+    //   sidebar.addClass("animate__slideOutLeft");
+    //   window.setTimeout(function () {
+    //     sidebar.addClass("hide-sidebar");
+    //     sidebar.removeClass("animate__slideOutLeft");
+    //   }, 1000);
+    // } else {
+    //   if (sidebar.hasClass("hide-sidebar")) {
+    //     let sidebar = $(".sidebar");
+    //     sidebar.removeClass("hide-sidebar");
+    //     $(".shade").addClass("shown");
+    //   }
+    // }
+    
+    
   }
 
   // Only hide the sidebar on large screens when footer is reached.
