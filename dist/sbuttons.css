@@ -1525,6 +1525,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .gradient-btn.white-btn:hover {
   box-shadow: 0px 6px 4px #a19e9e;
 }
+[data-theme="dark"] .neon-border-btn,
+.neon-border-btn.dark-mode {
+  color: #fff !important;
+}
 .neon-border-btn.green-btn {
   color: #39ff14;
   background-color: #39ff14;
@@ -1635,6 +1639,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .neon-border-btn.white-btn:hover {
   background-color: #e2e2e2;
   box-shadow: #e2e2e2;
+}
+[data-theme="dark"] .neon-border-btn.white-btn:hover,
+.neon-border-btn.white-btn.dark-mode:hover {
+  color: #000 !important;
 }
 .striped-btn.blue-btn {
   border: solid 2px #50bfe6;

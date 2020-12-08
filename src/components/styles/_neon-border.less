@@ -13,6 +13,11 @@
     }
   }
 
+  [data-theme="dark"] &,
+  &.dark-mode {
+    color: @white !important;
+  }
+
   &.green-btn {
     .neon(@neonGreen);
   }
@@ -50,5 +55,11 @@
 
   &.white-btn {
     .neon(@neonWhite);
+    [data-theme="dark"] &,
+    &.dark-mode {
+      &:hover {
+        color: @black !important;
+      }
+    }
   }
 }
