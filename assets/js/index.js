@@ -164,6 +164,8 @@ $(document).ready(function () {
       let sidebar = $(".sidebar");
       sidebar.removeClass("hide-sidebar");
       $(".shade").addClass("shown");
+      sidebar.addClass("animate__slideInLeft");
+      sidebar.removeClass("animate__slideOutLeft");
     }
   }
 
@@ -295,4 +297,40 @@ $(document).ready(function () {
       toggleSidebar();
     }
   });
+
+  // Hide sidebar when footer is reached
+  function scrollHandler() {
+    let bottomViewPort = $(window).scrollTop() + $(window).height();
+    let footerTop = $(".footer").offset().top;
+    let sidebar = $(".sidebar");
+
+    if (bottomViewPort >= footerTop) {
+      if (!sidebar.hasClass("hide-sidebar")) {
+        sidebar.removeClass("animate__slideInLeft");
+        sidebar.addClass("animate__slideOutLeft");
+        sidebar.addClass("hide-sidebar");
+      }
+    } else {
+      if (sidebar.hasClass("hide-sidebar")) {
+        sidebar.removeClass("animate__slideOutLeft");
+        sidebar.removeClass("hide-sidebar");
+        sidebar.addClass("animate__slideInLeft");
+      }
+    }
+  }
+
+  // Only hide the sidebar on large screens when footer is reached.
+  function addScrollHandler() {
+    let mq = window.matchMedia("(min-width: 992px)");
+    if (mq.matches) {
+      $(document).scroll(scrollHandler);
+    } else {
+      $(document).off("scroll", scrollHandler);
+    }
+  }
+
+  // Add scrollHandler on start
+  addScrollHandler();
+  // Re-determine on/off of the scrollHanlder when the window is resized
+  window.addEventListener("resize", addScrollHandler);
 });
