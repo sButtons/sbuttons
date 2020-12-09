@@ -1526,7 +1526,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: 0px 6px 4px #a19e9e;
 }
 [data-theme="dark"] .neon-border-btn,
-.neon-border-btn.dark-mode {
+.neon-border-btn.dark-mode,
+.neon-border-btn:hover:not(.white-btn) {
   color: #fff !important;
 }
 .neon-border-btn.green-btn {
