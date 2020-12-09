@@ -174,7 +174,7 @@ Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
 
 ### Button ideas
 
-If you would like to suggest a new button idea, please create a "New Button Idea" Issue.
+If you would like to suggest a new button idea, please create a [new discussion](https://github.com/sButtons/sbuttons/discussions/new) with the category "idea".
 
 # Contributors
 
