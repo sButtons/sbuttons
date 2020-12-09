@@ -90,7 +90,7 @@ All buttons need to support dark mode when needed. If your button on dark mode d
 
 ## Button Ideas
 
-If you would like to suggest a new button idea, please create a "New Button Idea" Issue.
+If you would like to suggest a new button idea, please create a [new discussion](https://github.com/sButtons/sbuttons/discussions/new) with the category "idea".
 
 ## Create Pull Request
 
