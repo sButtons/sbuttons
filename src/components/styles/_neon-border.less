@@ -55,6 +55,13 @@
     &:hover {
       color: @lightText !important;
     }
+    [data-theme="dark"] &,
+    &.dark-mode {
+      .neon(@neonWhite);
+      &:hover {
+        color: @black !important;
+      }
+    }
   }
 
   &.white-btn {
