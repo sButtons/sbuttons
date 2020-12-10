@@ -249,6 +249,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/kyawkyawsoezhu"><img src="https://avatars3.githubusercontent.com/u/14541103?v=4" width="100px;" alt=""/><br /><sub><b>Kyaw Kyaw Soe</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=kyawkyawsoezhu" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AbdulMAbdi"><img src="https://avatars0.githubusercontent.com/u/51063017?v=4" width="100px;" alt=""/><br /><sub><b>AbdulMAbdi</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=AbdulMAbdi" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/katyabakun"><img src="https://avatars0.githubusercontent.com/u/17826623?v=4" width="100px;" alt=""/><br /><sub><b>Katsiaryna Bakun</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=katyabakun" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
