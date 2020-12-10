@@ -2,6 +2,8 @@
 
 If you have a new button style you would like to add or any fixes you want to contribute, be sure to follow this guideline.
 
+You can also join or start [discussions](https://github.com/sButtons/sbuttons/discussions) with the community members if you have any ideas or questions!
+
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
 ## Important Notes
