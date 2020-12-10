@@ -1527,7 +1527,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 [data-theme="dark"] .neon-border-btn,
 .neon-border-btn.dark-mode,
-.neon-border-btn:hover:not(.white-btn) {
+.neon-border-btn:hover:not(.white-btn):not(.yellow-btn) {
   color: #fff !important;
 }
 .neon-border-btn.green-btn {
@@ -1601,6 +1601,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .neon-border-btn.yellow-btn:hover {
   background-color: #ffe53d;
   box-shadow: #ffe53d;
+}
+.neon-border-btn.yellow-btn:hover {
+  color: #000 !important;
 }
 .neon-border-btn.pink-btn {
   color: #ff2aca;

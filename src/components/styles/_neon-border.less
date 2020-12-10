@@ -15,7 +15,7 @@
 
   [data-theme="dark"] &,
   &.dark-mode,
-  &:hover:not(.white-btn) {
+  &:hover:not(.white-btn):not(.yellow-btn) {
     color: @white !important;
   }
 
@@ -41,6 +41,9 @@
 
   &.yellow-btn {
     .neon(@neonYellow);
+    &:hover {
+      color: @black !important;
+    }
   }
 
   &.pink-btn {
