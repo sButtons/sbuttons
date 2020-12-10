@@ -3879,6 +3879,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .icon-btn {
   color: #000;
 }
+[data-theme="dark"] .icon-btn,
+.icon-btn.dark-mode {
+  color: #fff;
+}
 .icon-btn i {
   text-align: center;
 }
