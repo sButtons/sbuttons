@@ -172,6 +172,8 @@ Adding the `toggle-btn` class to your radio inputs converts them to toggle butto
 
 Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
 
+You can also join or start [discussions](https://github.com/sButtons/sbuttons/discussions) with the community members if you have any ideas or questions!
+
 ### Button ideas
 
 If you would like to suggest a new button idea, please create a [new discussion](https://github.com/sButtons/sbuttons/discussions/new) with the category "idea".
