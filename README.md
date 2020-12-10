@@ -168,6 +168,27 @@ Adding the `toggle-btn` class to your radio inputs converts them to toggle butto
 <input type="radio" class="sbtn toggle-btn"/>
 ```
 
+## Dark-Mode Button
+
+The `dark-mode` class enables you to have a dark mode for a button by adding `dark-mode` class to the button or by adding `data-theme="dark"` to a container element like the body element/parent element. 
+
+### Adding dark-mode as a class
+
+Adding the `dark-mode` class will make the button work in dark mode.For example:
+
+```html
+<button class="sbtn dashed-btn white-btn dark-mode">Dark Mode</button>
+```
+
+
+### Adding dark-mode as an attribute
+
+Adding the `data-theme="dark"` as an attribute to a body element or parent element.It can be added to any container element of the button.For example:
+
+```html
+<body data-theme="dark"><button class="sbtn dashed-btn orange-btn">Dark-Mode</button></body>
+```
+
 # Contribution
 
 Please see the [contributing guidelines](./CONTRIBUTING.md) for details.
