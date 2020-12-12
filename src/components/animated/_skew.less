@@ -1,7 +1,11 @@
+.transform () {
+  transform: skew(10deg);
+}
+
 .skew-btn {
   transition: transform 0.2s;
   &:hover,
   &.animated {
-    transform: skew(10deg);
+    .transform ();
   }
 }
