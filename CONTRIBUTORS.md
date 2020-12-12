@@ -251,6 +251,8 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/katyabakun"><img src="https://avatars0.githubusercontent.com/u/17826623?v=4" width="100px;" alt=""/><br /><sub><b>Katsiaryna Bakun</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=katyabakun" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/chiragkava"><img src="https://avatars3.githubusercontent.com/u/61086004?v=4" width="100px;" alt=""/><br /><sub><b>Chirag Kava</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=chiragkava" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Arnab-Bhakta"><img src="https://avatars3.githubusercontent.com/u/55293299?v=4" width="100px;" alt=""/><br /><sub><b>Arnab Bhakta</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Arnab-Bhakta" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AArnab-Bhakta" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

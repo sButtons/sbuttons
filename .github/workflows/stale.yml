@@ -15,6 +15,6 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: '@shahednasser reporting a stale issue.'
         stale-issue-label: 'stale-issue'
-        exempt-issue-label: 'Always Open,Cannot Reproduce'
+        exempt-issue-label: 'Always%20Open,Cannot%20Reproduce'
         stale-pr-message: '@shahednasser reporting a stale pull request'
         days-before-stale: 7
