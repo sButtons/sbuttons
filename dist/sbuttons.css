@@ -3312,7 +3312,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .papercurl-btn:hover,
 .papercurl-btn:focus,
-.papercurl-btn:active {
+.papercurl-btn:active,
+.papercurl-btn.animated {
   clip-path: polygon(
     25px 0%,
     100% 0,
@@ -3326,7 +3327,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .papercurl-btn:hover:before,
 .papercurl-btn:focus:before,
-.papercurl-btn:active:before {
+.papercurl-btn:active:before,
+.papercurl-btn.animated:before {
   height: 25px;
   width: 25px;
 }
