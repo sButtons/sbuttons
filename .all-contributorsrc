@@ -1841,6 +1841,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Arnab-Bhakta",
+      "name": "Arnab Bhakta",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55293299?v=4",
+      "profile": "https://github.com/Arnab-Bhakta",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
