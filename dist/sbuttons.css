@@ -2273,10 +2273,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: transform 0.2s;
   transform-origin: top left;
 }
-.hinge-btn:hover {
+.hinge-btn:hover,
+.hinge-btn.animated {
   transform: rotateZ(15deg);
 }
-.invert-btn:hover {
+.invert-btn:hover,
+.invert-btn.animated {
   animation: colorTransformation 0.5s;
   animation-fill-mode: forwards;
 }
@@ -3079,22 +3081,54 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-radius: 25px;
 }
 .flash-btn {
+  position: relative;
   opacity: 1;
 }
 .flash-btn:hover {
-  animation-name: flash;
-  animation-duration: 0.6s;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
+  animation: flash 1.5s infinite;
+}
+.flash-btn.blue-btn:before {
+  background-color: #50bfe6;
+}
+.flash-btn.pink-btn:before {
+  background-color: #d53caf;
+}
+.flash-btn.green-btn:before {
+  background-color: #3aa655;
+}
+.flash-btn.yellow-btn:before {
+  background-color: #fbe870;
+}
+.flash-btn.orange-btn:before {
+  background-color: #ff8833;
+}
+.flash-btn.red-btn:before {
+  background-color: #ed0a3f;
+}
+.flash-btn.purple-btn:before {
+  background-color: #652dc1;
+}
+.flash-btn.black-btn:before {
+  background-color: #000;
+}
+.flash-btn.white-btn:before {
+  background-color: #ebebeb;
+}
+.flash-btn.rounded-btn:before {
+  border-radius: 25px;
+}
+.flash-btn.animated {
+  animation: flash 1.5s infinite;
 }
 @keyframes flash {
   0% {
     opacity: 1;
   }
-  100% {
+  50% {
     opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 .loading-btn.spin.left:before {
