@@ -1,0 +1,109 @@
+.outlineRule(@color) {
+    border-color: @color;
+    color: @color !important;
+  }
+  
+  .bevel-btn {
+    border: 2px solid;
+    background-color: transparent;
+    overflow: initial;
+    position: relative;
+    text-align: center;
+  
+    &.blue-btn {
+      .outlineRule(@blue);
+    }
+  
+    &.pink-btn {
+      .outlineRule(@pink);
+    }
+  
+    &.red-btn {
+      .outlineRule(@red);
+    }
+  
+    &.green-btn {
+      .outlineRule(@green);
+    }
+  
+    &.yellow-btn {
+      .outlineRule(@yellow);
+    }
+  
+    &.orange-btn {
+      .outlineRule(@orange);
+    }
+  
+    &.purple-btn {
+      .outlineRule(@purple);
+    }
+  
+    &.black-btn {
+      .outlineRule(@black);
+    }
+  
+    &.white-btn {
+      .outlineRule(@whiteBorder);
+      color: @darkText !important;
+    }
+  
+    &:link::after,
+    &:visited::after {
+      content: "";
+      position: absolute;
+      height: 0%;
+      left: 50%;
+      top: 50%;
+      width: 150%;
+      z-index: -1;
+      -webkit-transition: all 0.75s ease 0s;
+      -moz-transition: all 0.75s ease 0s;
+      -o-transition: all 0.75s ease 0s;
+      transition: all 0.75s ease 0s;
+    }
+  
+    &:link,
+    &:visited {
+      position: relative;
+      display: block;
+      margin: 30px auto 0;
+      padding: 14px 15px;
+      color: #fff;
+      font-size: 14px;
+      border-radius: 0;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      letter-spacing: 0.08em;
+      text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+    }
+  
+    &::after {
+      opacity: 0;
+      background-image: -webkit-linear-gradient(
+        transparent 50%,
+        rgba(22, 5, 11, 0.2) 50%
+      );
+      background-image: -moz-linear-gradient(
+        transparent 50%,
+        rgba(241, 221, 104, 0.2) 50%
+      );
+      background-size: 10px 10px;
+      -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+      -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+      -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+      transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    }
+    &:hover::after {
+      height: 600% !important;
+      opacity: 1;
+      color: #fff;
+    }
+  }
+  

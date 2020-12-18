@@ -380,6 +380,13 @@ $(document).ready(function () {
           label: "Vibrate",
           classes: "vibrate-btn",
         },
+        {
+          type: "bevel",
+          label: "‌Bevel",
+          classes: "bevel-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+        },
       ],
     },
     {

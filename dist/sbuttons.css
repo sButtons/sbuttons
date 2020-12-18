@@ -4567,3 +4567,188 @@ input[type="checkbox"].toggle-btn {
     background-position: 0 0, 0 50%;
   }
 }
+
+
+
+
+.bevel-btn {
+  border: 2px solid;
+  background-color: transparent;
+  overflow: initial;
+  position: relative;
+  text-align: center;
+}
+.bevel-btn.blue-btn {
+  border-color: blue;
+  color: blue !important;
+}
+.bevel-btn.pink-btn {
+  border-color: pink;
+  color: pink !important;
+}
+.bevel-btn.red-btn {
+  border-color: red;
+  color: red !important;
+}
+.bevel-btn.green-btn {
+  border-color: green;
+  color: green !important;
+}
+.bevel-btn.yellow-btn {
+  border-color: yellow;
+  color: yellow !important;
+}
+.bevel-btn.orange-btn {
+  border-color: orange;
+  color: orange !important;
+}
+.bevel-btn.purple-btn {
+  border-color: purple;
+  color: purple !important;
+}
+.bevel-btn.black-btn {
+  border-color: black;
+  color: black !important;
+}
+.bevel-btn.white-btn {
+  border-color: gray;
+  color: black !important;
+}
+.bevel-btn::after,
+.bevel-btn:visited::after {
+  content: "";
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 150%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
+}
+.bevel-btn,
+.bevel-btn:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.bevel-btn.blue-btn::after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(107, 162, 243, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(107, 162, 243, 0.2) 50%) !important;
+  background-size: 10px 10px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+}
+.bevel-btn.pink-btn::after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(199, 104, 137, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(199, 104, 137, 0.2) 50%) !important;
+  background-size: 10px 10px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+}
+
+
+.bevel-btn.red-btn::after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(224, 87, 87, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(224, 87, 87, 0.2) 50%) !important;
+  background-size: 10px 10px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+}
+.bevel-btn.green-btn::after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(26, 63, 23, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(26, 63, 23, 0.2) 50%) !important;
+  background-size: 10px 10px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+}
+
+.bevel-btn.yellow-btn::after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(231, 233, 121, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(231, 233, 121, 0.2) 50%) !important;
+  background-size: 10px 10px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+}
+
+.bevel-btn.orange-btn::after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(228, 131, 93, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(228, 131, 93, 0.2) 50%) !important;
+  background-size: 10px 10px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+}
+
+.bevel-btn.purple-btn::after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(200, 117, 238, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(200, 117, 238, 0.2) 50%) !important;
+  background-size: 10px 10px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+}
+.bevel-btn.black-btn::after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient(transparent 50%, rgb(97, 95, 95) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(97, 95, 95, 0.2) 50%) !important;
+  background-size: 10px 10px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+}
+.bevel-btn.white-btn::after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(194, 183, 183, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(194, 183, 183, 0.2) 50%) !important;
+  background-size: 10px 10px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+  transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
+}
+
+
+
+.bevel-btn:hover::after {
+  height: 600% !important;
+  opacity: 1 !important;
+  color: #fff;
+}
