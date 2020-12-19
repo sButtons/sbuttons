@@ -109,7 +109,7 @@ a.sbtn:active {
   outline: 0;
 }
 .black-btn {
-  background-color: #000;
+  background-color:#4c4c4c;
 }
 .black-btn:focus,
 .black-btn:active {
@@ -191,7 +191,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .hover-btn.black-btn:hover,
 .hover-btn.black-btn:active,
 .hover-btn.black-btn:focus {
-  background-color: #262626;
+  background-color: #4c4c4c;
 }
 .hover-btn.white-btn:hover,
 .hover-btn.white-btn:active,
@@ -228,6 +228,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .click-btn.purple-btn:hover {
   background-color: #4c2291;
+}
+.click-btn.black-btn:hover {
+  background-color:black;
 }
 .dashed-btn {
   background-color: transparent;
