@@ -4579,8 +4579,8 @@ input[type="checkbox"].toggle-btn {
   text-align: center;
 }
 .bevel-btn.blue-btn {
-  border-color: blue;
-  color: blue !important;
+  border-color: #34f6f2;
+  color: #34f6f2 !important;
 }
 .bevel-btn.pink-btn {
   border-color: pink;
@@ -4591,8 +4591,8 @@ input[type="checkbox"].toggle-btn {
   color: red !important;
 }
 .bevel-btn.green-btn {
-  border-color: green;
-  color: green !important;
+  border-color: #0bb013;
+  color: #0bb013 !important;
 }
 .bevel-btn.yellow-btn {
   border-color: yellow;
@@ -4603,15 +4603,15 @@ input[type="checkbox"].toggle-btn {
   color: orange !important;
 }
 .bevel-btn.purple-btn {
-  border-color: purple;
-  color: purple !important;
+  border-color: #9088d4;
+  color: #9088d4 !important;
 }
 .bevel-btn.black-btn {
   border-color: black;
   color: black !important;
 }
 .bevel-btn.white-btn {
-  border-color: gray;
+  border-color: #eeeded;
   color: black !important;
 }
 .bevel-btn::after,
@@ -4651,8 +4651,8 @@ input[type="checkbox"].toggle-btn {
 }
 .bevel-btn.blue-btn::after {
   opacity: 0;
-  background-image: -webkit-linear-gradient(transparent 50%, rgba(107, 162, 243, 0.2) 50%) !important;
-  background-image: -moz-linear-gradient(transparent 50%, rgba(107, 162, 243, 0.2) 50%) !important;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(115, 255, 253, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgb(115, 255, 253, 0.2) 50%) !important;
   background-size: 10px 10px;
   -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
   -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
@@ -4683,8 +4683,8 @@ input[type="checkbox"].toggle-btn {
 }
 .bevel-btn.green-btn::after {
   opacity: 0;
-  background-image: -webkit-linear-gradient(transparent 50%, rgba(26, 63, 23, 0.2) 50%) !important;
-  background-image: -moz-linear-gradient(transparent 50%, rgba(26, 63, 23, 0.2) 50%) !important;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(75, 166, 79, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(75, 166, 79, 0.2) 50%) !important;
   background-size: 10px 10px;
   -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
   -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
@@ -4716,8 +4716,8 @@ input[type="checkbox"].toggle-btn {
 
 .bevel-btn.purple-btn::after {
   opacity: 0;
-  background-image: -webkit-linear-gradient(transparent 50%, rgba(200, 117, 238, 0.2) 50%) !important;
-  background-image: -moz-linear-gradient(transparent 50%, rgba(200, 117, 238, 0.2) 50%) !important;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(127, 120, 210, 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(127, 120, 210, 0.2) 50%) !important;
   background-size: 10px 10px;
   -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
   -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
@@ -4726,8 +4726,8 @@ input[type="checkbox"].toggle-btn {
 }
 .bevel-btn.black-btn::after {
   opacity: 0;
-  background-image: -webkit-linear-gradient(transparent 50%, rgb(97, 95, 95) 50%) !important;
-  background-image: -moz-linear-gradient(transparent 50%, rgba(97, 95, 95, 0.2) 50%) !important;
+  background-image: -webkit-linear-gradient(transparent 50%, rgb(99, 104, 110 , 0.2) 50%) !important;
+  background-image: -moz-linear-gradient(transparent 50%, rgba(599, 104, 110, 0.2) 50%) !important;
   background-size: 10px 10px;
   -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
   -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
@@ -4745,8 +4745,25 @@ input[type="checkbox"].toggle-btn {
   transform: translateX(-50%) translateY(-50%) rotate(25deg) !important;
 }
 
+.bevel-btn.rounded-btn{
+  border-radius: 20px;
+}
 
 
+.bevel-btn.block-btn {
+  display: block;
+  width: 100%;
+}
+
+[data-theme="dark"] .bevel-btn.black-btn,
+.bevel-btn.black-btn.dark-mode {
+  color: #fff !important;
+}
+
+[data-theme="dark"] .bevel-btn.white-btn,
+.bevel-btn.white-btn.dark-mode {
+  color: white !important;
+}
 .bevel-btn:hover::after {
   height: 600% !important;
   opacity: 1 !important;
