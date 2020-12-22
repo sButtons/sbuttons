@@ -183,8 +183,11 @@ a:hover {
   .banner-head h1 {
     font-size: 3rem;
   }
-  .buttons {
+  .fa-github,.fa-download {
     display: none;
+  }
+  .links{
+    margin:-1px;
   }
 }
 
