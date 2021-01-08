@@ -183,7 +183,8 @@ a:hover {
   .banner-head h1 {
     font-size: 3rem;
   }
-  .navbar .icon-link,.navbar .download-link {
+  .navbar .icon-link,
+  .navbar .download-link {
     display: none;
   }
 }
