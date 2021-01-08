@@ -183,7 +183,7 @@ a:hover {
   .banner-head h1 {
     font-size: 3rem;
   }
-  .buttons {
+  .navbar .icon-link,.navbar .download-link {
     display: none;
   }
 }
@@ -240,7 +240,12 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .navbar .download-link {
+  .navbar .toggle-theme {
     font-size: 1.5rem;
+  }
+}
+@media (max-width: 321px) {
+  .buttons {
+    display: none;
   }
 }
