@@ -4569,3 +4569,54 @@ input[type="checkbox"].toggle-btn {
     background-position: 0 0, 0 50%;
   }
 }
+.disco-btn {
+  background-color: black;
+  font-size: 20px;
+  background-size: 2px 3px;
+  font-family: "Archivo", sans-serif;
+  color: #fffafa;
+  display: block;
+  width: 200px;
+  min-height: 50px;
+  margin: 30px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 3px solid #f3ca8c;
+  box-shadow: 10px -10px 0 -3px black, 10px -10px #ff9f68,
+    20px -20px 0 -3px black, 20px -20px #f85959;
+}
+.disco-btn:hover {
+  animation: shadow-wave 1s ease infinite;
+}
+@keyframes shadow-wave {
+  0% {
+    border: 3px solid #ff9f68;
+    box-shadow: 10px -10px 0 -3px black, 10px -10px #f85959,
+      20px -20px 0 -3px black, 20px -20px #f3ca8c;
+  }
+  20% {
+    border: 3px solid #f85959;
+    box-shadow: 10px -10px 0 -3px black, 10px -10px #f3ca8c,
+      20px -20px 0 -3px black, 20px -20px #ff9f68;
+  }
+  40% {
+    border: 3px solid #f3ca8c;
+    box-shadow: 10px -10px 0 -3px black, 10px -10px #ff9f68,
+      20px -20px 0 -3px black, 20px -20px #f85959;
+  }
+  60% {
+    border: 3px solid #ff9f68;
+    box-shadow: 10px -10px 0 -3px black, 10px -10px #f85959,
+      20px -20px 0 -3px black, 20px -20px #f3ca8c;
+  }
+  80% {
+    bborder: 3px solid #f85959;
+    box-shadow: 10px -10px 0 -3px black, 10px -10px #f3ca8c,
+      20px -20px 0 -3px black, 20px -20px #ff9f68;
+  }
+  100% {
+    border: 3px solid #f3ca8c;
+    box-shadow: 10px -10px 0 -3px black, 10px -10px #ff9f68,
+      20px -20px 0 -3px black, 20px -20px #f85959;
+  }
+}
