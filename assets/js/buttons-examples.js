@@ -371,6 +371,11 @@ $(document).ready(function () {
           classes: "spring-btn",
         },
         {
+          type: "striped-animated",
+          label: "Striped",
+          classes: "striped-animated-btn",
+        },
+        {
           type: "transparent",
           label: "Transparent On Hover",
           classes: "transparent-btn",

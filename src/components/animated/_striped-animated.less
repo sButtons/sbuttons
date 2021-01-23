@@ -1,0 +1,74 @@
+.stripeRule(@color) {
+  border: solid 2px @color;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    @color,
+    @color 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+  background-size: 250% 250%;
+}
+
+.striped-animated-btn {
+  &.blue-btn {
+    .stripeRule(@blue);
+  }
+
+  &.pink-btn {
+    .stripeRule(@pink);
+  }
+
+  &.red-btn {
+    .stripeRule(@red);
+  }
+
+  &.green-btn {
+    .stripeRule(@green);
+  }
+
+  &.yellow-btn {
+    .stripeRule(@yellow);
+  }
+
+  &.orange-btn {
+    .stripeRule(@orange);
+  }
+
+  &.purple-btn {
+    .stripeRule(@purple);
+  }
+
+  &.white-btn {
+    .stripeRule(@white);
+  }
+
+  &.black-btn {
+    border: solid 2px black;
+    color: white !important;
+    background-image: repeating-linear-gradient(
+      45deg,
+      black,
+      black 10px,
+      rgba(255, 255, 255, 0.15) 10px,
+      rgba(255, 255, 255, 0.15) 20px
+    );
+    background-size: 400% 400%;
+  }
+
+  &:hover,
+  &.animated {
+    animation: stripes 1s linear forwards infinite;
+  }
+
+  @keyframes stripes {
+    0% {
+      background-position: 0% 100%;
+    }
+
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+}

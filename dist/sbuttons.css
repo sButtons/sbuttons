@@ -1676,6 +1676,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     rgba(0, 0, 0, 0.15) 10px,
     rgba(0, 0, 0, 0.15) 20px
   );
+  background-size: 250% 250%;
 }
 .striped-btn.pink-btn {
   border: solid 2px #d53caf;
@@ -1687,6 +1688,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     rgba(0, 0, 0, 0.15) 10px,
     rgba(0, 0, 0, 0.15) 20px
   );
+  background-size: 250% 250%;
 }
 .striped-btn.red-btn {
   border: solid 2px #ed0a3f;
@@ -1698,6 +1700,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     rgba(0, 0, 0, 0.15) 10px,
     rgba(0, 0, 0, 0.15) 20px
   );
+  background-size: 250% 250%;
 }
 .striped-btn.green-btn {
   border: solid 2px #3aa655;
@@ -1709,6 +1712,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     rgba(0, 0, 0, 0.15) 10px,
     rgba(0, 0, 0, 0.15) 20px
   );
+  background-size: 250% 250%;
 }
 .striped-btn.yellow-btn {
   border: solid 2px #fbe870;
@@ -1720,6 +1724,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     rgba(0, 0, 0, 0.15) 10px,
     rgba(0, 0, 0, 0.15) 20px
   );
+  background-size: 250% 250%;
 }
 .striped-btn.orange-btn {
   border: solid 2px #ff8833;
@@ -1731,6 +1736,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     rgba(0, 0, 0, 0.15) 10px,
     rgba(0, 0, 0, 0.15) 20px
   );
+  background-size: 250% 250%;
 }
 .striped-btn.purple-btn {
   border: solid 2px #652dc1;
@@ -1742,6 +1748,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     rgba(0, 0, 0, 0.15) 10px,
     rgba(0, 0, 0, 0.15) 20px
   );
+  background-size: 250% 250%;
 }
 .striped-btn.black-btn {
   border: solid 2px black;
@@ -1764,6 +1771,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
     rgba(0, 0, 0, 0.15) 10px,
     rgba(0, 0, 0, 0.15) 20px
   );
+  background-size: 250% 250%;
 }
 .next-arrow-btn {
   position: relative;
@@ -3879,6 +3887,126 @@ a.yellow-btn:active:not(.fill-color-btn) {
     color: cornsilk;
     text-shadow: 0px 0px 20px white;
     box-shadow: inset 0px 0px 5px cornsilk;
+  }
+}
+.striped-animated-btn.blue-btn {
+  border: solid 2px #50bfe6;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #50bfe6,
+    #50bfe6 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+  background-size: 250% 250%;
+}
+.striped-animated-btn.pink-btn {
+  border: solid 2px #d53caf;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #d53caf,
+    #d53caf 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+  background-size: 250% 250%;
+}
+.striped-animated-btn.red-btn {
+  border: solid 2px #ed0a3f;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ed0a3f,
+    #ed0a3f 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+  background-size: 250% 250%;
+}
+.striped-animated-btn.green-btn {
+  border: solid 2px #3aa655;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #3aa655,
+    #3aa655 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+  background-size: 250% 250%;
+}
+.striped-animated-btn.yellow-btn {
+  border: solid 2px #fbe870;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #fbe870,
+    #fbe870 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+  background-size: 250% 250%;
+}
+.striped-animated-btn.orange-btn {
+  border: solid 2px #ff8833;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ff8833,
+    #ff8833 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+  background-size: 250% 250%;
+}
+.striped-animated-btn.purple-btn {
+  border: solid 2px #652dc1;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #652dc1,
+    #652dc1 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+  background-size: 250% 250%;
+}
+.striped-animated-btn.white-btn {
+  border: solid 2px #fff;
+  color: black !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #fff,
+    #fff 10px,
+    rgba(0, 0, 0, 0.15) 10px,
+    rgba(0, 0, 0, 0.15) 20px
+  );
+  background-size: 250% 250%;
+}
+.striped-animated-btn.black-btn {
+  border: solid 2px black;
+  color: white !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    black,
+    black 10px,
+    rgba(255, 255, 255, 0.15) 10px,
+    rgba(255, 255, 255, 0.15) 20px
+  );
+  background-size: 400% 400%;
+}
+.striped-animated-btn:hover,
+.striped-animated-btn.animated {
+  animation: stripes 1s linear forwards infinite;
+}
+@keyframes stripes {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 100%;
   }
 }
 .star-btn {
