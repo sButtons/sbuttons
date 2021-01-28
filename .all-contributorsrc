@@ -1898,6 +1898,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ChristopherMarques",
+      "name": "Christopher Marques Corrêa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40878232?v=4",
+      "profile": "http://chrismarques.netlify.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
