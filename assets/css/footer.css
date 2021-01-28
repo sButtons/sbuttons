@@ -13,6 +13,7 @@ footer {
 
 .footer .row {
   min-height: 20vh;
+  width: 100%;
 }
 
 .footer-desc,
