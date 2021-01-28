@@ -50,10 +50,10 @@ You can download the CSS file [here](https://cdn.jsdelivr.net/gh/sButtons/sbutto
 
 ## CDN
 
-You can use the [CDN](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css):
+You can use the [CDN](https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css):
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css">
 ```
 
 ## NPM
