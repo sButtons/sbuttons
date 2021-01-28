@@ -642,6 +642,18 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "disco-btn",
+          label: "Disco",
+          classes: "disco-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              text: "Disco",
+            },
+          ],
+        },
       ],
     },
   ];
