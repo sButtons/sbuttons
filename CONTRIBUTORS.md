@@ -255,6 +255,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/Arnab-Bhakta"><img src="https://avatars3.githubusercontent.com/u/55293299?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arnab Bhakta</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Arnab-Bhakta" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AArnab-Bhakta" title="Bug reports">🐛</a> <a href="https://github.com/sButtons/sbuttons/commits?author=Arnab-Bhakta" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Hassan-Ib"><img src="https://avatars3.githubusercontent.com/u/53692907?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ibrahim Hassan-SilverTongue</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Hassan-Ib" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/alok1929"><img src="https://avatars1.githubusercontent.com/u/51386198?v=4?s=100" width="100px;" alt=""/><br /><sub><b>alok1929</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=alok1929" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/adityaraute"><img src="https://avatars.githubusercontent.com/u/43912470?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aditya Raute</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=adityaraute" title="Code">💻</a></td>
   </tr>
 </table>
 
