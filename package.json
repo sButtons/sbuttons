@@ -1,6 +1,6 @@
 {
   "name": "sbuttons",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple and creative buttons",
   "main": "index.html",
   "author": "Shahed Nasser",
@@ -22,18 +22,18 @@
     "watch": "concurrently \"npm run watch:less\" \"npm run lite\""
   },
   "devDependencies": {
+    "axios": ">=0.21.1",
     "clean-css-cli": "^4.3.0",
     "concurrently": "^5.3.0",
     "less": "^3.12.2",
     "less-watch-compiler": "^1.14.6",
     "lessc": "^1.0.2",
-    "lite-server": "^2.5.4",
+    "lite-server": "^2.6.1",
     "minimist": "^1.2.3",
     "node-less": "^1.0.0",
-    "onchange": "^7.0.2",
-    "prettier": "^2.1.1",
     "object-path": ">=0.11.5",
-    "axios": ">=0.21.1"
+    "onchange": "^7.0.2",
+    "prettier": "^2.1.1"
   },
   "bugs": {
     "url": "https://github.com/sButtons/sbuttons/issues",
