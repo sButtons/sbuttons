@@ -1879,6 +1879,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "mg143pavankumar",
+      "name": "Mistry Pavan Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68140538?v=4",
+      "profile": "https://mg143pavankumar.github.io/#/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
