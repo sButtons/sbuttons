@@ -17,7 +17,9 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
   - [Download CSS File](#download-css-file)
   - [CDN](#cdn)
   - [NPM](#npm)
-  - [Modifying Button Colors](#modifying-button-colors)
+   - [CSS](#css)
+   - [Less](#less)
+   - [Modifying Button Colors](#modifying-button-colors)
 - [Usage](#usage)
   - [Block Buttons](#block-buttons)
   - [Disabled Buttons](#disabled-buttons)
@@ -63,8 +65,20 @@ You can install sButtons using [NPM](https://www.npmjs.com/package/sbuttons):
 ```bash
 npm i sbuttons
 ```
+### CSS
 
-And then you can import the CSS file found in `dist/sbuttons.css` or the LESS file found in `src/sbuttons.less`.
+You can import the CSS file found in `dist/sbuttons.css` or `dist/sbuttons.min.css`:
+
+```CSS
+@import url('~sbuttons/dist/sbuttons.min.css');
+```
+### LESS
+
+you can also import the LESS file found in `src/sbuttons.less`:
+
+```less
+@import '~sbuttons/src/sbuttons.less';
+```
 
 ### Modifying Button Colors
 
