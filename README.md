@@ -32,9 +32,9 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
   - [Dark-Mode Button](#dark-mode-button)
     - [Adding dark-mode as a class](#Adding-dark-mode-as-a-class)
     - [Adding dark-mode as an attribute](#Adding-dark-mode-as-an-attribute)
-      
 - [Contribution](#contribution)
   - [Button ideas](#button-ideas)
+  - [Projects Using sButtons](#projects-using-sbuttons)
 - [Contributors](#contributors)
 - [LICENSE](#license)
 
@@ -202,6 +202,10 @@ You can also join or start [discussions](https://github.com/sButtons/sbuttons/di
 ### Button ideas
 
 If you would like to suggest a new button idea, please create a [new discussion](https://github.com/sButtons/sbuttons/discussions/new) with the category "idea".
+
+### Projects Using sButtons
+
+If your project uses sButtons, please submit it [here](https://github.com/sButtons/sbuttons/issues) to be added to the list of the websites using it!
 
 # Contributors
 
