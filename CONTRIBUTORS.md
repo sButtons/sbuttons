@@ -261,7 +261,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="https://github.com/ritvikmahajan17"><img src="https://avatars.githubusercontent.com/u/56093481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritvik Mahajan</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ritvikmahajan17" title="Code">💻</a></td>
     <td align="center"><a href="http://chrismarques.netlify.com"><img src="https://avatars.githubusercontent.com/u/40878232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher Marques Corrêa</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ChristopherMarques" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/fleventy-5"><img src="https://avatars.githubusercontent.com/u/78148524?v=4?s=100" width="100px;" alt=""/><br /><sub><b>fleventy-5</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=fleventy-5" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/fleventy-5"><img src="https://avatars.githubusercontent.com/u/78148524?v=4?s=100" width="100px;" alt=""/><br /><sub><b>fleventy-5</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=fleventy-5" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/commits?author=fleventy-5" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/davanu100"><img src="https://avatars.githubusercontent.com/u/45949662?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anurag Thakur</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=davanu100" title="Documentation">📖</a></td>
   </tr>
 </table>
