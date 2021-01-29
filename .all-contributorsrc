@@ -1916,6 +1916,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "davanu100",
+      "name": "Anurag Thakur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45949662?v=4",
+      "profile": "https://github.com/davanu100",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
