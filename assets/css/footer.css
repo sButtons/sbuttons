@@ -17,11 +17,15 @@ footer {
 }
 
 .footer-desc,
-.footer-logo,
-.footer-links {
+.footer-logo{
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.footer-links {
+  height: 100%;
+  display: flex;
   justify-content: center;
 }
 
@@ -29,9 +33,13 @@ footer {
 .footer-links {
   flex-direction: column;
 }
+.footer-desc {
+  padding-left: 80px;
+  padding-right: 80px;
+}
 
 .footer-logo img {
-  width: 50%;
+  width: 100%;
 }
 
 .footer a {
