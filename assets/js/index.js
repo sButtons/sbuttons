@@ -334,6 +334,8 @@ $(document).ready(function () {
   // Re-determine on/off of the scrollHanlder when the window is resized
   window.addEventListener("resize", addScrollHandler);
 });
+
+//function to copy link
 function copyLink(item){
         var temp = document.createElement('input');
         text =item.href;
