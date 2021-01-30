@@ -303,3 +303,6 @@ button.clipboard:focus {
 [data-theme="dark"] .nav-link.active:hover {
   color: var(--main-color);
 }
+.icon-link{
+  padding: 10px;
+}

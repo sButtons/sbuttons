@@ -334,3 +334,12 @@ $(document).ready(function () {
   // Re-determine on/off of the scrollHanlder when the window is resized
   window.addEventListener("resize", addScrollHandler);
 });
+function copyLink(item){
+        var temp = document.createElement('input');
+        text =item.href;
+        temp.value = text;
+        document.body.appendChild(temp);
+        temp.select();
+        document.execCommand('copy'); 
+        document.body.removeChild(temp);
+  }
