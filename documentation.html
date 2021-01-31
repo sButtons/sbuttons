@@ -119,6 +119,10 @@
               <a href="#downloadcss" class="submenu-link">Download CSS File</a>
               <a href=" #cdn" class="submenu-link">Install with CDN</a>
               <a href="#npm" class="submenu-link">Install with NPM</a>
+              <div class="submenu-links">
+                <a href="#css" class="submenu-link">CSS</a>
+                <a href="#less" class="submenu-link">LESS</a>
+              </div>
             </div>
 
             <a href="#usage" class="usage has-children-links">Usage</a>
@@ -222,14 +226,34 @@
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
           </div>
-          <div class="text">
-            And then you can import the CSS file found in <span class="code-text">dist/sbuttons.css</span> or the
-            LESS file found in <span class="code-text">src/sbuttons.less</span>.
-          </div>
         </section>
+        <section class="instruction-block" id="css">
+          <h4 class="display-inlineBlock">CSS</h4>
+            <div class="text">
+             You can import the CSS file found in <span class="code-text">dist/sbuttons.css</span> or <span class="code-text">dist/sbuttons.min.css</span>:
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-javascript">@import url('~sbuttons/dist/sbuttons.min.css');</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+        </section>
+        <section class="instruction-block" id="less">
+          <h4 class="display-inlineBlock">LESS</h4>
+            <div class="text">
+             You can also import the LESS file found in <span class="code-text">src/sbuttons.less</span>:
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-javascript">@import '~sbuttons/src/sbuttons.less';</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+        </section>
+          
         <section class="instruction-block" id="modify">
           <h2>Modifying Button Colors</h2>
-
           <div class="text">
             <p>To modify button colors, import <span class="code-text">src/sbuttons.less</span> in your Less file,
               then make changes to the variables after the import.</p>
@@ -237,7 +261,7 @@
           </div>
           <div class="code-block-container">
             <div class="script-copy">
-              <pre><code class="language-javascript">import '/path/to/sbuttons.less';</code></pre>
+              <pre><code class="language-javascript">@import '/path/to/sbuttons.less';</code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
             <div class="script-copy">
