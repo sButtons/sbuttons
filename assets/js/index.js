@@ -333,15 +333,18 @@ $(document).ready(function () {
   addScrollHandler();
   // Re-determine on/off of the scrollHanlder when the window is resized
   window.addEventListener("resize", addScrollHandler);
-});
-
-//function to copy link
-function copyLink(item){
+  
+  
+  //function to copy link
+   $(".icon-link").click(function copyLink(){
         var temp = document.createElement('input');
-        text =item.href;
+        text =this.href;
         temp.value = text;
         document.body.appendChild(temp);
         temp.select();
         document.execCommand('copy'); 
         document.body.removeChild(temp);
-  }
+  })
+});
+
+
