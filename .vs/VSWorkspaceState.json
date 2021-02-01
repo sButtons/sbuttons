@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\assets",
+    "\\assets\\js"
   ],
   "PreviewInSolutionExplorer": false
 }
