@@ -53,14 +53,18 @@ section {
 }
 
 .section-header {
-  text-align: center;
+  /*text-align: center;*/
+  display: inline-block;
+  margin-left: 37%;
 }
 
 .section-sub-header {
   color: #444343;
-  text-align: center;
+  /*text-align: center;*/
   font-size: 2rem;
   margin-bottom: 2rem;
+  display: inline-block;
+  margin-left: 45%;
 }
 
 [data-theme="dark"] .button-caption-sub,
