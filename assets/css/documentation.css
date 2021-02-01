@@ -22,6 +22,10 @@ section {
   font-family: "Syne", sans-serif;
 }
 
+.text-under-button {
+  padding-top: 1em;
+}
+
 .code-text {
   font-family: monospace;
 }
