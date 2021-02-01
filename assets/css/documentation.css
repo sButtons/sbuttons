@@ -23,10 +23,6 @@ section {
 }
 
 .text-under-button {
-  font-size: 1rem;
-  color: black;
-  word-wrap: break-word;
-  font-family: "Syne", sans-serif;
   padding-top: 1em;
 }
 
