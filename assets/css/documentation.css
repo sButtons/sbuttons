@@ -74,3 +74,7 @@ section {
 .margin-left--half {
   margin-left: 0.5rem;
 }
+
+.line-break {
+  margin-bottom: 15px;
+}
