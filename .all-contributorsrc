@@ -1945,6 +1945,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "rblaq",
+      "name": "Rayan Blaq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78324035?v=4",
+      "profile": "https://rayanblaq.xyz",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

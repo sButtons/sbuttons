@@ -265,6 +265,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/davanu100"><img src="https://avatars.githubusercontent.com/u/45949662?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anurag Thakur</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=davanu100" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/jleckron"><img src="https://avatars.githubusercontent.com/u/56288842?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jleckron</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=jleckron" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Ajleckron" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://victoronwuzor.io/"><img src="https://avatars.githubusercontent.com/u/17351527?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Onwuzor Victor</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=onwuvic" title="Code">💻</a></td>
+    <td align="center"><a href="https://rayanblaq.xyz"><img src="https://avatars.githubusercontent.com/u/78324035?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rayan Blaq</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=rblaq" title="Documentation">📖</a></td>
   </tr>
 </table>
 
