@@ -742,7 +742,7 @@ $(document).ready(function () {
     var section = $('<section id="' + button.type + '">');
     // Adding the required heading to the section
     section.append(
-      `<${heading} class=${headerClass}>${button.label}<a  href="#${button.type}"  onclick=copyLink(this)  class="icon-link"><i class="fas fa-link"  ></i></a></${heading}>`
+      `<${heading} class=${headerClass}>${button.label}</${heading}><a  href="#${button.type}"  class="icon-link"><i class="fas fa-link "  ></i></a>`
     );
 
     if (button.hasOwnProperty("children") && button.children.length) {
