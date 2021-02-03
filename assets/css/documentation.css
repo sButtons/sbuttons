@@ -78,7 +78,9 @@ section {
 .line-break {
   margin-bottom: 15px;
 }
-.container h1,h2,h3,h4{
+.container h1,
+h2,
+h3,
+h4 {
   display: inline-block;
 }
-

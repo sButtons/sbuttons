@@ -304,8 +304,6 @@ button.clipboard:focus {
   color: var(--main-color);
 }
 
-.icon-link{
-  padding: 10px; 
+.icon-link {
+  padding: 10px;
 }
-
-
