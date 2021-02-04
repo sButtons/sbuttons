@@ -267,6 +267,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://victoronwuzor.io/"><img src="https://avatars.githubusercontent.com/u/17351527?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Onwuzor Victor</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=onwuvic" title="Code">💻</a></td>
     <td align="center"><a href="https://rayanblaq.xyz"><img src="https://avatars.githubusercontent.com/u/78324035?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rayan Blaq</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=rblaq" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/pri1311"><img src="https://avatars.githubusercontent.com/u/64613009?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Priya Nagda</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pri1311" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
