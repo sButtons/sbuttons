@@ -296,6 +296,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-radius: 50px;
   padding: 5px 20px;
   position: relative;
+  transition: all 0.2s;
 }
 .glossy-btn:hover {
   box-shadow: 0 2px 1px rgba(128, 128, 128, 0.3);
