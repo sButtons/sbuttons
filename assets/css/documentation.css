@@ -19,7 +19,11 @@ section {
   font-size: 1rem;
   color: black;
   word-wrap: break-word;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-under-button {
+  padding-top: 1em;
 }
 
 .code-text {
@@ -69,4 +73,14 @@ section {
 
 .margin-left--half {
   margin-left: 0.5rem;
+}
+
+.line-break {
+  margin-bottom: 15px;
+}
+.container h1,
+h2,
+h3,
+h4 {
+  display: inline-block;
 }

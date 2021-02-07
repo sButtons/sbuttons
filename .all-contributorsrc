@@ -1926,6 +1926,52 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jleckron",
+      "name": "jleckron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56288842?v=4",
+      "profile": "https://github.com/jleckron",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "onwuvic",
+      "name": "Onwuzor Victor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17351527?v=4",
+      "profile": "https://victoronwuzor.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rblaq",
+      "name": "Rayan Blaq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78324035?v=4",
+      "profile": "https://rayanblaq.xyz",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "3n1k0",
+      "name": "Eniko Kosztolanyi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32710850?v=4",
+      "profile": "https://eniko.dev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "pri1311",
+      "name": "Priya Nagda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64613009?v=4",
+      "profile": "https://github.com/pri1311",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
