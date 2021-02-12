@@ -1,5 +1,5 @@
 body {
-  font-family: "Philosopher";
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-content {
@@ -123,10 +123,11 @@ body {
 
 .sidebar-list a,
 .instructions-sidebar a {
-  font-family: Syne, sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 15px;
   display: block;
+  line-height: 26px;
 }
 
 .sidebar-list::-webkit-scrollbar,
