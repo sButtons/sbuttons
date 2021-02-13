@@ -143,6 +143,11 @@ a:hover {
   animation: slide-in-right 1s 0.5s forwards;
 }
 
+.doc-logo{
+  margin-left: 0;
+  transform: scale(1.15);
+}
+
 @keyframes slide-in-right {
   from {
     transform: translateX(20%);
