@@ -193,6 +193,31 @@ a:hover {
   display: none;
 }
 
+@media (max-width: 767px) {
+  .navbar .download-link,
+  .navbar .toggle-theme {
+    font-size: 1.15rem;
+  }
+
+  .navbar:not(.scrolling) {
+    justify-content: space-between;
+  }
+
+  .shades {
+    height: 60vh;
+  }
+
+  .content {
+    margin-top: 10vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .shades {
+    height: 70vh;
+  }
+}
+
 @media (max-width: 450px) {
   .main-head {
     height: auto !important;
@@ -225,28 +250,46 @@ a:hover {
   }
 
   .content.row {
-    margin-top: 26vh;
+    margin-top: 10vh;
+  }
+
+  .shades {
+    height: 60vh;
   }
 }
 
-@media (max-width: 767px) {
-  .navbar .download-link,
-  .navbar .toggle-theme {
-    font-size: 1.15rem;
-  }
-
-  .navbar:not(.scrolling) {
-    justify-content: space-between;
-  }
-}
 
 @media (min-width: 768px) {
   .navbar .toggle-theme {
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 360px) {
+  .shades {
+    height: 55vh;
+  }
+
+  .banner-head h1 {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem !important;
+  }
+
+  .banner-links a {
+    font-size: 0.75rem;
+  }
+}
+
 @media (max-width: 321px) {
   .buttons {
     display: none;
   }
+
+  .shades {
+    height: 65vh;
+  }
 }
+
