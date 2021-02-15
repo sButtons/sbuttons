@@ -639,6 +639,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .rounded-bottom-btn {
   border-radius: 0 0 24px 24px;
+  transition: all 0.2s;
 }
 .rounded-bottom-btn:hover {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
