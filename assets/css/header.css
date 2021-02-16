@@ -196,7 +196,7 @@ a:hover {
 @media (max-width: 767px) {
   .navbar .download-link,
   .navbar .toggle-theme {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 
   .navbar:not(.scrolling) {
@@ -204,7 +204,7 @@ a:hover {
   }
 
   .shades {
-    height: 60vh;
+    height: 65vh;
   }
 
   .content {
@@ -214,7 +214,7 @@ a:hover {
 
 @media (max-width: 500px) {
   .shades {
-    height: 70vh;
+    height: 75vh;
   }
 }
 
