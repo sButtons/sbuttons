@@ -1,0 +1,38 @@
+.like-btn-hovered() {
+  font-weight: 900;
+  animation-play-state: running;
+  color: @darkRed;
+}
+
+.like-btn {
+  animation: heartbeat 1s linear both infinite paused;
+  &:before {
+    color: @darkRed;
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  &:hover,
+  &.hovered {
+    .like-btn-hovered();
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
