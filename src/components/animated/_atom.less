@@ -83,8 +83,7 @@
     .animationObjectRule();
   }
 
-  &:hover::after,
-  &:focus::after {
+  &:hover::after {
     .animationRule();
   }
 
@@ -116,13 +115,6 @@
   &.black-btn {
     [data-theme="dark"] &,
     &.dark-mode {
-      .atomDarkMode();
-    }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    &.white-btn,
-    &.black-btn {
       .atomDarkMode();
     }
   }

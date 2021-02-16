@@ -1,5 +1,5 @@
 footer {
-  font-family: Syne, sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0px 2%;
   background-color: #e6e6e6;
 }
@@ -13,6 +13,7 @@ footer {
 
 .footer .row {
   min-height: 20vh;
+  width: 100%;
 }
 
 .footer-desc,

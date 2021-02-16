@@ -2,6 +2,8 @@
 
 If you have a new button style you would like to add or any fixes you want to contribute, be sure to follow this guideline.
 
+You can also join or start [discussions](https://github.com/sButtons/sbuttons/discussions) with the community members if you have any ideas or questions!
+
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
 ## Important Notes
@@ -85,13 +87,12 @@ When adding a new animated button, you need to place the animation or transition
 
 All buttons need to support dark mode when needed. If your button on dark mode does not look so good (problem with the color, animation, etc...), you need to do the following:
 
-1. add a `dark-mode` class to the button
+1. add a `dark-mode` class to the button.
 2. add support for having a parent with `[data-theme="dark"]`.
-3. add support to the [dark mode media query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme).
 
 ## Button Ideas
 
-If you would like to suggest a new button idea, please create a "New Button Idea" Issue.
+If you would like to suggest a new button idea, please create a [new discussion](https://github.com/sButtons/sbuttons/discussions/new) with the category "idea".
 
 ## Create Pull Request
 

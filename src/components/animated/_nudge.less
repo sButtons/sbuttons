@@ -1,6 +1,13 @@
+.nudgeAnimation() {
+  animation: nudge 0.75s;
+}
 .nudge-btn {
-  &:hover {
-    animation: nudge 0.75s;
+  &:hover,
+  &.animated {
+    .nudgeAnimation();
+  }
+  &.animated {
+    animation-iteration-count: infinite;
   }
 
   @keyframes nudge {

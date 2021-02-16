@@ -12,15 +12,14 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"/>
   <link href="dist/sbuttons.css" rel="stylesheet" />
   <link href="assets/css/variables.css" rel="stylesheet" />
   <link href="assets/css/header.css" rel="stylesheet" />
   <link href="assets/css/footer.css" rel="stylesheet" />
   <link href="assets/css/main.css" rel="stylesheet" />
   <link href="assets/css/documentation.css" rel="stylesheet" />
+  <link href="assets/css/carbon.css" rel="stylesheet" />
 
 
   <!-- seo friendly og tags-->
@@ -105,11 +104,8 @@
       </div>
     </div>
   </header>
-
+  <script async type="text/javascript" src="https://cdn.carbonads.com/carbon.js?serve=CEBILKJI&placement=sbuttonsgithubio" id="_carbonads_js"></script>
   <div class="main-content">
-    <div class="main-head">
-      <h1>Get Started with sButtons</h1>
-    </div>
     <div class="row">
       <div class="col-md-3 d-md-block sidebar-div">
         <div class="sidebar hide-sidebar animate__animated animate__slideInLeft">
@@ -117,9 +113,13 @@
           <div class="instructions-sidebar">
             <a href="#install" class="install has-children-links">Installation</a>
             <div class="submenu-links">
-              <a href="#downloadcss" class="submenu-link"">Download CSS File</a>
-              <a href="#cdn" class="submenu-link">Install with CDN</a>
+              <a href="#downloadcss" class="submenu-link">Download CSS File</a>
+              <a href=" #cdn" class="submenu-link">Install with CDN</a>
               <a href="#npm" class="submenu-link">Install with NPM</a>
+              <div class="submenu-links">
+                <a href="#css" class="submenu-link">CSS</a>
+                <a href="#less" class="submenu-link">LESS</a>
+              </div>
             </div>
 
             <a href="#usage" class="usage has-children-links">Usage</a>
@@ -127,24 +127,44 @@
               <a href="#modify" class="submenu-link">Modify Button Colors</a>
               <a href="#basic" class="submenu-link">Basic Button</a>
               <a href="#block" class="submenu-link">Block Button</a>
-              <a href="#disabled" class="submenu-link" >Disabled Button</a>
+              <a href="#disabled" class="submenu-link">Disabled Button</a>
               <a href="#base" class="submenu-link">Base Icon Button</a>
               <div class="submenu-links">
                 <a href="#iconNoBg" class="submenu-link">Icon With No Background</a>
                 <a href="#iconPositionLeft" class="submenu-link">Icon Positioned to The Left</a>
                 <a href="#iconPositionRight" class="submenu-link">Icon Positioned to The Right</a>
               </div>
+
+              <a href="#toggle" class="submenu-link">Toggle Button</a>
+              <div class="submenu-links">
+                <a href="#toggleCheckbox" class="submenu-link">Toggle Button as Checkboxes</a>
+                <a href="#toggleRadio" class="submenu-link">Toggle Button as Radio Button</a>
+              </div>
+
+              <a href="#dark-mode" class="submenu-link">Dark-Mode Button</a>
+              <div class="submenu-links">
+                <a href="#dark-modeClass" class="submenu-link">Adding dark-mode as a class</a>
+                <a href="#dark-modeElement" class="submenu-link">Adding dark-mode as an attribute</a>
+              </div>
+
             </div>
+
+
 
           </div>
         </div>
       </div>
-      <div class="col col-lg-9 col-12">
+      <div class=" col-md-9 col-12">
+        <div class="container">
+
+          <div class="main-head text-left">
+          <h1>Get Started with sButtons</h1>
+        </div>
         <section class="instruction-block" id="downloadcss">
-          <h2>Download CSS File</h2>
+          <h2>Download CSS File</h2><a  href="#downloadcss" class="icon-link"><i class="fas fa-link"  ></i></a>
           <div class="text">
             You can download the CSS file
-            <a href="#" id="downloadGithubRawHowTo" class="cssLink">here</a> and then add it to your
+            <a href="#!" id="downloadGithubRawHowTo" class="cssLink">here</a> and then add it to your
             html file in between the tags.
           </div>
           <div class="text">
@@ -166,7 +186,7 @@
 
         </section>
         <section class="instruction-block" id="cdn">
-          <h2>CDN</h2>
+          <h2>CDN</h2><a  href=" #cdn"  class="icon-link"><i class="fas fa-link"  ></i></a>
 
           <div class="text">
             Or instead of downloading the file, you can use the CDN
@@ -174,7 +194,7 @@
 
           <div class="code-block-container">
             <div class="script-copy">
-              <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/sButtons/sbuttons/c135f5f7/dist/sbuttons.min.css"></code></pre>
+              <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css"></code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
 
@@ -192,7 +212,7 @@
 
         </section>
         <section class="instruction-block" id="npm">
-          <h2>NPM</h2>
+          <h2>NPM</h2><a  href="#npm"  class="icon-link"><i class="fas fa-link"  ></i></a>
 
           <div class="text">
             You can install sButtons using NPM:
@@ -203,22 +223,43 @@
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
           </div>
-          <div class="text">
-            And then you can import the CSS file found in <span class="code-text">dist/sbuttons.css</span> or the
-            LESS file found in <span class="code-text">src/sbuttons.less</span>.
-          </div>
         </section>
+        <section class="instruction-block" id="css">
+          <h4 class="display-inlineBlock">CSS</h4><a  href="#css" class="icon-link"><i class="fas fa-link"  ></i></a>
+            <div class="text">
+             You can import the CSS file found in <span class="code-text">dist/sbuttons.css</span> or <span class="code-text">dist/sbuttons.min.css</span>:
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-css">@import url('~sbuttons/dist/sbuttons.min.css');</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+        </section>
+        <section class="instruction-block" id="less">
+          <h4 class="display-inlineBlock">LESS</h4><a  href="#less" class="icon-link"><i class="fas fa-link"  ></i></a>
+            <div class="text">
+             You can also import the LESS file found in <span class="code-text">src/sbuttons.less</span>:
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-less">@import '~sbuttons/src/sbuttons.less';</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+        </section>
+          
         <section class="instruction-block" id="modify">
-          <h2>Modifying Button Colors</h2>
+          <h2>Modifying Button Colors</h2><a  href="#modify"     class="icon-link"><i class="fas fa-link"  ></i></a>
 
           <div class="text">
-            <p>To modify button colors, import <span class="code-text">src/sbuttons.less</span> in your Less file,
+            <p>To modify button colors, import <span class="code-text">src/_variables.less</span> in your Less file,
               then make changes to the variables after the import.</p>
             <p>For example, to change the blue color to a different shade</p>
           </div>
           <div class="code-block-container">
             <div class="script-copy">
-              <pre><code class="language-javascript">import '/path/to/sbuttons.less';</code></pre>
+              <pre><code class="language-javascript">@import '/path/to/_variables.less';</code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
             <div class="script-copy">
@@ -227,16 +268,16 @@
             </div>
           </div>
           <div class="text">
-            Check out <a href="https://github.com/sButtons/sbuttons/blob/master/src/sbuttons.less"
-              target="_blank">sbuttons.less</a> for the full list of variables.
+            Check out <a href="https://github.com/sButtons/sbuttons/blob/master/src/_variables.less"
+              target="_blank">_variables.less</a> for the full list of variables.
           </div>
         </section>
 
         <section class="instruction-block" id="basic">
-          <h2 class="display-inlineBlock">Basic Button</h2>
+          <h2 class="display-inlineBlock">Basic Button</h2><a  href="#basic" class="icon-link"><i class="fas fa-link"  ></i></a>
           <button class="sbtn basic-btn blue-btn display-inlineBlock margin-left--half">Button</button>
 
-          <div class="text">
+          <div class="text text text-under-button">
             To use sButtons in your project, just add the classes of sButton you want to either
             <span class="code-text">&lt;button&gt;</span>
             or
@@ -256,31 +297,30 @@
         </section>
 
         <section class="instruction-block" id="block">
-          <h2>Block Buttons</h2>
+          <h2>Block Buttons</h2><a  href="#block"     class="icon-link"><i class="fas fa-link"  ></i></a>
           <button class="sbtn basic-btn blue-btn block-btn">Button</button>
 
-          <div class="text">
+          <div class="text text-under-button">
             To use sButtons with block display, add the class to either <span class="code-text">&lt;button&gt;</span> or
             <span class="code-text">&lt;a&gt;</span> tags
           </div>
-          <div class="code-block-container">
+          <div class="code-block-container line-break">
             <div class="script-copy">
               <pre><code class="language-markup">&lt;button class="sbtn basic-btn block-btn"&gt;Button&lt;/button&gt;</code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
           </div>
-          <br />
         </section>
 
         <section class="instruction-block" id="disabled">
-          <h2 class="display-inlineBlock">Disabled Buttons</h2>
+          <h2 class="display-inlineBlock">Disabled Buttons</h2><a  href="#disabled"     class="icon-link"><i class="fas fa-link"  ></i></a>
           <button class="sbtn basic-btn blue-btn disabled-btn display-inlineBlock margin-left--half">Button</button>
 
-          <div class="text">
+          <div class="text text-under-button">
             To make a <span class="code-text">&lt;button&gt;</span> or <span class="code-text">&lt;a&gt;</span> tag
             disabled, add disabled-btn class as shown below.
           </div>
-          <div class="code-block-container">
+          <div class="code-block-container line-break">
             <div class="script-copy">
               <pre><code class="language-markup">&lt;button class="sbtn basic-btn blue-btn disabled-btn"&gt;Button&lt;/button&gt;</code></pre>
               <div class="div-copy"><button class="clipboard"></button></div>
@@ -290,38 +330,43 @@
               <div class="div-copy"><button class="clipboard"></button></div>
             </div>
           </div>
-          <br />
         </section>
         <!-- base button class without any icon starts here -->
         <section class="instruction-block" id="base">
-          <h2 id="base-icon-btn">Base Icon Button</h2>
+          <h2 id="base-icon-btn">Base Icon Button</h2><a  href="#base"     class="icon-link"><i class="fas fa-link"  ></i></a>
           <div class="text">
+          <div class="text line-break">
             The <code>base-icon-btn</code> class enables you to have a normal, customizable button.
             Using it, you decide to add any fontawesome icon in it. You can choose to either place it on the
-             left or right side of the button with the available classes.
+            left or right side of the button with the available classes.
           </div>
-          <br />
+
           <section class="instruction-block" id="iconNoBg">
-            <h4 class="display-inlineBlock">Icon With No Background</h4>
+            <h4 class="display-inlineBlock">Icon With No Background</h4><a  href="#iconNoBg"     class="icon-link"><i class="fas fa-link"  ></i></a>
             <div class="text">
-              The <code>base-icon-btn</code> class alone gives you a default button with no background color and a border.
-              <br><br>
-              <button class="sbtn base-icon-btn">
+              <p class="line-break">
+                The <code>icon-btn</code> class alone gives you a default button with no background color and a
+                border.
+              </p>
+
+              <button class="sbtn icon-btn">
                 <i class="fas fa-book"></i>
               </button>
             </div>
             <div class="code-block-container">
               <div class="script-copy">
-                <pre><code class="language-markup">&lt;button class="sbtn base-icon-btn"&gt;&lt;i class="fas fa-book"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
+                <pre><code class="language-markup">&lt;button class="sbtn icon-btn"&gt;&lt;i class="fas fa-book"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
                 <div class="div-copy"><button class="clipboard"></button></div>
               </div>
             </div>
           </section>
           <section class="instruction-block" id="iconPositionLeft">
-            <h4 class="display-inlineBlock">Icon Positioned to The Left</h4>
+            <h4 class="display-inlineBlock">Icon Positioned to The Left</h4><a  href="#iconPositionLeft"     class="icon-link"><i class="fas fa-link"  ></i></a>
             <div class="text">
-              Adding the <code>left-icon</code> class to a button makes the icon positioned to the left. For example:
-              <br><br>
+              <p class="line-break">
+                Adding the <code>left-icon</code> class to a button makes the icon positioned to the left. For example:
+              </p>
+
               <button class="sbtn base-icon-btn icon-left orange-btn">
                 <i class="fas fa-book"></i>
                 To the Left
@@ -335,10 +380,12 @@
             </div>
           </section>
           <section class="instruction-block" id="iconPositionRight">
-            <h4 class="display-inlineBlock">Icon Positioned to The Right</h4>
+            <h4 class="display-inlineBlock">Icon Positioned to The Right</h4><a  href="#iconPositionRight"     class="icon-link"><i class="fas fa-link"  ></i></a>
             <div class="text">
-              Adding the <code>right-icon</code> class to a button makes the icon positioned to the right. For example:
-              <br><br>
+              <p class="line-break">
+                Adding the <code>right-icon</code> class to a button makes the icon positioned to the right. For example:
+              </p>
+
               <button class="sbtn base-icon-btn icon-right orange-btn">
                 To the Right
                 <i class="fas fa-book"></i>
@@ -352,6 +399,125 @@
             </div>
           </section>
         </section>
+        <!-- Toggle button class starts here -->
+        <section class="instruction-block" id="toggle">
+          <h2 id="base-icon-btn">Toggle Button</h2><a  href="#toggle"     class="icon-link"><i class="fas fa-link"  ></i></a>
+          <div class="text">
+          <div class="text line-break">
+            The <code>toggle-btn</code> class along with the <code>toggle-off-btn</code> / <code>toggle-on-btn</code>
+            state class enables you to have a toggle button. Apart from the basic use, it can also be used for
+            checkboxes and radio buttons. While not necessary, you can use the available state classes to choose whether
+            your checkboxes and radio buttons are checked or not.
+          </div>
+          
+          <section class="instruction-block" id="toggleCheckbox">
+            <h4 class="display-inlineBlock">Toggle Button as Checkboxes</h4><a  href="#toggleCheckbox"     class="icon-link"><i class="fas fa-link"  ></i></a>
+            <div class="text">
+              <p class="line-break">
+                Adding the <code>toggle-btn</code> class to your checkbox inputs converts them to toggle buttons. For
+                example:
+              </p>
+
+              <input type="checkbox" class="sbtn toggle-btn" />
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-markup">&lt;input type="checkbox" class="sbtn toggle-btn"/&gt;</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+          </section>
+          <section class="instruction-block" id="toggleRadio">
+            <h4 class="display-inlineBlock">Toggle Button as Radio Button</h4><a  href="#toggleRadio"     class="icon-link"><i class="fas fa-link"  ></i></a>
+            <div class="text">
+              <p class="line-break">
+                Adding the <code>toggle-btn</code> class to your radio inputs converts them to toggle buttons. For
+                example:
+              </p>
+              
+              <h5 class="display-inlineBlock">Select favourite car brand : </h5>
+              <div class="row line-break">
+                <div class="collumn" style="margin-left: 40px;">
+
+                  <div class="row p-1">
+                    <input type="radio" class="sbtn toggle-btn" name="selectOption">
+                    <label class=" px-2 lead" style="margin-top:auto;">Tesla</label>
+                  </div>
+
+                  <div class="row p-1">
+                    <input type="radio" class="sbtn toggle-btn" name="selectOption">
+                    <label class=" px-2 lead" style="margin-top:auto;">Budgati</label>
+                  </div>
+
+                  <div class="row p-1">
+                    <input type="radio" class="sbtn toggle-btn" name="selectOption">
+                    <label class=" px-2 lead" style="margin-top:auto;">Ferrari</label>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-markup">&lt;input type="radio" class="sbtn toggle-btn"/&gt;</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+          </section>
+
+        </section>
+
+
+
+        <!-- Dark button class starts here -->
+
+        <section class="instruction-block" id="dark-mode">
+          <h2>Dark-Mode Button</h2><a  href="#dark-mode"     class="icon-link"><i class="fas fa-link"  ></i></a>
+          <div class="text">
+            The <code>dark-mode</code> class enables you to have a dark mode for a button by adding
+            <code>dark-mode</code> class to the button
+            or by adding <code>data-theme="dark"</code> to a container element like the div element.
+          </div>
+
+          <section class="instruction-block" id="dark-modeClass">
+            <h4 class="display-inlineBlock">Adding dark-mode as a class</h4><a  href="#dark-modeClass"     class="icon-link"><i class="fas fa-link"  ></i></a>
+            <div class="text">
+              <p class="line-break">
+                Adding the <code>dark-mode</code> class :
+              </p>
+
+              <button class="sbtn dashed-btn orange-btn dark-mode">Dark-Mode </button>
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-markup">&lt;button class="sbtn dashed-btn orange-btn dark-mode"&gt;Dark-Mode &lt;/button&gt;</code></pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="instruction-block" id="dark-modeElement">
+            <h4 class="display-inlineBlock">Adding dark-mode as an attribute</h4><a  href="#dark-modeElement"     class="icon-link"><i class="fas fa-link"  ></i></a>
+            <div class="text">
+              Adding the <code>data-theme="dark"</code> as an attribute to a div element .It can be added to any
+              container element
+              of the button
+
+
+              <div data-theme="dark">
+                <button class="sbtn dashed-btn orange-btn">Dark Mode</button>
+              </div>
+            </div>
+            <div class="code-block-container">
+              <div class="script-copy">
+                <pre><code class="language-markup">&lt;body data-theme="dark"&gt;&lt;button class="sbtn dashed-btn orange-btn"&gt;Dark-Mode&lt;/button&gt;&lt;/body&gt;</code>
+                </pre>
+                <div class="div-copy"><button class="clipboard"></button></div>
+              </div>
+          </section>
+        <!--Closing tag for container-->
+        </div>
       </div>
     </div>
   </div>
@@ -364,21 +530,25 @@
       <div class="col-md-3">
         <div class="footer-desc">
           <p>Every Cool and Awesome button you see here has been made possible with the help of our awesome <a
-            href="https://github.com/sButtons/sbuttons/blob/master/CONTRIBUTORS.md">contributors</a>!</p>
+              href="https://github.com/sButtons/sbuttons/blob/master/CONTRIBUTORS.md">contributors</a>!</p>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-block">
         <div class="footer-logo">
           <img src="assets/img/sbuttons.png" alt="">
-          <p class="credit">Logo made by <a href="https://www.github.com/icoderharshit" title="Harshit Sharma">Harshit Sharma</a>
+          <p class="credit">Logo made by <a href="https://www.github.com/icoderharshit" title="Harshit Sharma">Harshit
+              Sharma</a>
           </p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="footer-links">
-          <a href="https://github.com/sButtons/sbuttons" target="_blank" title="View on Github"> <i class="fab fa-github"></i> GitHub</a>
-          <a href="https://github.com/sButtons/sbuttons" target="_blank" title="View on Github"> <i class="fas fa-book"></i> Examples</a>
-          <a href="https://github.com/sButtons/sbuttons/issues/new/choose" target="_blank" title="View on Github"> <i class="fas fa-bug"></i> Report A Bug</a>
+          <a href="https://github.com/sButtons/sbuttons" target="_blank" title="View on Github"> <i
+              class="fab fa-github"></i> GitHub</a>
+          <a href="https://github.com/sButtons/sbuttons" target="_blank" title="View on Github"> <i
+              class="fas fa-book"></i> Examples</a>
+          <a href="https://github.com/sButtons/sbuttons/issues/new/choose" target="_blank" title="View on Github"> <i
+              class="fas fa-bug"></i> Report A Bug</a>
 
         </div>
       </div>
@@ -401,3 +571,4 @@
 </body>
 
 </html>
+

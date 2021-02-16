@@ -5,7 +5,7 @@ section {
 
 @media screen and (max-width: 442px) {
   .main-head {
-    padding-bottom: 18em;
+    padding-bottom: 20px;
   }
 }
 
@@ -54,6 +54,8 @@ section {
 
 .section-header {
   text-align: center;
+  display: inline-block;
+  margin-left: 36%;
 }
 
 .section-sub-header {
@@ -61,6 +63,8 @@ section {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
+  display: inline-block;
+  margin-left: 45%;
 }
 
 [data-theme="dark"] .button-caption-sub,
@@ -74,7 +78,7 @@ section {
 }
 
 .social-btn {
-  font-family: "Syne", sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .tagline {
@@ -86,7 +90,7 @@ section {
 }
 
 .appstore-btn {
-  font-family: "Syne" !important;
+  font-family: "Montserrat", sans-serif;
 }
 
 .loader {

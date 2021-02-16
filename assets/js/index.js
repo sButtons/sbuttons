@@ -27,6 +27,8 @@ $(document).ready(function () {
     );
   };
 
+  $(".sidebar").addClass("sidebar-shiftdown");
+
   // Sidebar Links section
   function checkActiveCategory() {
     $("section").each(function () {
@@ -71,15 +73,25 @@ $(document).ready(function () {
   );
 
   // Navbar toggle here
+
   function checkSidebar() {
     if ($(".main-head").length) {
+      let scroll = $(window).scrollTop();
+      var w = window.innerWidth;
       if (!$(".main-head").isOnScreen()) {
-        $(".sidebar").addClass("scrolling");
+        if (scroll > 450) {
+          $(".sidebar").addClass("scrolling");
+          $(".sidebar").removeClass("sidebar-shiftdown");
+        }
       } else {
         $(".sidebar").removeClass("scrolling");
+        $(".sidebar").addClass("sidebar-shiftdown");
       }
     }
-
+    if (w < 990) {
+      $(".sidebar").addClass("scrolling");
+      //$(".sidebar").css("padding-top", 0%);
+    }
     if ($(".footer").length) {
       if (!$(".footer").isOnScreen()) {
         $(".sidebar").removeClass("height-shift");
@@ -89,6 +101,13 @@ $(document).ready(function () {
     }
   }
 
+  //to display sidebar in mobilescreen
+  window.addEventListener("resize", () => {
+    if (window.innerWidth <= 991) {
+      $(".sidebar").addClass("scrolling");
+    }
+  });
+
   // Back-to-Top button toggles here
   function checkScrollTop() {
     if ($(window).scrollTop() > 100) {
@@ -97,6 +116,15 @@ $(document).ready(function () {
       $(".scroll-top").fadeOut();
     }
   }
+
+  //to make sidebar hide while resizing to large screen
+  window.addEventListener("resize", function () {
+    var w = window.innerWidth;
+    if (w > 991) {
+      $(".sidebar").removeClass("scrolling");
+      checkSidebar();
+    }
+  });
   // Sidebar Links section - end
 
   // Theme section
@@ -136,6 +164,8 @@ $(document).ready(function () {
       let sidebar = $(".sidebar");
       sidebar.removeClass("hide-sidebar");
       $(".shade").addClass("shown");
+      sidebar.addClass("animate__slideInLeft");
+      sidebar.removeClass("animate__slideOutLeft");
     }
   }
 
@@ -266,5 +296,52 @@ $(document).ready(function () {
     ) {
       toggleSidebar();
     }
+  });
+
+  // Hide sidebar when footer is reached
+  function scrollHandler() {
+    let bottomViewPort = $(window).scrollTop() + $(window).height();
+    let footerTop = $(".footer").offset().top;
+    let sidebar = $(".sidebar");
+
+    if (bottomViewPort >= footerTop) {
+      if (!sidebar.hasClass("hide-sidebar")) {
+        sidebar.removeClass("animate__slideInLeft");
+        sidebar.addClass("animate__slideOutLeft");
+        sidebar.addClass("hide-sidebar");
+      }
+    } else {
+      if (sidebar.hasClass("hide-sidebar")) {
+        sidebar.removeClass("animate__slideOutLeft");
+        sidebar.removeClass("hide-sidebar");
+        sidebar.addClass("animate__slideInLeft");
+      }
+    }
+  }
+
+  // Only hide the sidebar on large screens when footer is reached.
+  function addScrollHandler() {
+    let mq = window.matchMedia("(min-width: 992px)");
+    if (mq.matches) {
+      $(document).scroll(scrollHandler);
+    } else {
+      $(document).off("scroll", scrollHandler);
+    }
+  }
+
+  // Add scrollHandler on start
+  addScrollHandler();
+  // Re-determine on/off of the scrollHanlder when the window is resized
+  window.addEventListener("resize", addScrollHandler);
+
+  //function to copy link
+  $("body").on("click", ".icon-link", function () {
+    var temp = document.createElement("input");
+    text = this.href;
+    temp.value = text;
+    document.body.appendChild(temp);
+    temp.select();
+    document.execCommand("copy");
+    document.body.removeChild(temp);
   });
 });

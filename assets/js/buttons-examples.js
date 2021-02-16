@@ -361,9 +361,19 @@ $(document).ready(function () {
           classes: "splash-btn",
         },
         {
+          type: "Spotlight",
+          label: "Spotlight",
+          classes: "spotlight-btn",
+        },
+        {
           type: "spring",
           label: "Spring",
           classes: "spring-btn",
+        },
+        {
+          type: "striped-animated",
+          label: "Striped",
+          classes: "striped-animated-btn",
         },
         {
           type: "transparent",
@@ -632,6 +642,18 @@ $(document).ready(function () {
             },
           ],
         },
+        {
+          type: "disco-btn",
+          label: "Disco",
+          classes: "disco-btn",
+          shouldHaveRoundedType: false,
+          shouldHaveBlockType: false,
+          variations: [
+            {
+              text: "Disco",
+            },
+          ],
+        },
       ],
     },
   ];
@@ -720,7 +742,7 @@ $(document).ready(function () {
     var section = $('<section id="' + button.type + '">');
     // Adding the required heading to the section
     section.append(
-      `<${heading} class=${headerClass}>${button.label}</${heading}`
+      `<${heading} class=${headerClass}>${button.label}</${heading}><a  href="#${button.type}"  class="icon-link"><i class="fas fa-link "  ></i></a>`
     );
 
     if (button.hasOwnProperty("children") && button.children.length) {
@@ -804,7 +826,7 @@ $(document).ready(function () {
           totalWrittenClasses = `.${defaultClass} .${button.classes}`;
         if (thisButtonClasses.length) {
           totalClasses += ` ${thisButtonClasses}`;
-          totalWrittenClasses += ` .${thisButtonClasses}`;
+          totalWrittenClasses += ` .${thisButtonClasses.replace(/\s+/g, " .")}`;
         }
         // add normal button grid for button
         normalButtonsGrid.append(
