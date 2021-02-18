@@ -145,7 +145,6 @@ a:hover {
 
 .doc-logo{
   margin-left: 0;
-  transform: scale(1.15);
 }
 
 @keyframes slide-in-right {
