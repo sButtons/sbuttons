@@ -271,6 +271,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://eniko.dev"><img src="https://avatars.githubusercontent.com/u/32710850?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eniko Kosztolanyi</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=3n1k0" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/pri1311"><img src="https://avatars.githubusercontent.com/u/64613009?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Priya Nagda</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pri1311" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/harshpandey002"><img src="https://avatars.githubusercontent.com/u/62985579?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Harsh Kumar Pandey</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=harshpandey002" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mainak-debnath"><img src="https://avatars.githubusercontent.com/u/55401423?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mainak Debnath</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=mainak-debnath" title="Code">💻</a></td>
   </tr>
 </table>
 
