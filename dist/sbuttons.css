@@ -664,6 +664,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .rounded-diagonal-tl-btn {
   border-radius: 24px 4px;
+  transition: all 0.2s;
 }
 .rounded-diagonal-tl-btn:hover {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
@@ -676,6 +677,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .rounded-diagonal-tr-btn {
   border-radius: 4px 24px;
+  transition: all 0.2s;
 }
 .rounded-diagonal-tr-btn:hover {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
