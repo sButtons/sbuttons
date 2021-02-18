@@ -1,13 +1,12 @@
 .like-btn-hovered() {
   font-weight: 900;
-  animation-play-state: running;
-  color: @darkRed;
+  animation: heartbeat 1s linear forwards infinite;
+  color: #dc143c;
 }
 
 .like-btn {
-  animation: heartbeat 1s linear both infinite paused;
   &:before {
-    color: @darkRed;
+    color: #dc143c;
     content: "\f004";
     font-family: "Font Awesome 5 Free";
     display: inline-block;
@@ -28,14 +27,14 @@
   }
   50% {
     transform: scale(0.5);
-    text-shadow: 0 0 0 #cf0837f0;
+    text-shadow: 0 0 0 #dc143cf0;
   }
   80% {
     transform: scale(1.1);
-    text-shadow: 0 0 0.5rem #cf0837f0;
+    text-shadow: 0 0 0.5rem #dc143cf0;
   }
   100% {
     transform: scale(1);
-    text-shadow: 0 0 0.5rem #cf083700;
+    text-shadow: 0 0 0.5rem #dc143c00;
   }
 }

@@ -457,16 +457,12 @@ $(document).ready(function () {
           type: "like",
           label: "Like",
           classes: "like-btn",
+          text: "",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
           variations: [
             {
               classes: "",
-              text: "<i class='fas fa-camera'></i>",
-            },
-            {
-              classes: "",
-              text: "<i class='fas fa-book'></i>",
             },
           ],
         },
