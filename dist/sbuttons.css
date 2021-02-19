@@ -4195,6 +4195,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   animation: heartbeat 1s linear forwards infinite;
   color: #dc143c;
 }
+.like-btn.animated {
+  font-weight: 900;
+  animation: heartbeat 1s linear forwards infinite;
+  color: #dc143c;
+}
 @keyframes heartbeat {
   0% {
     transform: scale(1);

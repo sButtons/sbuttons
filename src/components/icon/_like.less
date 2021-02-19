@@ -1,4 +1,4 @@
-.like-btn-hovered() {
+.like-btn-animate() {
   font-weight: 900;
   animation: heartbeat 1s linear forwards infinite;
   color: #dc143c;
@@ -17,7 +17,11 @@
   }
   &:hover,
   &.hovered {
-    .like-btn-hovered();
+    .like-btn-animate();
+  }
+
+  &.animated {
+    .like-btn-animate();
   }
 }
 
