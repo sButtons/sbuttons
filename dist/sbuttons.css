@@ -4181,6 +4181,44 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: translateX(-7.5px) rotateY(-45deg);
   transition: 0.5s ease-out;
 }
+.like-btn:before {
+  color: #dc143c;
+  content: "\f004";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.like-btn:hover,
+.like-btn.hovered {
+  font-weight: 900;
+  animation: heartbeat 1s linear forwards infinite;
+  color: #dc143c;
+}
+.like-btn.animated {
+  font-weight: 900;
+  animation: heartbeat 1s linear forwards infinite;
+  color: #dc143c;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+    text-shadow: 0 0 0 #dc143cf0;
+  }
+  80% {
+    transform: scale(1.1);
+    text-shadow: 0 0 0.5rem #dc143cf0;
+  }
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 0.5rem #dc143c00;
+  }
+}
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;

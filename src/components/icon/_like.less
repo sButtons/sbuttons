@@ -1,0 +1,44 @@
+.like-btn-animate() {
+  font-weight: 900;
+  animation: heartbeat 1s linear forwards infinite;
+  color: #dc143c;
+}
+
+.like-btn {
+  &:before {
+    color: #dc143c;
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  &:hover,
+  &.hovered {
+    .like-btn-animate();
+  }
+
+  &.animated {
+    .like-btn-animate();
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+    text-shadow: 0 0 0 #dc143cf0;
+  }
+  80% {
+    transform: scale(1.1);
+    text-shadow: 0 0 0.5rem #dc143cf0;
+  }
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 0.5rem #dc143c00;
+  }
+}
