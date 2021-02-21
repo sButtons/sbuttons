@@ -2000,6 +2000,16 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "neelbavarva",
+      "name": "Neel Bavarva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62550592?v=4",
+      "profile": "https://www.linkedin.com/in/neel-bavarva-61662a1a3",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
