@@ -274,6 +274,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/mainak-debnath"><img src="https://avatars.githubusercontent.com/u/55401423?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mainak Debnath</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=mainak-debnath" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/richieracoon"><img src="https://avatars.githubusercontent.com/u/46709532?v=4?s=100" width="100px;" alt=""/><br /><sub><b>richie racoon</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=richieracoon" title="Code">💻</a> <a href="#ideas-richieracoon" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/neel-bavarva-61662a1a3"><img src="https://avatars.githubusercontent.com/u/62550592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Neel Bavarva</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=neelbavarva" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Aneelbavarva" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/Sarthak1306"><img src="https://avatars.githubusercontent.com/u/57625993?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarthak Srivastava</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Sarthak1306" title="Code">💻</a></td>
   </tr>
 </table>
 
