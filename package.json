@@ -11,6 +11,10 @@
     "buttons",
     "css"
   ],
+  "files": [
+    "src/",
+    "dist/"
+  ],
   "scripts": {
     "start": "npm run watch",
     "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier",
