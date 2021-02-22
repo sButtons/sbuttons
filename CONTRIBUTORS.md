@@ -277,7 +277,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/Sarthak1306"><img src="https://avatars.githubusercontent.com/u/57625993?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarthak Srivastava</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Sarthak1306" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/dafiulh"><img src="https://avatars.githubusercontent.com/u/30594815?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dafiul Haq</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=dafiulh" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/dafiulh"><img src="https://avatars.githubusercontent.com/u/30594815?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dafiul Haq</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=dafiulh" title="Documentation">📖</a> <a href="#platform-dafiulh" title="Packaging/porting to new platform">📦</a> <a href="#tool-dafiulh" title="Tools">🔧</a></td>
   </tr>
 </table>
 
