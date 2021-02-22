@@ -2026,7 +2026,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/30594815?v=4",
       "profile": "https://github.com/dafiulh",
       "contributions": [
-        "doc"
+        "doc",
+        "platform",
+        "tool"
       ]
     }
   ],
