@@ -1,0 +1,53 @@
+.projects--hamburger {
+  border: none;
+  background: var(--main-color);
+  outline: none;
+  color: var(--sidebar-links);
+}
+main {
+  min-height: 90vh;
+  padding: 120px 0;
+}
+/* projects area sections starts here */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.project-card {
+  margin-top: 40px;
+  height: 100%;
+  width: 400px;
+  margin: 15px;
+  box-shadow: 1px 3px 4px 3px rgba(0, 0, 0, 0.05);
+}
+.project-img {
+  height: 200px;
+  width: 100%;
+}
+.details {
+  padding: 0 10px;
+}
+.project-name {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: var(--main-color);
+}
+.about-project {
+  text-align: justify;
+}
+.project-links {
+  display: flex;
+  justify-content: space-between;
+}
+.project-links a {
+  text-decoration: none;
+  padding: 12px 0;
+  color: var(--main-color);
+}
+.project-links a:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease-in;
+  color: var(--main-color);
+}
