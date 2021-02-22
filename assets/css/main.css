@@ -51,7 +51,7 @@ body {
     padding-top: 20%;
   }
   .sidebar.scrolling {
-    width: calc(100vw / 12 * 3 - 5vw);
+    width: calc(100vw / 12 * 3);
   }
 }
 

@@ -2000,6 +2000,36 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "neelbavarva",
+      "name": "Neel Bavarva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62550592?v=4",
+      "profile": "https://www.linkedin.com/in/neel-bavarva-61662a1a3",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "Sarthak1306",
+      "name": "Sarthak Srivastava",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57625993?v=4",
+      "profile": "https://github.com/Sarthak1306",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dafiulh",
+      "name": "Dafiul Haq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30594815?v=4",
+      "profile": "https://github.com/dafiulh",
+      "contributions": [
+        "doc",
+        "platform",
+        "tool"
+      ]
     }
   ],
   "contributorsPerLine": 7,
