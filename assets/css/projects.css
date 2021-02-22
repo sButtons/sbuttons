@@ -36,6 +36,7 @@ main {
 }
 .about-project {
   text-align: justify;
+  height: 80px;
 }
 .project-links {
   display: flex;

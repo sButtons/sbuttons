@@ -8,9 +8,9 @@ const projects = [
   {
     name: "UUID generator",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas perspiciatis facilis culpa nihil architecto eaque voluptate repellat quos cupiditate. Eius.",
+      "A web application that generates unique hashed strings once you click a button.",
     author: "Gleb Patowsky",
-    link_to_project: "https://example.com/",
+    link_to_project: "https://uuid-generator.vercel.app/",
     image: "assets/img/projects/uuid.png",
   },
   {
