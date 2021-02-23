@@ -1,7 +1,6 @@
 section {
   padding-top: 80px;
   margin-top: -80px;
-  text-align: center;
 }
 
 @media screen and (max-width: 442px) {
@@ -56,7 +55,6 @@ section {
 .section-header {
   text-align: center;
   display: inline-block;
-  margin-left: 36%;
 }
 
 .section-sub-header {
@@ -64,7 +62,11 @@ section {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  display: inline-block;
+}
+
+.section-header-container {
+  display: flex;
+  justify-content: center;
 }
 
 [data-theme="dark"] .button-caption-sub,
