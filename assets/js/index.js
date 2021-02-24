@@ -344,4 +344,10 @@ $(document).ready(function () {
     document.execCommand("copy");
     document.body.removeChild(temp);
   });
+
+  $(".dropdown-toggle").click(function (event) {
+    $(".dropdown-menu").toggle();
+  });
+
+  //For dropdown menu
 });
