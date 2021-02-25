@@ -197,7 +197,6 @@ a:hover {
   .navbar .menu_link {
     display: none;
   }
-
   .navbar:not(.scrolling) {
     justify-content: space-between;
   }
@@ -291,7 +290,8 @@ a:hover {
   }
 }
 @media (min-width: 767px) {
-  .dropdown-toggle {
+  .dropdown-toggle,
+  .dropdown-menu {
     display: none;
   }
 }
@@ -300,15 +300,23 @@ a:hover {
 
 .dropdown-menu {
   background-color: #324f6b;
-  left: auto;
-  right: 0;
+  left: 0;
   overflow-x: hidden;
   transition: all 0.5s;
 }
 .dropdown-item:hover {
   background-color: #324f6b;
 }
+.dropdown-item {
+  color: rgba(235, 235, 235, 0.815);
+}
+.dropdown-divider {
+  background-color: #42668a;
+}
 
+.dropdown-link {
+  color: rgba(235, 235, 235, 0.815);
+}
 .dropdown-toggle {
   color: rgba(235, 235, 235, 0.815);
   cursor: pointer;

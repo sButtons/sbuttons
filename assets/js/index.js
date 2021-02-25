@@ -348,6 +348,11 @@ $(document).ready(function () {
   $(".dropdown-toggle").click(function (event) {
     $(".dropdown-menu").toggle();
   });
-
   //For dropdown menu
+});
+
+$(window).resize(function () {
+  if ($(this).width() < 767) {
+    $(".dropdown-menu").hide();
+  }
 });
