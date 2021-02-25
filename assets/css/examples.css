@@ -55,7 +55,6 @@ section {
 .section-header {
   text-align: center;
   display: inline-block;
-  margin-left: 36%;
 }
 
 .section-sub-header {
@@ -63,8 +62,11 @@ section {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  display: inline-block;
-  margin-left: 45%;
+}
+
+.section-header-container {
+  display: flex;
+  justify-content: center;
 }
 
 [data-theme="dark"] .button-caption-sub,
