@@ -2288,7 +2288,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: transform 0.2s;
   transform-origin: top left;
 }
-.hinge-btn:hover {
+.hinge-btn:hover,
+.hinge-btn.animated {
   transform: rotateZ(15deg);
 }
 .invert-btn:hover {
