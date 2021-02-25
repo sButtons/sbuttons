@@ -15,43 +15,46 @@ Please note we have a code of conduct, please follow it in all your interactions
 # Contents
 
 - [Instructions](#instructions)
-  * [Notes on Creating New Buttons](#notes-on-creating-new-buttons)
-  * [Button Ideas](#button-ideas)
-  * [Create Pull Request](#create-pull-request)
-    + [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
-  * [Code of Conduct](#code-of-conduct)
-    + [Our Pledge](#our-pledge)
-    + [Our Standards](#our-standards)
-    + [Our Responsibilities](#our-responsibilities)
-    + [Scope](#scope)
-    + [Enforcement](#enforcement)
+  - [Notes on Creating New Buttons](#notes-on-creating-new-buttons)
+  - [Button Ideas](#button-ideas)
+  - [Create Pull Request](#create-pull-request)
+    - [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
+  - [Code of Conduct](#code-of-conduct)
+    - [Our Pledge](#our-pledge)
+    - [Our Standards](#our-standards)
+    - [Our Responsibilities](#our-responsibilities)
+    - [Scope](#scope)
+    - [Enforcement](#enforcement)
 
 # Instructions
 
 1. Fork the repository.
 
 2. To make changes to the existing buttons, or add new ones, all changes should be made in `src/sbuttons.less`.
+
    1. If you're adding a new button type similar to basic, hover, etc..., create a file in `src/components` with the name preceded by `_`. For example: `_basic.less`. Remember to include the file when you're done in `src/sbuttons.less`.
    2. If you're adding a new button to an existing type (for example: animated), create a file in `src/components/<type_name>` with the name preceded by `_`. For example: `_arrow.less`. Remember to include the file when you're done in `src/components/<type_name>`.
-   
+
    **Please follow the convention in naming button classes: `new-class-btn` where new-class is the button name. For example, for hover button it's `hover-btn`.**
 
-    After making any changes, you need to compile the LESS file into CSS. To do that there you can use the following:
+   After making any changes, you need to compile the LESS file into CSS. To do that there you can use the following:
 
-    1. Start command:
-        ```
-        npm start
-        ```
-        This will run sbuttons on a lite server as well as update the CSS in `dist/sbuttons.css` as you make changes.
-    2. Compile command:
-        ```
-        npm run compile
-        ```
-    Make sure to run `npm install` before any of these commands.
+   1. Start command:
+      ```
+      npm start
+      ```
+      This will run sbuttons on a lite server as well as update the CSS in `dist/sbuttons.css` as you make changes.
+   2. Compile command:
+      `npm run compile`
+      Make sure to run `npm install` before any of these commands.
+
 3. To make changes to the website:
+
    1. To add new examples, make changes in `assets/js/buttons-examples.js`.
+
       1. To add new button colors, add them to the variable `buttonColors`
       2. To add new button types, add them to the variable `buttons`. It should follow the following format:
+
          ```
          {
             type,                  //type of button. Will be used for the id of the section
@@ -63,25 +66,26 @@ Please note we have a code of conduct, please follow it in all your interactions
             text,                  //the text to show on the button. If this is omitted, the default text will be Button
 
             shouldHaveRoundedType, //indicates if rounded button type should hidden or not, defaults to true
-            
+
             shouldHaveBlockType,   //indicates if block button type should hidden or not, defaults to true
-            
+
             variations,            //this is for button types that don't use buttonColors or don't have normal and rounded
                                    // button styling. Look at social buttons for example on how to use this
-                                   
+
             children,              //optional. If the type has subtypes, add them here in an array. The subtypes should
                                    //also follow this same type format
          }
          ```
-    3. To edit the HTML, make changes in `index.html`
-    4. To edit the CSS of the website, make changes in `assets/css/`
-    5. To edit the JS of the website, make changes in `assets/js`
-    
-## Notes on Creating New Buttons 
+
+   2. To edit the HTML, make changes in `index.html`
+   3. To edit the CSS of the website, make changes in `assets/css/`
+   4. To edit the JS of the website, make changes in `assets/js`
+
+## Notes on Creating New Buttons
 
 ### Animated Buttons
 
-When adding a new animated button, you need to place the animation or transition that happens on hover in a mixin. Then, you need to call that mixin in the hover state and in an `animated` class nested inside that button, so that when the `animated` class is added to the button the animation runs without needing to hover the button. Depending on your button, the animation should either be continuous (run infinitly) or just once. 
+When adding a new animated button, you need to place the animation or transition that happens on hover in a mixin. Then, you need to call that mixin in the hover state and in an `animated` class nested inside that button, so that when the `animated` class is added to the button the animation runs without needing to hover the button. Depending on your button, the animation should either be continuous (run infinitly) or just once.
 
 ### Dark Mode
 
@@ -111,21 +115,48 @@ If you would like to suggest a new button idea, please create a [new discussion]
    git push origin new-branch
    ```
 4. To make sure your forked repository is up to date with this repository. Add this repository as the upstream repository by doing the following:
+
 ```
 git remote add upstream https://github.com/sButtons/sbuttons.git
 
 ```
+
 Then, to fetch from this repository:
+
 ```
 git fetch upstream
 git merge upstream/master master
 ```
+
 5. Go to your forked repository and press the “New pull request” button.
 6. Once the pull request is reviewed and approved, it will be merged.
 
 ### Note on abandoned pull requests
 
 If a pull request is left unchanged for a week after changes are requested and the issue was assigned to the person that sent the new pull request, they will be unassigned and someone else will be given the chance to work on it.
+
+### Adding Projects that make use of sButtons
+
+If you come accross any project that uses the sButtons npm package, please feel free to add them to this repository.
+
+Below are the steps you need to take when you're about to add any project.
+
+- Navigate through this codebase to /assets/js/projects.js
+- In `projects.js` you'd see an array containing objects of projects in the format below.
+
+```js
+{
+    name,
+    about,
+    author,
+    link_to_project,
+    image,
+    github,
+  },
+```
+
+- When you are adding a new project, all you need to do is create another object that would contain the details of the project.
+- Make sure all the object keys are having the required string value.
 
 ## Code of Conduct
 
@@ -143,21 +174,21 @@ orientation.
 Examples of behavior that contributes to creating a positive environment
 include:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+- Using welcoming and inclusive language
+- Being respectful of differing viewpoints and experiences
+- Gracefully accepting constructive criticism
+- Focusing on what is best for the community
+- Showing empathy towards other community members
 
 Examples of unacceptable behavior by participants include:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
+- The use of sexualized language or imagery and unwelcome sexual attention or
+  advances
+- Trolling, insulting/derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information, such as a physical or electronic
   address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
+- Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
 ### Our Responsibilities
