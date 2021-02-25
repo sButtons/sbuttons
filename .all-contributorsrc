@@ -1961,7 +1961,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/32710850?v=4",
       "profile": "https://eniko.dev",
       "contributions": [
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -2029,6 +2030,15 @@
         "doc",
         "platform",
         "tool"
+      ]
+    },
+    {
+      "login": "karishmapatel27",
+      "name": "Karishma Patel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66008644?v=4",
+      "profile": "https://karishmapatel.netlify.app/",
+      "contributions": [
+        "code"
       ]
     }
   ],

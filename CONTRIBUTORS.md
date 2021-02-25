@@ -268,7 +268,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://rayanblaq.xyz"><img src="https://avatars.githubusercontent.com/u/78324035?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rayan Blaq</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=rblaq" title="Documentation">📖</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://eniko.dev"><img src="https://avatars.githubusercontent.com/u/32710850?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eniko Kosztolanyi</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=3n1k0" title="Code">💻</a></td>
+    <td align="center"><a href="https://eniko.dev"><img src="https://avatars.githubusercontent.com/u/32710850?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eniko Kosztolanyi</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=3n1k0" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3A3n1k0" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/pri1311"><img src="https://avatars.githubusercontent.com/u/64613009?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Priya Nagda</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pri1311" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/harshpandey002"><img src="https://avatars.githubusercontent.com/u/62985579?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Harsh Kumar Pandey</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=harshpandey002" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mainak-debnath"><img src="https://avatars.githubusercontent.com/u/55401423?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mainak Debnath</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=mainak-debnath" title="Code">💻</a></td>
@@ -278,6 +278,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/dafiulh"><img src="https://avatars.githubusercontent.com/u/30594815?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dafiul Haq</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=dafiulh" title="Documentation">📖</a> <a href="#platform-dafiulh" title="Packaging/porting to new platform">📦</a> <a href="#tool-dafiulh" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://karishmapatel.netlify.app/"><img src="https://avatars.githubusercontent.com/u/66008644?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karishma Patel</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=karishmapatel27" title="Code">💻</a></td>
   </tr>
 </table>
 

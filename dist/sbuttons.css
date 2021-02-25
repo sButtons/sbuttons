@@ -2291,7 +2291,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .hinge-btn:hover {
   transform: rotateZ(15deg);
 }
-.invert-btn:hover {
+.invert-btn:hover,
+.invert-btn.animated {
   animation: colorTransformation 0.5s;
   animation-fill-mode: forwards;
 }
