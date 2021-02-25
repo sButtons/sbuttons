@@ -9,49 +9,19 @@ const projects = [
     name: "UUID generator",
     about:
       "A web application that generates unique hashed strings once you click a button.",
-    author: "Gleb Patowsky",
+    author: "Christopher Marques Corrêa",
     link_to_project: "https://uuid-generator.vercel.app/",
     image: "assets/img/projects/uuid.png",
+    github: "https://github.com/ChristopherMarques/uuidGenerator",
   },
   {
-    name: "example project",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas perspiciatis facilis culpa nihil architecto eaque voluptate repellat quos cupiditate. Eius.",
-    author: "Gleb Patowsky",
-    link_to_project: "https://example.com/",
-    image: "assets/img/projects/uuid.png",
-  },
-  {
-    name: "example project",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas perspiciatis facilis culpa nihil architecto eaque voluptate repellat quos cupiditate. Eius.",
-    author: "Gleb Patowsky",
-    link_to_project: "https://example.com/",
-    image: "assets/img/projects/uuid.png",
-  },
-  {
-    name: "example project",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas perspiciatis facilis culpa nihil architecto eaque voluptate repellat quos cupiditate. Eius.",
-    author: "Gleb Patowsky",
-    link_to_project: "https://example.com/",
-    image: "assets/img/projects/uuid.png",
-  },
-  {
-    name: "example project",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas perspiciatis facilis culpa nihil architecto eaque voluptate repellat quos cupiditate. Eius.",
-    author: "Gleb Patowsky",
-    link_to_project: "https://example.com/",
-    image: "assets/img/projects/uuid.png",
-  },
-  {
-    name: "example project",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas perspiciatis facilis culpa nihil architecto eaque voluptate repellat quos cupiditate. Eius.",
-    author: "Gleb Patowsky",
-    link_to_project: "https://example.com/",
-    image: "assets/img/projects/uuid.png",
+    name: "Grammarly with ghost",
+    about: "An extension that allows Grammarly to work on Ghost's editor",
+    author: "Shahed Nasser",
+    link_to_project:
+      "https://chrome.google.com/webstore/detail/grammarly-with-ghost/iakfoofepmfjafjepidembmheemidbdb?hl=en&authuser=1",
+    image: "assets/img/projects/grammarly-ghost.jpg",
+    github: "https://github.com/shahednasser/grammarly-ghost",
   },
 ];
 
@@ -66,7 +36,7 @@ const mappedProject = projects.map((project, index) => {
                <p class="project-author">Created by ${project.author}</p>
                <div class="project-links">
                 <a href=${project.link_to_project} target="__blank">Demo</a>
-                <a href=${project.link_to_project} target="__blank">View on GitHub</a>
+                <a href=${project.github} target="__blank">View on GitHub</a>
                </div>
             </div>
           </div>`;

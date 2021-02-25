@@ -21,6 +21,7 @@ main {
   width: 400px;
   margin: 15px;
   box-shadow: 1px 3px 4px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
 }
 .project-img {
   height: 200px;
@@ -33,6 +34,7 @@ main {
   text-transform: capitalize;
   font-size: 18px;
   color: var(--main-color);
+  padding-top: 10px;
 }
 .about-project {
   text-align: justify;
