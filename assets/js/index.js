@@ -352,7 +352,7 @@ $(document).ready(function () {
 });
 
 $(window).resize(function () {
-  if ($(this).width() < 767) {
+  if ($(this).width() < 768) {
     $(".dropdown-menu").hide();
   }
 });

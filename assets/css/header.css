@@ -310,8 +310,12 @@ a:hover {
 .dropdown-item {
   color: rgba(235, 235, 235, 0.815);
 }
+.dropdown-item:hover,
+.dropdown-link:hover {
+  color: #fff;
+}
 .dropdown-divider {
-  background-color: #42668a;
+  border-color: #42668a;
 }
 
 .dropdown-link {
