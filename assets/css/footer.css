@@ -1,8 +1,9 @@
 footer {
   font-family: "Montserrat", sans-serif;
-  padding: 0px 2%;
+  padding: 1rem 1rem;
   background-color: #e6e6e6;
 }
+
 .footer {
   color: floralwhite;
   background-color: var(--footer-color);
@@ -11,8 +12,11 @@ footer {
   min-height: 20vh;
 }
 
+.footer-container > div {
+  margin: 0 auto;
+}
+
 .footer .row {
-  min-height: 20vh;
   width: 100%;
 }
 
@@ -50,17 +54,48 @@ footer {
   color: floralwhite;
 }
 
+.footer-desc-sm {
+  padding-top: 1rem;
+  padding-left: 6rem;
+  padding-right: 5rem;
+}
+
+@media screen and (min-width: 576px) {
+  .footer-logo img {
+    width: 40%;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  .credit {
+    font-size: 14px;
+  }
+  .footer-logo img {
+    width: 70%;
+  }
   .footer-desc > p {
     font-size: 16px;
   }
+  .footer-links {
+    align-items: unset;
+  }
+
   .footer-links a {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
 @media screen and (min-width: 992px) {
+  .footer-logo img {
+    width: 60%;
+  }
   .footer-links a {
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-logo img {
+    width: 50%;
   }
 }
