@@ -2040,6 +2040,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "kalimah-apps",
+      "name": "Kalimah Apps",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1753883?v=4",
+      "profile": "https://github.com/kalimah-apps",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
