@@ -98,4 +98,7 @@ footer {
   .footer-logo img {
     width: 50%;
   }
+  .footer-desc > p {
+    font-size: 13.5px;
+  }
 }
