@@ -19,6 +19,8 @@ Please note we have a code of conduct, please follow it in all your interactions
   - [Button Ideas](#button-ideas)
   - [Create Pull Request](#create-pull-request)
     - [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
+    - [Adding Projects that make use of sButtons](#adding-projects-that-make-use-of-sbuttons)
+    - [Adding Projects that makes use sButtons](#adding-projects-that-make-use-of-sbuttons)
   - [Code of Conduct](#code-of-conduct)
     - [Our Pledge](#our-pledge)
     - [Our Standards](#our-standards)
@@ -143,6 +145,8 @@ Below are the steps you need to take when you're about to add any project.
 
 - Navigate through this codebase to /assets/js/projects.js
 - In `projects.js` you'd see an array containing objects of projects in the format below.
+- Make sure you reference the link to the project's image or at least a screenshot of the project using sButtons in the projects array
+- The image or screenshot should be placed inside `assets/img/projects` directory.
 
 ```js
 {
@@ -157,6 +161,8 @@ Below are the steps you need to take when you're about to add any project.
 
 - When you are adding a new project, all you need to do is create another object that would contain the details of the project.
 - Make sure all the object keys are having the required string value.
+- When you're adding a project example, please enusre that the screenshot of that project of the image at least is present.
+- The images of all projects should be placed inside `assests/imgs/projects` directory.
 
 ## Code of Conduct
 
