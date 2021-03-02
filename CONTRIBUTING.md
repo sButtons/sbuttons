@@ -20,7 +20,6 @@ Please note we have a code of conduct, please follow it in all your interactions
   - [Create Pull Request](#create-pull-request)
     - [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
     - [Adding Projects that make use of sButtons](#adding-projects-that-make-use-of-sbuttons)
-    - [Adding Projects that makes use sButtons](#adding-projects-that-make-use-of-sbuttons)
   - [Code of Conduct](#code-of-conduct)
     - [Our Pledge](#our-pledge)
     - [Our Standards](#our-standards)
