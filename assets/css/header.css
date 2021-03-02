@@ -176,16 +176,15 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
+  .navbar .toggle-theme {
+    font-size: 1.2rem;
+  }
   .shades {
     height: 80vh;
     background: var(--main-color) fixed;
   }
   .banner-head h1 {
     font-size: 3rem;
-  }
-  .navbar .icon-link,
-  .navbar .download-link {
-    display: none;
   }
 }
 
@@ -194,11 +193,10 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-  .navbar .download-link,
-  .navbar .toggle-theme {
-    font-size: 1rem;
+  .navbar .links,
+  .navbar .menu_link {
+    display: none;
   }
-
   .navbar:not(.scrolling) {
     justify-content: space-between;
   }
@@ -290,4 +288,40 @@ a:hover {
   .shades {
     height: 65vh;
   }
+}
+@media (min-width: 767px) {
+  .dropdown-toggle,
+  .dropdown-menu {
+    display: none;
+  }
+}
+
+/***************dropdown****/
+
+.dropdown-menu {
+  background-color: #324f6b;
+  left: 0;
+  overflow-x: hidden;
+  transition: all 0.5s;
+}
+.dropdown-item:hover {
+  background-color: #324f6b;
+}
+.dropdown-item {
+  color: rgba(235, 235, 235, 0.815);
+}
+.dropdown-item:hover,
+.dropdown-link:hover {
+  color: #fff;
+}
+.dropdown-divider {
+  border-color: #42668a;
+}
+
+.dropdown-link {
+  color: rgba(235, 235, 235, 0.815);
+}
+.dropdown-toggle {
+  color: rgba(235, 235, 235, 0.815);
+  cursor: pointer;
 }

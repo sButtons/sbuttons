@@ -279,6 +279,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="https://github.com/dafiulh"><img src="https://avatars.githubusercontent.com/u/30594815?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dafiul Haq</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=dafiulh" title="Documentation">📖</a> <a href="#platform-dafiulh" title="Packaging/porting to new platform">📦</a> <a href="#tool-dafiulh" title="Tools">🔧</a></td>
     <td align="center"><a href="https://karishmapatel.netlify.app/"><img src="https://avatars.githubusercontent.com/u/66008644?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karishma Patel</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=karishmapatel27" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kalimah-apps"><img src="https://avatars.githubusercontent.com/u/1753883?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kalimah Apps</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=kalimah-apps" title="Code">💻</a></td>
   </tr>
 </table>
 
