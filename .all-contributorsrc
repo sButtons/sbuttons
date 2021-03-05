@@ -2049,6 +2049,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "theBeginner86",
+      "name": "Pranav Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73700530?v=4",
+      "profile": "https://www.linkedin.com/in/pranav-singh-00904b1bb/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
