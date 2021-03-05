@@ -5,9 +5,7 @@ import Home from './pages/Home'
 function App () {
     return (
         <Router>
-            <React.StrictMode>
-                <Home />
-            </React.StrictMode>
+            <Home />
         </Router>
     )
 }

@@ -7,33 +7,33 @@ function Header(props) {
     const [isDarkMode, toggleDarkMode] = useDarkMode()
 
     return (
-        <nav className="shadow-sm py-5 dark:bg-gray-600 bg-white dark:text-white">
+        <nav className="shadow-sm py-5 dark:bg-gray-600 bg-white dark:text-white transition-colors duration-100">
             <div className="container flex flex-row mx-auto">
-                <Link to="/" className="w-2/12">
+                <Link to="/" className="lg:w-2/12 w-4/12">
                     <img src="/images/logo-colored.png" alt="Logo" />
                 </Link>
-                <div className="flex flex-1 items-center">
+                <div className="md:flex hidden items-center lg:w-6/12">
                         <Link to="/documentation" 
-                            className="block border-b-2 border-transparent duration-100 hover:border-blue-400 mr-3 ml-4 transition-all">
+                            className="block border-b-2 border-transparent hover:border-red-600 mr-3 ml-4 text-xl text-gray-600 dark:text-white">
                             Docs
                         </Link>
                         <Link to="/examples" 
-                            className="block border-b-2 border-transparent duration-100 hover:border-blue-400 mx-3 transition-all">
+                            className="block border-b-2 border-transparent hover:border-red-600 mx-3 text-xl text-gray-600 dark:text-white">
                             Examples
                         </Link>
                         <Link to="/projects-using-sbuttons" 
-                            className="block border-b-2 border-transparent duration-100 hover:border-blue-400 mx-3 transition-all">
+                            className="block border-b-2 border-transparent hover:border-red-600 mx-3 text-xl text-gray-600 dark:text-white">
                             Projects Using sButtons
                         </Link>
                 </div>
-                <div className="justify-end flex-1 flex items-center">
-                    <Link to="https://github.com/sButtons/sbuttons" className="duration-100 hover:opacity-100 opacity-40 px-3 transition-all">
+                <div className="justify-end flex items-center lg:w-4/12 md:w-2/12 w-4/12 md:mx-0 mr-0 ml-auto">
+                    <Link to="https://github.com/sButtons/sbuttons" className="hover:opacity-100 opacity-40 px-3 transition-none">
                         <FiGithub size="1.5rem" />
                     </Link>
                     <DarkModeToggler 
                         isDarkMode={isDarkMode} 
                         toggleDarkMode={toggleDarkMode}
-                        buttonClassName="focus:outline-none duration-100 hover:opacity-100 opacity-40 px-3 transition-all"
+                        buttonClassName="focus:outline-none hover:opacity-100 opacity-40 px-3 transition-none"
                     />
                 </div>
             </div>
