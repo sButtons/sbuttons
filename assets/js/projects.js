@@ -27,19 +27,21 @@ const projects = [
 
 // An helper function that maps through the projects array
 // and displays the inner html markup.
-const mappedProject = projects.map((project, index) => {
-  return `<div class="project-card" key=${index}>
-            <img src=${project.image} alt="image of a project using sbuttons" class="project-img" />
-            <div class="details">
-               <p class="project-name">${project.name}</p>
-               <p class="about-project">${project.about}</p>
-               <p class="project-author">Created by ${project.author}</p>
-               <div class="project-links">
-                <a href=${project.link_to_project} target="__blank">Demo</a>
-                <a href=${project.github} target="__blank">View on GitHub</a>
-               </div>
-            </div>
-          </div>`;
-});
-
-projectArea.innerHTML = mappedProject;
+$("#project-container")
+  .append(
+    projects.map((project, index) => {
+      return `<div class="project-card" key=${index}>
+    <img src=${project.image} alt="image of a project using sbuttons" class="project-img" />
+    <div class="details">
+       <p class="project-name">${project.name}</p>
+       <p class="about-project">${project.about}</p>
+       <p class="project-author">Created by ${project.author}</p>
+       <div class="project-links">
+        <a href=${project.link_to_project} target="__blank">Demo</a>
+        <a href=${project.github} target="__blank">View on GitHub</a>
+       </div>
+    </div>
+  </div>`;
+    })
+  )
+  .join();

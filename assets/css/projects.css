@@ -65,11 +65,19 @@ main {
 }
 /* projects page style in dark mode */
 [data-theme="dark"] .project-card {
-  box-shadow: 1px 3px 4px 3px rgba(0, 0, 3, 0.09);
-  background: rgb(34, 34, 34);
+  box-shadow: 1px 3px 4px 3px rgba(0, 0, 0, 0.09);
+  background: rgb(48, 48, 48);
   border-radius: 5px;
   color: #fff;
 }
 [data-theme="dark"] .project-links a {
+  color: #fff;
+}
+/* drak mode style ends here */
+.btn-group ul {
+  background: var(--main-color);
+  color: #fff;
+}
+.btn-group li a {
   color: #fff;
 }
