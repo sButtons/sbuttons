@@ -8,8 +8,11 @@
     <link href="assets/css/main.css" rel="stylesheet" />
     <link href="assets/css/header.css" rel="stylesheet" />
     <link href="assets/css/footer.css" rel="stylesheet" />
-    <link href="assets/css/header.css" rel="stylesheet" />
     <link href="assets/css/variables.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/projects.css" />
     <!-- bootstrap and fontawesome css -->
     <link
@@ -66,53 +69,57 @@
       <div class="navbar fixed-top">
         <div class="navbar-brand">
           <a href="index.html">
+            <link
+              href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+              rel="stylesheet"
+            />
             <img
               src="assets/img/sbuttons-icon.png"
               class="img-fluid"
               width="64px"
             />
           </a>
+          <!-- dropdown menu on mobile -->
+          <div class="btn-group dropstart">
+            <span class="dropdown-toggle">Menu</span>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index.html">Home</a></li>
+              <li>
+                <a class="dropdown-item" href="documentation.html"
+                  >Documentation</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="examples.html">Examples</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="projects.html" class="link">
+                  Projects using sButton
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="dropdown-item">
+                <a
+                  href="#"
+                  id="downloadGithubRawHeader"
+                  class="download-link dropdown-link"
+                >
+                  <i class="fas fa-download"></i>
+                </a>
+                <a
+                  href="https://github.com/sButtons/sbuttons"
+                  target="_blank"
+                  class="icon-link dropdown-link"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- dropdown menu sectin ends here -->
         </div>
-        <!-- dropdown menu on mobile -->
-        <div class="btn-group dropstart">
-          <span class="dropdown-toggle">Menu</span>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="index.html">Home</a></li>
-            <li>
-              <a class="dropdown-item" href="documentation.html"
-                >Documentation</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="examples.html">Examples</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="projects.html" class="link">
-                Projects using sButton
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider" />
-            </li>
-            <li class="dropdown-item">
-              <a
-                href="#"
-                id="downloadGithubRawHeader"
-                class="download-link dropdown-link"
-              >
-                <i class="fas fa-download"></i>
-              </a>
-              <a
-                href="https://github.com/sButtons/sbuttons"
-                target="_blank"
-                class="icon-link dropdown-link"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <!-- dropdown menu sectin ends here -->
         <!-- navigation menu links -->
         <div class="links">
           <a href="index.html" class="link"> Home </a>

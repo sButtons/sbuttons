@@ -7,6 +7,8 @@
 main {
   min-height: 90vh;
   padding: 120px 0;
+
+  font-family: "Montserrat", sans-serif;
 }
 /* projects area sections starts here */
 .projects-container {
@@ -22,6 +24,7 @@ main {
   margin: 15px;
   box-shadow: 1px 3px 4px 3px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
+  justify-content: flex-start;
 }
 .project-card:hover {
   cursor: pointer;
@@ -31,6 +34,8 @@ main {
 .project-img {
   height: 200px;
   width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .details {
   padding: 0 10px;
@@ -57,4 +62,14 @@ main {
   text-decoration: underline;
   transition: all 0.3s ease-in;
   color: var(--main-color);
+}
+/* projects page style in dark mode */
+[data-theme="dark"] .project-card {
+  box-shadow: 1px 3px 4px 3px rgba(0, 0, 3, 0.09);
+  background: rgb(34, 34, 34);
+  border-radius: 5px;
+  color: #fff;
+}
+[data-theme="dark"] .project-links a {
+  color: #fff;
 }
