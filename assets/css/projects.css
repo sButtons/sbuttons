@@ -1,3 +1,6 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
 .projects--hamburger {
   border: none;
   background: var(--main-color);
@@ -7,8 +10,6 @@
 main {
   min-height: 90vh;
   padding: 120px 0;
-
-  font-family: "Montserrat", sans-serif;
 }
 /* projects area sections starts here */
 .projects-container {
@@ -73,11 +74,12 @@ main {
 [data-theme="dark"] .project-links a {
   color: #fff;
 }
-/* drak mode style ends here */
+/* dark mode style ends here */
 .btn-group ul {
-  background: var(--main-color);
+  background: var(--sidebar-color);
   color: #fff;
 }
-.btn-group li a {
-  color: #fff;
+.btn-group li a,
+.btn-group li i {
+  color: #ebebed;
 }
