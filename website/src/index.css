@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  @apply transition-colors duration-100;
+  @apply transition-colors duration-100 overflow-x-hidden;
 }
 
 .dark {
@@ -22,4 +22,8 @@ body {
 .underline-red {
   @apply underline;
   text-decoration-color: #E11D48;
+}
+
+.content {
+  min-height: 70vh;
 }

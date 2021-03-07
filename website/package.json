@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.1.10",
     "prism-react-renderer": "^1.2.0",
     "react": "^17.0.1",
+    "react-copy-to-clipboard": "^5.0.3",
     "react-dark-mode-toggle": "^0.2.0",
     "react-dom": "^17.0.1",
     "react-ga": "^3.3.0",
@@ -16,6 +17,7 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.3",
     "sbuttons": "^1.2.0",
     "use-dark-mode-hook": "^1.1.1",
     "web-vitals": "^1.0.1"

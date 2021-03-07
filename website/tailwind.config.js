@@ -19,8 +19,10 @@ module.exports = {
   },
   variants: {
     extend: {
-      borderStyle: ['hover', 'focus']
+      borderStyle: ['hover', 'focus'],
+      display: ['group-hover', 'group-focus', 'hover', 'focus']
     },
   },
   plugins: [],
+  important: true,
 }
