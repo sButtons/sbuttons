@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('~sbuttons/dist/sbuttons.min.css');
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
@@ -26,4 +30,13 @@ body {
 
 .content {
   min-height: 70vh;
+}
+
+.sidebar-item.active {
+  @apply border-red-600 !important
+}
+
+.sidebar-item {
+  width: fit-content;
+  width: -moz-fit-content;
 }

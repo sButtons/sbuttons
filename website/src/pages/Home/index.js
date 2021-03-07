@@ -49,7 +49,7 @@ function Home () {
                         </p>
                         <div>
                             <Code code={`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css">`} 
-                                language="shell" />
+                                language="html" />
                         </div>
                     </div>
                 </section>

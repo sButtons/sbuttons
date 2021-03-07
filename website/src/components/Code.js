@@ -6,7 +6,7 @@ import { FiCopy } from 'react-icons/fi'
 import { toast } from 'react-toastify'
 
 
-function Code ({code, language}) {
+function Code ({code, language, className=""}) {
 
     function showToast () {
         toast.success('Copied!', {
@@ -21,10 +21,12 @@ function Code ({code, language}) {
         })
     }
 
+    const classes = className
+
     return (
         <Highlight {...defaultProps} theme={okaidia} code={code} language={language}>
             {({ className, style, tokens, getLineProps, getTokenProps }) => (
-            <div className="relative">
+            <div className={`relative ${classes}`}>
                 <pre className={className + ' p-3 dark:bg-gray-700 overflow-x-auto overflow-y-hidden lg:w-11/12 w-10/12'} style={style}>
                 {tokens.map((line, i) => (
                     <div {...getLineProps({ line, key: i })}>
