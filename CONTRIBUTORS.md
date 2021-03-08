@@ -281,6 +281,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://karishmapatel.netlify.app/"><img src="https://avatars.githubusercontent.com/u/66008644?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karishma Patel</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=karishmapatel27" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/kalimah-apps"><img src="https://avatars.githubusercontent.com/u/1753883?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kalimah Apps</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=kalimah-apps" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/pranav-singh-00904b1bb/"><img src="https://avatars.githubusercontent.com/u/73700530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pranav Singh</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=theBeginner86" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AtheBeginner86" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/TanmayJain17"><img src="https://avatars.githubusercontent.com/u/51324353?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tanmay Jain</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=TanmayJain17" title="Code">💻</a></td>
   </tr>
 </table>
 
