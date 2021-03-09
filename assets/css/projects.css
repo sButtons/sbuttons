@@ -1,0 +1,85 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.projects--hamburger {
+  border: none;
+  background: var(--main-color);
+  outline: none;
+  color: var(--sidebar-links);
+}
+main {
+  min-height: 90vh;
+  padding: 120px 0;
+}
+/* projects area sections starts here */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.project-card {
+  margin-top: 40px;
+  height: 100%;
+  width: 400px;
+  margin: 15px;
+  box-shadow: 1px 3px 4px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  justify-content: flex-start;
+}
+.project-card:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: all 0.3s ease-in;
+}
+.project-img {
+  height: 200px;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.details {
+  padding: 0 10px;
+}
+.project-name {
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.about-project {
+  text-align: justify;
+  height: 80px;
+}
+.project-links {
+  display: flex;
+  justify-content: space-between;
+}
+.project-links a {
+  text-decoration: none;
+  padding: 12px 0;
+  color: #000;
+}
+.project-links a:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease-in;
+  color: var(--main-color);
+}
+/* projects page style in dark mode */
+[data-theme="dark"] .project-card {
+  box-shadow: 1px 3px 4px 3px rgba(0, 0, 0, 0.09);
+  background: rgb(48, 48, 48);
+  border-radius: 5px;
+  color: #fff;
+}
+[data-theme="dark"] .project-links a {
+  color: #fff;
+}
+/* dark mode style ends here */
+.btn-group ul {
+  background: var(--sidebar-color);
+  color: #fff;
+}
+.btn-group li a,
+.btn-group li i {
+  color: #ebebed;
+}

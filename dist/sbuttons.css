@@ -3121,7 +3121,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .flash-btn {
   opacity: 1;
 }
-.flash-btn:hover {
+.flash-btn:hover,
+.flash-btn.animated {
   animation-name: flash;
   animation-duration: 0.6s;
   animation-timing-function: ease-in-out;
