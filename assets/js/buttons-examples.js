@@ -449,7 +449,6 @@ $(document).ready(function () {
           type: "hatch",
           label: "Hatch",
           classes: "hatch-btn",
-          text: "",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
           variations: [
