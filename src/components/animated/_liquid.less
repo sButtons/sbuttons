@@ -37,11 +37,13 @@
     color: #000 !important;
     .bc(@color);
 
-    &:hover::before {
+    &:hover::before,
+    &.animated::before {
       top: -120px;
     }
 
-    &:hover::after {
+    &:hover::after,
+    &.animated::after {
       top: -120px;
     }
   }

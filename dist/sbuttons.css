@@ -2342,10 +2342,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000 !important;
   background-color: #50bfe6;
 }
-.liquid-btn.blue-btn:hover::before {
+.liquid-btn.blue-btn:hover::before,
+.liquid-btn.blue-btn.animated::before {
   top: -120px;
 }
-.liquid-btn.blue-btn:hover::after {
+.liquid-btn.blue-btn:hover::after,
+.liquid-btn.blue-btn.animated::after {
   top: -120px;
 }
 .liquid-btn.pink-btn {
@@ -2353,10 +2355,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000 !important;
   background-color: #d53caf;
 }
-.liquid-btn.pink-btn:hover::before {
+.liquid-btn.pink-btn:hover::before,
+.liquid-btn.pink-btn.animated::before {
   top: -120px;
 }
-.liquid-btn.pink-btn:hover::after {
+.liquid-btn.pink-btn:hover::after,
+.liquid-btn.pink-btn.animated::after {
   top: -120px;
 }
 .liquid-btn.green-btn {
@@ -2364,10 +2368,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000 !important;
   background-color: #3aa655;
 }
-.liquid-btn.green-btn:hover::before {
+.liquid-btn.green-btn:hover::before,
+.liquid-btn.green-btn.animated::before {
   top: -120px;
 }
-.liquid-btn.green-btn:hover::after {
+.liquid-btn.green-btn:hover::after,
+.liquid-btn.green-btn.animated::after {
   top: -120px;
 }
 .liquid-btn.yellow-btn {
@@ -2376,10 +2382,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #fbe870;
   color: #fff;
 }
-.liquid-btn.yellow-btn:hover::before {
+.liquid-btn.yellow-btn:hover::before,
+.liquid-btn.yellow-btn.animated::before {
   top: -120px;
 }
-.liquid-btn.yellow-btn:hover::after {
+.liquid-btn.yellow-btn:hover::after,
+.liquid-btn.yellow-btn.animated::after {
   top: -120px;
 }
 .liquid-btn.orange-btn {
@@ -2387,10 +2395,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000 !important;
   background-color: #ff8833;
 }
-.liquid-btn.orange-btn:hover::before {
+.liquid-btn.orange-btn:hover::before,
+.liquid-btn.orange-btn.animated::before {
   top: -120px;
 }
-.liquid-btn.orange-btn:hover::after {
+.liquid-btn.orange-btn:hover::after,
+.liquid-btn.orange-btn.animated::after {
   top: -120px;
 }
 .liquid-btn.red-btn {
@@ -2398,10 +2408,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000 !important;
   background-color: #ed0a3f;
 }
-.liquid-btn.red-btn:hover::before {
+.liquid-btn.red-btn:hover::before,
+.liquid-btn.red-btn.animated::before {
   top: -120px;
 }
-.liquid-btn.red-btn:hover::after {
+.liquid-btn.red-btn:hover::after,
+.liquid-btn.red-btn.animated::after {
   top: -120px;
 }
 .liquid-btn.purple-btn {
@@ -2409,10 +2421,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000 !important;
   background-color: #652dc1;
 }
-.liquid-btn.purple-btn:hover::before {
+.liquid-btn.purple-btn:hover::before,
+.liquid-btn.purple-btn.animated::before {
   top: -120px;
 }
-.liquid-btn.purple-btn:hover::after {
+.liquid-btn.purple-btn:hover::after,
+.liquid-btn.purple-btn.animated::after {
   top: -120px;
 }
 .liquid-btn.black-btn {
@@ -2421,10 +2435,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #000;
   color: #fff !important;
 }
-.liquid-btn.black-btn:hover::before {
+.liquid-btn.black-btn:hover::before,
+.liquid-btn.black-btn.animated::before {
   top: -120px;
 }
-.liquid-btn.black-btn:hover::after {
+.liquid-btn.black-btn:hover::after,
+.liquid-btn.black-btn.animated::after {
   top: -120px;
 }
 .liquid-btn.white-btn {
@@ -2433,10 +2449,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #fff;
   border-color: rgba(0, 0, 0, 0.2);
 }
-.liquid-btn.white-btn:hover::before {
+.liquid-btn.white-btn:hover::before,
+.liquid-btn.white-btn.animated::before {
   top: -120px;
 }
-.liquid-btn.white-btn:hover::after {
+.liquid-btn.white-btn:hover::after,
+.liquid-btn.white-btn.animated::after {
   top: -120px;
 }
 .liquid-btn.white-btn::before {
@@ -3609,7 +3627,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .atom-btn.black-btn.dark-mode {
   color: #fff !important;
 }
-.rainbow-btn:hover {
+.rainbow-btn:hover,
+.rainbow-btn.animated {
   transition: 0.3s;
   animation: rainbow 5s infinite ease-in-out;
 }
