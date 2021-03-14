@@ -75,11 +75,3 @@ main {
   color: #fff;
 }
 /* dark mode style ends here */
-.btn-group ul {
-  background: var(--sidebar-color);
-  color: #fff;
-}
-.btn-group li a,
-.btn-group li i {
-  color: #ebebed;
-}
