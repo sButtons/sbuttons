@@ -1,6 +1,6 @@
 footer {
   font-family: "Montserrat", sans-serif;
-  padding: 0px 2%;
+  padding: 1rem 1rem;
   background-color: #e6e6e6;
 }
 .footer {
@@ -11,9 +11,25 @@ footer {
   min-height: 20vh;
 }
 
+.footer-container > div,
+.row-center {
+  margin: 0 auto;
+}
+
+.row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer .row {
-  min-height: 20vh;
   width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-desc,
@@ -34,10 +50,22 @@ footer {
   width: 50%;
 }
 
+.credit {
+  font-size: 14px;
+}
+
+.footer-desc > p {
+  font-size: 18px;
+}
+
 .footer a {
   color: floralwhite;
   margin-bottom: 7px;
   text-decoration: underline;
+}
+
+.footer-ul {
+  padding-left: 2rem;
 }
 
 .footer-links a {
@@ -48,4 +76,85 @@ footer {
 .footer a:hover {
   opacity: 0.6;
   color: floralwhite;
+}
+
+.footer-desc-sm {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+@media screen and (min-width: 663px) {
+  .row-center {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .wrapper {
+    justify-content: flex-start;
+  }
+  .footer-logo {
+    align-items: flex-start;
+    padding-left: 2rem;
+  }
+  .footer-desc > p {
+    font-size: 16px;
+    max-width: 325px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .wrapper {
+    justify-content: flex-start;
+  }
+  .footer-ul-project {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer-logo img {
+    width: 70%;
+  }
+  .footer-desc > p {
+    max-width: 450px;
+  }
+  .position-bottom {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .footer-logo img {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .footer-logo img {
+    width: 70%;
+  }
+  .column-xxl {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-desc > p {
+    font-size: 16px;
+  }
+  .position-bottom {
+    display: flex;
+    align-items: center;
+  }
+  .footer-links a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .footer-logo img {
+    width: 60%;
+  }
+  .footer-ul {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
 }

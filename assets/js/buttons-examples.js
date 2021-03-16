@@ -449,9 +449,18 @@ $(document).ready(function () {
           type: "hatch",
           label: "Hatch",
           classes: "hatch-btn",
-          text: "",
           shouldHaveRoundedType: false,
           shouldHaveBlockType: false,
+          variations: [
+            {
+              classes: "",
+              text: "<i class='fas fa-camera'></i>",
+            },
+            {
+              classes: "",
+              text: "<i class='fas fa-book'></i>",
+            },
+          ],
         },
         {
           type: "like",

@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>sButtons - Simple and Creative Buttons</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects using sButtons - sButtons</title>
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/header.css" rel="stylesheet" />
+    <link href="assets/css/footer.css" rel="stylesheet" />
+    <link href="assets/css/variables.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="assets/css/projects.css" />
+    <!-- bootstrap and fontawesome css -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -25,23 +28,8 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link href="assets/css/main.css" rel="stylesheet" />
-    <link href="assets/css/header.css" rel="stylesheet" />
-    <link href="assets/css/footer.css" rel="stylesheet" />
-    <link href="assets/css/header.css" rel="stylesheet" />
-    <link href="assets/css/variables.css" rel="stylesheet" />
-    <link href="dist/sbuttons.css" rel="stylesheet" />
-    <link href="assets/css/index.css" rel="stylesheet" />
-    <link href="assets/css/documentation.css" rel="stylesheet" />
-    <link href="assets/css/carbon.css" rel="stylesheet" />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
 
     <!-- seo friendly og tags-->
     <meta
@@ -49,10 +37,11 @@
       content="Simple buttons you can use easily for your next project."
     />
     <meta
+      console.log(projects);
       name="keywords"
       content="css, less, buttons, simple, project, github, open source, contribute, first timers, animation, hover, basic, social, login"
     />
-    <meta name="og:url" content="https://sbuttons.github.io/sbuttons/" />
+    <meta name="og:url" content="https://sButtons.github.io/sbuttons/" />
     <meta
       name="og:description"
       content="Simple buttons you can use easily for your next project."
@@ -76,19 +65,22 @@
       gtag("config", "UA-149400351-4");
     </script>
   </head>
-
   <body>
-    <div class="shades"></div>
     <header>
       <div class="navbar fixed-top">
         <div class="navbar-brand">
           <a href="index.html">
+            <link
+              href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+              rel="stylesheet"
+            />
             <img
               src="assets/img/sbuttons-icon.png"
               class="img-fluid"
               width="64px"
             />
           </a>
+          <!-- dropdown menu on mobile -->
           <div class="btn-group dropstart">
             <span class="dropdown-toggle">Menu</span>
             <ul class="dropdown-menu">
@@ -102,7 +94,7 @@
                 <a class="dropdown-item" href="examples.html">Examples</a>
               </li>
               <li>
-                <a href="projects.html" class="dropdown-item">
+                <a class="dropdown-item" href="projects.html" class="link">
                   Projects using sButton
                 </a>
               </li>
@@ -127,15 +119,20 @@
               </li>
             </ul>
           </div>
+          <!-- dropdown menu section ends here -->
         </div>
-
+        <!-- navigation menu links -->
         <div class="links">
-          <a href="index.html" class="link active"> Home </a>
+          <a href="index.html" class="link"> Home </a>
           <a href="documentation.html" class="link"> Documentation </a>
           <a href="examples.html" class="link"> Examples </a>
-          <a href="projects.html" class="link"> Projects using sButton </a>
+          <a href="projects.html" class="link active"
+            >Projects using sButtons</a
+          >
         </div>
+        <!-- navigation menu links -->
 
+        <!-- nav buttons -->
         <div class="buttons">
           <a
             class="toggle-theme"
@@ -144,102 +141,26 @@
           >
             <i class="fas fa-moon"></i>
           </a>
-          <a
-            href="#"
-            id="downloadGithubRawHeader"
-            class="download-link menu_link"
-          >
+          <a href="#" id="downloadGithubRawHeader" class="download-link">
             <i class="fas fa-download"></i>
           </a>
           <a
             href="https://github.com/sButtons/sbuttons"
             target="_blank"
-            class="icon-link menu_link"
+            class="icon-link"
           >
             <i class="fab fa-github"></i>
           </a>
         </div>
-      </div>
-      <div class="content row">
-        <div class="banner-head col-lg-6 col-md-12 col-sm-12">
-          <h1>Simple and Creative buttons with sButtons.</h1>
-          <div class="subtitle">
-            Design and customize buttons easily for your next project.
-          </div>
-          <div class="banner-links">
-            <a
-              href="#"
-              id="downloadGithubRawButton"
-              class="sbtn hover-btn white-btn banner-link"
-              >Download</a
-            >
-            <a
-              href="documentation.html"
-              class="sbtn outline-btn white-btn banner-link"
-              >Documentation</a
-            >
-          </div>
-        </div>
-        <div class="logo col-lg-6 col-md-12 col-sm-12 d-none d-lg-block">
-          <img src="assets/img/banner.svg" class="img-fluid" />
-        </div>
+        <!-- nav buttons -->
       </div>
     </header>
-    <div class="container">
-      <script
-        async
-        type="text/javascript"
-        src="https://cdn.carbonads.com/carbon.js?serve=CEBILKJI&placement=sbuttonsgithubio"
-        id="_carbonads_js"
-      ></script>
-      <section class="installation">
-        <div class="head">
-          <h1 class="heading"><i class="fas fa-code"></i> Installation</h1>
-        </div>
-        <div class="instruction row">
-          <div class="desc col col-md-6 col-sm-12">
-            Install sButttons’s source LESS via npm.
-            <br /><br />
-            Package managed installs don’t include documentation or our full
-            build scripts. You can also use our npm.
-          </div>
-          <div class="code col-md-6 col-sm-12">
-            <div class="script-copy">
-              <pre><code class="language-shell"> npm install sbuttons </code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="cdn">
-        <div class="head">
-          <h1 class="heading"><i class="fas fa-cloud"></i> sButton CDN</h1>
-        </div>
-        <div class="instruction row">
-          <div class="desc col col-md-6 col-sm-12">
-            When you only need to include sButtons’s compiled CSS , you can use
-            <a
-              href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css"
-            >
-              sButton CDN.
-            </a>
-            <br /><br />
-            <a
-              href="documentation.html"
-              class="sbtn transparent-btn banner-link"
-              >Explore the docs</a
-            >
-          </div>
-          <div class="code col col-md-6 col-sm-12">
-            <div class="script-copy">
-              <pre><code class="language-markup"> &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css"></code></pre>
-              <div class="div-copy"><button class="clipboard"></button></div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    <main>
+      <div class="projects-container" id="project-container"></div>
+    </main>
+
+    <!-- footer -->
     <footer class="footer">
       <div class="container-lg pt-3 footer-container">
         <div class="row">
@@ -274,7 +195,7 @@
             <div class="row">
               <div class="col-xl-5 wrapper">
                 <div class="footer-links">
-                  <ul class="footer-ul">
+                  <ul class="footer-ul footer-ul-project">
                     <li>
                       <a
                         href="https://github.com/sButtons/sbuttons"
@@ -331,7 +252,8 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/js/buttons-examples.js"></script>
     <script src="assets/js/index.js"></script>
+    <script src="assets/js/projects.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
   </body>
 </html>

@@ -1,6 +1,22 @@
+/*
+=============== 
+Global Styles
+===============
+*/
+
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+ul {
+  list-style-type: none;
+}
+
+/*
+=============== 
+Main Styles
+===============
+*/
 
 .main-content {
   padding: 0 0%;

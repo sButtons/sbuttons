@@ -1431,10 +1431,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
     #e60550 51%,
     #d53caf 100%
   );
-  box-shadow: 0px 4px 4px #d53caf;
+  box-shadow: 0px 2px 2px #d53caf;
 }
 .gradient-btn.pink-btn:hover {
-  box-shadow: 0px 6px 4px #e60550;
+  box-shadow: 0px 4px 2px #e60550;
 }
 .gradient-btn.blue-btn {
   background-image: linear-gradient(
@@ -1443,10 +1443,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
     #085c7a 51%,
     #50bfe6 100%
   );
-  box-shadow: 0px 4px 4px #50bfe6;
+  box-shadow: 0px 2px 2px #50bfe6;
 }
 .gradient-btn.blue-btn:hover {
-  box-shadow: 0px 6px 4px #085c7a;
+  box-shadow: 0px 4px 2px #085c7a;
 }
 .gradient-btn.red-btn {
   background-image: linear-gradient(
@@ -1455,10 +1455,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
     #810824 51%,
     #ed0a3f 100%
   );
-  box-shadow: 0px 4px 4px #ed0a3f;
+  box-shadow: 0px 2px 2px #ed0a3f;
 }
 .gradient-btn.red-btn:hover {
-  box-shadow: 0px 6px 4px #810824;
+  box-shadow: 0px 4px 2px #810824;
 }
 .gradient-btn.green-btn {
   background-image: linear-gradient(
@@ -1467,10 +1467,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
     #165f29 51%,
     #3aa655 100%
   );
-  box-shadow: 0px 4px 4px #3aa655;
+  box-shadow: 0px 2px 2px #3aa655;
 }
 .gradient-btn.green-btn:hover {
-  box-shadow: 0px 6px 4px #165f29;
+  box-shadow: 0px 4px 2px #165f29;
 }
 .gradient-btn.yellow-btn {
   background-image: linear-gradient(
@@ -1479,10 +1479,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
     #eece00 51%,
     #fbe870 100%
   );
-  box-shadow: 0px 4px 4px #e2e22e;
+  box-shadow: 0px 2px 2px #e2e22e;
 }
 .gradient-btn.yellow-btn:hover {
-  box-shadow: 0px 6px 4px #eece00;
+  box-shadow: 0px 4px 2px #eece00;
 }
 .gradient-btn.orange-btn {
   background-image: linear-gradient(
@@ -1491,10 +1491,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
     #a74601 51%,
     #ff8833 100%
   );
-  box-shadow: 0px 4px 4px #ff8833;
+  box-shadow: 0px 2px 2px #ff8833;
 }
 .gradient-btn.orange-btn:hover {
-  box-shadow: 0px 6px 4px #a74601;
+  box-shadow: 0px 4px 2px #a74601;
 }
 .gradient-btn.purple-btn {
   background-image: linear-gradient(
@@ -1503,10 +1503,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
     #28075e 51%,
     #652dc1 100%
   );
-  box-shadow: 0px 4px 4px #652dc1;
+  box-shadow: 0px 2px 2px #652dc1;
 }
 .gradient-btn.purple-btn:hover {
-  box-shadow: 0px 6px 4px #28075e;
+  box-shadow: 0px 4px 2px #28075e;
 }
 .gradient-btn.black-btn {
   background-image: linear-gradient(
@@ -1515,10 +1515,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
     #000 51%,
     #686363 100%
   );
-  box-shadow: 0px 4px 4px #686363;
+  box-shadow: 0px 2px 2px #686363;
 }
 .gradient-btn.black-btn:hover {
-  box-shadow: 0px 6px 4px #000;
+  box-shadow: 0px 4px 2px #000;
 }
 .gradient-btn.white-btn {
   background-image: linear-gradient(
@@ -1527,10 +1527,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
     #a19e9e 51%,
     #fdf4f4 100%
   );
-  box-shadow: 0px 4px 4px #aca6a6;
+  box-shadow: 0px 2px 2px #aca6a6;
 }
 .gradient-btn.white-btn:hover {
-  box-shadow: 0px 6px 4px #a19e9e;
+  box-shadow: 0px 4px 2px #a19e9e;
 }
 [data-theme="dark"] .neon-border-btn,
 .neon-border-btn.dark-mode:not(.yellow-btn),
@@ -3121,7 +3121,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .flash-btn {
   opacity: 1;
 }
-.flash-btn:hover {
+.flash-btn:hover,
+.flash-btn.animated {
   animation-name: flash;
   animation-duration: 0.6s;
   animation-timing-function: ease-in-out;

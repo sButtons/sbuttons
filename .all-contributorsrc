@@ -2049,6 +2049,43 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "theBeginner86",
+      "name": "Pranav Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73700530?v=4",
+      "profile": "https://www.linkedin.com/in/pranav-singh-00904b1bb/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "TanmayJain17",
+      "name": "Tanmay Jain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51324353?v=4",
+      "profile": "https://github.com/TanmayJain17",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Bc-coding",
+      "name": "Belle Carrie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57630680?v=4",
+      "profile": "https://bellecarriedev.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "abid1998",
+      "name": "abid1998",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29145667?v=4",
+      "profile": "https://github.com/abid1998",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
