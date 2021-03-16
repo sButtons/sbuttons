@@ -2608,11 +2608,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
-.ripple-btn:hover {
+.ripple-btn:hover,
+.ripple-btn.animated {
   color: white !important;
   transition: 0.5s;
 }
-.ripple-btn:hover::before {
+.ripple-btn:hover::before,
+.ripple-btn.animated::before {
   animation: a-ripple 1s cubic-bezier(0.39, 0.58, 0.57, 1) forwards;
 }
 .ripple-btn.blue-btn {
@@ -2715,7 +2717,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .scale-btn {
   transition: all 0.1s;
 }
-.scale-btn:hover {
+.scale-btn:hover,
+.scale-btn.animated {
   transform: scale(1.2);
 }
 .shake-btn:hover,
