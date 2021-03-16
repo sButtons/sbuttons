@@ -22,7 +22,7 @@ function Button ({classes, text, htmlContent}) {
         })
     }
 
-    const copyClasses = getCopyClasses(classes)
+    const copyClasses = classes ? getCopyClasses(classes) : ""
 
     return (
         <div className="flex flex-col items-center justify-items-center pb-5 pr-3 md:w-4/12 w-6/12">

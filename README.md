@@ -219,7 +219,7 @@ If you would like to suggest a new button idea, please create a [new discussion]
 
 ### Projects Using sButtons
 
-If your project uses sButtons, please submit it [here](https://github.com/sButtons/sbuttons/issues) to be added to the list of the websites using it!
+If your project uses sButtons, please submit it [here](https://github.com/sButtons/sbuttons/issues/1255) to be added to the list of the websites using it!
 
 # Contributors
 
