@@ -7,7 +7,7 @@ import Projects from './pages/Projects'
 
 function App () {
     return (
-        <Router>
+        <Router basename="/sbuttons" >
             <Switch>
                 <Route path="/projects-using-sbuttons" component={Projects} />
                 <Route path="/documentation" component={Documentation} />
