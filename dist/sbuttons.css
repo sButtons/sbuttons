@@ -2337,44 +2337,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 400px;
   z-index: -1;
 }
+.liquid-btn:hover::before,
+.liquid-btn.animated::before {
+  top: -120px;
+}
+.liquid-btn:hover::after,
+.liquid-btn.animated::after {
+  top: -120px;
+}
 .liquid-btn.blue-btn {
   border-color: #50bfe6;
   color: #000 !important;
   background-color: #50bfe6;
-}
-.liquid-btn.blue-btn:hover::before,
-.liquid-btn.blue-btn.animated::before {
-  top: -120px;
-}
-.liquid-btn.blue-btn:hover::after,
-.liquid-btn.blue-btn.animated::after {
-  top: -120px;
 }
 .liquid-btn.pink-btn {
   border-color: #d53caf;
   color: #000 !important;
   background-color: #d53caf;
 }
-.liquid-btn.pink-btn:hover::before,
-.liquid-btn.pink-btn.animated::before {
-  top: -120px;
-}
-.liquid-btn.pink-btn:hover::after,
-.liquid-btn.pink-btn.animated::after {
-  top: -120px;
-}
 .liquid-btn.green-btn {
   border-color: #3aa655;
   color: #000 !important;
   background-color: #3aa655;
-}
-.liquid-btn.green-btn:hover::before,
-.liquid-btn.green-btn.animated::before {
-  top: -120px;
-}
-.liquid-btn.green-btn:hover::after,
-.liquid-btn.green-btn.animated::after {
-  top: -120px;
 }
 .liquid-btn.yellow-btn {
   border-color: #fbe870;
@@ -2382,52 +2366,20 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #fbe870;
   color: #fff;
 }
-.liquid-btn.yellow-btn:hover::before,
-.liquid-btn.yellow-btn.animated::before {
-  top: -120px;
-}
-.liquid-btn.yellow-btn:hover::after,
-.liquid-btn.yellow-btn.animated::after {
-  top: -120px;
-}
 .liquid-btn.orange-btn {
   border-color: #ff8833;
   color: #000 !important;
   background-color: #ff8833;
-}
-.liquid-btn.orange-btn:hover::before,
-.liquid-btn.orange-btn.animated::before {
-  top: -120px;
-}
-.liquid-btn.orange-btn:hover::after,
-.liquid-btn.orange-btn.animated::after {
-  top: -120px;
 }
 .liquid-btn.red-btn {
   border-color: #ed0a3f;
   color: #000 !important;
   background-color: #ed0a3f;
 }
-.liquid-btn.red-btn:hover::before,
-.liquid-btn.red-btn.animated::before {
-  top: -120px;
-}
-.liquid-btn.red-btn:hover::after,
-.liquid-btn.red-btn.animated::after {
-  top: -120px;
-}
 .liquid-btn.purple-btn {
   border-color: #652dc1;
   color: #000 !important;
   background-color: #652dc1;
-}
-.liquid-btn.purple-btn:hover::before,
-.liquid-btn.purple-btn.animated::before {
-  top: -120px;
-}
-.liquid-btn.purple-btn:hover::after,
-.liquid-btn.purple-btn.animated::after {
-  top: -120px;
 }
 .liquid-btn.black-btn {
   border-color: #000;
@@ -2435,27 +2387,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #000;
   color: #fff !important;
 }
-.liquid-btn.black-btn:hover::before,
-.liquid-btn.black-btn.animated::before {
-  top: -120px;
-}
-.liquid-btn.black-btn:hover::after,
-.liquid-btn.black-btn.animated::after {
-  top: -120px;
-}
 .liquid-btn.white-btn {
   border-color: #fff;
   color: #000 !important;
   background-color: #fff;
   border-color: rgba(0, 0, 0, 0.2);
-}
-.liquid-btn.white-btn:hover::before,
-.liquid-btn.white-btn.animated::before {
-  top: -120px;
-}
-.liquid-btn.white-btn:hover::after,
-.liquid-btn.white-btn.animated::after {
-  top: -120px;
 }
 .liquid-btn.white-btn::before {
   background-color: rgba(0, 0, 0, 0.5);
