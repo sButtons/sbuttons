@@ -8,7 +8,7 @@ on:
     branches: 
       - master
     paths:
-      - 'website/src'
+      - 'docs/src'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -16,7 +16,7 @@ jobs:
         runs-on: ubuntu-latest
         defaults:
           run:
-            working-directory: website
+            working-directory: docs
         steps:
           - uses: actions/checkout@v2
             with:
