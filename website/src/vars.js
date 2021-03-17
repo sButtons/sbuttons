@@ -1,5 +1,5 @@
 const vars = {
-    path: '/sbuttons'
+    path: '/'
 };
 
 export default vars
