@@ -14,7 +14,7 @@ function Common ({activePage = null, pageTitle = '', showMenuButton = false, chi
             d.body.removeChild(previous)
         }
 
-        s.src = 'https://cdn.carbonads.com/carbon.js?serve=CEBIL27J&placement=blogshahednassercom';
+        s.src = 'https://cdn.carbonads.com/carbon.js?serve=CEBILKJI&placement=sbuttonsgithubio';
         s.id = '_carbonads_js';
         s.setAttribute('async', 'async');
         d.body.appendChild(s);
