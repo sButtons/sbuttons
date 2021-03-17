@@ -1,4 +1,4 @@
-![sButtons](./assets/img/sbuttons-nav.png)
+![sButtons](./website/public/images/logo-colored.png)
 
 Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 
