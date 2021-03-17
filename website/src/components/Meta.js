@@ -1,12 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import ReactGA from 'react-ga';
 
-function Meta ({pageTitle = '', url = 'https://sbuttons.github.io/sbuttons/', children = {}}) {
-
-    ReactGA.initialize('UA-149400351-4');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-
+function Meta ({pageTitle = '', url = '/', children = {}}) {
     return (
         <Helmet>
             <title>{pageTitle ? pageTitle + ' - ' : ''}sButtons{!pageTitle ? ' - Simple buttons you can use easily for your next project.' : ''}</title>
