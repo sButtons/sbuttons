@@ -285,6 +285,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://bellecarriedev.com"><img src="https://avatars.githubusercontent.com/u/57630680?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Belle Carrie</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Bc-coding" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/abid1998"><img src="https://avatars.githubusercontent.com/u/29145667?v=4?s=100" width="100px;" alt=""/><br /><sub><b>abid1998</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=abid1998" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="http://www.google.com"><img src="https://avatars.githubusercontent.com/u/17932368?v=4?s=100" width="100px;" alt=""/><br /><sub><b>A3vk</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=A3vk" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
