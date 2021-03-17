@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Link } from 'react-router-dom'
@@ -31,9 +32,9 @@ function Header({activePage = null, showMenuButton = false}) {
                         </Link>
                 </div>
                 <div className="justify-end flex items-center lg:w-4/12 md:w-2/12 w-4/12 md:mx-0 mr-0 ml-auto">
-                    <Link to="https://github.com/sButtons/sbuttons" className="hover:opacity-100 opacity-40 px-3 transition-none">
+                    <a href="https://github.com/sButtons/sbuttons" target="_blank" className="hover:opacity-100 opacity-40 px-3 transition-none">
                         <FiGithub size="1.5rem" />
-                    </Link>
+                    </a>
                     <DarkModeToggler 
                         isDarkMode={isDarkMode} 
                         toggleDarkMode={toggleDarkMode}
