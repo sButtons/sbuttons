@@ -52,13 +52,13 @@ body {
 
 /** Carbon ads **/
 
-#carbonads {
+[id*=carbonads] {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
 
-#carbonads {
+[id*=carbonads] {
   display: flex;
   position: fixed;
   bottom: 66px;
@@ -69,22 +69,22 @@ body {
   z-index: 100;
 }
 
-#carbonads a {
+[id*=carbonads] a {
   color: inherit;
   text-decoration: none;
 }
 
-#carbonads a:hover {
+[id*=carbonads] a:hover {
   color: inherit;
 }
 
-#carbonads span {
+[id*=carbonads] span {
   position: relative;
   display: block;
   overflow: hidden;
 }
 
-#carbonads .carbon-wrap {
+[id*=carbonads] .carbon-wrap {
   display: flex;
 }
 
@@ -126,17 +126,17 @@ body {
 
 /** DARK THEME **/
 
-.dark #carbonads {
+.dark [id*=carbonads] {
   background-color: hsl(0, 0%, 10%);
   box-shadow: 0 0 1px hsla(0, 0%, 0%, 0.5);
 }
 
-.dark #carbonads a {
+.dark [id*=carbonads] a {
   color: #ddd;
   text-decoration: none;
 }
 
-.dark #carbonads a:hover {
+.dark [id*=carbonads] a:hover {
   color: #ddd;
 }
 

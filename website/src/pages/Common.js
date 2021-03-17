@@ -11,7 +11,7 @@ function Common ({activePage = null, pageTitle = '', showMenuButton = false, chi
               previous = d.getElementById('carbonads');
 
         if (previous) {
-            d.body.removeChild(previous)
+            previous.remove()
         }
 
         s.src = 'https://cdn.carbonads.com/carbon.js?serve=CEBILKJI&placement=sbuttonsgithubio';
@@ -20,7 +20,7 @@ function Common ({activePage = null, pageTitle = '', showMenuButton = false, chi
         d.body.appendChild(s);
 
         return () => {
-            d.body.removeChild(s);
+            s.remove();
         }
     }, []);
 
