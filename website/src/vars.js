@@ -1,5 +1,5 @@
 const vars = {
-    path: '/'
+    path: ''
 };
 
 export default vars
