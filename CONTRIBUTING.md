@@ -50,9 +50,9 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 3. To make changes to the website:
 
-   The website uses React and TailwindCSS. All website related files are under the `docs` directory. The components and pages that are written under React are in `docs/src`.
+   The website uses React and TailwindCSS. All website related files are under the `website` directory. The components and pages that are written under React are in `website/src`.
 
-   You should not make any changes to files in `docs/build` directly. Make all changes in files under `docs/src`.
+   You should not make any changes to files in `website/build` directly. Make all changes in files under `website/src`.
 
    To start the dev server:
 
@@ -60,7 +60,7 @@ Please note we have a code of conduct, please follow it in all your interactions
    npm start
    ```
 
-   1. To add new examples, make changes in `docs/src/data`
+   1. To add new examples, make changes in `website/src/data`
 
       1. To add new button colors, add them to `button-colors.json` in `data`
       2. To add new button types, add them to `buttons.json` in `data`. It should follow the following format:
@@ -107,7 +107,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
          It should be noted that if the parent type has `shouldHaveRoundedType`, `shouldHaveBlockType`, `usesColors` or `usesText`, it will affect the buttons in `children` and `variations`. Buttons in `children` can have those attributes as well.
 
-   2. To submit new projects using sButtons, all projects should be added in `docs/src/data/projects.json`. The project object should be of the following format:
+   2. To submit new projects using sButtons, all projects should be added in `website/src/data/projects.json`. The project object should be of the following format:
    
    ```
    {
@@ -115,12 +115,12 @@ Please note we have a code of conduct, please follow it in all your interactions
       about,      //short description of the project
       url,        //URL of the project
       image       //Image of the project. When adding a project, take a screenshot of it or add any
-                  //image of it under docs/public/images/projects and include the path relative to 
+                  //image of it under website/public/images/projects and include the path relative to 
                   //public here
    }
    ```
 
-   3. **CSS**: The website uses TailwindCSS, so not a lot of changes is required in the CSS. However, any changes should be added in `docs/src/index.css`
+   3. **CSS**: The website uses TailwindCSS, so not a lot of changes is required in the CSS. However, any changes should be added in `website/src/index.css`
 
 
 ## Notes on Creating New Buttons
