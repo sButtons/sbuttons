@@ -1,3 +1,5 @@
-export default {
+const vars = {
     path: '/sbuttons'
-}
+};
+
+export default vars
