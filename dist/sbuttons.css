@@ -2337,38 +2337,28 @@ a.yellow-btn:active:not(.fill-color-btn) {
   width: 400px;
   z-index: -1;
 }
+.liquid-btn:hover::before,
+.liquid-btn.animated::before {
+  top: -120px;
+}
+.liquid-btn:hover::after,
+.liquid-btn.animated::after {
+  top: -120px;
+}
 .liquid-btn.blue-btn {
   border-color: #50bfe6;
   color: #000 !important;
   background-color: #50bfe6;
-}
-.liquid-btn.blue-btn:hover::before {
-  top: -120px;
-}
-.liquid-btn.blue-btn:hover::after {
-  top: -120px;
 }
 .liquid-btn.pink-btn {
   border-color: #d53caf;
   color: #000 !important;
   background-color: #d53caf;
 }
-.liquid-btn.pink-btn:hover::before {
-  top: -120px;
-}
-.liquid-btn.pink-btn:hover::after {
-  top: -120px;
-}
 .liquid-btn.green-btn {
   border-color: #3aa655;
   color: #000 !important;
   background-color: #3aa655;
-}
-.liquid-btn.green-btn:hover::before {
-  top: -120px;
-}
-.liquid-btn.green-btn:hover::after {
-  top: -120px;
 }
 .liquid-btn.yellow-btn {
   border-color: #fbe870;
@@ -2376,44 +2366,20 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #fbe870;
   color: #fff;
 }
-.liquid-btn.yellow-btn:hover::before {
-  top: -120px;
-}
-.liquid-btn.yellow-btn:hover::after {
-  top: -120px;
-}
 .liquid-btn.orange-btn {
   border-color: #ff8833;
   color: #000 !important;
   background-color: #ff8833;
-}
-.liquid-btn.orange-btn:hover::before {
-  top: -120px;
-}
-.liquid-btn.orange-btn:hover::after {
-  top: -120px;
 }
 .liquid-btn.red-btn {
   border-color: #ed0a3f;
   color: #000 !important;
   background-color: #ed0a3f;
 }
-.liquid-btn.red-btn:hover::before {
-  top: -120px;
-}
-.liquid-btn.red-btn:hover::after {
-  top: -120px;
-}
 .liquid-btn.purple-btn {
   border-color: #652dc1;
   color: #000 !important;
   background-color: #652dc1;
-}
-.liquid-btn.purple-btn:hover::before {
-  top: -120px;
-}
-.liquid-btn.purple-btn:hover::after {
-  top: -120px;
 }
 .liquid-btn.black-btn {
   border-color: #000;
@@ -2421,23 +2387,11 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #000;
   color: #fff !important;
 }
-.liquid-btn.black-btn:hover::before {
-  top: -120px;
-}
-.liquid-btn.black-btn:hover::after {
-  top: -120px;
-}
 .liquid-btn.white-btn {
   border-color: #fff;
   color: #000 !important;
   background-color: #fff;
   border-color: rgba(0, 0, 0, 0.2);
-}
-.liquid-btn.white-btn:hover::before {
-  top: -120px;
-}
-.liquid-btn.white-btn:hover::after {
-  top: -120px;
 }
 .liquid-btn.white-btn::before {
   background-color: rgba(0, 0, 0, 0.5);
@@ -2608,11 +2562,13 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
-.ripple-btn:hover {
+.ripple-btn:hover,
+.ripple-btn.animated {
   color: white !important;
   transition: 0.5s;
 }
-.ripple-btn:hover::before {
+.ripple-btn:hover::before,
+.ripple-btn.animated::before {
   animation: a-ripple 1s cubic-bezier(0.39, 0.58, 0.57, 1) forwards;
 }
 .ripple-btn.blue-btn {
@@ -2715,7 +2671,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .scale-btn {
   transition: all 0.1s;
 }
-.scale-btn:hover {
+.scale-btn:hover,
+.scale-btn.animated {
   transform: scale(1.2);
 }
 .shake-btn:hover,
@@ -3609,7 +3566,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .atom-btn.black-btn.dark-mode {
   color: #fff !important;
 }
-.rainbow-btn:hover {
+.rainbow-btn:hover,
+.rainbow-btn.animated {
   transition: 0.3s;
   animation: rainbow 5s infinite ease-in-out;
 }
