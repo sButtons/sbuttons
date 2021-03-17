@@ -32,18 +32,20 @@
     z-index: -1;
   }
 
+  &:hover::before,
+  &.animated::before {
+    top: -120px;
+  }
+
+  &:hover::after,
+  &.animated::after {
+    top: -120px;
+  }
+
   .liquidBtn(@color) {
     border-color: @color;
     color: #000 !important;
     .bc(@color);
-
-    &:hover::before {
-      top: -120px;
-    }
-
-    &:hover::after {
-      top: -120px;
-    }
   }
 
   &.blue-btn {
