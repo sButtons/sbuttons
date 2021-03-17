@@ -1,0 +1,14 @@
+[
+    {
+        "name": "UUID generator",
+        "about": "A web application that generates unique hashed strings once you click a button.",
+        "url": "https://uuid-generator.vercel.app/",
+        "image": "/images/projects/uuid.png"
+    },
+    {
+        "name": "Grammarly With Ghost",
+        "about": "An extension that allows Grammarly to work on Ghost's editor",
+        "url": "https://chrome.google.com/webstore/detail/grammarly-with-ghost/iakfoofepmfjafjepidembmheemidbdb",
+        "image": "/images/projects/grammarly-ghost.jpg"
+    }
+]

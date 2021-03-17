@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sbuttons/static/css/main.027ce91f.chunk.css",
+    "main.js": "/sbuttons/static/js/main.ef112ff9.chunk.js",
+    "main.js.map": "/sbuttons/static/js/main.ef112ff9.chunk.js.map",
+    "runtime-main.js": "/sbuttons/static/js/runtime-main.bef33f46.js",
+    "runtime-main.js.map": "/sbuttons/static/js/runtime-main.bef33f46.js.map",
+    "static/css/2.c0ce9acc.chunk.css": "/sbuttons/static/css/2.c0ce9acc.chunk.css",
+    "static/js/2.c7ab4c9b.chunk.js": "/sbuttons/static/js/2.c7ab4c9b.chunk.js",
+    "static/js/2.c7ab4c9b.chunk.js.map": "/sbuttons/static/js/2.c7ab4c9b.chunk.js.map",
+    "index.html": "/sbuttons/index.html",
+    "static/css/2.c0ce9acc.chunk.css.map": "/sbuttons/static/css/2.c0ce9acc.chunk.css.map",
+    "static/css/main.027ce91f.chunk.css.map": "/sbuttons/static/css/main.027ce91f.chunk.css.map",
+    "static/js/2.c7ab4c9b.chunk.js.LICENSE.txt": "/sbuttons/static/js/2.c7ab4c9b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bef33f46.js",
+    "static/css/2.c0ce9acc.chunk.css",
+    "static/js/2.c7ab4c9b.chunk.js",
+    "static/css/main.027ce91f.chunk.css",
+    "static/js/main.ef112ff9.chunk.js"
+  ]
+}

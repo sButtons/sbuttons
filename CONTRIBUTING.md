@@ -19,7 +19,6 @@ Please note we have a code of conduct, please follow it in all your interactions
   - [Button Ideas](#button-ideas)
   - [Create Pull Request](#create-pull-request)
     - [Note on abandoned pull requests](#note-on-abandoned-pull-requests)
-    - [Adding Projects that make use of sButtons](#adding-projects-that-make-use-of-sbuttons)
   - [Code of Conduct](#code-of-conduct)
     - [Our Pledge](#our-pledge)
     - [Our Standards](#our-standards)
@@ -51,36 +50,78 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 3. To make changes to the website:
 
-   1. To add new examples, make changes in `assets/js/buttons-examples.js`.
+   The website uses React and TailwindCSS. All website related files are under the `website` directory. The components and pages that are written under React are in `website/src`.
 
-      1. To add new button colors, add them to the variable `buttonColors`
-      2. To add new button types, add them to the variable `buttons`. It should follow the following format:
+   You should not make any changes to files in `website/build` directly. Make all changes in files under `website/src`.
+
+   To start the dev server:
+
+   ```
+   npm start
+   ```
+
+   1. To add new examples, make changes in `website/src/data`
+
+      1. To add new button colors, add them to `button-colors.json` in `data`
+      2. To add new button types, add them to `buttons.json` in `data`. It should follow the following format:
 
          ```
          {
-            type,                  //type of button. Will be used for the id of the section
+            type,                  //type of button. Will be used for grouping buttons
 
             label,                 //the title of the button section, which will also be shown in the sidebar menu
 
             classes,               //the default classes of this section. For example, for basic buttons it's "basic-btn"
 
-            text,                  //the text to show on the button. If this is omitted, the default text will be Button
+            text,                  //the text to show on the button. If this is omitted, the default text will be the name of the button
 
             shouldHaveRoundedType, //indicates if rounded button type should hidden or not, defaults to true
 
             shouldHaveBlockType,   //indicates if block button type should hidden or not, defaults to true
 
-            variations,            //this is for button types that don't use buttonColors or don't have normal and rounded
-                                   // button styling. Look at social buttons for example on how to use this
+            usesColors,            //indicates if the button will be using the default sButton colors for the example, defaults to true
 
-            children,              //optional. If the type has subtypes, add them here in an array. The subtypes should
+            usesText,              //indicates if the button should have a text inside of it. This is useful for icon buttons for example.   
+                                   //defaults to true
+
+            variations,            //this is for button types that don't use buttonColors or don't have normal and rounded
+                                   // button styling.
+
+            children,              //If the type has subtypes, add them here in an array. The subtypes should
                                    //also follow this same type format
          }
          ```
+         
+         `children` can be of the same format above, except it can't have its own children at the moment.
 
-   2. To edit the HTML, make changes in `index.html`
-   3. To edit the CSS of the website, make changes in `assets/css/`
-   4. To edit the JS of the website, make changes in `assets/js`
+         `variations` can have the following format:
+
+         ```
+         {
+            label,                 //the title of the variation section in the button example
+            classes,               //the classes the button should have in the variation, can be empty string
+            text,                  //the text to show on the button. If this is omitted, the default text will be the name of the button
+            html,                  //if the button needs HTML to be placed inside instead of text 
+         }
+         ```
+
+         It should be noted that if the parent type has `shouldHaveRoundedType`, `shouldHaveBlockType`, `usesColors` or `usesText`, it will affect the buttons in `children` and `variations`. Buttons in `children` can have those attributes as well.
+
+   2. To submit new projects using sButtons, all projects should be added in `website/src/data/projects.json`. The project object should be of the following format:
+   
+   ```
+   {
+      name,       //name of the project
+      about,      //short description of the project
+      url,        //URL of the project
+      image       //Image of the project. When adding a project, take a screenshot of it or add any
+                  //image of it under website/public/images/projects and include the path relative to 
+                  //public here
+   }
+   ```
+
+   3. **CSS**: The website uses TailwindCSS, so not a lot of changes is required in the CSS. However, any changes should be added in `website/src/index.css`
+
 
 ## Notes on Creating New Buttons
 
@@ -135,33 +176,6 @@ git merge upstream/master master
 ### Note on abandoned pull requests
 
 If a pull request is left unchanged for a week after changes are requested and the issue was assigned to the person that sent the new pull request, they will be unassigned and someone else will be given the chance to work on it.
-
-### Adding Projects that make use of sButtons
-
-If you come accross any project that uses the sButtons npm package, please feel free to add them to this repository.
-
-Below are the steps you need to take when you're about to add any project.
-
-- Navigate through this codebase to /assets/js/projects.js
-- In `projects.js` you'd see an array containing objects of projects in the format below.
-- Make sure you reference the link to the project's image or at least a screenshot of the project using sButtons in the projects array
-- The image or screenshot should be placed inside `assets/img/projects` directory.
-
-```js
-{
-    name,
-    about,
-    author,
-    link_to_project,
-    image,
-    github,
-  },
-```
-
-- When you are adding a new project, all you need to do is create another object that would contain the details of the project.
-- Make sure all the object keys are having the required string value.
-- When you're adding a project example, please enusre that the screenshot of that project of the image at least is present.
-- The images of all projects should be placed inside `assests/imgs/projects` directory.
 
 ## Code of Conduct
 
