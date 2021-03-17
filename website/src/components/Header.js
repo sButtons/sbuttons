@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { FiGithub, FiMoreVertical } from 'react-icons/fi'
 import useDarkMode, { DarkModeToggler } from 'use-dark-mode-hook'
 import MenuToggler from './MenuToggler'
+import vars from '../vars'
 
 function Header({activePage = null, showMenuButton = false}) {
     const [isDarkMode, toggleDarkMode] = useDarkMode()
@@ -13,7 +14,7 @@ function Header({activePage = null, showMenuButton = false}) {
             <div className="container flex flex-row mx-auto">
                 {showMenuButton && <MenuToggler />}
                 <Link to="/" className={`lg:w-2/12 ${showMenuButton ? 'w-4/12' : 'w-4/12'}`}>
-                    <img src="/images/logo-colored.png" alt="Logo" />
+                    <img src={`${vars.path}/images/logo-colored.png`} alt="Logo" />
                 </Link>
                 <div className="md:flex hidden items-center lg:w-6/12">
                         <Link to="/documentation" 

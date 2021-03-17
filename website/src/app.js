@@ -4,10 +4,11 @@ import Documentation from './pages/Documentation'
 import Examples from './pages/Examples'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
+import vars from './vars'
 
 function App () {
     return (
-        <Router basename="/sbuttons" >
+        <Router basename={vars.path} >
             <Switch>
                 <Route path="/projects-using-sbuttons" component={Projects} />
                 <Route path="/documentation" component={Documentation} />
