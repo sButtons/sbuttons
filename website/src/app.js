@@ -5,6 +5,7 @@ import Examples from './pages/Examples'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import vars from './vars'
+import NotFound from './pages/404'
 
 function App () {
     return (
@@ -14,6 +15,7 @@ function App () {
                 <Route path="/documentation" component={Documentation} />
                 <Route path="/examples" component={Examples} />
                 <Route path="/" exact={true} component={Home} />
+                <Route component={NotFound} />
             </Switch>
         </Router>
     )
