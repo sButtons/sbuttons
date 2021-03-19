@@ -41,19 +41,22 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 - [Contributors](#contributors)
 - [LICENSE](#license)
 
-# Installation
+# Get Started with sButtons
 
 ## Download CSS File
 
-You can download the CSS file [here](https://cdn.jsdelivr.net/gh/sButtons/sbuttons/dist/sbuttons.min.css) and then add it to your html file inbetween the `<head>` tags:
+You can download the CSS file here and then add it to your html file in between the tags.
+Download the file and link it as a stylesheet in between your `<head>` tags, as shown below.
 
 ```html
 <link rel="stylesheet" href="/path/to/sbuttons.min.css" />
 ```
 
+Make sure to replace `"/path/to/sbuttons.min.css"` with the path you stored it in.
+
 ## CDN
 
-You can use the [CDN](https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css):
+Or instead of downloading the file, you can use the CDN
 
 ```html
 <link
@@ -62,83 +65,7 @@ You can use the [CDN](https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.cs
 />
 ```
 
-## NPM
-
-You can install sButtons using [NPM](https://www.npmjs.com/package/sbuttons):
-
-```bash
-npm i sbuttons
-```
-
-### CSS
-
-You can import the CSS file found in `dist/sbuttons.css` or `dist/sbuttons.min.css`:
-
-```CSS
-@import url('~sbuttons/dist/sbuttons.min.css');
-```
-
-### LESS
-
-you can also import the LESS file found in `src/sbuttons.less`:
-
-```less
-@import "~sbuttons/src/sbuttons.less";
-```
-
-### Modifying Button Colors
-
-To modify button colors, import `src/sbuttons.less` in your Less file, then make changes to the variables after the import.
-
-For example, to change the blue color to a different shade
-
-```css
-@import "/path/to/sbuttons.less";
-
-@blue: #54a2bd; /* Make it darker */
-```
-
-Check out [\_variables.less](https://github.com/sButtons/sbuttons/blob/master/src/_variables.less) for the full list of variables.
-
-# Usage
-
-To use sButtons in your project , just add the classes of sButton you want to either `<button>` or `<a>` tags :
-
-```html
-<button class="sbtn basic-btn blue-btn">Button</button>
-```
-
-Same can be done for `<a>` tag
-
-```html
-<a href="#" class="sbtn basic-btn blue-btn">Button</a>
-```
-
-You can find all classes and their corresponding sButtons mentioned in our [website](https://sbuttons.github.io/sbuttons/).
-
-## Block Buttons
-
-To use sButtons with block display, add the class to either `<button>` or `<a>` tags
-
-```html
-<button class="sbtn basic-btn block-btn">Button</button>
-```
-
-## Disabled Buttons
-
-To make a `<button>` or `<a>` tag disabled, add disabled-btn class as shown below.
-
-```html
-<button class="sbtn basic-btn blue-btn disabled-btn">Button</button>
-```
-
-```html
-<a class="sbtn basic-btn blue-btn disabled-btn">Button</a>
-```
-
-## Icon Buttons
-
-In case of using buttons that have icons in them, make sure to include font awesome's [CDN](https://use.fontawesome.com/releases/v5.14.0/css/all.css) in the `<head>` tag:
+In case of using buttons that have icons in them, make sure to include font awesome's CDN in the `<head>` tag.
 
 ```html
 <link
@@ -149,35 +76,100 @@ In case of using buttons that have icons in them, make sure to include font awes
 />
 ```
 
-## Base Icon Buttons
+## NPM
 
-The `base-icon-btn` class enables you to have a normal, customizable button. Using it, you decide to add any fontawesome icon in it. You can choose to either place it on the left or right side of the button with the available classes.
+You can install sButtons using NPM:
 
-### Icon With No Background
-
-The `base-icon-btn` class gives you a default button with no background color and a border.
-
-```html
-<button class="sbtn base-icon-btn">base icon button</button>
+```shell
+npm i sbuttons
 ```
 
-### Icon Positioned to The Left
+## Using in CSS
 
-Adding the `left-icon` class to a button makes the icon positioned to the left. For example:
+You can import the CSS file found in `dist/sbuttons.css` or `dist/sbuttons.min.css`:
+
+```css
+@import url("~sbuttons/dist/sbuttons.min.css");
+```
+
+## Using in Less
+
+You can also import the LESS file found in `src/sbuttons.less`:
+
+```css
+@import "~sbuttons/src/sbuttons.less";
+```
+
+## Modify Colors
+
+To modify button colors, `import src/_variables.less` in your Less file, then make changes to the variables after the import.
+For example, to change the blue color to a different shade:
+
+```css
+@import "/path/to/_variables.less";
+@blue: #54a2bd; /* Make it darker */
+```
+
+Check out `_variables.less` for the full list of variables.
+
+# Usage
+
+## Basic Button
+
+To use sButtons in your project, just add the classes of sButton you want to either `<button>` or `<a>` tags.
+
+```html
+<button class="sbtn basic-btn blue-btn">Button</button>
+```
+
+You can find all classes mentioned in our [Examples](https://sbuttons.netlify.app/examples) page.
+
+## Block Buttons
+
+To use sButtons with block display, add the class to either `<button>` or `<a>`.
+
+```html
+<button class="sbtn basic-btn blue-btn block-btn">Button</button>
+```
+
+## Disabled Buttons
+
+To make a `<button>` or `<a>` tag disabled, add `disabled-btn` class as shown below.
+
+```html
+<button class="sbtn basic-btn blue-btn disabled-btn">Button</button>
+```
+
+## Icon Buttons
+
+The `base-icon-btn` class enables you to have a normal, customizable icon button. Using it, you decide to add any fontawesome icon in it. You can choose to either place it on the left or right side of the button with the available classes.
+
+## Only Icon
+
+The `icon-btn` class alone gives you a default button with no background color and border.
+
+```html
+<button class="sbtn icon-btn"><i class="fas fa-book"></i></button>
+```
+
+## Icon Positioned to The Left
+
+Adding the icon-left class to a button makes the icon positioned to the left.
 
 ```html
 <button class="sbtn base-icon-btn icon-left orange-btn">
-  <i class="fab fa-github"></i>left icon
+  <i class="fas fa-book"></i>Read
 </button>
 ```
 
-### Icon Positioned to The Right
+## Icon Positioned to The Right
 
-Adding the `right-icon` class to a button makes the icon positioned to the right. For example:
+Adding the `icon-right` class to a button makes the icon
+positioned to the right.
 
 ```html
 <button class="sbtn base-icon-btn icon-right orange-btn">
-  <i class="fab fa-github"></i>right icon
+  Read<i class="fas fa-book"></i>
 </button>
 ```
 
@@ -185,43 +177,44 @@ Adding the `right-icon` class to a button makes the icon positioned to the right
 
 The `toggle-btn` class along with the `toggle-off-btn` / `toggle-on-btn` state class enables you to have a toggle button. Apart from the basic use, it can also be used for checkboxes and radio buttons. While not necessary, you can use the available state classes to choose whether your checkboxes and radio buttons are checked or not.
 
-### Toggle Button as Checkboxes
+## Toggle Button as Checkboxes
 
-Adding the `toggle-btn` class to your checkbox inputs converts them to toggle buttons. For example:
+Adding the `toggle-btn` class to your checkbox inputs converts them to toggle buttons.
+For example:
 
 ```html
 <input type="checkbox" class="sbtn toggle-btn" />
 ```
 
-### Toggle Button as Radio Button
+## Toggle Button as Radio Buttons
 
-Adding the `toggle-btn` class to your radio inputs converts them to toggle buttons. For example:
+Adding the `toggle-btn` class to your radio inputs converts them to toggle buttons.
 
 ```html
 <input type="radio" class="sbtn toggle-btn" />
 ```
 
-## Dark-Mode Button
+## Dark Mode
 
-The `dark-mode` class enables you to have a dark mode for a button by adding `dark-mode` class to the button or by adding `data-theme="dark"` to a container element like the body element.
+sButtons is compatible with dark mode. It either works by adding dark-mode class to buttons, or by adding data-theme="dark" to a container element.
 
-### Adding dark-mode as a class
-
-Adding the `dark-mode` class will make the button work in dark mode.For example:
+## Using dark-mode Class
 
 ```html
-<button class="sbtn dashed-btn white-btn dark-mode">Dark Mode</button>
+<button class="sbtn dashed-btn black-btn dark-mode">Dark-Mode</button>
 ```
 
-### Adding dark-mode as an attribute
+## Using data-theme attribute
 
-Adding the `data-theme="dark"` as an attribute to a body element .It can be added to any container element of the button.For example:
+By adding `data-theme="dark"` to a parent element like the body or a div element, the button will automatically be in dark mode.
 
 ```html
-<body data-theme="dark">
-  <button class="sbtn dashed-btn orange-btn">Dark-Mode</button>
-</body>
+<div data-theme="dark">
+  <button class="sbtn dashed-btn black-btn">Dark-Mode</button>
+</div>
 ```
+
+Note: `data-theme="dark"` attribute does not give dark mode styling to the container element, you have to do that yourself. It only toggles sButtons to be in dark mode.
 
 # Contribution
 
