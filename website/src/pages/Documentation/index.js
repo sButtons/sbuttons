@@ -21,10 +21,11 @@ function Documentation () {
                     <SidebarLink to="#npm" text="NPM" />
                     <SidebarLink to="#npm-using-in-css" text="Using in CSS" level={1} />
                     <SidebarLink to="#npm-using-in-less" text="Using in Less" level={1} />
+                    <SidebarLink to="#less-modify-colors" text="Modify Colors" level={2} />
                     <SidebarLink to="#usage" text="Usage" />
                     <SidebarLink to="#basic-button" text="Basic Button" level={1} />
-                    <SidebarLink to="#block-buttons" text="Block Buttons" level={1} />
-                    <SidebarLink to="#disabled-buttons" text="Disabled Buttons" level={1} />
+                    <SidebarLink to="#block-buttons" text="Block Buttons" level={2} />
+                    <SidebarLink to="#disabled-buttons" text="Disabled Buttons" level={2} />
                     <SidebarLink to="#icon-buttons" text="Icon Buttons" level={1} />
                     <SidebarLink to="#only-icon" text="Only Icon" level={2} />
                     <SidebarLink to="#icon-left" text="Icon Left" level={2} />
@@ -200,7 +201,7 @@ function Documentation () {
                                 </div>
                             </section>
                             <section id="icon-right" className="mt-7">
-                                <SubsectionHeader title="Icon Positioned to The Left" to="icon-right" />
+                                <SubsectionHeader title="Icon Positioned to The Right" to="icon-right" />
                                 <div className="pl-8 text-lg">
                                     <p className="mb-3">
                                         Adding the <code>icon-right</code> class to a button makes the icon positioned to the right.<br />
