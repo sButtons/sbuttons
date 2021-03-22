@@ -42,7 +42,7 @@ function Header({activePage = null, showMenuButton = false}) {
                     />
                     <button className="block group md:hidden px-3 relative focus:outline-none align-text-bottom">
                         <FiMoreVertical size="1.5rem" className="hover:opacity-100 opacity-40 transition-none" />
-                        <div className="absolute bg-gray-100 dark:bg-gray-700 group-hover:block group-focus:block hidden right-1.5 shadow-md top-9">
+                        <div className="absolute bg-gray-100 dark:bg-gray-700 group-hover:block group-focus:block hidden right-1.5 shadow-md top-9" style={{width: 210}}>
                             <Link className="block dark:hover:bg-gray-800 dark:hover:text-white dark:text-gray-100 hover:bg-gray-200 hover:text-gray-600 px-4 py-2 text-gray-500 text-lg text-left" to="/documentation">
                                 Get Started
                             </Link>
