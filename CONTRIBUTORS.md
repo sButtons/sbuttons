@@ -287,6 +287,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="http://www.google.com"><img src="https://avatars.githubusercontent.com/u/17932368?v=4?s=100" width="100px;" alt=""/><br /><sub><b>A3vk</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=A3vk" title="Code">💻</a></td>
+    <td align="center"><a href="http://shrutikatpara.github.io/"><img src="https://avatars.githubusercontent.com/u/45987734?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shruti Katpara</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ShrutiKatpara" title="Code">💻</a></td>
   </tr>
 </table>
 
