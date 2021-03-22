@@ -14,27 +14,26 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 
 # Contents
 
-- [Installation](#installation)
+- [Get started with sButtons](#get-started-with-sbuttons)
   - [Download CSS File](#download-css-file)
   - [CDN](#cdn)
   - [NPM](#npm)
-    - [CSS](#css)
-    - [Less](#less)
-    - [Modifying Button Colors](#modifying-button-colors)
+    - [Using in CSS](#using-in-css)
+    - [Using in LESS](#using-in-less)
+    - [Modify Colors](#modifying-button-colors)
 - [Usage](#usage)
+  - [Basic Button](#basic-button)
   - [Block Buttons](#block-buttons)
   - [Disabled Buttons](#disabled-buttons)
-  - [Icon Buttons](#icon-buttons)
-  - [Base Icon Buttons](#base-icon-buttons)
-    - [Icon With No Background](#icon-with-no-background)
+  - [Only Icon](#only-icon)
     - [Icon Positioned to The Left](#icon-positioned-to-the-left)
     - [Icon Positioned to The Right](#icon-positioned-to-the-right)
   - [Toggle Button](#toggle-button)
     - [Toggle Button as Checkboxes](#toggle-button-as-checkboxes)
     - [Toggle Button as Radio Button](#toggle-button-as-radio-button)
-  - [Dark-Mode Button](#dark-mode-button)
-    - [Adding dark-mode as a class](#Adding-dark-mode-as-a-class)
-    - [Adding dark-mode as an attribute](#Adding-dark-mode-as-an-attribute)
+  - [Dark Mode](#dark-mode)
+    - [Using dark-mode Class](#using-dark-mode-class)
+    - [Using data-theme attribute](#using-data-theme-attribute)
 - [Contribution](#contribution)
   - [Button ideas](#button-ideas)
   - [Projects Using sButtons](#projects-using-sbuttons)
@@ -92,25 +91,25 @@ You can import the CSS file found in `dist/sbuttons.css` or `dist/sbuttons.min.c
 @import url("~sbuttons/dist/sbuttons.min.css");
 ```
 
-## Using in Less
+## Using in Using in LESS
 
-You can also import the LESS file found in `src/sbuttons.less`:
+You can also import the Using in LESS file found in `src/sbuttons.Using in LESS`:
 
 ```css
-@import "~sbuttons/src/sbuttons.less";
+@import "~sbuttons/src/sbuttons.Using in LESS";
 ```
 
 ## Modify Colors
 
-To modify button colors, `import src/_variables.less` in your Less file, then make changes to the variables after the import.
+To modify button colors, `import src/_variables.Using in LESS` in your Using in LESS file, then make changes to the variables after the import.
 For example, to change the blue color to a different shade:
 
 ```css
-@import "/path/to/_variables.less";
+@import "/path/to/_variables.Using in LESS";
 @blue: #54a2bd; /* Make it darker */
 ```
 
-Check out `_variables.less` for the full list of variables.
+-Check out [\_variables.less](https://github.com/sButtons/sbuttons/blob/master/src/_variables.less) for the full list of variables.
 
 # Usage
 
