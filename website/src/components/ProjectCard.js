@@ -10,7 +10,7 @@ function ProjectCard({project: {name, about, url, image}}) {
             <div className="absolute bg-gray-100 bg-opacity-90 flex flex-col group-hover:opacity-100 h-full items-center justify-center left-0 opacity-0 px-3 text-center top-0 transition-all w-full">
                 <h4 className="font-bold">{name}</h4>
                 <p>{about}</p>
-                <a href={url} target="_blank" className="stretched-link"></a>
+                <a href={url} target="_blank" rel="noopener noreferrer" className="stretched-link"></a>
             </div>
         </div>
     )
