@@ -27,15 +27,15 @@ function Documentation () {
                     <SidebarLink to="#block-buttons" text="Block Buttons" level={1} />
                     <SidebarLink to="#disabled-buttons" text="Disabled Buttons" level={1} />
                     <SidebarLink to="#icon-buttons" text="Icon Buttons" level={1} />
-                    <SidebarLink to="#only-icon" text="Only Icon" level={2} />
-                    <SidebarLink to="#icon-left" text="Icon Left" level={2} />
-                    <SidebarLink to="#icon-right" text="Icon Right" level={2} />
+                    <SidebarLink to="#only-icon" text="Only Icon" level={4} />
+                    <SidebarLink to="#icon-left" text="Icon Left" level={4} />
+                    <SidebarLink to="#icon-right" text="Icon Right" level={4} />
                     <SidebarLink to="#toggle-buttons" text="Toggle Button" level={1} />
-                    <SidebarLink to="#toggle-button-checkbox" text="Toggle Button as Checkboxes" level={2} />
-                    <SidebarLink to="#toggle-button-radio" text="Toggle Button as Radio Buttons" level={2} />
+                    <SidebarLink to="#toggle-button-checkbox" text="Toggle Button as Checkboxes" level={4} />
+                    <SidebarLink to="#toggle-button-radio" text="Toggle Button as Radio Buttons" level={4} />
                     <SidebarLink to="#dark-mode" text="Dark Mode" level={1} />
-                    <SidebarLink to="#dark-mode-class" text="Using dark-mode Class" level={2} />
-                    <SidebarLink to="#dark-mode-attribute" text="Using data-theme attribute" level={2} />
+                    <SidebarLink to="#dark-mode-class" text="Using dark-mode Class" level={4} />
+                    <SidebarLink to="#dark-mode-attribute" text="Using data-theme attribute" level={4} />
                 </Sidebar>
                 <div className="container content lg:pr-20 md:w-8/12 pl-3">
                     <h2 className="text-4xl mb-7">Get Started with sButtons</h2>
