@@ -58,10 +58,10 @@ function Documentation () {
                             </p>
                             <Code code={`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css">`} language="html" />
                             <p className="mt-3 mb-3">
-                                In case of using buttons that have icons in them, make sure to include font awesome's 
+                                In case of using buttons that have icons in them, make sure to include font awesome's
                                 CDN in the <code>{`<head>`}</code> tag.
                             </p>
-                            <Code code={`<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">`} 
+                            <Code code={`<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">`}
                                 language="html" />
                         </div>
                     </section>
@@ -73,7 +73,7 @@ function Documentation () {
                             </p>
                             <Code code={`npm i sbuttons`} language="shell" />
                         </div>
-                        
+
                         <section id="npm-using-in-css" className="mt-7">
                             <SubsectionHeader title="Using in CSS" to="npm-using-in-css" />
                             <div className="pl-8 text-lg">
@@ -83,7 +83,7 @@ function Documentation () {
                                 <Code code={`@import url('~sbuttons/dist/sbuttons.min.css');`} language="css" />
                             </div>
                         </section>
-                        
+
                         <section id="npm-using-in-less" className="mt-7">
                             <SubsectionHeader title="Using in Less" to="npm-using-in-less" />
                             <div className="pl-8 text-lg">
@@ -92,16 +92,16 @@ function Documentation () {
                                 </p>
                                 <Code code={`@import '~sbuttons/src/sbuttons.less';`} language="less" />
                             </div>
-                        
+
                             <section id="less-modify-colors" className="mt-7">
                                 <SubsectionHeader title="Modify Colors" to="less-modify-colors" />
                                 <div className="pl-8 text-lg">
                                     <p className="mb-3">
-                                        To modify button colors, import <code>src/_variables.less</code> in your Less file, 
+                                        To modify button colors, import <code>src/_variables.less</code> in your Less file,
                                         then make changes to the variables after the import.<br/>
                                         For example, to change the blue color to a different shade:
                                     </p>
-                                    <Code code={`@import '/path/to/_variables.less';\n@blue: #54a2bd; /* Make it darker */`} 
+                                    <Code code={`@import '/path/to/_variables.less';\n@blue: #54a2bd; /* Make it darker */`}
                                         language="less" />
                                     <p className="mt-3">
                                         Check out <a href="https://github.com/sButtons/sbuttons/blob/master/src/_variables.less" className="underline-red">_variables.less</a> for the full list of variables.
@@ -112,7 +112,7 @@ function Documentation () {
                     </section>
                     <section id="usage" className="mt-8 lg:w-10/12 md:w-11/12">
                         <SectionHeader title="Usage" to="usage" />
-                        
+
                         <section id="basic-button" className="mt-7">
                             <SubsectionHeader title="Basic Button" to="basic-button" />
                             <div className="pl-8 text-lg">
@@ -130,7 +130,7 @@ function Documentation () {
                                 </p>
                             </div>
                         </section>
-                        
+
                         <section id="block-buttons" className="mt-7">
                             <SubsectionHeader title="Block Buttons" to="block-buttons" />
                             <div className="pl-8 text-lg">
@@ -145,7 +145,7 @@ function Documentation () {
                                 </p>
                             </div>
                         </section>
-                        
+
                         <section id="disabled-buttons" className="mt-7">
                             <SubsectionHeader title="Disabled Buttons" to="disabled-buttons" />
                             <div className="pl-8 text-lg">
@@ -160,13 +160,13 @@ function Documentation () {
                                 </p>
                             </div>
                         </section>
-                        
+
                         <section id="icon-buttons" className="mt-7">
                             <SubsectionHeader title="Icon Buttons" to="icon-buttons" />
                             <div className="pl-8 text-lg">
                                 <p className="mb-3">
-                                The <code>base-icon-btn</code> class enables you to have a normal, customizable icon button. Using it, 
-                                you decide to add any fontawesome icon in it. You can choose to either place it on the left or right 
+                                The <code>base-icon-btn</code> class enables you to have a normal, customizable icon button. Using it,
+                                you decide to add any fontawesome icon in it. You can choose to either place it on the left or right
                                 side of the button with the available classes.
                                 </p>
                             </div>
@@ -215,14 +215,14 @@ function Documentation () {
                                 </div>
                             </section>
                         </section>
-                    
+
                         <section id="toggle-buttons" className="mt-7">
                             <SubsectionHeader title="Toggle Button" to="toggle-buttons" />
                             <div className="pl-8 text-lg">
                                 <p className="mb-3">
-                                    The <code>toggle-btn</code> class along with the <code>toggle-off-btn</code> / <code>toggle-on-btn</code> state 
-                                    class enables you to have a toggle button. Apart from the basic use, it can also be used for checkboxes 
-                                    and radio buttons. While not necessary, you can use the available state classes to choose whether 
+                                    The <code>toggle-btn</code> class along with the <code>toggle-off-btn</code> / <code>toggle-on-btn</code> state
+                                    class enables you to have a toggle button. Apart from the basic use, it can also be used for checkboxes
+                                    and radio buttons. While not necessary, you can use the available state classes to choose whether
                                     your checkboxes and radio buttons are checked or not.
                                 </p>
                             </div>
@@ -267,8 +267,8 @@ function Documentation () {
                                     <Code code={`<input type="radio" class="sbtn toggle-btn"/>`} language="html" />
                                 </div>
                             </section>
-                        </section>                    
-                    
+                        </section>
+
                         <section id="dark-mode" className="mt-7">
                             <SubsectionHeader title="Dark Mode" to="dark-mode" />
                             <div className="pl-8 text-lg">
@@ -277,7 +277,7 @@ function Documentation () {
                                     or by adding <code>data-theme="dark"</code> to a container element.
                                 </p>
                             </div>
-                        
+
                             <section id="dark-mode-class" className="mt-7">
                                 <SubsectionHeader title="Using dark-mode Class" to="dark-mode-class" />
                                 <div className="pl-8 text-lg">
@@ -288,12 +288,12 @@ function Documentation () {
                                     </p>
                                 </div>
                             </section>
-                        
+
                             <section id="dark-mode-attribute" className="mt-7">
                                 <SubsectionHeader title="Using data-theme attribute" to="dark-mode-attribute" />
                                 <div className="pl-8 text-lg">
                                     <p className="mb-3">
-                                        By adding <code>data-theme="dark"</code> to a parent element like the <code>body</code> or 
+                                        By adding <code>data-theme="dark"</code> to a parent element like the <code>body</code> or
                                         a <code>div</code> element, the button will automatically be in dark mode.
                                     </p>
                                     <Code code={`<div data-theme="dark"><button class="sbtn dashed-btn black-btn">Dark-Mode</button></div>`} language="html" />

@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react' 
+import React, { useEffect, useState } from 'react'
+import Footer from '../../components/Footer'
 import Common from '../Common'
 import Sidebar from '../../components/Sidebar'
 import SidebarLink from '../../components/SidebarLink'
@@ -83,16 +84,16 @@ function Examples () {
                 <Sidebar>
                     {buttons.map((buttonType, index) => {
                         if (!buttonType.children.length) {
-                            return <SidebarLink to={`#${buttonType.type}`} text={buttonType.label} 
+                            return <SidebarLink to={`#${buttonType.type}`} text={buttonType.label}
                                 key={`${buttonType.type}_${index}`} clickCallback={setCurrentButton}
                                 current={currentButton} />
                         } else {
                             return (
                                 <div key={`${buttonType.type}_${index}`}>
-                                    <SidebarLink text={buttonType.label} 
+                                    <SidebarLink text={buttonType.label}
                                         key={`${buttonType.type}_${index}`} />
                                     {buttonType.children.map((button, buttonIndex) => (
-                                        <SidebarLink to={`#${button.type}`} text={button.label} level={1} 
+                                        <SidebarLink to={`#${button.type}`} text={button.label} level={1}
                                             key={`${index}_${buttonIndex}`} clickCallback={setCurrentButton}
                                             current={currentButton} />
                                     ))}
@@ -106,14 +107,15 @@ function Examples () {
                     <span className="mb-7 text-sm block md:text-left text-center">Type: {button && button.type.name}</span>
                     {hasVariations && button.button.variations.map((variation, index) => (
                         <ButtonExample button={
-                                {classes: `${button.button.classes} ${variation.classes}`, htmlContent: variation.html, 
+                                {classes: `${button.button.classes} ${variation.classes}`, htmlContent: variation.html,
                                 label: variation.label, text: variation.text}}
                             type={button.type} key={index} />
                     ))}
-                    {(button && !hasVariations) && 
+                    {(button && !hasVariations) &&
                         <ButtonExample button={button.button} type={button.type} htmlContent={button.html} />}
                 </div>
             </div>
+          <Footer />
         </div>
     )
 }
