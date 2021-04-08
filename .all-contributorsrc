@@ -2113,6 +2113,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "snapecode",
+      "name": "Stevie Snape",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16259573?v=4",
+      "profile": "https://github.com/snapecode",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
