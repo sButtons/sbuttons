@@ -30,6 +30,7 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
   - [Toggle Button](#toggle-button)
     - [Toggle Button as Checkboxes](#toggle-button-as-checkboxes)
     - [Toggle Button as Radio Button](#toggle-button-as-radio-button)
+  - [Animated Buttons](#animated-buttons)  
   - [Dark Mode](#dark-mode)
     - [Using dark-mode Class](#using-dark-mode-class)
     - [Using data-theme attribute](#using-data-theme-attribute)
@@ -191,6 +192,15 @@ Adding the `toggle-btn` class to your radio inputs converts them to toggle butto
 ```html
 <input type="radio" class="sbtn toggle-btn" />
 ```
+
+## Animated Buttons
+
+To use Animated sButtons in your project, add the classes of the animated sButton you want to either `<button>` or `<a>` tags.
+
+```html
+<button class="sbtn atom-btn blue-btn">Animated Button</button>
+```
+Note: Depending on your button, the animation should either run infinitely or just once. 
 
 ## Dark Mode
 

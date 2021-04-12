@@ -33,6 +33,7 @@ function Documentation () {
                     <SidebarLink to="#toggle-buttons" text="Toggle Button" level={1} />
                     <SidebarLink to="#toggle-button-checkbox" text="Toggle Button as Checkboxes" level={2} />
                     <SidebarLink to="#toggle-button-radio" text="Toggle Button as Radio Buttons" level={2} />
+                    <SidebarLink to="#animated-buttons" text="Animated Buttons" level={1} />
                     <SidebarLink to="#dark-mode" text="Dark Mode" level={1} />
                     <SidebarLink to="#dark-mode-class" text="Using dark-mode Class" level={2} />
                     <SidebarLink to="#dark-mode-attribute" text="Using data-theme attribute" level={2} />
@@ -267,7 +268,22 @@ function Documentation () {
                                     <Code code={`<input type="radio" class="sbtn toggle-btn"/>`} language="html" />
                                 </div>
                             </section>
-                        </section>                    
+                        </section>       
+
+                        <section id="animated-buttons" className="mt-7">
+                            <SubsectionHeader title="Animated Buttons" to="animated-buttons" />
+                            <div className="pl-8 text-lg">
+                                <p className="mb-3">
+                                    To use Animated sButtons in your project, add the classes of the animated sButton you want to either <code>{`<button>`}</code> or <code>{`<a>`}</code> tags.<br />
+                                    For example:
+                                </p>
+                                <Code code={`<button class="sbtn atom-btn blue-btn">Animated Button</button>`} language="html" />
+                                <p className="mt-3">
+                                    Gives us this button: <br />
+                                    <button className="sbtn atom-btn blue-btn">Animated Button</button>
+                                </p>
+                            </div>
+                        </section>             
                     
                         <section id="dark-mode" className="mt-7">
                             <SubsectionHeader title="Dark Mode" to="dark-mode" />
