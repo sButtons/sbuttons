@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('~sbuttons/dist/sbuttons.min.css');
 
+.sidebar {
+  height: 50vh;
+}
+
 html, body {
   scroll-behavior: smooth;
 }
