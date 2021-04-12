@@ -198,7 +198,7 @@ Adding the `toggle-btn` class to your radio inputs converts them to toggle butto
 To use Animated sButtons in your project, add the classes of the animated sButton you want to either `<button>` or `<a>` tags.
 
 ```html
-<button class="sbtn atom-btn blue-btn">Animated Button</button>
+<button class="animated sbtn atom-btn blue-btn">Animated Button</button>
 ```
 Note: Depending on your button, the animation should either run infinitely or just once. 
 

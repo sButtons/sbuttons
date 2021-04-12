@@ -277,10 +277,10 @@ function Documentation () {
                                     To use Animated sButtons in your project, add the classes of the animated sButton you want to either <code>{`<button>`}</code> or <code>{`<a>`}</code> tags.<br />
                                     For example:
                                 </p>
-                                <Code code={`<button class="sbtn atom-btn blue-btn">Animated Button</button>`} language="html" />
+                                <Code code={`<button class="animated sbtn atom-btn blue-btn">Animated Button</button>`} language="html" />
                                 <p className="mt-3">
                                     Gives us this button: <br />
-                                    <button className="sbtn atom-btn blue-btn">Animated Button</button>
+                                    <button className="animated sbtn atom-btn blue-btn">Animated Button</button>
                                 </p>
                             </div>
                         </section>             
