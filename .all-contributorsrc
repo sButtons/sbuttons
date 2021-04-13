@@ -2121,7 +2121,8 @@
       "profile": "https://github.com/snapecode",
       "contributions": [
         "code",
-        "bug"
+        "bug",
+        "doc"
       ]
     }
   ],
