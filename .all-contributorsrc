@@ -2124,6 +2124,16 @@
         "bug",
         "doc"
       ]
+    },
+    {
+      "login": "kcbelford",
+      "name": "kcbelford",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55203882?v=4",
+      "profile": "http://kbelford.com",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
