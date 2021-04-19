@@ -8,7 +8,7 @@ function Footer () {
         <footer className="bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-white py-6 px-5 mt-3">
             <div className="container text-center">
                 <p>
-                    Made with <AiFillHeart className="align-middle inline text-red-600" size="1.3rem" /> by 
+                    Made with <AiFillHeart className="align-middle inline text-red-600" size="1.3rem" /> by
                     <a href="https://shahednasser.com" target="_blank" className="ml-1 align-middle underline-red">Shahed Nasser</a>
                 </p>
                 <p className="mt-4">
