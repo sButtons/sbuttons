@@ -49,6 +49,27 @@ a.sbtn:active {
 .rounded-btn {
   border-radius: 25px;
 }
+.rounded-5-btn {
+  border-radius: 5px;
+}
+.rounded-10-btn {
+  border-radius: 10px;
+}
+.rounded-15-btn {
+  border-radius: 15px;
+}
+.rounded-20-btn {
+  border-radius: 20px;
+}
+.rounded-25-btn {
+  border-radius: 25px;
+}
+.rounded-30-btn {
+  border-radius: 30px;
+}
+.rounded-full-btn {
+  border-radius: 50%;
+}
 .block-btn {
   display: block;
   width: 100%;
@@ -2810,7 +2831,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   right: 0;
 }
 .snake-btn:hover:before,
-.snake-btn.animated:hover:before {
+.snake-btn.animated:before {
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -2821,7 +2842,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #333;
 }
 .snake-btn:hover:after,
-.snake-btn.animated:hover:after {
+.snake-btn.animated:after {
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -2832,24 +2853,24 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #333;
 }
 [data-theme="dark"] .snake-btn:hover:before,
-[data-theme="dark"] .snake-btn.animated:hover:before,
+[data-theme="dark"] .snake-btn.animated:before,
 .snake-btn:hover.dark-mode:before,
-.snake-btn.animated:hover.dark-mode:before,
+.snake-btn.animated.dark-mode:before,
 [data-theme="dark"] .snake-btn:hover:after,
-[data-theme="dark"] .snake-btn.animated:hover:after,
+[data-theme="dark"] .snake-btn.animated:after,
 .snake-btn:hover.dark-mode:after,
-.snake-btn.animated:hover.dark-mode:after {
+.snake-btn.animated.dark-mode:after {
   border-color: #fff;
 }
 .snake-btn:focus {
   box-shadow: none;
 }
 .snake-btn.rounded-btn:hover:before,
-.snake-btn.rounded-btn.animated:hover:before {
+.snake-btn.rounded-btn.animated:before {
   border-radius: 25px;
 }
 .snake-btn.rounded-btn:hover:after,
-.snake-btn.rounded-btn.animated:hover:after {
+.snake-btn.rounded-btn.animated:after {
   border-radius: 25px;
 }
 .splash-btn {
@@ -4693,7 +4714,7 @@ input[type="checkbox"].toggle-btn {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/sourcecodepro/v13/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOg.ttf)
+  src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOg.ttf)
     format("truetype");
 }
 .code-btn {
