@@ -12,6 +12,10 @@
   }
 }
 
+.rounded(@amount) {
+  border-radius: @amount;
+}
+
 .whiteBtnDarkMode() {
   &.white-btn {
     [data-theme="dark"] &,
@@ -64,7 +68,35 @@ a.sbtn {
 }
 
 .rounded-btn {
-  border-radius: 25px;
+  .rounded(25px);
+}
+
+.rounded-5-btn {
+  .rounded(5px);
+}
+
+.rounded-10-btn {
+  .rounded(10px);
+}
+
+.rounded-15-btn {
+  .rounded(15px);
+}
+
+.rounded-20-btn {
+  .rounded(20px);
+}
+
+.rounded-25-btn {
+  .rounded(25px);
+}
+
+.rounded-30-btn {
+  .rounded(30px);
+}
+
+.rounded-full-btn {
+  .rounded(50%);
 }
 
 .block-btn {
