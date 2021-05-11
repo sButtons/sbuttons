@@ -123,6 +123,18 @@ To use sButtons in your project, just add the classes of sButton you want to eit
 
 You can find all classes mentioned in our [Examples](https://sbuttons.netlify.app/examples) page.
 
+## Rounded Buttons
+
+sButtons provides several options for rounded buttons, ranging from `border-radius: 5px;` to `border-radius: 30px;` in increments of 5px. Addtionally, sButtons provides an option for fully circular buttons.
+
+```html
+<button class='sbtn rounded-5-btn blue-btn'></button>
+<button class='sbtn rounded-10-btn blue-btn'></button>
+<button class='sbtn rounded-full-btn blue-btn'></button>
+```
+
+In these examples, the number in the class name, like the '5' in `rounded-5-btn` is the radius of the button in px. `rounded-full-btn` makes the button fully circular
+
 ## Block Buttons
 
 To use sButtons with block display, add the class to either `<button>` or `<a>`.
