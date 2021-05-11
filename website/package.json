@@ -18,7 +18,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-toastify": "^7.0.3",
-    "sbuttons": "^1.2.1",
+    "sbuttons": "sButtons/sbuttons",
     "use-dark-mode-hook": "^1.1.1",
     "web-vitals": "^1.0.1"
   },
