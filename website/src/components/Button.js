@@ -24,7 +24,7 @@ function Button ({classes, text, htmlContent}) {
 
     const copyClasses = classes ? getCopyClasses(classes) : ""
 
-    function testFunc (codeWithPeriods) {
+    function removePeriodsOnCopy (codeWithPeriods) {
         classes.replace('.', " ")
         return classes
     };
@@ -35,7 +35,7 @@ function Button ({classes, text, htmlContent}) {
                 {htmlContent && htmlContent.length && <div dangerouslySetInnerHTML={{__html: htmlContent}}></div>}
                 {(!htmlContent || !htmlContent.length) && text}
             </button>
-            <CopyToClipboard text={testFunc({classes})} onCopy={showToast}>
+            <CopyToClipboard text={removePeriodsOnCopy({classes})} onCopy={showToast}>
                 <span className="mt-3 text-gray-500 text-sm text-center cursor-pointer">
                     <FiCopy className="inline-block" />
                     <span className="pl-3">{copyClasses}</span>
