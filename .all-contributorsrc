@@ -2134,6 +2134,35 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "ThePotato10",
+      "name": "ThePotato10",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63891976?v=4",
+      "profile": "https://thepotato10.github.io",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "swetharnaik",
+      "name": "Swetha R Naik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17508164?v=4",
+      "profile": "https://github.com/swetharnaik",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "grimxreaper",
+      "name": "grimxreaper",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64915527?v=4",
+      "profile": "https://github.com/grimxreaper",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,

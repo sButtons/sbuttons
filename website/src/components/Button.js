@@ -24,13 +24,18 @@ function Button ({classes, text, htmlContent}) {
 
     const copyClasses = classes ? getCopyClasses(classes) : ""
 
+    function removePeriodsOnCopy (codeWithPeriods) {
+        classes.replace('.', " ")
+        return classes
+    };
+
     return (
         <div className="flex flex-col items-center justify-items-center pb-5 pr-3 md:w-4/12 w-6/12">
             <button className={`${classes} max-w-full`}>
                 {htmlContent && htmlContent.length && <div dangerouslySetInnerHTML={{__html: htmlContent}}></div>}
                 {(!htmlContent || !htmlContent.length) && text}
             </button>
-            <CopyToClipboard text={copyClasses} onCopy={showToast}>
+            <CopyToClipboard text={removePeriodsOnCopy({classes})} onCopy={showToast}>
                 <span className="mt-3 text-gray-500 text-sm text-center cursor-pointer">
                     <FiCopy className="inline-block" />
                     <span className="pl-3">{copyClasses}</span>
