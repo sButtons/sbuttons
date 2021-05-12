@@ -294,6 +294,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://thepotato10.github.io"><img src="https://avatars.githubusercontent.com/u/63891976?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ThePotato10</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ThePotato10" title="Code">💻</a> <a href="#ideas-ThePotato10" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/swetharnaik"><img src="https://avatars.githubusercontent.com/u/17508164?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Swetha R Naik</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=swetharnaik" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/grimxreaper"><img src="https://avatars.githubusercontent.com/u/64915527?v=4?s=100" width="100px;" alt=""/><br /><sub><b>grimxreaper</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=grimxreaper" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Agrimxreaper" title="Bug reports">🐛</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
