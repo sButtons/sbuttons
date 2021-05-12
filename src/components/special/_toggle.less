@@ -45,6 +45,11 @@ input[type="checkbox"].toggle-btn {
   &:checked:after {
     background-color: @toggleOnBgColor;
   }
+  &.xsmall-btn{
+    width: calc(@toggleWidth / 2);
+    height: calc(@toggleHeight /2 );
+    // border-radius: 50%;    
+  }
 }
 
 .toggle-on-btn {
