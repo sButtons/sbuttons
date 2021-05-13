@@ -24,6 +24,7 @@ function Documentation () {
                     <SidebarLink to="#less-modify-colors" text="Modify Colors" level={1} />
                     <SidebarLink to="#usage" text="Usage" />
                     <SidebarLink to="#basic-button" text="Basic Button" level={1} />
+                    <SidebarLink to='#rounded-buttons' text="Rounded Buttons" level={1} />
                     <SidebarLink to="#block-buttons" text="Block Buttons" level={1} />
                     <SidebarLink to="#disabled-buttons" text="Disabled Buttons" level={1} />
                     <SidebarLink to="#icon-buttons" text="Icon Buttons" level={1} />
@@ -128,6 +129,24 @@ function Documentation () {
                                 </p>
                                 <p className="mt-3">
                                     You can find all classes mentioned in our <Link to="/examples" className="underline-red">Examples</Link> page.
+                                </p>
+                            </div>
+                        </section>
+
+                        <section id="rounded-buttons" className="mt-7">
+                            <SubsectionHeader title="Rounded Buttons" to="rounded-buttons" />
+                            <div className="pl-8 text-lg">
+                                <p className="mb-3">
+                                    sButtons provides several options for rounded buttons, ranging from <code>border-radius: 5px;</code> to <code>border-radius: 30px;</code> in increments of 5px. Additionally, sButtons provides an option for fully circular buttons. <br />
+                                    For example:
+                                </p>
+                                <Code code={`<button class="sbtn rounded-10-btn blue-btn">Button</button>`} language="html" />
+                                <p className="mt-3">
+                                    Gives us this button: <br />
+                                    <button className="sbtn rounded-10-btn blue-btn mt-3">Button</button>
+                                </p>
+                                <p className="mt-3">
+                                    In this example, the number in the class name, like the '10' in <code>rounded-10-btn</code> is the radius of the button in px. <code>rounded-full-btn</code> makes the button fully circular, assuming the width and height of the button are the same
                                 </p>
                             </div>
                         </section>
