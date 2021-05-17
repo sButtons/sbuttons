@@ -4614,6 +4614,9 @@ input[type="checkbox"].toggle-btn {
 .toggle-btn.xsmall-btn.toggle-on-btn:before {
   transform: translateX(calc(45px * -0.18));
 }
+.toggle-btn.xsmall-btn.toggle-on-btn:active:before {
+  transform: translateX(calc(45px * -0.18));
+}
 .toggle-btn.xsmall-btn .toggle-off-btn:before {
   transform: translateX(calc(45px * -0.18));
 }
