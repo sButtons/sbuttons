@@ -4557,7 +4557,6 @@ input[type="checkbox"].toggle-btn {
   height: 50px;
   border-radius: 50px;
   border: 0;
-  transition: all 0.5s ease;
   outline: 0;
   display: inline-flex;
   flex-direction: row;
