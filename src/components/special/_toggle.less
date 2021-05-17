@@ -20,11 +20,6 @@ input[type="checkbox"].toggle-btn {
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
   }
 
-  &.xsmall-btn:before {
-    height: calc(@toggleWidthSmall / 2.25);
-    width: calc(@toggleWidthSmall / 2.25);
-    transform: @toggleSwitchOffPositionSmall;
-  }
   &:before {
     background-color: @toggleSwitchColor;
     border-radius: 50%;
@@ -46,21 +41,48 @@ input[type="checkbox"].toggle-btn {
     top: 0;
     z-index: -1;
   }
+
   &:checked:before {
     transform: @toggleSwitchOnPosition;
   }
-  &.xsmall-btn:checked:before {
-    transform: @toggleSwitchOnPositionSmall;
-  }
+
   &:checked:after {
     background-color: @toggleOnBgColor;
   }
-  &.xsmall-btn:checked:after {
-  }
+
   &.xsmall-btn {
     width: @toggleWidthSmall;
     height: @toggleHeightSmall;
     border-radius: @toggleBorderRadiusSmall;
+
+    &.xsmall-btn:checked:before {
+      transform: @toggleSwitchOnPositionSmall;
+    }
+
+    &.xsmall-btn:before {
+      height: calc(@toggleWidthSmall / 2.3);
+      width: calc(@toggleWidthSmall / 2.25);
+      transform: @toggleSwitchOffPositionSmall;
+    }
+
+    &.toggle-on-btn {
+      &:before {
+        transform: @toggleSwitchOnPositionSmall;
+      }
+
+      &:before {
+        transform: @toggleSwitchOffPositionSmall;
+      }
+    }
+
+    .toggle-off-btn {
+      &:before {
+        transform: @toggleSwitchOffPositionSmall;
+      }
+      &:active:before {
+        transform: @toggleSwitchOnPositionSmall;
+      }
+    }
   }
 }
 
@@ -68,18 +90,14 @@ input[type="checkbox"].toggle-btn {
   &:before {
     transform: @toggleSwitchOnPosition;
   }
-  &.xsmall-btn:before {
-    transform: @toggleSwitchOnPositionSmall;
-  }
+
   &:after {
     background-color: @toggleOnBgColor;
   }
   &:active:before {
     transform: @toggleSwitchOffPosition;
   }
-  &.xsmall:before {
-    transform: @toggleSwitchOffPositionSmall;
-  }
+
   &:active:after {
     background-color: @toggleOffBgColor;
   }
@@ -89,18 +107,15 @@ input[type="checkbox"].toggle-btn {
   &:before {
     transform: @toggleSwitchOffPosition;
   }
-  &.xsmall-btn:before {
-    transform: @toggleSwitchOffPositionSmall;
-  }
+
   &:after {
     background-color: @toggleOffBgColor;
   }
+
   &:active:before {
     transform: @toggleSwitchOnPosition;
   }
-  &.xsmall-btn:active:before {
-    transform: @toggleSwitchOnPositionSmall;
-  }
+
   &:active:after {
     background-color: @toggleOnBgColor;
   }

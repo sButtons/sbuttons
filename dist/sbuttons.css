@@ -4569,11 +4569,6 @@ input[type="checkbox"].toggle-btn {
   content: "";
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
-.toggle-btn.xsmall-btn:before {
-  height: calc(45px / 2.25);
-  width: calc(45px / 2.25);
-  transform: translateX(calc(45px * -0.18));
-}
 .toggle-btn:before {
   background-color: #fff;
   border-radius: 50%;
@@ -4597,9 +4592,6 @@ input[type="checkbox"].toggle-btn {
 .toggle-btn:checked:before {
   transform: translateX(calc(90px * 0.4));
 }
-.toggle-btn.xsmall-btn:checked:before {
-  transform: translateX(calc(45px * 0.29));
-}
 .toggle-btn:checked:after {
   background-color: #30d158;
 }
@@ -4608,11 +4600,28 @@ input[type="checkbox"].toggle-btn {
   height: 25px;
   border-radius: 25px;
 }
+.toggle-btn.xsmall-btn.xsmall-btn:checked:before {
+  transform: translateX(calc(45px * 0.29));
+}
+.toggle-btn.xsmall-btn.xsmall-btn:before {
+  height: calc(45px / 2.3);
+  width: calc(45px / 2.25);
+  transform: translateX(calc(45px * -0.18));
+}
+.toggle-btn.xsmall-btn.toggle-on-btn:before {
+  transform: translateX(calc(45px * 0.29));
+}
+.toggle-btn.xsmall-btn.toggle-on-btn:before {
+  transform: translateX(calc(45px * -0.18));
+}
+.toggle-btn.xsmall-btn .toggle-off-btn:before {
+  transform: translateX(calc(45px * -0.18));
+}
+.toggle-btn.xsmall-btn .toggle-off-btn:active:before {
+  transform: translateX(calc(45px * 0.29));
+}
 .toggle-on-btn:before {
   transform: translateX(calc(90px * 0.4));
-}
-.toggle-on-btn.xsmall-btn:before {
-  transform: translateX(calc(45px * 0.29));
 }
 .toggle-on-btn:after {
   background-color: #30d158;
@@ -4620,26 +4629,17 @@ input[type="checkbox"].toggle-btn {
 .toggle-on-btn:active:before {
   transform: translateX(calc(90px * -0.07));
 }
-.toggle-on-btn.xsmall:before {
-  transform: translateX(calc(45px * -0.18));
-}
 .toggle-on-btn:active:after {
   background-color: #e5e5ea;
 }
 .toggle-off-btn:before {
   transform: translateX(calc(90px * -0.07));
 }
-.toggle-off-btn.xsmall-btn:before {
-  transform: translateX(calc(45px * -0.18));
-}
 .toggle-off-btn:after {
   background-color: #e5e5ea;
 }
 .toggle-off-btn:active:before {
   transform: translateX(calc(90px * 0.4));
-}
-.toggle-off-btn.xsmall-btn:active:before {
-  transform: translateX(calc(45px * 0.29));
 }
 .toggle-off-btn:active:after {
   background-color: #30d158;
