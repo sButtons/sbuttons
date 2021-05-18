@@ -55,11 +55,11 @@ input[type="checkbox"].toggle-btn {
     height: @toggleHeightSmall;
     border-radius: @toggleBorderRadiusSmall;
 
-    &.xsmall-btn:checked:before {
+    &:checked:before {
       transform: @toggleSwitchOnPositionSmall;
     }
 
-    &.xsmall-btn:before {
+    &:before {
       height: calc(@toggleWidthSmall / 2.3);
       width: calc(@toggleWidthSmall / 2.25);
       transform: @toggleSwitchOffPositionSmall;
@@ -68,10 +68,6 @@ input[type="checkbox"].toggle-btn {
     &.toggle-on-btn {
       &:before {
         transform: @toggleSwitchOnPositionSmall;
-      }
-
-      &:before {
-        transform: @toggleSwitchOffPositionSmall;
       }
 
       &:active:before {
