@@ -296,6 +296,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/grimxreaper"><img src="https://avatars.githubusercontent.com/u/64915527?v=4?s=100" width="100px;" alt=""/><br /><sub><b>grimxreaper</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=grimxreaper" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Agrimxreaper" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/andypants888"><img src="https://avatars.githubusercontent.com/u/79945330?v=4?s=100" width="100px;" alt=""/><br /><sub><b>andy</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=andypants888" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Aandypants888" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
