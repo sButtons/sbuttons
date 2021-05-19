@@ -8,8 +8,14 @@ module.exports = {
       },
     },
     webpack: {
-      configure: {
-        watch: true
+      configure: webpackConfig => {
+        const scopePluginIndex = webpackConfig.resolve.plugins.findIndex(
+          ({ constructor }) => constructor && constructor.name === 'ModuleScopePlugin'
+        );
+  
+        webpackConfig.resolve.plugins.splice(scopePluginIndex, 1);
+        webpackConfig.watch = true;
+        return webpackConfig;
       }
     },
     devServer: {
