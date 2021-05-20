@@ -298,6 +298,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/grimxreaper"><img src="https://avatars.githubusercontent.com/u/64915527?v=4?s=100" width="100px;" alt=""/><br /><sub><b>grimxreaper</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=grimxreaper" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Agrimxreaper" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/andypants888"><img src="https://avatars.githubusercontent.com/u/79945330?v=4?s=100" width="100px;" alt=""/><br /><sub><b>andy</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=andypants888" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3Aandypants888" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/christopherfanning"><img src="https://avatars.githubusercontent.com/u/68125296?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher Fanning</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=christopherfanning" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ashu54-aseem"><img src="https://avatars.githubusercontent.com/u/72209771?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aseem Saxena</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ashu54-aseem" title="Documentation">📖</a></td>
   </tr>
 </table>
 
