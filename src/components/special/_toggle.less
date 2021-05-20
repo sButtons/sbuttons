@@ -18,6 +18,7 @@ input[type="checkbox"].toggle-btn {
     content: "";
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
   }
+
   &:before {
     background-color: @toggleSwitchColor;
     border-radius: 50%;
@@ -27,6 +28,7 @@ input[type="checkbox"].toggle-btn {
     transition: all 0.5s ease;
     transform: @toggleSwitchOffPosition;
   }
+
   &:after {
     background-color: @toggleOffBgColor;
     width: 100%;
@@ -38,11 +40,48 @@ input[type="checkbox"].toggle-btn {
     top: 0;
     z-index: -1;
   }
+
   &:checked:before {
     transform: @toggleSwitchOnPosition;
   }
+
   &:checked:after {
     background-color: @toggleOnBgColor;
+  }
+
+  &.xsmall-btn {
+    width: @toggleWidthSmall;
+    height: @toggleHeightSmall;
+    border-radius: @toggleBorderRadiusSmall;
+
+    &:checked:before {
+      transform: @toggleSwitchOnPositionSmall;
+    }
+
+    &:before {
+      height: calc(@toggleWidthSmall / 2.3);
+      width: calc(@toggleWidthSmall / 2.25);
+      transform: @toggleSwitchOffPositionSmall;
+    }
+
+    &.toggle-on-btn {
+      &:before {
+        transform: @toggleSwitchOnPositionSmall;
+      }
+
+      &:active:before {
+        transform: @toggleSwitchOffPositionSmall;
+      }
+    }
+
+    .toggle-off-btn {
+      &:before {
+        transform: @toggleSwitchOffPositionSmall;
+      }
+      &:active:before {
+        transform: @toggleSwitchOnPositionSmall;
+      }
+    }
   }
 }
 
@@ -50,12 +89,14 @@ input[type="checkbox"].toggle-btn {
   &:before {
     transform: @toggleSwitchOnPosition;
   }
+
   &:after {
     background-color: @toggleOnBgColor;
   }
   &:active:before {
     transform: @toggleSwitchOffPosition;
   }
+
   &:active:after {
     background-color: @toggleOffBgColor;
   }
@@ -65,12 +106,15 @@ input[type="checkbox"].toggle-btn {
   &:before {
     transform: @toggleSwitchOffPosition;
   }
+
   &:after {
     background-color: @toggleOffBgColor;
   }
+
   &:active:before {
     transform: @toggleSwitchOnPosition;
   }
+
   &:active:after {
     background-color: @toggleOnBgColor;
   }

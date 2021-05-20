@@ -4575,7 +4575,7 @@ input[type="checkbox"].toggle-btn {
   height: calc(90px / 2.25);
   width: calc(90px / 2.25);
   transition: all 0.5s ease;
-  transform: translateX(calc(90px * 0.04));
+  transform: translateX(calc(90px * -0.07));
 }
 .toggle-btn:after {
   background-color: #e5e5ea;
@@ -4589,31 +4589,56 @@ input[type="checkbox"].toggle-btn {
   z-index: -1;
 }
 .toggle-btn:checked:before {
-  transform: translateX(calc(90px * 0.515));
+  transform: translateX(calc(90px * 0.4));
 }
 .toggle-btn:checked:after {
   background-color: #30d158;
 }
+.toggle-btn.xsmall-btn {
+  width: 45px;
+  height: 25px;
+  border-radius: 25px;
+}
+.toggle-btn.xsmall-btn:checked:before {
+  transform: translateX(calc(45px * 0.39));
+}
+.toggle-btn.xsmall-btn:before {
+  height: calc(45px / 2.3);
+  width: calc(45px / 2.25);
+  transform: translateX(calc(45px * -0.05));
+}
+.toggle-btn.xsmall-btn.toggle-on-btn:before {
+  transform: translateX(calc(45px * 0.39));
+}
+.toggle-btn.xsmall-btn.toggle-on-btn:active:before {
+  transform: translateX(calc(45px * -0.05));
+}
+.toggle-btn.xsmall-btn .toggle-off-btn:before {
+  transform: translateX(calc(45px * -0.05));
+}
+.toggle-btn.xsmall-btn .toggle-off-btn:active:before {
+  transform: translateX(calc(45px * 0.39));
+}
 .toggle-on-btn:before {
-  transform: translateX(calc(90px * 0.515));
+  transform: translateX(calc(90px * 0.4));
 }
 .toggle-on-btn:after {
   background-color: #30d158;
 }
 .toggle-on-btn:active:before {
-  transform: translateX(calc(90px * 0.04));
+  transform: translateX(calc(90px * -0.07));
 }
 .toggle-on-btn:active:after {
   background-color: #e5e5ea;
 }
 .toggle-off-btn:before {
-  transform: translateX(calc(90px * 0.04));
+  transform: translateX(calc(90px * -0.07));
 }
 .toggle-off-btn:after {
   background-color: #e5e5ea;
 }
 .toggle-off-btn:active:before {
-  transform: translateX(calc(90px * 0.515));
+  transform: translateX(calc(90px * 0.4));
 }
 .toggle-off-btn:active:after {
   background-color: #30d158;
