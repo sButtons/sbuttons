@@ -45,7 +45,7 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 
 ## Download CSS File
 
-You can download the CSS file here and then add it to your html file in between the tags.
+You can download the CSS file here and then add it to your HTML file in between the tags.
 Download the file and link it as a stylesheet in between your `<head>` tags, as shown below.
 
 ```html
@@ -56,7 +56,7 @@ Make sure to replace `"/path/to/sbuttons.min.css"` with the path you stored it i
 
 ## CDN
 
-Or instead of downloading the file, you can use the CDN
+Or instead of downloading the file, you can use the CDN.
 
 ```html
 <link
@@ -175,7 +175,7 @@ positioned to the right.
 
 ## Toggle Button
 
-The `toggle-btn` class along with the `toggle-off-btn` / `toggle-on-btn` state class enables you to have a toggle button. Apart from the basic use, it can also be used for checkboxes and radio buttons. While not necessary, you can use the available state classes to choose whether your checkboxes and radio buttons are checked or not.
+The `toggle-btn` class, along with the `toggle-off-btn` / `toggle-on-btn` state class enables you to have a toggle button. Apart from the basic use, it can also be used for checkboxes and radio buttons. While not necessary, you can use the available state classes to choose whether your checkboxes and radio buttons are checked or not.
 
 ## Toggle Button as Checkboxes
 
