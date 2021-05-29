@@ -194,6 +194,13 @@ Adding the `toggle-btn` class to your radio inputs converts them to toggle butto
 <input type="radio" class="sbtn toggle-btn" />
 ```
 
+## Rounded buttons Radius
+To add the rounded buttons with a particular radius, you can use various classes like `rounded-x-btn` where x is the radius in pixels which you want.
+
+```html
+<button class="rounded-5-btn">Rounded button </button>
+```
+
 ## Animated Buttons
 
 To use Animated sButtons in your project, add the classes of the animated sButton you want to either `<button>` or `<a>` tags.
