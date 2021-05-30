@@ -269,6 +269,20 @@ function Documentation () {
                                 </div>
                             </section>
                         </section>
+                        <section id="rounded-buttons" class="mt-7">
+                        <SubsectionHeader title="Rounded Buttons" to="rounded-buttons" />
+                        <div className="pl-8 text-lg">
+                           <p className="mb-3">
+                             To add the rounded buttons with a particular radius, you can use various classes like `rounded-x-btn` where x is the radius in pixels which you want. Here x ranges from `5`(border-radius = 5px) to `full`(border-radius = 50%).
+                             For example:
+                           </p>
+                           <Code code = {`<button class="rounded-5-btn">Rounded Button</button>`} language="html"/>
+                           <p className="mt-3">
+                               Give us this button: <br/>
+                                <button className="rounded-5-btn">Rounded Button </button>
+                           </p>
+                        </div>
+                        </section>
                         <section id="animated-buttons" className="mt-7">
                             <SubsectionHeader title="Animated Buttons" to="animated-buttons" />
                             <div className="pl-8 text-lg">

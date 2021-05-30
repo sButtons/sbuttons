@@ -195,7 +195,7 @@ Adding the `toggle-btn` class to your radio inputs converts them to toggle butto
 ```
 
 ## Rounded buttons Radius
-To add the rounded buttons with a particular radius, you can use various classes like `rounded-x-btn` where x is the radius in pixels which you want.
+To add the rounded buttons with a particular radius, you can use various classes like `rounded-x-btn` where x is the radius in pixels which you want. Here x ranges from `5`(border-radius = 5px) to `full`(border-radius = 50%).
 
 ```html
 <button class="rounded-5-btn">Rounded button </button>
