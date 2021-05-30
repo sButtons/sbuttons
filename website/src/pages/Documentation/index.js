@@ -278,7 +278,7 @@ function Documentation () {
                            </p>
                            <Code code = {`<button class="rounded-5-btn">Rounded Button</button>`} language="html"/>
                            <p className="mt-3">
-                               Give us this button: <br/>
+                              Give us this button: <br/>
                                 <button className="rounded-5-btn">Rounded Button </button>
                            </p>
                         </div>
