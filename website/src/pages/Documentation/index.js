@@ -277,7 +277,7 @@ function Documentation () {
                              To add the rounded buttons with a particular radius, you can use various classes like `rounded-x-btn` where x is the radius in pixels which you want. Here x ranges from `5`(border-radius = 5px) to `fully rounded`(border-radius = 50%).
                              For example:
                            </p>
-                           <Code code = {`<button class="rounded-5-btn">Rounded Button</button>`} language="html"/>
+                           <Code code = {`<button class="rounded-5-btn sbtn blue-btn">Rounded Button</button>`} language="html"/>
                            <p className="mt-3">
                               Give us this button: <br/>
                                 <button className="rounded-5-btn sbtn blue-btn">Rounded Button </button>
