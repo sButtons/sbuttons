@@ -31,6 +31,7 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
   - [Toggle Button](#toggle-button)
     - [Toggle Button as Checkboxes](#toggle-button-as-checkboxes)
     - [Toggle Button as Radio Button](#toggle-button-as-radio-button)
+    - [Rounded Buttons](#rounded-buttons)
   - [Animated Buttons](#animated-buttons)  
   - [Dark Mode](#dark-mode)
     - [Using dark-mode Class](#using-dark-mode-class)
@@ -194,11 +195,11 @@ Adding the `toggle-btn` class to your radio inputs converts them to toggle butto
 <input type="radio" class="sbtn toggle-btn" />
 ```
 
-## Rounded buttons Radius
-To add the rounded buttons with a particular radius, you can use various classes like `rounded-x-btn` where x is the radius in pixels which you want. Here x ranges from `5`(border-radius = 5px) to `full`(border-radius = 50%).
+## Rounded buttons 
+To add the rounded buttons with a particular radius, you can use various classes like `rounded-x-btn` where x is the radius in pixels which you want. Here x ranges from `5`(border-radius = 5px) to `fully rounded`(border-radius = 50%).
 
 ```html
-<button class="rounded-5-btn">Rounded button </button>
+<button class="rounded-5-btn sbtn blue-btn">Rounded button </button>
 ```
 
 ## Animated Buttons
