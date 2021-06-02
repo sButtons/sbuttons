@@ -4552,6 +4552,14 @@ input[type="radio"].toggle-btn,
 input[type="checkbox"].toggle-btn {
   padding: 0px !important;
 }
+input[type="radio"].toggle-btn:not(.xsmall-btn):before,
+input[type="checkbox"].toggle-btn:not(.xsmall-btn):before {
+  margin: 10px;
+}
+input[type="radio"].toggle-btn.xsmall-btn:before,
+input[type="checkbox"].toggle-btn.xsmall-btn:before {
+  margin: 4px 5px 5px;
+}
 .toggle-btn {
   width: 90px;
   height: 50px;
@@ -4591,6 +4599,9 @@ input[type="checkbox"].toggle-btn {
 .toggle-btn:checked:before {
   transform: translateX(calc(90px * 0.4));
 }
+.toggle-btn:not(:checked):before {
+  transform: translateX(calc(90px * -0.07));
+}
 .toggle-btn:checked:after {
   background-color: #30d158;
 }
@@ -4602,10 +4613,14 @@ input[type="checkbox"].toggle-btn {
 .toggle-btn.xsmall-btn:checked:before {
   transform: translateX(calc(45px * 0.39));
 }
+.toggle-btn.xsmall-btn:not(:checked):before {
+  transform: translateX(calc(45px * -0.05));
+}
 .toggle-btn.xsmall-btn:before {
-  height: calc(45px / 2.3);
+  height: calc(45px / 2.25);
   width: calc(45px / 2.25);
   transform: translateX(calc(45px * -0.05));
+  margin-top: -1px;
 }
 .toggle-btn.xsmall-btn.toggle-on-btn:before {
   transform: translateX(calc(45px * 0.39));

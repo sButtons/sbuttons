@@ -1,6 +1,14 @@
 input[type="radio"].toggle-btn,
 input[type="checkbox"].toggle-btn {
   padding: 0px !important;
+
+  &:not(.xsmall-btn):before {
+    margin: 10px;
+  }
+
+  &.xsmall-btn:before {
+    margin: 4px 5px 5px;
+  }
 }
 
 .toggle-btn {
@@ -45,6 +53,10 @@ input[type="checkbox"].toggle-btn {
     transform: @toggleSwitchOnPosition;
   }
 
+  &:not(:checked):before {
+    transform: @toggleSwitchOffPosition;
+  }
+
   &:checked:after {
     background-color: @toggleOnBgColor;
   }
@@ -58,10 +70,15 @@ input[type="checkbox"].toggle-btn {
       transform: @toggleSwitchOnPositionSmall;
     }
 
+    &:not(:checked):before {
+      transform: @toggleSwitchOffPositionSmall;
+    }
+
     &:before {
-      height: calc(@toggleWidthSmall / 2.3);
+      height: calc(@toggleWidthSmall / 2.25);
       width: calc(@toggleWidthSmall / 2.25);
       transform: @toggleSwitchOffPositionSmall;
+      margin-top: -1px;
     }
 
     &.toggle-on-btn {
