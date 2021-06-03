@@ -300,6 +300,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/christopherfanning"><img src="https://avatars.githubusercontent.com/u/68125296?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher Fanning</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=christopherfanning" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ashu54-aseem"><img src="https://avatars.githubusercontent.com/u/72209771?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aseem Saxena</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ashu54-aseem" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/ayushi-2002"><img src="https://avatars.githubusercontent.com/u/80891792?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ayushi-2002</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ayushi-2002" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/drchibs"><img src="https://avatars.githubusercontent.com/u/66283877?v=4?s=100" width="100px;" alt=""/><br /><sub><b>D.R Chibuike</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=drchibs" title="Code">💻</a></td>
   </tr>
 </table>
 
