@@ -2200,6 +2200,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "drchibs",
+      "name": "D.R Chibuike",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66283877?v=4",
+      "profile": "https://github.com/drchibs",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
