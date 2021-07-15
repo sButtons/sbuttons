@@ -2218,6 +2218,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "inclinedadarsh",
+      "name": "Adarsh Dubey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84132532?v=4",
+      "profile": "https://github.com/inclinedadarsh",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
