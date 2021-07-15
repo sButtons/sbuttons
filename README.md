@@ -46,7 +46,7 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 
 ## Download CSS File
 
-You can download the CSS file here and then add it to your HTML file in between the tags.
+You can download the (CSS file)(https://raw.githubusercontent.com/sButtons/sbuttons/master/dist/sbuttons.min.css) and then add it to your HTML file in between the tags.
 Download the file and link it as a stylesheet in between your `<head>` tags, as shown below.
 
 ```html
