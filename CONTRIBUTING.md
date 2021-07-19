@@ -48,6 +48,12 @@ Please note we have a code of conduct, please follow it in all your interactions
       `npm run compile`
       Make sure to run `npm install` before any of these commands.
 
+   3. Start lite-server
+   ```
+   npm run dev
+   ```
+   Make sure to run `npm install lite-sever --save-dev` to run lite server before starting the scripts.
+
 3. To make changes to the website:
 
    The website uses React and TailwindCSS. All website related files are under the `website` directory. The components and pages that are written under React are in `website/src`.
