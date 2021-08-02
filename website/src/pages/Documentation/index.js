@@ -259,7 +259,7 @@ function Documentation () {
                                         </label>
                                         <label className="block mb-3">
                                             <input type="radio" name="car" className="sbtn toggle-btn align-middle mr-3"/>
-                                            Budgati
+                                            Bugatti
                                         </label>
                                         <label className="block">
                                             <input type="radio" name="car" className="sbtn toggle-btn align-middle mr-3"/>
