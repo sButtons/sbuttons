@@ -305,6 +305,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/inclinedadarsh"><img src="https://avatars.githubusercontent.com/u/84132532?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adarsh Dubey</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=inclinedadarsh" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://virej.ml"><img src="https://avatars.githubusercontent.com/u/67495678?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Virej Dasani</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=virejdasani" title="Documentation">📖</a></td>
   </tr>
 </table>
 
