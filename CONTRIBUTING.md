@@ -43,10 +43,12 @@ Please note we have a code of conduct, please follow it in all your interactions
       ```
       npm start
       ```
-      This will run sbuttons on a lite server as well as update the CSS in `dist/sbuttons.css` as you make changes.
+      This will watch the updates and changes you make for any of the `.less` files inside `src`, then compile them into `dist/sbuttons.css`.
    2. Compile command:
       `npm run compile`
       Make sure to run `npm install` before any of these commands.
+      
+      To see how the button looks like after making changes, you'll need to run the website (follow the next steps).
 
 3. To make changes to the website:
 
