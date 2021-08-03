@@ -2227,6 +2227,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "virejdasani",
+      "name": "Virej Dasani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67495678?v=4",
+      "profile": "http://virej.ml",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
