@@ -2236,6 +2236,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Mayank-MP05",
+      "name": "Mayank-MP5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19904765?v=4",
+      "profile": "https://mayank-mp05.github.io/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
