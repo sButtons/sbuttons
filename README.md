@@ -93,7 +93,7 @@ You can import the CSS file found in `dist/sbuttons.css` or `dist/sbuttons.min.c
 @import url("~sbuttons/dist/sbuttons.min.css");
 ```
 
-## Using in Using in LESS
+## Using in LESS
 
 You can also import the Using in LESS file found in `src/sbuttons.Using in LESS`:
 
