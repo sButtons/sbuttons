@@ -4406,6 +4406,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f1b6";
 }
+.social-btn.slack {
+  background-color: #4a154b;
+  color: #fff;
+}
+.social-btn.slack:after {
+  color: #fff;
+  content: "\f198";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
