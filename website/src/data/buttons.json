@@ -521,6 +521,13 @@
                 "usesColors": false
             },
             {
+                "type": "slack",
+                "classes": "slack",
+                "label": "Login with Slack",
+                "text": "Login with Slack",
+                "usesColors": false
+            },
+            {
                 "type": "snapchat",
                 "classes": "snapchat",
                 "label": "Login with Snapchat",
