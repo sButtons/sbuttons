@@ -308,6 +308,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="http://virej.ml"><img src="https://avatars.githubusercontent.com/u/67495678?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Virej Dasani</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=virejdasani" title="Documentation">📖</a></td>
     <td align="center"><a href="https://mayank-mp05.github.io/"><img src="https://avatars.githubusercontent.com/u/19904765?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mayank-MP5</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Mayank-MP05" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AMayank-MP05" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://anshu-jindal.github.io/portfolio1/"><img src="https://avatars.githubusercontent.com/u/62394488?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anshu Jindal</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Anshu-jindal" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/RajMhatre20"><img src="https://avatars.githubusercontent.com/u/68785723?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Raj Mhatre</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=RajMhatre20" title="Code">💻</a> <a href="#ideas-RajMhatre20" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
