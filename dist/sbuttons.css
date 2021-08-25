@@ -472,6 +472,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.pink-btn {
   border-top: 2px solid #d53caf;
   background-color: #d53caf;
+  box-shadow: inset 0 1px 0 #d53caf, 0 10px 0 #7c1f65;
   -moz-box-shadow: inset 0 1px 0 #d53caf, 0 10px 0 #7c1f65;
   -webkit-box-shadow: inset 0 1px 0 #d53caf, 0 10px 0 #7c1f65;
 }
@@ -485,6 +486,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.blue-btn {
   border-top: 2px solid #50bfe6;
   background-color: #50bfe6;
+  box-shadow: inset 0 1px 0 #50bfe6, 0 10px 0 #387d96;
   -moz-box-shadow: inset 0 1px 0 #50bfe6, 0 10px 0 #387d96;
   -webkit-box-shadow: inset 0 1px 0 #50bfe6, 0 10px 0 #387d96;
 }
@@ -498,6 +500,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.red-btn {
   border-top: 2px solid #ed0a3f;
   background-color: #ed0a3f;
+  box-shadow: inset 0 1px 0 #ed0a3f, 0 10px 0 #80122b;
   -moz-box-shadow: inset 0 1px 0 #ed0a3f, 0 10px 0 #80122b;
   -webkit-box-shadow: inset 0 1px 0 #ed0a3f, 0 10px 0 #80122b;
 }
@@ -511,6 +514,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.green-btn {
   border-top: 2px solid #3aa655;
   background-color: #3aa655;
+  box-shadow: inset 0 1px 0 #3aa655, 0 10px 0 #1d5c2d;
   -moz-box-shadow: inset 0 1px 0 #3aa655, 0 10px 0 #1d5c2d;
   -webkit-box-shadow: inset 0 1px 0 #3aa655, 0 10px 0 #1d5c2d;
 }
@@ -524,6 +528,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.yellow-btn {
   border-top: 2px solid #fbe870;
   background-color: #fbe870;
+  box-shadow: inset 0 1px 0 #fbe870, 0 10px 0 #dbb81d;
   -moz-box-shadow: inset 0 1px 0 #fbe870, 0 10px 0 #dbb81d;
   -webkit-box-shadow: inset 0 1px 0 #fbe870, 0 10px 0 #dbb81d;
 }
@@ -537,6 +542,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.orange-btn {
   border-top: 2px solid #ff8833;
   background-color: #ff8833;
+  box-shadow: inset 0 1px 0 #ff8833, 0 10px 0 #a75215;
   -moz-box-shadow: inset 0 1px 0 #ff8833, 0 10px 0 #a75215;
   -webkit-box-shadow: inset 0 1px 0 #ff8833, 0 10px 0 #a75215;
 }
@@ -550,6 +556,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.purple-btn {
   border-top: 2px solid #652dc1;
   background-color: #652dc1;
+  box-shadow: inset 0 1px 0 #652dc1, 0 10px 0 #341368;
   -moz-box-shadow: inset 0 1px 0 #652dc1, 0 10px 0 #341368;
   -webkit-box-shadow: inset 0 1px 0 #652dc1, 0 10px 0 #341368;
 }
@@ -563,6 +570,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.black-btn {
   border-top: 2px solid #686363;
   background-color: #686363;
+  box-shadow: inset 0 1px 0 #686363, 0 10px 0 #2c2828;
   -moz-box-shadow: inset 0 1px 0 #686363, 0 10px 0 #2c2828;
   -webkit-box-shadow: inset 0 1px 0 #686363, 0 10px 0 #2c2828;
 }
@@ -576,6 +584,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .key-btn.white-btn {
   border-top: 2px solid #fdf4f4;
   background-color: #fdf4f4;
+  box-shadow: inset 0 1px 0 #fdf4f4, 0 10px 0 #bdb6b6;
   -moz-box-shadow: inset 0 1px 0 #fdf4f4, 0 10px 0 #bdb6b6;
   -webkit-box-shadow: inset 0 1px 0 #fdf4f4, 0 10px 0 #bdb6b6;
 }
