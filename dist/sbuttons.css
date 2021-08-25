@@ -4414,6 +4414,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f198";
 }
+.social-btn.pinterest-share {
+  background-color: #e60023;
+  color: #fff;
+}
+.social-btn.pinterest-share.block-btn:after {
+  right: 0px !important;
+}
+.social-btn.pinterest-share:after {
+  color: white;
+  content: "\f231";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
