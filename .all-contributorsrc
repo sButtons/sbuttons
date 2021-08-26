@@ -2253,7 +2253,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/62394488?v=4",
       "profile": "https://anshu-jindal.github.io/portfolio1/",
       "contributions": [
-        "doc"
+        "doc",
+        "code",
+        "bug"
       ]
     },
     {
