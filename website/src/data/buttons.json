@@ -514,6 +514,13 @@
                 "usesColors": false
             },
             {
+                "type": "pinterest",
+                "classes": "pinterest",
+                "label": "Share with Pinterest",
+                "text": "Share with Pinterest",
+                "usesColors": false
+            },
+            {
                 "type": "reddit",
                 "classes": "reddit",
                 "label": "Login with Reddit",
