@@ -1,11 +1,11 @@
 {
   "name": "sbuttons",
-  "version": "1.6.3",
+  "version": "1.7.0",
   "description": "Simple and creative buttons",
   "main": "index.html",
   "author": "Shahed Nasser",
   "license": "MIT",
-  "homepage": "https://sbuttons.github.io/sbuttons/",
+  "homepage": "https://sbuttons.netlify.app/",
   "keywords": [
     "less",
     "buttons",
