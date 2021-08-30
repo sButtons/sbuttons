@@ -521,6 +521,13 @@
                 "usesColors": false
             },
             {
+                "type": "dropbox",
+                "classes": "dropbox",
+                "label": "Login with Dropbox",
+                "text": "Login with Dropbox",
+                "usesColors": false
+            },
+            {
                 "type": "reddit",
                 "classes": "reddit",
                 "label": "Login with Reddit",
