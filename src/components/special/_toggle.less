@@ -53,10 +53,6 @@ input[type="checkbox"].toggle-btn {
     transform: @toggleSwitchOnPosition;
   }
 
-  &:not(:checked):before {
-    transform: @toggleSwitchOffPosition;
-  }
-
   &:checked:after {
     background-color: @toggleOnBgColor;
   }
@@ -68,10 +64,6 @@ input[type="checkbox"].toggle-btn {
 
     &:checked:before {
       transform: @toggleSwitchOnPositionSmall;
-    }
-
-    &:not(:checked):before {
-      transform: @toggleSwitchOffPositionSmall;
     }
 
     &:before {
@@ -110,6 +102,7 @@ input[type="checkbox"].toggle-btn {
   &:after {
     background-color: @toggleOnBgColor;
   }
+
   &:active:before {
     transform: @toggleSwitchOffPosition;
   }
