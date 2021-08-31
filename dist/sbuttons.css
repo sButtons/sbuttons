@@ -4627,9 +4627,6 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
 .toggle-btn:checked:before {
   transform: translateX(calc(90px * 0.4));
 }
-.toggle-btn:not(:checked):before {
-  transform: translateX(calc(90px * -0.07));
-}
 .toggle-btn:checked:after {
   background-color: #30d158;
 }
@@ -4640,9 +4637,6 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
 }
 .toggle-btn.xsmall-btn:checked:before {
   transform: translateX(calc(45px * 0.39));
-}
-.toggle-btn.xsmall-btn:not(:checked):before {
-  transform: translateX(calc(45px * -0.05));
 }
 .toggle-btn.xsmall-btn:before {
   height: calc(45px / 2.25);
