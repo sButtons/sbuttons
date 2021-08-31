@@ -4605,7 +4605,7 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
 .toggle-btn:before {
-  background-color: #fff;
+  background-color: #808080;
   border-radius: 50%;
   display: inline-block;
   height: calc(90px / 2.25);
