@@ -458,6 +458,13 @@
                 "usesColors": false
             },
             {
+                "type": "dropbox",
+                "classes": "dropbox",
+                "label": "Login with Dropbox",
+                "text": "Login with Dropbox",
+                "usesColors": false
+            },
+            {
                 "type": "facebook",
                 "classes": "facebook",
                 "label": "Login with Facebook",
@@ -520,6 +527,7 @@
                 "text": "Share with Pinterest",
                 "usesColors": false
             },
+           
             {
                 "type": "reddit",
                 "classes": "reddit",

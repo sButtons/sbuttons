@@ -4434,6 +4434,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: white;
   content: "\f231";
 }
+.social-btn.dropbox {
+  background-color: #1414fc;
+  color: #fff;
+}
+.social-btn.dropbox.block-btn:after {
+  right: 0px !important;
+}
+.social-btn.dropbox:after {
+  color: white;
+  content: "\f16b";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
