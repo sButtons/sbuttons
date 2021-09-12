@@ -4219,6 +4219,88 @@ a.yellow-btn:active:not(.fill-color-btn) {
     text-shadow: 0 0 0.5rem #dc143c00;
   }
 }
+.icon-slide-btn {
+  transition: all 0.3s;
+  position: relative;
+}
+.icon-slide-btn i {
+  position: absolute;
+}
+.icon-slide-btn .btn-label,
+.icon-slide-btn i {
+  transition: all 0.3s;
+  display: inline-block;
+}
+.icon-slide-btn.icon-up i {
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+}
+.icon-slide-btn.icon-up:hover i,
+.icon-slide-btn.icon-up:active i {
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+.icon-slide-btn.icon-up:hover .btn-label,
+.icon-slide-btn.icon-up:active .btn-label {
+  -webkit-transform: translate3d(0, -150%, 0);
+  transform: translate3d(0, -150%, 0);
+}
+.icon-slide-btn.icon-down i {
+  top: -100%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+}
+.icon-slide-btn.icon-down:hover i,
+.icon-slide-btn.icon-down:active i {
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+.icon-slide-btn.icon-down:hover .btn-label,
+.icon-slide-btn.icon-down:active .btn-label {
+  -webkit-transform: translate3d(0, 150%, 0);
+  transform: translate3d(0, 150%, 0);
+}
+.icon-slide-btn.icon-left {
+  padding: 10px 30px;
+}
+.icon-slide-btn.icon-left i {
+  top: 50%;
+  left: -50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+.icon-slide-btn.icon-left:hover i,
+.icon-slide-btn.icon-left:active i {
+  left: 0;
+}
+.icon-slide-btn.icon-left:hover .btn-label,
+.icon-slide-btn.icon-left:active .btn-label {
+  -webkit-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+}
+.icon-slide-btn.icon-right {
+  padding: 10px 30px;
+}
+.icon-slide-btn.icon-right i {
+  top: 50%;
+  right: -50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+.icon-slide-btn.icon-right:hover i,
+.icon-slide-btn.icon-right:active i {
+  right: 0;
+}
+.icon-slide-btn.icon-right:hover .btn-label,
+.icon-slide-btn.icon-right:active .btn-label {
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+}
 .social-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;
