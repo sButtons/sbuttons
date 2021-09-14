@@ -403,6 +403,36 @@
                 "shouldHaveBlockType": false
             },
             {
+                "type": "slide",
+                "label": "Slide",
+                "classes": "icon-slide-btn",
+                "variations": [
+                    {
+                        "label": "Slide Icon up",
+                        "classes": "icon-up",
+                        "html": "<i class='fas fa-arrow-up'></i><span class='btn-label'>Slide Up</span>"
+                    },
+                    {
+                        "label": "Slide Icon down",
+                        "classes": "icon-down",
+                        "html": "<i class='fas fa-arrow-down'></i><span class='btn-label'>Slide Down</span>"
+                    },
+                    {
+                        "label": "Slide Icon left",
+                        "classes": "icon-left",
+                        "html": "<i class='fas fa-arrow-left'></i><span class='btn-label'>Slide Left</span>"
+                    },
+                    {
+                        "label": "Slide Icon right",
+                        "classes": "icon-right",
+                        "html": "<span class='btn-label'>Slide Right</span><i class='fas fa-arrow-right'></i>"
+                    }
+                ],
+                "usesText": false,
+                "shouldHaveRoundedType": false,
+                "shouldHaveBlockType": false
+            },
+            {
                 "type": "hatch",
                 "label": "Hatch",
                 "classes": "hatch-btn",

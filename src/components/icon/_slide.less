@@ -1,0 +1,90 @@
+.icon-slide-btn {
+  transition: all 0.3s;
+  position: relative;
+  i {
+    position: absolute;
+  }
+  .btn-label,
+  i {
+    transition: all 0.3s;
+    display: inline-block;
+  }
+  &.icon-up {
+    i {
+      top: 100%;
+      left: 50%;
+      -webkit-transform: translate3d(-50%, 0, 0);
+      transform: translate3d(-50%, 0, 0);
+    }
+    &:hover,
+    &:active {
+      i {
+        top: 50%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+      }
+      .btn-label {
+        -webkit-transform: translate3d(0, -200%, 0);
+        transform: translate3d(0, -200%, 0);
+      }
+    }
+  }
+  &.icon-down {
+    i {
+      top: -100%;
+      left: 50%;
+      -webkit-transform: translate3d(-50%, 0, 0);
+      transform: translate3d(-50%, 0, 0);
+    }
+    &:hover,
+    &:active {
+      i {
+        top: 50%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+      }
+      .btn-label {
+        -webkit-transform: translate3d(0, 200%, 0);
+        transform: translate3d(0, 200%, 0);
+      }
+    }
+  }
+  &.icon-left {
+    padding: 10px 30px;
+    i {
+      top: 50%;
+      left: -50%;
+      -webkit-transform: translate3d(0, -50%, 0);
+      transform: translate3d(0, -50%, 0);
+    }
+    &:hover,
+    &:active {
+      i {
+        left: 0;
+      }
+      .btn-label {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+      }
+    }
+  }
+  &.icon-right {
+    padding: 10px 30px;
+    i {
+      top: 50%;
+      right: -50%;
+      -webkit-transform: translate3d(0, -50%, 0);
+      transform: translate3d(0, -50%, 0);
+    }
+    &:hover,
+    &:active {
+      i {
+        right: 0;
+      }
+      .btn-label {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+      }
+    }
+  }
+}
