@@ -6,7 +6,7 @@ function Hero () {
     return (
         <div className="lg:mb-32 mb-10">
             <div className="container mx-auto px-4">
-                <h1 className="lg:text-7xl lg:mt-16 mt-5 text-gray-600 dark:text-white text-5xl underline-red">
+                <h1 className="lg:text-7xl lg:mt-16 mt-5  dark:text-white text-5xl " id="heading">
                     Simple and Creative buttons with sButtons.
                 </h1>
                 <div className="lg:mt-10 mt-9">
