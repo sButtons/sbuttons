@@ -312,6 +312,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://www.linkedin.com/in/harsh-gulati-005585ab/"><img src="https://avatars.githubusercontent.com/u/58563505?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HARSH GULATI</b></sub></a><br /><a href="#ideas-harsh-gulati-14" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/sButtons/sbuttons/commits?author=harsh-gulati-14" title="Code">💻</a></td>
     <td align="center"><a href="https://www.rexer.in"><img src="https://avatars.githubusercontent.com/u/36096167?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rajadurai Azhagudurai</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=RajaduraiAz" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3ARajaduraiAz" title="Bug reports">🐛</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/naveenkumarsunkara/"><img src="https://avatars.githubusercontent.com/u/29983792?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Naveen Kumar Sunkara</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=naveensunkara" title="Code">💻</a> <a href="#ideas-naveensunkara" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
