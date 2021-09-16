@@ -377,30 +377,40 @@
                 "usesColors": false
             },
             {
-                "type": "star",
-                "label": "Star",
-                "classes": "star-btn",
-                "shouldHaveRoundedType": false,
-                "shouldHaveBlockType": false,
-                "usesColors": false,
-                "usesText": false,
-                "variations": [{
-                        "classes": "",
-                        "label": "Star (Inactive)"
-                    },
-                    {
-                        "classes": "active",
-                        "label": "Star (Active)"
-                    }
-                ]
-            },
-            {
                 "type": "grow",
                 "label": "Grow",
                 "classes": "grow-btn",
                 "usesText": false,
                 "shouldHaveRoundedType": false,
                 "shouldHaveBlockType": false
+            },
+            {
+                "type": "hatch",
+                "label": "Hatch",
+                "classes": "hatch-btn",
+                "usesColors": false,
+                "shouldHaveRoundedType": false,
+                "usesText": false,
+                "shouldHaveBlockType": false,
+                "variations": [
+                    {
+                      "classes": "",
+                      "html": "<i class='fas fa-camera'></i>"
+                    },
+                    {
+                      "classes": "",
+                      "html": "<i class='fas fa-book'></i>"
+                    }
+                ]
+            },
+            {
+                "type": "like",
+                "label": "Like",
+                "classes": "like-btn",
+                "shouldHaveRoundedType": false,
+                "shouldHaveBlockType": false,
+                "usesText": false,
+                "usesColors": false
             },
             {
                 "type": "slide",
@@ -433,32 +443,22 @@
                 "shouldHaveBlockType": false
             },
             {
-                "type": "hatch",
-                "label": "Hatch",
-                "classes": "hatch-btn",
-                "usesColors": false,
+                "type": "star",
+                "label": "Star",
+                "classes": "star-btn",
                 "shouldHaveRoundedType": false,
-                "usesText": false,
                 "shouldHaveBlockType": false,
-                "variations": [
-                    {
-                      "classes": "",
-                      "html": "<i class='fas fa-camera'></i>"
+                "usesColors": false,
+                "usesText": false,
+                "variations": [{
+                        "classes": "",
+                        "label": "Star (Inactive)"
                     },
                     {
-                      "classes": "",
-                      "html": "<i class='fas fa-book'></i>"
+                        "classes": "active",
+                        "label": "Star (Active)"
                     }
                 ]
-            },
-            {
-                "type": "like",
-                "label": "Like",
-                "classes": "like-btn",
-                "shouldHaveRoundedType": false,
-                "shouldHaveBlockType": false,
-                "usesText": false,
-                "usesColors": false
             }
         ]
     },
