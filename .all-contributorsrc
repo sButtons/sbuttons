@@ -2299,6 +2299,15 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "bluebot08",
+      "name": "Stefan O'Neil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61350990?v=4",
+      "profile": "https://github.com/bluebot08",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
