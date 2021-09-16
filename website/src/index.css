@@ -151,7 +151,7 @@ body {
     hsla(203, 11%, 15%, 0.4);
   color: #aaa !important;
 }
-#heading {
+h1.bg-clip-text {
   background: -webkit-linear-gradient(#ff8533, #ff4da6);
   background-clip: border-box;
   -webkit-background-clip: text;
