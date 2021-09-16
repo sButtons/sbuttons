@@ -411,7 +411,7 @@
                 "shouldHaveBlockType": false,
                 "usesText": false,
                 "usesColors": false
-            }
+            },
             {
                 "type": "slide",
                 "label": "Slide",
