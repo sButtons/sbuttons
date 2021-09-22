@@ -151,8 +151,7 @@ body {
     hsla(203, 11%, 15%, 0.4);
   color: #aaa !important;
 }
- .heading {
-  background: -webkit-linear-gradient(#ff8533, #ff4da6);
-   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
- }
+.heading {
+  color: #f39;
+  text-shadow: 0px -1px 2px #ffaa80;
+}
