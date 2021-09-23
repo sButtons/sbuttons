@@ -152,6 +152,6 @@ body {
   color: #aaa !important;
 }
 .heading {
-  color: #f39;
-  text-shadow: 0px -1px 2px #ffaa80;
+  background: -webkit-linear-gradient(#ff8533, #ff4da6);
+  -webkit-text-fill-color: transparent;
 }
