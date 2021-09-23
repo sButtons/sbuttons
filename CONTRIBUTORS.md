@@ -315,6 +315,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/naveenkumarsunkara/"><img src="https://avatars.githubusercontent.com/u/29983792?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Naveen Kumar Sunkara</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=naveensunkara" title="Code">💻</a> <a href="#ideas-naveensunkara" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/bluebot08"><img src="https://avatars.githubusercontent.com/u/61350990?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefan O'Neil</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=bluebot08" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/aviral14112001"><img src="https://avatars.githubusercontent.com/u/75156752?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aviral Gupta</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=aviral14112001" title="Code">💻</a> <a href="#ideas-aviral14112001" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
