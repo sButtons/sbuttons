@@ -467,6 +467,13 @@
         "label": "Social Buttons",
         "classes": "social-btn",
         "children": [{
+                "type": "amazon",
+                    "classes": "amazon",
+                    "label": "Login with Amazon",
+                    "text": "Login with Amazon",
+                    "usesColors": false
+            },
+            {
                 "type": "apple",
                 "classes": "apple",
                 "label": "Login with Apple",
