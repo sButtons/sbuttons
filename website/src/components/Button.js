@@ -9,15 +9,15 @@ function Button ({classes, text, htmlContent}) {
         return "." + classes.replaceAll(new RegExp(/\s+/g), ".")
     }
 
-    function showToast () {
+    function showToast () {          /*Toast Setting*/
         toast.success('Copied!', {
-            className: 'dark:bg-gray-800',
-            position: "top-right",
-            autoClose: 3000,
+            className: 'dark:bg-gray-800', /*Giving class name*/
+            position: "top-right",  /*Positioning*/
+            autoClose: 3000,   /*Giving time to close it automatically*/
             hideProgressBar: false,
-            closeOnClick: false,
-            pauseOnHover: false,
-            draggable: false,
+            closeOnClick: false, /*Click Setting (Will not close upon clicking)*/
+            pauseOnHover: false, 
+            draggable: false, /*Can't drag it*/
             progress: undefined,
         })
     }
@@ -35,6 +35,7 @@ function Button ({classes, text, htmlContent}) {
                 {htmlContent && htmlContent.length && <div dangerouslySetInnerHTML={{__html: htmlContent}}></div>}
                 {(!htmlContent || !htmlContent.length) && text}
             </button>
+            /*Copy to clipboard setting*/
             <CopyToClipboard text={removePeriodsOnCopy({classes})} onCopy={showToast}>
                 <span className="mt-3 text-gray-500 text-sm text-center cursor-pointer">
                     <FiCopy className="inline-block" />
