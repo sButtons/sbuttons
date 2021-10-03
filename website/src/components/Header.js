@@ -7,7 +7,7 @@ import useDarkMode, { DarkModeToggler } from 'use-dark-mode-hook'
 import MenuToggler from './MenuToggler'
 import vars from '../vars'
 
-function Header({activePage = null, showMenuButton = false}) {
+function Header({ activePage = null, showMenuButton = false }) {
     const [isDarkMode, toggleDarkMode] = useDarkMode()
 
     return (
@@ -18,25 +18,34 @@ function Header({activePage = null, showMenuButton = false}) {
                     <img src={`${vars.path}/images/logo-colored.png`} alt="Logo" />
                 </Link>
                 <div className="md:flex hidden items-center lg:w-6/12">
-                        <Link to="/documentation" 
-                            className={"block border-b-2 border-transparent hover:border-red-600 mr-3 ml-4 text-xl text-gray-600 dark:text-white" + (activePage === 'documentation' ? ' border-red-600' : '')}>
-                            Docs
-                        </Link>
-                        <Link to="/examples" 
-                            className={"block border-b-2 border-transparent hover:border-red-600 mx-3 text-xl text-gray-600 dark:text-white" + (activePage === 'examples' ? ' border-red-600' : '')}>
-                            Examples
-                        </Link>
-                        <Link to="/projects-using-sbuttons" 
-                            className={"block border-b-2 border-transparent hover:border-red-600 mx-3 lg:text-xl text-sm text-gray-600 dark:text-white" + (activePage === 'projects' ? ' border-red-600' : '')}>
-                            Projects Using sButtons
-                        </Link>
+                    <Link to="/documentation"
+                        className={"block border-b-2 border-transparent hover:border-red-600 mr-3 ml-4 text-xl text-gray-600 dark:text-white" + (activePage === 'documentation' ? ' border-red-600' : '')}>
+                        Docs
+                    </Link>
+                    <Link to="/examples"
+                        className={"block border-b-2 border-transparent hover:border-red-600 mx-3 text-xl text-gray-600 dark:text-white" + (activePage === 'examples' ? ' border-red-600' : '')}>
+                        Examples
+                    </Link>
+                    <Link to="/projects-using-sbuttons"
+                        className={"block border-b-2 border-transparent hover:border-red-600 mx-3 lg:text-xl text-sm text-gray-600 dark:text-white" + (activePage === 'projects' ? ' border-red-600' : '')}>
+                        Projects Using sButtons
+                    </Link>
+                </div>
+                <div className="mt-2">
+                    <input
+                        type="text"
+                        name="price"
+                        class="border-solid border-2 border-red-500 border-opacity-25 focus:border-blue-500 px-6 py-1"
+                        id="price"
+                        placeholder="search..."
+                    />
                 </div>
                 <div className="justify-end flex items-center lg:w-4/12 md:w-2/12 w-4/12 md:mx-0 mr-0 ml-auto">
                     <a href="https://github.com/sButtons/sbuttons" target="_blank" className="hover:opacity-100 opacity-40 px-3 transition-none">
                         <FiGithub size="1.5rem" />
                     </a>
-                    <DarkModeToggler 
-                        isDarkMode={isDarkMode} 
+                    <DarkModeToggler
+                        isDarkMode={isDarkMode}
                         toggleDarkMode={toggleDarkMode}
                         buttonClassName="focus:outline-none hover:opacity-100 opacity-40 px-3 transition-none"
                     />
