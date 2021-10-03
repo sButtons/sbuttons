@@ -135,7 +135,7 @@ To use sButtons with block display, add the class to either `<button>` or `<a>`.
 
 ## Disabled Buttons
 
-To make a `<button>` or `<a>` tag disabled, add `disabled-btn` class as shown below.
+To make a `<button>` or `<a>` tag disabled, add `disabled-btn` class as shown below:
 
 ```html
 <button class="sbtn basic-btn blue-btn disabled-btn">Button</button>
@@ -165,8 +165,7 @@ Adding the icon-left class to a button makes the icon positioned to the left.
 
 ## Icon Positioned to The Right
 
-Adding the `icon-right` class to a button makes the icon
-positioned to the right.
+Adding the `icon-right` class to a button makes the icon positioned to the right.
 
 ```html
 <button class="sbtn base-icon-btn icon-right orange-btn">
