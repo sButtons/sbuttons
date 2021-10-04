@@ -11,7 +11,7 @@ function Sidebar ({children = []}) {
                         name="search" type="text"
                         value={filter}
                         onChange={(e) => setFilter(e.target.value)}
-                        placeholder="Search"
+                        placeholder="Search..."
                         className="border focus:border-red-600 focus:outline-none pl-3"></input>
                     <button
                         onClick={() => {setFilter("")}} 
