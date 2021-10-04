@@ -8,6 +8,7 @@ import ButtonExample from '../../components/ButtonExample'
 
 function Examples () {
     const [currentButton, setCurrentButton] = useState(null)
+    let sidebarLinks = [];
 
     useEffect(() => {
         //todo set currentbutton intial value
@@ -74,34 +75,40 @@ function Examples () {
     }
 
     const hasVariations = button && button.button.variations && button.button.variations.length >= 1
-
+    
     return (
         <div className="examples">
             <Common activePage="examples" pageTitle={`${button && button.button.title ? button.button.title + ' - ' : ''}Examples`} showMenuButton={true}>
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
             </Common>
             <div className="flex mt-5">
-                <Sidebar>
-                    {buttons.map((buttonType, index) => {
-                        if (!buttonType.children.length) {
-                            return <SidebarLink to={`#${buttonType.type}`} text={buttonType.label}
+                
+                {buttons.forEach((buttonType, index) => {
+                    if (!buttonType.children.length) {
+                        sidebarLinks.push(
+                            <SidebarLink 
+                                to={`#${buttonType.type}`} text={buttonType.label}
                                 key={`${buttonType.type}_${index}`} clickCallback={setCurrentButton}
                                 current={currentButton} />
-                        } else {
-                            return (
-                                <div key={`${buttonType.type}_${index}`}>
-                                    <SidebarLink text={buttonType.label}
-                                        key={`${buttonType.type}_${index}`} />
-                                    {buttonType.children.map((button, buttonIndex) => (
-                                        <SidebarLink to={`#${button.type}`} text={button.label} level={1}
-                                            key={`${index}_${buttonIndex}`} clickCallback={setCurrentButton}
-                                            current={currentButton} />
-                                    ))}
-                                </div>
-                            )
-                        }
-                    })}
-                </Sidebar>
+                        );
+                    } else {
+                        sidebarLinks.push(
+                            <SidebarLink 
+                                text={buttonType.label} key={`${buttonType.type}_${index}`} />
+                        );
+
+                        buttonType.children.forEach((button, buttonIndex) => {
+                            sidebarLinks.push(
+                                <SidebarLink to={`#${button.type}`} text={button.label} 
+                                    level={1} key={`${index}_${buttonIndex}`} 
+                                    clickCallback={setCurrentButton}
+                                    current={currentButton} />
+                            );
+                        });
+                    }
+                })}
+
+                <Sidebar>{sidebarLinks}</Sidebar>
                 <div className="container content lg:pr-20 md:w-8/12 pl-3">
                     <h1 className="text-4xl md:text-left text-center">{button && button.button.title}</h1>
                     <span className="mb-7 text-sm block md:text-left text-center">Type: {button && button.type.name}</span>
