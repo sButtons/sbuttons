@@ -2318,6 +2318,15 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "jazibobs",
+      "name": "Jared Rigby",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3301610?v=4",
+      "profile": "https://www.jaredrigby.co.uk/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
