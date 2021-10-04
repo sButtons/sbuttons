@@ -624,6 +624,19 @@
         ]
     },
     {
+        "type": "payment",
+        "label": "Payment Buttons",
+        "classes": "payment-btn",
+        "children": [{
+                "type": "gpay",
+                "classes": "gpay",
+                "label": "Pay with G Pay",
+                "text": "Pay with",
+                "usesColors": false
+            }
+        ]
+    },
+    {
         "type": "special",
         "label": "Special Buttons",
         "classes": "",
