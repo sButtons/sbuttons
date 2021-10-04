@@ -627,10 +627,18 @@
         "type": "payment",
         "label": "Payment Buttons",
         "classes": "payment-btn",
-        "children": [{
+        "children": [
+            {
                 "type": "gpay",
                 "classes": "gpay",
                 "label": "Pay with G Pay",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
+                "type": "apay",
+                "classes": "apay",
+                "label": "Pay with Apple Pay",
                 "text": "Pay with",
                 "usesColors": false
             }
