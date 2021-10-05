@@ -633,9 +633,22 @@
                 "label": "Pay with G Pay",
                 "text": "Pay with",
                 "usesColors": false
+            },
+            {
+                    "type": "amazonpay",
+                    "classes": "amazonpay",
+                    "label": "Pay with Amazon Pay",
+                    "text": "Pay with",
+                    "usesColors": false
             }
         ]
     },
+    
+    
+    
+    
+    
+    
     {
         "type": "special",
         "label": "Special Buttons",
