@@ -4567,12 +4567,12 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\e079";
 }
-.payment-btn.amazonpay{
+.payment-btn.amazon-pay{
   background-color: #D4AF37;
       color: #fff;
   
 }
-.payment-btn.amazonpay:after{
+.payment-btn.amazon-pay:after{
     color: #fff;
     content: "\f415";
 }
