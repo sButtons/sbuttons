@@ -4559,6 +4559,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .payment-btn.block-btn:after {
   margin-right: 1rem;
 }
+.payment-btn.apple-pay {
+  background-color: #000;
+  color: #fff;
+}
+.payment-btn.apple-pay:after {
+  color: #fff;
+  content: "\f415";
+}
 .payment-btn.gpay {
   background-color: #1a73e8;
   color: #fff;
@@ -4566,14 +4574,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .payment-btn.gpay:after {
   color: #fff;
   content: "\e079";
-}
-.payment-btn.apay {
-  background-color: #000;
-  color: #fff;
-}
-.payment-btn.apay:after {
-  color: #fff;
-  content: "\f415";
 }
 @font-face {
   font-family: "Press Start 2P";
