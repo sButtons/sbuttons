@@ -633,6 +633,13 @@
                 "label": "Pay with G Pay",
                 "text": "Pay with",
                 "usesColors": false
+            },
+	    {
+                "type": "paypal",
+                "classes": "paypal",
+                "label": "Pay with PayPal",
+                "text": "Pay with ",
+                "usesColors": false
             }
         ]
     },
