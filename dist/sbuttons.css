@@ -4245,8 +4245,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .icon-slide-btn.icon-up:hover .btn-label,
 .icon-slide-btn.icon-up:active .btn-label {
-  -webkit-transform: translate3d(0, -150%, 0);
-  transform: translate3d(0, -150%, 0);
+  -webkit-transform: translate3d(0, -200%, 0);
+  transform: translate3d(0, -200%, 0);
 }
 .icon-slide-btn.icon-down i {
   top: -100%;
@@ -4262,8 +4262,8 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .icon-slide-btn.icon-down:hover .btn-label,
 .icon-slide-btn.icon-down:active .btn-label {
-  -webkit-transform: translate3d(0, 150%, 0);
-  transform: translate3d(0, 150%, 0);
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
 }
 .icon-slide-btn.icon-left {
   padding: 10px 30px;
@@ -4558,6 +4558,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .payment-btn.block-btn:after {
   margin-right: 1rem;
+}
+.payment-btn.apple-pay {
+  background-color: #000;
+  color: #fff;
+}
+.payment-btn.apple-pay:after {
+  color: #fff;
+  content: "\f415";
 }
 .payment-btn.gpay {
   background-color: #1a73e8;
