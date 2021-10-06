@@ -4575,6 +4575,23 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\e079";
 }
+.payment-btn.paypal {
+  background-color: #1a73e8;
+  color: #fff;
+  font-weight: 500;
+}
+.payment-btn.paypal.rounded-btn:after {
+  right: 5px;
+}
+.payment-btn.paypal:after {
+  color: #fff;
+  content: "\f1f4";
+  right: 0;
+}
+.payment-btn.paypal:hover {
+  text-shadow: 0px 0px 3px white;
+  box-shadow: 0px 0px 5px white;
+}
 .payment-btn.visa {
   background-color: #1a73e8;
   color: #fff;

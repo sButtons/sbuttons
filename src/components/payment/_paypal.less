@@ -1,0 +1,21 @@
+.payment-btn {
+  &.paypal {
+    background-color: #1a73e8;
+    color: #fff;
+    font-weight: 500;
+    &.rounded-btn {
+      &:after {
+        right: 5px;
+      }
+    }
+    &:after {
+      color: #fff;
+      content: "\f1f4";
+      right: 0;
+    }
+    &:hover {
+      text-shadow: 0px 0px 3px white;
+      box-shadow: 0px 0px 5px white;
+    }
+  }
+}
