@@ -317,6 +317,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/bluebot08"><img src="https://avatars.githubusercontent.com/u/61350990?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefan O'Neil</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=bluebot08" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/aviral14112001"><img src="https://avatars.githubusercontent.com/u/75156752?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aviral Gupta</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=aviral14112001" title="Code">💻</a> <a href="#ideas-aviral14112001" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://www.jaredrigby.co.uk/"><img src="https://avatars.githubusercontent.com/u/3301610?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jared Rigby</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=jazibobs" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/reastyn"><img src="https://avatars.githubusercontent.com/u/6328667?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tomas Rokos</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=reastyn" title="Code">💻</a></td>
   </tr>
 </table>
 
