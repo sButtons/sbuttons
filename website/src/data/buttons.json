@@ -641,6 +641,13 @@
                 "label": "Pay with G Pay",
                 "text": "Pay with",
                 "usesColors": false
+            },
+            {
+                "type": "visa",
+                "classes": "visa",
+                "label": "Pay with Visa",
+                "text": "Pay with",
+                "usesColors": false
             }
         ]
     },

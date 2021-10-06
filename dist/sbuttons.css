@@ -4575,6 +4575,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\e079";
 }
+.payment-btn.visa {
+  background-color: #1a73e8;
+  color: #fff;
+}
+.payment-btn.visa:after {
+  color: #fff;
+  content: "\f1f0";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
