@@ -4572,6 +4572,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   font-weight: 500;
 }
+.payment-btn.paypal.rounded-btn:after {
+  right: 5px;
+}
 .payment-btn.paypal:after {
   color: #fff;
   content: "\f1f4";
