@@ -4599,6 +4599,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .payment-btn.paytm:after {
   color: #fff;
   content: url("https://api.iconify.design/simple-icons/paytm.svg?color=%2301b1e4&width=32");
+  margin-left: 0%;
 }
 .payment-btn.visa {
   background-color: #1a73e8;
