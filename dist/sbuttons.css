@@ -4592,6 +4592,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   text-shadow: 0px 0px 3px white;
   box-shadow: 0px 0px 5px white;
 }
+.payment-btn.phonepe {
+  background-color: #5f259f;
+  color: #fff;
+}
+.payment-btn.phonepe:after {
+  color: #fff;
+  content: url("https://api.iconify.design/simple-icons/phonepe.svg?color=white&width=32");
+}
 .payment-btn.visa {
   background-color: #1a73e8;
   color: #fff;
