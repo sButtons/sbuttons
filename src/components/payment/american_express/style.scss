@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+body {
+    background: #eee;
+    color: #333;
+    font-family: 'Noto Sans Display', sans-serif;
+  text-align: center;
+}
+
+.paymentButtons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        padding: 0.5em 0;
+    }
+}
+
+@mixin paymentButton(
+  $buttonWidth: 400px,       $buttonBorderRadius: 3px) {
+  $buttonHeight: $buttonWidth/2.1;
+  $paymentWidth: $buttonWidth * .78;
+  $paymentHeight: $buttonHeight * .75;
+  $paymentTop: ($buttonHeight - $paymentHeight) / 2 * 1.2;
+  $paymentLeft: ($buttonWidth - $paymentWidth) / 2 * 1.1;
+  font-size: 0;
+  position: relative;
+  display: inline-block;
+  height: $buttonHeight;
+  width: $buttonWidth;
+  &:before, &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
+  &:before {
+    content: '';
+    display: block;
+    height: $buttonHeight;
+    width: $buttonWidth;
+    border: #aaa 1px solid;
+    border-radius: $buttonBorderRadius;
+  }
+  &:after {
+    content: '';
+    display: block;
+    top: $paymentTop;
+    left: $paymentLeft;
+    height: $paymentHeight;    
+    width: $paymentWidth;
+    background-image: url(https://1000logos.net/wp-content/uploads/2016/10/American-Express-Symbol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.paymentButton.tiny {
+  @include paymentButton($buttonWidth: 350px);
+}
+.paymentButton.middle {
+  @include paymentButton($buttonWidth: 500px, $buttonBorderRadius: 5px);
+}
+.paymentButton.huge {
+  @include paymentButton($buttonWidth: 840px, $buttonBorderRadius: 7px);
+}
