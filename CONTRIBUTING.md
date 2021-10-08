@@ -38,6 +38,7 @@ Please note we have a code of conduct, please follow it in all your interactions
    **Please follow the convention in naming button classes: `new-class-btn` where new-class is the button name. For example, for hover button it's `hover-btn`.**
 
    **There are Two ways to monitor and implement your changes as a developer.**
+   </br>
    i)Let the scripts do it all for you -
    Here,
 
@@ -46,11 +47,13 @@ Please note we have a code of conduct, please follow it in all your interactions
    ```
 
    It does two tasks simultaneously.
+   </br>
 
    a) watch changes in all .less file ,compile the changed files and reflect the necessary changes in dist/sbuttons.css.
    b) watch changes in dist/sbuttons.css and minify it into dist/sbuttons.min.css
-
+  </br>
    So you just need to run "npm run build" and rest would be handled by scripts
+   </br>
    ii)I understand what I am doing -
 
    Here all the control is in your hands-
