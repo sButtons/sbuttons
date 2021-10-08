@@ -650,6 +650,13 @@
                 "usesColors": false
             },
             {
+                "type": "paytm",
+                "classes": "paytm",
+                "label": "Pay with Paytm",
+                "text": "Pay with ",
+                "usesColors": false
+            },
+            {
                 "type": "phonepe",
                 "classes": "phonepe",
                 "label": "Pay with PhonePe",
