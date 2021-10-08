@@ -642,7 +642,7 @@
                 "text": "Pay with",
                 "usesColors": false
             },
-	          {
+	        {
                 "type": "paypal",
                 "classes": "paypal",
                 "label": "Pay with PayPal",
@@ -657,9 +657,23 @@
                 "usesColors": false
             },
             {
+                "type": "phonepe",
+                "classes": "phonepe",
+                "label": "Pay with PhonePe",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
                 "type": "visa",
                 "classes": "visa",
                 "label": "Pay with Visa",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
+                "type": "ethereum",
+                "classes": "ethereum",
+                "label": "Pay with Ethereum",
                 "text": "Pay with",
                 "usesColors": false
             }

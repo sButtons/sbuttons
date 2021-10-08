@@ -182,7 +182,8 @@
       "contributions": [
         "doc",
         "code",
-        "bug"
+        "bug",
+        "ideas"
       ]
     },
     {
@@ -2342,6 +2343,24 @@
       "name": "Leonel Jara",
       "avatar_url": "https://avatars.githubusercontent.com/u/16671822?v=4",
       "profile": "https://github.com/lejara",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "demiGod31",
+      "name": "Debroop Mukherjee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30298473?v=4",
+      "profile": "https://github.com/demiGod31",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "AJIT-KUMAR-PANDIT",
+      "name": "AJIT KUMAR PANDIT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49229210?v=4",
+      "profile": "https://www.linkedin.com/in/AjitKumarPandit/",
       "contributions": [
         "code"
       ]

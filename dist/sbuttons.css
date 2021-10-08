@@ -4601,6 +4601,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   content: url("https://api.iconify.design/simple-icons/paytm.svg?color=%2301b1e4&width=32");
   right: 0;
 }
+.payment-btn.phonepe {
+  background-color: #5f259f;
+  color: #fff;
+}
+.payment-btn.phonepe:after {
+  color: #fff;
+  content: url("https://api.iconify.design/simple-icons/phonepe.svg?color=white&width=32");
+}
 .payment-btn.visa {
   background-color: #1a73e8;
   color: #fff;
@@ -4608,6 +4616,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .payment-btn.visa:after {
   color: #fff;
   content: "\f1f0";
+}
+payment-btn.ethereum {
+  background-color: #003664;
+  color: #fff;
+}
+.payment-btn.ethereum:after {
+  color: #fff;
+  content: "\f42e";
 }
 @font-face {
   font-family: "Press Start 2P";
