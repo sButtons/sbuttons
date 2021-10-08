@@ -46,6 +46,9 @@ Please note we have a code of conduct, please follow it in all your interactions
       This will watch the updates and changes you make for any of the `.less` files inside `src`, then compile them into `dist/sbuttons.css`.
    2. Compile command:
       `npm run compile`
+   3. Clean CSS command:
+      `npm run clean-css`
+   
       Make sure to run `npm install` before any of these commands.
       
       To see how the button looks like after making changes, you'll need to run the website (follow the next steps).
