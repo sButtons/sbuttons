@@ -54,7 +54,9 @@ Please note we have a code of conduct, please follow it in all your interactions
   </br>
    So you just need to run "npm run build" and rest would be handled by scripts
    </br>
+   
    **ii)I understand what I am doing -**
+   </br>
 
    Here all the control is in your hands-
 
