@@ -4608,6 +4608,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f1f0";
 }
+payment-btn.ethereum {
+  background-color: #003664;
+  color: #fff;
+}
+.payment-btn.ethereum:after {
+  color: #fff;
+  content: "\f42e";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
