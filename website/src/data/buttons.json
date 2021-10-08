@@ -662,6 +662,13 @@
                 "label": "Pay with Visa",
                 "text": "Pay with",
                 "usesColors": false
+            },
+            {
+                "type": "ethereum",
+                "classes": "ethereum",
+                "label": "Pay with Ethereum",
+                "text": "Pay with",
+                "usesColors": false
             }
         ]
     },
