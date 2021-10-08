@@ -39,8 +39,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
    **There are Two ways to monitor and implement your changes as a developer.**
    </br>
-   i)Let the scripts do it all for you -
-   Here,
+   **i)Let the scripts do it all for you -**
 
    ```
    npm run build
@@ -50,11 +49,12 @@ Please note we have a code of conduct, please follow it in all your interactions
    </br>
 
    a) watch changes in all .less file ,compile the changed files and reflect the necessary changes in dist/sbuttons.css.
+   </br>
    b) watch changes in dist/sbuttons.css and minify it into dist/sbuttons.min.css
   </br>
    So you just need to run "npm run build" and rest would be handled by scripts
    </br>
-   ii)I understand what I am doing -
+   **ii)I understand what I am doing -**
 
    Here all the control is in your hands-
 
