@@ -43,8 +43,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sButtons/sbuttons"
-  },
-  "dependencies": {
-    "@craco/craco": "^6.3.0"
   }
 }
