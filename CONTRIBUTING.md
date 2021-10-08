@@ -37,28 +37,28 @@ Please note we have a code of conduct, please follow it in all your interactions
 
    **Please follow the convention in naming button classes: `new-class-btn` where new-class is the button name. For example, for hover button it's `hover-btn`.**
 
-   **There are Two ways to monitor and implement your changes as a developer.**
-   </br>
-   **i)Let the scripts do it all for you -**
+   There are Two ways to monitor and implement your changes as a developer.
+   
+   - Let the scripts do it all for you -
 
    ```
    npm run build
    ```
 
    It does two tasks simultaneously.
-   </br>
+   
 
    a) watch changes in all .less file ,compile the changed files and reflect the necessary changes in dist/sbuttons.css.
-   </br>
-   b) watch changes in dist/sbuttons.css and minify it into dist/sbuttons.min.css
-  </br>
-   So you just need to run "npm run build" and rest would be handled by scripts
-   </br>
    
-   **ii)I understand what I am doing -**
-   </br>
+   b) watch changes in dist/sbuttons.css and minify it into dist/sbuttons.min.css
+  
+   So you just need to run "npm run build" and rest would be handled by scripts
+   
+   
+   - Do everything manually -
+   
 
-   Here all the control is in your hands-
+   Here all the control is in your hands
 
    After making any changes, you need to compile the LESS file into CSS. To do that there you can use the following:
 
