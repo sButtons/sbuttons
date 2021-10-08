@@ -2355,6 +2355,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "AJIT-KUMAR-PANDIT",
+      "name": "AJIT KUMAR PANDIT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49229210?v=4",
+      "profile": "https://www.linkedin.com/in/AjitKumarPandit/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

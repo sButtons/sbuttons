@@ -321,6 +321,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/lejara"><img src="https://avatars.githubusercontent.com/u/16671822?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leonel Jara</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=lejara" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/demiGod31"><img src="https://avatars.githubusercontent.com/u/30298473?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Debroop Mukherjee</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=demiGod31" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/AjitKumarPandit/"><img src="https://avatars.githubusercontent.com/u/49229210?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AJIT KUMAR PANDIT</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=AJIT-KUMAR-PANDIT" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
