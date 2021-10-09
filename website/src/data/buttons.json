@@ -629,6 +629,13 @@
         "classes": "payment-btn",
         "children": [
             {
+                "type": "amazon-pay",
+                "classes": "amazon-pay",
+                "label": "Pay with Amazon Pay",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
                 "type": "apple-pay",
                 "classes": "apple-pay",
                 "label": "Pay with Apple Pay",
