@@ -4567,6 +4567,22 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f415";
 }
+.payment-btn.amazon-pay {
+  background-color: #333e48;
+  color: #fff;
+}
+.payment-btn.amazon-pay:after {
+  color: #fff;
+  content: "\f42c";
+}
+.payment-btn.ethereum {
+  background-color: #003664;
+  color: #fff;
+}
+.payment-btn.ethereum:after {
+  color: #fff;
+  content: "\f42e";
+}
 .payment-btn.gpay {
   background-color: #1a73e8;
   color: #fff;
@@ -4592,6 +4608,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   text-shadow: 0px 0px 3px white;
   box-shadow: 0px 0px 5px white;
 }
+.payment-btn.paytm {
+  background-color: #1a3667;
+  color: #fff;
+}
+.payment-btn.paytm:after {
+  color: #fff;
+  content: url("https://api.iconify.design/simple-icons/paytm.svg?color=%2301b1e4&width=32");
+  right: 0;
+}
 .payment-btn.phonepe {
   background-color: #5f259f;
   color: #fff;
@@ -4607,14 +4632,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .payment-btn.visa:after {
   color: #fff;
   content: "\f1f0";
-}
-payment-btn.ethereum {
-  background-color: #003664;
-  color: #fff;
-}
-.payment-btn.ethereum:after {
-  color: #fff;
-  content: "\f42e";
 }
 @font-face {
   font-family: "Press Start 2P";
