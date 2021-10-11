@@ -683,6 +683,13 @@
                 "label": "Pay with Ethereum",
                 "text": "Pay with",
                 "usesColors": false
+            },
+            {
+                "type": "mastercard",
+                "classes": "mastercard",
+                "label": "Pay with Mastercard",
+                "text": "Pay with",
+                "usesColors": false
             }
         ]
     },
