@@ -564,7 +564,7 @@
                 "text": "Share with Pinterest",
                 "usesColors": false
             },
-           
+
             {
                 "type": "reddit",
                 "classes": "reddit",
@@ -584,6 +584,13 @@
                 "classes": "snapchat",
                 "label": "Login with Snapchat",
                 "text": "Login with Snapchat",
+                "usesColors": false
+            },
+            {
+                "type": "spotify",
+                "classes": "spotify",
+                "label": "Login with Spotify",
+                "text": "Login with Spotify",
                 "usesColors": false
             },
             {

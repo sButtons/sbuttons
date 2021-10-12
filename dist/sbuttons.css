@@ -4538,6 +4538,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   top: 25%;
   content: "\f270";
 }
+.social-btn.spotify {
+  background-color: #1db954;
+  color: #fff;
+}
+.social-btn.spotify:after {
+  color: #fff;
+  content: "\f1bc";
+}
 .payment-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;
