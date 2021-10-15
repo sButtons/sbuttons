@@ -4633,6 +4633,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f1f0";
 }
+.payment-btn.mastercard {
+  background-color: #f1efeb;
+  color: #000;
+}
+.payment-btn.mastercard:after {
+  color: #000;
+  content: "\f1f1";
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
