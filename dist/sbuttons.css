@@ -4408,6 +4408,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
+.social-btn.telegram {
+  background-color: #00acee;
+  color: #fff;
+}
+.social-btn.telegram:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  content: "\f2c6";
+}
 .social-btn.tumblr {
   background-color: #001935;
   color: #fff;
