@@ -2364,6 +2364,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "imtheu",
+      "name": "Matheus Francisco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30233482?v=4",
+      "profile": "https://matheusmorais.dev/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
