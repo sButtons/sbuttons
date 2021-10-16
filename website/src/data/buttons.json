@@ -643,6 +643,13 @@
                 "usesColors": false
             },
             {
+                "type": "bitcoin",
+                "classes": "bitcoin",
+                "label": "Pay with Bitcoin",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
                 "type": "gpay",
                 "classes": "gpay",
                 "label": "Pay with G Pay",

@@ -4575,6 +4575,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f42c";
 }
+.payment-btn.bitcoin {
+  background-color: #f7931a;
+  color: #fff;
+}
+.payment-btn.bitcoin:after {
+  color: #fff;
+  content: "\f379";
+}
 .payment-btn.ethereum {
   background-color: #003664;
   color: #fff;
