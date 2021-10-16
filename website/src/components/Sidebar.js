@@ -15,9 +15,9 @@ function Sidebar ({children = []}) {
                         className="border focus:border-red-600 focus:outline-none pl-3 dark:text-black"></input>
                     <button
                         onClick={() => {setFilter("")}} 
-                        className={ !filter ? "disabled-btn ml-2 sbtn  xsmall-btn red-btn" : "ml-2 sbtn sbtn basic-btn rounded-btn red-btn xsmall-btn"} >Reset</button>
+                        className={ !filter ? "disabled-btn ml-2 sbtn fill-color-btn up-fill red-btn xsmall-btn text-justify" : "ml-2 sbtn fill-color-btn up-fill red-btn xsmall-btn text-justify"} > Reset </button>
                 </div>
-                 
+
                 <div>
                     {children.filter(child => {
                         return child.props.text.toLowerCase().includes(filter.toLowerCase()); 
