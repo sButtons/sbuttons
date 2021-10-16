@@ -599,6 +599,13 @@
                 "text": "Login with Steam",
                 "usesColors": false
             },
+	    {
+                "type": "telegram",
+                "classes": "telegram",
+                "label": "Login with Telegram",
+                "text": "Login with Telegram",
+                "usesColors": false
+            },
             {
                 "type": "twitter",
                 "classes": "twitter",
@@ -687,6 +694,13 @@
                 "type": "ethereum",
                 "classes": "ethereum",
                 "label": "Pay with Ethereum",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
+                "type": "mastercard",
+                "classes": "mastercard",
+                "label": "Pay with Mastercard",
                 "text": "Pay with",
                 "usesColors": false
             }

@@ -4408,6 +4408,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
+.social-btn.telegram {
+  background-color: #00acee;
+  color: #fff;
+}
+.social-btn.telegram:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  content: "\f2c6";
+}
 .social-btn.tumblr {
   background-color: #001935;
   color: #fff;
@@ -4640,6 +4651,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .payment-btn.visa:after {
   color: #fff;
   content: "\f1f0";
+}
+.payment-btn.mastercard {
+  background-color: #f1efeb;
+  color: #000;
+}
+.payment-btn.mastercard:after {
+  color: #000;
+  content: "\f1f1";
 }
 @font-face {
   font-family: "Press Start 2P";
