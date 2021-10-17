@@ -564,7 +564,6 @@
                 "text": "Share with Pinterest",
                 "usesColors": false
             },
-           
             {
                 "type": "reddit",
                 "classes": "reddit",
@@ -587,10 +586,24 @@
                 "usesColors": false
             },
             {
+                "type": "spotify",
+                "classes": "spotify",
+                "label": "Login with Spotify",
+                "text": "Login with Spotify",
+                "usesColors": false
+            },
+            {
                 "type": "steam",
                 "classes": "steam",
                 "label": "Login with Steam",
                 "text": "Login with Steam",
+                "usesColors": false
+            },
+	    {
+                "type": "telegram",
+                "classes": "telegram",
+                "label": "Login with Telegram",
+                "text": "Login with Telegram",
                 "usesColors": false
             },
             {
