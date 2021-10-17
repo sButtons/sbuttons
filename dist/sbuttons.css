@@ -4408,17 +4408,6 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f09b";
 }
-.social-btn.telegram {
-  background-color: #00acee;
-  color: #fff;
-}
-.social-btn.telegram:after {
-  color: white;
-  position: absolute;
-  right: 10px;
-  top: 20%;
-  content: "\f2c6";
-}
 .social-btn.tumblr {
   background-color: #001935;
   color: #fff;
@@ -4515,6 +4504,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .social-btn.slack:after {
   color: #fff;
   content: "\f198";
+}
+.social-btn.telegram {
+  background-color: #00acee;
+  color: #fff;
+}
+.social-btn.telegram:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  content: "\f2c6";
 }
 .social-btn.pinterest {
   background-color: #e60023;
