@@ -37,6 +37,29 @@ Please note we have a code of conduct, please follow it in all your interactions
 
    **Please follow the convention in naming button classes: `new-class-btn` where new-class is the button name. For example, for hover button it's `hover-btn`.**
 
+   There are Two ways to monitor and implement your changes as a developer.
+   
+   - Let the scripts do it all for you -
+
+   ```
+   npm run build
+   ```
+
+   It does two tasks simultaneously.
+   
+
+   a) watch changes in all .less file ,compile the changed files and reflect the necessary changes in dist/sbuttons.css.
+   
+   b) watch changes in dist/sbuttons.css and minify it into dist/sbuttons.min.css
+  
+   So you just need to run "npm run build" and rest would be handled by scripts
+   
+   
+   - Do everything manually -
+   
+
+   Here all the control is in your hands
+
    After making any changes, you need to compile the LESS file into CSS. To do that there you can use the following:
 
    1. Start command:
@@ -45,12 +68,17 @@ Please note we have a code of conduct, please follow it in all your interactions
       ```
       This will watch the updates and changes you make for any of the `.less` files inside `src`, then compile them into `dist/sbuttons.css`.
    2. Compile command:
-      `npm run compile`
-   3. Clean CSS command:
-      `npm run clean-css`
-   
+      ```
+      npm run compile
+      ```
+   3. Minify command:
+
+      ```
+      npm run clean-css
+      ```
+
       Make sure to run `npm install` before any of these commands.
-      
+
       To see how the button looks like after making changes, you'll need to run the website (follow the next steps).
 
 3. To make changes to the website:
@@ -86,7 +114,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
             usesColors,            //indicates if the button will be using the default sButton colors for the example, defaults to true
 
-            usesText,              //indicates if the button should have a text inside of it. This is useful for icon buttons for example.   
+            usesText,              //indicates if the button should have a text inside of it. This is useful for icon buttons for example.
                                    //defaults to true
 
             variations,            //this is for button types that don't use buttonColors or don't have normal and rounded
@@ -96,7 +124,7 @@ Please note we have a code of conduct, please follow it in all your interactions
                                    //also follow this same type format
          }
          ```
-         
+
          `children` can be of the same format above, except it can't have its own children at the moment.
 
          `variations` can have the following format:
@@ -106,27 +134,26 @@ Please note we have a code of conduct, please follow it in all your interactions
             label,                 //the title of the variation section in the button example
             classes,               //the classes the button should have in the variation, can be empty string
             text,                  //the text to show on the button. If this is omitted, the default text will be the name of the button
-            html,                  //if the button needs HTML to be placed inside instead of text 
+            html,                  //if the button needs HTML to be placed inside instead of text
          }
          ```
 
          It should be noted that if the parent type has `shouldHaveRoundedType`, `shouldHaveBlockType`, `usesColors` or `usesText`, it will affect the buttons in `children` and `variations`. Buttons in `children` can have those attributes as well.
 
    2. To submit new projects using sButtons, all projects should be added in `website/src/data/projects.json`. The project object should be of the following format:
-   
+
    ```
    {
       name,       //name of the project
       about,      //short description of the project
       url,        //URL of the project
       image       //Image of the project. When adding a project, take a screenshot of it or add any
-                  //image of it under website/public/images/projects and include the path relative to 
+                  //image of it under website/public/images/projects and include the path relative to
                   //public here
    }
    ```
 
    3. **CSS**: The website uses TailwindCSS, so not a lot of changes is required in the CSS. However, any changes should be added in `website/src/index.css`
-
 
 ## Notes on Creating New Buttons
 

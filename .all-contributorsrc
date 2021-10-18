@@ -2364,6 +2364,33 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "imtheu",
+      "name": "Matheus Francisco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30233482?v=4",
+      "profile": "https://matheusmorais.dev/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ComixRu",
+      "name": "Bogdan Tsechoev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6322401?v=4",
+      "profile": "https://github.com/ComixRu",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "palespectre",
+      "name": "palespectre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39265224?v=4",
+      "profile": "https://github.com/palespectre",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

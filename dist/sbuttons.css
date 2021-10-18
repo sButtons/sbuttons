@@ -4505,6 +4505,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f198";
 }
+.social-btn.telegram {
+  background-color: #00acee;
+  color: #fff;
+}
+.social-btn.telegram:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  content: "\f2c6";
+}
 .social-btn.pinterest {
   background-color: #e60023;
   color: #fff;
@@ -4537,6 +4548,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #111;
   top: 25%;
   content: "\f270";
+}
+.social-btn.spotify {
+  background-color: #1db954;
+  color: #fff;
+}
+.social-btn.spotify:after {
+  color: #fff;
+  content: "\f1bc";
 }
 .payment-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
@@ -4574,6 +4593,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .payment-btn.amazon-pay:after {
   color: #fff;
   content: "\f42c";
+}
+.payment-btn.bitcoin {
+  background-color: #f7931a;
+  color: #fff;
+}
+.payment-btn.bitcoin:after {
+  color: #fff;
+  content: "\f379";
 }
 .payment-btn.ethereum {
   background-color: #003664;
@@ -4632,6 +4659,14 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .payment-btn.visa:after {
   color: #fff;
   content: "\f1f0";
+}
+.payment-btn.mastercard {
+  background-color: #f1efeb;
+  color: #000;
+}
+.payment-btn.mastercard:after {
+  color: #000;
+  content: "\f1f1";
 }
 @font-face {
   font-family: "Press Start 2P";

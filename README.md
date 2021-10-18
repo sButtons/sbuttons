@@ -7,7 +7,7 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](./LICENSE.md)
 [![CodeQL](https://github.com/sButtons/sbuttons/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/sButtons/sbuttons/actions/workflows/codeql-analysis.yml) [![npm version](https://badge.fury.io/js/sbuttons.svg)](https://badge.fury.io/js/sbuttons) [![](https://data.jsdelivr.com/v1/package/npm/sbuttons/badge)](https://www.jsdelivr.com/package/npm/sbuttons)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](./CONTRIBUTING.md) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-246-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-249-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 :bulb: Simple buttons you can use easily for your next project.
@@ -95,23 +95,23 @@ You can import the CSS file found in `dist/sbuttons.css` or `dist/sbuttons.min.c
 
 ## Using in LESS
 
-You can also import the Using in LESS file found in `src/sbuttons.Using in LESS`:
+You can also import the less file found in `src/sbuttons.less`:
 
 ```css
-@import "~sbuttons/src/sbuttons.Using in LESS";
+@import "~sbuttons/src/sbuttons.less";
 ```
 
 ## Modify Colors
 
-To modify button colors, `import src/_variables.Using in LESS` in your Using in LESS file, then make changes to the variables after the import.
+To modify button colors, `import src/_variables.less` in your less file, then make changes to the variables after the import.
 For example, to change the blue color to a different shade:
 
 ```css
-@import "/path/to/_variables.Using in LESS";
+@import "/path/to/_variables.less";
 @blue: #54a2bd; /* Make it darker */
 ```
 
--Check out [\_variables.less](https://github.com/sButtons/sbuttons/blob/master/src/_variables.less) for the full list of variables.
+Check out [_variables.less](https://github.com/sButtons/sbuttons/blob/master/src/_variables.less) for the full list of variables.
 
 # Usage
 

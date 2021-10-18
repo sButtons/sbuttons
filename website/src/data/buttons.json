@@ -564,7 +564,6 @@
                 "text": "Share with Pinterest",
                 "usesColors": false
             },
-           
             {
                 "type": "reddit",
                 "classes": "reddit",
@@ -587,10 +586,24 @@
                 "usesColors": false
             },
             {
+                "type": "spotify",
+                "classes": "spotify",
+                "label": "Login with Spotify",
+                "text": "Login with Spotify",
+                "usesColors": false
+            },
+            {
                 "type": "steam",
                 "classes": "steam",
                 "label": "Login with Steam",
                 "text": "Login with Steam",
+                "usesColors": false
+            },
+	    {
+                "type": "telegram",
+                "classes": "telegram",
+                "label": "Login with Telegram",
+                "text": "Login with Telegram",
                 "usesColors": false
             },
             {
@@ -643,6 +656,13 @@
                 "usesColors": false
             },
             {
+                "type": "bitcoin",
+                "classes": "bitcoin",
+                "label": "Pay with Bitcoin",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
                 "type": "gpay",
                 "classes": "gpay",
                 "label": "Pay with G Pay",
@@ -681,6 +701,13 @@
                 "type": "ethereum",
                 "classes": "ethereum",
                 "label": "Pay with Ethereum",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
+                "type": "mastercard",
+                "classes": "mastercard",
+                "label": "Pay with Mastercard",
                 "text": "Pay with",
                 "usesColors": false
             }

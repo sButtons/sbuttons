@@ -1,6 +1,6 @@
 {
   "name": "sbuttons",
-  "version": "1.8.0",
+  "version": "1.9.1",
   "description": "Simple and creative buttons",
   "main": "index.html",
   "author": "Shahed Nasser",
@@ -17,6 +17,7 @@
   ],
   "scripts": {
     "start": "npm run watch:less",
+    "build": "npm run compile && npm run clean-css",
     "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier",
     "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" ",
     "watch:less": "onchange -v src/**/*.less -- npm run compile",
