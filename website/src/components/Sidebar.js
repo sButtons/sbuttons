@@ -8,16 +8,16 @@ function Sidebar ({children = []}) {
             <div className="md:fixed h-full md:h-4/6 md:pt-0 md:w-4/12 overflow-y-auto pb-3 pl-5 pt-5">
                 <div className="flex pb-5">
                     <input 
-                        name="search" type="text"
+                        name="search" type="text"   
                         value={filter}
                         onChange={(e) => setFilter(e.target.value)}
                         placeholder="Search..."
-                        className="border focus:border-red-600 focus:outline-none pl-3"></input>
+                        className="border focus:border-red-600 focus:outline-none pl-3 dark:text-black"></input>
                     <button
                         onClick={() => {setFilter("")}} 
-                        className={ !filter ? "disabled-btn ml-2 sbtn dashed-btn white-btn xsmall-btn" : "ml-2 sbtn dashed-btn red-btn xsmall-btn"} >Reset</button>
+                        className={ !filter ? "disabled-btn ml-2 sbtn fill-color-btn up-fill red-btn xsmall-btn text-justify" : "ml-2 sbtn fill-color-btn up-fill red-btn xsmall-btn text-justify"} > Reset </button>
                 </div>
-                 
+
                 <div>
                     {children.filter(child => {
                         return child.props.text.toLowerCase().includes(filter.toLowerCase()); 
