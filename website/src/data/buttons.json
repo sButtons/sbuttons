@@ -634,6 +634,13 @@
                 "text": "Login with Whatsapp",
                 "usesColors": false
             }
+            {
+                "type": "sawo",
+                "classes": "sawo",
+                "label": "LOGIN WITH SAWO",
+                "text": "LOGIN WITH SAWO",
+                "usesColors": false
+            },
         ]
     },
     {
