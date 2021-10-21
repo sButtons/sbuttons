@@ -698,6 +698,13 @@
                 "usesColors": false
             },
             {
+                "type": "stripe",
+                "classes": "stripe",
+                "label": "Pay with Stripe",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
                 "type": "visa",
                 "classes": "visa",
                 "label": "Pay with Visa",

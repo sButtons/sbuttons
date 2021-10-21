@@ -4676,6 +4676,15 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000;
   content: "\f1f1";
 }
+.payment-btn.stripe {
+  background-color: #32325d;
+  color: #fff;
+}
+.payment-btn.stripe:after {
+  color: #fff;
+  content: "\f1f5";
+  font-size: 34px;
+}
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
