@@ -621,6 +621,13 @@
                 "usesColors": false
             },
             {
+                "type": "vk",
+                "classes": "vk",
+                "label": "Login with VK",
+                "text": "Login with VK",
+                "usesColors": false
+            },
+            {
                 "type": "weibo",
                 "classes": "weibo",
                 "label": "Login with Weibo",
