@@ -324,7 +324,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/AjitKumarPandit/"><img src="https://avatars.githubusercontent.com/u/49229210?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AJIT KUMAR PANDIT</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=AJIT-KUMAR-PANDIT" title="Code">💻</a></td>
     <td align="center"><a href="https://matheusmorais.dev/"><img src="https://avatars.githubusercontent.com/u/30233482?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matheus Francisco</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=imtheu" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/ComixRu"><img src="https://avatars.githubusercontent.com/u/6322401?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bogdan Tsechoev</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ComixRu" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ComixRu"><img src="https://avatars.githubusercontent.com/u/6322401?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bogdan Tsechoev</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=ComixRu" title="Code">💻</a> <a href="#ideas-ComixRu" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/palespectre"><img src="https://avatars.githubusercontent.com/u/39265224?v=4?s=100" width="100px;" alt=""/><br /><sub><b>palespectre</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=palespectre" title="Code">💻</a></td>
   </tr>
 </table>
