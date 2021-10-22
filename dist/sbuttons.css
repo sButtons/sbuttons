@@ -4565,6 +4565,16 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f189";
 }
+.social-btn.sawo {
+  background-color: #ffea73;
+  color: #000000;
+}
+.social-btn.sawo:after {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+}
 .payment-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;
