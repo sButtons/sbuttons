@@ -4444,7 +4444,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   content: "\f3ca";
 }
 .social-btn.reddit {
-  background-color: #ee0000;
+  background-color: #ff4500;
   color: #fff;
 }
 .social-btn.reddit:after {
