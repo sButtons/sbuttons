@@ -3,7 +3,7 @@ name: Format (prettier) & Minify
 on:
     push:
         branches:
-            - 'master'
+            - 'main'
 
 jobs:
     prettier:

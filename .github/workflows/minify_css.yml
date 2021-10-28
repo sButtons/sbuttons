@@ -6,7 +6,7 @@ name: Minify CSS
 on:
   push:
     branches: 
-      - master
+      - main
     paths:
       - 'dist/sbuttons.css'
 

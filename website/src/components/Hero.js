@@ -13,7 +13,7 @@ function Hero () {
                     <Link to="/documentation" className="sbtn fill-color-btn down-fill blue-btn font-medium">
                         Documentation
                     </Link>
-                    <a href="https://raw.githubusercontent.com/sButtons/sbuttons/master/dist/sbuttons.min.css" 
+                    <a href="https://raw.githubusercontent.com/sButtons/sbuttons/main/dist/sbuttons.min.css" 
                         target="_blank"
                         className="sbtn fill-color-btn up-fill red-btn font-medium ml-3">
                         Download

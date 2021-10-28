@@ -199,7 +199,7 @@ Then, to fetch from this repository:
 
 ```
 git fetch upstream
-git merge upstream/master master
+git merge upstream/main main
 ```
 
 5. Go to your forked repository and press the “New pull request” button.

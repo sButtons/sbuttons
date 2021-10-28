@@ -106,7 +106,7 @@ function Documentation () {
                                     <Code code={`@import '/path/to/_variables.less';\n@blue: #54a2bd; /* Make it darker */`}
                                         language="less" />
                                     <p className="mt-3">
-                                        Check out <a href="https://github.com/sButtons/sbuttons/blob/master/src/_variables.less" className="underline-red">_variables.less</a> for the full list of variables.
+                                        Check out <a href="https://github.com/sButtons/sbuttons/blob/main/src/_variables.less" className="underline-red">_variables.less</a> for the full list of variables.
                                     </p>
                                 </div>
                             </section>

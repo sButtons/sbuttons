@@ -46,7 +46,7 @@ Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
 
 ## Download CSS File
 
-You can download the (CSS file)(https://raw.githubusercontent.com/sButtons/sbuttons/master/dist/sbuttons.min.css) and then add it to your HTML file in between the tags.
+You can download the (CSS file)(https://raw.githubusercontent.com/sButtons/sbuttons/main/dist/sbuttons.min.css) and then add it to your HTML file in between the tags.
 Download the file and link it as a stylesheet in between your `<head>` tags, as shown below.
 
 ```html
@@ -111,7 +111,7 @@ For example, to change the blue color to a different shade:
 @blue: #54a2bd; /* Make it darker */
 ```
 
-Check out [_variables.less](https://github.com/sButtons/sbuttons/blob/master/src/_variables.less) for the full list of variables.
+Check out [_variables.less](https://github.com/sButtons/sbuttons/blob/main/src/_variables.less) for the full list of variables.
 
 # Usage
 
