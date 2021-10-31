@@ -286,6 +286,13 @@
                 "classes": "ripple-btn"
             },
             {
+                "type": "rotate-anticlockwise",
+                "label": "Rotate Anticlockwise",
+                "classes": "rotate-anticlockwise-btn" 
+
+
+            },
+            {
                 "type": "scale",
                 "label": "Scale",
                 "classes": "scale-btn"
