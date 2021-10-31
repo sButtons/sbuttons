@@ -1,0 +1,29 @@
+.rotate-anticlockwise-btn {
+    &:hover,
+    &.animate {
+      animation: rotate-anticlockwise 1s 1 ease-in;
+    }
+  }
+  
+  @keyframes rotate-anticlockwise {
+    0% {
+      top: 0px;
+      left: 0px;
+    }
+    25% {
+      top: 7px;
+      left: 0px;
+    }
+    50% {
+      top: 7px;
+      left: 7px;
+    }
+    75% {
+      top: 0px;
+      left: 7px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
