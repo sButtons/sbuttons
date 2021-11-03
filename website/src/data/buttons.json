@@ -289,8 +289,6 @@
                 "type": "rotate-anticlockwise",
                 "label": "Rotate Anticlockwise",
                 "classes": "rotate-anticlockwise-btn" 
-
-
             },
             {
                 "type": "scale",
