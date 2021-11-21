@@ -26,7 +26,7 @@
   "devDependencies": {
     "axios": ">=0.21.1",
     "clean-css-cli": "^4.3.0",
-    "concurrently": "^5.3.0",
+    "concurrently": "^6.4.0",
     "less": "^3.13.1",
     "less-watch-compiler": "^1.15.1",
     "lessc": "^1.0.2",
@@ -34,7 +34,8 @@
     "minimist": "^1.2.3",
     "node-less": "^1.0.0",
     "object-path": ">=0.11.5",
-    "onchange": "^7.1.0",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.1",
     "prettier": "^2.3.0"
   },
   "bugs": {
