@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FiGithub, FiMoreVertical } from 'react-icons/fi'
+import { FiCoffee, FiGithub, FiMoreVertical } from 'react-icons/fi'
 import useDarkMode, { DarkModeToggler } from 'use-dark-mode-hook'
 import MenuToggler from './MenuToggler'
 import vars from '../vars'
@@ -34,6 +34,9 @@ function Header({activePage = null, showMenuButton = false}) {
                 <div className="justify-end flex items-center lg:w-4/12 md:w-2/12 w-4/12 md:mx-0 mr-0 ml-auto">
                     <a href="https://github.com/sButtons/sbuttons" target="_blank" className="hover:opacity-100 opacity-40 px-3 transition-none">
                         <FiGithub size="1.5rem" />
+                    </a>
+                    <a href="https://www.buymeacoffee.com/shahednasser" target="_blank" className="hover:opacity-100 opacity-40 px-3 transition-none" title="Buy Me a Coffee">
+                        <FiCoffee size="1.5rem" />
                     </a>
                     <DarkModeToggler 
                         isDarkMode={isDarkMode} 
