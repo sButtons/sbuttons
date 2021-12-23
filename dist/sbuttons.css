@@ -4565,6 +4565,22 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f189";
 }
+.social-btn.wechat {
+  background-color: #04be02;
+  color: #fff;
+}
+.social-btn.wechat:after {
+  color: #fff;
+  content: "\f1d7";
+}
+.social-btn.qq {
+  background-color: #eb1923;
+  color: #fff;
+}
+.social-btn.qq:after {
+  color: #fff;
+  content: url("https://api.iconify.design/simple-icons/tencentqq.svg?color=%23ffffff&width=23");
+}
 .payment-btn {
   box-shadow: 0px 1px 4px #4d4d4d;
   transition: all 0.2s;
@@ -4684,6 +4700,22 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #fff;
   content: "\f1f5";
   font-size: 34px;
+}
+.payment-btn.alipay {
+  background-color: #1678ff;
+  color: #fff;
+}
+.payment-btn.alipay:after {
+  color: #fff;
+  content: "\f642";
+}
+.payment-btn.wechat-pay {
+  background-color: #04be02;
+  color: #fff;
+}
+.payment-btn.wechat-pay:after {
+  color: #fff;
+  content: "\f1d7";
 }
 @font-face {
   font-family: "Press Start 2P";
@@ -5026,7 +5058,7 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOg.ttf)
+  src: url(https://fonts.gstatic.com/s/sourcecodepro/v18/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQhM4.ttf)
     format("truetype");
 }
 .code-btn {
