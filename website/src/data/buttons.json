@@ -565,6 +565,13 @@
                 "usesColors": false
             },
             {
+                "type": "qq",
+                "classes": "qq",
+                "label": "Login with QQ",
+                "text": "Login with QQ",
+                "usesColors": false
+            },
+            {
                 "type": "reddit",
                 "classes": "reddit",
                 "label": "Login with Reddit",
@@ -599,7 +606,7 @@
                 "text": "Login with Steam",
                 "usesColors": false
             },
-	    {
+            {
                 "type": "telegram",
                 "classes": "telegram",
                 "label": "Login with Telegram",
@@ -628,6 +635,13 @@
                 "usesColors": false
             },
             {
+                "type": "wechat",
+                "classes": "wechat",
+                "label": "Login with Wechat",
+                "text": "Login with Wechat",
+                "usesColors": false
+            },
+            {
                 "type": "weibo",
                 "classes": "weibo",
                 "label": "Login with Weibo",
@@ -648,6 +662,12 @@
         "label": "Payment Buttons",
         "classes": "payment-btn",
         "children": [
+            {   "type": "alipay",
+                "classes": "alipay",
+                "label": "Pay with Alipay",
+                "text": "Pay with",
+                "usesColors": false
+            },
             {
                 "type": "amazon-pay",
                 "classes": "amazon-pay",
@@ -708,6 +728,13 @@
                 "type": "visa",
                 "classes": "visa",
                 "label": "Pay with Visa",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
+                "type": "wechat-pay",
+                "classes": "wechat-pay",
+                "label": "Pay with Wechat",
                 "text": "Pay with",
                 "usesColors": false
             },
