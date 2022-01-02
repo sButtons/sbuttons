@@ -690,9 +690,23 @@
                 "usesColors": false
             },
             {
+                "type": "ethereum",
+                "classes": "ethereum",
+                "label": "Pay with Ethereum",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
                 "type": "gpay",
                 "classes": "gpay",
                 "label": "Pay with G Pay",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
+                "type": "mastercard",
+                "classes": "mastercard",
+                "label": "Pay with Mastercard",
                 "text": "Pay with",
                 "usesColors": false
             },
@@ -737,20 +751,6 @@
                 "label": "Pay with Wechat",
                 "text": "Pay with",
                 "usesColors": false
-            },
-            {
-                "type": "ethereum",
-                "classes": "ethereum",
-                "label": "Pay with Ethereum",
-                "text": "Pay with",
-                "usesColors": false
-            },
-            {
-                "type": "mastercard",
-                "classes": "mastercard",
-                "label": "Pay with Mastercard",
-                "text": "Pay with",
-                "usesColors": false
             }
         ]
     },
@@ -763,6 +763,14 @@
                 "type": "code-btn",
                 "label": "Code",
                 "classes": "code-btn",
+                "usesColors": false
+            },
+            {
+                "type": "disco-btn",
+                "label": "Disco",
+                "classes": "disco-btn",
+                "shouldHaveRoundedType": false,
+                "shouldHaveBlockType": false,
                 "usesColors": false
             },
             {
@@ -834,14 +842,6 @@
                 "type": "win95-btn",
                 "label": "Windows 95",
                 "classes": "win95-btn",
-                "usesColors": false
-            },
-            {
-                "type": "disco-btn",
-                "label": "Disco",
-                "classes": "disco-btn",
-                "shouldHaveRoundedType": false,
-                "shouldHaveBlockType": false,
                 "usesColors": false
             }
         ]
