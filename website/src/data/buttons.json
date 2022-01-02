@@ -690,9 +690,23 @@
                 "usesColors": false
             },
             {
+                "type": "ethereum",
+                "classes": "ethereum",
+                "label": "Pay with Ethereum",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
                 "type": "gpay",
                 "classes": "gpay",
                 "label": "Pay with G Pay",
+                "text": "Pay with",
+                "usesColors": false
+            },
+            {
+                "type": "mastercard",
+                "classes": "mastercard",
+                "label": "Pay with Mastercard",
                 "text": "Pay with",
                 "usesColors": false
             },
@@ -737,21 +751,8 @@
                 "label": "Pay with Wechat",
                 "text": "Pay with",
                 "usesColors": false
-            },
-            {
-                "type": "ethereum",
-                "classes": "ethereum",
-                "label": "Pay with Ethereum",
-                "text": "Pay with",
-                "usesColors": false
-            },
-            {
-                "type": "mastercard",
-                "classes": "mastercard",
-                "label": "Pay with Mastercard",
-                "text": "Pay with",
-                "usesColors": false
             }
+           
         ]
     },
     {
