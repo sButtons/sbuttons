@@ -23,15 +23,15 @@
 /* BEGIN VARIABLES IN special/_disco.less */
 /* END VARIABLES IN special/_disco.less */
 .sbtn {
-  padding: 10px;
+  padding: 11px;
   text-align: center;
   -webkit-appearance: none;
   background-color: transparent;
   border: 1px solid;
   cursor: pointer;
   border-color: transparent;
-  color: #fff;
-  font-family: inherit;
+  color: aliceblue;
+  font-family: 'Serif', inherit;
   overflow: hidden;
   font-size: 1.5rem;
 }
@@ -2340,7 +2340,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   z-index: 0;
 }
 .liquid-btn::before {
-  animation: waterEffect 5s linear infinite;
+  animation: waterEffect 7s linear infinite;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 45%;
   content: "";
