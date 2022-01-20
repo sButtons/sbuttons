@@ -195,6 +195,12 @@
                 "classes": "invert-btn"
             },
             {
+                "type": "layered",
+                "label": "Layered",
+                "classes": "layered-btn",
+                "shouldHaveRoundedType": false
+            },
+            {
                 "type": "liquid",
                 "label": "Liquid",
                 "classes": "liquid-btn"
