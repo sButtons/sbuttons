@@ -1,0 +1,57 @@
+.layered-btn {
+  border: 1px solid @black !important;
+  background-color: transparent !important;
+  position: relative;
+  overflow: visible;
+
+  &::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.25s;
+  }
+  &.blue-btn::after {
+    background-color: @blue;
+  }
+
+  &.pink-btn::after {
+    background-color: @pink;
+  }
+
+  &.red-btn::after {
+    background-color: @red;
+  }
+
+  &.green-btn::after {
+    background-color: @green;
+  }
+
+  &.yellow-btn::after {
+    background-color: @yellow;
+  }
+
+  &.orange-btn::after {
+    background-color: @orange;
+  }
+
+  &.purple-btn::after {
+    background-color: @purple;
+  }
+
+  &.black-btn::after {
+    background-color: @black;
+  }
+
+  &.white-btn::after {
+    background-color: @white;
+  }
+
+  &:hover::after {
+    top: 0px;
+    left: 0px;
+  }
+}
