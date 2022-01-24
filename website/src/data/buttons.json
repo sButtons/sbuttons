@@ -200,6 +200,12 @@
                 "classes": "liquid-btn"
             },
             {
+                "type": "layered",
+                "label": "Layered",
+                "classes": "layered-btn",
+                "shouldHaveRoundedType": false
+            },
+            {
                 "type": "loading",
                 "label": "Loading",
                 "classes": "loading-btn",

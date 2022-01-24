@@ -2411,6 +2411,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "angetheo-auth",
+      "name": "Angeliki Theologidou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56256385?v=4",
+      "profile": "https://github.com/angetheo-auth",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
