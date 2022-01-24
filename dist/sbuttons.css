@@ -2335,6 +2335,53 @@ a.yellow-btn:active:not(.fill-color-btn) {
     filter: invert(1);
   }
 }
+.layered-btn {
+  border: 1px solid #000 !important;
+  background-color: transparent !important;
+  position: relative;
+  overflow: visible;
+}
+.layered-btn::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.25s;
+}
+.layered-btn.blue-btn::after {
+  background-color: #50bfe6;
+}
+.layered-btn.pink-btn::after {
+  background-color: #d53caf;
+}
+.layered-btn.red-btn::after {
+  background-color: #ed0a3f;
+}
+.layered-btn.green-btn::after {
+  background-color: #3aa655;
+}
+.layered-btn.yellow-btn::after {
+  background-color: #fbe870;
+}
+.layered-btn.orange-btn::after {
+  background-color: #ff8833;
+}
+.layered-btn.purple-btn::after {
+  background-color: #652dc1;
+}
+.layered-btn.black-btn::after {
+  background-color: #000;
+}
+.layered-btn.white-btn::after {
+  background-color: #fff;
+}
+.layered-btn:hover::after {
+  top: 0px;
+  left: 0px;
+}
 .liquid-btn {
   position: relative;
   z-index: 0;
@@ -4831,7 +4878,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2hsY.ttf)
+  src: url(https://fonts.gstatic.com/s/vt323/v15/pxiKyp0ihIEF2hsY.ttf)
     format("truetype");
 }
 .win95-btn {
