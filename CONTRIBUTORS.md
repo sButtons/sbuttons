@@ -328,6 +328,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/palespectre"><img src="https://avatars.githubusercontent.com/u/39265224?v=4?s=100" width="100px;" alt=""/><br /><sub><b>palespectre</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=palespectre" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/antonioo-c"><img src="https://avatars.githubusercontent.com/u/72902999?v=4?s=100" width="100px;" alt=""/><br /><sub><b>antonioo-c</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=antonioo-c" title="Code">💻</a> <a href="#ideas-antonioo-c" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/lucadido06"><img src="https://avatars.githubusercontent.com/u/36232094?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lucadido06</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=lucadido06" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/angetheo-auth"><img src="https://avatars.githubusercontent.com/u/56256385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Angeliki Theologidou</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=angetheo-auth" title="Code">💻</a> <a href="#ideas-angetheo-auth" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
