@@ -330,6 +330,9 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://github.com/lucadido06"><img src="https://avatars.githubusercontent.com/u/36232094?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lucadido06</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=lucadido06" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/angetheo-auth"><img src="https://avatars.githubusercontent.com/u/56256385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Angeliki Theologidou</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=angetheo-auth" title="Code">💻</a> <a href="#ideas-angetheo-auth" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://pritambera2000.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/77138355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pritam Bera</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pritambera2000" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
