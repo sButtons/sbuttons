@@ -2562,6 +2562,10 @@ a.yellow-btn:active:not(.fill-color-btn) {
   background-color: #e2e2e2;
   box-shadow: 0px 0px 52px 10px #e2e2e2;
 }
+[data-theme="dark"] .neon-btn.white-btn,
+.neon-btn.white-btn.dark-mode {
+  color: #fff !important;
+}
 .nudge-btn:hover,
 .nudge-btn.animated {
   animation: nudge 0.75s;
@@ -5035,7 +5039,7 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY4.ttf)
+  src: url(https://fonts.gstatic.com/s/architectsdaughter/v17/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY4.ttf)
     format("truetype");
 }
 .handwritten-btn {
