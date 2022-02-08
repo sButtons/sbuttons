@@ -67,11 +67,12 @@
 
   &.white-btn {
     .neon(@neonWhite);
+    &:hover {
+      color: @darkText !important;
+    }
     [data-theme="dark"] &,
     &.dark-mode {
-      &:hover {
-        color: @black !important;
-      }
+      .neon(@neonWhite);
     }
   }
 }
