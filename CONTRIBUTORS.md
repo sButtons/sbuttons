@@ -332,6 +332,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
   </tr>
   <tr>
     <td align="center"><a href="https://pritambera2000.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/77138355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pritam Bera</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pritambera2000" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/monsieur-nico/"><img src="https://avatars.githubusercontent.com/u/74289847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolas Alkhoury</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Monsieur-Nico" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AMonsieur-Nico" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
