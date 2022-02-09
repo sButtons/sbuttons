@@ -2430,6 +2430,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Monsieur-Nico",
+      "name": "Nicolas Alkhoury",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74289847?v=4",
+      "profile": "https://www.linkedin.com/in/monsieur-nico/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
