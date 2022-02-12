@@ -30,7 +30,6 @@
     "less": "^3.13.1",
     "less-watch-compiler": "^1.15.1",
     "lessc": "^1.0.2",
-    "lite-server": "^2.6.1",
     "minimist": "^1.2.3",
     "node-less": "^1.0.0",
     "object-path": ">=0.11.5",
