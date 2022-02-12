@@ -1,8 +1,8 @@
 {
   "name": "sbuttons",
-  "version": "1.9.3",
+  "version": "1.9.4",
   "description": "Simple and creative buttons",
-  "main": "index.html",
+  "main": "dist/sbuttons.min.css",
   "author": "Shahed Nasser",
   "license": "MIT",
   "homepage": "https://sbuttons.netlify.app/",
