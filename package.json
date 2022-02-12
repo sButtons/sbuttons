@@ -1,6 +1,6 @@
 {
   "name": "sbuttons",
-  "version": "1.9.5",
+  "version": "1.9.6",
   "description": "Simple and creative buttons",
   "main": "dist/sbuttons.min.css",
   "author": "Shahed Nasser",
