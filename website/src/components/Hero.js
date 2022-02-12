@@ -20,7 +20,7 @@ function Hero () {
                     </a>
                     <a href="https://www.buymeacoffee.com/shahednasser" 
                         target="_blank"
-                        className="sbtn fill-color-btn up-fill orange-btn font-medium">
+                        className="sbtn fill-color-btn down-fill orange-btn font-medium">
                         Buy Me a Coffee ☕️
                     </a>
                 </div>

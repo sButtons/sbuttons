@@ -26,8 +26,8 @@ jobs:
             env:
                 CI: true
 
-          - name: Clean CSS
-            run: npm run clean-css
+          - name: Build CSS
+            run: npm run build
             
           - uses: stefanzweifel/git-auto-commit-action@v4
             with:

@@ -12,10 +12,10 @@ function Sidebar ({children = []}) {
                         value={filter}
                         onChange={(e) => setFilter(e.target.value)}
                         placeholder="Search..."
-                        className="border focus:border-red-600 focus:outline-none pl-3 dark:text-black"></input>
+                        className="border focus:border-red-600 focus:outline-none pl-3 dark:bg-gray-700 dark:text-white"></input>
                     <button
                         onClick={() => {setFilter("")}} 
-                        className={ !filter ? "disabled-btn ml-2 sbtn fill-color-btn up-fill red-btn xsmall-btn text-justify" : "ml-2 sbtn fill-color-btn up-fill red-btn xsmall-btn text-justify"} > Reset </button>
+                        className={ !filter ? "disabled-btn ml-2 sbtn fill-color-btn up-fill red-btn xsmall-btn text-justify font-bold" : "ml-2 sbtn fill-color-btn up-fill red-btn xsmall-btn text-justify font-bold"} > Reset </button>
                 </div>
 
                 <div>

@@ -17,11 +17,12 @@
   ],
   "scripts": {
     "start": "npm run watch:less",
-    "build": "npm run compile && npm run clean-css",
+    "build": "npm run compile && npm run clean-css && npm run copy-website",
     "compile": "lessc src/sbuttons.less dist/sbuttons.css && npm run prettier",
     "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" ",
     "watch:less": "onchange -v src/**/*.less -- npm run compile",
-    "clean-css": "cleancss -o dist/sbuttons.min.css dist/sbuttons.css"
+    "clean-css": "cleancss -o dist/sbuttons.min.css dist/sbuttons.css",
+    "copy-website": "cp dist/sbuttons.min.css website/src/sbuttons.min.css"
   },
   "devDependencies": {
     "axios": ">=0.21.1",
