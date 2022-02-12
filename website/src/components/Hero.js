@@ -10,13 +10,18 @@ function Hero () {
                     Simple and Creative buttons with sButtons.
                 </h1>
                 <div className="lg:mt-10 mt-9">
-                    <Link to="/documentation" className="sbtn fill-color-btn down-fill blue-btn font-medium">
+                    <Link to="/documentation" className="sbtn fill-color-btn down-fill blue-btn font-medium mr-3.5">
                         Documentation
                     </Link>
                     <a href="https://raw.githubusercontent.com/sButtons/sbuttons/master/dist/sbuttons.min.css" 
                         target="_blank"
-                        className="sbtn fill-color-btn up-fill red-btn font-medium ml-3">
+                        className="sbtn fill-color-btn up-fill red-btn font-medium mr-3.5">
                         Download
+                    </a>
+                    <a href="https://www.buymeacoffee.com/shahednasser" 
+                        target="_blank"
+                        className="sbtn fill-color-btn up-fill orange-btn font-medium">
+                        Buy Me a Coffee ☕️
                     </a>
                 </div>
             </div>
