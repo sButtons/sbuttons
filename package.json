@@ -22,12 +22,13 @@
     "prettier": "prettier --write \"src/**/*.less\" \"dist/sbuttons.css\" ",
     "watch:less": "onchange -v src/**/*.less -- npm run compile",
     "clean-css": "cleancss -o dist/sbuttons.min.css dist/sbuttons.css",
-    "copy-website": "cp dist/sbuttons.min.css website/src/sbuttons.min.css"
+    "copy-website": "copyfiles -u 1 dist/sbuttons.min.css website/src"
   },
   "devDependencies": {
     "axios": ">=0.21.1",
     "clean-css-cli": "^4.3.0",
     "concurrently": "^5.3.0",
+    "copyfiles": "^2.4.1",
     "less": "^3.13.1",
     "less-watch-compiler": "^1.15.1",
     "lessc": "^1.0.2",
