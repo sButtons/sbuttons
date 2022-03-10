@@ -1,0 +1,14 @@
+.positionOnCircle(@states) {
+  @degOffset: 360 / @states;
+  @startingDeg: if(@states > 2, 90, 0);
+
+  .for-loop(@i) when(@i <= @states) {
+    &[data-states="@{states}"]:focus > .state-btn:nth-child(@{i}) {
+      @rotationDeg: unit(@startingDeg + @degOffset * (@i - 1), deg);
+      transform: rotate(@rotationDeg) translate(-150%) rotate(-@rotationDeg);
+    }
+    .for-loop(@i + 1);
+  }
+
+  .for-loop(1);
+}

@@ -1,0 +1,52 @@
+// This is an example button to test this code
+// data-states tells the button how many other buttons will show up if its clicked
+// all the popup buttons can be any element except for button and they must have the state-btn class 
+//
+// <button class="multi-state-btn rounded-full-btn" data-states="6">
+//     &#65291;
+//     <span class="state-btn hover-btn purple-btn rounded-full-btn">1</span>
+//     <span class="state-btn hover-btn purple-btn rounded-full-btn">2</span>
+//     <span class="state-btn hover-btn purple-btn rounded-full-btn">3</span>
+//     <span class="state-btn hover-btn purple-btn rounded-full-btn">4</span>
+//     <span class="state-btn hover-btn purple-btn rounded-full-btn">5</span>
+//     <span class="state-btn hover-btn purple-btn rounded-full-btn">6</span>
+// </button>
+
+@import "multistate/_multistate.less";
+
+.multi-state-btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &:focus .state-btn {
+    z-index: 10;
+  }
+
+  & > .state-btn {
+    height: 80%;
+    width: 80%;
+  }
+
+  .state-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    transition: transform 250ms ease-in;
+  }
+
+  .positionOnCircle(2);
+
+  .positionOnCircle(3);
+
+  .positionOnCircle(4);
+
+  .positionOnCircle(5);
+
+  .positionOnCircle(6);
+}
