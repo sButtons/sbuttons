@@ -868,6 +868,7 @@
             "html": "{button context}<span class='state-btn'>{button state content here}<span/><span class='state-btn'>{button state content here}<span/>"
         },
         "shouldHaveRoundedType": true,
-        "shouldHaveBlockType": false
+        "shouldHaveBlockType": false,
+        "children": []
     }
 ]
