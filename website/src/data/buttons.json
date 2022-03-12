@@ -851,5 +851,23 @@
                 "usesColors": false
             }
         ]
+    },
+    {
+        "type": "multistate",
+        "label": "Multistate Buttons",
+        "classes": "multi-state-btn",
+        "data": [
+            {
+                "states": {
+                    "type": "number",
+                    "allowedValues": ["2", "3", "4", "5", "6"]
+                }
+            }
+        ],
+        "variations": {
+            "html": "{button context}<span class='state-btn'>{button state content here}<span/><span class='state-btn'>{button state content here}<span/>"
+        },
+        "shouldHaveRoundedType": true,
+        "shouldHaveBlockType": false
     }
 ]
