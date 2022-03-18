@@ -5253,63 +5253,63 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
   z-index: -1;
   transition: transform 250ms ease-in;
 }
-.multi-state-btn[data-states="2"]:focus > .state-btn:nth-child(1) {
+.multi-state-btn.states-2-btn:focus > .state-btn:nth-child(1) {
   transform: rotate(0deg) translate(-150%) rotate(0deg);
 }
-.multi-state-btn[data-states="2"]:focus > .state-btn:nth-child(2) {
+.multi-state-btn.states-2-btn:focus > .state-btn:nth-child(2) {
   transform: rotate(180deg) translate(-150%) rotate(-180deg);
 }
-.multi-state-btn[data-states="3"]:focus > .state-btn:nth-child(1) {
+.multi-state-btn.states-3-btn:focus > .state-btn:nth-child(1) {
   transform: rotate(90deg) translate(-150%) rotate(-90deg);
 }
-.multi-state-btn[data-states="3"]:focus > .state-btn:nth-child(2) {
+.multi-state-btn.states-3-btn:focus > .state-btn:nth-child(2) {
   transform: rotate(210deg) translate(-150%) rotate(-210deg);
 }
-.multi-state-btn[data-states="3"]:focus > .state-btn:nth-child(3) {
+.multi-state-btn.states-3-btn:focus > .state-btn:nth-child(3) {
   transform: rotate(330deg) translate(-150%) rotate(-330deg);
 }
-.multi-state-btn[data-states="4"]:focus > .state-btn:nth-child(1) {
+.multi-state-btn.states-4-btn:focus > .state-btn:nth-child(1) {
   transform: rotate(90deg) translate(-150%) rotate(-90deg);
 }
-.multi-state-btn[data-states="4"]:focus > .state-btn:nth-child(2) {
+.multi-state-btn.states-4-btn:focus > .state-btn:nth-child(2) {
   transform: rotate(180deg) translate(-150%) rotate(-180deg);
 }
-.multi-state-btn[data-states="4"]:focus > .state-btn:nth-child(3) {
+.multi-state-btn.states-4-btn:focus > .state-btn:nth-child(3) {
   transform: rotate(270deg) translate(-150%) rotate(-270deg);
 }
-.multi-state-btn[data-states="4"]:focus > .state-btn:nth-child(4) {
+.multi-state-btn.states-4-btn:focus > .state-btn:nth-child(4) {
   transform: rotate(360deg) translate(-150%) rotate(-360deg);
 }
-.multi-state-btn[data-states="5"]:focus > .state-btn:nth-child(1) {
+.multi-state-btn.states-5-btn:focus > .state-btn:nth-child(1) {
   transform: rotate(90deg) translate(-150%) rotate(-90deg);
 }
-.multi-state-btn[data-states="5"]:focus > .state-btn:nth-child(2) {
+.multi-state-btn.states-5-btn:focus > .state-btn:nth-child(2) {
   transform: rotate(162deg) translate(-150%) rotate(-162deg);
 }
-.multi-state-btn[data-states="5"]:focus > .state-btn:nth-child(3) {
+.multi-state-btn.states-5-btn:focus > .state-btn:nth-child(3) {
   transform: rotate(234deg) translate(-150%) rotate(-234deg);
 }
-.multi-state-btn[data-states="5"]:focus > .state-btn:nth-child(4) {
+.multi-state-btn.states-5-btn:focus > .state-btn:nth-child(4) {
   transform: rotate(306deg) translate(-150%) rotate(-306deg);
 }
-.multi-state-btn[data-states="5"]:focus > .state-btn:nth-child(5) {
+.multi-state-btn.states-5-btn:focus > .state-btn:nth-child(5) {
   transform: rotate(378deg) translate(-150%) rotate(-378deg);
 }
-.multi-state-btn[data-states="6"]:focus > .state-btn:nth-child(1) {
+.multi-state-btn.states-6-btn:focus > .state-btn:nth-child(1) {
   transform: rotate(90deg) translate(-150%) rotate(-90deg);
 }
-.multi-state-btn[data-states="6"]:focus > .state-btn:nth-child(2) {
+.multi-state-btn.states-6-btn:focus > .state-btn:nth-child(2) {
   transform: rotate(150deg) translate(-150%) rotate(-150deg);
 }
-.multi-state-btn[data-states="6"]:focus > .state-btn:nth-child(3) {
+.multi-state-btn.states-6-btn:focus > .state-btn:nth-child(3) {
   transform: rotate(210deg) translate(-150%) rotate(-210deg);
 }
-.multi-state-btn[data-states="6"]:focus > .state-btn:nth-child(4) {
+.multi-state-btn.states-6-btn:focus > .state-btn:nth-child(4) {
   transform: rotate(270deg) translate(-150%) rotate(-270deg);
 }
-.multi-state-btn[data-states="6"]:focus > .state-btn:nth-child(5) {
+.multi-state-btn.states-6-btn:focus > .state-btn:nth-child(5) {
   transform: rotate(330deg) translate(-150%) rotate(-330deg);
 }
-.multi-state-btn[data-states="6"]:focus > .state-btn:nth-child(6) {
+.multi-state-btn.states-6-btn:focus > .state-btn:nth-child(6) {
   transform: rotate(390deg) translate(-150%) rotate(-390deg);
 }
