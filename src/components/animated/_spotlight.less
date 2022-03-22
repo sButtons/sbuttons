@@ -32,6 +32,10 @@
   overflow: visible !important;
   outline: none;
   z-index: 0;
+  [data-theme="dark"] &,
+  &.dark-mode {
+    color: @lightText;
+  }
   .spotlight-colorspecific-mixin("main");
   &.block-btn {
     height: 50px;
@@ -64,8 +68,10 @@
     box-sizing: content-box;
     border-radius: inherit;
   }
-  &:hover {
+  &:not(.dark-mode, [data-theme="dark"] *):hover {
     animation: font_color_change 0.5s ease-in 0.25s forwards !important;
+  }
+  &:hover {
     &:before {
       animation: spotappear 0.5s ease-in forwards,
         spotexpand 0.25s ease-in 0.5s forwards;
