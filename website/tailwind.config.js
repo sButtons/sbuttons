@@ -21,4 +21,5 @@ module.exports = {
   },
   plugins: [],
   important: true,
+  safelist: ['ml-3']
 }
