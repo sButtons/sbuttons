@@ -21,7 +21,7 @@ function Home () {
                     </h2>
                     <div className="gap-12 grid md:grid-cols-2 text-xl mt-2">
                         <p>
-                            Install sButttons’s source LESS via npm.
+                            Install sButtons’s source LESS via npm.
                             Package managed installs don’t include documentation or our full build scripts. 
                             You can also use our npm.
                         </p>
