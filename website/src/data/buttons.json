@@ -858,53 +858,54 @@
         "classes": "multi-state-btn",
         "shouldHaveRoundedType": true,
         "shouldHaveBlockType": false,
-        "variations": [
-            {
-                "label": "2 States Button",
-                "classes": "states-2-btn"
-            },
-            {
-                "label": "3 States Button",
-                "classes": "states-3-btn"
-            },
-            {
-                "label": "4 States Button",
-                "classes": "states-4-btn"
-            },
-            {
-                "label": "5 States Button",
-                "classes": "states-5-btn"
-            },
-            {
-                "label": "6 States Button",
-                "classes": "states-6-btn"
-            }
-        ],
         "children": [
             {
-                "label": "State Button",
-                "type": "state-btn",
-                "classes": "state-btn",
+                "type": "states-2-btn",
+                "label": "2 States",
+                "classes": "states-2-btn",
                 "variations": [
                     {
-                        "label": "2 States Button",
-                        "html": "{button context}<span>{button state content here}<span/><span>{button state content here}<span/>"
-                    },
+                        "html": "<span class='state-btn'></span><span class='state-btn'></span>"
+                    }
+                ]
+            },
+            {
+                "type": "states-3-btn",
+                "label": "3 States",
+                "classes": "states-3-btn",
+                "variations": [
                     {
-                        "label": "3 States Button",
-                        "html": "{button context}<span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/>"
-                    },
+                        "html": "<span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span>"
+                    }
+                ]
+            },
+            {
+                "type": "states-4-btn",
+                "label": "4 States",
+                "classes": "states-4-btn",
+                "variations": [
                     {
-                        "label": "4 States Button",
-                        "html": "{button context}<span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/>"
-                    },
+                        "html": "<span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span>"
+                    }
+                ]
+            },
+            {
+                "type": "states-5-btn",
+                "label": "5 States",
+                "classes": "states-5-btn",
+                "variations": [
                     {
-                        "label": "5 States Button",
-                        "html": "{button context}<span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/>"
-                    },
+                        "html": "<span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span>"
+                    }
+                ]
+            },
+            {
+                "type": "states-6-btn",
+                "label": "6 States",
+                "classes": "states-6-btn",
+                "variations": [
                     {
-                        "label": "6 States Button",
-                        "html": "{button context}<span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/><span>{button state content here}<span/>"
+                        "html": "<span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span>"
                     }
                 ]
             }
