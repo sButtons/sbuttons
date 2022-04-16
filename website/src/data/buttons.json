@@ -858,6 +858,7 @@
         "classes": "multi-state-btn",
         "shouldHaveRoundedType": true,
         "shouldHaveBlockType": false,
+        "text": "click",
         "children": [
             {
                 "type": "states-2-btn",
@@ -867,7 +868,8 @@
                     {
                         "html": "<span class='state-btn'></span><span class='state-btn'></span>"
                     }
-                ]
+                ],
+                "text": "state button"
             },
             {
                 "type": "states-3-btn",
@@ -877,7 +879,8 @@
                     {
                         "html": "<span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span>"
                     }
-                ]
+                ],
+                "text": "state button"
             },
             {
                 "type": "states-4-btn",
@@ -887,7 +890,8 @@
                     {
                         "html": "<span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span>"
                     }
-                ]
+                ],
+                "text": "state button"
             },
             {
                 "type": "states-5-btn",
@@ -897,7 +901,8 @@
                     {
                         "html": "<span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span>"
                     }
-                ]
+                ],
+                "text": "state button"
             },
             {
                 "type": "states-6-btn",
@@ -907,7 +912,8 @@
                     {
                         "html": "<span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span><span class='state-btn'></span>"
                     }
-                ]
+                ],
+                "text": "state button"
             }
         ]
     }
