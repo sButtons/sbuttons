@@ -334,6 +334,7 @@ Our amazing contributors helped shape our project and make it much better. Here 
     <td align="center"><a href="https://pritambera2000.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/77138355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pritam Bera</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=pritambera2000" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/monsieur-nico/"><img src="https://avatars.githubusercontent.com/u/74289847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolas Alkhoury</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Monsieur-Nico" title="Code">💻</a> <a href="https://github.com/sButtons/sbuttons/issues?q=author%3AMonsieur-Nico" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/Rahul-go1503"><img src="https://avatars.githubusercontent.com/u/83687972?v=4?s=100" width="100px;" alt=""/><br /><sub><b>RAHUL GOYAL</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/commits?author=Rahul-go1503" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/DarrickFauvel"><img src="https://avatars.githubusercontent.com/u/76695983?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Darrick Fauvel</b></sub></a><br /><a href="https://github.com/sButtons/sbuttons/issues?q=author%3ADarrickFauvel" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

@@ -2449,6 +2449,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "DarrickFauvel",
+      "name": "Darrick Fauvel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76695983?v=4",
+      "profile": "https://github.com/DarrickFauvel",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
