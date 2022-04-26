@@ -1845,6 +1845,42 @@ a.yellow-btn:active:not(.fill-color-btn) {
   );
   background-size: 250% 250%;
 }
+.shadow-btn.blue-btn {
+  box-shadow: 0 8px 25px -8px #50bfe6;
+  background-color: #50bfe6;
+}
+.shadow-btn.pink-btn {
+  box-shadow: 0 8px 25px -8px #d53caf;
+  background-color: #d53caf;
+}
+.shadow-btn.red-btn {
+  box-shadow: 0 8px 25px -8px #ed0a3f;
+  background-color: #ed0a3f;
+}
+.shadow-btn.green-btn {
+  box-shadow: 0 8px 25px -8px #3aa655;
+  background-color: #3aa655;
+}
+.shadow-btn.yellow-btn {
+  box-shadow: 0 8px 25px -8px #fbe870;
+  background-color: #fbe870;
+}
+.shadow-btn.orange-btn {
+  box-shadow: 0 8px 25px -8px #ff8833;
+  background-color: #ff8833;
+}
+.shadow-btn.purple-btn {
+  box-shadow: 0 8px 25px -8px #652dc1;
+  background-color: #652dc1;
+}
+.shadow-btn.black-btn {
+  box-shadow: 0 8px 25px -8px #000;
+  background-color: #000;
+}
+.shadow-btn.white-btn {
+  box-shadow: 0 8px 25px -8px #fff;
+  background-color: #fff;
+}
 .next-arrow-btn {
   position: relative;
   transition: all 0.1s;
