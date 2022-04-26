@@ -100,6 +100,11 @@
                 "shouldHaveRoundedType": false
             },
             {
+                "type": "shadow",
+                "label": "Shadow",
+                "classes": "shadow-btn"
+            },
+            {
                 "type": "stack",
                 "label": "Stack",
                 "classes": "stack-btn"
