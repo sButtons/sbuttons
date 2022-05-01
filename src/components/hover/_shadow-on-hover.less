@@ -1,0 +1,34 @@
+.shadow-on-hover-btn {
+  transition: all 0.2s;
+  .shadow-on-hover(@color) {
+    box-shadow: 0 8px 25px -8px @color;
+  }
+
+  .blue-btn&:hover {
+    .shadow-on-hover(@blue);
+  }
+  .pink-btn&:hover {
+    .shadow-on-hover(@pink);
+  }
+  .red-btn&:hover {
+    .shadow-on-hover(@red);
+  }
+  .green-btn&:hover {
+    .shadow-on-hover(@green);
+  }
+  .yellow-btn&:hover {
+    .shadow-on-hover(@yellow);
+  }
+  .orange-btn&:hover {
+    .shadow-on-hover(@orange);
+  }
+  .purple-btn&:hover {
+    .shadow-on-hover(@purple);
+  }
+  .black-btn&:hover {
+    .shadow-on-hover(@black);
+  }
+  .white-btn&:hover {
+    .shadow-on-hover(@white);
+  }
+}
