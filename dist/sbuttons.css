@@ -221,6 +221,36 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .hover-btn.white-btn:focus {
   background-color: #ebebeb;
 }
+.shadow-on-hover-btn {
+  transition: all 0.2s;
+}
+.blue-btn.shadow-on-hover-btn:hover {
+  box-shadow: 0 8px 25px -8px #50bfe6;
+}
+.pink-btn.shadow-on-hover-btn:hover {
+  box-shadow: 0 8px 25px -8px #d53caf;
+}
+.red-btn.shadow-on-hover-btn:hover {
+  box-shadow: 0 8px 25px -8px #ed0a3f;
+}
+.green-btn.shadow-on-hover-btn:hover {
+  box-shadow: 0 8px 25px -8px #3aa655;
+}
+.yellow-btn.shadow-on-hover-btn:hover {
+  box-shadow: 0 8px 25px -8px #fbe870;
+}
+.orange-btn.shadow-on-hover-btn:hover {
+  box-shadow: 0 8px 25px -8px #ff8833;
+}
+.purple-btn.shadow-on-hover-btn:hover {
+  box-shadow: 0 8px 25px -8px #652dc1;
+}
+.black-btn.shadow-on-hover-btn:hover {
+  box-shadow: 0 8px 25px -8px #000;
+}
+.white-btn.shadow-on-hover-btn:hover {
+  box-shadow: 0 8px 25px -8px #fff;
+}
 .click-btn {
   box-shadow: 0px 5px 0px #ccc;
 }
@@ -1844,6 +1874,42 @@ a.yellow-btn:active:not(.fill-color-btn) {
     rgba(0, 0, 0, 0.15) 20px
   );
   background-size: 250% 250%;
+}
+.shadow-btn.blue-btn {
+  box-shadow: 0 8px 25px -8px #50bfe6;
+  background-color: #50bfe6;
+}
+.shadow-btn.pink-btn {
+  box-shadow: 0 8px 25px -8px #d53caf;
+  background-color: #d53caf;
+}
+.shadow-btn.red-btn {
+  box-shadow: 0 8px 25px -8px #ed0a3f;
+  background-color: #ed0a3f;
+}
+.shadow-btn.green-btn {
+  box-shadow: 0 8px 25px -8px #3aa655;
+  background-color: #3aa655;
+}
+.shadow-btn.yellow-btn {
+  box-shadow: 0 8px 25px -8px #fbe870;
+  background-color: #fbe870;
+}
+.shadow-btn.orange-btn {
+  box-shadow: 0 8px 25px -8px #ff8833;
+  background-color: #ff8833;
+}
+.shadow-btn.purple-btn {
+  box-shadow: 0 8px 25px -8px #652dc1;
+  background-color: #652dc1;
+}
+.shadow-btn.black-btn {
+  box-shadow: 0 8px 25px -8px #000;
+  background-color: #000;
+}
+.shadow-btn.white-btn {
+  box-shadow: 0 8px 25px -8px #fff;
+  background-color: #fff;
 }
 .next-arrow-btn {
   position: relative;
@@ -4804,7 +4870,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/pressstart2p/v12/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf)
+  src: url(https://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf)
     format("truetype");
 }
 .retro-btn {
@@ -4913,7 +4979,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/vt323/v15/pxiKyp0ihIEF2hsY.ttf)
+  src: url(https://fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2hsY.ttf)
     format("truetype");
 }
 .win95-btn {
@@ -5050,7 +5116,7 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/architectsdaughter/v17/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY4.ttf)
+  src: url(https://fonts.gstatic.com/s/architectsdaughter/v18/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY4.ttf)
     format("truetype");
 }
 .handwritten-btn {
@@ -5140,7 +5206,7 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/sourcecodepro/v20/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQhM4.ttf)
+  src: url(https://fonts.gstatic.com/s/sourcecodepro/v21/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQhM4.ttf)
     format("truetype");
 }
 .code-btn {

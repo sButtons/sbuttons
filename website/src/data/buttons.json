@@ -100,6 +100,11 @@
                 "shouldHaveRoundedType": false
             },
             {
+                "type": "shadow",
+                "label": "Shadow",
+                "classes": "shadow-btn"
+            },
+            {
                 "type": "stack",
                 "label": "Stack",
                 "classes": "stack-btn"
@@ -352,7 +357,11 @@
         "type": "hover",
         "label": "Hover Buttons",
         "classes": "hover-btn",
-        "children": []
+        "children": [{
+            "type": "shadow on hover",
+            "label": "Shadow On Hover",
+            "classes": "shadow-on-hover-btn"
+        }]
     },
     {
         "type": "icon",
