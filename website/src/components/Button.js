@@ -31,7 +31,7 @@ function Button ({classes, text, htmlContent}) {
 
     return (
         <div className="flex flex-col items-center justify-items-center pb-5 pr-3 md:w-4/12 w-6/12">
-            <button className={`${classes} max-w-full`}>
+            <button className={`${classes} max-w-full dark:text-white`}>
                 {htmlContent && htmlContent.length && <div dangerouslySetInnerHTML={{__html: htmlContent}}></div>}
                 {(!htmlContent || !htmlContent.length) && text}
             </button>
