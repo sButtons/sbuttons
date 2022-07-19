@@ -2467,6 +2467,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "MiceProger",
+      "name": "MiceProger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97300652?v=4",
+      "profile": "https://github.com/MiceProger",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
