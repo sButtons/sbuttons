@@ -3989,6 +3989,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .sbtn.spotlight-btn:after {
   content: "";
+  pointer-events: none;
   height: 100%;
   width: 100%;
   top: 6px;
@@ -4013,6 +4014,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 }
 .sbtn.spotlight-btn:before {
   content: "";
+  pointer-events: none;
   padding: 20px;
   position: absolute;
   height: 100%;
