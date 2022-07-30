@@ -1,26 +1,45 @@
-.smooth-shadow-btn {
-  background-color: @white;
-  color: @black;
+.shadow-3d-btn {
+  position: relative;
+  overflow: visible;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
+  transform-origin: bottom;
   transition: all 100ms;
+  box-shadow: none;
+
+  &:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    bottom: 1px;
+    left: -15px;
+    height: 20%;
+    width: 100%;
+    background-color: fade(@black, 60%);
+    filter: blur(4px);
+    transform: skewX(60deg);
+  }
+
+  &.rounded-btn::before {
+    border-radius: 50%;
+  }
+
+  &:active,
+  &:focus {
+    box-shadow: none;
+  }
 
   .variant(@color,@hoverColor) {
     border-color: @hoverColor;
-    box-shadow: 0px 5px 4px fade(@color, 20%);
-    color: @color;
 
-    &:hover {
-      color: @hoverColor;
+    &:before {
+      background-color: fade(@color, 60%);
     }
 
-    &:focus {
-      box-shadow: 0px 5px 4px fade(@color, 40%);
-    }
-
+    &:hover,
+    &:focus,
     &:active {
-      transform: translateY(3px);
-      box-shadow: 0px 2.5px 2px fade(@color, 40%);
+      border-color: lighten(@color, 40%);
     }
   }
 
