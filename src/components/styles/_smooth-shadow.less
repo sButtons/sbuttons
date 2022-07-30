@@ -59,4 +59,14 @@
   &.black-btn {
     .variant(@black, @black);
   }
+
+  [data-theme="dark"] &,
+  &.dark-mode {
+    &,
+    &:before,
+    &:after {
+      background-color: lighten(@black, 50%);
+      text-shadow: 0px 0px 4px @black;
+    }
+  }
 }
