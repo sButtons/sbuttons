@@ -121,9 +121,25 @@ Check out [_variables.less](https://github.com/sButtons/sbuttons/blob/master/src
 
 To use sButtons in your project, just add the classes of sButton you want to either `<button>` or `<a>` tags.
 
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/sbtn basic-btn blue-btn.gif" width="250" height="80"/>
+  
+</td>
+<td> 
+
 ```html
 <button class="sbtn basic-btn blue-btn">Button</button>
 ```
+
+</td>
+</tr>
+</table>
 
 You can find all classes mentioned in our [Examples](https://sbuttons.netlify.app/examples) page.
 
@@ -131,17 +147,53 @@ You can find all classes mentioned in our [Examples](https://sbuttons.netlify.ap
 
 To use sButtons with block display, add the class to either `<button>` or `<a>`.
 
+<table>
+<tr>
+<td> Preview </td><td> Source </td>
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/sbtn basic-btn blue-btn block-btn.gif" width="250" height="80"/>
+  
+</td>
+<td>
+
 ```html
 <button class="sbtn basic-btn blue-btn block-btn">Button</button>
 ```
+
+</td>
+</tr>
+</table>
+
+
 
 ## Disabled Buttons
 
 To make a `<button>` or `<a>` tag disabled, add `disabled-btn` class as shown below.
 
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/sbtn basic-btn blue-btn disabled-btn.gif" width="250" height="80"/>
+  
+</td>
+<td> 
+
 ```html
 <button class="sbtn basic-btn blue-btn disabled-btn">Button</button>
 ```
+
+</td>
+</tr>
+</table>
+
+
 
 ## Icon Buttons
 
@@ -151,13 +203,42 @@ The `base-icon-btn` class enables you to have a normal, customizable icon button
 
 The `icon-btn` class alone gives you a default button with no background color and border.
 
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/sbtn icon-btn.gif" width="250" height="80"/>
+  
+</td>
+<td> 
+
 ```html
 <button class="sbtn icon-btn"><i class="fas fa-book"></i></button>
 ```
+</td>
+</tr>
+</table>
+
+
 
 ## Icon Positioned to The Left
 
 Adding the icon-left class to a button makes the icon positioned to the left.
+
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/sbtn base-icon-btn icon-left orange-btn.gif" width="250" height="80"/>
+  
+</td>
+<td> 
 
 ```html
 <button class="sbtn base-icon-btn icon-left orange-btn">
@@ -165,16 +246,38 @@ Adding the icon-left class to a button makes the icon positioned to the left.
 </button>
 ```
 
+</td>
+</tr>
+</table>
+
+
+
 ## Icon Positioned to The Right
 
 Adding the `icon-right` class to a button makes the icon
 positioned to the right.
+
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/sbtn base-icon-btn icon-right orange-btn.gif" width="250" height="80"/>
+  
+</td>
+<td> 
 
 ```html
 <button class="sbtn base-icon-btn icon-right orange-btn">
   Read<i class="fas fa-book"></i>
 </button>
 ```
+</td>
+</tr>
+</table>
+
 
 ## Toggle Button
 
@@ -185,32 +288,98 @@ The `toggle-btn` class, along with the `toggle-off-btn` / `toggle-on-btn` state 
 Adding the `toggle-btn` class to your checkbox inputs converts them to toggle buttons.
 For example:
 
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/sbtn toggle-btn checkbox.gif" width="250" height="80"/>
+  
+</td>
+<td> 
+
 ```html
 <input type="checkbox" class="sbtn toggle-btn" />
 ```
+
+</td>
+</tr>
+</table>
 
 ## Toggle Button as Radio Buttons
 
 Adding the `toggle-btn` class to your radio inputs converts them to toggle buttons.
 
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/sbtn toggle-btn radio.gif" width="250" height="80"/>
+  
+</td>
+<td> 
+
 ```html
 <input type="radio" class="sbtn toggle-btn" />
 ```
 
+</td>
+</tr>
+</table>
+
 ## Rounded buttons 
 To add the rounded buttons with a particular radius, you can use various classes like `rounded-x-btn` where x is the radius in pixels which you want. Here x ranges from `5`(border-radius = 5px) to `fully rounded`(border-radius = 50%).
+
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/rounded-5-btn sbtn blue-btn.gif" width="250" height="80"/>
+  
+</td>
+<td> 
 
 ```html
 <button class="rounded-5-btn sbtn blue-btn">Rounded button </button>
 ```
 
+</td>
+</tr>
+</table>
+
 ## Animated Buttons
 
 To use Animated sButtons in your project, add the classes of the animated sButton you want to either `<button>` or `<a>` tags.
 
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/animated sbtn atom-btn blue-btn.gif" width="250" height="80"/>
+  
+</td>
+<td> 
+
 ```html
 <button class="animated sbtn atom-btn blue-btn">Animated Button</button>
 ```
+
+</td>
+</tr>
+</table>
+
+
 Note: Depending on your button, the animation should either run infinitely or just once. 
 
 ## Dark Mode
@@ -219,9 +388,26 @@ sButtons is compatible with dark mode. It either works by adding dark-mode class
 
 ## Using dark-mode Class
 
+<table>
+<tr>
+<td> Preview </td><td> Source </td> 
+</tr>
+<tr>
+<td>
+  
+  <img src="./screen_shots/sbtn dashed-btn black-btn dark-mode.gif" width="250" height="80"/>
+  
+</td>
+<td> 
+
 ```html
 <button class="sbtn dashed-btn black-btn dark-mode">Dark-Mode</button>
+               
 ```
+
+</td>
+</tr>
+</table>
 
 ## Using data-theme attribute
 
