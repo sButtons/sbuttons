@@ -105,6 +105,11 @@
                 "classes": "shadow-btn"
             },
             {
+                "type": "smooth-shadow",
+                "label": "Smooth Shadow",
+                "classes": "smooth-shadow-btn"
+            },
+            {
                 "type": "stack",
                 "label": "Stack",
                 "classes": "stack-btn"

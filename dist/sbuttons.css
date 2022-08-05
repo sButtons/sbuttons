@@ -1911,6 +1911,157 @@ a.yellow-btn:active:not(.fill-color-btn) {
   box-shadow: 0 8px 25px -8px #fff;
   background-color: #fff;
 }
+.smooth-shadow-btn {
+  background-color: #fff;
+  color: #000;
+  border-style: solid;
+  border-width: 1px;
+  transition: all 100ms;
+}
+.smooth-shadow-btn.blue-btn {
+  border-color: #50bfe6;
+  box-shadow: 0px 5px 4px rgba(31, 165, 214, 0.2);
+  color: #1fa5d6;
+}
+.smooth-shadow-btn.blue-btn:hover {
+  color: #50bfe6;
+}
+.smooth-shadow-btn.blue-btn:focus {
+  box-shadow: 0px 5px 4px rgba(31, 165, 214, 0.4);
+}
+.smooth-shadow-btn.blue-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 2px rgba(31, 165, 214, 0.4);
+}
+.smooth-shadow-btn.pink-btn {
+  border-color: #d53caf;
+  box-shadow: 0px 5px 4px rgba(193, 12, 148, 0.2);
+  color: #c10c94;
+}
+.smooth-shadow-btn.pink-btn:hover {
+  color: #d53caf;
+}
+.smooth-shadow-btn.pink-btn:focus {
+  box-shadow: 0px 5px 4px rgba(193, 12, 148, 0.4);
+}
+.smooth-shadow-btn.pink-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 2px rgba(193, 12, 148, 0.4);
+}
+.smooth-shadow-btn.green-btn {
+  border-color: #3aa655;
+  box-shadow: 0px 5px 4px rgba(50, 143, 74, 0.2);
+  color: #328f4a;
+}
+.smooth-shadow-btn.green-btn:hover {
+  color: #3aa655;
+}
+.smooth-shadow-btn.green-btn:focus {
+  box-shadow: 0px 5px 4px rgba(50, 143, 74, 0.4);
+}
+.smooth-shadow-btn.green-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 2px rgba(50, 143, 74, 0.4);
+}
+.smooth-shadow-btn.yellow-btn {
+  border-color: #fbe870;
+  box-shadow: 0px 5px 4px rgba(247, 218, 34, 0.2);
+  color: #f7da22;
+}
+.smooth-shadow-btn.yellow-btn:hover {
+  color: #fbe870;
+}
+.smooth-shadow-btn.yellow-btn:focus {
+  box-shadow: 0px 5px 4px rgba(247, 218, 34, 0.4);
+}
+.smooth-shadow-btn.yellow-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 2px rgba(247, 218, 34, 0.4);
+}
+.smooth-shadow-btn.orange-btn {
+  border-color: #ff8833;
+  box-shadow: 0px 5px 4px rgba(240, 100, 0, 0.2);
+  color: #f06400;
+}
+.smooth-shadow-btn.orange-btn:hover {
+  color: #ff8833;
+}
+.smooth-shadow-btn.orange-btn:focus {
+  box-shadow: 0px 5px 4px rgba(240, 100, 0, 0.4);
+}
+.smooth-shadow-btn.orange-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 2px rgba(240, 100, 0, 0.4);
+}
+.smooth-shadow-btn.red-btn {
+  border-color: #ed0a3f;
+  box-shadow: 0px 5px 4px rgba(207, 8, 55, 0.2);
+  color: #cf0837;
+}
+.smooth-shadow-btn.red-btn:hover {
+  color: #ed0a3f;
+}
+.smooth-shadow-btn.red-btn:focus {
+  box-shadow: 0px 5px 4px rgba(207, 8, 55, 0.4);
+}
+.smooth-shadow-btn.red-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 2px rgba(207, 8, 55, 0.4);
+}
+.smooth-shadow-btn.purple-btn {
+  border-color: #652dc1;
+  box-shadow: 0px 5px 4px rgba(76, 34, 145, 0.2);
+  color: #4c2291;
+}
+.smooth-shadow-btn.purple-btn:hover {
+  color: #652dc1;
+}
+.smooth-shadow-btn.purple-btn:focus {
+  box-shadow: 0px 5px 4px rgba(76, 34, 145, 0.4);
+}
+.smooth-shadow-btn.purple-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 2px rgba(76, 34, 145, 0.4);
+}
+.smooth-shadow-btn.white-btn {
+  border-color: #000;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+.smooth-shadow-btn.white-btn:hover {
+  color: #000;
+}
+.smooth-shadow-btn.white-btn:focus {
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.4);
+}
+.smooth-shadow-btn.white-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 2px rgba(0, 0, 0, 0.4);
+}
+.smooth-shadow-btn.black-btn {
+  border-color: #000;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+.smooth-shadow-btn.black-btn:hover {
+  color: #000;
+}
+.smooth-shadow-btn.black-btn:focus {
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.4);
+}
+.smooth-shadow-btn.black-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2.5px 2px rgba(0, 0, 0, 0.4);
+}
+[data-theme="dark"] .smooth-shadow-btn,
+.smooth-shadow-btn.dark-mode,
+[data-theme="dark"] .smooth-shadow-btn:before,
+.smooth-shadow-btn.dark-mode:before,
+[data-theme="dark"] .smooth-shadow-btn:after,
+.smooth-shadow-btn.dark-mode:after {
+  background-color: #808080;
+  text-shadow: 0px 0px 4px #000;
+}
 .next-arrow-btn {
   position: relative;
   transition: all 0.1s;

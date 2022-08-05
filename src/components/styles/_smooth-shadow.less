@@ -1,0 +1,72 @@
+.smooth-shadow-btn {
+  background-color: @white;
+  color: @black;
+  border-style: solid;
+  border-width: 1px;
+  transition: all 100ms;
+
+  .variant(@color,@hoverColor) {
+    border-color: @hoverColor;
+    box-shadow: 0px 5px 4px fade(@color, 20%);
+    color: @color;
+
+    &:hover {
+      color: @hoverColor;
+    }
+
+    &:focus {
+      box-shadow: 0px 5px 4px fade(@color, 40%);
+    }
+
+    &:active {
+      transform: translateY(3px);
+      box-shadow: 0px 2.5px 2px fade(@color, 40%);
+    }
+  }
+
+  &.blue-btn {
+    .variant(@darkBlue, @blue);
+  }
+
+  &.pink-btn {
+    .variant(@darkPink, @pink);
+  }
+
+  &.green-btn {
+    .variant(@darkGreen, @green);
+  }
+
+  &.yellow-btn {
+    .variant(@darkYellow, @yellow);
+  }
+
+  &.orange-btn {
+    .variant(@darkOrange, @orange);
+  }
+
+  &.red-btn {
+    .variant(@darkRed, @red);
+  }
+
+  &.purple-btn {
+    .variant(@darkPurple, @purple);
+  }
+
+  &.white-btn {
+    .variant(@black, @black);
+  }
+
+  &.black-btn {
+    .variant(@black, @black);
+  }
+
+  [data-theme="dark"] &,
+  &.dark-mode {
+    &,
+    &:before,
+    &:after {
+      background-color: lighten(@black, 50%);
+      text-shadow: 0px 0px 4px @black;
+    }
+  }
+}
