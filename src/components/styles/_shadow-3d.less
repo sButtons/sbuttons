@@ -1,0 +1,91 @@
+.shadow-3d-btn {
+  position: relative;
+  overflow: visible;
+  border-style: solid;
+  border-width: 2px;
+  transform-origin: bottom;
+  transition: all 100ms;
+  box-shadow: none;
+
+  &:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    bottom: 1px;
+    left: -15px;
+    height: 20%;
+    width: 100%;
+    background-color: fade(@black, 60%);
+    filter: blur(4px);
+    transform: skewX(60deg);
+  }
+
+  &.rounded-btn::before {
+    border-radius: 50%;
+  }
+
+  &:active,
+  &:focus {
+    box-shadow: none;
+  }
+
+  .variant(@color,@hoverColor) {
+    border-color: @hoverColor;
+
+    &:before {
+      background-color: fade(@color, 60%);
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: lighten(@color, 40%);
+    }
+  }
+
+  &.blue-btn {
+    .variant(@darkBlue, @blue);
+  }
+
+  &.pink-btn {
+    .variant(@darkPink, @pink);
+  }
+
+  &.green-btn {
+    .variant(@darkGreen, @green);
+  }
+
+  &.yellow-btn {
+    .variant(@darkYellow, @yellow);
+  }
+
+  &.orange-btn {
+    .variant(@darkOrange, @orange);
+  }
+
+  &.red-btn {
+    .variant(@darkRed, @red);
+  }
+
+  &.purple-btn {
+    .variant(@darkPurple, @purple);
+  }
+
+  &.white-btn {
+    .variant(@black, @black);
+  }
+
+  &.black-btn {
+    .variant(@black, @black);
+  }
+
+  [data-theme="dark"] &,
+  &.dark-mode {
+    &,
+    &:before,
+    &:after {
+      background-color: lighten(@black, 50%);
+      text-shadow: 0px 0px 4px @black;
+    }
+  }
+}
