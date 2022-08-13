@@ -4313,6 +4313,9 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transform: translateX(-50%);
   border-width: 1px;
 }
+[data-theme="dark"] .sbtn.spotlight-btn, .sbtn.spotlight-btn:hover, .sbtn.spotlight-btn.dark-mode{
+  color: #fff !important;
+}
 @keyframes spotappear {
   0% {
     top: 100px;
