@@ -1,3 +1,5 @@
+> :warning: This repository is now archived as I'm unable to maintain it moving forward. Thank you for everyone that contributed to this project!
+
 ![sButtons](./website/public/images/logo-colored.png)
 
 Logo made by [Harshit Sharma](https://www.github.com/icoderharshit)
